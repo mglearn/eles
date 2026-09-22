@@ -120,7 +120,8 @@ if (fs.existsSync(stdPath) && !process.argv.slice(2).length) {
   const std = JSON.parse(fs.readFileSync(stdPath, 'utf8'));
   const ids = files.map(f => path.basename(f, '.json'));
   const errs = [];
-  ids.forEach(id => { if (!std[id]) errs.push(`${id}: missing from standards.json`); });
+  const drafts = ids.filter(id => !std[id]);
+  if (drafts.length) console.log(`  ! drafts (not published until mapped in standards.json): ${drafts.join(', ')}`);
   for (const [id, m] of Object.entries(std)) {
     if (!ids.includes(id)) errs.push(`${id}: no such activity`);
     for (const g of ['teks', 'elps', 'udl', 'sst']) (m[g] || []).forEach(c => { if (!(c in cat[g])) errs.push(`${id}: unknown ${g} code ${c}`); });

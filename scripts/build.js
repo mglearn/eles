@@ -20,8 +20,14 @@ const ROOT = path.join(__dirname, '..');
 const I18N = path.join(ROOT, 'data/i18n');
 const ELES_EN = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/eles.json'), 'utf8'));
 const ACT_DIR = path.join(ROOT, 'data/activities');
-const ACTS_EN = fs.readdirSync(ACT_DIR).filter(f => f.endsWith('.json'))
+// An activity is published once it has an entry in data/standards.json (added at
+// final review). Anything else in data/activities/ is a draft and is not built.
+const STD_FILE = path.join(ROOT, 'data/standards.json');
+const PUBLISHED = fs.existsSync(STD_FILE) ? new Set(Object.keys(JSON.parse(fs.readFileSync(STD_FILE, 'utf8')))) : null;
+const ALL_ACTS = fs.readdirSync(ACT_DIR).filter(f => f.endsWith('.json'))
   .map(f => JSON.parse(fs.readFileSync(path.join(ACT_DIR, f), 'utf8')));
+const ACTS_EN = ALL_ACTS.filter(a => !PUBLISHED || PUBLISHED.has(a.id));
+const DRAFTS = ALL_ACTS.filter(a => PUBLISHED && !PUBLISHED.has(a.id)).map(a => a.id);
 const UI_EN = JSON.parse(fs.readFileSync(path.join(I18N, 'en/ui.json'), 'utf8'));
 
 // Every language offered in the picker (Contraband's set). Only those with a
@@ -668,6 +674,7 @@ for (const L of LANGS) {
 // 404 (English; GitHub Pages serves one for the whole site)
 const UI = UI_EN;
 write('404.html', `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(UI['404.title'])} | ${esc(UI['site.titleSuffix'])}</title>${FONTS}<link rel="stylesheet" href="/eles/assets/site.css"></head><body><header class="topbar"><a class="brand" href="/eles/"><span class="brand-mark" aria-hidden="true">ELE</span><span>${esc(UI['site.name'])}</span></a></header><main id="main" class="guide"><h1>${esc(UI['404.h1'])}</h1><p class="lede">${fill(esc(UI['404.p']), { link: `<a href="/eles/">${esc(UI['404.link'])}</a>` })}</p></main></body></html>`);
+if (DRAFTS.length) console.log(`Drafts not published (no standards.json entry yet): ${DRAFTS.join(', ')}`);
 console.log(`Built ${summary.acts.length} activities (${summary.acts.filter(a => a.audience === 'pl').length} PL, ${summary.acts.filter(a => a.audience === 'student').length} student) in ${LANGS.map(l => l.code).join(', ')}. ELE coverage: ${Object.keys(summary.cover).length}/75 indicators.`);
 const missing = Object.keys(summary.IND).filter(id => !summary.cover[id]);
 if (missing.length) console.log('Uncovered:', missing.join(' '));

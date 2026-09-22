@@ -1,0 +1,160 @@
+{
+  "id": "digital-notebook-detectives",
+  "title": "Digital Notebook Detectives",
+  "tagline": "Students rescue a classmate's messy pretend drive, invent a naming and folder system, use version history to recover lost work, and catch what an AI summary of their notes left out.",
+  "audience": "student",
+  "grades": ["3-5"],
+  "strands": ["digcit", "genai"],
+  "mode": "hybrid",
+  "minutes": 45,
+  "groupSize": "Teams of 3–4; any number of teams",
+  "eles": ["S1.1", "S4.1", "S1.2", "AI4.1"],
+  "overview": "Students now keep a lot of their schoolwork in digital notebooks and drives, and \"I can't find it\" costs real learning time. In this hybrid lesson, teams open a paper \"drive\" belonging to a fictional student, Theo, full of files named *Untitled document (2)* and *asdfgh*. They race to find one assignment, then build folders and a naming rule, use a printed version history to recover a paragraph a teammate deleted, and compare Theo's field trip notes to an AI summary that sounds complete but drops the most important details. Students leave owning a filing plan they can use tomorrow on a real device.",
+  "objectives": [
+    "Students will sort a set of files into subject folders and rename each one with a clear naming rule (Subject – Topic – Date).",
+    "Students will explain how version history helps them recover earlier work and see who changed a shared file.",
+    "Students will compare an AI summary to the original notes and name at least two important details the summary left out or got wrong.",
+    "Students will write a personal filing plan and one rule for when to trust, and when to check, an AI summary."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Theo's Messy Drive (1 set of 13 file cards per team, cut apart, in an envelope)",
+      "Handout B: Owl Report Version History and the Field Trip Notes (1 per team)",
+      "Handout C: My Filing Plan (1 per student)",
+      "4 paper file folders or large envelopes per team, plus sticky notes for new file names",
+      "A timer"
+    ],
+    "digital": [
+      "Student devices with the notebook or drive app your school already uses, signed in with school-managed accounts (no personal accounts)",
+      "A practice folder you create and share, containing 6–8 badly named files copied from Handout A",
+      "Optional: a generative AI tool your district approves, on the teacher's device, projected for the class"
+    ]
+  },
+  "prep": [
+    "Print Handout A and cut apart one set of 13 file cards per team. Shuffle each set into an envelope labeled \"Theo's Drive.\"",
+    "Give each team 4 empty folders or envelopes and sticky notes. Do not label the folders; teams decide the labels.",
+    "Print Handout B (one per team) and Handout C (one per student).",
+    "For the digital path, create a practice folder in your school's drive or notebook app with 6–8 files named like Handout A (Untitled document, asdfgh, FINAL final REAL), and share it with students as editors of their own copy.",
+    "If you plan the AI demo, run the Handout B field trip notes through your district-approved AI tool once ahead of time so you know what kind of summary it gives."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Find it fast!",
+      "body": "Hand each team Theo's Drive envelope. Say: **\"Theo's teacher needs his bean plant journal right now. You have 60 seconds. Go!\"** Teams dump out the cards and hunt. Stop the timer. Ask: \"Who found it? How did you know which one it was? What slowed you down?\" List the slowdowns on the board (no names that make sense, copies of copies, everything in one pile).",
+      "note": "Most teams have to open (read the preview on) nearly every card. That frustration is the point: the file names gave no clues."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Build Theo's folders",
+      "body": "Teams decide on four folder labels (most will choose subjects: Math, Science, Reading & Writing, Social Studies) and write them on their folders. Then they read each card's preview, decide which folder it belongs in, and write a better name on a sticky note placed over the old name. Challenge: **\"A new name should tell you what is inside without opening it.\"** Watch for Card 8 (a duplicate) and Card 13 (a list with classmates' phone numbers), and ask teams what they think should happen to those.",
+      "note": "Card 13 is the digital citizenship moment: other people's phone numbers should not sit in a shared class folder. The right move is to tell the teacher and keep it private, not to rename it."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "One naming rule for everyone",
+      "body": "Gather the class. Collect a few new names and compare them. Introduce the class rule: **Subject – Topic – Date**, for example *Science – Bean Plant Journal – Oct 3*. Ask: \"Why put the subject first?\" (All the science files line up together.) \"Why the date?\" (You can tell the newest one.) Then name the second problem on the board: *FINAL final REAL* and *Copy of Copy of poster*. Explain: \"Instead of making copies, most notebook and drive apps keep a **version history**, a saved list of every change, who made it, and when. You can go back to an older version without making copies.\"",
+      "note": "Stay tool-agnostic. Say \"look for Version history or File history in the menu\" rather than naming a brand."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 8,
+      "title": "Version history detectives",
+      "body": "Teams read Part 1 of Handout B, the version history of Theo's shared Owl Report. On Handout C, they answer: Which version still had the owl pellets paragraph? Who deleted it, and when? What should Theo do? Guide teams to the answer: restore the Tuesday 2:15 version (or copy the paragraph back from it) and talk kindly with his teammate. Ask: **\"Was the teammate being mean, or could it have been a mistake? How does version history help you solve it fairly?\"**",
+      "note": "Version history also shows who did the work in a group project. Some students find that reassuring; others find it surprising. Both are good discussion."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 9,
+      "title": "Did the AI summary leave something out?",
+      "body": "Teams read Part 2 of Handout B: Theo's field trip notes, then an AI summary of those notes. Say: **\"Theo asked an AI tool to shorten his notes. The summary is short and sounds good. Your job: check it against the notes.\"** Teams underline, in the notes, every detail missing from the summary and circle anything in the summary that is not in the notes. Then they rank: which missing detail would cause the biggest problem if Theo only read the summary?",
+      "note": "Key catches: the permission slip due Friday, bringing a water bottle, the change to a 7:45 bus time, and the allergy reminder are all missing, and the summary adds \"bring lunch money,\" which the notes never said. The summary is not evil; it just picked what sounded important and guessed."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 6,
+      "title": "My filing plan",
+      "body": "Students complete the rest of Handout C: their own four folders, their naming rule, what they will do instead of making copies, and one rule for AI summaries (for example, \"I check a summary against my notes before I throw the notes away\"). Two or three students share their AI rule. Close with: **\"Organized files are not about being neat. They are about finding your learning when you need it.\"**",
+      "note": "Look for AI rules that name a specific action (check, compare, keep the original), not just \"AI can be wrong.\""
+    }
+  ],
+  "unplugged": "Everything runs with the paper file cards, real folders or envelopes, sticky notes for new names, and the printed version history and notes. Version history can be acted out: four students each hold one version of the Owl Report and line up in time order; the class \"scrolls back\" down the line to find the version with the missing paragraph.",
+  "digital": "After the paper round, students open their copy of the practice folder in the drive or notebook app your school already uses, with school-managed accounts. They create subject folders, rename each file with the class rule, and open one file's version history to find an earlier version you created ahead of time. For the AI step, the teacher pastes the Handout B field trip notes into a district-approved AI tool on the projector, asks for a short summary, and the class checks the new summary against the notes, just as they did with Theo's. Students do not use their own AI accounts.",
+  "whyTech": "The paper round makes the thinking visible: every sorting and naming choice is out on the table. The digital round adds evidence paper cannot, because students show they can rename, file, and restore an earlier version in the real app they will use tomorrow, and they watch a live AI summary leave things out.",
+  "adaptations": [
+    { "label": "Grade 3", "text": "Use 8 of the file cards (1, 2, 4, 6, 9, 10, 11, 13) and give teams the four folder labels. Provide a sentence frame for new names: \"___ (subject) – ___ (what it is).\"" },
+    { "label": "Grade 5 extension", "text": "Teams design a folder system for a group project with three people, including who can edit and who can only view, and explain why." },
+    { "label": "Emergent bilinguals", "text": "Add subject icons (a beaker, a book, a globe, a plus sign) to each folder, and allow new file names in English plus the home language." },
+    { "label": "Students with reading or attention needs", "text": "Pre-highlight the key words in each card preview and chunk Handout B so Part 1 and Part 2 are on separate pages." }
+  ],
+  "lookFors": [
+    "New file names tell what is inside without opening it and follow Subject – Topic – Date.",
+    "Teams flag Card 13 as private information that should not be in a shared folder, instead of just renaming it.",
+    "Students correctly identify the version that still had the missing paragraph and explain how they found it.",
+    "Students name at least two important details the AI summary left out (permission slip due Friday, the 7:45 bus time, water bottle, allergy reminder) and the one it added (lunch money)."
+  ],
+  "reflection": [
+    "How does a good naming and folder system help me take responsibility for my own learning? (Student ELE 4.0)",
+    "When is an AI summary helpful, and what should I check before I trust it?",
+    "What would I do differently the next time a shared file changes and I didn't expect it?"
+  ],
+  "transfer": "Tomorrow, students rename and file three pieces of their own schoolwork using their plan, and the teacher checks one folder at a glance. At home, students can show a family member their naming rule and help organize one family folder of photos or papers the same way.",
+  "connections": [
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "Follow up on privacy and personal information in shared spaces." },
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "More practice checking what AI tools get wrong." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Theo's Messy Drive",
+      "type": "cards",
+      "instructions": "Each card is one file in Theo's drive. The big name is the file name. The small text is what you see when you open it. Sort the files into folders and give each one a better name.",
+      "cards": [
+        { "label": "Card 1", "front": "Untitled document. Opens to: \"My bean plant grew 3 cm by Thursday. It leans toward the window. Next I will measure on Monday.\"", "back": "Science folder. New name: Science – Bean Plant Journal – Oct 3. This is the one the teacher asked for!" },
+        { "label": "Card 2", "front": "asdfgh. Opens to: \"Chapter 4 questions. 1. Why did Rosa hide the map? 2. How did her brother feel?\"", "back": "Reading & Writing folder. New name: Reading – Chapter 4 Questions – Oct 2." },
+        { "label": "Card 3", "front": "FINAL final REAL. Opens to: \"Texas Regions Poster. The Coastal Plains have wetlands and big cities. The Mountains and Basins region is dry...\"", "back": "Social Studies folder. New name: Social Studies – Texas Regions Poster – Oct 6. Version history means you never need \"final final\" again." },
+        { "label": "Card 4", "front": "Untitled document (2). Opens to: \"Fact practice: 7 x 8 = 56, 6 x 9 = 54, 8 x 8 = 64...\"", "back": "Math folder. New name: Math – Multiplication Facts – Sept 29." },
+        { "label": "Card 5", "front": "IMG_0412. Opens to: a photo of the whiteboard showing how to add fractions with the same bottom number.", "back": "Math folder. New name: Math – Fractions Board Notes – Oct 1. Photos need good names too." },
+        { "label": "Card 6", "front": "project. Opens to: \"Owl Report. Owls can turn their heads very far. Owls hunt at night. Owls cough up pellets...\"", "back": "Science folder. New name: Science – Owl Report – Oct 7. This is the shared file in Handout B." },
+        { "label": "Card 7", "front": "my stuff. Opens to: \"Books I want to read: The Lantern Fox, Ms. Pickle's Garden, Rocket Twins 3.\"", "back": "Reading & Writing folder. New name: Reading – Want-to-Read List." },
+        { "label": "Card 8", "front": "Copy of Copy of poster. Opens to: \"Texas Regions Poster. The Coastal Plains have wetlands...\" (an older, shorter version of Card 3)", "back": "A duplicate. Keep the newest one (Card 3) and use version history instead of copies. Ask your teacher before deleting." },
+        { "label": "Card 9", "front": "hi. Opens to: \"Field trip to Pecan Bend Nature Center notes\" (see Handout B, Part 2).", "back": "Science folder. New name: Science – Field Trip Notes – Oct 8." },
+        { "label": "Card 10", "front": "Doc1. Opens to: \"Spelling words week 6: bright, flight, sight, knight, frighten.\"", "back": "Reading & Writing folder. New name: Spelling – Week 6 Words." },
+        { "label": "Card 11", "front": "new new. Opens to: \"Fraction word problems homework. Due Friday. Show your work!\"", "back": "Math folder. New name: Math – Fraction Homework – Due Oct 10. Putting the due date in the name helps." },
+        { "label": "Card 12", "front": "Screenshot 1. Opens to: a map showing the Spanish missions activity from class, with Theo's labels.", "back": "Social Studies folder. New name: Social Studies – Missions Map – Oct 3." },
+        { "label": "Card 13", "front": "party list. Opens to: \"Class party sign-up: Ana, 555-0142; Jordan, 555-0187; Mei, 555-0163...\"", "back": "Stop! Classmates' phone numbers are private information. This should not be in a shared class folder. Tell the teacher; don't rename it or share it." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Owl Report Version History and the Field Trip Notes",
+      "type": "reading",
+      "instructions": "Part 1: Read the version history and find the missing paragraph. Part 2: Read Theo's notes, then the AI summary. Underline what the summary left out. Circle what it added.",
+      "paragraphs": [
+        "PART 1: VERSION HISTORY of \"Science – Owl Report\" (shared by Theo with Kai and Lina). Each line is a saved version: when it was saved, who changed it, and what changed.",
+        "Monday 9:05 AM, Theo: Wrote the first paragraph: \"Owls can turn their heads very far, but not all the way around.\" Tuesday 10:30 AM, Lina: Added a paragraph about how owls hear well enough to hunt in the dark. Tuesday 2:15 PM, Theo: Added a paragraph: \"Owls swallow small animals whole and later cough up pellets. Scientists open pellets to learn what owls eat.\" Wednesday 8:50 AM, Kai: Deleted the pellets paragraph and added a picture of an owl. Wednesday 1:00 PM, Theo: \"Wait, where did my pellets paragraph go?\"",
+        "PART 2: THEO'S FIELD TRIP NOTES (written in class). Field trip to Pecan Bend Nature Center next Tuesday. Permission slip must be signed and returned by FRIDAY or you can't go. The bus leaves at 7:45, not 8:15 like last time. Wear closed-toe shoes because we will walk on trails. Bring a water bottle with your name on it. Lunch is packed from home; no food will be for sale. Ms. Alvarez said to remind her about any food or bee allergies before Friday. We will see the bird blind, the pond, and the owl exhibit. Bring a pencil for the scavenger hunt sheet.",
+        "PART 2: AI SUMMARY. Theo asked an AI tool: \"Make my notes shorter.\" The tool answered: \"Field Trip Summary: Next Tuesday your class visits Pecan Bend Nature Center. You will see the bird blind, the pond, and the owl exhibit. Wear comfortable shoes and bring a pencil and some lunch money. It will be a fun day of learning outdoors!\"",
+        "THINK ABOUT IT: The summary is short, friendly, and sounds complete. If Theo threw away his notes and kept only the summary, what might go wrong next Tuesday morning?"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Filing Plan",
+      "type": "worksheet",
+      "instructions": "Answer the detective questions first. Then make a plan you can use on your own device tomorrow.",
+      "sections": [
+        { "prompt": "Version detectives: Which version of the Owl Report still had the pellets paragraph? Who deleted it, and when? What should Theo do?", "lines": 3 },
+        { "prompt": "AI summary check: List two important details the summary LEFT OUT and one thing it ADDED that was not in the notes.", "lines": 4 },
+        { "prompt": "My four folders will be called:", "lines": 2 },
+        { "prompt": "My naming rule is ___ – ___ – ___. Rename one real file of yours using it:", "lines": 2 },
+        { "prompt": "Instead of making \"Copy of Copy\" files, I will:", "lines": 2 },
+        { "prompt": "Something that should NEVER go in a shared folder is:", "lines": 2 },
+        { "prompt": "My rule for AI summaries is:", "lines": 2 }
+      ]
+    }
+  ]
+}

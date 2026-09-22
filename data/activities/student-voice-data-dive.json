@@ -1,0 +1,156 @@
+{
+  "id": "student-voice-data-dive",
+  "title": "Student Voice Data Dive",
+  "tagline": "Coaches and teachers design a short, privacy-safe student survey on devices, AI, and wellbeing, then read returned results with Notice-Wonder-Next and act on what students said.",
+  "audience": "pl",
+  "roles": ["coaches", "teachers", "leaders"],
+  "grades": ["3-5", "6-8", "9-12"],
+  "strands": ["digcit", "genai"],
+  "mode": "hybrid",
+  "minutes": 60,
+  "groupSize": "Grade-level or department teams of 3–5, led by a coach; any number of teams",
+  "eles": ["C3.1", "C3.2", "C5.2", "T4.3", "AI4.1"],
+  "overview": "Campuses make decisions about screens, AI, and phone rules every week, usually without asking the students who live with them. This session treats student voice as instructional data. Teams design a five-question anonymous survey and a short interview on when technology helps or hinders learning and wellbeing, check it against a privacy checklist, and then read a fictional set of returned results from a seventh-grade team using Notice-Wonder-Next. The protocol keeps the team describing before interpreting and reframing problems as design choices the team controls, and it ends with one change and a plan to tell students what their answers changed.",
+  "objectives": [
+    "Participants will write an anonymous student survey of five questions or fewer, plus two interview prompts, that asks about learning and wellbeing without inviting sensitive personal disclosures.",
+    "Participants will check the survey against a privacy-safe checklist and revise at least one question.",
+    "Participants will use Notice-Wonder-Next to separate observations from interpretations in student survey and interview data.",
+    "Participants will choose one instructional change the data supports and plan how to close the loop with students."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Privacy-Safe Student Voice Checklist (1 per team)",
+      "Handout B: Returned Results, Mesquite Ridge Grade 7 (1 per person)",
+      "Handout C: Notice-Wonder-Next Organizer (1 per team)",
+      "Index cards for drafting survey questions; highlighters in two colors"
+    ],
+    "digital": [
+      "Optional: a form tool your district approves, set to not collect names or email addresses",
+      "Optional: a spreadsheet or the form's summary view to chart results by class section"
+    ]
+  },
+  "prep": [
+    "Read Handout B and complete Handout C yourself so you know which Notices are observations and which are interpretations in disguise.",
+    "Find out your campus's rules for surveying students: whether parent notice is needed, which questions require approval, and what staff must do if a response raises a safety concern. Have that answer ready.",
+    "If teams will build a live form, set the form tool so it does not record names, emails, or sign-ins, and test it once."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Predict before you look",
+      "body": "Read Question 3 from Handout B aloud without the results: **\"When I use AI for schoolwork, I check what it says.\"** Each person writes a prediction of how seventh graders answered on a sticky note. Then reveal the results. Ask: \"Where were you close? Where were you surprised? What else might we be guessing about our own students?\"",
+      "note": "Many people predict either \"they all use it and never check\" or \"they don't use it.\" The mixed real picture is the case for asking."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Design a five-question survey",
+      "body": "Teams draft on index cards: **five questions or fewer** and **two interview prompts** for a small group of students. Give them a focus: \"When does technology, including AI, help you learn in our class, and when does it get in the way of your learning or wellbeing?\" Require at least one question about checking AI output, one about distraction or balance, and one open question. Each card should say what the team will *do* differently depending on the answer; a question with no possible action gets cut.",
+      "note": "Steer away from questions that invite disclosures a survey can't respond to, such as sleep problems, family situations, or mental health. Ask about school experiences the team can change: \"When is the laptop in the way during class?\" rather than \"How much do you use screens at home?\""
+    },
+    {
+      "phase": "Practice",
+      "minutes": 8,
+      "title": "Privacy swap",
+      "body": "Teams trade cards with another team and review them with Handout A. Reviewers mark every item Yes, Partly, or No and write one suggested rewrite. Teams get their cards back and revise at least one question. Ask: **\"Could any answer identify a student? Could any question put a student in an awkward spot?\"**",
+      "note": "Common catches: a \"what class period are you in?\" question on a small team can identify students; an open question on phones at home can invite family details; a required open question pressures students who would rather not say."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 20,
+      "title": "Read the returned results with Notice-Wonder-Next",
+      "body": "Say: \"The Mesquite Ridge seventh-grade team ran a survey like yours. Here's what came back.\" Teams read Handout B and fill in Handout C. **Notice** (8 min): only statements someone else could verify on the page, highlighted in one color. **Wonder** (5 min): questions the data raises, in the other color. **Next** (7 min): one change the team controls, written as a design shift, not a student fix. A coach or team member facilitates and enforces the order: no Wonders during Notice, no fixes during Wonder.",
+      "note": "Listen for Notices that are really interpretations (\"students are addicted to their laptops\"). Ask: \"Where on the page does it say that?\" Also listen for student-deficit framing (\"they're lazy about checking AI\") and reframe it: \"What in our design makes checking hard or optional?\" Strong teams notice that 41 of 71 students chose talking with a partner, that 33 were unsure of the class AI rule, and that one student has no home internet."
+    },
+    {
+      "phase": "Create",
+      "minutes": 10,
+      "title": "One change and a \"you said, we did\"",
+      "body": "Each team commits to one change supported by the data and writes three sentences on the back of Handout C: **what students said**, **what we will change**, and **how we will tell them**. For example: \"Many of you weren't sure of our AI rule. We've posted it and we'll practice checking an AI answer together on Tuesday.\" Then they name the evidence that will show the change worked, such as a two-question follow-up survey or the next set of student work.",
+      "note": "Closing the loop is what makes the next survey worth answering. Students who see nothing change learn that their voice is decorative."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 5,
+      "title": "What did students see that we didn't?",
+      "body": "Ask the whole room: **\"What did the students' answers show that our observations of class alone would have missed?\"** Then ask: \"Which response on Handout B would you want to follow up on, and how would you do it without breaking anonymity?\"",
+      "note": "The \"no wifi at home\" response is the classic case: the team can't find that student from an anonymous survey, but it can change the homework design for everyone, such as offline options and time in class."
+    }
+  ],
+  "unplugged": "Run the survey on half-sheets of paper with no names, collected in a box or folder so no one sees who wrote what. Tally closed questions by hand with a partner, type or copy open responses onto a clean sheet so handwriting doesn't identify anyone, and run Notice-Wonder-Next on that sheet. Interviews happen as a short small-group conversation with notes taken by the coach, not recorded.",
+  "digital": "Build the survey in a district-approved form tool with name and email collection turned off, and share it through the LMS. The form's summary view makes it quick to compare sections or grade levels, and a coach can chart results for the team meeting. Remove any open response that could identify a student before sharing results beyond the team, and don't paste raw student responses into an AI tool to summarize them.",
+  "whyTech": "A form tool makes anonymous responses easier to collect and faster to chart across sections, which helps a team see patterns it would miss by hand. The interpretation, and the decision about what to change, stays a human conversation at the table.",
+  "adaptations": [
+    { "label": "Grades 3–5", "text": "Use three questions with faces or thumbs for answers and one open question read aloud. Students respond on paper; the teacher reads the questions to the whole class." },
+    { "label": "High school", "text": "Invite two students to help write and pilot the survey. Their revisions usually make the questions clearer than the adults' drafts." },
+    { "label": "Campus leaders", "text": "Aggregate results across teams to inform a campus device or AI guideline, and share a one-page \"you said, we did\" with students and families." }
+  ],
+  "lookFors": [
+    "Draft surveys have five questions or fewer, and each question names an action the team would take depending on the answer.",
+    "Revised surveys pass the Handout A checks for anonymity, voluntary answers, and no sensitive personal questions.",
+    "Handout C shows Notices that can be verified on the page, kept separate from Wonders, and a Next written as a design change the team controls.",
+    "Each team writes a \"you said, we did\" message and names the evidence that will show whether the change worked."
+  ],
+  "reflection": [
+    "How am I using data to inform and guide my coaching practices? (Coach ELE guiding question)",
+    "When did I last make a decision about students' technology use without asking them?",
+    "Which of my team's assumptions about students and AI did this data challenge?"
+  ],
+  "transfer": "Run your revised survey with one class or grade level within two weeks, run Notice-Wonder-Next with your team, make one change, and tell students what changed. Repeat two questions a month later to see whether the change shows up in their answers.",
+  "connections": [
+    { "title": "TCEA Blog: Stop Fixing Students, Coaching for Equity Through Universal Design (Miguel Guhlin, 2026)", "url": "https://blog.tcea.org/stop-fixing-students-coaching-for-equity-through-universal-design/", "note": "The Notice-Wonder-Next protocol and the shift from student deficits to design barriers." },
+    { "title": "TCEA Blog: Coaching Strategies, Part One (Miguel Guhlin, 2025)", "url": "https://blog.tcea.org/coaching-strategies-part-one/", "note": "Student-centered, non-evaluative coaching that keeps the focus on results for students." },
+    { "title": "Data Display Patterns field guide", "url": "https://mglearn.github.io/tcea/ddp/", "note": "Ideas for charting survey results so a team can read them quickly." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Privacy-Safe Student Voice Checklist",
+      "type": "checklist",
+      "instructions": "Check every survey and interview plan before it reaches students. Any \"No\" means revise first.",
+      "scale": ["Yes", "Partly", "No"],
+      "items": [
+        "The survey does not collect names, email addresses, student IDs, or sign-ins.",
+        "No combination of answers (for example, class period plus a small group) could identify a student.",
+        "Every question is optional, and students are told they may skip any question.",
+        "Questions ask about school experiences the team can change, not about health, family, or home life.",
+        "No question asks students to report on classmates.",
+        "Students are told who will read the answers and what they will be used for.",
+        "The team knows the campus procedure if a response raises a safety concern, and will follow it.",
+        "Open responses will be retyped or cleaned so handwriting and details don't identify anyone before sharing.",
+        "Raw student responses will not be pasted into an AI tool.",
+        "Interview participants volunteer, can stop at any time, and are not recorded unless campus rules and families allow it.",
+        "The team has a plan to tell students what changed because of their answers.",
+        "The survey has five questions or fewer and takes students under five minutes."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Returned Results, Mesquite Ridge Grade 7",
+      "type": "reading",
+      "instructions": "Fictional results from an anonymous survey of three seventh-grade science sections at Mesquite Ridge Middle School. 71 of 84 students responded. Every question was optional.",
+      "paragraphs": [
+        "**Q1. During class this week, the device helped me learn.** Most days: 22 · Some days: 35 · Rarely: 14",
+        "**Q2. When I use a device in class, I get distracted by something not related to the lesson.** Often: 19 · Sometimes: 38 · Rarely: 14",
+        "**Q3. When I use AI for schoolwork, I check what it says.** I don't use AI for school: 26 · Always: 9 · Sometimes: 21 · Never: 15",
+        "**Q4. I know what our class rule is for using AI.** Yes: 30 · Not sure: 33 · No: 8",
+        "**Q5. What helps you learn best in this class? (Choose up to two.)** Talking with a partner: 41 · The teacher explaining: 38 · Working on the device: 27 · Watching a video: 22 · Working on paper: 20",
+        "**Q6 (open). When does technology get in the way of your learning or how you feel?** Selected responses, retyped: \"When notifications from other tabs pop up.\" · \"When we're on the laptop the whole class my eyes get tired.\" · \"When the AI gives an answer and I don't know if it's right.\" · \"I do the online homework late at night because I forget, then I'm tired.\" · \"I don't have wifi at home so online homework is hard.\" · \"When we post in the discussion and everyone can see it.\" · \"Nothing, it's fine.\" · \"When the video is too fast and I can't ask a question.\"",
+        "**Small-group interview notes (four volunteers, coach's notes, no names).** Student A: \"I use the AI to check my answer, but if it says something different I just go with the AI.\" Student B: \"The lab days are the best because we talk and then write.\" Student C: \"I don't know if we're allowed to use AI on the lab reports, so I just don't.\" Student D: \"Sometimes I'd rather do it on paper because I can draw the diagram.\"",
+        "**Team note:** The survey is one snapshot from one week, and all answers are self-reported. Section 3 had a substitute for two days of that week."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Notice-Wonder-Next Organizer",
+      "type": "table",
+      "instructions": "Fill the columns in order. A Notice must be something anyone could point to on Handout B. Write your \"you said, we did\" on the back.",
+      "columns": ["Notice (what the data shows)", "Wonder (what it makes us ask)", "Next (one design change we control)"],
+      "rows": [
+        ["Example: 33 of 71 students were not sure of the class AI rule.", "Example: Have we ever said the rule out loud, or only posted it in the LMS?", "Example: Post the rule on the lab sheet and practice it once with a real AI answer."]
+      ],
+      "blankRows": 6
+    }
+  ]
+}
