@@ -49,6 +49,11 @@
   "w": 1536,
   "h": 1024
  },
+ "act-cart-check": {
+  "alt": "Two community college students highlight warning signs on a printed mock online store.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-circles-not-screens": {
   "alt": "Teachers sit in a community circle, listening as one colleague holds a talking stone.",
   "w": 1536,
@@ -194,6 +199,16 @@
   "w": 1536,
   "h": 1024
  },
+ "act-inbox-to-impact": {
+  "alt": "School staff edit printed messages to families in colored pen around a front-office table.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-is-this-health-advice-real": {
+  "alt": "High school students check a printed wellness post against other sources in the library.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-journal-club-by-design": {
   "alt": "Four coaches in an early-morning journal club question the claims in a printed article.",
   "w": 1536,
@@ -211,6 +226,11 @@
  },
  "act-lateral-reading-relay": {
   "alt": "A veteran librarian searches for a source while two teachers question a claim card and log their moves.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-lms-tidy-up": {
+  "alt": "Faculty members test how easily a student could find things in a printed mock online course.",
   "w": 1536,
   "h": 1024
  },
@@ -284,6 +304,11 @@
   "w": 1536,
   "h": 1024
  },
+ "act-presentation-makeover": {
+  "alt": "A middle school team pitches its redesigned slides, sketched on index cards, to classmates.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-primary-source-vs-ai-summary": {
   "alt": "Two eighth graders check an AI summary line by line against a handwritten historical letter.",
   "w": 1536,
@@ -354,6 +379,11 @@
   "w": 1536,
   "h": 1024
  },
+ "act-spreadsheet-sense-making": {
+  "alt": "Eighth graders redraw a misleading bar chart honestly on graph paper, checking it against their own calculations.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-student-voice-data-dive": {
   "alt": "A coach and three teachers highlight anonymous student survey results in a science lab after school.",
   "w": 1536,
@@ -416,6 +446,11 @@
  },
  "act-what-do-my-apps-know": {
   "alt": "Two teachers audit the apps their students use, starting from a stack of sticky notes.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-what-your-map-app-knows": {
+  "alt": "Middle school students connect location clues into a trail on a printed town map.",
   "w": 1536,
   "h": 1024
  },
@@ -544,6 +579,11 @@
   "w": 1600,
   "h": 900
  },
+ "hero-openers": {
+  "alt": "Middle school students move to the corners of their classroom to vote on a morning question while their teacher looks on.",
+  "w": 1600,
+  "h": 900
+ },
  "hero-standards": {
   "alt": "Four educators match classroom activities to standards using an open binder, printed handouts, and a chart-paper grid.",
   "w": 1536,
@@ -553,6 +593,26 @@
   "alt": "Three high school students examine a printed social media post together.",
   "w": 1200,
   "h": 630
+ },
+ "openers-35": {
+  "alt": "Fourth graders hold up mini whiteboards with their answers to a quick morning question.",
+  "w": 1536,
+  "h": 1024
+ },
+ "openers-68": {
+  "alt": "Seventh graders in pairs debate whether a printed social media post is fact or fake.",
+  "w": 1536,
+  "h": 1024
+ },
+ "openers-912": {
+  "alt": "High school students start class with a quick-write, one pausing to think by the window.",
+  "w": 1536,
+  "h": 1024
+ },
+ "openers-k2": {
+  "alt": "Kindergartners give thumbs-up, thumbs-down, and puzzled sideways thumbs to a picture card at morning meeting.",
+  "w": 1536,
+  "h": 1024
  },
  "role-ai": {
   "alt": "Adult learners compare a laptop screen against a printed textbook with their instructor.",
