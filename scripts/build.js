@@ -272,7 +272,7 @@ ${scripts.replace(/\{root\}/g, root)}
       </div></li>`;
     }).join('');
     const list = arr => `<ul>${arr.map(x => `<li>${md(x)}</li>`).join('')}</ul>`;
-    const handoutList = a.handouts.map(h => `<li><span class="hl">${esc(h.id)}</span> ${esc(h.title)} <span class="muted">(${esc(htype(h.type))})</span></li>`).join('');
+    const handoutList = a.handouts.map(h => `<li><a href="${base}handouts/${a.id}.html#handout-${esc(h.id)}"><span class="hl">${esc(h.id)}</span> ${esc(h.title)}</a> <span class="muted">(${esc(htype(h.type))})</span></li>`).join('');
     const related = acts.filter(b => b.id !== a.id)
       .map(b => ({ b, score: b.eles.filter(x => a.eles.includes(x)).length * 3 + b.eles.filter(x => a.eles.map(areaOf).includes(areaOf(x))).length + b.strands.filter(x => a.strands.includes(x)).length + (b.audience === a.audience ? 1 : 0) }))
       .sort((x, y) => y.score - x.score || x.b.id.localeCompare(y.b.id)).slice(0, 3).map(x => x.b);
@@ -305,6 +305,7 @@ ${scripts.replace(/\{root\}/g, root)}
       <ul class="indicators">${indicators}</ul>
       <h2 class="glance-h">${esc(t('act.handouts'))}</h2>
       <ul class="handout-list">${handoutList}</ul>
+      <p class="glance-print"><a class="btn btn-gold" href="${base}handouts/${a.id}.html">${ICON.print}${esc(t('act.printHandouts'))}</a></p>
     </aside>
     <div class="act-main">
       <section><h2>${esc(t('act.overview'))}</h2><p class="overview">${md(a.overview)}</p>
@@ -344,7 +345,8 @@ ${scripts.replace(/\{root\}/g, root)}
     <div><p class="sh-kicker">${esc(t('ho.kicker', { id: h.id, title: a.title }))}</p><h2>${esc(h.title)}</h2></div>
     ${name ? `<div class="sh-name"><span>${esc(t('ho.name'))}</span><span>${esc(t('ho.date'))}</span></div>` : ''}
   </header>${h.instructions ? `<p class="sh-instr">${md(h.instructions)}</p>` : ''}`;
-    const sheet = (inner, cls = '') => `<section class="sheet ${cls}">${inner}<footer class="sh-foot">${esc(t('ho.footer', { title: a.title }))}</footer></section>`;
+    let curH = null, firstOfH = false;
+    const sheet = (inner, cls = '') => { const tag = curH ? ` data-h="${esc(curH)}"${firstOfH ? ` id="handout-${esc(curH)}"` : ''}` : ''; firstOfH = false; return `<section class="sheet ${cls}"${tag}>${inner}<footer class="sh-foot">${esc(t('ho.footer', { title: a.title }))}</footer></section>`; };
     const chunk = (arr, n) => arr.reduce((o, x, i) => (i % n ? o[o.length - 1].push(x) : o.push([x]), o), []);
     const pageNote = (p, n) => (n > 1 ? `<p class="sh-page">${esc(t('ho.sheetOf', { n: p + 1, total: n }))}</p>` : '');
     const keyHead = h => `<h3>${esc(t('ho.keyHead', { id: h.id, title: h.title }))}</h3>`;
@@ -391,7 +393,7 @@ ${scripts.replace(/\{root\}/g, root)}
       return { out, key };
     }
 
-    const parts = a.handouts.map(renderHandout);
+    const parts = a.handouts.map(h => { curH = h.id; firstOfH = true; const r = renderHandout(h); curH = null; return r; });
     const keys = parts.flatMap(p => p.key);
     const young = a.grades.every(g => g === 'K-2' || g === '3-5');
     const im = imgFor(a);
@@ -409,6 +411,7 @@ ${scripts.replace(/\{root\}/g, root)}
       <label class="toggle"><input type="checkbox" id="addcover"> ${esc(t('ho.addCover'))}</label>
       ${keys.length ? `<label class="toggle"><input type="checkbox" id="hidekey"> ${esc(t('ho.hideKey'))}</label>` : ''}
     </div>
+    <nav class="only-bar" aria-label="${esc(t('ho.printOne'))}"><span>${esc(t('ho.printOne'))}</span>${a.handouts.map(h => `<a href="?only=${esc(h.id)}#handout-${esc(h.id)}" data-only="${esc(h.id)}"><span class="hl">${esc(h.id)}</span> ${esc(h.title)}</a>`).join('')}<a href="${base}handouts/${a.id}.html" class="only-all" hidden>${esc(t('ho.showAll'))}</a></nav>
   </div>
   <div class="sheets${young ? ' young' : ''}">
     ${sheet(`<div class="cover">
@@ -428,7 +431,7 @@ ${scripts.replace(/\{root\}/g, root)}
   </div>
 </main>`;
     page({ pagePath: `handouts/${a.id}.html`, title: `${t('ho.metaTitle', { title: a.title })} | ${t('site.titleSuffix')}`, desc: t('ho.metaDesc', { title: a.title }), body, bodyClass: 'is-packet no-cover', untranslated: !a.translated,
-      scripts: `<script src="{root}assets/fit.js"></script><script>document.getElementById('hidekey')?.addEventListener('change',e=>document.body.classList.toggle('no-key',e.target.checked));document.getElementById('addcover').addEventListener('change',e=>document.body.classList.toggle('no-cover',!e.target.checked));</script>` });
+      scripts: `<script src="{root}assets/fit.js"></script><script>document.getElementById('hidekey')?.addEventListener('change',e=>document.body.classList.toggle('no-key',e.target.checked));document.getElementById('addcover').addEventListener('change',e=>document.body.classList.toggle('no-cover',!e.target.checked));(function(){var o=new URLSearchParams(location.search).get('only');if(!o)return;document.body.classList.add('only-one');document.querySelectorAll('.sheet').forEach(function(s){if(s.dataset.h!==o)s.hidden=true});document.querySelectorAll('[data-only]').forEach(function(a){if(a.dataset.only===o)a.setAttribute('aria-current','true')});document.querySelector('.only-all').hidden=false;})();</script>` });
   }
 
   // ---------- index ----------

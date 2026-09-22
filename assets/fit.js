@@ -1,24 +1,23 @@
 // Shrinks a handout sheet that runs slightly past one US Letter page, so it prints
-// on one page instead of spilling a line or two onto the next. On screen each
-// .sheet is laid out exactly like the printed page (8.5in wide, .45in margins),
-// so measuring here predicts print. Sheets far over a page are left to flow.
+// on one page instead of spilling a line or two onto the next. Each sheet is
+// measured at true page width (8.5in with .45in margins, like print) whatever the
+// window size, and the shrink applies only when printing (see .fitted in site.css).
+// Sheets far over a page are left to flow onto the next page.
 (function () {
   const PAGE = 11 * 96;         // 11in at 96px/in, including the .45in padding
   const MAX_SHRINK = 0.66;      // below this, text gets too small: let it flow
   function fit() {
     document.querySelectorAll('.sheet').forEach(sh => {
-      sh.style.zoom = '';
-      if (sh.getBoundingClientRect().width < 8.4 * 96) return; // narrow screen: not print layout
-      const prev = sh.style.minHeight;
-      sh.style.minHeight = '0';
+      if (sh.hidden) return;
+      const saved = sh.getAttribute('style') || '';
+      sh.style.width = '8.5in'; sh.style.maxWidth = 'none'; sh.style.minHeight = '0'; sh.style.padding = '.45in';
       const h = sh.getBoundingClientRect().height;
-      sh.style.minHeight = prev;
+      sh.setAttribute('style', saved);
       const scale = (PAGE * 0.97) / h;
-      if (scale < 1 && scale >= MAX_SHRINK) {
-        sh.style.zoom = scale.toFixed(3);
-        sh.classList.add('fitted');
-      }
+      sh.classList.toggle('fitted', scale < 1 && scale >= MAX_SHRINK);
+      sh.style.setProperty('--fit', scale < 1 && scale >= MAX_SHRINK ? scale.toFixed(3) : '1');
     });
   }
   (document.fonts ? document.fonts.ready : Promise.resolve()).then(fit);
+  window.addEventListener('beforeprint', fit);
 })();

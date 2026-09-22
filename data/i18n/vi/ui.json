@@ -323,5 +323,7 @@
  "std.sst.ss-sources": "Khoa học xã hội: nguồn, nhận định, và mạch kinh tế, khoa học, công nghệ và xã hội",
  "std.sst.sci-evidence": "Khoa học: diễn giải mô hình và dữ liệu để xây dựng lời giải thích từ bằng chứng",
  "std.sst.math-reasoning": "Toán học: phân tích dữ liệu và thể hiện rõ lập luận",
- "nav.menuGuide": "Hướng dẫn"
+ "nav.menuGuide": "Hướng dẫn",
+ "ho.printOne": "Chỉ in một phiếu:",
+ "ho.showAll": "Xem toàn bộ bộ phiếu"
 }

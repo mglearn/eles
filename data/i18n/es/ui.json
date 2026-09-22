@@ -323,5 +323,7 @@
  "std.sst.ss-sources": "Estudios sociales: fuentes, afirmaciones y el eje de economía, ciencia, tecnología y sociedad",
  "std.sst.sci-evidence": "Ciencias: interpretar modelos y datos para construir explicaciones a partir de evidencia",
  "std.sst.math-reasoning": "Matemáticas: análisis de datos y hacer visible el razonamiento",
- "nav.menuGuide": "Guía"
+ "nav.menuGuide": "Guía",
+ "ho.printOne": "Imprimir solo una:",
+ "ho.showAll": "Ver el paquete completo"
 }

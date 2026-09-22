@@ -323,5 +323,7 @@
  "std.sst.ss-sources": "Social studies: sources, claims, and the economics, science, technology, and society strand",
  "std.sst.sci-evidence": "Science: interpreting models and data to build explanations from evidence",
  "std.sst.math-reasoning": "Mathematics: data analysis and making reasoning visible",
- "nav.menuGuide": "Guide"
+ "nav.menuGuide": "Guide",
+ "ho.printOne": "Print just one:",
+ "ho.showAll": "Show the whole packet"
 }
