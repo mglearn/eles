@@ -49,8 +49,23 @@
   "w": 1536,
   "h": 1024
  },
+ "act-circles-not-screens": {
+  "alt": "Teachers sit in a community circle, listening as one colleague holds a talking stone.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-co-creation-not-substitution": {
   "alt": "Faculty and teachers place task strips along a masking-tape line on the floor and argue about where each belongs.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-co-plan-in-20": {
+  "alt": "A young instructional coach listens and paraphrases as a veteran teacher describes his goal for an upcoming lesson.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-coach-to-coach-microteaching": {
+  "alt": "An instructional coach rehearses a short lesson for two colleagues, who give him feedback.",
   "w": 1536,
   "h": 1024
  },
@@ -94,6 +109,16 @@
   "w": 1536,
   "h": 1024
  },
+ "act-digital-learning-rounds": {
+  "alt": "A school leadership team sorts classroom observation notes into columns on butcher paper.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-digital-notebook-detectives": {
+  "alt": "Fourth graders sort paper file cards into folders to organize a pretend messy computer drive.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-disclose-it": {
   "alt": "Four high school seniors compare their sorting mats and argue over scenarios where AI use falls in a gray area.",
   "w": 1536,
@@ -119,6 +144,11 @@
   "w": 1536,
   "h": 1024
  },
+ "act-feedback-partners-ai-drafts": {
+  "alt": "Two teachers model a peer feedback protocol on a printed draft while colleagues watch from an outer circle.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-five-question-rollout-check": {
   "alt": "A planning team listens to a new development in a role-play while a blind teacher reads her braille role card.",
   "w": 1536,
@@ -141,6 +171,11 @@
  },
  "act-hallucination-hunt": {
   "alt": "A student asks the librarian for the source behind a citation in an AI-written research brief.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-headlines-from-year-three": {
+  "alt": "A principal waits her turn while her leadership team silently writes pre-mortem cards.",
   "w": 1536,
   "h": 1024
  },
@@ -189,6 +224,11 @@
   "w": 1536,
   "h": 1024
  },
+ "act-minutes-with-a-purpose": {
+  "alt": "A school leadership team sorts classroom screen uses into purpose piles beside a printed data table.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-my-digital-safety-plan": {
   "alt": "Middle schoolers stand under different signs and debate which personal information should stay private.",
   "w": 1536,
@@ -199,13 +239,28 @@
   "w": 1536,
   "h": 1024
  },
+ "act-news-from-the-future-circle": {
+  "alt": "Young children give thumbs-up and thumbs-sideways votes as their teacher reads pretend news from the future.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-next-word-by-hand": {
   "alt": "Fifth graders build a sentence by drawing word slips from paper cups, acting as a language model.",
   "w": 1536,
   "h": 1024
  },
+ "act-norms-for-the-ai-era": {
+  "alt": "A grade-level teacher team sorts shared-planning dilemmas about AI into columns on small classroom chairs after school.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-password-power": {
   "alt": "Third graders hang password cards on a clothesline in order from weakest to strongest.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-pd-menu-makeover": {
+  "alt": "Four coaches sort draft survey questions and build a choice menu for a professional learning day.",
   "w": 1536,
   "h": 1024
  },
@@ -221,6 +276,11 @@
  },
  "act-photo-detective": {
   "alt": "Fourth graders use their fingers to frame part of a photo and see how cropping can change its story.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-platform-pick-to-community-story": {
+  "alt": "A school committee reads a draft family letter aloud to a parent while a bilingual liaison translates.",
   "w": 1536,
   "h": 1024
  },
@@ -254,6 +314,11 @@
   "w": 1536,
   "h": 1024
  },
+ "act-ripple-out-futures-wheel": {
+  "alt": "Four educators map ripple effects of a future headline on a hand-drawn futures wheel.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-robot-guesses": {
   "alt": "A kindergartner tapes a banana picture into a group of fruit cards while classmates give a thumbs up.",
   "w": 1536,
@@ -264,6 +329,11 @@
   "w": 1536,
   "h": 1024
  },
+ "act-screens-at-school-screens-at-home": {
+  "alt": "Families at a school family night sort picture cards about screen time and fill in a family agreement.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-seminar-on-a-machines-answer": {
   "alt": "Teachers in a fishbowl seminar discuss a printed chatbot answer while a colleague outside the circle tallies their questions.",
   "w": 1536,
@@ -271,6 +341,21 @@
  },
  "act-shallow-answers-coaching-cycle": {
   "alt": "In a coaching role-play, a young coach listens closely while an experienced teacher describes her class.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-signal-to-headline-lab": {
+  "alt": "Two high school students trade handwritten future headlines and check each other's work.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-smart-speakers-smart-choices": {
+  "alt": "First graders role-play with a pretend cardboard smart speaker as one child tells it to stop.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-student-voice-data-dive": {
+  "alt": "A coach and three teachers highlight anonymous student survey results in a science lab after school.",
   "w": 1536,
   "h": 1024
  },
@@ -289,6 +374,11 @@
   "w": 1536,
   "h": 1024
  },
+ "act-the-coaching-agreement": {
+  "alt": "A principal and an instructional coach highlight a coaching-time audit together at a round table.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-the-feed-game": {
   "alt": "Eighth graders play a card game in which one student acts as a social media algorithm choosing posts for a classmate.",
   "w": 1536,
@@ -296,6 +386,11 @@
  },
  "act-the-prompt-ladder": {
   "alt": "Teachers time a colleague as she plays a chatbot, with prompt cards laid out like a ladder on the table.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-tool-tryout-lab": {
+  "alt": "A teacher team decides whether to adopt a new AI feature by studying printed student work with their coach.",
   "w": 1536,
   "h": 1024
  },
@@ -311,6 +406,11 @@
  },
  "act-verify-the-bot-workshop": {
   "alt": "A science teacher and a librarian check a chatbot's claims against a textbook, one claim at a time.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-wait-time-on-the-record": {
+  "alt": "Two instructional coaches time the pauses in a printed classroom transcript with a stopwatch.",
   "w": 1536,
   "h": 1024
  },
