@@ -33,8 +33,7 @@ def main():
     if not SRC.is_dir():
         sys.exit(f'No image folder at {SRC}')
     credits = {}
-    cfile = SRC / 'credits.json'
-    if cfile.exists():
+    for cfile in sorted(SRC.glob('*credits*.json')):   # credits.json, calendar-credits.json, …
         for c in json.loads(cfile.read_text()):
             credits[Path(c.get('file', '')).stem] = c
     manifest = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
