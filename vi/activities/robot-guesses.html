@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Người máy đoán | Ngân hàng Hoạt động ELE</title>
+<meta name="description" content="Các em huấn luyện một người máy tưởng tượng bằng thẻ hình và chữ, và khám phá ra rằng AI đoán dựa trên quy luật, và lời đoán có thể sai.">
+<meta property="og:title" content="Người máy đoán | Ngân hàng Hoạt động ELE">
+<meta property="og:description" content="Các em huấn luyện một người máy tưởng tượng bằng thẻ hình và chữ, và khám phá ra rằng AI đoán dựa trên quy luật, và lời đoán có thể sai.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/robot-guesses.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/robot-guesses.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/activities/robot-guesses.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/robot-guesses.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Ngân hàng Hoạt động</span></a>
+  <nav aria-label="Chính">
+    <a href="../index.html#catalog">Hoạt động</a>
+    <a href="../framework.html">Các ELE</a>
+    <details class="navmenu"><summary>Dành cho người điều phối</summary><div class="navmenu-panel">
+      <a href="../guide.html">Hướng dẫn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Chuẩn</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Ngôn ngữ</span><select aria-label="Ngôn ngữ"><option value="en" lang="en" data-href="../../activities/robot-guesses.html">English</option><option value="es" lang="es" data-href="../../es/activities/robot-guesses.html">Español</option><option value="vi" lang="vi" data-href="../../vi/activities/robot-guesses.html" selected>Tiếng Việt</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="vi">Bản dịch này được thực hiện với sự hỗ trợ của AI và đang chờ người bản ngữ xem xét. Bản tiếng Anh là bản gốc.</p>
+
+<main id="main" class="act">
+  <div class="act-head has-photo">
+    <figure class="act-photo"><img class="photo" src="../../assets/img/cat-k2-genai.jpg" width="1536" height="1024" alt="Kindergartners guess the next picture in a pattern as their teacher holds up cards."></figure>
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Tất cả hoạt động</a> <span aria-hidden="true">/</span> Học tập của học sinh</p>
+    <h1>Người máy đoán</h1>
+    <p class="lede">Các em huấn luyện một người máy tưởng tượng bằng thẻ hình và chữ, và khám phá ra rằng AI đoán dựa trên quy luật, và lời đoán có thể sai.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/robot-guesses.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">In hướng dẫn này</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="Tóm tắt nhanh">
+      <dl>
+        <div><dt>Thời gian</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>30 phút</dd></div>
+        <div><dt>Hình thức</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</dd></div>
+        <div><dt>Lớp</dt><dd>K–2</dd></div>
+        
+        <div><dt>Nhóm</dt><dd>Cả lớp ngồi trên thảm, sau đó làm theo cặp; lớp đông hay ít đều được</dd></div>
+        <div><dt>Mạch nội dung</dt><dd class="chips"><span class="strand s-genai">AI tạo sinh</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Chỉ báo ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI1.1">AI1.1</a><div><span class="ind-area">AI trong Giáo dục · Hiểu biết về AI</span>Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.</div></li><li><a class="ele" href="../framework.html#AI1.3">AI1.3</a><div><span class="ind-area">AI trong Giáo dục · Hiểu biết về AI</span>Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.</div></li><li><a class="ele" href="../framework.html#S1.3">S1.3</a><div><span class="ind-area">Học sinh · Thành thạo Công nghệ</span>Em nhận thức được AI có thể hỗ trợ việc học của mình như thế nào.</div></li><li><a class="ele" href="../framework.html#S5.3">S5.3</a><div><span class="ind-area">Học sinh · Người Giải quyết Vấn đề Sáng tạo</span>Em nhận thức được cách vận dụng tư duy máy tính vào nhiều môn học khác nhau.</div></li></ul>
+      <h2 class="glance-h">Phiếu</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Thẻ quy luật <span class="muted">(thẻ cắt rời)</span></li><li><span class="hl">B</span> Thẻ huấn luyện Robo <span class="muted">(thẻ cắt rời)</span></li><li><span class="hl">C</span> Lời đoán của người máy của em <span class="muted">(phiếu bài tập)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Tổng quan</h2><p class="overview">Trẻ nhỏ đã nghe loa thông minh biết nói và thấy những ứng dụng &quot;biết&quot; mọi thứ. Trong trò chơi này, cả lớp trở thành thầy cô của <strong>Robo</strong>, một người máy tưởng tượng chỉ học được từ những thẻ ví dụ được cho xem và chỉ để ý đến màu sắc. Robo đoán rất tự tin, có những lần đoán sai đến buồn cười, và đoán giỏi hơn khi cả lớp cho nó xem nhiều loại ví dụ hơn. Các em ra về với một ý tưởng đơn giản, đúng đắn mà các em có thể nói to lên: &quot;AI tìm quy luật và đoán. Lời đoán có thể sai, nên chúng ta kiểm tra.&quot;</p>
+        <h3 class="sub">Mục tiêu</h3><ul><li>Học sinh sẽ hoàn thành một quy luật âm thanh, động tác hoặc hình ảnh và nói được vì sao mình biết điều gì đến tiếp theo.</li><li>Học sinh sẽ giải thích bằng lời của mình rằng công cụ AI học từ các ví dụ và đoán dựa trên quy luật.</li><li>Học sinh sẽ phát hiện một lời đoán sai của người máy và nêu một lý do vì sao điều đó xảy ra (Robo chưa được xem đủ nhiều loại ví dụ).</li><li>Học sinh sẽ nêu tên một người hoặc một nơi các em có thể dùng để kiểm tra lời đoán của người máy.</li></ul></section>
+      <section class="two">
+        <div><h2>Học liệu</h2>
+          <h3 class="sub">Trên giấy</h3><ul><li>Phiếu A: Thẻ quy luật (1 bộ cho giáo viên, in khổ lớn hoặc chiếu bằng máy chiếu vật thể)</li><li>Phiếu B: Thẻ huấn luyện Robo (1 bộ cho giáo viên, đã cắt rời; dán băng keo ở mặt sau)</li><li>Phiếu C: Lời đoán của người máy của em (mỗi học sinh 1 bản)</li><li>Hai tấm biển trên bảng: &quot;TRÁI CÂY&quot; và &quot;KHÔNG PHẢI TRÁI CÂY&quot;</li><li>Tùy chọn: một chiếc &quot;mũ người máy&quot; làm bằng túi giấy hoặc băng đô cho người đóng vai Robo; bút sáp màu</li></ul>
+          <h3 class="sub">Trên màn hình</h3><ul><li>Tùy chọn: một chatbot AI tạo sinh được khu học chánh phê duyệt, chỉ dùng trên thiết bị của giáo viên và trình chiếu cho cả lớp</li><li>Tùy chọn: một máy chiếu vật thể để chiếu các thẻ</li></ul></div>
+        <div><h2>Trước khi bắt đầu</h2><ol class="prep"><li>In Phiếu B và cắt rời 12 thẻ. Chia thành ba xấp: 6 thẻ &quot;Huấn luyện&quot;, 4 thẻ &quot;Kiểm tra&quot; và 2 thẻ &quot;Sửa lỗi&quot;. Để đáp án (mặt sau các thẻ) ở gần.</li><li>Viết &quot;TRÁI CÂY&quot; và &quot;KHÔNG PHẢI TRÁI CÂY&quot; lên bảng, chừa chỗ bên dưới mỗi chữ để dán thẻ.</li><li>Tập giọng Robo và quy tắc duy nhất của Robo: &quot;Tôi chỉ để ý MÀU SẮC. Tôi chỉ biết những gì các bạn cho tôi xem.&quot;</li><li>Nếu định trình chiếu phần minh họa, hãy thử trước chatbot được khu học chánh phê duyệt với hai câu lệnh (prompt) trong phần Kỹ thuật số để biết nó thường trả lời thế nào.</li></ol></div>
+      </section>
+      <section><h2>Từng bước</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–4 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khởi động</p>
+        <h3>Vỗ tay, dậm chân, vỗ tay…</h3>
+        <p>Không nói gì, vỗ tay, dậm chân, vỗ tay, dậm chân, vỗ tay, rồi đứng im. Các em sẽ nhảy vào dậm chân. Hỏi: <strong>&quot;Sao các em biết điều gì đến tiếp theo?&quot;</strong> Nghe câu trả lời, rồi gọi tên: &quot;Các em đã tìm ra một <strong>quy luật</strong>. Quy luật là thứ lặp đi lặp lại, nên các em có thể đoán điều gì đến tiếp theo.&quot; Thử thêm một lần: &quot;Vỗ đầu, vỗ đầu, chạm mũi, vỗ đầu, vỗ đầu, …&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Hãy khen ngợi chữ &quot;đoán.&quot; Quý thầy cô đang chuẩn bị cho ý tưởng lớn: quy luật giúp ta đoán, chứ không phải biết chắc chắn.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">4–10 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khám phá</p>
+        <h3>Thẻ quy luật</h3>
+        <p>Lần lượt cho xem Thẻ quy luật 1–5. Đọc to từng thẻ và cho các em thể hiện câu trả lời bằng cơ thể (giơ tay thật cao cho &quot;to,&quot; ngồi thụp xuống cho &quot;nhỏ,&quot; v.v.) hoặc nói to ra. Sau mỗi thẻ, hỏi một em: &quot;Sao em biết?&quot; Sau đó cho xem <strong>Thẻ 6, Thẻ Đánh Lừa</strong>. Cả lớp đoán &quot;xanh dương.&quot; Lật thẻ: màu tiếp theo là <strong>xanh lá</strong>. Nói: &quot;Các em đã đoán rất thông minh. Nhưng vẫn sai, vì quy luật đã thay đổi. Đoán thông minh vẫn có thể sai.&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Với các em mẫu giáo, quý thầy cô có thể cần chỉ dọc theo quy luật và cùng đọc to trước khi đoán.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">10–15 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Làm mẫu</p>
+        <h3>Làm quen và huấn luyện Robo</h3>
+        <p>Đội mũ người máy và dùng giọng người máy: <strong>&quot;Tôi là Robo. Tôi học từ các ví dụ. Tôi chỉ biết những gì các bạn cho tôi xem. Và tôi chỉ để ý MÀU SẮC.&quot;</strong> Đọc to từng thẻ trong 6 Thẻ huấn luyện và để các em nói thẻ đó thuộc biển nào. Dán thẻ vào đó. Khi đủ 6 thẻ, Robo &quot;suy nghĩ&quot; thành tiếng: &quot;Bíp. Trái cây là màu ĐỎ. Không phải trái cây là màu xanh dương, xanh lá hoặc vàng. Tôi học xong rồi!&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Chỉ ra rằng Robo đã học một quy luật mà cả lớp không hề định dạy. Đó là cốt lõi của thiên lệch AI ở lứa tuổi này: các ví dụ quyết định lời đoán.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">15–22 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Luyện tập</p>
+        <h3>Kiểm tra Robo</h3>
+        <p>Giơ từng Thẻ kiểm tra lên. Trước tiên, các em dự đoán bằng ngón cái: &quot;Giơ ngón cái lên nếu Robo sẽ nói TRÁI CÂY, chỉ ngón cái xuống nếu Robo sẽ nói KHÔNG PHẢI TRÁI CÂY.&quot; Sau đó Robo đoán, chỉ dựa vào màu sắc. Rồi cả lớp kiểm tra: <strong>&quot;Robo đúng không?&quot;</strong> Quả chuối màu vàng, nên Robo nói &quot;không phải trái cây&quot; (sai). Quả bóng đỏ màu đỏ, nên Robo nói &quot;trái cây&quot; (sai). Cho hai hoặc ba em lần lượt đội mũ và đoán &quot;trong vai Robo,&quot; chỉ dựa vào màu sắc.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Các em rất thích bắt lỗi Robo. Giữ giọng điệu nhẹ nhàng: &quot;Robo không ngốc đâu. Robo chỉ thấy trái cây màu đỏ thôi. Chúng ta có thể làm gì để giúp Robo?&quot;</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">22–26 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Tổng kết</p>
+        <h3>Sửa lỗi cho Robo, rồi liên hệ với AI thật</h3>
+        <p>Hỏi: &quot;Vì sao Robo đoán sai?&quot; Hướng các em đến ý: <strong>Robo chưa được xem đủ nhiều loại trái cây.</strong> Dán thêm hai Thẻ sửa lỗi (quả chuối vàng và chùm nho xanh) dưới biển TRÁI CÂY và kiểm tra lại quả chuối. Robo đoán đúng. Sau đó nói rõ ràng: &quot;Một số máy tính dùng AI. Các công cụ AI đã học từ RẤT RẤT nhiều ví dụ, nhiều hơn Robo rất nhiều. Chúng cũng đoán dựa trên quy luật. Chúng có thể rất thông minh, nhưng vẫn có thể sai. Vậy chúng ta nói gì? <strong>'Mình kiểm tra nhé!'</strong>&quot; Cả lớp cùng tập nói câu này.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Tránh nói AI &quot;suy nghĩ&quot; hay &quot;biết.&quot; Hãy dùng &quot;đoán&quot; và &quot;học từ các ví dụ.&quot; Các em sẽ học theo cách chúng ta dùng từ.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">26–30 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Suy ngẫm</p>
+        <h3>Lời đoán của người máy của em</h3>
+        <p>Các em hoàn thành Phiếu C: vẽ thứ tiếp theo trong một quy luật, vẽ một thứ Robo có thể đoán sai, và vẽ một người có thể giúp các em kiểm tra. Đi quanh lớp và hỏi hai hoặc ba em: <strong>&quot;Vì sao Robo có thể đoán sai về hình của em?&quot;</strong> Ghi lại lời các em ở lề giấy làm bằng chứng.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Tìm những câu trả lời như &quot;vì nó khác màu&quot; hoặc &quot;Robo chưa bao giờ thấy nó.&quot; Những câu đó cho thấy em hiểu rằng ví dụ quyết định lời đoán.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Giấy hay màn hình</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</h3><p>Toàn bộ bài học chỉ cần thẻ in, bảng và giọng người máy của quý thầy cô. Thẻ quy luật có thể đọc to thay vì cho xem. Để có phiên bản vận động, dán biển TRÁI CÂY và KHÔNG PHẢI TRÁI CÂY ở hai bức tường đối diện, đưa mỗi Thẻ huấn luyện cho một em, và cho các em mang thẻ đến đúng bức tường trong khi &quot;Robo&quot; quan sát và học.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kỹ thuật số</h3><p>Sau phần Tổng kết, trình chiếu một chatbot AI tạo sinh được khu học chánh phê duyệt từ thiết bị của giáo viên. Gõ, trong khi cả lớp theo dõi: &quot;Hãy hoàn thành quy luật này cho một lớp mẫu giáo: đỏ, xanh dương, đỏ, xanh dương, đỏ, …&quot; Đọc to câu trả lời và cho các em kiểm tra bằng chính mắt mình. Sau đó gõ một câu đố mà cả lớp cùng viết (&quot;Tôi màu vàng, dài, và bạn phải bóc vỏ tôi. Tôi là trái gì?&quot;) và cho các em dự đoán trước khi bấm Enter. Dù công cụ nói gì, hãy hỏi: <strong>&quot;Làm sao chúng ta biết nó đúng? Chúng ta đã kiểm tra.&quot;</strong> Các em không bao giờ có tài khoản AI riêng; quý thầy cô thực hiện mọi thao tác.</p></div>
+        <p class="why"><strong>Có cần màn hình không?</strong> Bài học này hiệu quả hơn khi không dùng màn hình: các em cần một hình dung rõ ràng về &quot;đưa ví dụ vào, ra lời đoán,&quot; và Robo mang lại hình dung đó mà không cần màn hình. Một phần minh họa ngắn được trình chiếu bổ sung điều giấy không làm được: các em thấy một công cụ AI thật cũng trả lời bằng cách đoán, và các em tập kiểm tra nó.</p>
+      </section>
+      <section class="evidence"><h2>Bằng chứng học tập</h2><p class="muted">Những gì bạn có thể quan sát hoặc thu thập được nếu hoạt động thành công.</p><ul><li>Các em giải thích câu trả lời về quy luật bằng &quot;vì nó đi…&quot; hoặc bằng cách chỉ dọc theo phần lặp lại.</li><li>Các em nói Robo sai vì nó chỉ thấy trái cây màu đỏ hoặc chỉ nhìn màu sắc, chứ không phải vì Robo &quot;ngốc.&quot;</li><li>Trên Phiếu C, hình vẽ thứ Robo sẽ đoán sai là một ví dụ khác màu hoặc khác thường, và em nêu tên một người để cùng kiểm tra.</li><li>Các em tự nhiên nói &quot;Mình kiểm tra nhé&quot; trong phần minh họa trình chiếu hoặc vào những ngày sau trong tuần.</li></ul></section>
+      <section><h2>Điều chỉnh</h2><dl class="adapt"><div><dt>Mẫu giáo</dt><dd>Dùng Thẻ quy luật 1–3 và 6, và chỉ 2 Thẻ kiểm tra (quả chuối và quả bóng đỏ). Cho các em chỉ vào biển thay vì giải thích.</dd></div><div><dt>Lớp 2</dt><dd>Phát cho mỗi cặp 6 thẻ trắng. Một bạn bí mật huấn luyện bạn kia làm &quot;Robo&quot; với một quy tắc khác (chỉ kích thước, hoặc chỉ hình dạng), rồi kiểm tra bằng một thẻ đánh lừa. Hai bạn giải thích lỗi sai.</dd></div><div><dt>Học sinh đang học song ngữ</dt><dd>Thêm từ bằng tiếng mẹ đẻ bên dưới mỗi thẻ, dùng trái cây thật hoặc đồ chơi khi có thể, và dạy động tác cho &quot;đoán&quot; (tay chống cằm) và &quot;kiểm tra&quot; (ngón tay làm kính lúp).</dd></div><div><dt>Học sinh gặp khó khăn về vận động</dt><dd>Thay câu trả lời bằng động tác bằng cách chỉ tay, nhìn bằng mắt hoặc thẻ có/không; em nào cũng có thể đóng vai Robo bằng cách chỉ vào biển.</dd></div></dl></section>
+      <section class="stds"><h2>Liên kết với các chuẩn</h2><p>Các em huấn luyện một robot tưởng tượng bằng thẻ ví dụ, xem robot phân loại sai rồi sửa lại bằng những ví dụ đa dạng hơn, một mô hình đơn giản ban đầu về cách AI học các khuôn mẫu.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Ứng dụng Công nghệ: tư duy máy tính">tư duy máy tính</a><a class="std std-teks" href="../standards.html#teks-ta-data" title="Ứng dụng Công nghệ: hiểu biết, quản lý và biểu diễn dữ liệu">hiểu biết, quản lý và biểu diễn dữ liệu</a><span class="std-sec">Các mục TEKS: Technology Applications §126.5–§126.7</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Nghe">Nghe</a><a class="std std-elps" href="../standards.html#elps-c3" title="Nói">Nói</a><a class="std std-elps" href="../standards.html#elps-c5" title="Viết">Viết</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Làm nổi bật và khám phá khuôn mẫu, đặc điểm then chốt, ý tưởng lớn và các mối quan hệ">3.2</a><a class="std std-udl" href="../standards.html#udl-4-1" title="Đa dạng hóa và tôn trọng các phương thức phản hồi, điều hướng và di chuyển">4.1</a><a class="std std-udl" href="../standards.html#udl-7-3" title="Nuôi dưỡng niềm vui và sự vui chơi">7.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Thúc đẩy suy ngẫm cá nhân và tập thể">9.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Xem cách tất cả hoạt động được đối chiếu với các chuẩn</a></p></section>
+      <section class="two">
+        <div><h2>Suy ngẫm</h2><ul><li>Robo đã học như thế nào? Điều gì có thể giúp Robo đoán giỏi hơn?</li><li>Khi máy tính hoặc loa thông minh nói với em điều gì đó, em có thể làm gì? (Student ELE 1.0: Em có giỏi dùng các công cụ khác nhau để giúp mình học không?)</li><li>Hôm nay em có thể tìm thấy quy luật nào trong lớp học của chúng ta?</li></ul></div>
+        <div><h2>Bước tiếp theo</h2><p>Ở nhà, các em chơi &quot;Robo trong bữa tối&quot;: một người trong gia đình tạo quy luật bằng thìa, cốc hoặc tiếng vỗ tay và em đoán điều gì đến tiếp theo, rồi nói với cả nhà: &quot;AI đoán dựa trên quy luật, nên chúng ta kiểm tra.&quot; Ở bài học sau, liên hệ với bài <em>Kiểm Tra Hai Nơi</em>, nơi các em kiểm tra câu trả lời của người máy bằng sách và người lớn.</p></div>
+      </section>
+      <section><h2>Kết hợp tốt với</h2><ul class="connections"><li><a href="https://mglearn.github.io/activities/genailit/">Trò chơi giải đố Breakout về hiểu biết AI tạo sinh (K–8)</a><span>Hoạt động kỹ thuật số tiếp nối về hiểu biết AI cho các lớp tiểu học, do giáo viên điều khiển trên máy chiếu.</span></li></ul></section>
+      <section class="related noprint"><h2>Hoạt động liên quan</h2><div class="cards"><article class="card has-photo" data-id="next-word-by-hand">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-35-genai.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 3–5, Lớp 6–8</span></p>
+    <h3><a href="../activities/next-word-by-hand.html">Đoán chữ tiếp theo bằng tay</a></h3>
+    <p class="card-tag">Học sinh làm một &quot;máy đoán chữ&quot; bằng giấy từ các thẻ câu, xem nó bịa ra một sự thật sai rất tự tin về một cái hồ, và khám phá vì sao một câu lệnh dài hơn có giúp ích nhưng không bao giờ làm cho chatbot thực sự hiểu biết.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#AI1.3" title="AI trong Giáo dục 1.3: Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.">AI1.3</a><a class="ele" href="../framework.html#S5.3" title="Học sinh 5.3: Em nhận thức được cách vận dụng tư duy máy tính vào nhiều môn học khác nhau.">S5.3</a></span></div>
+  </article><article class="card has-photo" data-id="algorithm-autopsy">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-912-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 9–12</span></p>
+    <h3><a href="../activities/algorithm-autopsy.html">Giải phẫu Thuật toán</a></h3>
+    <p class="card-tag">Học sinh mổ xẻ các tính năng thiết kế của một ứng dụng mạng xã hội hư cấu, lần theo cách mỗi tính năng định hình sự chú ý và niềm tin, rồi thiết kế lại bảng tin để phục vụ con người thay vì lượt tương tác.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>75 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span><span class="strand s-digcit">Công dân số</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#S5.2" title="Học sinh 5.2: Em có thể vận dụng sự sáng tạo và tư duy logic để tìm ra các giải pháp đổi mới.">S5.2</a><a class="ele" href="../framework.html#S5.1" title="Học sinh 5.1: Em biết cách tiếp cận các vấn đề phức tạp một cách có hệ thống.">S5.1</a></span></div>
+  </article><article class="card has-photo" data-id="garbage-in-garbage-out">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-35-genai.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 3–5</span></p>
+    <h3><a href="../activities/garbage-in-garbage-out.html">Rác Vào, Rác Ra</a></h3>
+    <p class="card-tag">Học sinh viết hướng dẫn cho một bạn cùng lớp đóng vai &quot;rô-bốt&quot; làm theo đúng từng chữ, khám phá vì sao câu lệnh mơ hồ dẫn đến kết quả bất ngờ, và xây dựng một công thức viết câu lệnh rõ ràng để dùng với AI lẫn với con người.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>40 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#S5.1" title="Học sinh 5.1: Em biết cách tiếp cận các vấn đề phức tạp một cách có hệ thống.">S5.1</a><a class="ele" href="../framework.html#S3.2" title="Học sinh 3.2: Em có thể truyền đạt ý tưởng của mình một cách rõ ràng cho người khác.">S3.2</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Ngân hàng Hoạt động Kỳ vọng Học tập Thiết yếu của TCEA.</strong> Hoạt động bồi dưỡng chuyên môn và hoạt động cho học sinh K–16 về hiểu biết AI tạo sinh, công dân số và hiểu biết truyền thông, trên giấy hoặc trên màn hình.</p>
+    <p>Hoạt động do Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>) biên soạn, dựa trên <a href="https://tinyurl.com/tceaeles1">Kỳ vọng Học tập Thiết yếu của TCEA</a> (CC BY-SA 2024). Chia sẻ theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: được sao chép, chỉnh sửa và tái sử dụng khi ghi nguồn. Không cần đăng nhập, không theo dõi.</p>
+    <p class="ai-note">Ảnh trên trang này là hình minh họa do AI tạo ra về những người hư cấu, không phải học sinh hay nhân viên thật.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog TCEA</a>
+    <a href="https://convention.tcea.org/">Hội nghị &amp; Triển lãm TCEA</a>
+  </nav>
+  <nav aria-label="Liên quan">
+    <p class="foot-h">Thêm tài nguyên miễn phí</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Trợ lý Đối chiếu ELE</a>
+    <a href="https://mglearn.github.io/activities/">Trung tâm Hoạt động Học tập</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Hoạt động nhóm về Công dân số</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

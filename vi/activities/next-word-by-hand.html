@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Đoán chữ tiếp theo bằng tay | Ngân hàng Hoạt động ELE</title>
+<meta name="description" content="Học sinh làm một &quot;máy đoán chữ&quot; bằng giấy từ các thẻ câu, xem nó bịa ra một sự thật sai rất tự tin về một cái hồ, và khám phá vì sao một câu lệnh dài hơn có giúp ích nhưng không bao giờ làm cho chatbot thực sự hiểu biết.">
+<meta property="og:title" content="Đoán chữ tiếp theo bằng tay | Ngân hàng Hoạt động ELE">
+<meta property="og:description" content="Học sinh làm một &quot;máy đoán chữ&quot; bằng giấy từ các thẻ câu, xem nó bịa ra một sự thật sai rất tự tin về một cái hồ, và khám phá vì sao một câu lệnh dài hơn có giúp ích nhưng không bao giờ làm cho chatbot thực sự hiểu biết.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/next-word-by-hand.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/next-word-by-hand.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/activities/next-word-by-hand.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/next-word-by-hand.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Ngân hàng Hoạt động</span></a>
+  <nav aria-label="Chính">
+    <a href="../index.html#catalog">Hoạt động</a>
+    <a href="../framework.html">Các ELE</a>
+    <details class="navmenu"><summary>Dành cho người điều phối</summary><div class="navmenu-panel">
+      <a href="../guide.html">Hướng dẫn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Chuẩn</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Ngôn ngữ</span><select aria-label="Ngôn ngữ"><option value="en" lang="en" data-href="../../activities/next-word-by-hand.html">English</option><option value="es" lang="es" data-href="../../es/activities/next-word-by-hand.html">Español</option><option value="vi" lang="vi" data-href="../../vi/activities/next-word-by-hand.html" selected>Tiếng Việt</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="vi">Bản dịch này được thực hiện với sự hỗ trợ của AI và đang chờ người bản ngữ xem xét. Bản tiếng Anh là bản gốc.</p>
+
+<main id="main" class="act">
+  <div class="act-head has-photo">
+    <figure class="act-photo"><img class="photo" src="../../assets/img/cat-35-genai.jpg" width="1536" height="1024" alt="Fourth graders give and follow instructions while building with blocks."></figure>
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Tất cả hoạt động</a> <span aria-hidden="true">/</span> Học tập của học sinh</p>
+    <h1>Đoán chữ tiếp theo bằng tay</h1>
+    <p class="lede">Học sinh làm một &quot;máy đoán chữ&quot; bằng giấy từ các thẻ câu, xem nó bịa ra một sự thật sai rất tự tin về một cái hồ, và khám phá vì sao một câu lệnh dài hơn có giúp ích nhưng không bao giờ làm cho chatbot thực sự hiểu biết.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/next-word-by-hand.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">In hướng dẫn này</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="Tóm tắt nhanh">
+      <dl>
+        <div><dt>Thời gian</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 phút</dd></div>
+        <div><dt>Hình thức</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</dd></div>
+        <div><dt>Lớp</dt><dd>3–5, 6–8</dd></div>
+        
+        <div><dt>Nhóm</dt><dd>Nhóm 3–4 em; bao nhiêu nhóm cũng được</dd></div>
+        <div><dt>Mạch nội dung</dt><dd class="chips"><span class="strand s-genai">AI tạo sinh</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Chỉ báo ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI1.1">AI1.1</a><div><span class="ind-area">AI trong Giáo dục · Hiểu biết về AI</span>Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.</div></li><li><a class="ele" href="../framework.html#AI1.3">AI1.3</a><div><span class="ind-area">AI trong Giáo dục · Hiểu biết về AI</span>Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.</div></li><li><a class="ele" href="../framework.html#S5.3">S5.3</a><div><span class="ind-area">Học sinh · Người Giải quyết Vấn đề Sáng tạo</span>Em nhận thức được cách vận dụng tư duy máy tính vào nhiều môn học khác nhau.</div></li><li><a class="ele" href="../framework.html#S1.3">S1.3</a><div><span class="ind-area">Học sinh · Thành thạo Công nghệ</span>Em nhận thức được AI có thể hỗ trợ việc học của mình như thế nào.</div></li><li><a class="ele" href="../framework.html#AI4.1">AI4.1</a><div><span class="ind-area">AI trong Giáo dục · AI và Tư duy Phản biện</span>Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.</div></li></ul>
+      <h2 class="glance-h">Phiếu</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Thẻ câu <span class="muted">(thẻ cắt rời)</span></li><li><span class="hl">B</span> Bảng đếm chữ tiếp theo <span class="muted">(sơ đồ tổ chức)</span></li><li><span class="hl">C</span> Cỗ máy của chúng em đã viết ra câu đó như thế nào? <span class="muted">(phiếu bài tập)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Tổng quan</h2><p class="overview">Chatbot AI tạo sinh viết bằng cách đoán chữ nào có khả năng xuất hiện tiếp theo, dựa trên các khuôn mẫu trong những văn bản mà nó đã học. Trong trò chơi này, các nhóm trở thành cỗ máy đó. Các em đếm xem chữ nào theo sau chữ nào trong tám thẻ câu ngắn, rồi &quot;viết&quot; câu mới bằng cách rút các mảnh giấy từ những chiếc cốc. Các câu tạo ra đúng ngữ pháp và thường buồn cười. Sau đó, ở <strong>vòng hồ nước</strong>, cỗ máy tạo ra một câu nghe như sự thật nhưng lại sai, dù mọi mảnh ghép của nó đều đến từ những thẻ đúng. Học sinh thử xem một câu lệnh dài hơn có khắc phục được vấn đề không, và ra về với khả năng giải thích bằng lời của mình vì sao chatbot có thể nghe rất chắc chắn mà vẫn sai.</p>
+        <h3 class="sub">Mục tiêu</h3><ul><li>Học sinh sẽ xây dựng một mô hình đoán chữ tiếp theo bằng cách đếm xem chữ nào theo sau chữ nào trong một bộ thẻ câu và dùng mô hình đó để tạo câu mới.</li><li>Học sinh sẽ giải thích bằng lời của mình rằng chatbot viết bằng cách dự đoán những chữ có khả năng xuất hiện tiếp theo dựa trên khuôn mẫu, chứ không phải bằng cách tra cứu sự thật.</li><li>Học sinh sẽ giải thích cách mô hình của mình tạo ra một &quot;sự thật&quot; sai từ những mảnh ghép đúng, và nêu một cách để kiểm tra câu trả lời của chatbot.</li><li>Học sinh sẽ so sánh kết quả từ một câu lệnh ngắn và một câu lệnh dài hơn, và mô tả câu lệnh dài hơn đã khắc phục được gì và không thể khắc phục được gì.</li></ul></section>
+      <section class="two">
+        <div><h2>Học liệu</h2>
+          <h3 class="sub">Trên giấy</h3><ul><li>Phiếu A: Thẻ câu (mỗi nhóm 1 bộ, đã cắt rời; để riêng Thẻ Hồ 9–12 trong một phong bì)</li><li>Phiếu B: Bảng đếm chữ tiếp theo (mỗi nhóm 1 bản)</li><li>Phiếu C: Cỗ máy của chúng em đã viết ra câu đó như thế nào? (mỗi học sinh 1 bản)</li><li>Khoảng 40 mảnh giấy nhỏ mỗi nhóm (một phần tư tờ giấy hoặc giấy ghi chú), 10 cốc hoặc phong bì mỗi nhóm, và 1 đồng xu mỗi nhóm</li><li>Giấy khổ lớn có tiêu đề &quot;Cỗ máy của chúng em nói…&quot; và bút lông</li></ul>
+          <h3 class="sub">Trên màn hình</h3><ul><li>Tùy chọn: một chatbot AI tạo sinh được khu học chánh phê duyệt, chỉ dùng trên thiết bị của giáo viên và trình chiếu cho cả lớp (học sinh không dùng tài khoản)</li><li>Tùy chọn: một máy chiếu vật thể để làm mẫu những lần đếm đầu tiên</li></ul></div>
+        <div><h2>Trước khi bắt đầu</h2><ol class="prep"><li>In và cắt Phiếu A cho mỗi nhóm. Để Thẻ Truyện 1–8 thành một xấp và Thẻ Hồ 9–12 vào một phong bì ghi &quot;Chưa được mở.&quot;</li><li>Tự làm mô hình một lần (khoảng 10 phút) để có thể hướng dẫn. Cốc &quot;con&quot; là cốc đầy nhất và lộn xộn nhất; đó là nơi các câu buồn cười xuất hiện. Sau &quot;là hồ,&quot; các thẻ hồ có &quot;sâu&quot; một lần và &quot;rộng&quot; một lần; đó là nơi sự thật sai xuất hiện.</li><li>Chuẩn bị mảnh giấy, cốc và đồng xu. Đừng dán nhãn cốc trước: dán nhãn là một phần của việc xây dựng cỗ máy.</li><li>Nếu định trình chiếu phần minh họa, hãy thử trước. Hỏi chatbot được phê duyệt: &quot;Hồ Wrenmere sâu bao nhiêu?&quot; (Wrenmere là tên bịa.) Ghi nhận xem nó bịa ra câu trả lời, nói rằng nó không biết, hay tìm kiếm trên mạng, để có thể dẫn dắt phần minh họa một cách trung thực.</li></ol></div>
+      </section>
+      <section><h2>Từng bước</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–4 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khởi động</p>
+        <h3>Nói tiếp câu của cô/thầy</h3>
+        <p>Mỗi lần, dừng lại trước chữ cuối cùng: &quot;Ngày xửa ngày…&quot; (cả lớp nói <em>xưa</em>). &quot;Kìa con bướm vàng, kìa con bướm…&quot; (<em>vàng</em>). &quot;Có công mài sắt, có ngày nên…&quot; (<em>kim</em>). Hỏi: <strong>&quot;Có ai tra cứu không? Sao các em biết?&quot;</strong> Nghe câu trả lời, rồi nói: &quot;Các em đã dự đoán. Các em đã nghe những chữ này đi cùng nhau nhiều lần đến mức não các em đoán được chữ tiếp theo. Chatbot AI tạo sinh làm điều gì đó tương tự, từng chữ một, với một lượng văn bản khổng lồ. Hôm nay nhóm các em sẽ làm một cỗ máy tí hon bằng giấy.&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Một số em sẽ hét lên những kết thúc buồn cười (&quot;có ngày nên… kẹo!&quot;). Hãy đón nhận: đó là bằng chứng rằng có thể có nhiều hơn một chữ tiếp theo, điều này quan trọng khi cả lớp bắt đầu rút giấy.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">4–9 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Làm mẫu</p>
+        <h3>Cùng đếm một thẻ</h3>
+        <p>Đưa Thẻ Truyện 1 lên máy chiếu vật thể hoặc viết lên bảng: <em>con chó chạy tới con đường .</em> Chỉ vào từng chữ và hỏi: &quot;Chữ nào đứng ngay sau chữ này?&quot; Đánh dấu vào Phiếu B: sau <strong>con</strong>, một vạch cho <em>chó</em>; sau <strong>chó</strong>, một vạch cho <em>chạy</em>; sau <strong>chạy</strong>, một vạch cho <em>tới</em>; sau <strong>tới</strong>, một vạch cho <em>con</em>; sau <strong>con</strong> lần nữa, một vạch cho <em>đường</em>. Giải thích một quy tắc đặc biệt: <strong>&quot;Khi các em rút được đường, cá, suối, thuyền, đò, trâu hoặc giun, câu kết thúc. Đặt dấu chấm.&quot;</strong></p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Học sinh thường quên rằng &quot;con&quot; xuất hiện hai lần trong một thẻ, nên được đếm hai vạch. Hãy chỉ ra điều này ngay ở đây, nói to lên, để nhóm nào cũng bắt đầu đúng. (Trong tiếng Việt, loại từ &quot;con&quot; đóng vai trò của chữ &quot;the&quot; trong bản tiếng Anh.)</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">9–18 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khám phá</p>
+        <h3>Huấn luyện cỗ máy</h3>
+        <p>Các nhóm chia Thẻ Truyện 1–8 để mỗi người đếm hai thẻ trên Phiếu B dùng chung. Sau đó các em làm <strong>một mảnh giấy cho mỗi vạch đếm</strong>, viết chữ tiếp theo lên đó và bỏ vào chiếc cốc dán nhãn chữ đứng trước. Ví dụ, cốc <strong>chạy</strong> có ba mảnh giấy đều ghi <em>tới</em>. Nói: &quot;Những chiếc cốc CHÍNH LÀ cỗ máy của các em. Đây là việc chúng ta gọi là huấn luyện: cỗ máy chỉ biết những gì có trong các thẻ này.&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Gợi ý phân công: Người đọc (đọc to từng cặp chữ), Người đếm, Người làm giấy, Người giữ cốc. Cần quan sát: cốc &quot;con&quot; phải có 16 mảnh giấy với rất nhiều chữ khác nhau. Hỏi một nhóm: &quot;Vì sao cốc này đầy và lộn xộn hơn cốc chạy nhiều như vậy?&quot;</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">18–25 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Luyện tập</p>
+        <h3>Tạo câu!</h3>
+        <p>Câu nào cũng bắt đầu bằng <strong>con</strong>. Rút một mảnh giấy từ cốc <strong>con</strong>, viết chữ đó ra, bỏ mảnh giấy lại vào cốc, rồi rút từ cốc của chữ vừa viết. Cứ tiếp tục cho đến khi câu kết thúc. Mỗi nhóm viết năm câu và chép câu hay nhất và buồn cười nhất lên tờ &quot;Cỗ máy của chúng em nói…&quot;. Hỏi cả lớp ba câu: <strong>&quot;Những câu này nghe có giống câu thật không? Chúng có đúng không? Cỗ máy đã bao giờ thấy chính xác những câu này chưa?&quot;</strong></p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Hãy chờ những câu như &quot;con vịt ăn con thuyền.&quot; Ngữ pháp ổn vì các khuôn mẫu chữ là thật; ý nghĩa thì sai vì cỗ máy chỉ theo dõi thứ tự chữ, không theo dõi thế giới thật. Cách nhanh hơn: nhắm mắt và gõ bút chì lên các vạch đếm trong hàng của chữ đó thay vì rút giấy.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">25–33 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Vận dụng</p>
+        <h3>Vòng hồ nước</h3>
+        <p>Mở phong bì. Đọc to Thẻ Hồ 9–12. Đó là những sự thật duy nhất cỗ máy biết về hai cái hồ tưởng tượng. Lần này cỗ máy nhìn vào <strong>hai chữ cuối</strong> để đoán chữ tiếp theo (lúc bắt đầu thì chỉ có tên hồ). Hầu hết các cặp hai chữ chỉ có một chữ tiếp theo, nên các nhóm cứ đi theo thẻ. Chỉ có ba loại ngã rẽ: sau <strong>Wrenmere</strong> hoặc <strong>Mossmere</strong> có thể là <em>thuộc</em> hoặc <em>là</em>; sau <strong>thuộc quận</strong> có thể là <em>Harlow</em> hoặc <em>Pike</em>; và sau <strong>là hồ</strong> có thể là <em>sâu</em> hoặc <em>rộng</em>. Ở mỗi ngã rẽ, tung đồng xu. Mỗi nhóm tạo ba câu bắt đầu bằng &quot;Mossmere&quot; và ba câu bắt đầu bằng &quot;Wrenmere.&quot; Chẳng bao lâu sẽ có nhóm ra câu <strong>&quot;Mossmere là hồ sâu nhất bang.&quot;</strong> Dừng cả lớp lại: &quot;Không có thẻ nào nói vậy. Thẻ 11 nói <em>Wrenmere</em> là hồ sâu nhất. Câu này từ đâu ra? Cỗ máy có đang nói dối không?&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Đây là ý tưởng lớn. Câu sai được ghép hoàn toàn từ những mảnh đúng. Cỗ máy không nói dối và cũng không bị hỏng; nó không có danh sách sự thật nào để đối chiếu, chỉ có khuôn mẫu về những chữ đi cùng nhau. Hãy gọi tên hiện tượng: khi một công cụ AI nói điều sai bằng giọng tự tin, người ta gọi đó là <strong>ảo giác (hallucination)</strong>.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">33–38 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Luyện tập</p>
+        <h3>Câu lệnh dài hơn có khắc phục được không?</h3>
+        <p>Bây giờ cho cỗ máy nhìn <strong>ba chữ</strong>. Sau &quot;Wrenmere thuộc quận,&quot; các thẻ chỉ có <em>Harlow</em>. Sau &quot;Mossmere là hồ,&quot; các thẻ chỉ có <em>rộng</em>. Các nhóm tạo câu lại và nhận thấy các câu sai biến mất. Hỏi: <strong>&quot;Vậy một câu lệnh (prompt) dài hơn, rõ ràng hơn có làm cho chatbot luôn đúng không?&quot;</strong> Hướng học sinh đến hai ý: một câu lệnh rõ ràng hơn thường giúp ích, VÀ nó không thể sửa những gì cỗ máy chưa bao giờ học hoặc đã học sai. Nếu Thẻ 11 có lỗi, không câu lệnh nào có thể làm cho cỗ máy biết đúng hơn.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Thêm phần an toàn khi mọi người đang nghĩ về câu lệnh: &quot;Câu lệnh dài hơn nghĩa là em đang nói với cỗ máy nhiều hơn. Tên, địa chỉ và những điều riêng tư về em hoặc bạn bè không bao giờ được đưa vào câu lệnh.&quot;</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">7</span><span class="step-time">38–45 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Suy ngẫm</p>
+        <h3>Máy giấy và chatbot thật, nói thật lòng</h3>
+        <p>Hãy thẳng thắn về sự khác biệt: &quot;Chatbot thật đã học từ lượng văn bản nhiều hơn tám thẻ rất, rất nhiều. Chúng dùng các mảnh của chữ, không chỉ chữ nguyên vẹn. Chúng nhìn lại nhiều hơn hai hoặc ba chữ, và con người đã huấn luyện thêm để chúng trả lời hữu ích. Nhưng thao tác chính vẫn là điều các em vừa làm: đoán điều gì có khả năng đến tiếp theo. Đó là lý do chatbot có thể hữu ích, nghe chắc chắn, mà vẫn sai. Vậy chúng ta làm gì? <strong>Chúng ta kiểm tra</strong> bằng một nguồn đáng tin cậy: sách, một trang web mà người lớn tin tưởng, một chuyên gia.&quot; Học sinh hoàn thành Phiếu C. Thu lại làm bằng chứng.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Lắng nghe những em nói chatbot &quot;nói dối&quot; hoặc &quot;ngốc.&quot; Nhẹ nhàng phản hồi: &quot;Cỗ máy giấy của chúng ta có nói dối không? Thực ra nó đang làm gì?&quot; Mục tiêu là những lời giải thích dựa trên khuôn mẫu và việc đoán.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Giấy hay màn hình</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</h3><p>Toàn bộ bài học được thiết kế để thực hiện không cần thiết bị: thẻ, bảng đếm, mảnh giấy, cốc và đồng xu chính là toàn bộ cỗ máy. Nếu làm giấy mất quá nhiều thời gian, hãy cho các nhóm tạo câu bằng cách nhắm mắt và gõ bút chì lên các vạch đếm trong hàng của mỗi chữ. Nếu thiếu thời gian, hãy làm một cỗ máy chung cho cả lớp ở phía trước với sự giúp đỡ của học sinh và cho các nhóm lần lượt rút giấy.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kỹ thuật số</h3><p>Sau vòng hồ nước, trình chiếu một chatbot được khu học chánh phê duyệt từ thiết bị của giáo viên (học sinh không bao giờ dùng tài khoản riêng). Hỏi nó: &quot;Hồ Wrenmere sâu bao nhiêu?&quot; Wrenmere là tên bịa, nên mọi câu trả lời cụ thể đều là bịa đặt. Nếu nó bịa ra độ sâu hoặc vị trí, hãy liên hệ ngay với vòng hồ nước: &quot;Nó đã làm đúng điều những chiếc cốc của chúng ta làm.&quot; Nếu nó nói không tìm thấy hồ đó, hãy khen điều đó và hỏi: &quot;Chúng ta sẽ làm gì nếu nó đưa ra một con số?&quot; Sau đó hỏi nó cùng một câu hai lần và so sánh hai câu trả lời: cách diễn đạt khác nhau mỗi lần cho thấy cùng một kiểu đoán rút-giấy đang hoạt động. Với học sinh lớn hơn, các nhóm có thể đếm trong một bảng tính dùng chung do giáo viên trình chiếu.</p></div>
+        <p class="why"><strong>Có cần màn hình không?</strong> Bài này làm không dùng màn hình sẽ tốt hơn. Việc rút giấy biến cỗ máy đoán chữ thành thứ học sinh có thể nhìn thấy và chạm vào, điều mà không màn hình chatbot nào cho thấy được. Một phần minh họa ngắn do giáo viên điều khiển ở cuối bài xứng đáng với thời gian dùng màn hình vì học sinh nhận ra cùng một hành vi ở một công cụ thật và tập kiểm tra nó.</p>
+      </section>
+      <section class="evidence"><h2>Bằng chứng học tập</h2><p class="muted">Những gì bạn có thể quan sát hoặc thu thập được nếu hoạt động thành công.</p><ul><li>Phiếu C giải thích câu sai về hồ như những mảnh được ghép lại (&quot;nó thấy 'là hồ sâu' ở một thẻ và 'Mossmere là' ở thẻ khác&quot;) chứ không phải cỗ máy nói dối hay bị hỏng.</li><li>Học sinh dự đoán đúng rằng cốc &quot;con&quot; tạo ra những câu lộn xộn nhất và giải thích được vì sao (nó có nhiều chữ tiếp theo khác nhau nhất).</li><li>Học sinh nói được câu lệnh dài hơn đã khắc phục điều gì và nêu được rằng nó không thể khắc phục những gì cỗ máy chưa bao giờ học.</li><li>Mỗi học sinh nêu một cách cụ thể để kiểm tra câu trả lời của chatbot (sách, trang web đáng tin cậy, một người lớn là chuyên gia).</li></ul></section>
+      <section><h2>Điều chỉnh</h2><dl class="adapt"><div><dt>Lớp 3</dt><dd>Làm một cỗ máy chung cho cả lớp ở phía trước với sự giúp đỡ của học sinh, và tổ chức vòng hồ nước cho cả lớp cùng làm, quý thầy cô tung đồng xu. Dùng khung câu: &quot;Cỗ máy nói vậy vì nó đã thấy ___ và ___.&quot;</dd></div><div><dt>Lớp 6–8</dt><dd>Sau vòng ba chữ, yêu cầu các nhóm viết hai thẻ hồ mới có nội dung đúng nhưng làm cho ảo giác dễ xảy ra hơn, rồi đổi với nhóm khác để thử. Thảo luận vì sao văn bản huấn luyện càng đa dạng thì kết quả càng đa dạng, và đôi khi sai.</dd></div><div><dt>Học sinh đang học song ngữ</dt><dd>Làm một bộ Thẻ Truyện thứ hai bằng một ngôn ngữ khác mà học sinh sử dụng (ví dụ tiếng Anh) và so sánh chữ nào theo sau chữ nào. Thứ tự từ khác nhau giữa các ngôn ngữ làm cho ý tưởng &quot;chữ tiếp theo&quot; trở nên sinh động.</dd></div><div><dt>Học sinh gặp khó khăn về vận động tinh</dt><dd>Bỏ qua mảnh giấy: tạo câu bằng cách chỉ vào các vạch đếm hoặc tung xúc xắc rồi đếm dọc theo hàng. Bạn cùng cặp có thể viết câu.</dd></div></dl></section>
+      <section class="stds"><h2>Liên kết với các chuẩn</h2><p>Học sinh đếm xem từ nào đi sau từ nào và tạo câu bằng cách rút thăm ngẫu nhiên, qua đó thấy việc dự đoán dựa trên khuôn mẫu có thể tạo ra một thông tin sai nhưng nghe rất chắc chắn.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Ứng dụng Công nghệ: tư duy máy tính">tư duy máy tính</a><a class="std std-teks" href="../standards.html#teks-ta-data" title="Ứng dụng Công nghệ: hiểu biết, quản lý và biểu diễn dữ liệu">hiểu biết, quản lý và biểu diễn dữ liệu</a><span class="std-sec">Các mục TEKS: Technology Applications §126.8–§126.10, §126.17–§126.19</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Nghe">Nghe</a><a class="std std-elps" href="../standards.html#elps-c3" title="Nói">Nói</a><a class="std std-elps" href="../standards.html#elps-c4" title="Đọc">Đọc</a><a class="std std-elps" href="../standards.html#elps-c5" title="Viết">Viết</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Làm nổi bật và khám phá khuôn mẫu, đặc điểm then chốt, ý tưởng lớn và các mối quan hệ">3.2</a><a class="std std-udl" href="../standards.html#udl-7-3" title="Nuôi dưỡng niềm vui và sự vui chơi">7.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Thúc đẩy hợp tác, sự phụ thuộc lẫn nhau và học tập tập thể">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Thúc đẩy suy ngẫm cá nhân và tập thể">9.3</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-math-reasoning" title="Toán học: phân tích dữ liệu và thể hiện rõ lập luận">phân tích dữ liệu và thể hiện rõ lập luận</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Xem cách tất cả hoạt động được đối chiếu với các chuẩn</a></p></section>
+      <section class="two">
+        <div><h2>Suy ngẫm</h2><ul><li>Cỗ máy giấy của chúng ta quyết định chữ tiếp theo như thế nào? Chatbot thật giống nó ở điểm nào, và khác ở điểm nào?</li><li>Vì sao cỗ máy của chúng ta có thể nói điều sai trong một câu nghe rất chắc chắn? Em nên làm gì khi chatbot nghe có vẻ chắc chắn? (Student ELE 1.3: Em nhận thức được AI có thể hỗ trợ việc học của em như thế nào.)</li><li>Em còn thấy khuôn mẫu được dùng để đoán điều tiếp theo ở đâu nữa: trong toán, trong âm nhạc, trong đọc hiểu?</li></ul></div>
+        <div><h2>Bước tiếp theo</h2><p>Ở nhà, học sinh chơi &quot;nói tiếp câu&quot; với người thân rồi dạy họ bài học từ vòng hồ nước trong một câu: &quot;Chatbot đoán chữ tiếp theo dựa trên khuôn mẫu, nên nó có thể nghe chắc chắn mà vẫn sai, và đó là lý do chúng ta kiểm tra.&quot; Trong bài học về AI tiếp theo, cho học sinh dùng lời giải thích trong Phiếu C trước mọi phần minh họa chatbot do giáo viên trình chiếu.</p></div>
+      </section>
+      <section><h2>Kết hợp tốt với</h2><ul class="connections"><li><a href="https://mglearn.github.io/activities/genailit/">Trò chơi giải đố Breakout về hiểu biết AI tạo sinh (K–8)</a><span>Các trò chơi giải đố do giáo viên trình chiếu, mở rộng hiểu biết về cách AI hoạt động và khi nào cần kiểm tra lại.</span></li></ul></section>
+      <section class="related noprint"><h2>Hoạt động liên quan</h2><div class="cards"><article class="card has-photo" data-id="robot-guesses">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-k2-genai.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp K–2</span></p>
+    <h3><a href="../activities/robot-guesses.html">Người máy đoán</a></h3>
+    <p class="card-tag">Các em huấn luyện một người máy tưởng tượng bằng thẻ hình và chữ, và khám phá ra rằng AI đoán dựa trên quy luật, và lời đoán có thể sai.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>30 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#AI1.3" title="AI trong Giáo dục 1.3: Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.">AI1.3</a><a class="ele" href="../framework.html#S1.3" title="Học sinh 1.3: Em nhận thức được AI có thể hỗ trợ việc học của mình như thế nào.">S1.3</a></span></div>
+  </article><article class="card" data-id="human-language-model">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Bồi dưỡng chuyên môn<span>dành cho Giáo viên, Thủ thư, Chuyên viên hỗ trợ, Giảng viên</span></p>
+    <h3><a href="../activities/human-language-model.html">Mô Hình Ngôn Ngữ Bằng Người</a></h3>
+    <p class="card-tag">Các nhà giáo dục trở thành một mô hình ngôn ngữ tí hon với những mẩu giấy và một chiếc cốc, và tự mình khám phá vì sao văn bản AI trôi chảy vẫn có thể sai một cách đầy tự tin.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-medialit">Hiểu biết truyền thông</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#AI1.2" title="AI trong Giáo dục 1.2: Tôi có thể giải thích các khái niệm AI một cách đơn giản cho nhiều đối tượng liên quan khác nhau.">AI1.2</a><a class="ele" href="../framework.html#AI1.3" title="AI trong Giáo dục 1.3: Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.">AI1.3</a></span></div>
+  </article><article class="card has-photo" data-id="algorithm-autopsy">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-912-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 9–12</span></p>
+    <h3><a href="../activities/algorithm-autopsy.html">Giải phẫu Thuật toán</a></h3>
+    <p class="card-tag">Học sinh mổ xẻ các tính năng thiết kế của một ứng dụng mạng xã hội hư cấu, lần theo cách mỗi tính năng định hình sự chú ý và niềm tin, rồi thiết kế lại bảng tin để phục vụ con người thay vì lượt tương tác.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>75 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span><span class="strand s-digcit">Công dân số</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#S5.2" title="Học sinh 5.2: Em có thể vận dụng sự sáng tạo và tư duy logic để tìm ra các giải pháp đổi mới.">S5.2</a><a class="ele" href="../framework.html#S5.1" title="Học sinh 5.1: Em biết cách tiếp cận các vấn đề phức tạp một cách có hệ thống.">S5.1</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Ngân hàng Hoạt động Kỳ vọng Học tập Thiết yếu của TCEA.</strong> Hoạt động bồi dưỡng chuyên môn và hoạt động cho học sinh K–16 về hiểu biết AI tạo sinh, công dân số và hiểu biết truyền thông, trên giấy hoặc trên màn hình.</p>
+    <p>Hoạt động do Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>) biên soạn, dựa trên <a href="https://tinyurl.com/tceaeles1">Kỳ vọng Học tập Thiết yếu của TCEA</a> (CC BY-SA 2024). Chia sẻ theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: được sao chép, chỉnh sửa và tái sử dụng khi ghi nguồn. Không cần đăng nhập, không theo dõi.</p>
+    <p class="ai-note">Ảnh trên trang này là hình minh họa do AI tạo ra về những người hư cấu, không phải học sinh hay nhân viên thật.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog TCEA</a>
+    <a href="https://convention.tcea.org/">Hội nghị &amp; Triển lãm TCEA</a>
+  </nav>
+  <nav aria-label="Liên quan">
+    <p class="foot-h">Thêm tài nguyên miễn phí</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Trợ lý Đối chiếu ELE</a>
+    <a href="https://mglearn.github.io/activities/">Trung tâm Hoạt động Học tập</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Hoạt động nhóm về Công dân số</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

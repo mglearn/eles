@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kiểm toán Dấu vết Dữ liệu | Ngân hàng Hoạt động ELE</title>
+<meta name="description" content="Các nhóm đọc chính sách quyền riêng tư của một ứng dụng học tập dùng AI như những điều tra viên, vẽ sơ đồ nơi dữ liệu của mình có thể đi đến, và chọn các thiết lập cùng thói quen giúp thu nhỏ dấu vết đó.">
+<meta property="og:title" content="Kiểm toán Dấu vết Dữ liệu | Ngân hàng Hoạt động ELE">
+<meta property="og:description" content="Các nhóm đọc chính sách quyền riêng tư của một ứng dụng học tập dùng AI như những điều tra viên, vẽ sơ đồ nơi dữ liệu của mình có thể đi đến, và chọn các thiết lập cùng thói quen giúp thu nhỏ dấu vết đó.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/data-trail-audit.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/data-trail-audit.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/activities/data-trail-audit.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/data-trail-audit.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Ngân hàng Hoạt động</span></a>
+  <nav aria-label="Chính">
+    <a href="../index.html#catalog">Hoạt động</a>
+    <a href="../framework.html">Các ELE</a>
+    <details class="navmenu"><summary>Dành cho người điều phối</summary><div class="navmenu-panel">
+      <a href="../guide.html">Hướng dẫn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Chuẩn</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Ngôn ngữ</span><select aria-label="Ngôn ngữ"><option value="en" lang="en" data-href="../../activities/data-trail-audit.html">English</option><option value="es" lang="es" data-href="../../es/activities/data-trail-audit.html">Español</option><option value="vi" lang="vi" data-href="../../vi/activities/data-trail-audit.html" selected>Tiếng Việt</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="vi">Bản dịch này được thực hiện với sự hỗ trợ của AI và đang chờ người bản ngữ xem xét. Bản tiếng Anh là bản gốc.</p>
+
+<main id="main" class="act">
+  <div class="act-head has-photo">
+    <figure class="act-photo"><img class="photo" src="../../assets/img/cat-912-digcit.jpg" width="1536" height="1024" alt="Two high school students read and highlight a printed app privacy policy."></figure>
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Tất cả hoạt động</a> <span aria-hidden="true">/</span> Học tập của học sinh</p>
+    <h1>Kiểm toán Dấu vết Dữ liệu</h1>
+    <p class="lede">Các nhóm đọc chính sách quyền riêng tư của một ứng dụng học tập dùng AI như những điều tra viên, vẽ sơ đồ nơi dữ liệu của mình có thể đi đến, và chọn các thiết lập cùng thói quen giúp thu nhỏ dấu vết đó.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/data-trail-audit.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">In hướng dẫn này</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="Tóm tắt nhanh">
+      <dl>
+        <div><dt>Thời gian</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>65 phút</dd></div>
+        <div><dt>Hình thức</dt><dd class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</dd></div>
+        <div><dt>Lớp</dt><dd>9–12, Giáo dục đại học</dd></div>
+        
+        <div><dt>Nhóm</dt><dd>Nhóm 3–4 người</dd></div>
+        <div><dt>Mạch nội dung</dt><dd class="chips"><span class="strand s-digcit">Công dân số</span><span class="strand s-genai">AI tạo sinh</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Chỉ báo ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#S2.1">S2.1</a><div><span class="ind-area">Học sinh · An toàn Trực tuyến</span>Em biết cách bảo vệ thông tin cá nhân của mình trên mạng.</div></li><li><a class="ele" href="../framework.html#S2.3">S2.3</a><div><span class="ind-area">Học sinh · An toàn Trực tuyến</span>Em nhận thức được những rủi ro tiềm ẩn khi chia sẻ nội dung trên mạng.</div></li><li><a class="ele" href="../framework.html#AI2.3">AI2.3</a><div><span class="ind-area">AI trong Giáo dục · Sử dụng AI có Đạo đức</span>Tôi nhận thức được tầm quan trọng của tính minh bạch và trách nhiệm giải trình trong hệ thống AI.</div></li><li><a class="ele" href="../framework.html#AI2.2">AI2.2</a><div><span class="ind-area">AI trong Giáo dục · Sử dụng AI có Đạo đức</span>Tôi có thể xác định các vấn đề đạo đức tiềm ẩn trong ứng dụng AI và đề xuất giải pháp.</div></li></ul>
+      <h2 class="glance-h">Phiếu</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Chính sách Quyền riêng tư của StudyNest AI (Trích đoạn) <span class="muted">(bài đọc)</span></li><li><span class="hl">B</span> Thẻ Dấu vết Dữ liệu <span class="muted">(thẻ cắt rời)</span></li><li><span class="hl">C</span> Sơ đồ Kiểm toán Chính sách <span class="muted">(sơ đồ tổ chức)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Tổng quan</h2><p class="overview">Mọi ứng dụng và công cụ AI mà học sinh sử dụng đều thu thập một thứ gì đó: những gì các em gõ, các em đang ở đâu, các em xem trong bao lâu, các em nói chuyện với ai. Chính sách quyền riêng tư giải thích phần lớn điều này, nhưng chúng dài và được viết cho giới luật sư. Trong buổi kiểm toán này, các nhóm giải mã một chính sách quyền riêng tư mô phỏng sát thực tế của một ứng dụng học tập dùng AI hư cấu, lần theo cách một mẩu dữ liệu có thể đi từ ứng dụng đến các đối tác và công ty môi giới dữ liệu, rồi kiểm toán một công cụ mà các em thực sự dùng. Các em ra về với một kế hoạch ngắn gọn, dựa trên bằng chứng: chia sẻ gì, thay đổi thiết lập nào, và thôi không gõ những gì vào chatbot.</p>
+        <h3 class="sub">Mục tiêu</h3><ul><li>Học sinh sẽ xác định một ứng dụng hoặc công cụ AI thu thập dữ liệu gì, để làm gì, chia sẻ với ai, và người dùng có những quyền kiểm soát nào, có trích dẫn câu chữ cụ thể trong chính sách.</li><li>Học sinh sẽ giải thích bằng lời của mình công ty môi giới dữ liệu là gì và dữ liệu từ một ứng dụng có thể đến tay những công ty mà người dùng chưa từng giao dịch như thế nào.</li><li>Học sinh sẽ lập một kế hoạch dữ liệu cá nhân gồm những thay đổi thiết lập cụ thể và một quy tắc về những gì mình sẽ không chia sẻ với công cụ AI.</li></ul></section>
+      <section class="two">
+        <div><h2>Học liệu</h2>
+          <h3 class="sub">Trên giấy</h3><ul><li>Phiếu A: Chính sách Quyền riêng tư của StudyNest AI, trích đoạn (mỗi học sinh 1 phiếu)</li><li>Phiếu B: Thẻ Dấu vết Dữ liệu (mỗi nhóm 1 bộ, cắt rời)</li><li>Phiếu C: Sơ đồ Kiểm toán Chính sách (mỗi nhóm 1 phiếu)</li><li>Nhãn dán chấm tròn hoặc bút dạ quang ba màu (xanh lá, vàng, đỏ)</li></ul>
+          <h3 class="sub">Trên màn hình</h3><ul><li>Mỗi nhóm một thiết bị có trình duyệt để mở chính sách quyền riêng tư của một ứng dụng hoặc công cụ AI mà lớp đang dùng (ưu tiên công cụ đã được nhà trường phê duyệt)</li><li>Tùy chọn: điện thoại riêng của học sinh, chỉ để các em tự kiểm tra thiết lập của mình một cách riêng tư; không bao giờ bắt buộc</li></ul></div>
+        <div><h2>Trước khi bắt đầu</h2><ol class="prep"><li>In Phiếu A và C cho mỗi nhóm và cắt rời Phiếu B.</li><li>Chọn hai hoặc ba công cụ thật mà học sinh đang dùng và đã được học khu hoặc cơ sở giáo dục phê duyệt (LMS, một công cụ AI được nhà trường phê duyệt, một ứng dụng học tập) và đánh dấu trang chính sách quyền riêng tư của chúng cho vòng kỹ thuật số.</li><li>Đọc mặt sau các Thẻ Dấu vết Dữ liệu để có thể giải thích từng chặng mà không cần dựa vào số liệu thống kê bên ngoài.</li><li>Nhắc học sinh rằng các em sẽ không bao giờ phải chia sẻ dữ liệu, ảnh chụp màn hình hay thiết lập của mình với bất kỳ ai trong lớp.</li></ol></div>
+      </section>
+      <section><h2>Từng bước</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khởi động</p>
+        <h3>Hôm nay bạn đã kể gì với internet?</h3>
+        <p>Yêu cầu học sinh lặng lẽ liệt kê, trên một mẩu giấy các em sẽ tự giữ, mọi thứ các em đã gõ, tìm kiếm, nhấp vào, hoặc hỏi một công cụ AI kể từ khi thức dậy. Cho 90 giây. Sau đó hỏi: <strong>&quot;Điều nào trong số đó bạn sẽ thấy khó chịu nếu nó xuất hiện trên một tấm biển quảng cáo? Điều nào trong số đó đã bị một ứng dụng lưu lại?&quot;</strong> Nói: &quot;Hầu hết chúng ta không biết câu trả lời cho câu hỏi thứ hai. Hôm nay chúng ta sẽ tìm hiểu cách kiểm tra.&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Giữ các danh sách ở chế độ riêng tư. Mục đích là nhận ra khối lượng và mức độ nhạy cảm, không phải để chia sẻ.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–13 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Làm mẫu</p>
+        <h3>Đọc chính sách như một điều tra viên</h3>
+        <p>Trình chiếu Phiếu A. Làm mẫu bốn câu hỏi của điều tra viên với phần đầu tiên: <strong>Họ thu thập gì? Để làm gì? Ai khác nhận được? Tôi có thể kiểm soát điều gì?</strong> Tô <strong>xanh lá</strong> những gì có vẻ ổn và hợp lý, <strong>vàng</strong> những gì bạn muốn biết thêm, và <strong>đỏ</strong> những gì khiến bạn lo lắng. Nói to suy nghĩ về những từ mơ hồ: &quot;<em>có thể</em> chia sẻ,&quot; &quot;<em>đối tác đáng tin cậy</em>,&quot; &quot;<em>cải thiện dịch vụ của chúng tôi</em>.&quot; Hỏi: &quot;'Cải thiện dịch vụ của chúng tôi' có nghĩa là gì đối với một cuộc trò chuyện bạn đã có với một công cụ học tập dùng AI?&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Chỉ ra rằng trong một công cụ AI, &quot;cải thiện dịch vụ của chúng tôi&quot; có thể bao gồm việc dùng các cuộc trò chuyện để huấn luyện hoặc đánh giá mô hình. Một số chính sách cho phép người dùng từ chối, một số thì không, và một số không nói rõ. Việc không nói rõ tự nó đã là một phát hiện.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">13–28 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khám phá</p>
+        <h3>Kiểm toán StudyNest</h3>
+        <p>Các nhóm hoàn tất việc tô màu Phiếu A và điền dòng StudyNest trong Phiếu C, trích dẫn chính xác câu chữ trả lời cho từng câu hỏi của điều tra viên. Sau đó mỗi nhóm cho StudyNest một <strong>mức độ tin cậy (xanh lá, vàng, đỏ)</strong> kèm một câu giải thích. Đi vòng quanh lớp và yêu cầu trích dẫn: &quot;Chỉ cho thầy/cô những chữ cho bạn biết điều đó.&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Mục 5 (&quot;dữ liệu đã được khử nhận dạng&quot;) và Mục 7 (&quot;chuyển giao doanh nghiệp&quot;) là hai mục hay bị bỏ sót nhất. Hướng các nhóm đến đó nếu họ xong sớm.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">28–38 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khám phá</p>
+        <h3>Lần theo dấu vết</h3>
+        <p>Các nhóm xếp các Thẻ Dấu vết Dữ liệu theo thứ tự để kể câu chuyện của một mẩu dữ liệu, từ lúc một học sinh gõ câu hỏi vào StudyNest cho đến một quảng cáo bám theo bạn ấy trên một trang web khác. Các nhóm đọc từng thẻ, sắp xếp các chặng, rồi lật thẻ để kiểm tra lời giải thích ở mặt sau. Giải thích đơn giản về <strong>công ty môi giới dữ liệu</strong>: đó là những công ty thu thập thông tin về con người từ nhiều nguồn, gộp lại thành hồ sơ, rồi bán hoặc cấp phép sử dụng những hồ sơ đó, thường mà người trong cuộc không hề biết công ty môi giới ấy tồn tại.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Tránh đưa ra nhận định về số lượng công ty môi giới hay lượng dữ liệu họ nắm giữ. Điều học sinh cần là cơ chế, không phải một con số.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">38–53 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Vận dụng</p>
+        <h3>Kiểm toán một công cụ thật</h3>
+        <p>Mỗi nhóm mở chính sách quyền riêng tư của một công cụ lớp đang dùng (từ danh sách đã đánh dấu) và điền dòng thứ hai của Phiếu C với câu chữ trích dẫn. Các nhóm cũng tìm xem có trang thiết lập nào về việc sử dụng dữ liệu, lịch sử trò chuyện, hoặc huấn luyện mô hình không, và ghi lại những tùy chọn hiện có. <strong>Phương án không dùng màn hình:</strong> in sẵn hai trang đầu của chính sách thật của một công cụ được nhà trường phê duyệt, hoặc cho các nhóm kiểm toán các mục trong Phiếu A mà họ chưa làm xong.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Nếu một nhóm phát hiện một công cụ được nhà trường phê duyệt có điều khoản mà họ đánh giá màu đỏ, hãy coi đó là phản hồi hữu ích. Thu thập những phát hiện đó để chia sẻ với phòng công nghệ.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">53–65 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Suy ngẫm</p>
+        <h3>Kế hoạch dữ liệu của tôi</h3>
+        <p>Mỗi học sinh viết một kế hoạch ba phần ở mặt sau Phiếu C: <strong>một thiết lập tôi sẽ kiểm tra hoặc thay đổi</strong> (trên thiết bị của mình, một cách riêng tư), <strong>một điều tôi sẽ không bao giờ gõ vào công cụ AI</strong> (ví dụ, họ tên đầy đủ kèm tên trường, thông tin sức khỏe, mật khẩu, thông tin cá nhân của bạn bè, hoặc ảnh của người khác), và <strong>một câu hỏi tôi muốn hỏi một công ty</strong> về chính sách của họ. Mời học sinh tình nguyện chia sẻ quy tắc &quot;không bao giờ gõ&quot; của mình, và lập một danh sách chung trên bảng.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Hãy tìm những quy tắc cụ thể (&quot;Tôi sẽ không dán bài luận xét tuyển đại học có tên và địa chỉ của mình vào chatbot&quot;) thay vì những quy tắc chung chung (&quot;cẩn thận khi lên mạng&quot;).</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Giấy hay màn hình</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</h3><p>Thực hiện toàn bộ phần kiểm toán StudyNest và Thẻ Dấu vết Dữ liệu trên giấy. Với vòng &quot;công cụ thật&quot;, in sẵn các trang đầu trong chính sách quyền riêng tư của một công cụ được nhà trường phê duyệt. Học sinh viết kế hoạch dữ liệu trên giấy và tự kiểm tra thiết lập của mình ở nhà.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kỹ thuật số</h3><p>Các nhóm mở chính sách quyền riêng tư thật trên trình duyệt và dùng chức năng tìm trong trang với các từ như &quot;share,&quot; &quot;partners,&quot; &quot;train,&quot; &quot;retain,&quot; và &quot;delete&quot; (hoặc từ tương đương trong ngôn ngữ của chính sách) để đi thẳng đến các điều khoản chính, rồi dán câu trích dẫn vào một bản Phiếu C dùng chung. Học sinh có thể tự kiểm tra thiết lập trên thiết bị riêng của mình; không bao giờ yêu cầu các em cho xem hay chụp màn hình thiết lập cá nhân. Nếu có công cụ AI được phê duyệt cho học sinh từ 13 tuổi trở lên, các nhóm có thể yêu cầu nó tóm tắt một chính sách rồi đối chiếu bản tóm tắt với văn bản gốc, việc này thường cho thấy các bản tóm tắt bỏ sót những gì.</p></div>
+        <p class="why"><strong>Có cần màn hình không?</strong> Tìm từ khóa trong một chính sách thật và tìm ra trang thiết lập thực tế biến một lời cảnh báo trừu tượng thành một kỹ năng học sinh có thể lặp lại với bất kỳ ứng dụng nào. Bằng chứng là một câu trích dẫn các em tìm được và một thiết lập các em định vị được, chứ không phải một khẩu hiệu về sự cẩn thận.</p>
+      </section>
+      <section class="evidence"><h2>Bằng chứng học tập</h2><p class="muted">Những gì bạn có thể quan sát hoặc thu thập được nếu hoạt động thành công.</p><ul><li>Phiếu C trích dẫn chính xác câu chữ trong chính sách cho từng câu hỏi của điều tra viên thay vì diễn giải lỏng lẻo.</li><li>Các nhóm nhận ra thông tin mơ hồ hoặc bị thiếu (&quot;không nói rõ các cuộc trò chuyện có được dùng để huấn luyện mô hình không&quot;) và coi đó là một phát hiện.</li><li>Học sinh giải thích vai trò của công ty môi giới dữ liệu bằng lời của mình, dựa vào các thẻ dấu vết.</li><li>Kế hoạch dữ liệu nêu một thiết lập cụ thể, một quy tắc &quot;không bao giờ gõ&quot; cụ thể, và một câu hỏi cụ thể dành cho một công ty.</li></ul></section>
+      <section><h2>Điều chỉnh</h2><dl class="adapt"><div><dt>Giáo dục đại học</dt><dd>Kiểm toán chính sách quyền riêng tư của một công cụ AI mà trường đại học có bản quyền và hướng dẫn riêng của cơ sở về dữ liệu sinh viên, rồi thảo luận hồ sơ học tập của sinh viên nằm ở đâu trong bức tranh này.</dd></div><div><dt>Lớp 9</dt><dd>Chỉ dùng Mục 1, 2, 4 và 6 của Phiếu A và cung cấp cho các nhóm bảng thuật ngữ cho &quot;bên thứ ba,&quot; &quot;lưu giữ,&quot; &quot;khử nhận dạng,&quot; và &quot;từ chối tham gia.&quot;</dd></div><div><dt>Học sinh song ngữ đang phát triển</dt><dd>Cung cấp bảng thuật ngữ song ngữ cho các nhóm và để các em kiểm tra xem chính sách của một công cụ thật có bản bằng ngôn ngữ ở nhà của mình không, bản thân điều đó đã là một phát hiện hữu ích về khả năng tiếp cận.</dd></div><div><dt>Gia đình</dt><dd>Gửi các câu hỏi của điều tra viên về nhà và mời học sinh cùng cha mẹ hoặc người giám hộ kiểm toán một ứng dụng.</dd></div></dl></section>
+      <section class="stds"><h2>Liên kết với các chuẩn</h2><p>Học sinh giải mã một chính sách quyền riêng tư mô phỏng, trích dẫn chính xác câu chữ về việc thu thập và chia sẻ dữ liệu, và lần theo dữ liệu đến các công ty môi giới dữ liệu, một phần cốt lõi về quyền riêng tư và an ninh trong công dân số.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-10" title="Ứng dụng Công nghệ, công dân số: quyền riêng tư, an toàn và bảo mật (c)(10)">quyền riêng tư, an toàn và bảo mật (c)(10)</a><a class="std std-teks" href="../standards.html#teks-elar-comp" title="ELAR: kỹ năng đọc hiểu">kỹ năng đọc hiểu</a><a class="std std-teks" href="../standards.html#teks-elar-resp" title="ELAR: kỹ năng phản hồi">kỹ năng phản hồi</a><span class="std-sec">Các mục TEKS: Technology Applications các môn Ứng dụng Công nghệ bậc trung học phổ thông (19 TAC Chương 126); ELAR §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Nghe">Nghe</a><a class="std std-elps" href="../standards.html#elps-c3" title="Nói">Nói</a><a class="std std-elps" href="../standards.html#elps-c4" title="Đọc">Đọc</a><a class="std std-elps" href="../standards.html#elps-c5" title="Viết">Viết</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-2-1" title="Làm rõ từ vựng, ký hiệu và cấu trúc ngôn ngữ">2.1</a><a class="std std-udl" href="../standards.html#udl-6-3" title="Tổ chức thông tin và tài nguyên">6.3</a><a class="std std-udl" href="../standards.html#udl-7-2" title="Tối ưu hóa tính liên quan, giá trị và tính chân thực">7.2</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Thúc đẩy hợp tác, sự phụ thuộc lẫn nhau và học tập tập thể">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Tối đa hóa khả năng chuyển giao và khái quát hóa">3.4</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-rla-reading" title="Đọc (RLA): đọc hiểu và phân tích văn bản, có dẫn chứng">đọc hiểu và phân tích văn bản, có dẫn chứng</a><a class="std std-sst" href="../standards.html#sst-ss-sources" title="Khoa học xã hội: nguồn, nhận định, và mạch kinh tế, khoa học, công nghệ và xã hội">nguồn, nhận định, và mạch kinh tế, khoa học, công nghệ và xã hội</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Xem cách tất cả hoạt động được đối chiếu với các chuẩn</a></p></section>
+      <section class="two">
+        <div><h2>Suy ngẫm</h2><ul><li>Tôi bảo vệ thông tin cá nhân của mình như thế nào khi sử dụng ứng dụng và công cụ AI? (S2.1)</li><li>Những rủi ro nào khi chia sẻ nội dung hay dữ liệu trên mạng mà trước đây tôi chưa từng nghĩ tới? (S2.3)</li><li>Vì sao các công ty AI cần minh bạch về những gì họ làm với nội dung tôi gõ vào? (AI2.3)</li></ul></div>
+        <div><h2>Bước tiếp theo</h2><p>Trong học kỳ này, trước khi dùng bất kỳ ứng dụng hay công cụ AI mới nào, học sinh áp dụng bốn câu hỏi của điều tra viên và ghi nhanh câu trả lời vào sổ. Ở nhà, học sinh có thể dùng các câu hỏi này cùng gia đình với một ứng dụng mà cả nhà đều dùng.</p></div>
+      </section>
+      <section><h2>Kết hợp tốt với</h2><ul class="connections"><li><a href="https://mglearn.github.io/tcea/privacy-audit/">Kiểm toán Quyền riêng tư Ứng dụng cùng Gia đình</a><span>Hoạt động mang về nhà đi kèm, để kiểm toán ứng dụng cùng gia đình.</span></li><li><a href="https://mglearn.github.io/tcea/protect_rubric_v2/">PROTECT Rubric v2.0</a><span>Một bộ tiêu chí đánh giá các biện pháp bảo mật và quyền riêng tư của công cụ, hữu ích để mở rộng phần kiểm toán công cụ thật.</span></li></ul></section>
+      <section class="related noprint"><h2>Hoạt động liên quan</h2><div class="cards"><article class="card has-photo" data-id="password-power">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-35-digcit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-digcit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 3–5</span></p>
+    <h3><a href="../activities/password-power.html">Sức Mạnh Mật Khẩu &amp; Người Giữ Bí Mật</a></h3>
+    <p class="card-tag">Học sinh xếp hạng các mật khẩu từ yếu đến mạnh, tạo những cụm mật khẩu luyện tập ngộ nghĩnh nhưng mạnh, và phân loại các tình huống khó thành giữ bí mật, chỉ chia sẻ với người lớn đáng tin cậy, hoặc báo ngay cho người lớn.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>40 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-digcit">Công dân số</span><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#S2.1" title="Học sinh 2.1: Em biết cách bảo vệ thông tin cá nhân của mình trên mạng.">S2.1</a><a class="ele" href="../framework.html#S2.3" title="Học sinh 2.3: Em nhận thức được những rủi ro tiềm ẩn khi chia sẻ nội dung trên mạng.">S2.3</a><a class="ele" href="../framework.html#S4.1" title="Học sinh 4.1: Em biết cách tự chịu trách nhiệm về việc học của mình.">S4.1</a></span></div>
+  </article><article class="card has-photo" data-id="phish-tank-irl">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-35-digcit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-digcit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 3–5, Lớp 6–8</span></p>
+    <h3><a href="../activities/phish-tank-irl.html">Bể Lừa đảo Ngoài đời thật</a></h3>
+    <p class="card-tag">Các nhóm phân loại mười bốn tin nhắn, email và tin nhắn trong trò chơi thành an toàn, lừa đảo hoặc cần kiểm tra bằng cách khác, và tìm hiểu vì sao những trò lừa được AI trau chuốt khiến lỗi chính tả trở thành manh mối vô dụng.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>40 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-digcit">Công dân số</span><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#S2.1" title="Học sinh 2.1: Em biết cách bảo vệ thông tin cá nhân của mình trên mạng.">S2.1</a><a class="ele" href="../framework.html#S2.3" title="Học sinh 2.3: Em nhận thức được những rủi ro tiềm ẩn khi chia sẻ nội dung trên mạng.">S2.3</a><a class="ele" href="../framework.html#AI2.2" title="AI trong Giáo dục 2.2: Tôi có thể xác định các vấn đề đạo đức tiềm ẩn trong ứng dụng AI và đề xuất giải pháp.">AI2.2</a></span></div>
+  </article><article class="card has-photo" data-id="digital-footprint-trail">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-35-digcit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-digcit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 3–5</span></p>
+    <h3><a href="../activities/digital-footprint-trail.html">Lần theo Dấu chân Số</a></h3>
+    <p class="card-tag">Các nhóm lần theo một chuỗi dấu chân giấy mà một học sinh lớp 4 hư cấu để lại trên mạng, ghép lại xem một người lạ có thể biết gì về bạn ấy, rồi lên kế hoạch cho những dấu chân mình muốn để lại.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>40 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-digcit">Công dân số</span><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#S2.3" title="Học sinh 2.3: Em nhận thức được những rủi ro tiềm ẩn khi chia sẻ nội dung trên mạng.">S2.3</a><a class="ele" href="../framework.html#S2.1" title="Học sinh 2.1: Em biết cách bảo vệ thông tin cá nhân của mình trên mạng.">S2.1</a><a class="ele" href="../framework.html#S4.3" title="Học sinh 4.3: Em nhận thức được điểm mạnh trong học tập và những điểm cần cải thiện của mình.">S4.3</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Ngân hàng Hoạt động Kỳ vọng Học tập Thiết yếu của TCEA.</strong> Hoạt động bồi dưỡng chuyên môn và hoạt động cho học sinh K–16 về hiểu biết AI tạo sinh, công dân số và hiểu biết truyền thông, trên giấy hoặc trên màn hình.</p>
+    <p>Hoạt động do Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>) biên soạn, dựa trên <a href="https://tinyurl.com/tceaeles1">Kỳ vọng Học tập Thiết yếu của TCEA</a> (CC BY-SA 2024). Chia sẻ theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: được sao chép, chỉnh sửa và tái sử dụng khi ghi nguồn. Không cần đăng nhập, không theo dõi.</p>
+    <p class="ai-note">Ảnh trên trang này là hình minh họa do AI tạo ra về những người hư cấu, không phải học sinh hay nhân viên thật.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog TCEA</a>
+    <a href="https://convention.tcea.org/">Hội nghị &amp; Triển lãm TCEA</a>
+  </nav>
+  <nav aria-label="Liên quan">
+    <p class="foot-h">Thêm tài nguyên miễn phí</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Trợ lý Đối chiếu ELE</a>
+    <a href="https://mglearn.github.io/activities/">Trung tâm Hoạt động Học tập</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Hoạt động nhóm về Công dân số</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

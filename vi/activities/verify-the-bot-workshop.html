@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kiểm Chứng Chatbot | Ngân hàng Hoạt động ELE</title>
+<meta name="description" content="Giáo viên khoa học tách những lời giải thích đầy tự tin của AI thành các nhận định có thể kiểm tra, kiểm chứng từng nhận định với hai nguồn độc lập, và ra về với một buổi tập huấn 15 phút để dạy quy trình này cho đồng nghiệp.">
+<meta property="og:title" content="Kiểm Chứng Chatbot | Ngân hàng Hoạt động ELE">
+<meta property="og:description" content="Giáo viên khoa học tách những lời giải thích đầy tự tin của AI thành các nhận định có thể kiểm tra, kiểm chứng từng nhận định với hai nguồn độc lập, và ra về với một buổi tập huấn 15 phút để dạy quy trình này cho đồng nghiệp.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/verify-the-bot-workshop.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/verify-the-bot-workshop.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/activities/verify-the-bot-workshop.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/verify-the-bot-workshop.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Ngân hàng Hoạt động</span></a>
+  <nav aria-label="Chính">
+    <a href="../index.html#catalog">Hoạt động</a>
+    <a href="../framework.html">Các ELE</a>
+    <details class="navmenu"><summary>Dành cho người điều phối</summary><div class="navmenu-panel">
+      <a href="../guide.html">Hướng dẫn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Chuẩn</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Ngôn ngữ</span><select aria-label="Ngôn ngữ"><option value="en" lang="en" data-href="../../activities/verify-the-bot-workshop.html">English</option><option value="es" lang="es" data-href="../../es/activities/verify-the-bot-workshop.html">Español</option><option value="vi" lang="vi" data-href="../../vi/activities/verify-the-bot-workshop.html" selected>Tiếng Việt</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="vi">Bản dịch này được thực hiện với sự hỗ trợ của AI và đang chờ người bản ngữ xem xét. Bản tiếng Anh là bản gốc.</p>
+
+<main id="main" class="act">
+  <div class="act-head">
+    
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Tất cả hoạt động</a> <span aria-hidden="true">/</span> Bồi dưỡng chuyên môn</p>
+    <h1>Kiểm Chứng Chatbot</h1>
+    <p class="lede">Giáo viên khoa học tách những lời giải thích đầy tự tin của AI thành các nhận định có thể kiểm tra, kiểm chứng từng nhận định với hai nguồn độc lập, và ra về với một buổi tập huấn 15 phút để dạy quy trình này cho đồng nghiệp.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/verify-the-bot-workshop.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">In hướng dẫn này</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="Tóm tắt nhanh">
+      <dl>
+        <div><dt>Thời gian</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>60 phút</dd></div>
+        <div><dt>Hình thức</dt><dd class="mode m-digital"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kỹ thuật số</dd></div>
+        <div><dt>Dành cho</dt><dd>Giáo viên, Thủ thư, Chuyên viên hỗ trợ</dd></div>
+        <div><dt>Đối tượng</dt><dd>6–8, 9–12</dd></div>
+        <div><dt>Nhóm</dt><dd>Theo cặp trong nhóm 4 người; phù hợp với 8–40 người</dd></div>
+        <div><dt>Mạch nội dung</dt><dd class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-medialit">Hiểu biết truyền thông</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Chỉ báo ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI4.2">AI4.2</a><div><span class="ind-area">AI trong Giáo dục · AI và Tư duy Phản biện</span>Tôi có thể dạy người khác đặt câu hỏi và kiểm chứng kết quả do AI tạo ra.</div></li><li><a class="ele" href="../framework.html#AI4.1">AI4.1</a><div><span class="ind-area">AI trong Giáo dục · AI và Tư duy Phản biện</span>Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.</div></li><li><a class="ele" href="../framework.html#AI4.3">AI4.3</a><div><span class="ind-area">AI trong Giáo dục · AI và Tư duy Phản biện</span>Tôi nhận thức được các chiến lược phát triển kỹ năng giải quyết vấn đề liên quan đến AI.</div></li></ul>
+      <h2 class="glance-h">Phiếu</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Các câu trả lời khoa học mô phỏng của AI <span class="muted">(bài đọc)</span></li><li><span class="hl">B</span> Sổ nhận định <span class="muted">(sơ đồ tổ chức)</span></li><li><span class="hl">C</span> Công cụ lập kế hoạch buổi tập huấn 15 phút <span class="muted">(phiếu bài tập)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Tổng quan</h2><p class="overview">Chatbot AI giải thích khoa học rất trôi chảy, và chúng có thể trộn lẫn những lời giải thích chính xác với những quan niệm sai kinh điển, trích dẫn bịa đặt và những con số nghe có vẻ đúng. Giải pháp không phải là &quot;đừng tin AI&quot; hay &quot;hãy tin AI&quot;; mà là một quy trình: tách câu trả lời thành các nhận định, kiểm tra từng nhận định với hai nguồn độc lập, rồi giữ, sửa hoặc bỏ. Người tham gia luyện tập quy trình trên các câu trả lời AI mô phỏng được in sẵn về các mùa trong năm và sự phát triển của cây, thực hiện trực tiếp trên một chatbot được học khu phê duyệt, rồi lên kế hoạch cho một phiên bản 15 phút mà họ có thể dẫn dắt cho tổ bộ môn của mình, vì dạy đồng nghiệp kiểm chứng là cách để thói quen này lan tỏa đến học sinh.</p>
+        <h3 class="sub">Mục tiêu</h3><ul><li>Người tham gia tách một lời giải thích khoa học do AI tạo ra thành các nhận định riêng lẻ, có thể kiểm tra (sự kiện, con số, trích dẫn, lời giải thích).</li><li>Người tham gia kiểm chứng các nhận định với ít nhất hai nguồn độc lập, đáng tin cậy và dán nhãn mỗi nhận định là giữ, sửa hoặc bỏ.</li><li>Người tham gia chỉnh sửa một câu lệnh (prompt) hoặc câu hỏi tiếp nối để kết quả AI dễ kiểm chứng hơn, và giải thích vì sao điều đó không thay thế được việc kiểm chứng.</li><li>Người tham gia lên kế hoạch cho một buổi tập huấn ngắn để dạy quy trình này cho đồng nghiệp hoặc học sinh.</li></ul></section>
+      <section class="two">
+        <div><h2>Học liệu</h2>
+          <h3 class="sub">Trên giấy</h3><ul><li>Phiếu A: Các câu trả lời khoa học mô phỏng của AI (mỗi người 1 bản)</li><li>Phiếu B: Sổ nhận định (mỗi cặp 2 bản)</li><li>Phiếu C: Công cụ lập kế hoạch buổi tập huấn 15 phút (mỗi người 1 bản)</li><li>Hai hoặc ba sách giáo khoa khoa học hiện hành hoặc các trang tài liệu tham khảo in sẵn về các mùa và quang hợp, cho phương án không dùng màn hình</li></ul>
+          <h3 class="sub">Trên màn hình</h3><ul><li>Mỗi cặp một thiết bị có trình duyệt</li><li>Một chatbot AI tạo sinh được học khu phê duyệt: trên thiết bị của người tham gia nếu nhân viên có tài khoản được phê duyệt, nếu không thì người điều phối trình chiếu</li><li>Quyền truy cập các tài liệu tham khảo khoa học đáng tin cậy: phiên bản kỹ thuật số của sách giáo khoa đang dùng, cơ sở dữ liệu thư viện, và các trang giáo dục của cơ quan khoa học và trường đại học</li></ul></div>
+        <div><h2>Trước khi bắt đầu</h2><ol class="prep"><li>In Phiếu A, B và C.</li><li>Tự kiểm chứng đáp án của Phiếu A, dùng hai nguồn cho mỗi nhận định. Câu trả lời 1: độ nghiêng của trục (khoảng 23,4 độ), ánh nắng chiếu trực tiếp hơn, ngày dài hơn và mùa ngược lại ở Nam Bán cầu là chính xác; nhận định rằng Trái Đất ở gần Mặt Trời hơn vào mùa hè của Bắc Bán cầu là sai (Trái Đất gần Mặt Trời nhất vào đầu tháng Một). Câu trả lời 2: phần lớn khối lượng khô của cây đến từ khí carbon dioxide lấy từ không khí trong quá trình quang hợp, không phải từ đất, vốn chỉ cung cấp nước và một lượng nhỏ khoáng chất; nghiên cứu, nhà nghiên cứu, trường đại học và tỷ lệ phần trăm đều là hư cấu, và câu cuối khái quát hóa quá mức.</li><li>Chọn một câu hỏi khoa học thuộc đơn vị bài học hiện tại cho vòng trực tiếp và thử trước trên chatbot được phê duyệt. Ghi lại những nhận định bạn muốn các cặp kiểm tra.</li><li>Mời thủ thư của trường cùng điều phối phần tìm nguồn và chia sẻ quyền truy cập cơ sở dữ liệu.</li></ol></div>
+      </section>
+      <section><h2>Từng bước</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khởi động</p>
+        <h3>Nghe có vẻ đúng</h3>
+        <p>Trình chiếu Câu trả lời mô phỏng 1 (các mùa). Yêu cầu cả phòng chấm từ 1–5 cho câu &quot;Tôi sẽ cho học sinh dùng câu trả lời này.&quot; Hầu hết chấm cao. Sau đó hỏi: <strong>&quot;Nó vừa khẳng định bao nhiêu sự kiện riêng biệt?&quot;</strong> Không ai biết. Nói: &quot;Đó chính là vấn đề. Chúng ta đánh giá cả câu trả lời dựa trên giọng điệu của nó. Hôm nay chúng ta kiểm tra từng nhận định một.&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Câu trả lời mô phỏng 1 có một quan niệm sai phổ biến: Trái Đất ở gần Mặt Trời hơn vào mùa hè. Thực tế, Trái Đất gần Mặt Trời nhất vào đầu tháng Một, trong mùa đông của Bắc Bán cầu.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–13 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Làm mẫu</p>
+        <h3>Quy trình: Tách, Tìm nguồn, So sánh, Quyết định</h3>
+        <p>Nói to suy nghĩ khi đi qua ba câu đầu của Câu trả lời mô phỏng 1. <strong>Tách</strong>: gạch dưới từng nhận định riêng biệt và đánh số trên Phiếu B. <strong>Tìm nguồn</strong>: với mỗi nhận định, tìm một nguồn đáng tin cậy, độc lập (sách giáo khoa, cơ quan khoa học, trang giáo dục của trường đại học), không phải một câu trả lời AI khác. <strong>So sánh</strong>: tìm nguồn thứ hai không sao chép nguồn thứ nhất; hai nguồn có thống nhất không? <strong>Quyết định</strong>: giữ, sửa (viết lại nhận định đã sửa) hoặc bỏ. Thành thật kể lại một lần đi vào ngõ cụt.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Hai nguồn cùng sao chép một bài blog thì không phải là hai nguồn. Hãy làm mẫu việc kiểm tra xem nguồn thứ hai lấy thông tin từ đâu.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">13–27 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Luyện tập</p>
+        <h3>Thi điền sổ nhận định</h3>
+        <p>Các cặp hoàn thành Câu trả lời mô phỏng 1 và làm tiếp Câu trả lời mô phỏng 2 (khối lượng của cây đến từ đâu) trên Phiếu B, dùng thiết bị để tìm nguồn. Đặc biệt chú ý đến trích dẫn trong Câu trả lời mô phỏng 2: <strong>hãy lần theo nó</strong>. Bạn có tìm được nghiên cứu, nhà nghiên cứu, trường đại học không? Các cặp so sánh sổ nhận định với cặp còn lại cùng bàn.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Đáp án Câu trả lời 2: cây có được phần lớn khối lượng từ khí carbon dioxide trong không khí, không phải từ đất. Trích dẫn &quot;Tiến sĩ Helena Marsh, Đại học Maple Hollow&quot; là hư cấu và không thể truy ra. Đó chính là bài học: AI có thể tạo ra những trích dẫn trông như thật. Việc không tìm thấy nguồn cũng là một phát hiện.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">27–39 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Vận dụng</p>
+        <h3>Vòng trực tiếp: kiểm tra một câu trả lời thật</h3>
+        <p>Mỗi cặp hỏi chatbot được phê duyệt một câu hỏi khoa học thuộc đơn vị bài học hiện tại của mình (hoặc câu hỏi người điều phối đã chuẩn bị), rồi áp dụng quy trình cho câu trả lời. Tiếp theo, họ thử <strong>một thao tác câu lệnh</strong> để việc kiểm chứng dễ hơn, chẳng hạn: &quot;Liệt kê riêng từng nhận định về sự thật,&quot; &quot;Cho biết những nhận định nào bạn ít chắc chắn hơn,&quot; hoặc &quot;Nêu loại nguồn mà học sinh nên dùng để kiểm tra từng nhận định.&quot; Thảo luận: điều đó có giúp ích không? Nó có thay thế được việc kiểm tra không?</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Hãy nói cho chính xác: yêu cầu chatbot tự kiểm tra hoặc tự đánh giá mức độ tự tin có thể giúp làm lộ ra những điểm yếu, nhưng sự tự đánh giá của mô hình cũng có thể sai, và mọi nguồn mà nó nêu ra vẫn cần được tìm và đọc. Quy trình vẫn áp dụng như cũ.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">39–52 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Sáng tạo</p>
+        <h3>Lên kế hoạch cho buổi tập huấn 15 phút của bạn</h3>
+        <p>Mỗi người dùng Phiếu C để lên kế hoạch một phiên bản 15 phút của buổi này cho tổ bộ môn, nhóm PLC (cộng đồng học tập chuyên môn) hoặc học sinh: câu trả lời AI mô phỏng hoặc thật mà họ sẽ dùng (thuộc môn của mình), những nhận định họ mong mọi người phát hiện, hai nguồn họ sẽ giới thiệu, và một thói quen họ muốn đồng nghiệp mang về. Các cặp tập dượt hai phút mở đầu cho nhau nghe.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Khuyến khích dùng ví dụ theo từng môn học. Một câu trả lời AI đầy quan niệm sai của giáo viên sinh học sẽ thuyết phục tổ khoa học hơn bất kỳ ví dụ chung chung nào.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">52–60 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Tổng kết</p>
+        <h3>Học sinh sẽ nộp gì?</h3>
+        <p>Hỏi: <strong>&quot;Nếu học sinh dùng AI trong lớp của bạn, bằng chứng nào sẽ cho thấy các em đã kiểm chứng nó?&quot;</strong> Thu thập câu trả lời: một sổ nhận định, chú thích giữ/sửa/bỏ, một đoạn văn đã sửa, hai nguồn được trích dẫn cho mỗi nhận định. Cả nhóm thống nhất một sản phẩm kiểm chứng chung mà tổ bộ môn có thể dùng cho mọi môn học.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Điều này gắn với câu hỏi của ELE năm 2026: chỉ riêng việc sử dụng công nghệ không phải là bằng chứng học tập. Một sổ nhận định đã hoàn thành thì là bằng chứng.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Giấy hay màn hình</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</h3><p>Thực hiện quy trình Tách, Tìm nguồn, So sánh, Quyết định với Phiếu A và sách giáo khoa hoặc các trang tài liệu tham khảo in sẵn làm nguồn. Ở vòng trực tiếp, người điều phối đọc to (hoặc in ra) một câu trả lời AI đã tạo trước về một câu hỏi thuộc đơn vị bài học hiện tại, và các cặp kiểm chứng bằng tài liệu tham khảo in sẵn. Quy trình giống hệt; chỉ có việc tìm nguồn là chậm hơn.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kỹ thuật số</h3><p>Các cặp dùng thiết bị để tìm các nguồn khoa học đáng tin cậy và, nếu có quyền truy cập dành cho nhân viên đã được phê duyệt, hỏi trực tiếp chatbot của học khu; nếu không, người điều phối trình chiếu chatbot và nhận câu hỏi của từng cặp. Sổ nhận định có thể lưu trong một bảng tính dùng chung để tổ bộ môn xây dựng dần một kho các nhận định của AI đã được kiểm tra, kèm nguồn. Trong LMS (hệ thống quản lý học tập), kế hoạch ở Phiếu C có thể trở thành một học phần ngắn để đồng nghiệp hoàn thành không đồng bộ.</p></div>
+        <p class="why"><strong>Có cần màn hình không?</strong> Kiểm chứng tự bản chất là một kỹ năng kỹ thuật số: việc tìm kiếm trực tiếp cho thấy một nhận định có thể được xác nhận hoặc bác bỏ nhanh như thế nào, và việc áp dụng quy trình cho một câu trả lời chatbot thật từ chính đơn vị bài học của người tham gia giúp quy trình được ghi nhớ. Bằng chứng là sổ nhận định đã hoàn thành với các nguồn độc lập, điều mà một buổi chỉ dùng giấy cũng tạo ra được, nhưng chậm hơn.</p>
+      </section>
+      <section class="evidence"><h2>Bằng chứng học tập</h2><p class="muted">Những gì bạn có thể quan sát hoặc thu thập được nếu hoạt động thành công.</p><ul><li>Sổ nhận định tách câu trả lời thành các nhận định riêng lẻ và có hai nguồn độc lập cho mỗi nhận định đã kiểm tra.</li><li>Các cặp sửa đúng các quan niệm sai về các mùa và về khối lượng của cây, và đánh dấu trích dẫn hư cấu là không thể truy ra.</li><li>Ở vòng trực tiếp, các cặp giải thích được thao tác câu lệnh đã giúp ích điều gì và vì sao nó không thay thế được việc kiểm tra.</li><li>Kế hoạch buổi tập huấn dùng ví dụ theo môn học và nêu một sản phẩm kiểm chứng mà học sinh sẽ nộp.</li></ul></section>
+      <section><h2>Điều chỉnh</h2><dl class="adapt"><div><dt>Giáo viên khoa học lớp 6–8</dt><dd>Chỉ dùng Câu trả lời mô phỏng 1 và đơn giản hóa thành ba thao tác: tách ra, kiểm tra hai lần, sửa lại. Cho học sinh kiểm chứng bằng sách giáo khoa cùng một trang web do giáo viên chọn.</dd></div><div><dt>Thủ thư</dt><dd>Dẫn dắt các thao tác Tìm nguồn và So sánh: dạy cách nhận biết hai nguồn có độc lập với nhau không, và cách tìm trong cơ sở dữ liệu thư viện nghiên cứu gốc đằng sau một nhận định.</dd></div><div><dt>Các tổ bộ môn khác</dt><dd>Thay các câu trả lời khoa học bằng một bản tóm tắt lịch sử được đối chiếu với nguồn sơ cấp, hoặc một lời giải thích toán học được kiểm tra bằng cách tự giải bài. Quy trình được giữ nguyên.</dd></div></dl></section>
+      <section class="stds"><h2>Liên kết với các chuẩn</h2><p>Giáo viên tách các câu trả lời khoa học của AI thành từng nhận định và kiểm tra mỗi nhận định với hai nguồn độc lập, chuẩn bị cho học sinh lập sổ theo dõi nhận định trong lớp.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-sci-practices" title="Khoa học: thực hành khoa học và kỹ thuật">thực hành khoa học và kỹ thuật</a><a class="std std-teks" href="../standards.html#teks-elar-inquiry" title="ELAR: tìm hiểu và nghiên cứu">tìm hiểu và nghiên cứu</a><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Ứng dụng Công nghệ, công dân số: đạo đức và pháp luật (c)(9)">đạo đức và pháp luật (c)(9)</a><span class="std-sec">Các mục TEKS: Technology Applications §126.17–§126.19, các môn Ứng dụng Công nghệ bậc trung học phổ thông (19 TAC Chương 126); ELAR §110.22–§110.24, §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Nói">Nói</a><a class="std std-elps" href="../standards.html#elps-c4" title="Đọc">Đọc</a><a class="std std-elps" href="../standards.html#elps-c5" title="Viết">Viết</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Làm nổi bật và khám phá khuôn mẫu, đặc điểm then chốt, ý tưởng lớn và các mối quan hệ">3.2</a><a class="std std-udl" href="../standards.html#udl-6-3" title="Tổ chức thông tin và tài nguyên">6.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Thúc đẩy hợp tác, sự phụ thuộc lẫn nhau và học tập tập thể">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Tối đa hóa khả năng chuyển giao và khái quát hóa">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Xem cách tất cả hoạt động được đối chiếu với các chuẩn</a></p></section>
+      <section class="two">
+        <div><h2>Suy ngẫm</h2><ul><li>Tôi đang áp dụng những chiến lược nào để thúc đẩy kỹ năng tư duy phản biện khi tương tác với thông tin do AI tạo ra?</li><li>Lần gần nhất tôi chấp nhận một lời giải thích vì cách nó nghe ra chứ không phải vì những gì tôi đã kiểm tra là khi nào?</li><li>Tôi có thể dạy quy trình này cho ai trong nhóm trước tiên, và điều gì sẽ khiến họ muốn sử dụng nó?</li></ul></div>
+        <div><h2>Mang về lớp học của bạn</h2><p>Trong vòng hai tuần, hãy dẫn dắt buổi tập huấn 15 phút cho tổ bộ môn hoặc nhóm PLC, rồi cho học sinh hoàn thành một sổ nhận định về một câu trả lời AI trong đơn vị bài học hiện tại. Mang ba sổ của học sinh đến buổi họp tiếp theo để so sánh những gì học sinh đã phát hiện và bỏ sót.</p></div>
+      </section>
+      <section><h2>Kết hợp tốt với</h2><ul class="connections"><li><a href="https://cor.inquirygroup.org/">Digital Inquiry Group: Civic Online Reasoning</a><span>Các bài học đọc đối chiếu (lateral reading) giúp củng cố thao tác Tìm nguồn và So sánh.</span></li><li><a href="https://mglearn.github.io/tcea/ai-essentials-prompt-library/">AI Essentials Prompt Library</a><span>Thử các câu lệnh giúp kết quả dễ kiểm chứng hơn, rồi vẫn kiểm chứng.</span></li></ul></section>
+      <section class="related noprint"><h2>Hoạt động liên quan</h2><div class="cards"><article class="card" data-id="lateral-reading-relay">
+    
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Bồi dưỡng chuyên môn<span>dành cho Giáo viên, Thủ thư, Chuyên viên hỗ trợ</span></p>
+    <h3><a href="../activities/lateral-reading-relay.html">Tiếp sức đọc đối chiếu</a></h3>
+    <p class="card-tag">Các nhóm chạy đua xác minh những tuyên bố lan truyền trên mạng và một bản tóm tắt do AI viết bằng cách rời khỏi trang, chứ không phải nhìn trang kỹ hơn.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 phút</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#T2.1" title="Giáo viên 2.1: Tôi có thể dạy học sinh đánh giá thông tin trực tuyến một cách phản biện.">T2.1</a><a class="ele" href="../framework.html#T2.3" title="Giáo viên 2.3: Tôi nhận thức được các chiến lược giúp học sinh nhận diện và chống lại thông tin sai lệch.">T2.3</a><a class="ele" href="../framework.html#AI4.2" title="AI trong Giáo dục 4.2: Tôi có thể dạy người khác đặt câu hỏi và kiểm chứng kết quả do AI tạo ra.">AI4.2</a></span></div>
+  </article><article class="card" data-id="seminar-on-a-machines-answer">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Bồi dưỡng chuyên môn<span>dành cho Giáo viên, Thủ thư</span></p>
+    <h3><a href="../activities/seminar-on-a-machines-answer.html">Hội thảo Socratic về câu trả lời của máy</a></h3>
+    <p class="card-tag">Một buổi hội thảo Socratic theo mô hình bể cá, trong đó &quot;văn bản&quot; là câu trả lời tự tin nhưng sai một phần của chatbot, và câu trả lời thứ hai của chatbot còn tệ hơn, để giáo viên thực hành những câu hỏi giúp học sinh suy nghĩ thay vì chấp nhận.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-medialit">Hiểu biết truyền thông</span></span><span class="eles"><a class="ele" href="../framework.html#T5.2" title="Giáo viên 5.2: Tôi có thể sử dụng các kỹ thuật đặt câu hỏi để khơi gợi việc học sâu.">T5.2</a><a class="ele" href="../framework.html#AI4.1" title="AI trong Giáo dục 4.1: Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.">AI4.1</a><a class="ele" href="../framework.html#AI4.2" title="AI trong Giáo dục 4.2: Tôi có thể dạy người khác đặt câu hỏi và kiểm chứng kết quả do AI tạo ra.">AI4.2</a></span></div>
+  </article><article class="card has-photo" data-id="ask-two">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-k2-genai.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp K–2</span></p>
+    <h3><a href="../activities/ask-two.html">Kiểm Tra Hai Nơi</a></h3>
+    <p class="card-tag">Một người máy trợ giúp rất tự tin nói những điều lúc đúng lúc sai, và các em trở thành người làm chủ việc học bằng cách kiểm tra mỗi câu trả lời ở hai nơi trước khi tin.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>35 phút</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-medialit">Hiểu biết truyền thông</span></span><span class="eles"><a class="ele" href="../framework.html#S4.1" title="Học sinh 4.1: Em biết cách tự chịu trách nhiệm về việc học của mình.">S4.1</a><a class="ele" href="../framework.html#AI4.1" title="AI trong Giáo dục 4.1: Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.">AI4.1</a><a class="ele" href="../framework.html#S2.2" title="Học sinh 2.2: Em có thể nhận biết các nguồn thông tin đáng tin cậy trên internet.">S2.2</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Ngân hàng Hoạt động Kỳ vọng Học tập Thiết yếu của TCEA.</strong> Hoạt động bồi dưỡng chuyên môn và hoạt động cho học sinh K–16 về hiểu biết AI tạo sinh, công dân số và hiểu biết truyền thông, trên giấy hoặc trên màn hình.</p>
+    <p>Hoạt động do Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>) biên soạn, dựa trên <a href="https://tinyurl.com/tceaeles1">Kỳ vọng Học tập Thiết yếu của TCEA</a> (CC BY-SA 2024). Chia sẻ theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: được sao chép, chỉnh sửa và tái sử dụng khi ghi nguồn. Không cần đăng nhập, không theo dõi.</p>
+    <p class="ai-note">Ảnh trên trang này là hình minh họa do AI tạo ra về những người hư cấu, không phải học sinh hay nhân viên thật.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog TCEA</a>
+    <a href="https://convention.tcea.org/">Hội nghị &amp; Triển lãm TCEA</a>
+  </nav>
+  <nav aria-label="Liên quan">
+    <p class="foot-h">Thêm tài nguyên miễn phí</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Trợ lý Đối chiếu ELE</a>
+    <a href="https://mglearn.github.io/activities/">Trung tâm Hoạt động Học tập</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Hoạt động nhóm về Công dân số</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

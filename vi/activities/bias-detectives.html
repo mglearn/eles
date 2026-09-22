@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thám tử Thiên kiến | Ngân hàng Hoạt động ELE</title>
+<meta name="description" content="Các nhóm so sánh từng cặp kết quả AI chỉ khác nhau một cái tên, một ngôn ngữ hoặc một đại từ, rồi tự tiến hành các phép thử công bằng và đề xuất cách khắc phục trước khi kết quả AI đến tay học sinh.">
+<meta property="og:title" content="Thám tử Thiên kiến | Ngân hàng Hoạt động ELE">
+<meta property="og:description" content="Các nhóm so sánh từng cặp kết quả AI chỉ khác nhau một cái tên, một ngôn ngữ hoặc một đại từ, rồi tự tiến hành các phép thử công bằng và đề xuất cách khắc phục trước khi kết quả AI đến tay học sinh.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/bias-detectives.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/bias-detectives.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/activities/bias-detectives.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/bias-detectives.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Ngân hàng Hoạt động</span></a>
+  <nav aria-label="Chính">
+    <a href="../index.html#catalog">Hoạt động</a>
+    <a href="../framework.html">Các ELE</a>
+    <details class="navmenu"><summary>Dành cho người điều phối</summary><div class="navmenu-panel">
+      <a href="../guide.html">Hướng dẫn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Chuẩn</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Ngôn ngữ</span><select aria-label="Ngôn ngữ"><option value="en" lang="en" data-href="../../activities/bias-detectives.html">English</option><option value="es" lang="es" data-href="../../es/activities/bias-detectives.html">Español</option><option value="vi" lang="vi" data-href="../../vi/activities/bias-detectives.html" selected>Tiếng Việt</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="vi">Bản dịch này được thực hiện với sự hỗ trợ của AI và đang chờ người bản ngữ xem xét. Bản tiếng Anh là bản gốc.</p>
+
+<main id="main" class="act">
+  <div class="act-head">
+    
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Tất cả hoạt động</a> <span aria-hidden="true">/</span> Bồi dưỡng chuyên môn</p>
+    <h1>Thám tử Thiên kiến</h1>
+    <p class="lede">Các nhóm so sánh từng cặp kết quả AI chỉ khác nhau một cái tên, một ngôn ngữ hoặc một đại từ, rồi tự tiến hành các phép thử công bằng và đề xuất cách khắc phục trước khi kết quả AI đến tay học sinh.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/bias-detectives.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">In hướng dẫn này</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="Tóm tắt nhanh">
+      <dl>
+        <div><dt>Thời gian</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>60 phút</dd></div>
+        <div><dt>Hình thức</dt><dd class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</dd></div>
+        <div><dt>Dành cho</dt><dd>Giáo viên, Thủ thư, Chuyên viên hỗ trợ</dd></div>
+        <div><dt>Đối tượng</dt><dd>6–8, 9–12, Giáo dục đại học</dd></div>
+        <div><dt>Nhóm</dt><dd>Nhóm 3–4 người; phù hợp cho 8–40 người</dd></div>
+        <div><dt>Mạch nội dung</dt><dd class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-digcit">Công dân số</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Chỉ báo ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI1.3">AI1.3</a><div><span class="ind-area">AI trong Giáo dục · Hiểu biết về AI</span>Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.</div></li><li><a class="ele" href="../framework.html#AI2.2">AI2.2</a><div><span class="ind-area">AI trong Giáo dục · Sử dụng AI có Đạo đức</span>Tôi có thể xác định các vấn đề đạo đức tiềm ẩn trong ứng dụng AI và đề xuất giải pháp.</div></li><li><a class="ele" href="../framework.html#AI4.1">AI4.1</a><div><span class="ind-area">AI trong Giáo dục · AI và Tư duy Phản biện</span>Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.</div></li><li><a class="ele" href="../framework.html#AI2.1">AI2.1</a><div><span class="ind-area">AI trong Giáo dục · Sử dụng AI có Đạo đức</span>Tôi biết cách áp dụng các nguyên tắc đạo đức khi sử dụng hoặc phát triển AI cho giáo dục.</div></li></ul>
+      <h2 class="glance-h">Phiếu</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Hồ sơ Vụ án Kết quả Mô phỏng <span class="muted">(thẻ cắt rời)</span></li><li><span class="hl">B</span> Nhật ký Thám tử <span class="muted">(sơ đồ tổ chức)</span></li><li><span class="hl">C</span> Phiếu Lập kế hoạch Phép thử Công bằng <span class="muted">(phiếu bài tập)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Tổng quan</h2><p class="overview">Các mô hình AI học từ văn bản và hình ảnh do con người tạo ra, nên chúng có thể hấp thụ những định kiến, khoảng trống và giả định mặc định trong dữ liệu đó. Thiên kiến hiếm khi tự lộ diện; nó xuất hiện khi ta thay đổi một chi tiết nhỏ và kết quả thay đổi theo. Trong buổi này, các nhóm đóng vai thám tử, xem xét các cặp kết quả mô phỏng được in sẵn và rõ ràng là hư cấu (một thư giới thiệu, một bản dịch, lời khuyên nghề nghiệp, nhận xét bài viết), rồi thiết kế và thực hiện phép thử cặp câu lệnh (prompt) của riêng mình trên một công cụ đã được học khu phê duyệt. Người tham gia ra về với một quy trình thử nghiệm công bằng và một kế hoạch giảm thiểu cho một tình huống sử dụng thực tế trong lớp học.</p>
+        <h3 class="sub">Mục tiêu</h3><ul><li>Người tham gia sẽ xác định điều gì đã thay đổi giữa các cặp kết quả AI và mô tả một nguồn gốc hợp lý của sự khác biệt đó (khuôn mẫu trong dữ liệu huấn luyện, giả định mặc định, lựa chọn thiết kế).</li><li>Người tham gia sẽ thiết kế một phép thử cặp câu lệnh công bằng, chỉ thay đổi một biến số và lặp lại mỗi câu lệnh để tính đến yếu tố ngẫu nhiên.</li><li>Người tham gia sẽ đề xuất ít nhất một biện pháp giảm thiểu thiết thực trước khi dùng kết quả AI với học sinh, và giải thích ai có thể bị tổn hại nếu thiếu biện pháp đó.</li></ul></section>
+      <section class="two">
+        <div><h2>Học liệu</h2>
+          <h3 class="sub">Trên giấy</h3><ul><li>Phiếu A: Hồ sơ Vụ án Kết quả Mô phỏng (mỗi nhóm 1 bộ, cắt rời)</li><li>Phiếu B: Nhật ký Thám tử (mỗi nhóm 1 phiếu)</li><li>Phiếu C: Phiếu Lập kế hoạch Phép thử Công bằng (mỗi nhóm 1 phiếu)</li><li>Bút dạ quang hai màu; giấy khổ lớn có tiêu đề &quot;Các khuôn mẫu chúng tôi tìm thấy&quot; và &quot;Các cách khắc phục chúng tôi sẽ dùng&quot;</li></ul>
+          <h3 class="sub">Trên màn hình</h3><ul><li>Một chatbot AI tạo sinh được học khu phê duyệt: người điều phối trình chiếu, hoặc mỗi nhóm dùng một thiết bị nếu nhân viên có tài khoản được phê duyệt</li><li>Tùy chọn: một công cụ dịch thuật được học khu phê duyệt, dùng cho phép thử về dịch thuật</li></ul></div>
+        <div><h2>Trước khi bắt đầu</h2><ol class="prep"><li>In và cắt Phiếu A. Mỗi nhóm nhận đủ sáu hồ sơ vụ án, úp mặt xuống. In mặt sau của thẻ để làm đáp án cho người điều phối.</li><li>Chạy trước hai hoặc ba cặp câu lệnh trên công cụ được học khu phê duyệt để biết hiện nay công cụ phản hồi ra sao. Kết quả thay đổi khi công cụ được cập nhật, và một số công cụ có thể không thể hiện các khuôn mẫu như trong hồ sơ mô phỏng. Đó cũng là một phát hiện.</li><li>Tự nhắc mình về cách định hướng: các kết quả mô phỏng được viết ra để minh họa những <em>loại</em> thiên kiến mà các nhà nghiên cứu và nhà giáo dục đã nêu quan ngại. Chúng không phải là bằng chứng về bất kỳ sản phẩm cụ thể nào.</li></ol></div>
+      </section>
+      <section><h2>Từng bước</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khởi động</p>
+        <h3>Tìm điểm khác biệt</h3>
+        <p>Trình chiếu Hồ sơ 1 (hai thư giới thiệu mô phỏng chỉ khác nhau ở tên học sinh). Cho 60 giây đọc thầm, rồi hỏi: <strong>&quot;Cùng câu lệnh, cùng điểm số, chỉ một thay đổi. Còn điều gì khác đã thay đổi?&quot;</strong> Mời mọi người nói to các từ ngữ. Tô sáng &quot;xuất sắc, tư duy phân tích&quot; so với &quot;chăm chỉ, lễ phép.&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Hãy nói rõ: &quot;Đây là những kết quả hư cấu được viết ra để tập huấn. Chúng minh họa một khuôn mẫu đáng để kiểm tra, không phải là nhận định về bất kỳ sản phẩm nào. Lát nữa quý thầy cô sẽ tự kiểm tra một công cụ thật.&quot;</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–18 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khám phá</p>
+        <h3>Phân tích hồ sơ vụ án</h3>
+        <p>Các nhóm lần lượt xem Hồ sơ 2–6. Với mỗi hồ sơ, dùng một màu tô <strong>điều gì đã thay đổi trong câu lệnh</strong> và màu còn lại tô <strong>điều gì đã thay đổi trong kết quả</strong>, rồi điền một dòng trong Phiếu B: khuôn mẫu, nguồn gốc có thể có (dữ liệu huấn luyện, giả định mặc định, thiết kế), ai có thể bị tổn hại trong lớp học, và ý tưởng khắc phục đầu tiên.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Hãy thúc đẩy các nhóm vượt qua nhận xét &quot;AI phân biệt chủng tộc/giới tính&quot; để đi đến cơ chế: &quot;Nếu phần lớn văn bản nó học được đều gắn 'y tá' với 'cô ấy', thì một cỗ máy đoán từ tiếp theo sẽ làm gì?&quot; Hiểu cơ chế sẽ dẫn đến cách giảm thiểu.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">18–25 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Làm mẫu</p>
+        <h3>Thế nào là một phép thử công bằng</h3>
+        <p>Cùng xem các quy tắc trong Phiếu C qua Hồ sơ 4 (lời khuyên nghề nghiệp). Một phép thử công bằng <strong>chỉ thay đổi một biến số</strong> (tên, đại từ hoặc ngôn ngữ), giữ mọi thứ khác giống hệt từng chữ, <strong>chạy mỗi phiên bản ít nhất ba lần trong các cuộc trò chuyện mới</strong> vì kết quả thay đổi ngẫu nhiên, và ghi lại chính xác câu chữ. Làm mẫu trực tiếp một cặp trên công cụ được phê duyệt đang trình chiếu và cùng nhau ghi nhật ký.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Sai lầm lớn nhất khi kiểm tra thiên kiến theo kiểu nghiệp dư là kết luận chỉ từ một lần chạy. Một kết quả lạ chỉ là một giai thoại; một khuôn mẫu lặp lại qua nhiều lần chạy mới là bằng chứng.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">25–40 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Luyện tập</p>
+        <h3>Tự thực hiện phép thử</h3>
+        <p>Mỗi nhóm thiết kế trên Phiếu C một cặp câu lệnh có ý nghĩa với học sinh của mình: nhận xét cùng một đoạn văn dưới hai cái tên khác nhau, dịch một câu có đại từ trung tính về giới, gợi ý sách cho &quot;một bé trai&quot; so với &quot;một bé gái&quot;, mô tả &quot;một gia đình&quot; hay &quot;một nhà khoa học&quot;. Các nhóm chạy trên công cụ được phê duyệt (hoặc nhờ người điều phối chạy trên máy chiếu) ba lần cho mỗi phiên bản và ghi lại kết quả. <strong>Không dùng tên hay bài làm thật của học sinh.</strong> Hãy dùng tên tự đặt và một đoạn văn do chính nhóm viết.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Nếu một nhóm không thấy khác biệt nào, hãy ghi nhận và mời họ báo cáo. Biết rằng một công cụ đối xử như nhau với cả hai phiên bản trong phép thử này là điều hữu ích, nhưng điều đó không chứng minh công cụ hoàn toàn không có thiên kiến.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">40–52 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Tổng kết</p>
+        <h3>Khuôn mẫu và cách khắc phục</h3>
+        <p>Mỗi nhóm báo cáo một phép thử trong 60 giây: đã thay đổi gì, đã thấy gì qua các lần chạy, và một cách khắc phục. Dán các phát hiện lên tờ &quot;Các khuôn mẫu chúng tôi tìm thấy&quot; và các cách khắc phục lên tờ &quot;Các cách khắc phục chúng tôi sẽ dùng.&quot; Sau đó hỏi: <strong>&quot;Cách khắc phục nào là mẹo viết câu lệnh, và cách nào là bước cần đến phán đoán của con người?&quot;</strong> Khoanh tròn các cách khắc phục dựa trên phán đoán của con người (xem lại trước khi chia sẻ, bỏ tên trước khi xin nhận xét, đối chiếu với nguồn thứ hai, cho học sinh phản biện kết quả).</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Viết câu lệnh (&quot;tránh định kiến&quot;) có thể giảm bớt một số vấn đề nhưng không phải là bảo đảm. Những biện pháp giảm thiểu mạnh nhất là giữ con người ở vai trò quyết định và đưa việc kiểm tra thiên kiến vào bài làm của học sinh.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">52–60 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Chuyển giao</p>
+        <h3>Một tình huống sử dụng, một hàng rào bảo vệ</h3>
+        <p>Mỗi người nêu một cách mà kết quả AI có thể đến với học sinh của mình trong tháng tới (bài đọc do AI tạo, nhận xét, hình ảnh cho trang chiếu, thư gửi gia đình được dịch) và viết hàng rào bảo vệ mình sẽ áp dụng vào mặt sau Phiếu C. Từng cặp hỏi nhau: <strong>&quot;Ai có thể bị bỏ sót hoặc bị thể hiện sai lệch, và bạn sẽ phát hiện điều đó bằng cách nào?&quot;</strong></p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Thư gửi gia đình được dịch là một điểm mù phổ biến. Hãy gợi ý nhờ một người thông thạo ngôn ngữ đó xem lại mọi lá thư do AI dịch trước khi gửi về nhà.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Giấy hay màn hình</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</h3><p>Thực hiện toàn bộ phần hồ sơ vụ án, nhật ký thám tử và thiết kế phép thử công bằng trên giấy. Ở bước Thực hành, các nhóm viết cặp câu lệnh và dự đoán kết quả; người điều phối sẽ chạy thử một vài câu lệnh sau đó trên công cụ được phê duyệt và chia sẻ kết quả ở buổi họp kế tiếp, hoặc các nhóm trao đổi thiết kế phép thử và nhận xét về tính công bằng của nhau (một biến số, chạy lặp lại, câu chữ chính xác).</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kỹ thuật số</h3><p>Các nhóm có quyền truy cập được phê duyệt dành cho nhân viên sẽ chạy cặp câu lệnh trên thiết bị của mình; nếu không, người điều phối chạy trên máy chiếu. Ghi kết quả vào một bảng tính dùng chung theo các cột của Phiếu B để toàn thể nhân viên thấy được khuôn mẫu qua nhiều phép thử. Trên LMS (hệ thống quản lý học tập), đăng các Hồ sơ dưới dạng một chủ đề thảo luận và cho các nhóm trả lời bằng các dòng nhật ký của mình.</p></div>
+        <p class="why"><strong>Có cần màn hình không?</strong> Phép thử trực tiếp là lúc người tham gia thôi coi thiên kiến là một tiêu đề báo chí và bắt đầu coi đó là điều mình có thể tự kiểm tra. Chạy cùng một câu lệnh ba lần cũng cho thấy trực tiếp tính ngẫu nhiên, giúp mọi người không kết luận quá mức từ một kết quả duy nhất. Đó là bằng chứng mà giấy không thể cung cấp.</p>
+      </section>
+      <section class="evidence"><h2>Bằng chứng học tập</h2><p class="muted">Những gì bạn có thể quan sát hoặc thu thập được nếu hoạt động thành công.</p><ul><li>Các mục trong Nhật ký Thám tử nêu được cơ chế (khuôn mẫu trong dữ liệu huấn luyện, giả định mặc định) chứ không chỉ đưa ra phán xét.</li><li>Thiết kế phép thử công bằng thay đổi đúng một biến số, dùng tên tự đặt và lặp lại mỗi phiên bản ít nhất ba lần.</li><li>Các nhóm báo cáo kết quả trung thực, kể cả &quot;không thấy khác biệt&quot;, và không khái quát hóa quá mức từ một lần chạy.</li><li>Mỗi người tham gia viết một hàng rào bảo vệ cụ thể gắn với một cách thực tế mà kết quả AI có thể đến với học sinh của mình.</li></ul></section>
+      <section><h2>Điều chỉnh</h2><dl class="adapt"><div><dt>Thủ thư và chuyên viên thư viện – truyền thông</dt><dd>Tập trung phép thử trực tiếp vào việc gợi ý sách và tài nguyên: yêu cầu &quot;sách mà một bé trai 12 tuổi sẽ thích&quot; so với &quot;một bé gái 12 tuổi&quot;, rồi so sánh với kết quả đánh giá tính đa dạng của chính bộ sưu tập thư viện.</dd></div><div><dt>Giảng viên giáo dục đại học</dt><dd>Thêm một vòng về danh sách tài liệu đọc và trích dẫn do AI tạo cho một đề tài nghiên cứu: công trình của ai xuất hiện theo mặc định, và những khu vực hay ngôn ngữ nào bị thiếu?</dd></div><div><dt>Giáo viên song ngữ và ESL</dt><dd>Dẫn dắt các phép thử về dịch thuật. So sánh cách công cụ xử lý tiếng Tây Ban Nha theo vùng (như từ vựng Tejano) và việc chuyển mã ngôn ngữ (code-switching), rồi viết một hàng rào bảo vệ cho việc liên lạc với gia đình tại trường của mình.</dd></div></dl></section>
+      <section class="stds"><h2>Liên kết với các chuẩn</h2><p>Giáo viên thiết kế một phép thử công bằng với các câu lệnh (prompt) theo cặp, chỉ thay đổi một biến và chạy lặp lại nhiều lần, chuẩn bị cho học sinh tìm hiểu thiên kiến của AI bằng phương pháp khoa học.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-sci-practices" title="Khoa học: thực hành khoa học và kỹ thuật">thực hành khoa học và kỹ thuật</a><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Ứng dụng Công nghệ: tư duy máy tính">tư duy máy tính</a><span class="std-sec">Các mục TEKS: Technology Applications §126.17–§126.19, các môn Ứng dụng Công nghệ bậc trung học phổ thông (19 TAC Chương 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Nghe">Nghe</a><a class="std std-elps" href="../standards.html#elps-c3" title="Nói">Nói</a><a class="std std-elps" href="../standards.html#elps-c4" title="Đọc">Đọc</a><a class="std std-elps" href="../standards.html#elps-c5" title="Viết">Viết</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-1-3" title="Thể hiện sự đa dạng về góc nhìn và bản sắc một cách chân thực">1.3</a><a class="std std-udl" href="../standards.html#udl-2-4" title="Giải quyết thiên kiến trong việc sử dụng ngôn ngữ và ký hiệu">2.4</a><a class="std std-udl" href="../standards.html#udl-7-4" title="Giải quyết thiên kiến, mối đe dọa và yếu tố gây xao nhãng">7.4</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Thúc đẩy hợp tác, sự phụ thuộc lẫn nhau và học tập tập thể">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Tối đa hóa khả năng chuyển giao và khái quát hóa">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Xem cách tất cả hoạt động được đối chiếu với các chuẩn</a></p></section>
+      <section class="two">
+        <div><h2>Suy ngẫm</h2><ul><li>Tôi đang xem xét các vấn đề đạo đức như thế nào khi sử dụng AI trong dạy và học?</li><li>Những học sinh nào của tôi có thể bị thể hiện sai lệch hoặc bị bỏ sót bởi các giả định mặc định của AI, và tôi sẽ nhận ra điều đó bằng cách nào?</li><li>Làm thế nào để chính học sinh trở thành thám tử thiên kiến, thay vì tôi phải lọc mọi thứ cho các em?</li></ul></div>
+        <div><h2>Mang về lớp học của bạn</h2><p>Với học sinh từ lớp 6 trở lên, hãy trình chiếu một hồ sơ mô phỏng và một cặp câu lệnh quý thầy cô đã tự chạy, rồi cho học sinh tự thiết kế phép thử công bằng trên giấy. Thu lại các thiết kế phép thử làm bằng chứng học tập cho thấy các em biết đặt câu hỏi về kết quả AI, chứ không chỉ tiếp nhận nó.</p></div>
+      </section>
+      <section><h2>Kết hợp tốt với</h2><ul class="connections"><li><a href="https://mglearn.github.io/tcea/alf/">Khung Học tập AI Mở rộng K–16</a><span>Xác định vị trí của nhận thức về thiên kiến trong lộ trình hiểu biết về AI từ K–16.</span></li><li><a href="https://mglearn.github.io/tcea/ai-adoption-checklist/">Danh mục Kiểm tra Áp dụng AI Tạo sinh</a><span>Bổ sung quy trình phép thử công bằng của quý thầy cô vào quy trình đánh giá công cụ của trường hoặc học khu.</span></li></ul></section>
+      <section class="related noprint"><h2>Hoạt động liên quan</h2><div class="cards"><article class="card" data-id="ai-ethics-case-court">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Bồi dưỡng chuyên môn<span>dành cho Lãnh đạo, Giáo viên, Giảng viên, Chuyên viên hỗ trợ</span></p>
+    <h3><a href="../activities/ai-ethics-case-court.html">Phiên tòa xét xử đạo đức AI</a></h3>
+    <p class="card-tag">Nhà giáo đưa các trường hợp hư cấu về việc dùng AI trong chấm điểm, giám sát thi, phát hiện gian lận và theo dõi học sinh ra &quot;xét xử&quot;, rồi đưa ra phán quyết kèm điều kiện có thể trở thành chính sách thực tế.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>70 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-digcit">Công dân số</span></span><span class="eles"><a class="ele" href="../framework.html#AI2.2" title="AI trong Giáo dục 2.2: Tôi có thể xác định các vấn đề đạo đức tiềm ẩn trong ứng dụng AI và đề xuất giải pháp.">AI2.2</a><a class="ele" href="../framework.html#AI2.1" title="AI trong Giáo dục 2.1: Tôi biết cách áp dụng các nguyên tắc đạo đức khi sử dụng hoặc phát triển AI cho giáo dục.">AI2.1</a><a class="ele" href="../framework.html#AI2.3" title="AI trong Giáo dục 2.3: Tôi nhận thức được tầm quan trọng của tính minh bạch và trách nhiệm giải trình trong hệ thống AI.">AI2.3</a></span></div>
+  </article><article class="card" data-id="human-language-model">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Bồi dưỡng chuyên môn<span>dành cho Giáo viên, Thủ thư, Chuyên viên hỗ trợ, Giảng viên</span></p>
+    <h3><a href="../activities/human-language-model.html">Mô Hình Ngôn Ngữ Bằng Người</a></h3>
+    <p class="card-tag">Các nhà giáo dục trở thành một mô hình ngôn ngữ tí hon với những mẩu giấy và một chiếc cốc, và tự mình khám phá vì sao văn bản AI trôi chảy vẫn có thể sai một cách đầy tự tin.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-medialit">Hiểu biết truyền thông</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#AI1.2" title="AI trong Giáo dục 1.2: Tôi có thể giải thích các khái niệm AI một cách đơn giản cho nhiều đối tượng liên quan khác nhau.">AI1.2</a><a class="ele" href="../framework.html#AI1.3" title="AI trong Giáo dục 1.3: Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.">AI1.3</a></span></div>
+  </article><article class="card" data-id="glass-box-checklist">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Bồi dưỡng chuyên môn<span>dành cho Lãnh đạo, Thủ thư, Chuyên viên hỗ trợ, Giáo viên</span></p>
+    <h3><a href="../activities/glass-box-checklist.html">Danh Sách Kiểm Tra Hộp Kính</a></h3>
+    <p class="card-tag">Các nhóm chất vấn bản thông tin sản phẩm bóng bẩy của một nhà cung cấp AI hư cấu, phân loại những câu hỏi thực sự quan trọng, và xây dựng một danh sách kiểm tra về tính minh bạch và trách nhiệm giải trình để dùng với các công cụ thật.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>60 phút</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-digcit">Công dân số</span></span><span class="eles"><a class="ele" href="../framework.html#AI2.3" title="AI trong Giáo dục 2.3: Tôi nhận thức được tầm quan trọng của tính minh bạch và trách nhiệm giải trình trong hệ thống AI.">AI2.3</a><a class="ele" href="../framework.html#AI2.1" title="AI trong Giáo dục 2.1: Tôi biết cách áp dụng các nguyên tắc đạo đức khi sử dụng hoặc phát triển AI cho giáo dục.">AI2.1</a><a class="ele" href="../framework.html#AI1.3" title="AI trong Giáo dục 1.3: Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.">AI1.3</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Ngân hàng Hoạt động Kỳ vọng Học tập Thiết yếu của TCEA.</strong> Hoạt động bồi dưỡng chuyên môn và hoạt động cho học sinh K–16 về hiểu biết AI tạo sinh, công dân số và hiểu biết truyền thông, trên giấy hoặc trên màn hình.</p>
+    <p>Hoạt động do Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>) biên soạn, dựa trên <a href="https://tinyurl.com/tceaeles1">Kỳ vọng Học tập Thiết yếu của TCEA</a> (CC BY-SA 2024). Chia sẻ theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: được sao chép, chỉnh sửa và tái sử dụng khi ghi nguồn. Không cần đăng nhập, không theo dõi.</p>
+    <p class="ai-note">Ảnh trên trang này là hình minh họa do AI tạo ra về những người hư cấu, không phải học sinh hay nhân viên thật.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog TCEA</a>
+    <a href="https://convention.tcea.org/">Hội nghị &amp; Triển lãm TCEA</a>
+  </nav>
+  <nav aria-label="Liên quan">
+    <p class="foot-h">Thêm tài nguyên miễn phí</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Trợ lý Đối chiếu ELE</a>
+    <a href="https://mglearn.github.io/activities/">Trung tâm Hoạt động Học tập</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Hoạt động nhóm về Công dân số</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

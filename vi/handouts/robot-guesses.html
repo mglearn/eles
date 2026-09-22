@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phiếu: Người máy đoán | Ngân hàng Hoạt động ELE</title>
+<meta name="description" content="Phiếu sẵn sàng để in cho Người máy đoán.">
+<meta property="og:title" content="Phiếu: Người máy đoán | Ngân hàng Hoạt động ELE">
+<meta property="og:description" content="Phiếu sẵn sàng để in cho Người máy đoán.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/handouts/robot-guesses.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/handouts/robot-guesses.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/handouts/robot-guesses.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/handouts/robot-guesses.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="is-packet no-cover">
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Ngân hàng Hoạt động</span></a>
+  <nav aria-label="Chính">
+    <a href="../index.html#catalog">Hoạt động</a>
+    <a href="../framework.html">Các ELE</a>
+    <details class="navmenu"><summary>Dành cho người điều phối</summary><div class="navmenu-panel">
+      <a href="../guide.html">Hướng dẫn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Chuẩn</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Ngôn ngữ</span><select aria-label="Ngôn ngữ"><option value="en" lang="en" data-href="../../handouts/robot-guesses.html">English</option><option value="es" lang="es" data-href="../../es/handouts/robot-guesses.html">Español</option><option value="vi" lang="vi" data-href="../../vi/handouts/robot-guesses.html" selected>Tiếng Việt</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="vi">Bản dịch này được thực hiện với sự hỗ trợ của AI và đang chờ người bản ngữ xem xét. Bản tiếng Anh là bản gốc.</p>
+
+<main id="main" class="packet">
+  <div class="packet-bar noprint">
+    <div>
+      <p class="crumbs"><a href="../activities/robot-guesses.html">Người máy đoán</a> <span aria-hidden="true">/</span> Phiếu</p>
+      <h1>Phiếu cho Người máy đoán</h1>
+      <p>3 phiếukèm đáp án cho người điều phối ở trang cuối, và một trang bìa tùy chọn gồm phần tổng quan và các chỉ báo ELE. In trên khổ US Letter; tắt “Fit to page” (Vừa trang) và chọn lề “Default” (Mặc định). Hãy in đáp án riêng nếu không muốn người học nhìn thấy.</p>
+    </div>
+    <div class="packet-actions">
+      <button class="btn btn-gold" type="button" onclick="window.print()"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In tất cả</button>
+      <label class="toggle"><input type="checkbox" id="addcover"> Kèm trang bìa</label>
+      <label class="toggle"><input type="checkbox" id="hidekey"> Bỏ đáp án cho người điều phối</label>
+    </div>
+  </div>
+  <div class="sheets young">
+    <section class="sheet sheet-cover"><div class="cover">
+      <figure class="cover-photo"><img class="photo" src="../../assets/img/cat-k2-genai.jpg" width="1536" height="1024" alt="Kindergartners guess the next picture in a pattern as their teacher holds up cards."></figure>
+      <p class="sh-kicker">Học tập của học sinh · Lớp K–2 · 30 phút</p>
+      <h2 class="cover-title">Người máy đoán</h2>
+      <p class="cover-lede">Các em huấn luyện một người máy tưởng tượng bằng thẻ hình và chữ, và khám phá ra rằng AI đoán dựa trên quy luật, và lời đoán có thể sai.</p>
+      <p>Trẻ nhỏ đã nghe loa thông minh biết nói và thấy những ứng dụng &quot;biết&quot; mọi thứ. Trong trò chơi này, cả lớp trở thành thầy cô của <strong>Robo</strong>, một người máy tưởng tượng chỉ học được từ những thẻ ví dụ được cho xem và chỉ để ý đến màu sắc. Robo đoán rất tự tin, có những lần đoán sai đến buồn cười, và đoán giỏi hơn khi cả lớp cho nó xem nhiều loại ví dụ hơn. Các em ra về với một ý tưởng đơn giản, đúng đắn mà các em có thể nói to lên: &quot;AI tìm quy luật và đoán. Lời đoán có thể sai, nên chúng ta kiểm tra.&quot;</p>
+      <h3>Trong bộ tài liệu này</h3>
+      <ul><li>Phiếu A: Thẻ quy luật (thẻ cắt rời)</li><li>Phiếu B: Thẻ huấn luyện Robo (thẻ cắt rời)</li><li>Phiếu C: Lời đoán của người máy của em (phiếu bài tập)</li><li>Đáp án cho người điều phối (trang cuối)</li></ul>
+      <h3>Chỉ báo ELE của TCEA</h3>
+      <ul><li><strong>AI1.1</strong> Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.</li><li><strong>AI1.3</strong> Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.</li><li><strong>S1.3</strong> Em nhận thức được AI có thể hỗ trợ việc học của mình như thế nào.</li><li><strong>S5.3</strong> Em nhận thức được cách vận dụng tư duy máy tính vào nhiều môn học khác nhau.</li></ul>
+      <p class="cover-url">Hướng dẫn đầy đủ cho người điều phối: mglearn.github.io/eles/vi/activities/robot-guesses.html</p>
+    </div><footer class="sh-foot">Ngân hàng Hoạt động ELE của TCEA · Người máy đoán · CC BY-SA 4.0 · mglearn.github.io/eles</footer></section>
+    <section class="sheet sheet-cards"><header class="sh-head">
+    <div><p class="sh-kicker">Phiếu A cho Người máy đoán</p><h2>Thẻ quy luật</h2></div>
+    
+  </header><p class="sh-instr">Giáo viên: cho xem hoặc đọc từng thẻ một. Các em trả lời bằng giọng nói hoặc cơ thể. Mặt sau là đáp án.</p>
+        <div class="cutgrid"><div class="cut"><p class="cut-label">Thẻ 1 · Âm thanh</p><p>vỗ tay, dậm chân, vỗ tay, dậm chân, vỗ tay, ___</p></div><div class="cut"><p class="cut-label">Thẻ 2 · Kích thước</p><p>TO, nhỏ, TO, nhỏ, TO, ___</p></div><div class="cut"><p class="cut-label">Thẻ 3 · Bầu trời</p><p>mặt trời, mặt trăng, mặt trời, mặt trăng, mặt trời, ___</p></div><div class="cut"><p class="cut-label">Thẻ 4 · Đếm số</p><p>1, 2, 3, 1, 2, 3, 1, ___</p></div><div class="cut"><p class="cut-label">Thẻ 5 · Con vật</p><p>mèo, mèo, chó, mèo, mèo, chó, mèo, ___</p></div><div class="cut"><p class="cut-label">Thẻ 6 · Thẻ Đánh Lừa</p><p>đỏ, xanh dương, đỏ, xanh dương, đỏ, ___</p></div></div><footer class="sh-foot">Ngân hàng Hoạt động ELE của TCEA · Người máy đoán · CC BY-SA 4.0 · mglearn.github.io/eles</footer></section>
+<section class="sheet sheet-cards"><header class="sh-head">
+    <div><p class="sh-kicker">Phiếu B cho Người máy đoán</p><h2>Thẻ huấn luyện Robo</h2></div>
+    
+  </header><p class="sh-instr">Giáo viên: đọc to từng thẻ bằng giọng to, rõ ràng. Dán Thẻ huấn luyện dưới biển TRÁI CÂY hoặc KHÔNG PHẢI TRÁI CÂY. Sau đó kiểm tra Robo. Mặt sau cho biết Robo sẽ đoán gì.</p><p class="sh-page">Tờ 1/2</p>
+        <div class="cutgrid"><div class="cut"><p class="cut-label">Huấn luyện · Trái cây</p><p>QUẢ TÁO: một loại trái cây tròn, màu ĐỎ</p></div><div class="cut"><p class="cut-label">Huấn luyện · Trái cây</p><p>QUẢ DÂU TÂY: một loại trái cây nhỏ, màu ĐỎ, có hạt li ti</p></div><div class="cut"><p class="cut-label">Huấn luyện · Trái cây</p><p>QUẢ ANH ĐÀO: một loại trái cây tí xíu, màu ĐỎ, có cuống</p></div><div class="cut"><p class="cut-label">Huấn luyện · Không phải trái cây</p><p>XE HƠI: một chiếc xe hơi màu XANH DƯƠNG bóng loáng</p></div><div class="cut"><p class="cut-label">Huấn luyện · Không phải trái cây</p><p>CON ẾCH: một con ếch màu XANH LÁ biết nhảy</p></div><div class="cut"><p class="cut-label">Huấn luyện · Không phải trái cây</p><p>XE BUÝT TRƯỜNG: một chiếc xe buýt to màu VÀNG</p></div><div class="cut"><p class="cut-label">Kiểm tra</p><p>QUẢ CHUỐI: một loại trái cây dài, màu VÀNG, phải bóc vỏ</p></div><div class="cut"><p class="cut-label">Kiểm tra</p><p>QUẢ BÓNG: một quả bóng màu ĐỎ nảy tưng tưng</p></div></div><footer class="sh-foot">Ngân hàng Hoạt động ELE của TCEA · Người máy đoán · CC BY-SA 4.0 · mglearn.github.io/eles</footer></section>
+<section class="sheet sheet-cards"><header class="sh-head">
+    <div><p class="sh-kicker">Phiếu B cho Người máy đoán</p><h2>Thẻ huấn luyện Robo</h2></div>
+    
+  </header><p class="sh-instr">Giáo viên: đọc to từng thẻ bằng giọng to, rõ ràng. Dán Thẻ huấn luyện dưới biển TRÁI CÂY hoặc KHÔNG PHẢI TRÁI CÂY. Sau đó kiểm tra Robo. Mặt sau cho biết Robo sẽ đoán gì.</p><p class="sh-page">Tờ 2/2</p>
+        <div class="cutgrid"><div class="cut"><p class="cut-label">Kiểm tra</p><p>QUẢ MÂM XÔI: một loại quả mọng mềm, màu ĐỎ</p></div><div class="cut"><p class="cut-label">Kiểm tra</p><p>CHÙM NHO: một chùm nho nhỏ màu XANH LÁ</p></div><div class="cut"><p class="cut-label">Sửa lỗi · Trái cây</p><p>QUẢ CHUỐI: một loại trái cây dài, màu VÀNG (thêm thẻ này vào các ví dụ TRÁI CÂY của Robo)</p></div><div class="cut"><p class="cut-label">Sửa lỗi · Trái cây</p><p>CHÙM NHO: nho nhỏ màu XANH LÁ (thêm thẻ này vào các ví dụ TRÁI CÂY của Robo)</p></div></div><footer class="sh-foot">Ngân hàng Hoạt động ELE của TCEA · Người máy đoán · CC BY-SA 4.0 · mglearn.github.io/eles</footer></section>
+<section class="sheet "><header class="sh-head">
+    <div><p class="sh-kicker">Phiếu C cho Người máy đoán</p><h2>Lời đoán của người máy của em</h2></div>
+    <div class="sh-name"><span>Họ tên</span><span>Ngày</span></div>
+  </header><p class="sh-instr">Vẽ và viết. Thầy cô có thể giúp em viết chữ.</p><ol class="ws"><li><p>Hoàn thành quy luật. Vẽ thứ tiếp theo: ngôi sao, hình tròn, ngôi sao, hình tròn, ngôi sao, ___</p><div class="ws-box" style="--h:5"></div></li><li><p>Vẽ một thứ mà Robo có thể đoán SAI.</p><div class="ws-box" style="--h:5"></div></li><li><p>Robo đoán bằng cách tìm ___.</p><div class="ws-lines" style="--n:1"></div></li><li><p>Khi người máy hoặc máy tính đoán, em có thể nói: &quot;Mình ___ nhé!&quot;</p><div class="ws-lines" style="--n:1"></div></li><li><p>Vẽ một người có thể giúp em kiểm tra.</p><div class="ws-box" style="--h:5"></div></li></ol><footer class="sh-foot">Ngân hàng Hoạt động ELE của TCEA · Người máy đoán · CC BY-SA 4.0 · mglearn.github.io/eles</footer></section>
+    <section class="sheet sheet-key"><header class="sh-head"><div><p class="sh-kicker">Chỉ dành cho người điều phối, Người máy đoán</p><h2>Đáp án và ghi chú</h2></div></header><h3>Phiếu A: Thẻ quy luật</h3><dl class="key"><div><dt>Thẻ 1 · Âm thanh</dt><dd>dậm chân. Hỏi: &quot;Sao em biết?&quot;</dd></div><div><dt>Thẻ 2 · Kích thước</dt><dd>nhỏ. Các em ngồi thụp xuống thật thấp.</dd></div><div><dt>Thẻ 3 · Bầu trời</dt><dd>mặt trăng. Các em dùng hai tay làm mặt trăng tròn.</dd></div><div><dt>Thẻ 4 · Đếm số</dt><dd>2. Quy luật có ba phần lặp lại.</dd></div><div><dt>Thẻ 5 · Con vật</dt><dd>mèo. Hai con mèo, rồi một con chó, cứ lặp đi lặp lại.</dd></div><div><dt>Thẻ 6 · Thẻ Đánh Lừa</dt><dd>Ai cũng đoán xanh dương. Lật ra: XANH LÁ! Quy luật đã thay đổi. Đoán thông minh vẫn có thể sai.</dd></div></dl><h3>Phiếu B: Thẻ huấn luyện Robo</h3><dl class="key"><div><dt>Huấn luyện · Trái cây</dt><dd>Dán dưới TRÁI CÂY. Robo học được: màu đỏ nghĩa là trái cây.</dd></div><div><dt>Huấn luyện · Trái cây</dt><dd>Dán dưới TRÁI CÂY. Quy luật của Robo mạnh hơn: đỏ, đỏ.</dd></div><div><dt>Huấn luyện · Trái cây</dt><dd>Dán dưới TRÁI CÂY. Trái cây nào Robo thấy cũng màu đỏ.</dd></div><div><dt>Huấn luyện · Không phải trái cây</dt><dd>Dán dưới KHÔNG PHẢI TRÁI CÂY. Robo học được: màu xanh dương nghĩa là không phải trái cây.</dd></div><div><dt>Huấn luyện · Không phải trái cây</dt><dd>Dán dưới KHÔNG PHẢI TRÁI CÂY. Robo học được: màu xanh lá nghĩa là không phải trái cây.</dd></div><div><dt>Huấn luyện · Không phải trái cây</dt><dd>Dán dưới KHÔNG PHẢI TRÁI CÂY. Robo học được: màu vàng nghĩa là không phải trái cây.</dd></div><div><dt>Kiểm tra</dt><dd>Robo đoán KHÔNG PHẢI TRÁI CÂY, vì trong các ví dụ của nó, thứ màu vàng chưa bao giờ là trái cây. SAI.</dd></div><div><dt>Kiểm tra</dt><dd>Robo đoán TRÁI CÂY, vì thứ màu đỏ lúc nào cũng là trái cây. SAI.</dd></div><div><dt>Kiểm tra</dt><dd>Robo đoán TRÁI CÂY. ĐÚNG, nhưng chỉ vì nó tình cờ có màu đỏ.</dd></div><div><dt>Kiểm tra</dt><dd>Robo đoán KHÔNG PHẢI TRÁI CÂY, vì con ếch màu xanh lá. SAI.</dd></div><div><dt>Sửa lỗi · Trái cây</dt><dd>Giờ Robo đã thấy một loại trái cây màu vàng. Kiểm tra lại: Robo đoán tốt hơn. Càng nhiều loại ví dụ thì đoán càng giỏi.</dd></div><div><dt>Sửa lỗi · Trái cây</dt><dd>Robo vẫn chỉ nhìn màu sắc, nên giờ nó có thể nhầm lẫn với con ếch xanh. Hỏi: &quot;Nhìn màu sắc có phải là cách tốt để biết một thứ có phải trái cây không?&quot;</dd></div></dl><footer class="sh-foot">Ngân hàng Hoạt động ELE của TCEA · Người máy đoán · CC BY-SA 4.0 · mglearn.github.io/eles</footer></section>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Ngân hàng Hoạt động Kỳ vọng Học tập Thiết yếu của TCEA.</strong> Hoạt động bồi dưỡng chuyên môn và hoạt động cho học sinh K–16 về hiểu biết AI tạo sinh, công dân số và hiểu biết truyền thông, trên giấy hoặc trên màn hình.</p>
+    <p>Hoạt động do Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>) biên soạn, dựa trên <a href="https://tinyurl.com/tceaeles1">Kỳ vọng Học tập Thiết yếu của TCEA</a> (CC BY-SA 2024). Chia sẻ theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: được sao chép, chỉnh sửa và tái sử dụng khi ghi nguồn. Không cần đăng nhập, không theo dõi.</p>
+    <p class="ai-note">Ảnh trên trang này là hình minh họa do AI tạo ra về những người hư cấu, không phải học sinh hay nhân viên thật.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog TCEA</a>
+    <a href="https://convention.tcea.org/">Hội nghị &amp; Triển lãm TCEA</a>
+  </nav>
+  <nav aria-label="Liên quan">
+    <p class="foot-h">Thêm tài nguyên miễn phí</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Trợ lý Đối chiếu ELE</a>
+    <a href="https://mglearn.github.io/activities/">Trung tâm Hoạt động Học tập</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Hoạt động nhóm về Công dân số</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+<script src="../../assets/fit.js"></script><script>document.getElementById('hidekey')?.addEventListener('change',e=>document.body.classList.toggle('no-key',e.target.checked));document.getElementById('addcover').addEventListener('change',e=>document.body.classList.toggle('no-cover',!e.target.checked));</script>
+</body>
+</html>

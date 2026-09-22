@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bàn xác minh deepfake mùa bầu cử | Ngân hàng Hoạt động ELE</title>
+<meta name="description" content="Các nhóm tòa soạn học sinh chạy đua với hạn chót để quyết định tin báo nào trong tuần bầu cử là thật, tin nào là nội dung tổng hợp, và tin nào đơn giản là chưa thể xác nhận.">
+<meta property="og:title" content="Bàn xác minh deepfake mùa bầu cử | Ngân hàng Hoạt động ELE">
+<meta property="og:description" content="Các nhóm tòa soạn học sinh chạy đua với hạn chót để quyết định tin báo nào trong tuần bầu cử là thật, tin nào là nội dung tổng hợp, và tin nào đơn giản là chưa thể xác nhận.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/deepfake-election-desk.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/deepfake-election-desk.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/activities/deepfake-election-desk.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/deepfake-election-desk.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Ngân hàng Hoạt động</span></a>
+  <nav aria-label="Chính">
+    <a href="../index.html#catalog">Hoạt động</a>
+    <a href="../framework.html">Các ELE</a>
+    <details class="navmenu"><summary>Dành cho người điều phối</summary><div class="navmenu-panel">
+      <a href="../guide.html">Hướng dẫn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Chuẩn</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Ngôn ngữ</span><select aria-label="Ngôn ngữ"><option value="en" lang="en" data-href="../../activities/deepfake-election-desk.html">English</option><option value="es" lang="es" data-href="../../es/activities/deepfake-election-desk.html">Español</option><option value="vi" lang="vi" data-href="../../vi/activities/deepfake-election-desk.html" selected>Tiếng Việt</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="vi">Bản dịch này được thực hiện với sự hỗ trợ của AI và đang chờ người bản ngữ xem xét. Bản tiếng Anh là bản gốc.</p>
+
+<main id="main" class="act">
+  <div class="act-head has-photo">
+    <figure class="act-photo"><img class="photo" src="../../assets/img/cat-912-medialit.jpg" width="1536" height="1024" alt="High school students work together in a classroom newsroom using photographs and sources."></figure>
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Tất cả hoạt động</a> <span aria-hidden="true">/</span> Học tập của học sinh</p>
+    <h1>Bàn xác minh deepfake mùa bầu cử</h1>
+    <p class="lede">Các nhóm tòa soạn học sinh chạy đua với hạn chót để quyết định tin báo nào trong tuần bầu cử là thật, tin nào là nội dung tổng hợp, và tin nào đơn giản là chưa thể xác nhận.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/deepfake-election-desk.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">In hướng dẫn này</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="Tóm tắt nhanh">
+      <dl>
+        <div><dt>Thời gian</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>70 phút</dd></div>
+        <div><dt>Hình thức</dt><dd class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</dd></div>
+        <div><dt>Lớp</dt><dd>9–12</dd></div>
+        
+        <div><dt>Nhóm</dt><dd>Nhóm tòa soạn 4 người (biên tập viên, trưởng nhóm xác minh, phóng viên liên hệ nguồn tin, biên tập viên chuẩn mực); 3–8 nhóm</dd></div>
+        <div><dt>Mạch nội dung</dt><dd class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span><span class="strand s-digcit">Công dân số</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Chỉ báo ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI2.2">AI2.2</a><div><span class="ind-area">AI trong Giáo dục · Sử dụng AI có Đạo đức</span>Tôi có thể xác định các vấn đề đạo đức tiềm ẩn trong ứng dụng AI và đề xuất giải pháp.</div></li><li><a class="ele" href="../framework.html#S3.1">S3.1</a><div><span class="ind-area">Học sinh · Người học Hợp tác</span>Em biết cách làm việc nhóm hiệu quả.</div></li><li><a class="ele" href="../framework.html#S2.2">S2.2</a><div><span class="ind-area">Học sinh · An toàn Trực tuyến</span>Em có thể nhận biết các nguồn thông tin đáng tin cậy trên internet.</div></li><li><a class="ele" href="../framework.html#AI4.1">AI4.1</a><div><span class="ind-area">AI trong Giáo dục · AI và Tư duy Phản biện</span>Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.</div></li><li><a class="ele" href="../framework.html#S3.2">S3.2</a><div><span class="ind-area">Học sinh · Người học Hợp tác</span>Em có thể truyền đạt ý tưởng của mình một cách rõ ràng cho người khác.</div></li></ul>
+      <h2 class="glance-h">Phiếu</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Tin báo gửi đến (Bầu cử thị trưởng Port Alder) <span class="muted">(thẻ cắt rời)</span></li><li><span class="hl">B</span> Nhật ký bàn xác minh <span class="muted">(sơ đồ tổ chức)</span></li><li><span class="hl">C</span> Thang đánh giá Bản ghi nhớ quyết định của biên tập viên <span class="muted">(bảng tiêu chí)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Tổng quan</h2><p class="overview">Chỉ còn ba ngày nữa là đến cuộc bầu cử thị trưởng ở thành phố hư cấu Port Alder, và tin báo đang dồn dập đổ về tòa soạn báo <em>Port Alder Ledger</em>: một đoạn ghi âm, một bức ảnh mít tinh, một video, một ảnh chụp màn hình. Một số là thật, một số do AI tạo ra hoặc đã bị chỉnh sửa, và một số không thể xác nhận trước hạn chót. Các nhóm học sinh làm việc như một bàn xác minh, dùng các câu hỏi về nguồn gốc, đọc đối chiếu (lateral reading) và liên hệ nguồn tin thay vì dựa vào cảm tính hay một công cụ phát hiện duy nhất, và phải viết ra quyết định đăng, tạm giữ hoặc đính chính mà mình có thể bảo vệ. Ý tưởng lớn: với nội dung tổng hợp như deepfake (nội dung giả mạo bằng AI), đôi khi câu trả lời có trách nhiệm nhất là &quot;chúng tôi chưa biết&quot;, và nói ra điều đó cũng là một phần của công việc.</p>
+        <h3 class="sub">Mục tiêu</h3><ul><li>Học sinh sẽ áp dụng các câu hỏi về nguồn gốc và đọc đối chiếu để quyết định một nội dung truyền thông về bầu cử là thật, là tổng hợp hoặc bị chỉnh sửa, hay chưa được xác nhận.</li><li>Học sinh sẽ xác định các rủi ro đạo đức của việc đăng, hoặc làm ngơ, nội dung tổng hợp trong mùa bầu cử và đề xuất cách phản hồi có trách nhiệm của tòa soạn.</li><li>Học sinh sẽ làm việc theo các vai trò được phân công trong tòa soạn để đi đến và truyền đạt một quyết định chung của nhóm dưới áp lực thời gian.</li></ul></section>
+      <section class="two">
+        <div><h2>Học liệu</h2>
+          <h3 class="sub">Trên giấy</h3><ul><li>Phiếu A: Tin báo gửi đến (mỗi nhóm 1 bộ, cắt rời, úp mặt xuống; mặt sau là phần &quot;Kết quả tác nghiệp&quot; được in riêng)</li><li>Phiếu B: Nhật ký bàn xác minh (mỗi nhóm 1 phiếu)</li><li>Phiếu C: Thang đánh giá Bản ghi nhớ quyết định của biên tập viên (mỗi nhóm 1 phiếu)</li><li>Bảng tên vai trò cho mỗi nhóm: Biên tập viên, Trưởng nhóm xác minh, Phóng viên liên hệ nguồn tin, Biên tập viên chuẩn mực; một đồng hồ đếm ngược mọi người đều nhìn thấy</li></ul>
+          <h3 class="sub">Trên màn hình</h3><ul><li>Mỗi nhóm một thiết bị có trình duyệt, để tìm kiếm ngược hình ảnh và đọc đối chiếu trong vòng luyện tập</li><li>Tùy chọn: một công cụ tạo ảnh bằng AI tạo sinh được học khu phê duyệt, do giáo viên dùng trên máy chiếu để cho thấy một bức ảnh mít tinh giả có thể được tạo ra nhanh đến mức nào</li></ul></div>
+        <div><h2>Trước khi bắt đầu</h2><ol class="prep"><li>In Phiếu A. Cắt rời các thẻ tin báo; in mặt sau (Kết quả tác nghiệp) thành các mảnh giấy riêng mà giáo viên chỉ phát khi một nhóm đặt đúng câu hỏi xác minh.</li><li>Chuẩn bị một &quot;bàn nguồn tin&quot;, nơi giáo viên đóng vai những người mà các nhóm gọi điện hỏi. Đọc trước phần Kết quả tác nghiệp để có thể trả lời đúng vai.</li><li>Làm bảng tên vai trò. Phân vai sao cho mỗi nhóm có một học sinh tự tin dẫn dắt thảo luận trong vai Biên tập viên.</li><li>Khởi động kỹ thuật số (tùy chọn): tạo một bức ảnh tổng hợp vô hại (ví dụ: một đám đông tại lễ hội ở một công viên hư cấu) bằng công cụ được phê duyệt để học sinh thấy nó trông thật đến mức nào. Không bao giờ tạo ảnh về người thật.</li></ol></div>
+      </section>
+      <section><h2>Từng bước</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khởi động</p>
+        <h3>Thật hay được tạo ra?</h3>
+        <p>Nếu đã chuẩn bị ảnh tổng hợp, hãy chiếu nó cạnh một bức ảnh bình thường từ một sự kiện của chính trường mình. Hỏi: <strong>&quot;Bức nào do AI tạo ra? Các bạn chắc chắn đến mức nào?&quot;</strong> Cho biểu quyết. Công bố đáp án. Nói: &quot;Nhìn bằng mắt để phát hiện hàng giả ngày càng khó, và dù sao thì nhìn cũng chưa bao giờ là cách tốt nhất. Hôm nay các bạn là nhà báo. Nhà báo không quyết định bằng cách nhìn chằm chằm. Họ quyết định bằng cách kiểm tra xem thứ đó đến từ đâu.&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Nếu không có ảnh tổng hợp, hãy đọc to Tin 1 và hỏi nhóm có phát sóng nó không. Ý chính vẫn vậy: vẻ bề ngoài là bằng chứng yếu.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–15 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Làm mẫu</p>
+        <h3>Bốn câu hỏi của bàn xác minh</h3>
+        <p>Dạy bốn câu hỏi và viết lên bảng: <strong>1. Nguồn gốc:</strong> Ai đăng đầu tiên, và khi nào? <strong>2. Kiểm chứng chéo:</strong> Có nguồn độc lập nào khác xác nhận không (bản ghi khác, nhân chứng, hồ sơ chính thức)? <strong>3. Bối cảnh:</strong> Có phải nó là thật nhưng từ một thời điểm, địa điểm hoặc sự kiện khác? <strong>4. Liên hệ:</strong> Chúng ta có liên lạc được với người xuất hiện trong đó hoặc nguồn gốc ban đầu không? Giải thích rằng các &quot;dấu hiệu&quot; hình ảnh (bàn tay kỳ lạ, chữ bị méo) có thể giúp ích nhưng không đáng tin cậy, và công cụ phát hiện AI có thể sai theo cả hai hướng, vì vậy <strong>kết quả của công cụ phát hiện chỉ là một manh mối, không bao giờ là phán quyết.</strong> Phân vai và ôn lại: Biên tập viên canh giờ và đưa ra quyết định cuối cùng; Trưởng nhóm xác minh lo nguồn gốc và bối cảnh; Phóng viên liên hệ nguồn tin gọi điện tại bàn nguồn tin; Biên tập viên chuẩn mực hỏi &quot;Nếu chúng ta sai thì gây hại gì?&quot;</p>
+        
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">15–40 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Luyện tập</p>
+        <h3>Vòng chạy hạn chót</h3>
+        <p>Bắt đầu đếm ngược 25 phút. Các nhóm lật từng tin báo một. Với mỗi tin, nhóm quyết định theo đuổi câu hỏi nào trước và <strong>xin Kết quả tác nghiệp bằng cách đặt một câu hỏi cụ thể</strong> tại bàn nguồn tin (&quot;Ai đăng đoạn ghi âm đầu tiên?&quot; &quot;Chúng tôi có liên lạc được với ban vận động của ứng viên không?&quot;). Yêu cầu mơ hồ (&quot;Cái này có giả không?&quot;) sẽ nhận câu trả lời &quot;Tòa soạn chúng ta chưa biết điều đó. Các bạn sẽ kiểm tra gì?&quot; Các nhóm ghi lại mọi bước vào Phiếu B và gán cho mỗi tin một trạng thái: <strong>Đăng như tin thật, Đăng bài đính chính, Tạm giữ (chưa xác nhận),</strong> hoặc <strong>Không khuếch đại.</strong></p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Chỉ đưa Kết quả tác nghiệp cho đúng câu hỏi được đặt ra. Nhóm nào không bao giờ hỏi về bối cảnh sẽ không biết bức ảnh lũ lụt là ảnh cũ. Điều đó rất thực tế, và tạo ra một buổi tổng kết rất hay.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">40–52 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Tổng kết</p>
+        <h3>Cuộc họp buổi sáng</h3>
+        <p>Mỗi Biên tập viên báo cáo một quyết định và bằng chứng đã dẫn đến quyết định đó. So sánh quyết định giữa các nhóm ở Tin 2 và Tin 6, hai tin gây tranh cãi nhất. Hỏi: &quot;Nhóm nào tạm giữ một tin mà nhóm khác đã đăng? Ai đúng, và làm sao biết được?&quot; Sau đó hỏi các Biên tập viên chuẩn mực: <strong>&quot;Nếu đăng một tin giả thì gây hại gì? Nếu làm ngơ một tin thật thì gây hại gì?&quot;</strong> Thảo luận về việc một bài đính chính có thể vô tình lan truyền tin giả (lặp lại lời khẳng định sai ngay trong tiêu đề) và cách các tòa soạn giảm thiểu rủi ro đó.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Tin 5 (đoạn clip thật nhưng gây bẽ mặt) là bài học học sinh hay bỏ lỡ: &quot;lợi thế của kẻ nói dối&quot; (liar's dividend), khi bằng chứng thật bị gạt đi là đồ giả. Việc xác minh cũng bảo vệ những câu chuyện có thật.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">52–65 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Sáng tạo</p>
+        <h3>Bản ghi nhớ của biên tập viên</h3>
+        <p>Mỗi nhóm viết một Bản ghi nhớ quyết định của biên tập viên ngắn cho một tin mà nhóm đã tạm giữ hoặc đính chính: đã kiểm tra gì, phát hiện được gì, điều gì vẫn chưa biết, sẽ đăng gì (hoặc vì sao không đăng), và sẽ nói gì với độc giả về cách mình đã xác minh. Các nhóm tự chấm điểm bằng Phiếu C và đổi bài với một nhóm khác để nhận một góp ý.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Khuyến khích các nhóm thêm một câu dành cho độc giả, chẳng hạn &quot;Đây là cách chúng tôi đã kiểm tra&quot;, để làm mẫu cho sự minh bạch.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Giấy hay màn hình</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</h3><p>Có thể thực hiện toàn bộ mô phỏng trên giấy. Thẻ tin báo mô tả chi tiết từng nội dung truyền thông, và các mảnh giấy Kết quả tác nghiệp thay thế cho việc tìm kiếm ngược hình ảnh, đọc đối chiếu và gọi điện. Học sinh vẫn luyện tập việc chọn câu hỏi nào để hỏi trước, và đó mới là kỹ năng thực sự.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kỹ thuật số</h3><p>Phát cho mỗi nhóm một thiết bị và thêm một tin luyện tập dùng một bức ảnh mà bạn biết rõ nguồn gốc (ví dụ: một bức ảnh trên trang web công khai của trường) để học sinh thực hành tìm kiếm ngược hình ảnh và đọc đối chiếu thật trước vòng chạy hạn chót. Các nhóm có thể giữ Phiếu B dưới dạng tài liệu dùng chung và đăng bản ghi nhớ lên trang &quot;tòa soạn&quot; của lớp trong LMS. Mọi việc tạo ảnh bằng AI chỉ diễn ra trên máy chiếu của giáo viên, và không ai tạo nội dung tổng hợp về người thật.</p></div>
+        <p class="why"><strong>Có cần màn hình không?</strong> Một lần tìm kiếm ngược hình ảnh trực tiếp cho học sinh thấy bối cảnh gốc của một bức ảnh cũ có thể hiện ra nhanh đến mức nào, khiến câu hỏi về Bối cảnh trở nên đáng hỏi. Vòng chơi trên giấy dạy cùng một khả năng phán đoán; phần khởi động kỹ thuật số chứng minh rằng các bước kiểm tra đủ nhanh để thực sự làm được.</p>
+      </section>
+      <section class="evidence"><h2>Bằng chứng học tập</h2><p class="muted">Những gì bạn có thể quan sát hoặc thu thập được nếu hoạt động thành công.</p><ul><li>Các nhóm đặt câu hỏi cụ thể về nguồn gốc, bối cảnh hoặc liên hệ trước khi gán trạng thái, thay vì chỉ phán đoán từ phần mô tả.</li><li>Ít nhất một tin được đánh dấu Tạm giữ, kèm nêu rõ điều gì vẫn chưa biết.</li><li>Biên tập viên chuẩn mực nêu được một tác hại cụ thể của việc đăng tin giả và một tác hại cụ thể của việc gạt bỏ nội dung thật.</li><li>Bản ghi nhớ quyết định tách bạch điều đã kiểm tra với điều đã kết luận và có một ghi chú minh bạch dành cho độc giả.</li></ul></section>
+      <section><h2>Điều chỉnh</h2><dl class="adapt"><div><dt>Lớp 9 hoặc lần đầu tham gia</dt><dd>Chỉ dùng Tin 1, 3, 4 và 5, để các nhóm có thêm thời gian cho mỗi quyết định trong cùng vòng 25 phút.</dd></div><div><dt>Lớp báo chí hoặc phát thanh truyền hình</dt><dd>Thêm vòng chạy hạn chót thứ hai, trong đó các nhóm viết tiêu đề thật và hai câu đầu tiên cho bài đính chính mà không lặp lại lời khẳng định sai trong tiêu đề.</dd></div><div><dt>Học sinh song ngữ đang phát triển</dt><dd>Đưa Tin 7 (bài đăng được dịch) vào và mời học sinh đa ngôn ngữ dẫn dắt phần này; cung cấp một ngân hàng mẫu câu hỏi cho bàn nguồn tin.</dd></div><div><dt>Môn Chính quyền hoặc Giáo dục công dân</dt><dd>Liên hệ với quy trình bầu cử: cử tri có thể xác nhận thông tin bầu cử chính thức trực tiếp với văn phòng bầu cử quận như thế nào.</dd></div></dl></section>
+      <section class="stds"><h2>Liên kết với các chuẩn</h2><p>Các nhóm phòng tin học sinh kiểm chứng nội dung truyền thông về bầu cử qua nguồn gốc, sự xác nhận từ nguồn khác và bối cảnh, rồi viết bản ghi nhớ của biên tập viên tách bạch điều đã kiểm chứng với điều còn chưa rõ.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Ứng dụng Công nghệ, công dân số: đạo đức và pháp luật (c)(9)">đạo đức và pháp luật (c)(9)</a><a class="std std-teks" href="../standards.html#teks-ss-skills" title="Kỹ năng khoa học xã hội (nguồn, hệ quy chiếu, thiên kiến và bằng chứng)">Kỹ năng khoa học xã hội (nguồn, hệ quy chiếu, thiên kiến và bằng chứng)</a><a class="std std-teks" href="../standards.html#teks-elar-inquiry" title="ELAR: tìm hiểu và nghiên cứu">tìm hiểu và nghiên cứu</a><a class="std std-teks" href="../standards.html#teks-elar-composition" title="ELAR: viết văn bản">viết văn bản</a><span class="std-sec">Các mục TEKS: Technology Applications các môn Ứng dụng Công nghệ bậc trung học phổ thông (19 TAC Chương 126); ELAR §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Nghe">Nghe</a><a class="std std-elps" href="../standards.html#elps-c3" title="Nói">Nói</a><a class="std std-elps" href="../standards.html#elps-c4" title="Đọc">Đọc</a><a class="std std-elps" href="../standards.html#elps-c5" title="Viết">Viết</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-7-2" title="Tối ưu hóa tính liên quan, giá trị và tính chân thực">7.2</a><a class="std std-udl" href="../standards.html#udl-8-1" title="Làm rõ ý nghĩa và mục đích của mục tiêu">8.1</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Thúc đẩy hợp tác, sự phụ thuộc lẫn nhau và học tập tập thể">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Tối đa hóa khả năng chuyển giao và khái quát hóa">3.4</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-ss-sources" title="Khoa học xã hội: nguồn, nhận định, và mạch kinh tế, khoa học, công nghệ và xã hội">nguồn, nhận định, và mạch kinh tế, khoa học, công nghệ và xã hội</a><a class="std std-sst" href="../standards.html#sst-rla-writing" title="Viết (RLA): sáng tác, chỉnh sửa và biên tập, bao gồm câu trả lời tự luận mở rộng">sáng tác, chỉnh sửa và biên tập, bao gồm câu trả lời tự luận mở rộng</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Xem cách tất cả hoạt động được đối chiếu với các chuẩn</a></p></section>
+      <section class="two">
+        <div><h2>Suy ngẫm</h2><ul><li>Làm sao tôi có thể xác định các vấn đề đạo đức khi nội dung do AI tạo ra đi vào đời sống công cộng, và tôi sẽ đề xuất giải pháp gì? (AI2.2)</li><li>Vai trò của tôi đã giúp, hay làm chậm, quyết định của nhóm như thế nào? (S3.1)</li><li>Tôi quyết định một nguồn thông tin có đáng tin hay không như thế nào khi không thể nhận ra chỉ bằng cách nhìn? (S2.2)</li></ul></div>
+        <div><h2>Bước tiếp theo</h2><p>Trong tuần tới, mỗi học sinh mang đến một bức ảnh, đoạn clip hoặc ảnh chụp màn hình đã thấy trên mạng về bất kỳ chủ đề thời sự nào, và cả lớp áp dụng bốn câu hỏi của bàn xác minh cho nó trong năm phút để khởi động. Ở nhà, học sinh có thể chia sẻ bốn câu hỏi này với gia đình trước kỳ bầu cử địa phương tiếp theo.</p></div>
+      </section>
+      <section><h2>Kết hợp tốt với</h2><ul class="connections"><li><a href="https://newslit.org/">News Literacy Project</a><span>Tài liệu về cách xác minh hình ảnh và video, và cách các tòa soạn đưa ra quyết định đăng tin.</span></li><li><a href="https://cor.inquirygroup.org/">Digital Inquiry Group: Civic Online Reasoning</a><span>Các bài học về đọc đối chiếu và đánh giá bằng chứng, giúp xây dựng kỹ năng Nguồn gốc và Kiểm chứng chéo.</span></li></ul></section>
+      <section class="related noprint"><h2>Hoạt động liên quan</h2><div class="cards"><article class="card has-photo" data-id="ad-or-info">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-35-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 3–5</span></p>
+    <h3><a href="../activities/ad-or-info.html">Quảng cáo hay Thông tin?</a></h3>
+    <p class="card-tag">Học sinh phân loại các bài đăng, video và tiêu đề giả lập thành quảng cáo, thông tin và câu click, truy tìm các chiêu thuyết phục, rồi tự tạo một quảng cáo trung thực, được ghi nhãn rõ ràng.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>40 phút</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#S2.2" title="Học sinh 2.2: Em có thể nhận biết các nguồn thông tin đáng tin cậy trên internet.">S2.2</a><a class="ele" href="../framework.html#S5.2" title="Học sinh 5.2: Em có thể vận dụng sự sáng tạo và tư duy logic để tìm ra các giải pháp đổi mới.">S5.2</a><a class="ele" href="../framework.html#S3.2" title="Học sinh 3.2: Em có thể truyền đạt ý tưởng của mình một cách rõ ràng cho người khác.">S3.2</a></span></div>
+  </article><article class="card has-photo" data-id="primary-source-vs-ai-summary">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-68-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 6–8, Lớp 9–12</span></p>
+    <h3><a href="../activities/primary-source-vs-ai-summary.html">Nguồn Gốc và Bản Tóm Tắt Của AI</a></h3>
+    <p class="card-tag">Học sinh đọc một lá thư năm 1911 rõ ràng là hư cấu, rồi bắt lỗi một bản tóm tắt của AI đã thay đổi ngày tháng, bịa ra một câu trích dẫn, biến một lời đồn thành sự thật, và xóa mất những người hàng xóm đã giúp đỡ.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#AI4.1" title="AI trong Giáo dục 4.1: Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.">AI4.1</a><a class="ele" href="../framework.html#S2.2" title="Học sinh 2.2: Em có thể nhận biết các nguồn thông tin đáng tin cậy trên internet.">S2.2</a><a class="ele" href="../framework.html#AI1.3" title="AI trong Giáo dục 1.3: Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.">AI1.3</a></span></div>
+  </article><article class="card has-photo" data-id="real-pretend-or-changed">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-k2-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp K–2</span></p>
+    <h3><a href="../activities/real-pretend-or-changed.html">Thật, Tưởng tượng hay Bị thay đổi?</a></h3>
+    <p class="card-tag">Các thám tử nhí vận động, lắc lư hoặc đứng im để quyết định một bức tranh hay câu chuyện là thật, được tưởng tượng ra có chủ ý, hay bị thay đổi để trông như thật, và học cách hỏi người lớn khi không phân biệt được.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>30 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#S2.2" title="Học sinh 2.2: Em có thể nhận biết các nguồn thông tin đáng tin cậy trên internet.">S2.2</a><a class="ele" href="../framework.html#AI4.1" title="AI trong Giáo dục 4.1: Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.">AI4.1</a><a class="ele" href="../framework.html#S3.2" title="Học sinh 3.2: Em có thể truyền đạt ý tưởng của mình một cách rõ ràng cho người khác.">S3.2</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Ngân hàng Hoạt động Kỳ vọng Học tập Thiết yếu của TCEA.</strong> Hoạt động bồi dưỡng chuyên môn và hoạt động cho học sinh K–16 về hiểu biết AI tạo sinh, công dân số và hiểu biết truyền thông, trên giấy hoặc trên màn hình.</p>
+    <p>Hoạt động do Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>) biên soạn, dựa trên <a href="https://tinyurl.com/tceaeles1">Kỳ vọng Học tập Thiết yếu của TCEA</a> (CC BY-SA 2024). Chia sẻ theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: được sao chép, chỉnh sửa và tái sử dụng khi ghi nguồn. Không cần đăng nhập, không theo dõi.</p>
+    <p class="ai-note">Ảnh trên trang này là hình minh họa do AI tạo ra về những người hư cấu, không phải học sinh hay nhân viên thật.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog TCEA</a>
+    <a href="https://convention.tcea.org/">Hội nghị &amp; Triển lãm TCEA</a>
+  </nav>
+  <nav aria-label="Liên quan">
+    <p class="foot-h">Thêm tài nguyên miễn phí</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Trợ lý Đối chiếu ELE</a>
+    <a href="https://mglearn.github.io/activities/">Trung tâm Hoạt động Học tập</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Hoạt động nhóm về Công dân số</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

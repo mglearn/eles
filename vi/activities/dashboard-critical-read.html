@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Đọc Bảng điều khiển Trước khi Nó &quot;Đọc&quot; Bạn | Ngân hàng Hoạt động ELE</title>
+<meta name="description" content="Các nhà lãnh đạo mổ xẻ tám ô dữ liệu mô phỏng trên bảng điều khiển (dashboard), bao gồm một &quot;nhận định&quot; do AI tạo ra, để luyện cách đặt câu hỏi: dữ liệu cho thấy gì, không thể cho thấy gì, và ai có thể bị tổn hại bởi một kết luận vội vàng.">
+<meta property="og:title" content="Đọc Bảng điều khiển Trước khi Nó &quot;Đọc&quot; Bạn | Ngân hàng Hoạt động ELE">
+<meta property="og:description" content="Các nhà lãnh đạo mổ xẻ tám ô dữ liệu mô phỏng trên bảng điều khiển (dashboard), bao gồm một &quot;nhận định&quot; do AI tạo ra, để luyện cách đặt câu hỏi: dữ liệu cho thấy gì, không thể cho thấy gì, và ai có thể bị tổn hại bởi một kết luận vội vàng.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/dashboard-critical-read.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/dashboard-critical-read.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/activities/dashboard-critical-read.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/dashboard-critical-read.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Ngân hàng Hoạt động</span></a>
+  <nav aria-label="Chính">
+    <a href="../index.html#catalog">Hoạt động</a>
+    <a href="../framework.html">Các ELE</a>
+    <details class="navmenu"><summary>Dành cho người điều phối</summary><div class="navmenu-panel">
+      <a href="../guide.html">Hướng dẫn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Chuẩn</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Ngôn ngữ</span><select aria-label="Ngôn ngữ"><option value="en" lang="en" data-href="../../activities/dashboard-critical-read.html">English</option><option value="es" lang="es" data-href="../../es/activities/dashboard-critical-read.html">Español</option><option value="vi" lang="vi" data-href="../../vi/activities/dashboard-critical-read.html" selected>Tiếng Việt</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="vi">Bản dịch này được thực hiện với sự hỗ trợ của AI và đang chờ người bản ngữ xem xét. Bản tiếng Anh là bản gốc.</p>
+
+<main id="main" class="act">
+  <div class="act-head">
+    
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Tất cả hoạt động</a> <span aria-hidden="true">/</span> Bồi dưỡng chuyên môn</p>
+    <h1>Đọc Bảng điều khiển Trước khi Nó &quot;Đọc&quot; Bạn</h1>
+    <p class="lede">Các nhà lãnh đạo mổ xẻ tám ô dữ liệu mô phỏng trên bảng điều khiển (dashboard), bao gồm một &quot;nhận định&quot; do AI tạo ra, để luyện cách đặt câu hỏi: dữ liệu cho thấy gì, không thể cho thấy gì, và ai có thể bị tổn hại bởi một kết luận vội vàng.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/dashboard-critical-read.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">In hướng dẫn này</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="Tóm tắt nhanh">
+      <dl>
+        <div><dt>Thời gian</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>60 phút</dd></div>
+        <div><dt>Hình thức</dt><dd class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</dd></div>
+        <div><dt>Dành cho</dt><dd>Lãnh đạo, Chuyên viên hỗ trợ, Giảng viên</dd></div>
+        <div><dt>Đối tượng</dt><dd>K–12, Giáo dục đại học</dd></div>
+        <div><dt>Nhóm</dt><dd>Nhóm 3–4 người; không giới hạn số nhóm</dd></div>
+        <div><dt>Mạch nội dung</dt><dd class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-digcit">Công dân số</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Chỉ báo ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#L3.2">L3.2</a><div><span class="ind-area">Lãnh đạo Nhà trường · Ra Quyết định Dựa trên Dữ liệu với Công cụ Kỹ thuật số</span>Tôi có thể diễn giải các bộ dữ liệu số phức tạp và truyền đạt phát hiện một cách hiệu quả bằng các công cụ trực quan hóa dữ liệu.</div></li><li><a class="ele" href="../framework.html#L3.1">L3.1</a><div><span class="ind-area">Lãnh đạo Nhà trường · Ra Quyết định Dựa trên Dữ liệu với Công cụ Kỹ thuật số</span>Tôi biết cách sử dụng các công cụ dữ liệu kỹ thuật số để thúc đẩy các nỗ lực cải tiến nhà trường.</div></li><li><a class="ele" href="../framework.html#L3.3">L3.3</a><div><span class="ind-area">Lãnh đạo Nhà trường · Ra Quyết định Dựa trên Dữ liệu với Công cụ Kỹ thuật số</span>Tôi nhận thức được các công cụ đánh giá kỹ thuật số khác nhau và cách sử dụng phù hợp của chúng trong giáo dục.</div></li><li><a class="ele" href="../framework.html#AI1.3">AI1.3</a><div><span class="ind-area">AI trong Giáo dục · Hiểu biết về AI</span>Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.</div></li></ul>
+      <h2 class="glance-h">Phiếu</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Thẻ Ô Dữ liệu <span class="muted">(thẻ cắt rời)</span></li><li><span class="hl">B</span> Sơ đồ Biết được / Không biết được <span class="muted">(sơ đồ tổ chức)</span></li><li><span class="hl">C</span> Danh mục Kiểm tra Sử dụng Dữ liệu và Quyền riêng tư trên Bảng điều khiển <span class="muted">(danh sách kiểm tra)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Tổng quan</h2><p class="overview">Bảng điều khiển dữ liệu luôn xuất hiện đầy tự tin: màu sắc, mũi tên, và ngày càng nhiều những &quot;nhận định&quot; được tạo tự động bằng ngôn ngữ dễ hiểu. Các nhà lãnh đạo được kỳ vọng sẽ hành động dựa trên chúng. Trong buổi này, các nhóm đọc tám ô dữ liệu hư cấu với con mắt phản biện giống như khi dạy học sinh đọc một bản đồ họa thông tin (infographic): kiểm tra trục, mốc so sánh, cỡ mẫu, chỉ số thực sự đo cái gì, và những gì dữ liệu không thể cho biết. Các nhóm cũng xem xét mỗi ô để lộ dữ liệu cá nhân nào và cho ai thấy. Cuối buổi, các nhóm vẽ lại một cách trung thực một ô gây hiểu lầm và viết một bản tóm tắt ba câu mà một buổi họp nhân viên có thể tin cậy.</p>
+        <h3 class="sub">Mục tiêu</h3><ul><li>Người tham gia sẽ xác định ít nhất bốn cách mà một cách trình bày dữ liệu có thể gây hiểu lầm (cắt bớt trục, thiếu mốc so sánh, cỡ mẫu nhỏ, chỉ số đại diện, tương quan được trình bày như nhân quả).</li><li>Người tham gia sẽ phân biệt điều một ô dữ liệu cho thấy với điều nó không thể cho thấy, và nêu thêm bằng chứng cần có trước khi hành động.</li><li>Người tham gia sẽ đánh giá các tác động về quyền riêng tư liên quan đến việc ai có thể xem dữ liệu học sinh nào trên bảng điều khiển.</li><li>Người tham gia sẽ vẽ lại một cách trình bày gây hiểu lầm và truyền đạt chính xác phát hiện của nó trong ba câu.</li></ul></section>
+      <section class="two">
+        <div><h2>Học liệu</h2>
+          <h3 class="sub">Trên giấy</h3><ul><li>Phiếu A: Thẻ Ô Dữ liệu (mỗi nhóm 1 bộ, cắt rời)</li><li>Phiếu B: Sơ đồ Biết được / Không biết được (mỗi nhóm 1 phiếu)</li><li>Phiếu C: Danh mục Kiểm tra Sử dụng Dữ liệu và Quyền riêng tư trên Bảng điều khiển (mỗi người 1 phiếu)</li><li>Giấy kẻ ô hoặc giấy trắng, thước kẻ, bút chì màu để vẽ lại</li></ul>
+          <h3 class="sub">Trên màn hình</h3><ul><li>Tùy chọn: quyền truy cập một bảng điều khiển thật mà trường đang dùng, với thông tin nhận dạng học sinh đã được ẩn hoặc một tài khoản demo</li><li>Tùy chọn: một bảng tính chứa các số liệu của Ô 1 để các nhóm vẽ lại biểu đồ trên máy</li></ul></div>
+        <div><h2>Trước khi bắt đầu</h2><ol class="prep"><li>In và cắt Phiếu A. Các ô dữ liệu được mô tả bằng lời để in cho rõ; nếu muốn có hình ảnh, hãy phác họa Ô 1 và Ô 3 lên giấy khổ lớn theo mô tả.</li><li>Nếu dự định dùng một bảng điều khiển thật ở bước Suy ngẫm, hãy kiểm tra ai được phép xem và ẩn tên học sinh. Một buổi tập huấn không phải là lý do để mở rộng quyền truy cập dữ liệu học sinh.</li><li>Sao chép số liệu của Ô 1 vào một bảng tính nếu muốn các nhóm vẽ lại trên máy.</li></ol></div>
+      </section>
+      <section><h2>Từng bước</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–6 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khởi động</p>
+        <h3>Biểu đồ báo động</h3>
+        <p>Phác họa Ô 1 lên giấy khổ lớn đúng như mô tả: một biểu đồ cột có trục tung bắt đầu từ 80%. Hỏi: <strong>&quot;Nếu biểu đồ này xuất hiện trên màn hình trong một buổi họp hội đồng giáo dục, mọi người sẽ kết luận gì?&quot;</strong> Sau đó vẽ lại ngay bên cạnh với trục bắt đầu từ 0%. Hỏi: &quot;Cùng dữ liệu. Điều gì đã thay đổi?&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Mọi người thường nói tỷ lệ chuyên cần đã &quot;lao dốc.&quot; Mức giảm thực tế chỉ khoảng ba điểm phần trăm. Cả hai biểu đồ đều chính xác; chỉ một biểu đồ trung thực về tỷ lệ.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">6–24 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khám phá</p>
+        <h3>Các trạm ô dữ liệu</h3>
+        <p>Các nhóm luân phiên qua tám ô dữ liệu (hoặc xem lần lượt tại bàn), mỗi ô khoảng hai phút. Với mỗi ô, nhóm điền một dòng trong Phiếu B: <strong>nhận định mà ai đó có thể đưa ra, ô dữ liệu thực sự cho thấy gì, nó không thể cho biết điều gì, và câu hỏi hoặc dữ liệu cần có tiếp theo.</strong> Nhóm cũng đánh dấu bất kỳ ô nào để lộ thông tin cá nhân cho những người có thể không cần đến.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Ô 5, nhận định do AI tạo, thường gây tranh luận nhiều nhất. Hãy hỏi: &quot;Phần mềm thực sự có thể đã dùng dữ liệu gì để kết luận học sinh 'thiếu gắn kết'?&quot;</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">24–34 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Tổng kết</p>
+        <h3>Gọi tên các thủ thuật</h3>
+        <p>Từ những gì các nhóm phát hiện, lập một danh sách chung trên giấy khổ lớn với tiêu đề <strong>&quot;Những câu hỏi cần đặt ra cho mọi bảng điều khiển&quot;</strong>: Mốc so sánh là gì? Đây là bao nhiêu học sinh? Chỉ số này thực sự đếm cái gì? Có điều gì khác có thể giải thích không? Ai có thể xem, và họ có cần xem không? So sánh với đáp án của người điều phối ở mặt sau thẻ.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Liên hệ với hiểu biết truyền thông: đây cũng chính là những câu hỏi học sinh nên đặt ra với một bản đồ họa thông tin lan truyền trên mạng. Nhà lãnh đạo làm gương thì cũng là đang dạy.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">34–48 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Sáng tạo</p>
+        <h3>Vẽ lại và viết lại</h3>
+        <p>Mỗi nhóm chọn một ô gây hiểu lầm và (1) <strong>vẽ lại một cách trung thực</strong> trên giấy hoặc bảng tính, và (2) viết <strong>một bản tóm tắt ba câu</strong> cho buổi họp nhân viên: dữ liệu cho thấy gì, nó không thể cho biết điều gì, và chúng ta sẽ xem xét gì tiếp theo. Dán các biểu đồ đã vẽ lại lên tường.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Hãy tìm những bản tóm tắt có nói đến sự không chắc chắn mà không bị chìm trong đó. &quot;Chúng ta chưa biết, và đây là cách chúng ta sẽ tìm hiểu&quot; là một câu nói của người lãnh đạo.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">48–55 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Suy ngẫm</p>
+        <h3>Kiểm tra quyền riêng tư và việc sử dụng</h3>
+        <p>Mỗi người hoàn thành Phiếu C cho một bảng điều khiển mình thực sự sử dụng. Từng cặp so sánh và mỗi người nêu <strong>một thay đổi về quyền truy cập hoặc cách hiển thị</strong> mà mình sẽ đề nghị xem xét, ví dụ ai có thể xem tên từng học sinh, hoặc liệu một nhãn do AI tạo có xuất hiện ở nơi phụ huynh hay học sinh khác có thể thấy hay không.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Theo FERPA (Đạo luật về Quyền Giáo dục và Quyền Riêng tư của Gia đình), quyền truy cập hồ sơ học sinh nhìn chung nên giới hạn cho những cán bộ nhà trường có lợi ích giáo dục chính đáng. Chi tiết trong chính sách của học khu rất quan trọng; hãy kiểm tra thay vì phỏng đoán.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">55–60 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Chuyển giao</p>
+        <h3>Buổi trao đổi dữ liệu tiếp theo</h3>
+        <p>Mỗi người viết ra một câu hỏi trong danh sách chung mà mình sẽ đặt ra ở buổi họp dữ liệu tiếp theo, và sẽ hỏi ai.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Gợi ý các nhà lãnh đạo dán danh sách &quot;Những câu hỏi cần đặt ra cho mọi bảng điều khiển&quot; trong phòng thường diễn ra các buổi họp dữ liệu.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Giấy hay màn hình</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</h3><p>Cả tám ô dữ liệu đều được mô tả bằng lời trên thẻ in, và các nhóm vẽ lại biểu đồ trên giấy kẻ ô. Người điều phối có thể phác họa các ô chính lên giấy khổ lớn. Không cần thiết bị nào để học cách đặt câu hỏi về một biểu đồ.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kỹ thuật số</h3><p>Cung cấp cho các nhóm số liệu của Ô 1 trong một bảng tính và yêu cầu họ tạo hai biểu đồ, một có trục bị cắt bớt và một trung thực, để thấy các thiết lập mặc định dễ gây hiểu lầm đến mức nào. Nếu trường có tài khoản demo hoặc chế độ xem ẩn danh của một bảng điều khiển thật, hãy dùng ở bước Suy ngẫm. Trong buổi học trực tuyến, chia sẻ các ô dữ liệu dưới dạng trang chiếu và cho các nhóm hoàn thành Phiếu B trong một tài liệu dùng chung.</p></div>
+        <p class="why"><strong>Có cần màn hình không?</strong> Tạo biểu đồ gây hiểu lầm và biểu đồ trung thực từ cùng một bộ số liệu trong bảng tính cho thấy, chỉ trong chưa đầy một phút, một thiết lập trục duy nhất có thể thay đổi câu chuyện như thế nào. Giấy có thể giải thích điều đó; bảng tính giúp các nhà lãnh đạo cảm nhận được nó.</p>
+      </section>
+      <section class="evidence"><h2>Bằng chứng học tập</h2><p class="muted">Những gì bạn có thể quan sát hoặc thu thập được nếu hoạt động thành công.</p><ul><li>Phiếu B nêu cụ thể một mốc so sánh bị thiếu, cỡ mẫu, hoặc cách giải thích khác cho ít nhất bốn ô dữ liệu.</li><li>Các nhóm nhận ra nhận định do AI tạo ở Ô 5 dựa trên một chỉ số đại diện (số phút đăng nhập) và đặt câu hỏi về việc dán nhãn học sinh dựa trên đó.</li><li>Biểu đồ vẽ lại bắt đầu từ mốc phù hợp và bản tóm tắt ba câu có nêu điều dữ liệu không thể cho biết.</li><li>Người tham gia nêu được ít nhất một thay đổi cụ thể về việc ai có thể xem dữ liệu ở cấp độ từng học sinh.</li></ul></section>
+      <section><h2>Điều chỉnh</h2><dl class="adapt"><div><dt>Giáo dục đại học</dt><dd>Chuyển các ô dữ liệu thành tỷ lệ hoàn thành môn học, số lần đăng nhập hệ thống quản lý học tập, và các cờ cảnh báo &quot;có nguy cơ&quot; do AI của một hệ thống cảnh báo sớm tạo ra. Nhấn mạnh cách sinh viên được thông báo khi bị gắn cờ.</dd></div><div><dt>Chuyên viên hỗ trợ giảng dạy</dt><dd>Dùng các ô dữ liệu trong một buổi họp dữ liệu của PLC (cộng đồng học tập chuyên môn), và cho giáo viên vẽ lại một biểu đồ từ dữ liệu lớp mình trước khi thảo luận.</dd></div><div><dt>Hội đồng giáo dục hoặc cộng đồng</dt><dd>Chỉ dùng Ô 1, 3 và 4, và tập trung vào cột &quot;không thể cho biết&quot; như một mô hình cho việc báo cáo dữ liệu công khai.</dd></div></dl></section>
+      <section class="stds"><h2>Liên kết với các chuẩn</h2><p>Lãnh đạo nhận ra trục bị cắt xén, mẫu nhỏ và chỉ số gián tiếp, rồi vẽ lại biểu đồ một cách trung thực, cũng là những kỹ năng trình bày dữ liệu và bảo vệ quyền riêng tư mà họ muốn học sinh áp dụng.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-data" title="Ứng dụng Công nghệ: hiểu biết, quản lý và biểu diễn dữ liệu">hiểu biết, quản lý và biểu diễn dữ liệu</a><a class="std std-teks" href="../standards.html#teks-ta-dc-10" title="Ứng dụng Công nghệ, công dân số: quyền riêng tư, an toàn và bảo mật (c)(10)">quyền riêng tư, an toàn và bảo mật (c)(10)</a><span class="std-sec">Các mục TEKS: Technology Applications §126.5–§126.7, §126.8–§126.10, §126.17–§126.19, các môn Ứng dụng Công nghệ bậc trung học phổ thông (19 TAC Chương 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Nói">Nói</a><a class="std std-elps" href="../standards.html#elps-c4" title="Đọc">Đọc</a><a class="std std-elps" href="../standards.html#elps-c5" title="Viết">Viết</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Làm nổi bật và khám phá khuôn mẫu, đặc điểm then chốt, ý tưởng lớn và các mối quan hệ">3.2</a><a class="std std-udl" href="../standards.html#udl-6-3" title="Tổ chức thông tin và tài nguyên">6.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Thúc đẩy hợp tác, sự phụ thuộc lẫn nhau và học tập tập thể">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Tối đa hóa khả năng chuyển giao và khái quát hóa">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Xem cách tất cả hoạt động được đối chiếu với các chuẩn</a></p></section>
+      <section class="two">
+        <div><h2>Suy ngẫm</h2><ul><li>Tôi đang sử dụng các công cụ kỹ thuật số và phân tích dữ liệu như thế nào để thúc đẩy các nỗ lực cải tiến nhà trường và việc ra quyết định? (Leader ELE 3.0)</li><li>Lần gần nhất một biểu đồ hay bảng điều khiển làm tôi thay đổi suy nghĩ là khi nào, và tôi có kiểm tra nó trước không?</li><li>Những hạn chế và thiên kiến tiềm ẩn của các bản tóm tắt dữ liệu học sinh do AI tạo ra là gì? (AI ELE 1.3)</li><li>Tôi truyền đạt sự không chắc chắn trong dữ liệu cho nhân viên và gia đình như thế nào mà không làm mất lòng tin của họ?</li></ul></div>
+        <div><h2>Mang về lớp học của bạn</h2><p>Ở buổi họp dữ liệu tiếp theo, hãy đặt một câu hỏi trong danh sách chung trước khi đưa ra bất kỳ quyết định nào, và trình bày một biểu đồ kèm ghi chú &quot;điều này không thể cho chúng ta biết&quot; bên cạnh. Trong tháng này, hãy cùng người phụ trách quyền riêng tư dữ liệu rà soát xem ai có quyền truy cập các bảng điều khiển của trường.</p></div>
+      </section>
+      <section><h2>Kết hợp tốt với</h2><ul class="connections"><li><a href="https://mglearn.github.io/tcea/ddp/">Cẩm nang thực địa về Các Kiểu Trình bày Dữ liệu</a><span>Tài liệu đi kèm về các lựa chọn trình bày dữ liệu trung thực.</span></li><li><a href="https://mglearn.github.io/activities/ctobs/clear/">Critical Thinking Breakouts: Signal Check, The Viral Claim</a><span>Học sinh lớp 6–8 luyện cùng thái độ hoài nghi với biểu đồ.</span></li></ul></section>
+      <section class="related noprint"><h2>Hoạt động liên quan</h2><div class="cards"><article class="card" data-id="explain-it-to-grandma">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Bồi dưỡng chuyên môn<span>dành cho Giáo viên, Thủ thư, Chuyên viên hỗ trợ, Lãnh đạo</span></p>
+    <h3><a href="../activities/explain-it-to-grandma.html">Giải thích cho bà nghe</a></h3>
+    <p class="card-tag">Nhà giáo soạn những lời giải thích dài 90 giây, không thuật ngữ khó, về các khái niệm AI, rồi thử ngay trên đồng nghiệp đóng vai một người ông bà hoài nghi, một em học sinh lớp 2, hoặc một thành viên hội đồng giáo dục.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-digcit">Công dân số</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.2" title="AI trong Giáo dục 1.2: Tôi có thể giải thích các khái niệm AI một cách đơn giản cho nhiều đối tượng liên quan khác nhau.">AI1.2</a><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#AI1.3" title="AI trong Giáo dục 1.3: Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.">AI1.3</a></span></div>
+  </article><article class="card" data-id="human-language-model">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Bồi dưỡng chuyên môn<span>dành cho Giáo viên, Thủ thư, Chuyên viên hỗ trợ, Giảng viên</span></p>
+    <h3><a href="../activities/human-language-model.html">Mô Hình Ngôn Ngữ Bằng Người</a></h3>
+    <p class="card-tag">Các nhà giáo dục trở thành một mô hình ngôn ngữ tí hon với những mẩu giấy và một chiếc cốc, và tự mình khám phá vì sao văn bản AI trôi chảy vẫn có thể sai một cách đầy tự tin.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-medialit">Hiểu biết truyền thông</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#AI1.2" title="AI trong Giáo dục 1.2: Tôi có thể giải thích các khái niệm AI một cách đơn giản cho nhiều đối tượng liên quan khác nhau.">AI1.2</a><a class="ele" href="../framework.html#AI1.3" title="AI trong Giáo dục 1.3: Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.">AI1.3</a></span></div>
+  </article><article class="card has-photo" data-id="algorithm-autopsy">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-912-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 9–12</span></p>
+    <h3><a href="../activities/algorithm-autopsy.html">Giải phẫu Thuật toán</a></h3>
+    <p class="card-tag">Học sinh mổ xẻ các tính năng thiết kế của một ứng dụng mạng xã hội hư cấu, lần theo cách mỗi tính năng định hình sự chú ý và niềm tin, rồi thiết kế lại bảng tin để phục vụ con người thay vì lượt tương tác.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>75 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span><span class="strand s-digcit">Công dân số</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#S5.2" title="Học sinh 5.2: Em có thể vận dụng sự sáng tạo và tư duy logic để tìm ra các giải pháp đổi mới.">S5.2</a><a class="ele" href="../framework.html#S5.1" title="Học sinh 5.1: Em biết cách tiếp cận các vấn đề phức tạp một cách có hệ thống.">S5.1</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Ngân hàng Hoạt động Kỳ vọng Học tập Thiết yếu của TCEA.</strong> Hoạt động bồi dưỡng chuyên môn và hoạt động cho học sinh K–16 về hiểu biết AI tạo sinh, công dân số và hiểu biết truyền thông, trên giấy hoặc trên màn hình.</p>
+    <p>Hoạt động do Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>) biên soạn, dựa trên <a href="https://tinyurl.com/tceaeles1">Kỳ vọng Học tập Thiết yếu của TCEA</a> (CC BY-SA 2024). Chia sẻ theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: được sao chép, chỉnh sửa và tái sử dụng khi ghi nguồn. Không cần đăng nhập, không theo dõi.</p>
+    <p class="ai-note">Ảnh trên trang này là hình minh họa do AI tạo ra về những người hư cấu, không phải học sinh hay nhân viên thật.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog TCEA</a>
+    <a href="https://convention.tcea.org/">Hội nghị &amp; Triển lãm TCEA</a>
+  </nav>
+  <nav aria-label="Liên quan">
+    <p class="foot-h">Thêm tài nguyên miễn phí</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Trợ lý Đối chiếu ELE</a>
+    <a href="https://mglearn.github.io/activities/">Trung tâm Hoạt động Học tập</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Hoạt động nhóm về Công dân số</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

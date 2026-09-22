@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Giải phẫu Thuật toán | Ngân hàng Hoạt động ELE</title>
+<meta name="description" content="Học sinh mổ xẻ các tính năng thiết kế của một ứng dụng mạng xã hội hư cấu, lần theo cách mỗi tính năng định hình sự chú ý và niềm tin, rồi thiết kế lại bảng tin để phục vụ con người thay vì lượt tương tác.">
+<meta property="og:title" content="Giải phẫu Thuật toán | Ngân hàng Hoạt động ELE">
+<meta property="og:description" content="Học sinh mổ xẻ các tính năng thiết kế của một ứng dụng mạng xã hội hư cấu, lần theo cách mỗi tính năng định hình sự chú ý và niềm tin, rồi thiết kế lại bảng tin để phục vụ con người thay vì lượt tương tác.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/algorithm-autopsy.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/algorithm-autopsy.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/activities/algorithm-autopsy.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/algorithm-autopsy.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Ngân hàng Hoạt động</span></a>
+  <nav aria-label="Chính">
+    <a href="../index.html#catalog">Hoạt động</a>
+    <a href="../framework.html">Các ELE</a>
+    <details class="navmenu"><summary>Dành cho người điều phối</summary><div class="navmenu-panel">
+      <a href="../guide.html">Hướng dẫn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Chuẩn</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Ngôn ngữ</span><select aria-label="Ngôn ngữ"><option value="en" lang="en" data-href="../../activities/algorithm-autopsy.html">English</option><option value="es" lang="es" data-href="../../es/activities/algorithm-autopsy.html">Español</option><option value="vi" lang="vi" data-href="../../vi/activities/algorithm-autopsy.html" selected>Tiếng Việt</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="vi">Bản dịch này được thực hiện với sự hỗ trợ của AI và đang chờ người bản ngữ xem xét. Bản tiếng Anh là bản gốc.</p>
+
+<main id="main" class="act">
+  <div class="act-head has-photo">
+    <figure class="act-photo"><img class="photo" src="../../assets/img/cat-912-medialit.jpg" width="1536" height="1024" alt="High school students work together in a classroom newsroom using photographs and sources."></figure>
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Tất cả hoạt động</a> <span aria-hidden="true">/</span> Học tập của học sinh</p>
+    <h1>Giải phẫu Thuật toán</h1>
+    <p class="lede">Học sinh mổ xẻ các tính năng thiết kế của một ứng dụng mạng xã hội hư cấu, lần theo cách mỗi tính năng định hình sự chú ý và niềm tin, rồi thiết kế lại bảng tin để phục vụ con người thay vì lượt tương tác.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/algorithm-autopsy.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">In hướng dẫn này</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="Tóm tắt nhanh">
+      <dl>
+        <div><dt>Thời gian</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>75 phút</dd></div>
+        <div><dt>Hình thức</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</dd></div>
+        <div><dt>Lớp</dt><dd>9–12</dd></div>
+        
+        <div><dt>Nhóm</dt><dd>Nhóm 3–4 bạn cho phần giải phẫu; cả lớp ngồi thành hai vòng tròn cho buổi thảo luận Socrates</dd></div>
+        <div><dt>Mạch nội dung</dt><dd class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span><span class="strand s-digcit">Công dân số</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Chỉ báo ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI1.1">AI1.1</a><div><span class="ind-area">AI trong Giáo dục · Hiểu biết về AI</span>Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.</div></li><li><a class="ele" href="../framework.html#S5.2">S5.2</a><div><span class="ind-area">Học sinh · Người Giải quyết Vấn đề Sáng tạo</span>Em có thể vận dụng sự sáng tạo và tư duy logic để tìm ra các giải pháp đổi mới.</div></li><li><a class="ele" href="../framework.html#S5.1">S5.1</a><div><span class="ind-area">Học sinh · Người Giải quyết Vấn đề Sáng tạo</span>Em biết cách tiếp cận các vấn đề phức tạp một cách có hệ thống.</div></li><li><a class="ele" href="../framework.html#AI1.3">AI1.3</a><div><span class="ind-area">AI trong Giáo dục · Hiểu biết về AI</span>Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.</div></li><li><a class="ele" href="../framework.html#S2.2">S2.2</a><div><span class="ind-area">Học sinh · An toàn Trực tuyến</span>Em có thể nhận biết các nguồn thông tin đáng tin cậy trên internet.</div></li></ul>
+      <h2 class="glance-h">Phiếu</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Giải phẫu Tính năng Loop <span class="muted">(phân loại thẻ)</span></li><li><span class="hl">B</span> Bản ghi nhớ của Loop (Văn bản thảo luận) <span class="muted">(bài đọc)</span></li><li><span class="hl">C</span> Bản đặc tả thiết kế Bảng tin Lành mạnh hơn <span class="muted">(phiếu bài tập)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Tổng quan</h2><p class="overview">Hệ thống đề xuất là một dạng AI mà hầu hết học sinh dùng hằng ngày dù không hề chủ động chọn. Chúng dự đoán điều gì sẽ giữ một người tiếp tục xem và xếp hạng nội dung theo đó, còn ứng dụng bao quanh chúng được thiết kế với những tính năng như tự động phát, chuỗi ngày liên tiếp và cuộn vô tận để giữ người dùng ở lại lâu hơn. Trong buổi giải phẫu này, các nhóm xem xét các tính năng của một ứng dụng hư cấu tên là Loop, phân loại từng tính năng theo mục tiêu mà nó được tối ưu hóa, và thảo luận theo phương pháp Socrates xem một bảng tin có thể định hình niềm tin của con người hay không. Cuối cùng, các bạn thiết kế một bảng tin lành mạnh hơn với các quy tắc cụ thể, những đánh đổi và một cách để đo xem nó có hiệu quả không.</p>
+        <h3 class="sub">Mục tiêu</h3><ul><li>Học sinh giải thích được cách một hệ thống đề xuất dùng các dự đoán từ hành vi trong quá khứ để xếp hạng nội dung, và nêu được nó được tối ưu hóa cho điều gì.</li><li>Học sinh phân tích các tính năng thiết kế nhằm tăng tương tác cụ thể và liên hệ mỗi tính năng với tác động có thể có đối với sự chú ý, cảm xúc hoặc niềm tin.</li><li>Học sinh thiết kế một bảng tin với các quy tắc xếp hạng và tùy chọn kiểm soát cho người dùng rõ ràng, và lý giải các đánh đổi bằng bằng chứng từ buổi thảo luận.</li></ul></section>
+      <section class="two">
+        <div><h2>Học liệu</h2>
+          <h3 class="sub">Trên giấy</h3><ul><li>Phiếu A: Bộ thẻ phân loại Giải phẫu Tính năng Loop (mỗi nhóm 1 bộ, đã cắt rời, kèm tấm bảng phân loại)</li><li>Phiếu B: Bản ghi nhớ của Loop, văn bản thảo luận (mỗi học sinh 1 bản)</li><li>Phiếu C: Bản đặc tả thiết kế Bảng tin Lành mạnh hơn (mỗi nhóm 1 bản)</li><li>Giấy khổ lớn, bút lông, giấy ghi chú dán</li></ul>
+          <h3 class="sub">Trên màn hình</h3><ul><li>Không cần thiết bị</li><li>Tùy chọn: ở nhà, học sinh có thể tự xem riêng trang cài đặt của ứng dụng mình dùng (tùy chọn bảng tin, giới hạn thời gian, tính năng &quot;vì sao tôi thấy nội dung này&quot;)</li></ul></div>
+        <div><h2>Trước khi bắt đầu</h2><ol class="prep"><li>In và cắt Phiếu A cho từng nhóm; in Phiếu B cho mọi học sinh.</li><li>Sắp xếp phòng học cho buổi thảo luận &quot;bể cá&quot;: một vòng trong gồm 6–8 ghế và một vòng ngoài.</li><li>Đọc các dòng &quot;vì sao&quot; trong đáp án phân loại để có thể giải thích mục đích thiết kế của từng tính năng mà không cần viện dẫn số liệu thống kê bên ngoài.</li><li>Quyết định xem học sinh sẽ trình bày thiết kế của mình trước một lớp khác, lớp truyền thông kỹ thuật số, hay nhân viên công nghệ của trường.</li></ol></div>
+      </section>
+      <section><h2>Từng bước</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khởi động</p>
+        <h3>Vì sao nó lại cho mình xem cái đó?</h3>
+        <p>Mời học sinh nhớ lại video hoặc bài đăng gần nhất trên bảng tin khiến các bạn bất ngờ. <strong>&quot;Bạn nghĩ vì sao nó được chọn cho bạn?&quot;</strong> Ghi các phỏng đoán lên bảng (&quot;mình đã xem thứ tương tự&quot;, &quot;bạn bè mình thích nó&quot;, &quot;nó đang nổi&quot;). Nói: &quot;Mỗi phỏng đoán này đều mô tả một dự đoán. Hôm nay chúng ta sẽ giải phẫu một bảng tin để xem các dự đoán vận hành ra sao và chúng đang cố đạt được điều gì.&quot;</p>
+        
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–13 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Làm mẫu</p>
+        <h3>Hệ thống đề xuất hoạt động thế nào</h3>
+        <p>Vẽ một vòng lặp đơn giản lên bảng: <strong>Bạn hành động</strong> (xem, dừng lại, thích, chia sẻ, lướt qua) → <strong>hệ thống ghi lại</strong> → <strong>hệ thống dự đoán</strong> điều bạn có khả năng tương tác tiếp theo, dựa trên lịch sử của bạn và của những người có lịch sử tương tự → <strong>hệ thống xếp hạng</strong> nội dung theo các dự đoán đó → <strong>bạn lại hành động</strong>. Giải thích rằng đây là một dạng AI: nó học các quy luật từ lượng dữ liệu hành vi khổng lồ. Câu hỏi then chốt là <strong>nó được tối ưu hóa cho điều gì</strong>. Một hệ thống được thưởng theo thời gian xem sẽ học cách ưu tiên bất cứ thứ gì giữ người ta tiếp tục xem, mà thứ đó chưa chắc đã đúng sự thật, hữu ích hay tốt cho họ.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Tránh khẳng định rằng các nền tảng cụ thể vận hành theo cách cụ thể nào. Hãy nói &quot;nhiều bảng tin&quot; và &quot;có thể&quot;, và giữ trọng tâm vào ứng dụng hư cấu Loop.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">13–27 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khám phá</p>
+        <h3>Giải phẫu tính năng</h3>
+        <p>Các nhóm xếp các dải thẻ tính năng trong Phiếu A vào ba nhóm: <strong>Giữ bạn ở lại ứng dụng</strong>, <strong>Định hình những gì bạn thấy và tin</strong>, và <strong>Trao cho bạn quyền kiểm soát</strong>. Với mỗi dải thẻ, nhóm phải nói tính năng đó được tối ưu hóa cho điều gì và ai được lợi. Sau đó mỗi nhóm chọn một tính năng mà họ cho là tác động lớn nhất đến niềm tin của người dùng và viết lên giấy ghi chú để dùng trong buổi thảo luận.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Một số tính năng phù hợp với nhiều hơn một nhóm. Hãy chấp nhận lựa chọn có lý lẽ, và yêu cầu nhóm ghi thêm nhóm thứ hai. Ví dụ, tự động phát vừa giữ bạn ở lại ứng dụng <em>vừa</em> quyết định bạn sẽ xem gì tiếp theo.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">27–47 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Tổng kết</p>
+        <h3>Thảo luận Socrates: Bảng tin có thể thay đổi suy nghĩ của bạn không?</h3>
+        <p>Học sinh đọc Phiếu B, một bản ghi nhớ nội bộ hư cấu của nhóm sản phẩm Loop, và chú thích lên đó. Tổ chức thảo luận &quot;bể cá&quot;: vòng trong thảo luận trong 8 phút, vòng ngoài theo dõi bằng chứng và lắng nghe những đóng góp sắc bén, rồi đổi chỗ. Câu hỏi mở đầu: <strong>&quot;Bản ghi nhớ nói Loop chỉ cho mọi người xem những gì họ muốn. Điều đó có đúng không?&quot;</strong> Câu hỏi tiếp nối: &quot;Nếu bảng tin cho bạn xem nhiều hơn những gì bạn phản ứng, và sự phẫn nộ tạo ra nhiều phản ứng, thì điều bạn cho là bình thường sẽ ra sao?&quot; &quot;Ai chịu trách nhiệm về những gì bạn thấy: bạn, công ty, người sáng tạo nội dung hay thuật toán?&quot; &quot;Bạn có tin một bảng tin hơn không nếu bạn có thể thấy vì sao nó chọn từng bài đăng?&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Hãy lắng nghe những học sinh phân biệt được <em>cho người ta xem điều họ muốn</em> với <em>cho người ta xem điều họ phản ứng</em>. Sự phân biệt đó là nhận thức cốt lõi. Tránh trình bày &quot;bong bóng lọc&quot; như một sự thật đã được chứng minh với tất cả mọi người; nghiên cứu về mức độ bảng tin định hình niềm tin vẫn đang tiếp diễn, và buổi thảo luận nên khám phá câu hỏi chứ không phải chốt hạ nó.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">47–67 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Sáng tạo</p>
+        <h3>Thiết kế một bảng tin lành mạnh hơn</h3>
+        <p>Các nhóm hoàn thành Phiếu C: chọn bảng tin dành cho ai, nó được tối ưu hóa cho điều gì thay vì chỉ thuần lượt tương tác, ba quy tắc xếp hạng, hai tùy chọn kiểm soát cho người dùng, một tính năng họ sẽ bỏ đi, và <strong>cách đo xem nó có hiệu quả không</strong>. Các nhóm cũng phải nêu một đánh đổi: công ty hoặc người dùng sẽ mất đi điều gì. Các nhóm phác thảo màn hình bảng tin vào ô trống.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Hãy thúc đẩy phần đo lường. &quot;Người dùng cảm thấy dễ chịu hơn&quot; là một mục tiêu; &quot;người dùng cho biết họ có học được điều gì mới sau mỗi lần dùng hay không&quot; mới là một thước đo.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">67–75 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Suy ngẫm</p>
+        <h3>Thuyết trình và cam kết</h3>
+        <p>Mỗi nhóm thuyết trình trong 60 giây. Cả lớp bỏ phiếu bằng giấy ghi chú cho thiết kế mà các bạn thật sự muốn dùng. Mỗi học sinh viết một câu: <strong>&quot;Một điều mình sẽ làm khác đi với bảng tin của mình trong tuần này là ___.&quot;</strong></p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Ví dụ: dùng nút &quot;không quan tâm&quot;, tắt tự động phát, theo dõi một nguồn có quan điểm khác mình, hoặc chuyển sang chế độ xem theo thứ tự thời gian nếu có.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Giấy hay màn hình</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</h3><p>Được thiết kế để không dùng màn hình. Phần phân loại tính năng, văn bản thảo luận và bản đặc tả thiết kế đều làm trên giấy, và phần thảo luận gánh vác phần việc chính. Nếu muốn, học sinh tự kiểm tra cài đặt ứng dụng của mình ở nhà.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kỹ thuật số</h3><p>Thực hiện phần phân loại trên một bộ trang trình chiếu dùng chung với các dải thẻ kéo thả được, và tổ chức buổi thảo luận dưới dạng chuỗi thảo luận trên LMS (hệ thống quản lý học tập), yêu cầu mỗi học sinh trích dẫn bản ghi nhớ và trả lời một bạn cùng lớp. Các nhóm có thể làm bản mẫu bảng tin lành mạnh hơn bằng bất kỳ công cụ trình chiếu hay thiết kế nào. Học sinh từ 13 tuổi trở lên có thể khám phá các cài đặt kiểm soát bảng tin và &quot;vì sao tôi thấy nội dung này&quot; trên những ứng dụng các bạn đang dùng, trên thiết bị của mình, mà không chia sẻ ảnh chụp màn hình bảng tin cá nhân.</p></div>
+        <p class="why"><strong>Có cần màn hình không?</strong> Không dùng màn hình sẽ tốt hơn: bằng chứng học tập là khả năng lập luận về các lựa chọn thiết kế và tác động của chúng, điều mà thảo luận và phân loại làm bộc lộ rất tốt mà không phải thêm thời gian dùng màn hình vào một bài học về thời gian dùng màn hình. Bản mẫu kỹ thuật số chỉ là phần trau chuốt thêm tùy chọn.</p>
+      </section>
+      <section class="evidence"><h2>Bằng chứng học tập</h2><p class="muted">Những gì bạn có thể quan sát hoặc thu thập được nếu hoạt động thành công.</p><ul><li>Các nhóm nêu được mỗi tính năng được tối ưu hóa cho điều gì và ai được lợi, chứ không chỉ nói nó tốt hay xấu.</li><li>Đóng góp trong buổi thảo luận có trích dẫn bản ghi nhớ và phân biệt điều người dùng muốn với điều người dùng phản ứng.</li><li>Bản đặc tả thiết kế có các quy tắc xếp hạng, tùy chọn kiểm soát cho người dùng, một đánh đổi được nêu rõ, và một cách cụ thể để đo mức độ thành công.</li><li>Cam kết cá nhân nêu một hành động cụ thể, không phải một ý định chung chung.</li></ul></section>
+      <section><h2>Điều chỉnh</h2><dl class="adapt"><div><dt>Lớp 9</dt><dd>Dùng tám dải thẻ tính năng (1, 2, 3, 5, 7, 9, 11, 13) và tổ chức buổi thảo luận chung cả lớp thay vì theo hình thức bể cá.</dd></div><div><dt>Lớp khoa học máy tính</dt><dd>Yêu cầu các nhóm viết ba quy tắc xếp hạng dưới dạng mã giả, bao gồm cách bảng tin chấm điểm và sắp xếp một danh sách bài đăng mẫu.</dd></div><div><dt>Học sinh song ngữ đang phát triển</dt><dd>Cung cấp các mẫu câu thảo luận (&quot;Mình đồng ý với ___ vì ___&quot;, &quot;Bản ghi nhớ nói ___, nhưng ___&quot;) và dạy trước các từ <em>tối ưu hóa</em>, <em>tương tác</em> và <em>đề xuất</em>.</dd></div><div><dt>Lớp tâm lý học hoặc sức khỏe</dt><dd>Liên hệ các tính năng &quot;Giữ bạn ở lại ứng dụng&quot; với nội dung môn học về thói quen và phần thưởng, và thêm một thước đo về sức khỏe tinh thần vào bản đặc tả thiết kế.</dd></div></dl></section>
+      <section class="stds"><h2>Liên kết với các chuẩn</h2><p>Học sinh giải thích cách một hệ thống đề xuất dự đoán và xếp hạng nội dung, trích dẫn một bản ghi nhớ sản phẩm trong buổi thảo luận, và thiết kế một bảng tin lành mạnh hơn với các quy tắc đo lường được cùng những đánh đổi.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Ứng dụng Công nghệ: tư duy máy tính">tư duy máy tính</a><a class="std std-teks" href="../standards.html#teks-ta-ci" title="Ứng dụng Công nghệ: sáng tạo và đổi mới">sáng tạo và đổi mới</a><a class="std std-teks" href="../standards.html#teks-elar-resp" title="ELAR: kỹ năng phản hồi">kỹ năng phản hồi</a><span class="std-sec">Các mục TEKS: Technology Applications các môn Ứng dụng Công nghệ bậc trung học phổ thông (19 TAC Chương 126); ELAR §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Nghe">Nghe</a><a class="std std-elps" href="../standards.html#elps-c3" title="Nói">Nói</a><a class="std std-elps" href="../standards.html#elps-c4" title="Đọc">Đọc</a><a class="std std-elps" href="../standards.html#elps-c5" title="Viết">Viết</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Làm nổi bật và khám phá khuôn mẫu, đặc điểm then chốt, ý tưởng lớn và các mối quan hệ">3.2</a><a class="std std-udl" href="../standards.html#udl-7-2" title="Tối ưu hóa tính liên quan, giá trị và tính chân thực">7.2</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Thúc đẩy hợp tác, sự phụ thuộc lẫn nhau và học tập tập thể">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Thúc đẩy suy ngẫm cá nhân và tập thể">9.3</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-ss-sources" title="Khoa học xã hội: nguồn, nhận định, và mạch kinh tế, khoa học, công nghệ và xã hội">nguồn, nhận định, và mạch kinh tế, khoa học, công nghệ và xã hội</a><a class="std std-sst" href="../standards.html#sst-rla-reading" title="Đọc (RLA): đọc hiểu và phân tích văn bản, có dẫn chứng">đọc hiểu và phân tích văn bản, có dẫn chứng</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Xem cách tất cả hoạt động được đối chiếu với các chuẩn</a></p></section>
+      <section class="two">
+        <div><h2>Suy ngẫm</h2><ul><li>Hệ thống đề xuất hoạt động như thế nào, và nó đang cố làm gì? (AI1.1)</li><li>Một hệ thống học từ những gì con người phản ứng có thể dẫn đến những hạn chế hoặc thiên kiến nào? (AI1.3)</li><li>Nhóm mình đã dùng sự sáng tạo và tư duy logic như thế nào để thiết kế ra thứ tốt hơn? (S5.2)</li></ul></div>
+        <div><h2>Bước tiếp theo</h2><p>Trong một tuần, học sinh ghi một &quot;nhật ký bảng tin&quot; ngắn ở nhà, mỗi ngày ghi lại một bài đăng và phỏng đoán tốt nhất của mình về lý do nó được chọn cho mình, rồi mang nhật ký đến lớp để kiểm chứng các phỏng đoán với mô hình ở Bước 2. Bài học hiểu biết truyền thông tiếp theo có thể dùng các ví dụ của các bạn.</p></div>
+      </section>
+      <section><h2>Kết hợp tốt với</h2><ul class="connections"><li><a href="https://newslit.org/">News Literacy Project</a><span>Tài nguyên về thuật toán, bảng tin và cách thông tin lan truyền trên mạng.</span></li><li><a href="https://mglearn.github.io/activities/">Learning Activities Hub</a><span>Thêm các hoạt động về hiểu biết truyền thông và AI, bao gồm các trò giải đố về những tuyên bố lan truyền.</span></li></ul></section>
+      <section class="related noprint"><h2>Hoạt động liên quan</h2><div class="cards"><article class="card has-photo" data-id="signal-to-headline-lab">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-68-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 6–8, Lớp 9–12</span></p>
+    <h3><a href="../activities/signal-to-headline-lab.html">Phòng thí nghiệm Từ Tín hiệu đến Tiêu đề</a></h3>
+    <p class="card-tag">Học sinh biến một xu hướng công nghệ có thật hiện nay thành tiêu đề và đoạn mở đầu của một bản tin tương lai hợp lý, rồi trao đổi và kiểm chứng bài của nhau về độ chính xác và dấu hiệu câu click.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 phút</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span><span class="strand s-digcit">Công dân số</span></span><span class="eles"><a class="ele" href="../framework.html#S2.2" title="Học sinh 2.2: Em có thể nhận biết các nguồn thông tin đáng tin cậy trên internet.">S2.2</a><a class="ele" href="../framework.html#AI4.1" title="AI trong Giáo dục 4.1: Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.">AI4.1</a><a class="ele" href="../framework.html#S5.2" title="Học sinh 5.2: Em có thể vận dụng sự sáng tạo và tư duy logic để tìm ra các giải pháp đổi mới.">S5.2</a></span></div>
+  </article><article class="card has-photo" data-id="photo-detective">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-35-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 3–5</span></p>
+    <h3><a href="../activities/photo-detective.html">Thám tử Hình ảnh</a></h3>
+    <p class="card-tag">Học sinh điều tra những bức ảnh được mô tả bằng lời đã bị cắt khung, chỉnh sửa hoặc tạo bằng AI, và học hai bước của người kiểm chứng thông tin hiệu quả hơn việc nhìn chằm chằm: Dừng lại, và Tìm nguồn tin tốt hơn.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 phút</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#S2.2" title="Học sinh 2.2: Em có thể nhận biết các nguồn thông tin đáng tin cậy trên internet.">S2.2</a><a class="ele" href="../framework.html#AI4.1" title="AI trong Giáo dục 4.1: Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.">AI4.1</a><a class="ele" href="../framework.html#AI1.3" title="AI trong Giáo dục 1.3: Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.">AI1.3</a></span></div>
+  </article><article class="card has-photo" data-id="the-feed-game">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-68-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 6–8, Lớp 9–12</span></p>
+    <h3><a href="../activities/the-feed-game.html">Trò chơi bảng tin</a></h3>
+    <p class="card-tag">Học sinh tự tay vận hành một cỗ máy đề xuất bằng thẻ bài và thấy bảng tin của mình thu hẹp lại chỉ còn vài chủ đề, rồi nghĩ ra cách giành lại quyền kiểm soát.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#S2.3" title="Học sinh 2.3: Em nhận thức được những rủi ro tiềm ẩn khi chia sẻ nội dung trên mạng.">S2.3</a><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#S5.3" title="Học sinh 5.3: Em nhận thức được cách vận dụng tư duy máy tính vào nhiều môn học khác nhau.">S5.3</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Ngân hàng Hoạt động Kỳ vọng Học tập Thiết yếu của TCEA.</strong> Hoạt động bồi dưỡng chuyên môn và hoạt động cho học sinh K–16 về hiểu biết AI tạo sinh, công dân số và hiểu biết truyền thông, trên giấy hoặc trên màn hình.</p>
+    <p>Hoạt động do Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>) biên soạn, dựa trên <a href="https://tinyurl.com/tceaeles1">Kỳ vọng Học tập Thiết yếu của TCEA</a> (CC BY-SA 2024). Chia sẻ theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: được sao chép, chỉnh sửa và tái sử dụng khi ghi nguồn. Không cần đăng nhập, không theo dõi.</p>
+    <p class="ai-note">Ảnh trên trang này là hình minh họa do AI tạo ra về những người hư cấu, không phải học sinh hay nhân viên thật.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog TCEA</a>
+    <a href="https://convention.tcea.org/">Hội nghị &amp; Triển lãm TCEA</a>
+  </nav>
+  <nav aria-label="Liên quan">
+    <p class="foot-h">Thêm tài nguyên miễn phí</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Trợ lý Đối chiếu ELE</a>
+    <a href="https://mglearn.github.io/activities/">Trung tâm Hoạt động Học tập</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Hoạt động nhóm về Công dân số</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

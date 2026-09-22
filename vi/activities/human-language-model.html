@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mô Hình Ngôn Ngữ Bằng Người | Ngân hàng Hoạt động ELE</title>
+<meta name="description" content="Các nhà giáo dục trở thành một mô hình ngôn ngữ tí hon với những mẩu giấy và một chiếc cốc, và tự mình khám phá vì sao văn bản AI trôi chảy vẫn có thể sai một cách đầy tự tin.">
+<meta property="og:title" content="Mô Hình Ngôn Ngữ Bằng Người | Ngân hàng Hoạt động ELE">
+<meta property="og:description" content="Các nhà giáo dục trở thành một mô hình ngôn ngữ tí hon với những mẩu giấy và một chiếc cốc, và tự mình khám phá vì sao văn bản AI trôi chảy vẫn có thể sai một cách đầy tự tin.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/human-language-model.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/human-language-model.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/activities/human-language-model.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/human-language-model.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Ngân hàng Hoạt động</span></a>
+  <nav aria-label="Chính">
+    <a href="../index.html#catalog">Hoạt động</a>
+    <a href="../framework.html">Các ELE</a>
+    <details class="navmenu"><summary>Dành cho người điều phối</summary><div class="navmenu-panel">
+      <a href="../guide.html">Hướng dẫn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Chuẩn</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Ngôn ngữ</span><select aria-label="Ngôn ngữ"><option value="en" lang="en" data-href="../../activities/human-language-model.html">English</option><option value="es" lang="es" data-href="../../es/activities/human-language-model.html">Español</option><option value="vi" lang="vi" data-href="../../vi/activities/human-language-model.html" selected>Tiếng Việt</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="vi">Bản dịch này được thực hiện với sự hỗ trợ của AI và đang chờ người bản ngữ xem xét. Bản tiếng Anh là bản gốc.</p>
+
+<main id="main" class="act">
+  <div class="act-head">
+    
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Tất cả hoạt động</a> <span aria-hidden="true">/</span> Bồi dưỡng chuyên môn</p>
+    <h1>Mô Hình Ngôn Ngữ Bằng Người</h1>
+    <p class="lede">Các nhà giáo dục trở thành một mô hình ngôn ngữ tí hon với những mẩu giấy và một chiếc cốc, và tự mình khám phá vì sao văn bản AI trôi chảy vẫn có thể sai một cách đầy tự tin.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/human-language-model.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">In hướng dẫn này</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="Tóm tắt nhanh">
+      <dl>
+        <div><dt>Thời gian</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 phút</dd></div>
+        <div><dt>Hình thức</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</dd></div>
+        <div><dt>Dành cho</dt><dd>Giáo viên, Thủ thư, Chuyên viên hỗ trợ, Giảng viên</dd></div>
+        <div><dt>Đối tượng</dt><dd>K–12, Giáo dục đại học</dd></div>
+        <div><dt>Nhóm</dt><dd>Nhóm 3–4 người; phù hợp với 6–60 người</dd></div>
+        <div><dt>Mạch nội dung</dt><dd class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-medialit">Hiểu biết truyền thông</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Chỉ báo ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI1.1">AI1.1</a><div><span class="ind-area">AI trong Giáo dục · Hiểu biết về AI</span>Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.</div></li><li><a class="ele" href="../framework.html#AI1.2">AI1.2</a><div><span class="ind-area">AI trong Giáo dục · Hiểu biết về AI</span>Tôi có thể giải thích các khái niệm AI một cách đơn giản cho nhiều đối tượng liên quan khác nhau.</div></li><li><a class="ele" href="../framework.html#AI1.3">AI1.3</a><div><span class="ind-area">AI trong Giáo dục · Hiểu biết về AI</span>Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.</div></li><li><a class="ele" href="../framework.html#AI4.1">AI4.1</a><div><span class="ind-area">AI trong Giáo dục · AI và Tư duy Phản biện</span>Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.</div></li></ul>
+      <h2 class="glance-h">Phiếu</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Thư viện huấn luyện tí hon <span class="muted">(bài đọc)</span></li><li><span class="hl">B</span> Phiếu đếm từ tiếp theo <span class="muted">(sơ đồ tổ chức)</span></li><li><span class="hl">C</span> Thẻ chạy mô hình <span class="muted">(thẻ cắt rời)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Tổng quan</h2><p class="overview">Chatbot AI tạo sinh không tra cứu thông tin theo cách một công cụ tìm kiếm hay cơ sở dữ liệu làm. Chúng tạo văn bản bằng cách liên tục dự đoán phần văn bản có khả năng xuất hiện tiếp theo, dựa trên các khuôn mẫu học được từ một lượng dữ liệu huấn luyện khổng lồ. Trong buổi không dùng màn hình này, các nhóm tự tay &quot;huấn luyện&quot; một mô hình ngôn ngữ gồm mười câu, tạo câu mới bằng cách rút mẩu giấy từ một chiếc cốc, rồi hỏi mô hình của mình một câu hỏi về sự thật. Những câu trả lời trôi chảy, nghe có lý nhưng sai được tạo ra chính là lời giải thích dễ nhớ nhất về &quot;ảo giác&quot; (hallucination) mà hầu hết nhà giáo dục từng được nghe, và là hoạt động họ có thể thực hiện với học sinh ngay ngày hôm sau.</p>
+        <h3 class="sub">Mục tiêu</h3><ul><li>Người tham gia xây dựng bảng tần suất từ tiếp theo từ một văn bản huấn luyện nhỏ và dùng nó để tạo câu mới bằng cách rút ngẫu nhiên.</li><li>Người tham gia giải thích bằng lời của mình vì sao một hệ thống dự đoán từ có khả năng xuất hiện tiếp theo có thể tạo ra văn bản trôi chảy nhưng sai (một &quot;ảo giác&quot;).</li><li>Người tham gia phân biệt chính xác giữa những gì mô hình trên giấy thể hiện và những điểm khác biệt của các mô hình ngôn ngữ lớn thật (token, ngữ cảnh dài hơn, trọng số học được, quy mô).</li><li>Người tham gia soạn một lời giải thích một phút về ảo giác AI cho học sinh hoặc đồng nghiệp của mình.</li></ul></section>
+      <section class="two">
+        <div><h2>Học liệu</h2>
+          <h3 class="sub">Trên giấy</h3><ul><li>Phiếu A: Thư viện huấn luyện tí hon (mỗi nhóm 1 bản)</li><li>Phiếu B: Phiếu đếm từ tiếp theo (mỗi nhóm 1 bản)</li><li>Phiếu C: Thẻ chạy mô hình (mỗi nhóm 1 bộ, cắt rời)</li><li>Mẩu giấy trắng hoặc giấy ghi chú dán (khoảng 60 tờ mỗi nhóm), mỗi nhóm một cốc giấy</li><li>Giấy khổ lớn có tiêu đề &quot;Mô hình của chúng tôi nói…&quot; và bút lông</li></ul>
+          <h3 class="sub">Trên màn hình</h3><ul><li>Tùy chọn: một chatbot AI tạo sinh được học khu phê duyệt, chỉ người điều phối trình chiếu, để so sánh ở phần kết</li><li>Tùy chọn: một trang chiếu dùng chung để các nhóm đăng câu kỳ quặc nhất mà mô hình của họ tạo ra</li></ul></div>
+        <div><h2>Trước khi bắt đầu</h2><ol class="prep"><li>In Phiếu A và B cho mỗi nhóm; in và cắt Phiếu C sao cho mỗi nhóm có một xấp thẻ úp mặt xuống.</li><li>Cắt sẵn mẩu giấy (hoặc dùng giấy ghi chú dán nhỏ) và đặt một chiếc cốc ở mỗi bàn. Các nhóm sẽ viết một mẩu giấy cho mỗi vạch đếm.</li><li>Đọc đáp án cho người điều phối ở mặt sau Phiếu C, đặc biệt là các ghi chú &quot;mô hình thật khác biệt thế nào&quot;. Độ chính xác rất quan trọng: mô hình trên giấy là một sự đơn giản hóa, và bạn sẽ nói rõ điều đó.</li><li>Tùy chọn: chọn trước một câu hỏi về sự thật để hỏi chatbot được học khu phê duyệt ở phần cuối, về một chủ đề nhỏ hoặc mang tính địa phương mà dữ liệu huấn luyện còn ít.</li></ol></div>
+      </section>
+      <section><h2>Từng bước</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khởi động</p>
+        <h3>Hoàn thành câu của tôi</h3>
+        <p>Nói chậm: &quot;Ngày xửa ngày…&quot; và để cả phòng hoàn thành (&quot;xưa&quot;). Tiếp theo: &quot;Ăn quả nhớ kẻ…&quot; (&quot;trồng cây&quot;). Tiếp theo: &quot;Thủ đô của nước Pháp là…&quot; (&quot;Paris&quot;). Hỏi: <strong>&quot;Các bạn có tra cứu những câu đó không, hay các bạn đã dự đoán chúng?&quot;</strong> Nói với họ: &quot;Hôm nay các bạn sẽ trở thành một mô hình ngôn ngữ. Một mô hình rất nhỏ. Đến cuối buổi, các bạn sẽ có thể giải thích cho bất kỳ ai vì sao AI đôi khi bịa chuyện.&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Câu thứ ba là có chủ đích. Từ bên trong, việc dự đoán và việc biết một sự thật có thể mang lại cảm giác giống hệt nhau. Đó là toàn bộ buổi học gói trong một khoảnh khắc.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–15 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khám phá</p>
+        <h3>Huấn luyện mô hình của bạn</h3>
+        <p>Các nhóm đọc Phiếu A, &quot;thư viện huấn luyện&quot; gồm mười câu. Trên Phiếu B, với mỗi từ được liệt kê, họ đếm <strong>từ nào đứng ngay sau nó</strong> mỗi lần nó xuất hiện (bỏ qua chữ hoa; coi đầu mỗi câu là từ BẮT ĐẦU và dấu chấm là từ HẾT; mỗi cụm như &quot;cô giáo&quot; hay &quot;cuộc thi chính tả&quot; tính là một từ). Sau đó họ viết một mẩu giấy cho mỗi vạch đếm, ví dụ BẮT ĐẦU được theo sau bởi &quot;cô giáo&quot; ba lần, nên họ viết ba mẩu &quot;cô giáo&quot; và xếp vào mục &quot;BẮT ĐẦU&quot;. Gom các mẩu giấy theo từ đứng trước thành từng xấp nhỏ hoặc cho vào phong bì.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Đây chính là &quot;huấn luyện&quot;: biến văn bản thành số liệu thống kê về việc từ nào thường đi sau từ nào. Những nhóm hỏi &quot;còn ý nghĩa thì sao?&quot; đang hỏi đúng câu cần hỏi. Mô hình không bao giờ nắm được ý nghĩa, chỉ có khuôn mẫu.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">15–25 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Luyện tập</p>
+        <h3>Tạo văn bản: rút từ tiếp theo</h3>
+        <p>Các nhóm rút Thẻ 1 từ Phiếu C. Bắt đầu từ BẮT ĐẦU. Cho tất cả các mẩu giấy đứng sau BẮT ĐẦU vào cốc, lắc đều, rút một mẩu, ghi lại. Giờ đổ hết cốc ra và cho vào các mẩu giấy đứng sau <em>từ vừa rút</em>. Tiếp tục cho đến khi rút được HẾT. Tạo ít nhất bốn câu. Đọc to câu hay nhất (và tệ nhất) rồi dán lên tờ &quot;Mô hình của chúng tôi nói…&quot;. Hãy chờ đón những &quot;viên ngọc&quot; như &quot;Hiệu trưởng mở cuốn sách thắng giải vào tháng Năm.&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Chỉ ra rằng việc rút là ngẫu nhiên nhưng có trọng số: &quot;cô giáo&quot; và &quot;học sinh&quot; xuất hiện sau BẮT ĐẦU thường xuyên hơn &quot;hiệu trưởng&quot; vì chúng xuất hiện nhiều hơn trong dữ liệu huấn luyện. Đó là lý do cùng một câu lệnh (prompt) có thể cho ra những câu trả lời khác nhau ở những lần thử khác nhau.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">25–33 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Vận dụng</p>
+        <h3>Hỏi mô hình một sự thật</h3>
+        <p>Các nhóm rút Thẻ 4–6, các câu hỏi về sự thật. Với câu &quot;Ai thắng cuộc thi chính tả vào tháng Sáu?&quot;, họ tạo câu trả lời bằng cách bắt đầu từ BẮT ĐẦU và rút cho đến HẾT, chỉ rút lại nếu câu không nhắc đến cuộc thi chính tả. Ghi lại các câu trả lời. Hầu hết các nhóm nhận được điều gì đó trôi chảy và cụ thể, ví dụ &quot;Cô giáo thắng cuộc thi chính tả vào tháng Sáu&quot;, điều không hề có trong văn bản huấn luyện. Hỏi: <strong>&quot;Mô hình của bạn có đang nói dối không?&quot;</strong></p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Chốt ý then chốt: mô hình không nói dối và cũng không &quot;bối rối&quot;. Nó không có cơ chế nào để kiểm tra sự thật. Nó tạo ra một phần tiếp theo nghe có vẻ hợp lý, đúng như những gì nó được tạo ra để làm. Đó chính là ảo giác.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">33–40 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Làm mẫu</p>
+        <h3>Khác biệt thật sự: mô hình giấy và mô hình thật</h3>
+        <p>Đọc to và cùng xem qua Thẻ 7–9. Mô hình thật (1) làm việc với <strong>token</strong>, thường là các mảnh của từ, chứ không phải từ nguyên vẹn; (2) cân nhắc một đoạn ngữ cảnh dài phía trước, không chỉ một từ đứng trước; (3) học hàng tỷ <strong>trọng số</strong> dạng số trong một mạng nơ-ron thay vì giữ các xấp phiếu đếm theo nghĩa đen; và (4) được tinh chỉnh thêm bằng phản hồi của con người để trở nên hữu ích và làm theo hướng dẫn. Một số công cụ còn tìm kiếm trên web hoặc trong tài liệu và đưa những gì tìm được vào câu lệnh, điều này có ích nhưng không bảo đảm độ chính xác. Sau đó hỏi: <strong>&quot;Điều gì vẫn giữ nguyên?&quot;</strong> (Kết quả được tạo ra bằng cách dự đoán văn bản có khả năng xuất hiện dựa trên khuôn mẫu đã học. Sự trôi chảy không phải là bằng chứng của sự thật.)</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Tránh nói &quot;nó chỉ là tính năng tự động hoàn thành&quot;. Nó có năng lực vượt xa như vậy, và những người sau này thấy một câu trả lời xuất sắc sẽ cảm thấy bị dẫn dắt sai. Thay vào đó hãy nói: &quot;Đó là sự dự đoán ở quy mô khổng lồ, đó là lý do nó vừa ấn tượng vừa không đáng tin cậy theo những cách cụ thể.&quot;</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">40–46 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Sáng tạo</p>
+        <h3>Lời giải thích một phút của bạn</h3>
+        <p>Mỗi người tham gia rút Thẻ 10 và viết một lời giải thích một phút về ảo giác AI cho đối tượng của mình: học sinh lớp hai, học sinh lớp 12, một phụ huynh hoặc hội đồng giảng viên. Lời giải thích phải có (1) dự đoán dựa trên khuôn mẫu, (2) vì sao điều đó có thể tạo ra nhận định sai, và (3) một việc cần làm (kiểm tra với nguồn đáng tin). Hai người đọc to lời giải thích của nhau và đưa ra một nhận xét &quot;rõ ràng&quot; và một nhận xét &quot;chính xác chưa?&quot;.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Lắng nghe những lời giải thích trượt sang &quot;nó tra cứu&quot; hoặc &quot;nó suy nghĩ&quot;. Nhẹ nhàng hướng lại thành &quot;nó dự đoán những từ có khả năng xuất hiện&quot;.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">7</span><span class="step-time">46–50 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Suy ngẫm</p>
+        <h3>AI thuộc về đâu?</h3>
+        <p>Kết thúc bằng câu hỏi: <strong>&quot;Khi đã biết cách nó hoạt động, ở chỗ nào trong môn học của bạn, câu trả lời của chatbot AI dễ nghe có vẻ đúng nhưng lại sai nhất?&quot;</strong> Ghi các câu trả lời lên giấy khổ lớn. Tùy chọn: trình chiếu chatbot được học khu phê duyệt và hỏi câu hỏi địa phương hoặc ít người biết mà bạn đã chuẩn bị. So sánh sự trôi chảy của nó với mô hình giấy.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Câu trả lời thường gặp: lịch sử địa phương, sự kiện gần đây, trích dẫn và số trang cụ thể, số liệu thống kê chuyên biệt, tên người ở thị trấn nhỏ. Đây là những vùng dữ liệu mỏng, nơi việc bịa ra điều nghe có lý dễ xảy ra nhất.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Giấy hay màn hình</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</h3><p>Toàn bộ buổi được thiết kế để không dùng màn hình. Cốc, mẩu giấy và phiếu đếm biến bộ máy vô hình thành thứ hữu hình: người tham gia thực sự cầm xác suất trong tay. Bỏ qua phần so sánh với chatbot (tùy chọn) hoặc thay bằng Thẻ 11, một câu trả lời chatbot mô phỏng được in sẵn, để thảo luận cùng khuôn mẫu đó.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kỹ thuật số</h3><p>Với buổi trực tuyến, chia sẻ Phiếu A trong một tài liệu dùng chung, cho các nhóm đếm trong một bảng dùng chung, và dùng bất kỳ công cụ chọn ngẫu nhiên nào được nạp các từ trên mẩu giấy (nhập mỗi từ đúng bằng số lần đã đếm) thay cho chiếc cốc. Người điều phối có thể kết thúc bằng cách trình chiếu một chatbot được học khu phê duyệt và hỏi cùng một câu lệnh ba lần để cho thấy sự khác biệt do lấy mẫu ngẫu nhiên. Người tham gia không cần tài khoản.</p></div>
+        <p class="why"><strong>Có cần màn hình không?</strong> Hoạt động này hiệu quả hơn khi không dùng màn hình. Việc rút những mẩu giấy có trọng số từ một chiếc cốc làm cho dự đoán và tính ngẫu nhiên trở nên cụ thể theo cách không màn hình minh họa nào làm được, và giữ trọng tâm vào khái niệm thay vì vào bất kỳ sản phẩm nào. Phần so sánh trực tiếp với chatbot (tùy chọn) chỉ bổ sung một điều: thấy rằng một hệ thống thật cũng có cùng khuôn mẫu trôi chảy mà không kiểm chứng.</p>
+      </section>
+      <section class="evidence"><h2>Bằng chứng học tập</h2><p class="muted">Những gì bạn có thể quan sát hoặc thu thập được nếu hoạt động thành công.</p><ul><li>Kết quả đếm trên Phiếu B chính xác và các nhóm giải thích được rằng việc rút từ cốc có trọng số theo tần suất.</li><li>Ít nhất một câu trả lời &quot;sự thật&quot; được tạo ra được nhóm xác định là trôi chảy, cụ thể, không có trong văn bản huấn luyện, và được gọi tên là ảo giác.</li><li>Lời giải thích một phút bằng văn bản dùng ngôn ngữ dự đoán (&quot;dự đoán những từ có khả năng xuất hiện tiếp theo&quot;) thay vì ngôn ngữ truy xuất (&quot;tra cứu&quot;) và có một thao tác kiểm chứng.</li><li>Trong bước Suy ngẫm, người tham gia nêu được một vùng dữ liệu mỏng cụ thể trong môn học của mình.</li></ul></section>
+      <section><h2>Điều chỉnh</h2><dl class="adapt"><div><dt>Giáo viên K–2 và 3–5</dt><dd>Với học sinh nhỏ, chỉ dùng câu 1–5, cả lớp cùng đếm trên bảng chỉ với BẮT ĐẦU và một từ khác, và giáo viên là người rút từ cốc. Giữ thông điệp gói gọn trong một câu: &quot;AI đoán từ tiếp theo. Đoán thì có thể sai, nên chúng ta kiểm tra.&quot;</dd></div><div><dt>Giảng viên đại học</dt><dd>Thêm một vòng trong đó các nhóm bỏ câu 8 khỏi thư viện và huấn luyện lại, rồi thảo luận điều gì xảy ra với những sự thật chỉ xuất hiện một lần, hoặc không bao giờ xuất hiện, trong dữ liệu huấn luyện. Liên hệ với lý do vì sao các trích dẫn và tài liệu tham khảo do AI tạo ra phải được kiểm tra từng cái một.</dd></div><div><dt>Người học song ngữ đang phát triển</dt><dd>Xây dựng một thư viện thứ hai gồm năm câu bằng tiếng mẹ đẻ của học sinh. So sánh trật tự từ làm thay đổi kết quả đếm như thế nào, và thảo luận vì sao một mô hình được huấn luyện chủ yếu bằng văn bản tiếng Anh có thể hoạt động kém tin cậy hơn ở các ngôn ngữ khác.</dd></div></dl></section>
+      <section class="stds"><h2>Liên kết với các chuẩn</h2><p>Các nhà giáo dục tự tay lập bảng tần suất từ tiếp theo và quan sát nó &quot;ảo giác&quot;, một mô hình dùng ngay được trong lớp học cho thấy AI tạo sinh dự đoán dựa trên khuôn mẫu như thế nào.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Ứng dụng Công nghệ: tư duy máy tính">tư duy máy tính</a><a class="std std-teks" href="../standards.html#teks-ta-data" title="Ứng dụng Công nghệ: hiểu biết, quản lý và biểu diễn dữ liệu">hiểu biết, quản lý và biểu diễn dữ liệu</a><span class="std-sec">Các mục TEKS: Technology Applications §126.5–§126.7, §126.8–§126.10, §126.17–§126.19, các môn Ứng dụng Công nghệ bậc trung học phổ thông (19 TAC Chương 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Nói">Nói</a><a class="std std-elps" href="../standards.html#elps-c4" title="Đọc">Đọc</a><a class="std std-elps" href="../standards.html#elps-c5" title="Viết">Viết</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Làm nổi bật và khám phá khuôn mẫu, đặc điểm then chốt, ý tưởng lớn và các mối quan hệ">3.2</a><a class="std std-udl" href="../standards.html#udl-4-1" title="Đa dạng hóa và tôn trọng các phương thức phản hồi, điều hướng và di chuyển">4.1</a><a class="std std-udl" href="../standards.html#udl-7-3" title="Nuôi dưỡng niềm vui và sự vui chơi">7.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Thúc đẩy hợp tác, sự phụ thuộc lẫn nhau và học tập tập thể">8.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Xem cách tất cả hoạt động được đối chiếu với các chuẩn</a></p></section>
+      <section class="two">
+        <div><h2>Suy ngẫm</h2><ul><li>Tôi đang phát triển và vận dụng hiểu biết về AI trong bối cảnh giáo dục như thế nào? Học sinh của tôi hiện nghĩ AI đang làm gì khi nó trả lời?</li><li>Ở chỗ nào trong môn học của tôi, kết quả AI trôi chảy nhưng sai dễ xuất hiện nhất, và học sinh sẽ phát hiện nó bằng cách nào?</li><li>Phần nào của mô hình hôm nay là sự đơn giản hóa mà tôi cần nói rõ khi dạy?</li></ul></div>
+        <div><h2>Mang về lớp học của bạn</h2><p>Tuần này, hãy thực hiện Thư viện huấn luyện tí hon với học sinh của bạn (Thẻ 1–6 đã sẵn sàng cho lớp học), rồi yêu cầu mỗi học sinh viết một lời giải thích hai câu về ảo giác AI làm phiếu kết thúc giờ học. Mang năm phiếu đến buổi sinh hoạt PLC (cộng đồng học tập chuyên môn) và phân loại: ngôn ngữ dự đoán hay ngôn ngữ tra cứu?</p></div>
+      </section>
+      <section><h2>Kết hợp tốt với</h2><ul class="connections"><li><a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh (K–8)</a><span>Các trò chơi tiếp nối dành cho học sinh về cách AI tạo sinh hoạt động và vì sao chúng ta cần kiểm chứng.</span></li><li><a href="https://mglearn.github.io/tcea/alf/">Augmented K–16 AI Learning Framework</a><span>Giúp đặt bài học khái niệm này vào lộ trình hiểu biết AI từ K–16.</span></li></ul></section>
+      <section class="related noprint"><h2>Hoạt động liên quan</h2><div class="cards"><article class="card" data-id="explain-it-to-grandma">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Bồi dưỡng chuyên môn<span>dành cho Giáo viên, Thủ thư, Chuyên viên hỗ trợ, Lãnh đạo</span></p>
+    <h3><a href="../activities/explain-it-to-grandma.html">Giải thích cho bà nghe</a></h3>
+    <p class="card-tag">Nhà giáo soạn những lời giải thích dài 90 giây, không thuật ngữ khó, về các khái niệm AI, rồi thử ngay trên đồng nghiệp đóng vai một người ông bà hoài nghi, một em học sinh lớp 2, hoặc một thành viên hội đồng giáo dục.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-digcit">Công dân số</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.2" title="AI trong Giáo dục 1.2: Tôi có thể giải thích các khái niệm AI một cách đơn giản cho nhiều đối tượng liên quan khác nhau.">AI1.2</a><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#AI1.3" title="AI trong Giáo dục 1.3: Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.">AI1.3</a></span></div>
+  </article><article class="card has-photo" data-id="next-word-by-hand">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-35-genai.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 3–5, Lớp 6–8</span></p>
+    <h3><a href="../activities/next-word-by-hand.html">Đoán chữ tiếp theo bằng tay</a></h3>
+    <p class="card-tag">Học sinh làm một &quot;máy đoán chữ&quot; bằng giấy từ các thẻ câu, xem nó bịa ra một sự thật sai rất tự tin về một cái hồ, và khám phá vì sao một câu lệnh dài hơn có giúp ích nhưng không bao giờ làm cho chatbot thực sự hiểu biết.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#AI1.3" title="AI trong Giáo dục 1.3: Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.">AI1.3</a><a class="ele" href="../framework.html#S5.3" title="Học sinh 5.3: Em nhận thức được cách vận dụng tư duy máy tính vào nhiều môn học khác nhau.">S5.3</a></span></div>
+  </article><article class="card" data-id="bias-detectives">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Bồi dưỡng chuyên môn<span>dành cho Giáo viên, Thủ thư, Chuyên viên hỗ trợ</span></p>
+    <h3><a href="../activities/bias-detectives.html">Thám tử Thiên kiến</a></h3>
+    <p class="card-tag">Các nhóm so sánh từng cặp kết quả AI chỉ khác nhau một cái tên, một ngôn ngữ hoặc một đại từ, rồi tự tiến hành các phép thử công bằng và đề xuất cách khắc phục trước khi kết quả AI đến tay học sinh.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>60 phút</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-digcit">Công dân số</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.3" title="AI trong Giáo dục 1.3: Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.">AI1.3</a><a class="ele" href="../framework.html#AI2.2" title="AI trong Giáo dục 2.2: Tôi có thể xác định các vấn đề đạo đức tiềm ẩn trong ứng dụng AI và đề xuất giải pháp.">AI2.2</a><a class="ele" href="../framework.html#AI4.1" title="AI trong Giáo dục 4.1: Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.">AI4.1</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Ngân hàng Hoạt động Kỳ vọng Học tập Thiết yếu của TCEA.</strong> Hoạt động bồi dưỡng chuyên môn và hoạt động cho học sinh K–16 về hiểu biết AI tạo sinh, công dân số và hiểu biết truyền thông, trên giấy hoặc trên màn hình.</p>
+    <p>Hoạt động do Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>) biên soạn, dựa trên <a href="https://tinyurl.com/tceaeles1">Kỳ vọng Học tập Thiết yếu của TCEA</a> (CC BY-SA 2024). Chia sẻ theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: được sao chép, chỉnh sửa và tái sử dụng khi ghi nguồn. Không cần đăng nhập, không theo dõi.</p>
+    <p class="ai-note">Ảnh trên trang này là hình minh họa do AI tạo ra về những người hư cấu, không phải học sinh hay nhân viên thật.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog TCEA</a>
+    <a href="https://convention.tcea.org/">Hội nghị &amp; Triển lãm TCEA</a>
+  </nav>
+  <nav aria-label="Liên quan">
+    <p class="foot-h">Thêm tài nguyên miễn phí</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Trợ lý Đối chiếu ELE</a>
+    <a href="https://mglearn.github.io/activities/">Trung tâm Hoạt động Học tập</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Hoạt động nhóm về Công dân số</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rác Vào, Rác Ra | Ngân hàng Hoạt động ELE</title>
+<meta name="description" content="Học sinh viết hướng dẫn cho một bạn cùng lớp đóng vai &quot;rô-bốt&quot; làm theo đúng từng chữ, khám phá vì sao câu lệnh mơ hồ dẫn đến kết quả bất ngờ, và xây dựng một công thức viết câu lệnh rõ ràng để dùng với AI lẫn với con người.">
+<meta property="og:title" content="Rác Vào, Rác Ra | Ngân hàng Hoạt động ELE">
+<meta property="og:description" content="Học sinh viết hướng dẫn cho một bạn cùng lớp đóng vai &quot;rô-bốt&quot; làm theo đúng từng chữ, khám phá vì sao câu lệnh mơ hồ dẫn đến kết quả bất ngờ, và xây dựng một công thức viết câu lệnh rõ ràng để dùng với AI lẫn với con người.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/garbage-in-garbage-out.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/garbage-in-garbage-out.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/activities/garbage-in-garbage-out.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/garbage-in-garbage-out.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Ngân hàng Hoạt động</span></a>
+  <nav aria-label="Chính">
+    <a href="../index.html#catalog">Hoạt động</a>
+    <a href="../framework.html">Các ELE</a>
+    <details class="navmenu"><summary>Dành cho người điều phối</summary><div class="navmenu-panel">
+      <a href="../guide.html">Hướng dẫn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Chuẩn</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Ngôn ngữ</span><select aria-label="Ngôn ngữ"><option value="en" lang="en" data-href="../../activities/garbage-in-garbage-out.html">English</option><option value="es" lang="es" data-href="../../es/activities/garbage-in-garbage-out.html">Español</option><option value="vi" lang="vi" data-href="../../vi/activities/garbage-in-garbage-out.html" selected>Tiếng Việt</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="vi">Bản dịch này được thực hiện với sự hỗ trợ của AI và đang chờ người bản ngữ xem xét. Bản tiếng Anh là bản gốc.</p>
+
+<main id="main" class="act">
+  <div class="act-head has-photo">
+    <figure class="act-photo"><img class="photo" src="../../assets/img/cat-35-genai.jpg" width="1536" height="1024" alt="Fourth graders give and follow instructions while building with blocks."></figure>
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Tất cả hoạt động</a> <span aria-hidden="true">/</span> Học tập của học sinh</p>
+    <h1>Rác Vào, Rác Ra</h1>
+    <p class="lede">Học sinh viết hướng dẫn cho một bạn cùng lớp đóng vai &quot;rô-bốt&quot; làm theo đúng từng chữ, khám phá vì sao câu lệnh mơ hồ dẫn đến kết quả bất ngờ, và xây dựng một công thức viết câu lệnh rõ ràng để dùng với AI lẫn với con người.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/garbage-in-garbage-out.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">In hướng dẫn này</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="Tóm tắt nhanh">
+      <dl>
+        <div><dt>Thời gian</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>40 phút</dd></div>
+        <div><dt>Hình thức</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</dd></div>
+        <div><dt>Lớp</dt><dd>3–5</dd></div>
+        
+        <div><dt>Nhóm</dt><dd>Theo cặp (Người Ra Lệnh và Rô-bốt), đổi vai cho nhau; lớp học sĩ số bao nhiêu cũng được</dd></div>
+        <div><dt>Mạch nội dung</dt><dd class="chips"><span class="strand s-genai">AI tạo sinh</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Chỉ báo ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI1.1">AI1.1</a><div><span class="ind-area">AI trong Giáo dục · Hiểu biết về AI</span>Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.</div></li><li><a class="ele" href="../framework.html#S5.1">S5.1</a><div><span class="ind-area">Học sinh · Người Giải quyết Vấn đề Sáng tạo</span>Em biết cách tiếp cận các vấn đề phức tạp một cách có hệ thống.</div></li><li><a class="ele" href="../framework.html#S3.2">S3.2</a><div><span class="ind-area">Học sinh · Người học Hợp tác</span>Em có thể truyền đạt ý tưởng của mình một cách rõ ràng cho người khác.</div></li><li><a class="ele" href="../framework.html#S5.3">S5.3</a><div><span class="ind-area">Học sinh · Người Giải quyết Vấn đề Sáng tạo</span>Em nhận thức được cách vận dụng tư duy máy tính vào nhiều môn học khác nhau.</div></li><li><a class="ele" href="../framework.html#AI4.3">AI4.3</a><div><span class="ind-area">AI trong Giáo dục · AI và Tư duy Phản biện</span>Tôi nhận thức được các chiến lược phát triển kỹ năng giải quyết vấn đề liên quan đến AI.</div></li></ul>
+      <h2 class="glance-h">Phiếu</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Thẻ thử thách hình khối <span class="muted">(thẻ cắt rời)</span></li><li><span class="hl">B</span> Phiếu hướng dẫn cho Rô-bốt <span class="muted">(phiếu bài tập)</span></li><li><span class="hl">C</span> Phòng thí nghiệm nâng cấp câu lệnh <span class="muted">(sơ đồ tổ chức)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Tổng quan</h2><p class="overview">Các nhà khoa học máy tính có một câu nói xưa: <strong>rác vào, rác ra.</strong> Nếu hướng dẫn không rõ ràng, kết quả cũng sẽ không rõ ràng. Trong trò chơi này, Người Ra Lệnh bí mật vẽ một bức tranh theo thẻ thử thách hình khối và viết hướng dẫn, còn bạn cùng lớp đóng vai Rô-bốt làm theo đúng từng chữ, không được nhìn trộm và không được hỏi. Kết quả của Vòng 1 thường sai lệch rất xa. Vòng 2, sau khi cả lớp xây dựng một &quot;công thức câu lệnh&quot;, cho kết quả gần đúng hơn nhiều. Sau đó học sinh nâng cấp những câu lệnh (prompt) AI mơ hồ và học được nửa còn lại của sự thật: ngay cả một câu lệnh tuyệt vời vẫn có thể nhận được câu trả lời sai, vì vậy con người vẫn phải kiểm tra.</p>
+        <h3 class="sub">Mục tiêu</h3><ul><li>Học sinh sẽ viết hướng dẫn từng bước mà người khác có thể làm theo chính xác, và chỉnh sửa lại sau khi thấy kết quả.</li><li>Học sinh sẽ giải thích rằng một công cụ AI tạo sinh lấp đầy những chi tiết còn thiếu bằng các phỏng đoán có khả năng cao dựa trên các khuôn mẫu, vì vậy câu lệnh mơ hồ sẽ cho kết quả khó đoán.</li><li>Học sinh sẽ xác định những thành phần còn thiếu trong một câu lệnh mơ hồ (dành cho ai, cái gì, bao nhiêu hoặc dài bao lâu, chi tiết, phong cách) và viết lại câu lệnh đó.</li><li>Học sinh sẽ giải thích vì sao một câu lệnh rõ ràng vẫn không bảo đảm câu trả lời đúng.</li></ul></section>
+      <section class="two">
+        <div><h2>Học liệu</h2>
+          <h3 class="sub">Trên giấy</h3><ul><li>Phiếu A: Thẻ thử thách hình khối (mỗi 4 cặp 1 bộ, cắt rời)</li><li>Phiếu B: Phiếu hướng dẫn cho Rô-bốt (mỗi cặp 1 bản cho mỗi vòng, in hai mặt)</li><li>Phiếu C: Phòng thí nghiệm nâng cấp câu lệnh (mỗi cặp 1 bản)</li><li>Bút chì, mỗi cặp một bìa hồ sơ hoặc một quyển sách để làm vách che</li><li>Giấy khổ lớn có tiêu đề &quot;Công thức câu lệnh của chúng ta&quot;</li></ul>
+          <h3 class="sub">Trên màn hình</h3><ul><li>Tùy chọn: một chatbot AI tạo sinh được học khu phê duyệt, trên thiết bị của giáo viên, chiếu lên cho cả lớp xem</li><li>Tùy chọn: một máy chiếu vật thể để so sánh hình vẽ của Người Ra Lệnh và Rô-bốt cạnh nhau</li></ul></div>
+        <div><h2>Trước khi bắt đầu</h2><ol class="prep"><li>Cắt rời các Thẻ thử thách hình khối. Mỗi cặp cần một thẻ cho mỗi vòng.</li><li>Chuẩn bị phần khởi động của bạn: chọn một hình vẽ đơn giản (khuôn mặt con mèo, một ngôi nhà) mà bạn sẽ để cả lớp &quot;lập trình&quot; cho bạn vẽ.</li><li>Viết &quot;Công thức câu lệnh của chúng ta&quot; lên giấy khổ lớn, chừa chỗ cho năm thành phần.</li><li>Nếu bạn sẽ trình diễn trên màn hình chiếu, hãy thử câu lệnh mơ hồ và câu lệnh đã nâng cấp ở Hàng 1 của Phiếu C trên chatbot được học khu phê duyệt để biết đại khái điều gì sẽ xảy ra.</li></ol></div>
+      </section>
+      <section><h2>Từng bước</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khởi động</p>
+        <h3>Lập trình cho giáo viên</h3>
+        <p>Đứng trước bảng và nói: <strong>&quot;Cô/thầy là một rô-bốt. Cô/thầy làm đúng những gì các em nói, không hơn.&quot;</strong> Mời cả lớp chỉ cho bạn cách vẽ một con mèo. Khi một học sinh nói &quot;Vẽ một con mèo&quot;, hãy vẽ một vòng tròn tí xíu ở góc bảng rồi dừng lại. &quot;Vẽ tai&quot; sẽ thành hai cái tai lơ lửng cách xa cái đầu. Tiếp tục làm theo đúng từng chữ. Sau khoảng một phút, hỏi: &quot;Tại sao con mèo của cô/thầy không giống con mèo trong đầu các em?&quot; Lắng nghe câu trả lời, rồi viết <strong>Rác vào, rác ra</strong> lên bảng.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Giữ nét mặt nghiêm túc. Tiếng cười là phần khởi động, nhưng điểm chính là rô-bốt không đọc được suy nghĩ; nó chỉ có những lời nói.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–10 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Làm mẫu</p>
+        <h3>AI lấp chỗ trống như thế nào</h3>
+        <p>Giải thích đơn giản: &quot;Một chatbot AI tạo sinh đã học từ rất rất nhiều bài viết. Khi các em gõ một câu lệnh, nó đoán những từ có khả năng xuất hiện tiếp theo nhất, từng từ một. Nó không biết trong đầu các em có gì. Khi câu lệnh của các em thiếu điều gì đó, nó lấp chỗ trống bằng một phỏng đoán có khả năng cao.&quot; Sau đó đọc to <strong>Luật của Rô-bốt</strong>: Rô-bốt chỉ làm những gì lời nói bảo; không nhìn trộm; không hỏi; Người Ra Lệnh không được chỉ tay hay ra hiệu. Cho xem một Thẻ thử thách hình khối và làm mẫu cách viết hai hướng dẫn chính xác: &quot;Vẽ một hình vuông lớn ở giữa trang giấy, rộng khoảng bằng bàn tay của em.&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Học sinh thường hỏi AI có &quot;hiểu&quot; không. Một câu trả lời hợp lý cho lứa tuổi này: &quot;Nó rất giỏi đoán những từ thường đi tiếp theo. Điều đó có thể trông giống như hiểu, nhưng nó cũng có thể sai một cách rất tự tin.&quot;</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">10–22 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Luyện tập</p>
+        <h3>Vòng 1 và Vòng 2</h3>
+        <p><strong>Vòng 1 (5 phút):</strong> Người Ra Lệnh lấy một Thẻ thử thách hình khối, che giấy sau bìa hồ sơ, vẽ bức tranh của mình, và viết hướng dẫn vào ô Vòng 1 của Phiếu B. Rô-bốt đọc và vẽ vào ô hình vẽ Vòng 1, làm theo đúng từng chữ. Lật ra và so sánh. <strong>Họp nhanh (2 phút):</strong> Hỏi các cặp điều gì đã sai và xây dựng phiên bản đầu tiên của Công thức câu lệnh trên giấy khổ lớn. <strong>Vòng 2 (5 phút):</strong> Đổi vai với một thẻ mới. Người Ra Lệnh viết theo công thức. Rô-bốt vẽ. So sánh lần nữa.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Chú ý những hướng dẫn ở Vòng 2 có nêu kích thước, vị trí (&quot;góc trên bên trái&quot;), số lượng và thứ tự. Đó cũng chính là những chi tiết mà câu lệnh AI cần: cụ thể thay vì phỏng đoán.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">22–28 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Tổng kết</p>
+        <h3>Xây dựng Công thức câu lệnh</h3>
+        <p>Đặt hình vẽ Vòng 1 và Vòng 2 của hai cặp dưới máy chiếu vật thể. Hỏi: <strong>&quot;Điều gì đã thay đổi giữa hai vòng? Những từ nào tạo ra khác biệt lớn nhất?&quot;</strong> Chốt năm thành phần trên giấy khổ lớn: <strong>Dành cho ai? Chính xác là gì? Bao nhiêu hoặc dài bao lâu? Chi tiết nào quan trọng? Phong cách hoặc hình thức nào?</strong> Sau đó hỏi: &quot;Khi Rô-bốt của các em vẫn vẽ sai ở Vòng 2, ai có nhiệm vụ nhận ra điều đó?&quot; (Người Ra Lệnh, bằng cách kiểm tra kết quả.)</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Kết nối với S3.2: hướng dẫn rõ ràng là giao tiếp rõ ràng. Cùng một công thức này cũng giúp ích khi các em nhờ bạn cùng lớp giúp đỡ hay giải thích ý tưởng của mình.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">28–36 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Vận dụng</p>
+        <h3>Phòng thí nghiệm nâng cấp câu lệnh</h3>
+        <p>Các cặp hoàn thành Phiếu C: với mỗi câu lệnh mơ hồ, dùng công thức để nêu điều còn thiếu, rồi viết một câu lệnh đã nâng cấp. Mời vài cặp đọc to. Nếu có phần trình diễn trên màn hình chiếu, hãy gõ một câu lệnh mơ hồ và phiên bản đã nâng cấp của lớp vào chatbot rồi so sánh các câu trả lời. Sau đó chỉ ra bất kỳ lỗi sai hay chi tiết bịa đặt nào trong một trong hai câu trả lời và hỏi: <strong>&quot;Một câu lệnh tốt hơn có tự động làm cho câu trả lời đúng không?&quot;</strong></p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Hàng 5 trong Phiếu C đưa thông tin sai vào câu lệnh (&quot;rác vào&quot;). Học sinh nên nhận ra rằng một công cụ có thể lặp lại lỗi sai thay vì sửa nó.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">36–40 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Suy ngẫm</p>
+        <h3>Phiếu kết thúc giờ học</h3>
+        <p>Ở mặt sau của Phiếu B, học sinh trả lời: &quot;Một điều em đã thay đổi ở Vòng 2 là ___. Điều đó giúp ích vì ___.&quot; và &quot;Ngay cả khi có câu lệnh rõ ràng, em vẫn cần ___.&quot; Thu lại làm bằng chứng.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Câu trả lời tốt nêu được một lần chỉnh sửa cụ thể (&quot;em nói rõ vị trí trên trang giấy&quot;) và một bước kiểm tra (&quot;kiểm tra xem câu trả lời có đúng không&quot;).</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Giấy hay màn hình</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</h3><p>Mọi thứ đều diễn ra trên giấy. Bạn Rô-bốt cùng lớp chính là &quot;AI&quot;, và Phòng thí nghiệm nâng cấp câu lệnh không cần thiết bị nào: các cặp có thể đổi câu lệnh đã nâng cấp cho nhau và đóng vai chatbot của nhau, viết một câu trả lời ngắn và đánh dấu bất kỳ chi tiết nào mình phải đoán.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kỹ thuật số</h3><p>Chiếu một chatbot AI tạo sinh được học khu phê duyệt từ thiết bị của giáo viên trong bước Áp dụng. Gõ lần lượt một câu lệnh mơ hồ từ Phiếu C và phiên bản đã nâng cấp của lớp, rồi so sánh các câu trả lời với Công thức câu lệnh. Mời học sinh chỉ ra bất kỳ điều gì công cụ đã tự cho là đúng hoặc tự bịa ra. Học sinh dưới 13 tuổi không dùng tài khoản AI riêng; nếu học khu cung cấp một công cụ được phê duyệt và có giám sát cho học sinh lớn hơn, các cặp có thể thử câu lệnh đã nâng cấp của mình và ghi lại những gì thay đổi.</p></div>
+        <p class="why"><strong>Có cần màn hình không?</strong> Trò chơi Rô-bốt không dùng màn hình dạy ý tưởng cốt lõi (đầu vào không rõ, đầu ra khó đoán) tốt hơn bất kỳ màn hình nào. Một phần so sánh ngắn trên màn hình chiếu bổ sung bằng chứng: học sinh thấy một công cụ AI thật phản hồi khác nhau với câu lệnh mơ hồ và câu lệnh cụ thể, và vẫn mắc lỗi, điều mà giấy chỉ có thể mô tả.</p>
+      </section>
+      <section class="evidence"><h2>Bằng chứng học tập</h2><p class="muted">Những gì bạn có thể quan sát hoặc thu thập được nếu hoạt động thành công.</p><ul><li>Hướng dẫn ở Vòng 2 có nhiều từ chỉ kích thước, vị trí, số lượng và thứ tự hơn Vòng 1, và hình vẽ của Rô-bốt giống với hình của Người Ra Lệnh hơn.</li><li>Các câu lệnh đã nâng cấp trong Phiếu C bổ sung ít nhất ba thành phần của công thức.</li><li>Học sinh giải thích được rằng công cụ AI phỏng đoán để lấp những chi tiết còn thiếu, và một câu lệnh rõ ràng vẫn cần được kiểm tra.</li><li>Ở Hàng 5, học sinh nhận ra rằng thông tin sai trong câu lệnh có thể dẫn đến câu trả lời sai.</li></ul></section>
+      <section><h2>Điều chỉnh</h2><dl class="adapt"><div><dt>Lớp 3</dt><dd>Dùng Thẻ thử thách hình khối 1–4 (mỗi thẻ ba hình) và giới hạn hướng dẫn trong năm câu. Làm Hàng 1–3 của Phiếu C cùng cả lớp.</dd></div><div><dt>Lớp 5 / nâng cao</dt><dd>Thêm Vòng 3 với một &quot;Rô-bốt khó tính&quot; hiểu sai bất kỳ từ nào có thể mang hai nghĩa. Người Ra Lệnh săn tìm những từ mơ hồ như &quot;bên cạnh&quot; hay &quot;to&quot;.</dd></div><div><dt>Học sinh song ngữ đang phát triển</dt><dd>Dán một ngân hàng từ về vị trí và kích thước kèm hình vẽ minh họa (trên, dưới, trái, phải, giữa, phía trên, phía dưới, bên trong, to, nhỏ), và cho các cặp viết bằng ngôn ngữ nào cũng được.</dd></div><div><dt>Học sinh có nhu cầu về vận động tinh</dt><dd>Rô-bốt xếp hình bằng các mảnh giấy cắt sẵn thay vì vẽ.</dd></div></dl></section>
+      <section class="stds"><h2>Liên kết với các chuẩn</h2><p>Học sinh viết, thử và chỉnh sửa các hướng dẫn từng bước thật chính xác, rồi nâng cấp những câu lệnh AI còn mơ hồ, qua đó thực hành tư duy máy tính và viết văn bản hướng dẫn quy trình.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Ứng dụng Công nghệ: tư duy máy tính">tư duy máy tính</a><a class="std std-teks" href="../standards.html#teks-elar-composition" title="ELAR: viết văn bản">viết văn bản</a><span class="std-sec">Các mục TEKS: Technology Applications §126.8–§126.10; ELAR §110.5–§110.7</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Nghe">Nghe</a><a class="std std-elps" href="../standards.html#elps-c3" title="Nói">Nói</a><a class="std std-elps" href="../standards.html#elps-c4" title="Đọc">Đọc</a><a class="std std-elps" href="../standards.html#elps-c5" title="Viết">Viết</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-5-3" title="Xây dựng sự thành thạo với hỗ trợ theo từng mức độ cho việc luyện tập và thể hiện">5.3</a><a class="std std-udl" href="../standards.html#udl-7-3" title="Nuôi dưỡng niềm vui và sự vui chơi">7.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Thúc đẩy hợp tác, sự phụ thuộc lẫn nhau và học tập tập thể">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Thúc đẩy suy ngẫm cá nhân và tập thể">9.3</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-rla-writing" title="Viết (RLA): sáng tác, chỉnh sửa và biên tập, bao gồm câu trả lời tự luận mở rộng">sáng tác, chỉnh sửa và biên tập, bao gồm câu trả lời tự luận mở rộng</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Xem cách tất cả hoạt động được đối chiếu với các chuẩn</a></p></section>
+      <section class="two">
+        <div><h2>Suy ngẫm</h2><ul><li>Em có dùng những gì mình học được để giải quyết vấn đề trong cuộc sống thực không? Hướng dẫn rõ ràng còn quan trọng ở đâu nữa? (Câu hỏi định hướng ELE dành cho học sinh)</li><li>Em đã thay đổi gì giữa Vòng 1 và Vòng 2, và vì sao?</li><li>Nếu một công cụ AI cho em một câu trả lời nghe rất hay, làm sao em biết nó có đúng không?</li></ul></div>
+        <div><h2>Bước tiếp theo</h2><p>Ở nhà, học sinh chơi trò &quot;Đầu bếp Rô-bốt&quot; với một người trong gia đình: viết hướng dẫn làm một món ăn nhẹ đơn giản (một chiếc bánh mì kẹp, một bát ngũ cốc) và nhờ người thân làm theo đúng từng chữ, rồi cùng nhau chỉnh sửa. Trên lớp, dán Công thức câu lệnh lên tường và sử dụng nó khi học sinh viết hướng dẫn trong môn toán, quy trình thí nghiệm khoa học, hoặc lời nhờ vả bạn cùng lớp.</p></div>
+      </section>
+      <section><h2>Kết hợp tốt với</h2><ul class="connections"><li><a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts (K–8)</a><span>Một hoạt động breakout kỹ thuật số tiếp nối do giáo viên dẫn dắt về cách AI tạo sinh hoạt động.</span></li><li><a href="https://mglearn.github.io/tcea/ai-essentials-prompt-library/">Thư viện câu lệnh AI Essentials</a><span>Dành cho giáo viên: các câu lệnh mẫu thể hiện đúng những thành phần mà học sinh liệt kê trong Công thức câu lệnh.</span></li></ul></section>
+      <section class="related noprint"><h2>Hoạt động liên quan</h2><div class="cards"><article class="card has-photo" data-id="algorithm-autopsy">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-912-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 9–12</span></p>
+    <h3><a href="../activities/algorithm-autopsy.html">Giải phẫu Thuật toán</a></h3>
+    <p class="card-tag">Học sinh mổ xẻ các tính năng thiết kế của một ứng dụng mạng xã hội hư cấu, lần theo cách mỗi tính năng định hình sự chú ý và niềm tin, rồi thiết kế lại bảng tin để phục vụ con người thay vì lượt tương tác.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>75 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span><span class="strand s-digcit">Công dân số</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#S5.2" title="Học sinh 5.2: Em có thể vận dụng sự sáng tạo và tư duy logic để tìm ra các giải pháp đổi mới.">S5.2</a><a class="ele" href="../framework.html#S5.1" title="Học sinh 5.1: Em biết cách tiếp cận các vấn đề phức tạp một cách có hệ thống.">S5.1</a></span></div>
+  </article><article class="card has-photo" data-id="community-problem-pitch">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-68-genai.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 6–8, Lớp 9–12</span></p>
+    <h3><a href="../activities/community-problem-pitch.html">Thuyết trình giải pháp cho vấn đề cộng đồng</a></h3>
+    <p class="card-tag">Các nhóm dùng quy trình thiết kế kỹ thuật để giải quyết một vấn đề thực tế ở trường hoặc cộng đồng, mời AI phản biện ý tưởng, loại bỏ những gì không đứng vững, và thuyết trình giải pháp kèm theo hồ sơ ghi lại những gì đã thay đổi.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>110 phút</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-medialit">Hiểu biết truyền thông</span></span><span class="eles"><a class="ele" href="../framework.html#S5.1" title="Học sinh 5.1: Em biết cách tiếp cận các vấn đề phức tạp một cách có hệ thống.">S5.1</a><a class="ele" href="../framework.html#S5.2" title="Học sinh 5.2: Em có thể vận dụng sự sáng tạo và tư duy logic để tìm ra các giải pháp đổi mới.">S5.2</a><a class="ele" href="../framework.html#S3.1" title="Học sinh 3.1: Em biết cách làm việc nhóm hiệu quả.">S3.1</a></span></div>
+  </article><article class="card has-photo" data-id="next-word-by-hand">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-35-genai.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 3–5, Lớp 6–8</span></p>
+    <h3><a href="../activities/next-word-by-hand.html">Đoán chữ tiếp theo bằng tay</a></h3>
+    <p class="card-tag">Học sinh làm một &quot;máy đoán chữ&quot; bằng giấy từ các thẻ câu, xem nó bịa ra một sự thật sai rất tự tin về một cái hồ, và khám phá vì sao một câu lệnh dài hơn có giúp ích nhưng không bao giờ làm cho chatbot thực sự hiểu biết.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#AI1.3" title="AI trong Giáo dục 1.3: Tôi nhận thức được những hạn chế hiện tại và các thiên kiến tiềm ẩn trong hệ thống AI.">AI1.3</a><a class="ele" href="../framework.html#S5.3" title="Học sinh 5.3: Em nhận thức được cách vận dụng tư duy máy tính vào nhiều môn học khác nhau.">S5.3</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Ngân hàng Hoạt động Kỳ vọng Học tập Thiết yếu của TCEA.</strong> Hoạt động bồi dưỡng chuyên môn và hoạt động cho học sinh K–16 về hiểu biết AI tạo sinh, công dân số và hiểu biết truyền thông, trên giấy hoặc trên màn hình.</p>
+    <p>Hoạt động do Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>) biên soạn, dựa trên <a href="https://tinyurl.com/tceaeles1">Kỳ vọng Học tập Thiết yếu của TCEA</a> (CC BY-SA 2024). Chia sẻ theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: được sao chép, chỉnh sửa và tái sử dụng khi ghi nguồn. Không cần đăng nhập, không theo dõi.</p>
+    <p class="ai-note">Ảnh trên trang này là hình minh họa do AI tạo ra về những người hư cấu, không phải học sinh hay nhân viên thật.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog TCEA</a>
+    <a href="https://convention.tcea.org/">Hội nghị &amp; Triển lãm TCEA</a>
+  </nav>
+  <nav aria-label="Liên quan">
+    <p class="foot-h">Thêm tài nguyên miễn phí</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Trợ lý Đối chiếu ELE</a>
+    <a href="https://mglearn.github.io/activities/">Trung tâm Hoạt động Học tập</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Hoạt động nhóm về Công dân số</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

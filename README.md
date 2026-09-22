@@ -36,6 +36,42 @@ handouts/<id>.html        GENERATED print packet (US Letter) + facilitator key
 
 No dependencies: plain Node 18+.
 
+## Languages
+
+English is the source, at the site root. Spanish (`/es/`) and Vietnamese (`/vi/`) are
+full mirrors built from flat overlays in `data/i18n/<lang>/` (`ui.json`, `eles.json`,
+`standards.json`, `activities/<id>.json`); a missing string falls back to English.
+Translations are AI-assisted and labeled for native-speaker review on every page.
+Picker languages follow Contraband (en, es, vi, ar, hi, ur, zh); a language appears
+once `data/i18n/<lang>/ui.json` exists.
+
+To update translations after editing English content:
+
+```bash
+node scripts/i18n.js extract es          # writes .drafts/es/<unit>.en.txt for missing strings
+#   translate each into .drafts/es/<unit>.es.txt, same `path|text` lines
+node scripts/i18n.js check es <unit>     # validates lines, ** markers, {placeholders}, ELE ids
+python3 scripts/i18n_fixes.py es         # cross-reference titles + recorded hand corrections
+node scripts/i18n.js assemble es         # writes data/i18n/es/…
+node scripts/i18n.js status              # coverage per language
+node scripts/build.js
+```
+
+Record any hand correction to a translation in `scripts/i18n_fixes.py`, not in
+`data/i18n/`, or the next `assemble` will overwrite it.
+
+## Standards
+
+`data/standards.json` maps each activity to TEKS, ELPS, UDL 3.0, and SST codes from
+`data/standards-catalog.json`; `standards.html` and each activity page render it.
+Standards are paraphrased and cited by section number, never quoted.
+
+## Photos
+
+Generated photos arrive in `~/Desktop/eleimages/images/` with `credits.json` (brief:
+`~/Desktop/eleimages/IMAGE_PROMPTS.md`). `python3 scripts/import_images.py` makes web and
+thumbnail sizes in `assets/img/` and records alt text in `data/images.json`.
+
 ## Filtering links
 
 The catalog keeps filters in the URL, so any view can be shared, e.g.
