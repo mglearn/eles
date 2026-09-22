@@ -1,0 +1,141 @@
+{
+  "id": "news-from-the-future-circle",
+  "title": "News From the Future Circle",
+  "tagline": "Young learners hear friendly pretend news about helpers that might exist someday, draw or act out one helpful thing and one tricky thing, and vote on a class rule for the helper.",
+  "audience": "student",
+  "grades": ["K-2", "3-5"],
+  "strands": ["genai", "digcit"],
+  "mode": "unplugged",
+  "minutes": 30,
+  "groupSize": "Whole class in a circle, then partners",
+  "eles": ["S5.2", "AI2.2", "S2.3", "AI1.3"],
+  "overview": "Children are already growing up with talking speakers, apps that answer questions, and toys that chat. In this circle, the teacher reads short, friendly pretend news stories from the future, like a robot helper at the library or a pen pal that is an AI. For each one, children find one helpful thing and one tricky thing, act it out or draw it, and then vote on a class rule for the helper. The big idea: new helpers can be great, and we still get to think, check, and make rules about them.",
+  "objectives": [
+    "Students will name one way a pretend future helper could help people and one way it could be tricky or go wrong.",
+    "Students will explain that an AI helper can make mistakes, is not a person, and shouldn't be told private information.",
+    "Students will choose and explain a class rule that keeps people safe and in charge when using a helper."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Pretend News Cards (print on cardstock, enlarged to 150%; teacher talk notes on a separate sheet)",
+      "Handout B: Helpful and Tricky drawing page (1 per student)",
+      "Handout C: Family Connection page (1 per student, sent home)",
+      "A folded sheet of paper labeled \"News From the Future: PRETEND NEWS\" to hold up like a newspaper",
+      "Chart paper for the class rule vote; crayons; cubes, clothespins, or sticky dots for voting"
+    ],
+    "digital": [
+      "Optional: a document camera to show the cards large",
+      "Optional: a generative AI chatbot or image tool your district approves, run by the teacher on the projector only"
+    ]
+  },
+  "prep": [
+    "Print Handout A on cardstock at 150% and cut it apart. Pick three or four cards for today (K–2: Cards 1, 2, 3; grades 3–5: add Card 6 or 8).",
+    "Read the teacher talk notes on the card backs. Each has helpful ideas, tricky ideas, three rule choices for the vote, and a grown-up note on what already exists today.",
+    "Make the pretend newspaper prop and write three rule choices for your main card on chart paper, with a small picture next to each one for pre-readers."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 3,
+      "title": "Pretend news from the future",
+      "body": "Hold up the folded paper. Say: **\"This is PRETEND news. Nobody knows if it will really happen. It's a made-up story about what MIGHT happen someday, when you're older.\"** Ask: \"What's something that helps you that wasn't around when your grown-ups were little?\" Take two or three answers.",
+      "note": "Keep saying \"pretend\" and \"might.\" It teaches that a news-looking thing can be made up, which is an early media literacy idea."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 7,
+      "title": "Helpful thumbs, tricky thumbs",
+      "body": "Read Card 1 in a newscaster voice: **\"The library has a new robot helper! It rolls down the rows and helps kids find books.\"** Ask: \"What's one HELPFUL thing?\" Children show a thumbs-up and share. Then ask: \"What's one TRICKY thing? What could go wrong, or who might it not help?\" Children show a sideways thumb and share. Model one of each yourself: \"Helpful: it finds dinosaur books fast. Tricky: what if it gives me the wrong book and I believe it?\" Repeat with one or two more cards.",
+      "note": "Tricky isn't the same as bad. Listen for the big three ideas: helpers can be wrong, helpers are not people, and helpers shouldn't get our private information."
+    },
+    {
+      "phase": "Create",
+      "minutes": 8,
+      "title": "Act it out or draw it",
+      "body": "Partners choose one card. **Act it out:** one partner is the helper and one is the kid. Show a helpful moment, freeze when the teacher says \"freeze,\" then show a tricky moment. **Or draw it:** on Handout B, draw one helpful thing in the first box and one tricky thing in the second. Let children choose their path; many will do both.",
+      "note": "When you call freeze, ask one frozen pair, \"What's happening in your tricky part? What should the kid do?\" The answer often becomes a rule choice."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 7,
+      "title": "Vote on a class rule",
+      "body": "Go back to one card (the one most children picked) and show the three rule choices on the chart paper, such as: **\"Ask a grown-up if the helper's answer seems wrong,\" \"Never tell the helper where you live,\" \"Say thank you, but remember it isn't a person.\"** Read each one aloud with its picture. Children vote by placing a cube or dot, or by standing near the rule they choose. Count together and write the winning rule big. Ask two children to explain why they voted for it.",
+      "note": "If the class invents a better rule during the circle, add it as a fourth choice. Children taking ownership of a rule is the goal."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "Share and send home",
+      "body": "Three or four children hold up their drawings and tell the class their helpful and tricky thing. Close with: **\"New helpers can be great. We still get to think, check, and make the rules.\"** Send Handout C home so families can make their own pretend headline together.",
+      "note": "Post the winning rule by your classroom's real devices, like the listening center, tablets, or smart board, so it applies to today, not just the future."
+    }
+  ],
+  "unplugged": "This circle is designed to be unplugged. The cards, acting, drawing, and cube vote need no devices. The pretend newspaper prop and the teacher's newscaster voice do the work a screen would.",
+  "digital": "Show the cards large on a document camera. Optionally, the teacher can project a district-approved AI chatbot and ask it one of the card's questions, such as \"Where are the dinosaur books?\", or ask an approved image tool to draw the robot helper. Then ask the class, \"Was it helpful? Was anything tricky or wrong?\" Children never use their own accounts, and the teacher types everything. The class rule can be typed on a slide and posted on the class website for families.",
+  "whyTech": "This one is better unplugged. Young children's thinking shows best in their drawings, their frozen scenes, and their votes. A projected AI demo is worth the screen time only if you use it to catch the helper being wrong, or to notice that it isn't a person.",
+  "adaptations": [
+    { "label": "K–2", "text": "Use one or two cards, act out rather than draw for kindergarten, and offer rule choices as pictures only (a stop hand, a lock, a grown-up)." },
+    { "label": "Grades 3–5", "text": "Use three or four cards and ask for a \"who might it not help?\" answer on each. Let partners write their own rule choice to add to the vote." },
+    { "label": "Emergent bilinguals", "text": "Teach the gestures first (thumb up = helpful, thumb sideways = tricky) so every child can answer without words, and let partners share in their home language." },
+    { "label": "Students with disabilities", "text": "Offer act, draw, point, or tell as equal ways to answer. Card 7 (reading buddy) is a good chance to talk about helpers that help some people more than others." }
+  ],
+  "lookFors": [
+    "Children can name both a helpful thing and a tricky thing for the same helper, rather than only one or the other.",
+    "At least some tricky ideas include \"it could be wrong,\" \"it's not a real person,\" or \"don't tell it private things.\"",
+    "Children can explain in their own words why they voted for the class rule."
+  ],
+  "reflection": [
+    "What is one helpful thing and one tricky thing about a helper you use now, like a talking speaker or a learning app? (Student ELE S5.2)",
+    "What would you do if a helper told you something that seemed wrong? (AI ELE AI1.3)",
+    "What should you never tell a helper, and why? (Student ELE S2.3)"
+  ],
+  "transfer": "Post the class rule next to the real classroom devices and refer back to it the next time students use a learning app. When Handout C comes back, read a few family headlines aloud and see whether families invented rules of their own.",
+  "connections": [
+    { "title": "Tomorrow's Front Page, by Tricia Friedman", "url": "https://triciafriedman.com/tomorrows-front-page/", "note": "The futures-headline approach that inspired this activity. A different, free activity for older learners worth running too." },
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "Kid-friendly follow-ups on how AI guesses and why it can be wrong." },
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "Follow-ups on private information and safe choices online." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Pretend News Cards",
+      "type": "cards",
+      "instructions": "PRETEND NEWS. Print on cardstock at 150%. The backs are teacher talk notes; print them on a separate sheet.",
+      "cards": [
+        { "label": "Card 1 · Pretend News, 2031", "front": "The library has a new robot helper! It rolls down the rows and helps kids find books.", "back": "Helpful: finds books fast; helps when the librarian is busy. Tricky: it could pick the wrong book; it can't give a hug or know you like a librarian does. Rule choices: \"Check with the librarian if the robot seems wrong.\" \"Take turns with the robot.\" \"Robots help, but people choose.\" Grown-up note: robots that roll around and carry things already work in some stores, hospitals, and restaurants." },
+        { "label": "Card 2 · Pretend News, 2030", "front": "A homework app can talk! Kids ask it questions out loud, and it talks back.", "back": "Helpful: answers questions when a grown-up is busy; explains things in new ways. Tricky: its answers can be wrong; it might remember what you say. Rule choices: \"Ask a grown-up if an answer seems wrong.\" \"Never tell it where you live.\" \"Try it yourself first.\" Grown-up note: voice assistants and some learning apps already answer spoken questions." },
+        { "label": "Card 3 · Pretend News, 2032", "front": "Our class got a new pen pal. The pen pal is an AI!", "back": "Helpful: writes back right away; knows lots of facts. Tricky: it isn't a real person and doesn't have feelings; it might make things up; it shouldn't get your address or photos. Rule choices: \"Remember it's not a person.\" \"Never send it private things.\" \"Keep writing to real pen pals too.\" Grown-up note: AI chatbots can already write friendly letters and stories." },
+        { "label": "Card 4 · Pretend News, 2033", "front": "A teddy bear that tells bedtime stories? This one talks!", "back": "Helpful: new stories every night; can read when grown-ups are tired. Tricky: it might be listening when you don't know it; a story might be scary or silly-wrong. Rule choices: \"Grown-ups check what it can hear.\" \"Turn it off when you're done.\" \"Real stories with family still count most.\" Grown-up note: some toys can already talk and connect to the internet." },
+        { "label": "Card 5 · Pretend News, 2034", "front": "The lunchroom robot sorts the recycling so the playground stays clean!", "back": "Helpful: less trash; helps the planet. Tricky: it might put things in the wrong bin; what if it breaks? Rule choices: \"Still sort your own tray.\" \"Tell a grown-up if it makes a mistake.\" \"Thank the people who fix it.\" Grown-up note: some recycling centers already use robots with cameras to help sort materials." },
+        { "label": "Card 6 · Pretend News, 2031", "front": "A new drawing app turns kids' words into pictures!", "back": "Helpful: makes pictures fast; helps kids who find drawing hard share ideas. Tricky: whose picture is it, yours or the app's? It could make fake pictures of real people. Rule choices: \"Say when a picture was made by an app.\" \"Never make pictures of real kids without asking.\" \"Keep drawing by hand too.\" Grown-up note: AI tools can already make pictures from typed words." },
+        { "label": "Card 7 · Pretend News, 2035", "front": "A reading buddy robot listens to kids read out loud and cheers them on!", "back": "Helpful: extra reading practice; patient every time. Tricky: it might not understand every voice or accent; kids who speak two languages might get marked wrong. Rule choices: \"Read to people too.\" \"Tell the teacher if it doesn't understand you.\" \"The robot helps; the teacher decides.\" Grown-up note: some reading apps already listen to children read aloud and give feedback." },
+        { "label": "Card 8 · Pretend News, 2036", "front": "New glasses tell you the name of every bird you see at recess!", "back": "Helpful: learn about nature; notice more birds. Tricky: the name could be wrong; a camera pointed at people could take pictures they didn't agree to. Rule choices: \"Look closely yourself before you believe it.\" \"Point the camera at birds, not at people.\" \"Check a bird book too.\" Grown-up note: some phone apps can already name a bird from a photo or its song." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Helpful and Tricky",
+      "type": "worksheet",
+      "instructions": "This is PRETEND news from the future. Draw your ideas. You can add words if you want.",
+      "sections": [
+        { "prompt": "The helper I picked (write it or draw a tiny picture):", "lines": 1 },
+        { "prompt": "ONE HELPFUL THING the helper does:", "lines": 1, "boxes": true },
+        { "prompt": "ONE TRICKY THING that could happen:", "lines": 1, "boxes": true },
+        { "prompt": "My rule for the helper: \"We should...\"", "lines": 2 }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Family Connection: News From the Future",
+      "type": "worksheet",
+      "instructions": "Dear families: today we heard PRETEND news about helpers that might exist someday. We found one helpful thing and one tricky thing about each, and voted on a class rule. Try it together at home.",
+      "sections": [
+        { "prompt": "Today my class heard pretend news about:", "lines": 1 },
+        { "prompt": "Ask your child: \"What was one helpful thing? What was one tricky thing?\" Write or draw what they say.", "lines": 3 },
+        { "prompt": "Together, make up your own pretend headline about a helper that might come to your home someday. Draw it here.", "lines": 1, "boxes": true },
+        { "prompt": "Our family rule for talking helpers at home (like a smart speaker or a learning app):", "lines": 2 },
+        { "prompt": "Optional, for the teacher: something your child said that surprised you.", "lines": 2 }
+      ]
+    }
+  ]
+}

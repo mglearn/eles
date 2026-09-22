@@ -1,0 +1,165 @@
+{
+  "id": "signal-to-headline-lab",
+  "title": "Signal to Headline Lab",
+  "tagline": "Students turn a true present-day tech trend into a plausible future headline and lede, then trade and fact-check each other's work for accuracy and clickbait.",
+  "audience": "student",
+  "grades": ["6-8", "9-12"],
+  "strands": ["medialit", "genai", "digcit"],
+  "mode": "hybrid",
+  "minutes": 50,
+  "groupSize": "Pairs; whole class of any size",
+  "eles": ["S2.2", "AI4.1", "S5.2", "AI1.3", "S2.3"],
+  "overview": "Futures researchers watch for **signals**: small, real pieces of evidence that something is changing. In this lab, student pairs draw a signal card describing something true about technology today, decide where it could plausibly lead, and write the news story from that future as a journalist would: a headline, a lede, and an evidence line. Then pairs trade and fact-check each other's work. Does the headline match the story? Does it trace back to something real, or is it just possible? Is it news or clickbait? Students finish by proposing one rule or habit their generation should adopt now.",
+  "objectives": [
+    "Students will explain the difference between a headline, a lede, and the evidence behind a story.",
+    "Students will distinguish a plausible future (one that follows from a real present-day signal) from one that is merely possible.",
+    "Students will fact-check a peer's headline for accuracy, clickbait cues, and invented numbers, and suggest one specific fix.",
+    "Students will propose and justify one rule or habit for their generation based on the futures they wrote."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Signal Cards (1 set per class, cut apart; teacher notes on a separate sheet)",
+      "Handout B: Future News Draft (1 per pair)",
+      "Handout C: Headline Fact-Check (1 per pair)",
+      "A stamp, sticker, or marker for labeling every draft FICTION FROM THE FUTURE",
+      "Chart paper titled \"Rules and habits for our generation\" and sticky dots for voting"
+    ],
+    "digital": [
+      "Optional: a shared slide deck with one slide per pair for drafting",
+      "Optional: a generative AI chatbot your district approves, projected by the teacher only (no student accounts), for the AI-headline comparison"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Read the teacher notes so you can say what is true about each signal today without overstating it.",
+    "Write the two hook headlines (see Step 1) on the board, covered.",
+    "Draw a simple futures cone on the board: a narrow point labeled NOW that widens to the right, with four nested zones labeled possible (widest), plausible, probable, and a highlighted zone labeled preferable.",
+    "If you'll use the AI comparison, test your prompt on the projector ahead of time so you know what kind of headline it produces."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Which would you click? Which would you trust?",
+      "body": "Uncover two headlines about the same fictional event: **\"ROBOTS ARE TAKING OVER RIVERSIDE HIGH'S CAFETERIA!!\"** and **\"Riverside High Tests a Delivery Robot for Lunch Orders; Students Split on Whether It Helps.\"** Ask for a show of hands: which would you click? Which would you trust? Then ask what is different about the words. Collect the clues: all caps, exclamation points, the vague \"taking over,\" and the second headline's who-what-where.",
+      "note": "Students usually say they'd click the first and trust the second. That gap is the lesson: the most clickable headline and the most accurate one are often different."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "Signal, cone, headline, lede",
+      "body": "Think aloud with a signal that isn't in the deck: \"Some cars can already park themselves.\" Point to the futures cone. **Possible:** \"By 2030 all cars fly\" (nothing today points there). **Plausible:** \"Pecan Creek High Drops Parallel Parking From Its Driver's Ed Test (2034)\" (it follows from the real signal). Then write the **lede**, the first sentence of a news story, answering who, what, when, where, and why. Finally, write the **evidence line**: \"This could happen because today some cars can already park themselves.\" Say: \"A good future headline is fiction that is honest about where it comes from.\"",
+      "note": "Stress that a lede reports; it doesn't hype. And stress the rule: no made-up statistics and no real people or companies. Fictional places only."
+    },
+    {
+      "phase": "Create",
+      "minutes": 13,
+      "title": "Write the news from the future",
+      "body": "Each pair draws a signal card and completes Handout B: restate the signal in their own words, place their idea on the futures cone, then write a headline dated between 2028 and 2040, a lede, an evidence line, and one person who benefits and one who could be left out. Every draft gets labeled **FICTION FROM THE FUTURE** at the top.",
+      "note": "The label is a digital citizenship move, not decoration. Ask: \"If this got screenshotted and shared without the label, what could go wrong?\" A future headline without its label is misinformation."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Trade and fact-check",
+      "body": "Pairs trade drafts with another pair and use Handout C to check the other pair's headline. Does the headline match the lede? Does the evidence line point to something real today? Is it plausible or just possible? Any clickbait cues or invented numbers? Checkers write **one specific fix** and hand the draft back. Writers revise their headline in the last box on Handout B.",
+      "note": "Listen for vague feedback such as \"it's good.\" Push for the checklist language: \"Your headline says 'banned everywhere' but your lede says one school. Change the headline.\""
+    },
+    {
+      "phase": "Apply",
+      "minutes": 8,
+      "title": "One rule for our generation",
+      "body": "Each pair reads its revised headline aloud in one breath. Then each pair proposes **one rule or habit** people their age should adopt now because of the future they wrote (for example, \"Call back on a number you know before acting on a voice message asking for money\"). Pairs write their rule on a sticky note and post it on the chart. Everyone gets two dots to vote for the rules they would actually follow.",
+      "note": "Optional, projected: ask an approved AI chatbot to \"write a news headline and first sentence from the year 2032\" about one signal. Run Handout C on its answer. It often adds confident specifics, such as numbers or named experts, that trace to nothing. That is the invented-statistic problem students just learned to catch."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "Exit ticket",
+      "body": "On the back of Handout B, each student answers: **\"How can you tell when a real headline is written to get clicks rather than to inform you? Name one clue you'll look for this week.\"**",
+      "note": "Collect Handout B and Handout C together. The revision box plus the checker's fix is the evidence of learning."
+    }
+  ],
+  "unplugged": "The whole lab runs on paper: signal cards, the draft sheet, and the fact-check checklist. The trade is a physical swap between pairs, and the rule vote uses sticky dots on chart paper. Skip the AI comparison or describe it: read aloud a sample of a machine-written headline that includes an untraceable number, and have students run the checklist on it.",
+  "digital": "Give each pair a slide in a shared deck with the Handout B fields; pairs trade by moving to another pair's slide and leaving a comment with their fix, so every revision is visible in the version history. The teacher can project an approved AI chatbot for the comparison in the Apply step; students don't need accounts, and for students under 13 the teacher drives any AI tool. The rule vote can be a quick poll.",
+  "whyTech": "The projected AI comparison shows students that a machine will produce confident, specific-sounding headlines with numbers that trace to nothing, which is exactly the fabrication the fact-check teaches them to catch. A shared deck's comment and version history also keeps a record of each fix and revision, which a crossed-out paper draft doesn't show as clearly.",
+  "adaptations": [
+    { "label": "Grades 6–8", "text": "Use Cards 1, 2, 3, 7, and 9, and model the futures cone with only two zones: \"could happen because of something real\" (plausible) and \"could happen, but nothing points to it\" (possible)." },
+    { "label": "Grades 9–12", "text": "Add a nut graf, the sentence that explains why the story matters, and have checkers judge whether the headline's tone matches the story's weight." },
+    { "label": "Emergent bilinguals", "text": "Let pairs draft the lede in their home language first, then write the headline in English with a sentence frame: \"(Place) (does what) as (reason); (who) (reacts).\"" },
+    { "label": "Journalism or ELA classes", "text": "Follow up with a real headline hunt: students bring in two real headlines and run Handout C on them." }
+  ],
+  "lookFors": [
+    "Revised headlines match their ledes more closely than first drafts did, and the change is traceable to the checker's fix.",
+    "Evidence lines point to a real present-day signal, and students can explain why their future is plausible rather than just possible.",
+    "Checkers flag specific clickbait cues or invented numbers rather than giving general praise.",
+    "Proposed rules connect directly to the future the pair wrote and name a concrete behavior."
+  ],
+  "reflection": [
+    "Can I tell a trustworthy headline from one written to get clicks? What clue did I use today? (Student ELE S2.2)",
+    "Why might an AI tool add a number or an expert that doesn't exist, and how would I catch it? (AI ELE AI4.1)",
+    "What is one thing I shared or believed online this month that I would check differently now? (Student ELE S2.3)"
+  ],
+  "transfer": "For homework, students find one real headline about technology and run Handout C on it, noting whether the headline matches the article's first paragraph. Next lesson, sort the real headlines into \"informs\" and \"just wants the click\" and compare the clues.",
+  "connections": [
+    { "title": "Tomorrow's Front Page, by Tricia Friedman", "url": "https://triciafriedman.com/tomorrows-front-page/", "note": "The futures-headline approach that inspired this activity. A different, free activity worth running too." },
+    { "title": "News Literacy Project", "url": "https://newslit.org/", "note": "Free lessons on headline accuracy, clickbait, and standards of quality journalism." },
+    { "title": "Critical Thinking Breakouts: Signal Check, The Viral Claim", "url": "https://mglearn.github.io/activities/ctobs/clear/", "note": "A grades 6–8 digital breakout that extends the fact-checking habit." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Signal Cards",
+      "type": "cards",
+      "instructions": "Each card describes something true about technology today. Cut apart. The backs are teacher notes (print separately): what's true now and where it could plausibly lead.",
+      "cards": [
+        { "label": "Signal 1", "front": "Some apps can now copy a person's voice from a short recording.", "back": "True now: voice-cloning tools exist, and scammers have used cloned voices to pretend to be family members. Plausible directions: families or schools adopt verification habits; laws about using someone's voice without permission." },
+        { "label": "Signal 2", "front": "AI tools can create realistic photos and videos from a typed description.", "back": "True now: image and video generators are widely available, and fake images have spread during breaking news. Plausible directions: labels on made-with-AI images, school discipline policies about fake images of classmates, verification classes." },
+        { "label": "Signal 3", "front": "Some phones and earbuds can translate speech between languages almost as fast as people talk.", "back": "True now: live translation features exist on some devices, with accuracy that varies by language and accent. Plausible directions: newcomer students join class discussions sooner; debate over whether learning languages still matters." },
+        { "label": "Signal 4", "front": "Chatbots can write essays, poems, and code in seconds, and they sometimes state false things confidently.", "back": "True now: generative AI produces fluent text and can \"hallucinate\" facts, sources, and quotes. Plausible directions: more in-class and oral assessment; AI disclosure notes on schoolwork; fact-checking taught earlier." },
+        { "label": "Signal 5", "front": "Some apps let people chat with AI characters designed to act like friends.", "back": "True now: AI companion apps exist, and lawmakers and child advocates have raised concerns about young users. Plausible directions: age rules, school counseling guidance, debates about loneliness and friendship." },
+        { "label": "Signal 6", "front": "Some cameras, apps, and news organizations are testing labels that show how an image was made or edited.", "back": "True now: content-credential and provenance labeling efforts exist, though they are not yet used everywhere. Plausible directions: \"check the label\" becomes a habit; unlabeled images get treated with more doubt." },
+        { "label": "Signal 7", "front": "Many schools and some states have made rules limiting phone use during the school day.", "back": "True now: phone restrictions in schools have spread and are actively debated. Plausible directions: new rules for smartwatches and smart glasses; arguments about emergencies and accessibility exceptions." },
+        { "label": "Signal 8", "front": "Some AI tools can look through a phone's camera and describe out loud what is in front of them.", "back": "True now: multimodal AI assistants can describe scenes, and assistive apps help people who are blind or have low vision. Plausible directions: new independence for some students; privacy questions about cameras pointed at others." },
+        { "label": "Signal 9", "front": "Social media feeds use algorithms that learn what keeps each person watching.", "back": "True now: recommendation algorithms personalize feeds based on behavior. Plausible directions: laws requiring a chronological option for teens; students auditing their own feeds; debates about who controls what people see." },
+        { "label": "Signal 10", "front": "Some AI tools can now take actions online for a person, like filling out forms or making reservations.", "back": "True now: AI \"agents\" that can click and type on websites are being released and tested. Plausible directions: questions about who is responsible when an agent makes a mistake or is tricked by a scam." },
+        { "label": "Signal 11", "front": "The data centers that run AI use a lot of electricity and water, and some towns have debated whether to allow new ones.", "back": "True now: data-center energy and water use is a public concern in some communities. Plausible directions: local votes on new data centers; students weighing the environmental cost of AI use." },
+        { "label": "Signal 12", "front": "Some AI homework helpers are designed to explain steps and ask questions instead of just giving answers.", "back": "True now: tutoring-style AI tools exist and some schools are piloting them. Plausible directions: schools choose tutor-style tools over answer tools; debates about whether students without access fall behind." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Future News Draft",
+      "type": "worksheet",
+      "instructions": "Label the top of this page FICTION FROM THE FUTURE. Fictional places, people, and companies only. No made-up statistics.",
+      "sections": [
+        { "prompt": "Our signal card number, and the signal in our own words:", "lines": 2 },
+        { "prompt": "Futures cone: is our idea possible, plausible, probable, or preferable? Why? (It must be at least plausible, which means it follows from the signal.)", "lines": 2 },
+        { "prompt": "HEADLINE (dated between 2028 and 2040; says who and what):", "lines": 2 },
+        { "prompt": "LEDE, the first sentence of the story (who, what, when, where, why):", "lines": 4 },
+        { "prompt": "EVIDENCE LINE: \"This could happen because today...\"", "lines": 2 },
+        { "prompt": "In this future, one person who benefits and one person who could be left out or harmed:", "lines": 2 },
+        { "prompt": "REVISED HEADLINE after the fact-check (what did we change and why?):", "lines": 3 },
+        { "prompt": "One rule or habit our generation should adopt now because of this future:", "lines": 2 }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Headline Fact-Check",
+      "type": "checklist",
+      "instructions": "Check the other pair's draft. Then write one specific fix on their Handout B, next to the headline.",
+      "items": [
+        "The headline says the same thing the lede says. It doesn't promise something the story doesn't deliver.",
+        "The headline names who and what, not a vague \"they\" or \"everyone.\"",
+        "No clickbait cues: all caps, piles of exclamation points, \"you won't believe,\" \"shocking,\" or a question the story never answers.",
+        "The lede answers who, what, when, where, and why.",
+        "The evidence line points to something that really exists today (it matches the signal card).",
+        "The future is plausible because it follows from the signal. It isn't just possible.",
+        "No invented statistics, numbers, or quotes presented as fact.",
+        "People, places, and companies are fictional.",
+        "The draft is clearly labeled FICTION FROM THE FUTURE, so no one could mistake it for real news.",
+        "The story shows at least one person who benefits and one who could be left out."
+      ],
+      "scale": ["Yes", "Partly", "No"]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "ripple-out-futures-wheel",
+  "title": "Ripple Out: A Futures Wheel for Learning",
+  "tagline": "Tables take one plausible future headline about AI in school, map its ripples out three rings deep, and then work backward to what they should start doing this semester.",
+  "audience": "pl",
+  "roles": ["teachers", "librarians", "coaches"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["genai", "digcit"],
+  "mode": "unplugged",
+  "minutes": 60,
+  "groupSize": "Tables of 3–5; any number of tables (one headline card per table)",
+  "eles": ["T1.3", "AI2.2", "T3.3", "AI5.2"],
+  "overview": "Arguments about whether a technology will arrive rarely change what anyone does on Monday. This session skips that argument. Each table gets a fictional, near-future headline grounded in something that already exists, and uses the Futures Wheel (a mapping tool Jerome Glenn introduced in 1971) to trace first-, second-, and third-order consequences. Tables color-code who benefits and who gets left out, then use backcasting, a planning method that starts from a preferred future and works backward, to name what they should be doing in classrooms and libraries this semester.",
+  "objectives": [
+    "Participants will map at least three rings of consequences from one near-future headline, distinguishing direct effects from ripple effects.",
+    "Participants will identify on their wheel which students and families benefit, which are left out or harmed, and which outcomes depend on choices educators make now.",
+    "Participants will use backcasting to name two or three concrete actions for this semester that move toward the future they would prefer."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Future Headline Cards (cut apart; one card per table; print the facilitator backs on a separate sheet)",
+      "Handout B: Futures Wheel Template (1 per table, or enlarge to 11x17)",
+      "Handout C: Backcasting Planner (1 per person)",
+      "Chart paper (1 sheet per table), markers in green, orange, blue, and black",
+      "Painter's tape for the gallery walk"
+    ],
+    "digital": [
+      "Optional: a shared slide per table with a circle diagram, if you run the session online",
+      "Optional: a generative AI chatbot your district approves, projected by the facilitator only, for the \"what did we miss?\" check"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Choose the cards that fit your audience (K–5 staff might get Cards 7 and 8; higher ed faculty Cards 5 and 10). Print the facilitator backs on a separate sheet and keep them with you.",
+    "Draw a sample wheel on chart paper before people arrive: a circle in the center with four spokes and a second ring of circles, left blank.",
+    "Set out four marker colors per table and post the color key where everyone can see it: green = benefits someone, orange = leaves someone out or harms them, blue = depends on choices we make now, black = neutral or unknown.",
+    "Read the signal notes on the card backs so you can answer \"Is this real?\" without overstating what exists today."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Already here",
+      "body": "Ask the room: **\"Name something that is ordinary in your school today that would have sounded like science fiction when you started teaching.\"** Collect four or five answers fast. Then say: \"Futures thinkers call the early, small evidence of change a **signal**. Today we'll take signals that already exist, imagine where they lead, and spend our energy on consequences, not predictions. Nobody has to believe these headlines will happen.\"",
+      "note": "If someone wants to debate likelihood, park it: \"Good question. Let's assume it happened and see what we'd need.\" That is the whole move of the session."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "One wheel, out loud",
+      "body": "Use the blank sample wheel. Write this practice headline in the center: **\"Pecan Creek Library Lends AI Reading Buddies to Every Second Grader (2031).\"** Think aloud through the first ring: direct, immediate effects (\"kids read aloud at home more\", \"the app hears every child's voice\"). Pick one first-order effect and draw two spokes off it for second-order effects (\"voice recordings are stored somewhere\" leads to \"families ask who can hear them\"). Take one of those to a third ring. Then color three bubbles with the key. Say: \"Notice the third ring is where the interesting problems live. That's where we're headed.\"",
+      "note": "Model at least one blue bubble. Blue (\"depends on choices we make now\") is what makes the backcast possible later."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 15,
+      "title": "Build the wheel",
+      "body": "Hand each table one headline card, face up. Tables copy the headline into the center of their chart paper (or Handout B) and build outward: **at least four first-order effects, two second-order effects for each, and at least three third-order effects.** Use black marker for now. One rule: every bubble must be a consequence, not an opinion. \"This is bad\" isn't a bubble; \"Students who miss school fall further behind\" is.",
+      "note": "Circulate and ask: \"Who is in this bubble? A student, a teacher, a family, a librarian?\" Wheels without people in them stay abstract."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 7,
+      "title": "Color it and check the signal",
+      "body": "Tables recolor every bubble using the key: **green** benefits someone, **orange** leaves someone out or harms them, **blue** depends on choices we make now. Then read them the signal note for their card from the facilitator backs, or hand them the slip. Ask each table to mark a star on the bubble it thinks is most **probable** and a heart on the outcome it would **prefer**. These are two different corners of the futures cone: what's likely and what we want are rarely the same bubble.",
+      "note": "Look for tables whose wheel is all green or all orange. Ask them, \"Who would draw this wheel differently?\" A student with a disability, a family without home internet, a newcomer, a part-time adjunct."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "Gallery walk: find the orange",
+      "body": "Tape the wheels to the wall. Everyone walks with a black marker and adds one bubble to two other tables' wheels, a consequence the table missed, in a different handwriting. Then the whole group stands in front of the wheels and names patterns: **\"Which groups show up in orange on more than one wheel?\"**",
+      "note": "In most rooms the same groups appear in orange across very different headlines: families with limited connectivity, multilingual families, students with disabilities. That pattern is the equity finding (Teacher ELE T3.3)."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 12,
+      "title": "Backcast to this semester",
+      "body": "Back at tables, each person uses Handout C. Start at the heart: describe the **preferred** version of your headline's future in one or two sentences. Then work backward: what would have to be true a year before that? Two years before? What would we need to be doing **this semester** in our classrooms, libraries, or coaching cycles to make the preferred version more likely and the orange bubbles less likely? Pairs trade planners and ask one question: \"What evidence would show that action is working?\"",
+      "note": "Push for actions small enough to start next week: a verification habit students practice, a family conversation, a question added to an app review. \"Prepare students for the future\" is not an action."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "One line to keep",
+      "body": "Each person finishes the sentence on a sticky note: **\"The ripple I hadn't thought about was ___, so this semester I will ___.\"** Post the notes on the door on the way out.",
+      "note": "Optional: project a district-approved AI chatbot, give it one table's headline, and ask for second-order consequences. Compare its list to the wheel. The room usually finds it lists general effects well and misses the local people in orange."
+    }
+  ],
+  "unplugged": "This session is designed to be unplugged. Everything happens on chart paper, headline cards, and Handout C. For a small group, use Handout B as the wheel instead of chart paper. The gallery walk, in which people add bubbles in someone else's handwriting, works best on paper because it keeps people on their feet and talking.",
+  "digital": "Online, give each breakout room a slide with a circle diagram and the headline in the center; participants add sticky notes in the ring they're working on and recolor them with the same key. Replace the gallery walk with a timed rotation where each room visits two other slides and adds one note. Handout C works as a shared doc. The facilitator can project an approved AI chatbot at the end to generate a comparison list; participants don't need accounts.",
+  "whyTech": "This one is better unplugged. The thinking lives in the argument at the table and the physical act of adding a bubble to someone else's wheel; a screen adds little evidence that paper can't show. The optional AI comparison earns its two minutes only if the room uses it to notice what a general-purpose model misses about their students.",
+  "adaptations": [
+    { "label": "K–5 staff", "text": "Use Cards 7 and 8 and add a rule that every wheel includes at least one bubble about a young child's daily routine: recess, reading time, the car line." },
+    { "label": "Higher Ed faculty", "text": "Use Cards 5, 6, and 10. In the backcast, ask faculty to name one change to a syllabus, assignment, or assessment for next term." },
+    { "label": "Librarians", "text": "Take Card 9 or the practice headline and backcast specifically to library instruction, collection decisions, and what the library teaches families." },
+    { "label": "Short on time (30 minutes)", "text": "Skip the gallery walk, build only two rings, and go straight to a one-row backcast: preferred future, one action this month." }
+  ],
+  "lookFors": [
+    "Wheels reach a third ring, and at least some third-order bubbles name a specific group of people rather than \"society\".",
+    "Every wheel has at least one blue bubble (depends on choices we make now), and the backcast actions connect to those blue bubbles.",
+    "Handout C names an action for this semester plus the student or family evidence that would show it's working."
+  ],
+  "reflection": [
+    "Which emerging technologies am I aware of, and which of their ripple effects have I not thought through for my own students? (Teacher ELE T1.3)",
+    "Who showed up in orange on the wheels, and how do my current lessons or policies account for them? (Teacher ELE T3.3)",
+    "Where does AI belong in the future I would prefer, if it belongs at all?"
+  ],
+  "transfer": "Pick one headline card and run a two-ring version with your students: let them build the wheel and color who benefits and who is left out. Bring the wheel to your PLC or coach and compare what students noticed that adults missed.",
+  "connections": [
+    { "title": "Tomorrow's Front Page, by Tricia Friedman", "url": "https://triciafriedman.com/tomorrows-front-page/", "note": "The futures-headline approach that inspired this activity. A different, free activity worth running too." },
+    { "title": "Augmented K–16 AI Learning Framework", "url": "https://mglearn.github.io/tcea/alf/", "note": "Useful when a backcast action involves where AI fits in a lesson sequence." },
+    { "title": "TCEA ELEs (PDF)", "url": "https://tinyurl.com/tceaeles1", "note": "The full indicators, for tying backcast actions to T1.3, T3.3, and the AI lane." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Future Headline Cards",
+      "type": "cards",
+      "instructions": "Cut apart; one card per table. All places and organizations are fictional. The backs are the facilitator key: the present-day signal that makes each headline plausible. Print them on a separate sheet.",
+      "cards": [
+        { "label": "Card 1 · 2029", "front": "Pecan Creek ISD Retires the Take-Home Essay. Writing Now Happens in Class, in Drafts, and Out Loud.", "back": "Signal: generative AI chatbots can produce fluent essays on demand, and many teachers have already moved more writing into class time, conferences, and drafts that show process." },
+        { "label": "Card 2 · 2030", "front": "Every Student at Cedar Bend High Now Has an AI Tutor. Families Ask Who Reads the Chat Logs.", "back": "Signal: AI tutoring tools are being piloted in schools, and many AI tools keep conversation history. Student privacy laws cover education records, but families often don't know what a given tool stores." },
+        { "label": "Card 3 · 2031", "front": "Live Translation Earbuds Arrive in Lone Oak Classrooms. Newcomer Students Join Discussions on Day One.", "back": "Signal: real-time speech translation already exists in some phones and earbuds. Accuracy varies by language, accent, and background noise." },
+        { "label": "Card 4 · 2032", "front": "State Board Requires a \"How I Used AI\" Note on Any Student Work Submitted for Credit.", "back": "Signal: some schools, universities, and publishers already ask for AI disclosure statements, and some platforms attach labels or content credentials to AI-generated images." },
+        { "label": "Card 5 · 2030", "front": "Hill Country Community College Replaces Most Final Exams With Recorded Oral Defenses.", "back": "Signal: some instructors have returned to oral exams, in-class assessment, and process portfolios as take-home work becomes harder to evaluate." },
+        { "label": "Card 6 · 2033", "front": "Smart Glasses Banned During Tests at Mesquite Springs Middle. Students With Low Vision Ask for an Exception.", "back": "Signal: consumer smart glasses with cameras and AI assistants are on the market, and assistive apps can already describe surroundings aloud for people who are blind or have low vision." },
+        { "label": "Card 7 · 2035", "front": "Kindergartners at Bluebonnet Elementary Learn to Say \"Let's Check\" Before Believing a Talking Toy.", "back": "Signal: toys and smart speakers with conversational features are sold for children, and child advocates have raised concerns about privacy and about young children trusting what a device says." },
+        { "label": "Card 8 · 2029", "front": "Families in Caddo Flats Still Waiting for Home Internet Fast Enough for AI Homework Helpers.", "back": "Signal: home broadband access still varies by income and geography, and many AI tools need a steady connection to work." },
+        { "label": "Card 9 · 2031", "front": "Pecan Creek Teachers Get Friday Afternoons Back as AI Drafts Lesson Materials. Teachers Ask Who Checks the Drafts.", "back": "Signal: many teachers already use AI chatbots to draft lesson plans, rubrics, and family letters. The drafts still need checking for accuracy, bias, and fit for the students in the room." },
+        { "label": "Card 10 · 2039", "front": "The Class of 2039 Graduates Having Never Known School Without AI. Colleges Rethink What a Transcript Shows.", "back": "Signal: children starting kindergarten now will spend their whole school career with generative AI available, and colleges and employers are already debating how to judge what a student can do without it." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Futures Wheel Template",
+      "type": "worksheet",
+      "instructions": "Headline in the center. Ring 1 = direct effects. Ring 2 = effects of those effects. Ring 3 = ripples of the ripples. Color key: green = benefits someone, orange = leaves someone out or harms them, blue = depends on choices we make now.",
+      "sections": [
+        { "prompt": "Our headline (copy it exactly, with the year):", "lines": 2 },
+        { "prompt": "Draw the wheel. Headline in a center circle, at least four spokes to Ring 1, two spokes from each Ring 1 bubble to Ring 2, and at least three Ring 3 bubbles. Color every bubble using the key.", "lines": 1, "boxes": true },
+        { "prompt": "Ring 1: the direct effects we listed (who is in each one?):", "lines": 4 },
+        { "prompt": "Ring 3: the ripple that surprised us most, and why:", "lines": 3 },
+        { "prompt": "Orange bubbles: who gets left out or harmed in this future?", "lines": 3 },
+        { "prompt": "Blue bubbles: which outcomes depend on choices educators make now? (★ = most probable, ♥ = what we'd prefer)", "lines": 3 }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Backcasting Planner",
+      "type": "worksheet",
+      "instructions": "Start at the future you'd prefer and work backward, one step at a time, until you reach this semester.",
+      "sections": [
+        { "prompt": "The preferred future: describe the best realistic version of your headline's world in one or two sentences. Who is better off?", "lines": 3 },
+        { "prompt": "One year before that: what would already be true in classrooms, libraries, and homes?", "lines": 3 },
+        { "prompt": "Two or three years before that: what habits would students and teachers already have?", "lines": 3 },
+        { "prompt": "This semester: two or three things I will do (a lesson, a habit, a conversation, a question I ask about a tool):", "lines": 4 },
+        { "prompt": "Which orange bubble does my plan address, and who might it still miss?", "lines": 2 },
+        { "prompt": "The evidence that would show it's working (student work, family feedback, something I can see):", "lines": 3 },
+        { "prompt": "Partner question: \"What would you stop doing to make time for this?\"", "lines": 2 }
+      ]
+    }
+  ]
+}

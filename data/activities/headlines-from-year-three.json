@@ -1,0 +1,163 @@
+{
+  "id": "headlines-from-year-three",
+  "title": "Headlines From Year Three",
+  "tagline": "Leaders write the success story and the failure story of their own AI or tech initiative three years out, then run a pre-mortem on the failure so they can build guardrails before launch.",
+  "audience": "pl",
+  "roles": ["leaders", "coaches"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["genai", "digcit"],
+  "mode": "hybrid",
+  "minutes": 70,
+  "groupSize": "Campus or department leadership teams of 3–5; each team brings one real initiative, planned or underway",
+  "eles": ["L1.1", "L1.2", "L4.2", "AI2.1", "C5.2"],
+  "overview": "Most initiative plans describe only the future where everything works. In this session, leadership teams write two headlines about their own campus AI or technology initiative, dated three years from now: one where they got it right and one where it went wrong. Then they run a pre-mortem, the technique psychologist Gary Klein developed: assume the failure headline came true and explain why. Teams sort the reasons through TCEA's five-question leadership check and turn the biggest risks into guardrails with owners and check dates, before the initiative has a chance to fail.",
+  "objectives": [
+    "Participants will write a success headline and a failure headline, each with a lede, for a real initiative three years out.",
+    "Participants will generate failure reasons independently, then sort them by the five-question check (vision, evidence, instruction, who's left out, families) to find the blind spots in their plan.",
+    "Participants will draft at least three guardrails, each with an early-warning signal, an owner, and a check date.",
+    "Participants will rewrite the success headline's lede so it names evidence the team will actually collect."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Worked Example: Pecan Creek ISD (1 per person)",
+      "Handout B: Pre-Mortem Risk Map (1 per team, or enlarge to 11x17)",
+      "Handout C: Two Headlines and a Guardrail Plan (1 per team)",
+      "Index cards or sticky notes (10 per person) for silent pre-mortem writing",
+      "A visible timer"
+    ],
+    "digital": [
+      "An anonymous form or shared document for the silent pre-mortem (one per team)",
+      "Optional: a generative AI chatbot your district approves, projected by the facilitator, for a second-pass risk list after the human pre-mortem"
+    ]
+  },
+  "prep": [
+    "Ask each team to bring one initiative in a single sentence: what it is, who it serves, when it starts. It can be an AI tool rollout, a device program, a phone policy, a new platform, or an AI guidance document.",
+    "Read Handout A so you can walk teams through the worked example quickly.",
+    "If you're running the pre-mortem digitally, set up one anonymous form or shared doc per team with a single question: \"It's three years from now and this initiative failed. Why?\"",
+    "Decide who will keep each team's Handout B as a living risk register, and tell teams at the start that it gets revisited."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Two stories about the same plan",
+      "body": "Read the two headlines from Handout A aloud, the success first and then the failure. Ask: **\"Both are about the same school and the same tool. What would you need to know today to tell which one is coming?\"** Take three answers. Then say: \"We're going to write both stories about your own initiative, and then we'll work out how the failure story comes true.\"",
+      "note": "Point out that the failure headline in the example isn't a scandal. It's a quiet fade. Most initiatives end that way, not with a crash."
+    },
+    {
+      "phase": "Create",
+      "minutes": 12,
+      "title": "Write both headlines",
+      "body": "On Handout C, each team writes two headlines dated three years from today, each with a two-sentence lede (who, what, when, and what changed). **Headline craft rule: a headline names the people who were affected and what changed for them, not the tool.** \"Live Oak Adopts AI Writing Assistant\" is a press release. \"Live Oak Students Revise More, and Can Explain Why\" is a story. Write the success headline first, then the failure headline.",
+      "note": "Coaches in the room: listen for success headlines that describe usage (\"every teacher logs in weekly\"). Ask, \"What would a student be doing differently?\" That is the ELE question: technology use by itself is not evidence of learning."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 15,
+      "title": "The pre-mortem",
+      "body": "Say: **\"It is three years from now. The failure headline came true. Take five minutes, in silence, and write every reason why, one per card.\"** No talking and no ranking. Then go around the team one reason at a time, round-robin, until every card is on the table. The most senior leader shares last. A recorder lists every reason, duplicates included.",
+      "note": "Silence and the leader going last are the point of the technique. People will write risks on a card that they would never say first in front of their supervisor. Digitally, the anonymous form does the same job."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 13,
+      "title": "Map the risks to the five questions",
+      "body": "Teams sort every pre-mortem reason onto Handout B under one of the five questions: **What is the vision? What evidence will guide us? What changes in instruction? Who might be left out? How will families understand the change?** Then study the map. Crowded rows show risks the team already senses. **Empty rows are the bigger finding.** An empty \"who might be left out\" or \"families\" row usually means nobody on the team was thinking about it, not that the risk is absent.",
+      "note": "Ask each team to add at least one reason to any empty row before moving on: \"Who would say this plan failed them?\""
+    },
+    {
+      "phase": "Create",
+      "minutes": 12,
+      "title": "Draft the guardrails",
+      "body": "Teams choose the three reasons that are most likely and most damaging. For each one, complete the row on Handout B: the **early-warning signal** you'd see first (something observable in the first semester), the **guardrail** (what you'll do now to prevent it or catch it early), and an **owner plus a check date**. A guardrail can be a decision to stop, pause, or shrink the initiative if the signal appears.",
+      "note": "Optional digital second pass: project an approved AI chatbot, describe the initiative in general terms (no names, no student data), and ask for likely failure reasons. Compare its list to the team's. Keep only the reasons the team can defend with local knowledge."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "The stranger test",
+      "body": "Teams swap Handout C with another team, who read the success headline and the guardrails and answer two questions in writing: **\"What evidence would prove this headline true?\"** and **\"Which guardrail would you want to see first?\"** Swap back. Each team rewrites its success lede so it names evidence the team will actually collect: student work, teacher practice, family feedback, access data.",
+      "note": "A strong rewritten lede sounds like: \"...and student revision logs show more second drafts, while families surveyed in two languages say they understand what the tool does.\""
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 5,
+      "title": "Put the check date on the calendar",
+      "body": "Before anyone leaves, each team puts its first guardrail check date on a real calendar and names who brings Handout B to that meeting. Close with: **\"Which of your two headlines is the default if we do nothing different on Monday?\"**",
+      "note": "Suggest a 90-day review in which the team rereads both headlines and asks whether any early-warning signal has appeared."
+    }
+  ],
+  "unplugged": "Run the whole session on paper. The silent pre-mortem works well on index cards, which teams then physically sort onto an enlarged Handout B. Unsigned cards give some of the anonymity a form would. Keep the finished risk map and headlines in the initiative binder and bring them to every check-in.",
+  "digital": "Use an anonymous form or shared doc for the silent pre-mortem, then paste the responses into a shared version of Handout B for sorting. In a virtual session, run each team in a breakout room and do the stranger test by swapping document links. The shared risk register becomes a living document with check dates as calendar invites. If you use an AI chatbot for a second-pass risk list, the facilitator projects it and enters no names or student data.",
+  "whyTech": "Anonymous digital input brings up risks that staff hesitate to say aloud in front of a supervisor, and a dated shared risk register keeps the pre-mortem alive past the meeting. The optional AI comparison shows where a general model adds a generic risk you missed, and where only local knowledge could have spotted the problem.",
+  "adaptations": [
+    { "label": "Instructional coaches", "text": "Run it with one teacher team on a classroom-level change (a new AI feedback routine, a phone-free unit) and use the coaching cycle: the guardrails become what you'll measure and adjust." },
+    { "label": "Higher Ed", "text": "Use it for a department or program initiative, such as an AI course policy or a new tutoring service. Replace \"families\" with \"students and the people who support them\" and add accessibility services to the \"left out\" row." },
+    { "label": "District cabinet", "text": "Have each team member write the failure headline from a different stakeholder's newspaper: the student paper, the local weekly, the teacher association newsletter, a parent group's post." }
+  ],
+  "lookFors": [
+    "Success headlines name what changed for students or teachers, not how much a tool was used.",
+    "Handout B has at least one reason in every row, and the team can say which row was empty before they looked.",
+    "Each guardrail has an observable first-semester signal, a named owner, and a real date.",
+    "The rewritten success lede cites evidence the team will actually collect, including evidence from families or students who could be left out."
+  ],
+  "reflection": [
+    "How clearly have I communicated what this initiative is for, and would my staff write the same success headline? (Leader ELE L1.1)",
+    "Which students or families appear in my failure headline, and what policy would protect their access? (Leader ELE L4.2)",
+    "What ethical line, such as data, disclosure, or human review, would I hold even if the initiative were going well? (AI ELE AI2.1)"
+  ],
+  "transfer": "Share both headlines and the top three guardrails with the staff who will carry out the initiative and ask them to add one failure reason you missed. Put the 90-day check date on the calendar and open that meeting by rereading both headlines.",
+  "connections": [
+    { "title": "Tomorrow's Front Page, by Tricia Friedman", "url": "https://triciafriedman.com/tomorrows-front-page/", "note": "The futures-headline approach that inspired this activity. A different, free activity worth running too." },
+    { "title": "Generative AI Adoption Checklist", "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/", "note": "Turns guardrails from the pre-mortem into an adoption review." },
+    { "title": "TCEA ELEs (PDF)", "url": "https://tinyurl.com/tceaeles1", "note": "The leadership lane and the AI lane, for aligning the initiative's vision and evidence." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Worked Example: Pecan Creek ISD",
+      "type": "reading",
+      "instructions": "A fictional district and campus. Read both headlines, then notice how the pre-mortem reasons map to the five questions.",
+      "paragraphs": [
+        "**The initiative (fall 2026):** Live Oak Middle School in Pecan Creek ISD will give grades 6–8 English teachers an AI writing-feedback assistant. Students paste in a draft and get comments on organization and evidence before a teacher conference.",
+        "**Success headline (September 2029):** \"Live Oak Students Revise More, and Can Explain Why.\" **Lede:** Three years after Live Oak Middle began using AI feedback on drafts, English teachers say students bring more second drafts to conferences and can explain which suggestions they rejected and why. The campus publishes a short family guide in English and Spanish each fall explaining what the tool sees and keeps.",
+        "**Failure headline (September 2029):** \"Live Oak's AI Writing Tool Quietly Dropped After Two Years. Teachers Say No One Asked What It Was For.\" **Lede:** Pecan Creek ISD did not renew the writing assistant this summer. Teachers describe a tool students used to polish final drafts at the last minute, while conference time shrank and the campus never agreed on what improvement would look like.",
+        "**Pre-mortem reasons the team wrote (sample):** We never defined what better writing would look like, so no one could say whether it worked. Students used it at the end instead of mid-draft. Training was one after-school session. Students without home internet could only use it in class. Families heard about it from a social media post, not from us. Nobody checked whether the feedback was weaker for multilingual writers. The contract renewed automatically before anyone reviewed it.",
+        "**Mapped to the five questions:** *Vision:* no shared definition of better writing. *Evidence:* no baseline, no review before renewal. *Instruction:* used for polishing, not revising; thin training. *Who might be left out:* students without home internet; multilingual writers. *Families:* learned about it secondhand. Before the pre-mortem, the team's plan had nothing in the last two rows.",
+        "**One guardrail:** Early-warning signal: by November, fewer than half of sampled drafts show a revision made after AI feedback. Guardrail: teachers schedule AI feedback mid-draft, and students attach a two-line note on one suggestion they used and one they rejected. Owner: the ELA department chair. Check date: the week before Thanksgiving break.",
+        "**Rewritten success lede:** \"...and a sample of student drafts shows more mid-draft revisions each semester, multilingual writers report the feedback is useful as often as their classmates do, and families reviewed the tool in two languages before it launched.\""
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Pre-Mortem Risk Map",
+      "type": "table",
+      "instructions": "Sort every pre-mortem reason into a row. Empty rows are findings. Then complete the last three columns for your top three risks.",
+      "columns": ["Five-question lens", "Pre-mortem reasons that fit here", "Early-warning signal we'd see first", "Guardrail (what we do now)", "Owner + check date"],
+      "rows": [
+        ["1. What is the vision?", "", "", "", ""],
+        ["2. What evidence will guide us?", "", "", "", ""],
+        ["3. What changes in instruction?", "", "", "", ""],
+        ["4. Who might be left out?", "", "", "", ""],
+        ["5. How will families understand the change?", "", "", "", ""],
+        ["Doesn't fit a lens", "", "", "", ""]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Two Headlines and a Guardrail Plan",
+      "type": "worksheet",
+      "instructions": "Date both headlines three years from today. Name the people and what changed for them, not the tool.",
+      "sections": [
+        { "prompt": "Our initiative in one sentence (what, for whom, starting when):", "lines": 2 },
+        { "prompt": "SUCCESS headline + two-sentence lede (who, what, when, what changed):", "lines": 4 },
+        { "prompt": "FAILURE headline + two-sentence lede:", "lines": 4 },
+        { "prompt": "Which five-question row was empty before the pre-mortem? What does that tell us?", "lines": 2 },
+        { "prompt": "Our top three guardrails (signal, action, owner, date):", "lines": 5 },
+        { "prompt": "From the other team (stranger test): \"The evidence that would prove your success headline is...\"", "lines": 2 },
+        { "prompt": "Rewritten SUCCESS lede that names evidence we will actually collect:", "lines": 3 },
+        { "prompt": "How we'll explain this initiative to families in one plain sentence:", "lines": 2 }
+      ]
+    }
+  ]
+}
