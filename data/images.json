@@ -1,4 +1,9 @@
 {
+ "act-ad-or-info": {
+  "alt": "Fourth graders sort ads, information, and clickbait strips, challenging each other to prove their choices.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-after-the-rumor": {
   "alt": "A campus team places dot stickers on a root-cause chart while their facilitator asks another \"why?\"",
   "w": 1536,
@@ -19,6 +24,16 @@
   "w": 1536,
   "h": 1024
  },
+ "act-ai-study-buddy-contract": {
+  "alt": "Seventh graders compare how they sorted ways of using AI into helping or replacing their learning.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-algorithm-autopsy": {
+  "alt": "High school students tape app-feature strips around a loop drawn on the whiteboard while they argue about who benefits.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-ask-two": {
   "alt": "Two first graders count the legs on a model spider to check an answer.",
   "w": 1536,
@@ -29,13 +44,38 @@
   "w": 1536,
   "h": 1024
  },
+ "act-bias-in-the-machine": {
+  "alt": "Eighth graders highlight printed chatbot responses in different colors, each noticing something different.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-co-creation-not-substitution": {
   "alt": "Faculty and teachers place task strips along a masking-tape line on the floor and argue about where each belongs.",
   "w": 1536,
   "h": 1024
  },
+ "act-community-problem-pitch": {
+  "alt": "High school students build a cardboard prototype while one teammate checks a printed AI critique.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-credit-where-its-due": {
+  "alt": "Third graders protest, laughing, when their teacher pretends their doodles are her own artwork.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-dashboard-critical-read": {
   "alt": "Three education leaders redraw a misleading bar chart on chart paper so its baseline starts at zero.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-data-trail-audit": {
+  "alt": "Community college students lay out cards to trace how one piece of data travels from an app to advertisers.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-deepfake-election-desk": {
+  "alt": "A student newsroom team races a deadline to decide whether an election tip can be published.",
   "w": 1536,
   "h": 1024
  },
@@ -46,6 +86,16 @@
  },
  "act-did-the-ai-help": {
   "alt": "A young coach and two science teachers debate how to sort study-design strips on a lab bench.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-digital-footprint-trail": {
+  "alt": "Fourth graders read a paper footprint taped to a library shelf and note what it reveals.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-disclose-it": {
+  "alt": "Four high school seniors compare their sorting mats and argue over scenarios where AI use falls in a gray area.",
   "w": 1536,
   "h": 1024
  },
@@ -79,8 +129,23 @@
   "w": 1536,
   "h": 1024
  },
+ "act-garbage-in-garbage-out": {
+  "alt": "A fifth grader reads drawing instructions from behind a folder while her partner follows them exactly.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-glass-box-checklist": {
   "alt": "A librarian holds up a clear jar and a closed box to start a conversation about how transparent AI tools are.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-hallucination-hunt": {
+  "alt": "A student asks the librarian for the source behind a citation in an AI-written research brief.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-human-ai-studio": {
+  "alt": "University students ask a classmate why she made a particular choice in her design.",
   "w": 1536,
   "h": 1024
  },
@@ -104,6 +169,11 @@
   "w": 1536,
   "h": 1024
  },
+ "act-kind-clicks": {
+  "alt": "Kindergartners show heart hands and stop hands to sort kind and unkind messages.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-lateral-reading-relay": {
   "alt": "A veteran librarian searches for a source while two teachers question a claim card and log their moves.",
   "w": 1536,
@@ -119,8 +189,23 @@
   "w": 1536,
   "h": 1024
  },
+ "act-my-digital-safety-plan": {
+  "alt": "Middle schoolers stand under different signs and debate which personal information should stay private.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-never-paste-this": {
   "alt": "Educators in a data room use red pens to remove student identifiers from meeting notes.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-next-word-by-hand": {
+  "alt": "Fifth graders build a sentence by drawing word slips from paper cups, acting as a language model.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-password-power": {
+  "alt": "Third graders hang password cards on a clothesline in order from weakest to strongest.",
   "w": 1536,
   "h": 1024
  },
@@ -129,8 +214,53 @@
   "w": 1536,
   "h": 1024
  },
+ "act-phish-tank-irl": {
+  "alt": "Sixth graders mark printed messages with colored sticky notes to flag which ones could be scams.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-photo-detective": {
+  "alt": "Fourth graders use their fingers to frame part of a photo and see how cropping can change its story.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-primary-source-vs-ai-summary": {
+  "alt": "Two eighth graders check an AI summary line by line against a handwritten historical letter.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-private-or-share": {
+  "alt": "Second graders stand in a red paper circle and cross their arms to show that some information stays private.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-real-fake-or-generated": {
+  "alt": "High schoolers disagree about how confident they are that a photo is real.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-real-pretend-or-changed": {
+  "alt": "Kindergartners freeze, wiggle, or stand tall to show whether a story is real, pretend, or changed.",
+  "w": 1536,
+  "h": 1024
+ },
  "act-real-remixed-or-made-up": {
   "alt": "Two educators in a hallway gallery walk study a printed photo of a double rainbow, deciding whether it's real.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-remix-rights": {
+  "alt": "Seventh graders race to hold up the license card that matches a situation their teacher reads aloud.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-robot-guesses": {
+  "alt": "A kindergartner tapes a banana picture into a group of fruit cards while classmates give a thumbs up.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-screen-time-green-time": {
+  "alt": "Second graders stretch after holding pretend paper tablets still for one minute.",
   "w": 1536,
   "h": 1024
  },
@@ -141,6 +271,26 @@
  },
  "act-shallow-answers-coaching-cycle": {
   "alt": "In a coaching role-play, a young coach listens closely while an experienced teacher describes her class.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-student-voice-policy-makers": {
+  "alt": "Community college students present a technology policy proposal to a mock board.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-study-coach-with-guardrails": {
+  "alt": "Two community college students test whether an AI study coach will refuse to hand over answers.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-team-tech-choices": {
+  "alt": "Fourth graders match job cards to tool cards as they plan a school garden guide.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-the-feed-game": {
+  "alt": "Eighth graders play a card game in which one student acts as a social media algorithm choosing posts for a classmate.",
   "w": 1536,
   "h": 1024
  },
@@ -171,6 +321,16 @@
  },
  "act-who-gets-left-out-map": {
   "alt": "Educators post sticky notes on a wall-sized barrier map while an interpreter signs for a Deaf colleague.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-who-made-this": {
+  "alt": "Kindergartners walk to classroom corners to show why a cereal box was made.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-who-owns-the-output": {
+  "alt": "University students listen carefully as a classmate restates their argument about AI and artists' rights.",
   "w": 1536,
   "h": 1024
  },
@@ -283,6 +443,11 @@
   "alt": "Five educators around a table debate printed cards during a professional learning session.",
   "w": 1600,
   "h": 900
+ },
+ "hero-standards": {
+  "alt": "Four educators match classroom activities to standards using an open binder, printed handouts, and a chart-paper grid.",
+  "w": 1536,
+  "h": 1024
  },
  "og-share": {
   "alt": "Three high school students examine a printed social media post together.",

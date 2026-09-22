@@ -1,0 +1,166 @@
+{
+  "id": "pd-menu-makeover",
+  "title": "PD Menu Makeover",
+  "tagline": "Coaches take apart a one-size-fits-all AI PD day and rebuild it as a choice menu, grounded in a real needs assessment, adult learning principles, and teaching strategies that already work.",
+  "audience": "pl",
+  "roles": ["coaches", "leaders", "librarians"],
+  "grades": ["K-12"],
+  "strands": ["genai", "digcit"],
+  "mode": "unplugged",
+  "minutes": 75,
+  "groupSize": "Design teams of 3–4; 6–40 people",
+  "eles": ["C4.1", "C4.2", "C4.3", "AI1.2"],
+  "overview": "Many campuses have lived through the AI PD day: a keynote about the future, a demo of eight tools, everyone creates an account, and nothing changes on Monday. In this design session, coaches analyze a fictional district's original agenda and the comments teachers left afterward, sort a draft needs assessment into questions worth keeping, rewriting, or cutting, and then rebuild the day as a menu. Every menu option has to name who it is for, the adult learning principle it honors, the research-based teaching strategy it serves, and the evidence teachers will bring back. The menu includes paths for skeptics, for privacy, and for deciding not to use AI.",
+  "objectives": [
+    "Participants will diagnose a one-size-fits-all PD agenda against six adult learning principles, citing specific agenda items.",
+    "Participants will revise a needs assessment so it surfaces individual teachers' goals, experience, and concerns rather than tool preferences.",
+    "Participants will design a choice-based PD menu of 4–6 options in different formats, each tied to a proven teaching strategy and a piece of classroom evidence.",
+    "Participants will test the menu against teacher personas to check that every teacher, including a skeptic, finds a relevant path."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The Juniper Flats AI Day (1 per person)",
+      "Handout B: Needs Assessment Sort (1 set per team, cut apart, plus the sorting mat)",
+      "Handout C: Menu Builder (1 per team, enlarged to 11 x 17 if possible)",
+      "Sticky notes in two colors; chart paper for each team's final menu"
+    ],
+    "digital": [
+      "Optional: a form tool your district approves, to build the revised needs assessment during the session",
+      "Optional: a shared slide or document per team for the final menu"
+    ]
+  },
+  "prep": [
+    "Print Handout A and read the teacher comments; decide which two you will read aloud in the Hook.",
+    "Print and cut Handout B so each team has a stack of question strips and one mat.",
+    "Write the six adult learning principles from Handout A on a chart the room can see all session."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "The PD day you remember",
+      "body": "Ask: **\"Think of a PD day you sat through that changed nothing in your classroom. What made it that way?\"** Partners trade answers for one minute. Then read two teacher comments from Handout A aloud. Say: \"Today we redesign that day, and we hold our design to the same standard we hold lessons: what evidence will show that teachers learned something they use with students?\"",
+      "note": "Expect answers like \"it wasn't for my grade,\" \"we just watched,\" and \"no follow-up.\" Park them on the chart; each maps to a principle."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Diagnose the agenda",
+      "body": "Teams read Handout A. For each agenda block, they place a sticky note on the principles chart: one color for a principle the block honors, the other for a principle it ignores, with the block's time written on the note. Then each team names **the one design choice that did the most damage** and the principle it broke.",
+      "note": "Most teams land on \"everyone creates an account on the same tool.\" It ignores experience and choice, and it quietly skips the privacy question for teachers and students."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 15,
+      "title": "Sort the needs assessment",
+      "body": "Teams sort the Handout B strips onto the mat: **Keep**, **Rewrite**, or **Cut**. For every Rewrite, they write the better version on the back of the strip. Then they add two questions of their own: one that surfaces a teacher's classroom goal, and one that gives a skeptical or worried teacher a safe way to say so. Say: \"A needs assessment should tell you what to offer, not just which tool is popular.\"",
+      "note": "Watch for teams keeping \"Which AI tools would you like to learn?\" It measures interest in tools, not needs. The question to surface is what teachers want students to be able to do."
+    },
+    {
+      "phase": "Create",
+      "minutes": 25,
+      "title": "Build the menu",
+      "body": "Using the revised needs assessment and the teacher comments as their data, teams fill in Handout C with **4–6 menu options**. Each option names: who it is for, its format, the adult learning principle it honors, the research-based strategy it serves, and the evidence teachers bring back. Require variety in format, for example a hands-on workshop, a lesson study group, a self-paced playlist of short videos and articles, a podcast listening circle with a shared notebook, a video self-review, or a short micro-credential. Three options are required on every menu: **a path for teachers not ready to use AI**, **a privacy and student data path**, and **a path where the outcome might be deciding not to use AI in a lesson**.",
+      "note": "Push on the strategy column. \"Learn the chatbot\" is not a strategy. \"Use worked examples: students find the error in an AI-generated solution before solving on their own\" is. The tool must serve a practice that already works: explicit modeling and think-alouds, worked examples before independent practice, sentence-level writing, or claim-and-evidence argumentation."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 10,
+      "title": "Persona check",
+      "body": "Teams swap menus. Each team reads the three teacher comments on Handout A marked with a star and asks, for each: **\"Which option would this teacher choose? What would they bring back? Would they feel respected or managed?\"** If a teacher has no good option, the reviewing team writes the gap on a sticky note and returns the menu.",
+      "note": "The skeptic comment is the real test. A menu that only offers \"getting started with AI\" treats skepticism as a skills gap rather than a professional judgment worth hearing."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 5,
+      "title": "What will we measure?",
+      "body": "Ask: **\"How effective are my professional development initiatives in addressing teachers' needs? How would you know by November?\"** Each team names the one piece of classroom evidence from its menu it would collect first and how teachers would share it.",
+      "note": "Good answers name student work, not attendance or satisfaction ratings."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 3,
+      "title": "Your next PD day",
+      "body": "Each coach writes one question from the revised needs assessment they will send before their next PD session, and one format from the menu they have never offered and will try.",
+      "note": "A needs assessment sent two weeks ahead, with results shared back to teachers, is itself a signal that their input shapes the day."
+    }
+  ],
+  "unplugged": "The session is built for paper: the agenda and comments are printed, the needs assessment is a physical sort, and the menu is built on an enlarged Handout C. For a campus with limited devices, the revised needs assessment can go out on a half-sheet in teachers' boxes and be tallied by hand at a coaching team meeting.",
+  "digital": "Teams can build their revised needs assessment in a district-approved form tool during the Practice step, then use the form's summary view to plan the menu. Publish the final menu as a single page where teachers choose a path, and host the self-paced playlist options in your LMS so teachers can return to them. In a virtual session, run the sort as a drag-and-drop on a shared slide with three columns.",
+  "whyTech": "The redesign itself is better unplugged, because the thinking is about people and principles. A form tool earns its place when the needs assessment goes out for real: it lets you sort responses by role and grade band and share results back with teachers quickly.",
+  "adaptations": [
+    { "label": "Small campus, one coach", "text": "Offer three options instead of six, and let one of them be a self-paced playlist so you are not facilitating everything at once." },
+    { "label": "Campus leaders", "text": "Add a row to Handout C for how families will hear about the change, and check the menu against the five-question leader check: vision, evidence, instruction, who's left out, and family understanding." },
+    { "label": "Higher Ed faculty developers", "text": "Swap the Juniper Flats agenda for a faculty teaching day. Menu options might include a course-redesign clinic, a reading group, or a peer observation pair." }
+  ],
+  "lookFors": [
+    "Sticky notes on the principles chart cite specific agenda times, not general complaints.",
+    "Rewritten needs assessment questions ask about classroom goals and concerns, and at least one gives skeptical teachers a safe way to say so.",
+    "Every menu option on Handout C names a research-based strategy the tool serves and a piece of classroom evidence teachers bring back.",
+    "Each menu includes a not-ready-for-AI path, a privacy path, and a path where deciding not to use AI is a legitimate outcome."
+  ],
+  "reflection": [
+    "How effective are my professional development initiatives in addressing teachers' needs? (Coach ELE guiding question)",
+    "Which adult learning principle does my own PD most often skip, and why?",
+    "What would a teacher who is worried about AI need to hear from me before choosing a path?"
+  ],
+  "transfer": "Send a revised needs assessment before your next PD session, share the results back with teachers, and offer at least three paths. After the session, collect one piece of classroom evidence from each path and bring it to your coaching team.",
+  "connections": [
+    { "title": "TCEA Blog: Instructional Coaching, Research-Based Teaching Strategies That Actually Work (Bruce Ellis, 2026)", "url": "https://blog.tcea.org/instructional-coaching-research-based-teaching-strategies-that-actually-work-in-every-classroom/", "note": "The strategies each menu option must serve, and the coaching habit of explaining the research why before the what." },
+    { "title": "TCEA Blog: Coaching Strategies, Part Two (Miguel Guhlin, 2025)", "url": "https://blog.tcea.org/coaching-strategies-part-two/", "note": "Podcast listening, self-paced PD playlists, and video self-review as menu formats." },
+    { "title": "TCEA Blog: Coaching Strategies, Part One (Miguel Guhlin, 2025)", "url": "https://blog.tcea.org/coaching-strategies-part-one/", "note": "Lesson study groups and micro-credentials as menu formats." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The Juniper Flats AI Day",
+      "type": "reading",
+      "instructions": "A fictional district's original PD agenda and the comments teachers wrote afterward. Starred comments are for the Persona check.",
+      "paragraphs": [
+        "**Juniper Flats ISD · \"AI for Everyone\" PD Day · All K–12 staff, high school auditorium.** 8:00 Welcome and keynote: \"The Future Is Already Here.\" · 9:15 Demo: eight AI tools in 75 minutes. · 10:30 Everyone creates an account on one chatbot and tries three prompts from the slide. · 11:30 Lunch. · 12:30 Compliance video on acceptable use. · 1:30 Grade-level teams \"brainstorm ways to use AI.\" · 2:45 Exit survey: \"Rate today 1–5.\"",
+        "**Six adult learning principles to diagnose with.** (1) Adults need to know *why* before *what*. (2) Adults bring experience that should be used, not ignored. (3) Adults learn best around real problems in their own work. (4) Adults want choice and some control over their learning. (5) Adults are ready to learn what is relevant to their role right now. (6) Adults need practice with feedback, not just exposure.",
+        "★ *Grade 2 teacher:* \"Seven of the eight tools said 13 and up. I teach seven-year-olds. I spent the morning on things I can't use.\"",
+        "★ *High school chemistry teacher:* \"I'm not against AI, I'm against wasting a day. I wanted to know whether it can help my students write a claim with evidence in a lab report. Nobody asked me that.\"",
+        "★ *Middle school ELA teacher, 22 years in:* \"I have real concerns about my students outsourcing their thinking, and today felt like a sales pitch. I didn't say anything because it seemed like the answer was already yes.\"",
+        "*Special education teacher:* \"I would have loved a session on text-to-speech and reading supports. It was mentioned for thirty seconds.\"",
+        "*Librarian:* \"We created accounts with our district email, and nobody explained what the tool does with what we type. Two people at my table pasted in student writing to test it.\"",
+        "*Second-year teacher:* \"Honestly, I just want to see someone teach a lesson with it and then try it myself with help nearby.\"",
+        "*Exit survey note from the organizers:* \"Average rating 3.1. Teachers want more time to explore.\" (Ask yourself whether that conclusion matches the comments above.)"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Needs Assessment Sort",
+      "type": "sort",
+      "instructions": "Sort each draft question: Keep it, Rewrite it (write the better version on the back), or Cut it.",
+      "categories": ["Keep", "Rewrite", "Cut"],
+      "items": [
+        { "text": "Which AI tools would you like to learn about?", "answer": "Rewrite", "why": "Asks about tools, not needs. Better: \"What do you want students to do better this semester?\"" },
+        { "text": "What is one thing you want students to be able to do by winter break that they struggle with now?", "answer": "Keep", "why": "Surfaces a classroom goal the PD can serve." },
+        { "text": "Rate your comfort with technology from 1 to 5.", "answer": "Rewrite", "why": "Too vague to act on. Better: ask about comfort with a specific task, such as checking an AI answer against a source." },
+        { "text": "What concerns, if any, do you have about AI in your classroom? (Your answer will not be shared with your name.)", "answer": "Keep", "why": "Gives skeptics a safe, anonymous way to be heard." },
+        { "text": "Do you agree that AI will transform education?", "answer": "Cut", "why": "A leading question that signals the expected answer and yields no planning information." },
+        { "text": "How do you prefer to learn something new: watching a model, trying it with support, reading, listening, or discussing with colleagues?", "answer": "Keep", "why": "Directly informs format choices on the menu." },
+        { "text": "List all the apps you use in a typical week.", "answer": "Cut", "why": "Long, tedious, and says little about learning needs." },
+        { "text": "What do you already do well that you could share with colleagues?", "answer": "Keep", "why": "Honors experience and finds peer facilitators." },
+        { "text": "Have you ever used AI to write lesson plans? Yes / No", "answer": "Rewrite", "why": "A yes or no can feel like a trap. Better: \"Where, if anywhere, has AI saved you time or caused a problem?\"" },
+        { "text": "What grade level and subject do you teach?", "answer": "Keep", "why": "Needed so K–2 teachers are not sent to tools for 13 and up." },
+        { "text": "Please enter your students' names and reading levels so we can personalize the session.", "answer": "Cut", "why": "Collects student data the PD does not need. Never ask for it." },
+        { "text": "How much time can you realistically give to follow-up after the PD day?", "answer": "Keep", "why": "Tells you whether a playlist, a lesson study group, or a single session fits." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Menu Builder",
+      "type": "table",
+      "instructions": "Build 4–6 options. Three are required (first three rows). Every row needs a strategy and an evidence entry.",
+      "columns": ["Option, format, and who it's for", "Need it answers (from the needs assessment or comments)", "Adult learning principle it honors", "Research-based strategy the tool (or no tool) serves", "Evidence teachers bring back"],
+      "rows": [
+        ["Required: a path for teachers not ready to use AI", "", "", "", ""],
+        ["Required: a privacy and student data path", "", "", "", ""],
+        ["Required: a path where \"don't use AI in this lesson\" is a legitimate outcome", "", "", "", ""]
+      ],
+      "blankRows": 3
+    }
+  ]
+}

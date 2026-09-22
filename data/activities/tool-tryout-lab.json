@@ -1,0 +1,158 @@
+{
+  "id": "tool-tryout-lab",
+  "title": "Tool Tryout Lab",
+  "tagline": "Instead of a demo and a vote, teacher teams test an emerging AI feature inside a GRITS lesson-study loop, watch students rather than the tool, and decide from student evidence.",
+  "audience": "pl",
+  "roles": ["coaches", "teachers", "librarians"],
+  "grades": ["6-8", "9-12"],
+  "strands": ["genai", "medialit", "digcit"],
+  "mode": "hybrid",
+  "minutes": 90,
+  "groupSize": "Teacher teams of 3–5 led by a coach; 6–40 people",
+  "eles": ["C2.2", "C2.3", "C5.2", "C4.1", "AI3.2"],
+  "overview": "Teachers ask \"Can we use this?\" about a new AI feature almost weekly. The usual answer is a demo and a show of hands. This lab replaces the vote with a structured tryout built on the GRITS lesson study model: the team sets a learning goal from student data, picks the research-based strategy the tool must serve, tries the fictional MarginMate annotation tool's new AI Hints feature as learners, plans a classroom tryout where colleagues observe students instead of the teacher, and then analyzes returned student work from two teams to reach a decision with a rubric. The possible decisions are adopt, adjust and retry, or drop, and adjust is the most common honest answer.",
+  "objectives": [
+    "Participants will state a learning goal and the research-based strategy a tool must serve before evaluating the tool itself.",
+    "Participants will plan a classroom tryout in which observers record student engagement, reasoning, and misconceptions rather than teacher performance.",
+    "Participants will analyze returned student work with sentence stems and score an emerging tool on a decision rubric that includes accuracy, privacy, and access.",
+    "Participants will facilitate or take part in a structured decision protocol that ends in adopt, adjust and retry, or drop, with reasons tied to evidence."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: MarginMate Tryout Packet, tool profile, printed stand-in, and returned evidence (1 per person)",
+      "Handout B: Tryout Decision Rubric (1 per team)",
+      "Handout C: GRITS Tryout Plan (1 per team)",
+      "Chart paper with three columns: Adopt · Adjust and retry · Drop"
+    ],
+    "digital": [
+      "Optional: one device per team with an annotation tool your district already approves, to try an AI hint feature on a public-domain text",
+      "Optional: a shared folder where teams post de-identified student work after a real tryout"
+    ]
+  },
+  "prep": [
+    "Read Handout A, especially the returned evidence, and score it yourself on Handout B so you can coach toward evidence rather than opinion.",
+    "If you use a real tool in the Explore step, confirm it is district-approved and use a public-domain text. No student accounts and no student work goes into it during PD.",
+    "Decide who facilitates the decision protocol in the Apply step. Ideally a coach practices facilitating while you observe."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "\"Can we use this?\"",
+      "body": "Project the fictional email from Handout A: a teacher asking whether the department can turn on MarginMate's new AI Hints feature for the argument unit. Ask: **\"Hands up: yes, no, or not sure.\"** Record the split. Then say: \"We just voted on a tool none of us has seen with students. Today we find out what the vote should have been based on.\"",
+      "note": "Early votes are usually split by enthusiasm, not evidence. Keep the tally visible and return to it at the end."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "G and R: goal first, then strategy",
+      "body": "Teams read the tool profile on Handout A and fill in the G and R rows of Handout C. **G, Goal setting:** what learning gap does the student data show? (The packet gives one: students highlight but do not identify an author's claim or evidence.) **R, Research:** which proven strategy should the tool serve? Offer choices: explicit modeling and think-alouds, worked examples before independent practice, sentence-level writing, or claim-and-evidence argumentation. Only then do teams try the feature as learners: annotate the printed stand-in text in Handout A without hints, then read the printed AI Hints and note what each hint did to their thinking.",
+      "note": "Ask one question at every table: \"Did the hint help you think, or did it do the thinking?\" The printed hints include one that misstates the author's purpose. See who catches it."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "What observers watch",
+      "body": "Model the I phase of GRITS. Explain that in the classroom tryout one teacher teaches while colleagues observe **students**: what they annotate before and after a hint, whether they reword the hint or copy it, whether anyone questions a hint, and who cannot reach the hint at all. Think aloud as an observer reading a student's screen: \"She highlighted the claim first, then opened the hint, then changed her label from 'evidence' to 'claim.' That's a change I can see. I'll note it with a time.\"",
+      "note": "Name the stance: this is not an observation of the teacher. It is a look at whether the tool changes student reasoning."
+    },
+    {
+      "phase": "Create",
+      "minutes": 15,
+      "title": "I: plan the tryout",
+      "body": "Teams complete the I row of Handout C: which class, which lesson, the comparison (for example, hints available only after a student's first own annotation, or one section with hints and one without), what observers will record, the privacy check (district contract, data use, student accounts), the access check (screen readers, English learners, students without home devices), and the date the team brings evidence back. Remind teams that the tryout lasts one or two lessons, not a semester.",
+      "note": "If a team cannot answer the privacy question from the profile, that is itself a finding. The tryout waits until someone confirms the district's data terms."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 25,
+      "title": "T: two weeks later, decide from the evidence",
+      "body": "Say: \"Two teams ran this tryout. Here is what they brought back.\" Teams read the returned evidence from Team Cypress (Grade 8 ELA) and Team Pecan (Grade 11 U.S. history) on Handout A, using these stems: **\"I notice students…\" · \"This work shows a misconception about…\" · \"The hint helped when… and got in the way when…\"** Then they score the tool on Handout B. A coach facilitates the decision protocol: (1) clarifying questions only, 3 minutes; (2) evidence round, each person names one piece of student work and what it shows, 6 minutes; (3) concerns round, including privacy and access, 4 minutes; (4) the team places a sticky on Adopt, Adjust and retry, or Drop and states the condition that would change its decision.",
+      "note": "Most teams land on Adjust and retry: hints only after a first attempt, the district data opt-out confirmed, and the screen-reader problem fixed before a second tryout. That is a strong outcome, not a failure to decide."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 15,
+      "title": "S: strengthen and share",
+      "body": "Complete the S row of Handout C: what changes in the lesson before it is retaught, how the team will document the tryout for the PLC, and what it will tell the teacher who sent the email. Then return to the Hook vote. Ask: **\"What would you vote now, and what evidence moved you?\"** Close with the coaching question: \"What changed in teacher practice or student evidence?\"",
+      "note": "Point out that the team's reply to the email now includes conditions and evidence. That reply is a reusable model for the next \"Can we use this?\" message."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 10,
+      "title": "Your next tryout",
+      "body": "Each coach names the next tool or feature teachers have asked about, and drafts the G and R rows of a fresh Handout C for it. Teachers name the lesson where they would host an observed tryout.",
+      "note": "Keep the list of pending tool requests visible in your coaching space. Running one tryout a month is sustainable; evaluating every request is not."
+    }
+  ],
+  "unplugged": "The packet includes a printed stand-in: a short text, the AI Hints the feature would show, and the returned student work from two teams. Participants annotate by hand, read the hints on paper, and make the decision from printed evidence. In a school with no devices for PD, this is the entire lab, and the classroom tryout happens later where the tool is used.",
+  "digital": "If your district already approves an annotation tool with an AI hint feature, teams can try it on a public-domain text during the Explore step, with the facilitator's account projected rather than personal accounts. After a real classroom tryout, teams post de-identified student work in a shared folder and score the rubric in a shared document so the decision and its evidence stay together for the PLC.",
+  "whyTech": "Trying the feature live shows how the hint appears, how fast it arrives, and whether it can be ignored, which paper cannot fully show. The decision itself should rest on student work from a classroom tryout, which is why the printed evidence carries the most weight.",
+  "adaptations": [
+    { "label": "Elementary teams", "text": "Swap the tool for a read-aloud feature with AI comprehension questions, teacher-driven on a projector. Observers watch whether students answer from the text or from the AI question's wording." },
+    { "label": "Librarians", "text": "Run the lab on a database's new AI summary feature. The R row becomes source evaluation: does the summary help students decide whether an article is worth reading?" },
+    { "label": "Leaders", "text": "Sit in as observers of the decision protocol and add one row to Handout B: what the district would need to support the Adjust conditions (contract changes, accessibility fixes, training time)." }
+  ],
+  "lookFors": [
+    "Handout C's G and R rows are complete before anyone scores the tool, and the strategy named is a research-based practice, not \"use the tool.\"",
+    "Observation plans record student actions (annotations changed, hints questioned or copied, access barriers) rather than teacher performance.",
+    "Rubric scores cite specific student work from Team Cypress or Team Pecan, including the hint error students caught.",
+    "The team's decision includes at least one condition, such as privacy terms, accessibility, or hint timing, that would change it."
+  ],
+  "reflection": [
+    "In what ways am I helping teachers meaningfully integrate technology into their teaching? (Coach ELE guiding question)",
+    "What evidence would I need before recommending that a department turn on a new AI feature for every student?",
+    "When did the decision protocol surface a concern that a quick vote would have buried?"
+  ],
+  "transfer": "Pick the next tool request on your list and run the G and R conversation with the requesting teacher this week. Schedule one observed tryout lesson within a month, and bring the student work and the team's decision to your PLC.",
+  "connections": [
+    { "title": "TCEA Blog: Got GRITS? A Coaching Strategy for Lesson Study Groups (Miguel Guhlin, 2025)", "url": "https://blog.tcea.org/grits-model-a-coaching-strategy-for-lesson-study-groups/", "note": "The lesson study cycle the tryout is built on." },
+    { "title": "TCEA Blog: Instructional Coaching, Research-Based Teaching Strategies That Actually Work (Bruce Ellis, 2026)", "url": "https://blog.tcea.org/instructional-coaching-research-based-teaching-strategies-that-actually-work-in-every-classroom/", "note": "The strategies a tool must serve before it earns a tryout." },
+    { "title": "PROTECT Rubric v2.0", "url": "https://mglearn.github.io/tcea/protect_rubric_v2/", "note": "A deeper privacy and safety review for any tool that passes the tryout." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "MarginMate Tryout Packet",
+      "type": "reading",
+      "instructions": "Everything here is fictional: the tool, the vendor, the school, and the students. Read the profile and stand-in text in the Explore step; read the returned evidence in the Apply step.",
+      "paragraphs": [
+        "**The email.** \"Hi! MarginMate just added AI Hints. When a student highlights a passage, it suggests a label like 'claim' or 'evidence' and explains why. Can we turn it on for the whole department for the argument unit? The demo looked amazing. — Priya, Grade 8 ELA, Live Oak Hills Middle School\"",
+        "**Tool profile (from the fictional vendor's page).** MarginMate is an annotation tool the district already uses. The new AI Hints feature \"boosts close reading and saves teachers hours.\" Hints appear in a pop-up beside the highlight. The terms say student annotations \"may be used to improve our models\" unless the district opts out in its contract. No one on campus knows whether the district has opted out. Accessibility notes: none listed for the pop-up.",
+        "**Student data that prompted the goal.** On the last argument unit, most Grade 8 students highlighted large blocks of text but could not say which sentence was the author's claim and which sentences were evidence. Their written responses summarized the article instead of analyzing its argument.",
+        "**Stand-in text for the Explore step (fictional op-ed).** \"Our town's library should stay open until 9 p.m. Many students have nowhere quiet to study after dinner. When the Willow Creek branch tried later hours last spring, the librarians reported that study rooms were full most evenings. Some worry about the cost, but the extra hours would cost less than the new parking lot the council approved. A town that says it values education should keep its library open when students need it.\"",
+        "**Printed AI Hints for the stand-in.** Highlight of sentence 1 → Hint: \"Claim. This is the author's main position.\" Highlight of sentence 3 → Hint: \"Evidence. The author supports the claim with a report from a trial.\" Highlight of sentence 4 → Hint: \"Counterargument and rebuttal. The author addresses a concern.\" Highlight of sentence 5 → Hint: \"Evidence. The author's purpose is to inform readers about library budgets.\" (One of these hints is wrong. Sentence 5 restates the claim as an appeal to values, and the op-ed's purpose is to persuade.)",
+        "**Returned evidence, Team Cypress (Grade 8 ELA, two sections).** Section 1 had hints on from the start; Section 2 could open a hint only after labeling a passage themselves. Observer notes: in Section 1, labels were correct more often, but most written explanations repeated the hint's wording, and three students said \"I just clicked until it told me.\" In Section 2, students were slower, several changed a label after reading the hint, and two students wrote that they disagreed with a hint and explained why. One student using a screen reader could not reach the hint pop-up in either section.",
+        "**Returned evidence, Team Pecan (Grade 11 U.S. history, one section, primary source speech).** Hints were available after a first attempt. Observer notes: English learners used the hint explanations as sentence models and wrote fuller claims than on the last unit. The tool labeled a sentence about the speaker's hopes as \"evidence\"; two students challenged it in their pair discussion and the teacher used the error with the whole class. The teacher noted that the hints saved no grading time, but students' written claims were easier to find in their responses."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Tryout Decision Rubric",
+      "type": "rubric",
+      "instructions": "Score from the returned student evidence, not the demo. Cite a specific student action for every score.",
+      "levels": ["Not ready", "Adjust and retry", "Works for this purpose", "Strong fit"],
+      "criteria": [
+        { "name": "Serves the learning goal and strategy", "descriptors": ["The tool's output is unrelated to the goal or replaces the strategy.", "The tool touches the goal but its default setup works against the strategy (for example, hints before any student attempt).", "The tool supports the named strategy under a clear setup.", "The tool strengthens the strategy in ways paper could not, and the team can show how."] },
+        { "name": "Student thinking vs. tool thinking", "descriptors": ["Student work mostly repeats the tool's wording.", "Some students reason on their own; many copy the tool.", "Most students attempt first and use the tool to check or revise.", "Students question, correct, or reject the tool's output with reasons."] },
+        { "name": "Accuracy and verification", "descriptors": ["Errors went unnoticed by students and teachers.", "Errors were caught by the teacher only.", "Some students caught errors when prompted.", "Catching and explaining tool errors became part of the lesson."] },
+        { "name": "Privacy and data", "descriptors": ["Data terms are unknown or allow student work to train the product.", "Terms are known but the district opt-out is not yet confirmed.", "District terms protect student work; no personal data is collected beyond the approved account.", "Terms are confirmed, documented for the PLC, and explained to students in plain language."] },
+        { "name": "Access and inclusion", "descriptors": ["Some students cannot use the feature at all.", "Barriers exist (for example, screen reader access) with no fix planned.", "The feature works for all students in the tryout, with minor supports.", "The feature measurably widened access, for example for English learners, with no student left out."] }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "GRITS Tryout Plan",
+      "type": "table",
+      "instructions": "Fill in G and R before you look at the tool closely. The tryout is one or two lessons.",
+      "columns": ["GRITS phase", "Our plan", "Evidence we'll bring back"],
+      "rows": [
+        ["G · Goal setting: the learning gap in our student data and the outcome we want", "", ""],
+        ["R · Research: the proven strategy the tool must serve, our formative checkpoints, and supports for different learners", "", ""],
+        ["I · Implementation: class, lesson, comparison, what observers watch in students, privacy check, access check, date", "", ""],
+        ["T · Team analysis: stems we'll use, rubric scores, misconceptions we found, our decision and its conditions", "", ""],
+        ["S · Strengthening and sharing: what changes before reteaching, how we document it for the PLC, our reply to the requester", "", ""]
+      ]
+    }
+  ]
+}

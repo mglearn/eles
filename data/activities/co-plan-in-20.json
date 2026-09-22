@@ -1,0 +1,249 @@
+{
+  "id": "co-plan-in-20",
+  "title": "Co-Plan in 20",
+  "tagline": "A timed, listening-first protocol a coach and teacher use to redesign one upcoming lesson so students verify an AI answer or evaluate a source, and turn in proof that they did.",
+  "audience": "pl",
+  "roles": [
+    "coaches",
+    "teachers",
+    "librarians"
+  ],
+  "grades": [
+    "K-12",
+    "Higher Ed"
+  ],
+  "strands": [
+    "genai",
+    "medialit"
+  ],
+  "mode": "unplugged",
+  "minutes": 50,
+  "groupSize": "Pairs (coach, teacher) plus an optional observer; any number of pairs",
+  "eles": [
+    "C1.1",
+    "C2.1",
+    "C1.2",
+    "C4.2",
+    "AI4.1"
+  ],
+  "overview": "Most teachers have twenty minutes, not an afternoon, and most coaching conversations drift toward a tool before anyone has named the learning. Co-Plan in 20 sits in the Investigate and Innovate phase of the TCEA EIIR coaching cycle: a five-segment protocol that fits a planning period. The coach listens, uses the ARC moves (Acknowledge the reality, Reframe the problem from a student deficit to a design barrier, Commit to one high-leverage shift), redesigns one moment of the lesson, models it, and sets a date to look at student work. Participants run it in pairs on a real or persona lesson where students use AI output or online sources, then debrief what kept the conversation on the teacher's goal.",
+  "objectives": [
+    "Participants will use listening-first stems for the opening four minutes and paraphrase the teacher's goal (\"What I hear you saying is…\") before offering any idea.",
+    "Participants will reframe the teacher's concern from something wrong with students to something the lesson design can change, then co-plan one shift that requires students to verify an AI answer or evaluate a source.",
+    "Participants will keep the learning goal firm while offering flexible ways for students to show the check, and name the student artifact that will prove it happened.",
+    "Participants will model the verification move in a 60-second student-facing think-aloud and agree on a date to review student work together."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Role Cards (1 set per pair, cut apart)",
+      "Handout B: The Listening-First Script (1 per coach)",
+      "Handout C: Co-Planning Template (1 per pair)",
+      "A visible timer; a bell or chime for segment changes"
+    ],
+    "digital": [
+      "Optional: a shared copy of Handout C that the coach and teacher both keep",
+      "Optional: a timer on the projector showing the five segments"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Keep the six Teacher Persona cards together so pairs can choose one, and give each pair one Coach card and one Observer card.",
+    "Invite teachers in the room to bring a real lesson they will teach in the next two weeks. A real lesson always beats a persona card.",
+    "Practice the 60-second think-aloud in Segment 4 on one persona card so you can model it without notes."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Where did your last planning conversation go?",
+      "body": "Ask coaches to recall their last planning conversation with a teacher and answer silently: **\"How many minutes passed before someone named a tool or an app?\"** Then ask: \"How many minutes passed before someone named what students would turn in?\" Take two or three answers. Say: \"Today's protocol flips that order. We name the evidence first and decide about the tool, or no tool, last.\"",
+      "note": "Most people admit the tool came first. Keep it light; the point is noticing the habit, not judging it."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 5,
+      "title": "Read the protocol",
+      "body": "Everyone reads Handout B. Point out the five segments and their clock times: **Listen and Acknowledge (0–4), Reframe and name the evidence (4–8), Commit to one shift (8–15), Model it (15–18), Plan the measure (18–20)**. The middle three carry the ARC protocol. Ask coaches to circle the one stem they rarely use and underline the segment they expect to be hardest.",
+      "note": "Coaches usually underline Reframe. \"They believe everything it says\" is a statement about students; \"The lesson never gives them a moment to check\" is a statement about design, and only the second one gives the teacher something to change."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Fishbowl the first eight minutes",
+      "body": "Invite a volunteer to play Teacher Persona 3 (Grade 8 ELA). You play the coach in front of the room for Segments 1 and 2 only. Use only listening stems for four minutes, then acknowledge: \"What I hear you saying is that your students pick sources that agree with them, and it's frustrating because you've taught them what bias is. Did I get that right?\" Then reframe out loud: \"What if the problem isn't that they can't see bias, but that the assignment only ever asks them to find support? Where in the lesson are they asked to find the other side?\" Finally ask the evidence question: \"If this worked, what would you see on their paper?\" Stop at the eight-minute chime and ask the room: \"What did I *not* do?\"",
+      "note": "The answer you want: you did not suggest a fix, a tool, or a strategy. Name that restraint as a move, not a pause."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 20,
+      "title": "Run the full protocol",
+      "body": "Pairs choose a real lesson or a Teacher Persona card from Handout A. The coach uses Handout B; the teacher holds the persona card and reveals the hidden detail only if the coach asks a question that earns it. Ring the chime at 4, 8, 15, and 18 minutes. Pairs fill in Handout C as they go. In Segment 2 the coach offers a reframe the teacher can accept or reject. In Segment 3 they **commit to one shift** (trace a claim, compare an AI answer to a source, read laterally about a website, or check a date), hold the goal firm, and list at least two ways students could show the check (a written note, a sorted card, a sentence stem said to a partner, a sketch). They also decide together whether AI belongs in the lesson at all. In Segment 4 the coach models the move as a 60-second think-aloud aimed at the teacher's students. In Segment 5 they write the artifact, the date, and the question they will ask of the student work.",
+      "note": "If there is a third person, they take the Observer card and tally coach questions and coach suggestions in each segment. Watch for pairs that redesign the whole unit. One shift is the assignment; ARC stands for *one* commitment, not a list."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 7,
+      "title": "What kept it on the teacher's goal?",
+      "body": "Pairs report in one sentence each: **\"The teacher's goal was… The student evidence we'll collect is… We decided AI does / does not belong because…\"** Then ask the teacher-players: \"When did you feel heard? When did you feel steered?\" Chart the moves they name.",
+      "note": "Teacher-players often say the paraphrase was the moment they felt heard, and a suggestion in the first minutes was when they felt steered. That is C1.2 feedback running both ways."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 5,
+      "title": "Book the real twenty minutes",
+      "body": "Coaches write the name of one teacher and a date on the back of Handout C and the first stem they will use. Teachers who brought a real lesson keep their completed Handout C and agree to send the coach three pieces of student work after teaching it.",
+      "note": "Suggest coaches offer the protocol by name: \"Could I have twenty minutes of your planning period? We'll leave with one change and a date.\" A fixed time limit lowers the barrier, and showing up on the date you promised is what builds trust for the next conversation."
+    }
+  ],
+  "unplugged": "The protocol is designed for a table, a timer, and paper. The coach reads stems from Handout B, the pair fills in Handout C by hand, and the Segment 4 model is a spoken think-aloud using a printed source or an AI answer the teacher already has. If the lesson involves an AI answer, the teacher can bring a printed copy of one.",
+  "digital": "In a virtual session, send pairs to breakout rooms with a shared copy of Handout C and a countdown timer posted in the chat. In a real coaching conversation, keeping Handout C in a shared document gives the coach and teacher one record to reopen when the student work comes back. If the lesson uses an AI chatbot the district approves, the teacher can drive it on a projector in Segment 4 so the model uses a live answer.",
+  "whyTech": "Unplugged is the better default: the skill is listening, and a laptop between coach and teacher pulls attention away. A shared planning document earns its place afterward, when the student work comes back and both of you need to see what was planned and what changed.",
+  "adaptations": [
+    {
+      "label": "K–2 teachers",
+      "text": "The verification moment is teacher-led: the teacher drives any AI tool on a projector, and students vote thumbs up or down on whether a picture book agrees with the chatbot. The artifact is a class chart, not individual work."
+    },
+    {
+      "label": "Higher Ed faculty",
+      "text": "Use Persona 6 or a real syllabus assignment. The artifact might be a short source note students attach to a discussion post naming how they checked one claim."
+    },
+    {
+      "label": "Librarians",
+      "text": "Take the coach role with a content teacher and bring two short sources to Segment 4 so the model uses real texts from the collection."
+    },
+    {
+      "label": "New coaches",
+      "text": "Run Segments 1 and 2 twice with different personas before running the full twenty minutes. Listening is the segment most likely to collapse."
+    }
+  ],
+  "lookFors": [
+    "Observer tallies show questions, not suggestions, in Segment 1, and the teacher agrees with the coach's paraphrase before Segment 3 begins.",
+    "Handout C records a reframe that moves the problem from the students to the lesson design, and one committed shift rather than a list.",
+    "Handout C names one specific student artifact, at least two ways students could show it, and a date to review it.",
+    "The pair records a reason for its AI decision, including \"AI does not belong in this lesson\" when that is the honest answer."
+  ],
+  "reflection": [
+    "How effectively am I supporting teachers in improving their instructional practices? (Coach ELE guiding question)",
+    "In what ways am I helping teachers meaningfully integrate technology, and when did I help a teacher decide not to use it?",
+    "What individual need did this teacher reveal in the first four minutes that I would have missed if I had started with a suggestion?"
+  ],
+  "transfer": "Run Co-Plan in 20 with the teacher you named this week. When the three pieces of student work come back, spend ten minutes together answering the question you wrote in Segment 5, then decide the next adjustment.",
+  "connections": [
+    {
+      "title": "TCEA Blog: Stop Fixing Students, Coaching for Equity Through Universal Design (Miguel Guhlin, 2026)",
+      "url": "https://blog.tcea.org/stop-fixing-students-coaching-for-equity-through-universal-design/",
+      "note": "The source of the ARC moves and the \"firm goals, flexible means\" framing used in Segments 2 and 3."
+    },
+    {
+      "title": "TCEA Blog: Introducing a Research-Based Coaching Cycle, TCEA EIIR (Miguel Guhlin, 2024)",
+      "url": "https://blog.tcea.org/introducing-a-research-based-coaching-cycle-tcea-eiir/",
+      "note": "Co-Plan in 20 is one Investigate and Innovate conversation inside the full EIIR cycle."
+    },
+    {
+      "title": "Digital Inquiry Group: Civic Online Reasoning",
+      "url": "https://cor.inquirygroup.org/",
+      "note": "Free lateral reading lessons to adapt when the redesign involves evaluating a website."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Role Cards",
+      "type": "cards",
+      "instructions": "Cut apart. The teacher chooses a persona card (or brings a real lesson). Reveal the hidden detail only when the coach asks a question that earns it. Backs are for the facilitator.",
+      "cards": [
+        {
+          "label": "Teacher Persona 1 · Grade 3 science",
+          "front": "Upcoming lesson: animal adaptations (bats). You plan to project a chatbot the district approves and ask it questions the class suggests. Opening line: \"The kids love asking it questions, but they believe everything it says.\" Hidden detail: a student asked if the chatbot was a real person, and you weren't sure how to answer.",
+          "back": "Likely redesign: before asking the chatbot, the class reads a short nonfiction page on bats. After each answer, students hold up \"book agrees\" or \"book doesn't say\" cards. Artifact: the class tally chart and three students explaining their card."
+        },
+        {
+          "label": "Teacher Persona 2 · Grade 6 social studies",
+          "front": "Upcoming lesson: research on the Spanish missions in Texas for a short presentation. Opening line: \"They use whatever website comes up first and copy it.\" Hidden detail: last year a group cited a travel company's page full of errors and nobody noticed until the presentations.",
+          "back": "Likely redesign: students must read laterally about their first source (who runs it, what others say) before using it. Artifact: a one-line source note per slide: \"We trust this because…\""
+        },
+        {
+          "label": "Teacher Persona 3 · Grade 8 ELA",
+          "front": "Upcoming lesson: argumentative essay on whether the school day should start later. Opening line: \"They only pick sources that agree with them.\" Hidden detail: you would like them to use an AI chatbot to find counterarguments but worry it will write the essay for them.",
+          "back": "Likely redesign: students ask an approved chatbot for the strongest counterargument, then must find a real source that makes that argument and judge whether the chatbot represented it fairly. Artifact: the chatbot's counterargument, marked up, beside the real source."
+        },
+        {
+          "label": "Teacher Persona 4 · Grade 10 biology",
+          "front": "Upcoming lesson: inheritance and Punnett squares. Opening line: \"Half of them ask a chatbot to explain it and then can't do a problem.\" Hidden detail: you tried a chatbot explanation yourself and it mixed up dominant and recessive in one example, and you did not catch it the first time.",
+          "back": "Likely redesign: the teacher shows a printed chatbot explanation with the error left in. Students work a problem by hand, then find where the explanation goes wrong. Artifact: a corrected explanation with the error circled and a one-sentence fix."
+        },
+        {
+          "label": "Teacher Persona 5 · Grade 11 U.S. history",
+          "front": "Upcoming lesson: analyzing a primary source speech. Opening line: \"They read an AI summary instead of the speech.\" Hidden detail: you are not against summaries; you just want them to know what gets lost.",
+          "back": "Likely redesign: students compare an AI summary to two paragraphs of the original speech and list what the summary left out or changed in tone. Artifact: a two-column comparison and a claim about what the summary misses."
+        },
+        {
+          "label": "Teacher Persona 6 · Higher Ed intro nutrition",
+          "front": "Upcoming lesson: evaluating health claims. Opening line: \"Students cite wellness influencers as if they were research.\" Hidden detail: several students are influencer fans, and you don't want them to feel mocked.",
+          "back": "Likely redesign: students pick a claim from a post they like, trace it to its original source, and report what the original says. Artifact: a trace note that respects the student's interest while checking the claim."
+        },
+        {
+          "label": "Coach card",
+          "front": "Your job: keep the teacher's goal at the center. Use only listening stems in Segment 1. Paraphrase before Segment 3. Offer at most two ideas in Segment 3 and let the teacher choose. In Segment 4, model for the teacher's students, not for the teacher. End with a date.",
+          "back": "Look-for: the teacher chooses the redesign, and the coach's model is 60 seconds or less."
+        },
+        {
+          "label": "Observer card",
+          "front": "Tally coach questions and coach suggestions in each segment. Write the teacher's goal in the teacher's words. Note the minute when the evidence was first named. Report: \"The goal was… The evidence was named at minute __. Questions: __. Suggestions: __.\"",
+          "back": "The observer role builds the coach's own self-reflection habit. Keep reports specific and kind."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "The Listening-First Script",
+      "type": "reading",
+      "instructions": "Coaches: keep this in front of you. Clock times are guides; the order matters more than the minutes.",
+      "paragraphs": [
+        "**Opening (say it word for word the first few times):** \"We have twenty minutes. My goal is that you leave with one change to this lesson and a date for us to look at student work together. You decide what changes. Tell me about the lesson.\"",
+        "**Segment 1 · Listen and Acknowledge (0–4 min). Questions only.** \"What will students be doing with information in this lesson?\" · \"Where does the information come from: a website, a textbook, a chatbot, each other?\" · \"What happened last time you taught it?\" · \"What worries you about it?\" · Close by acknowledging the reality: \"What I hear you saying is… Did I get that right?\"",
+        "**Segment 2 · Reframe and name the evidence (4–8 min).** Offer one reframe from student deficit to design barrier: \"What if it isn't that they can't check, but that the lesson never asks them to? Where would a check fit?\" The teacher may reject it; that is fine. Then: \"If this lesson worked, what would you see on their paper or hear them say?\" · \"What would show you that a student checked something instead of trusting it?\" Write the answer on Handout C before moving on.",
+        "**Segment 3 · Commit to one shift (8–15 min).** \"Where in the lesson do students first meet the information?\" That is usually the moment to change. Offer at most two options: trace one claim to its source; compare an AI answer to a text; read laterally about who made a website; check the date and context. Keep the goal firm and the means flexible: \"Every student checks one claim. How many ways could they show us: writing, a card sort, telling a partner with a stem, a sketch?\" Then ask: **\"Does AI belong in this lesson at all? What would it add to the evidence?\"** Let the teacher decide.",
+        "**Segment 4 · Model it (15–18 min).** \"Can I show you what this might sound like for your students?\" Think aloud for 60 seconds as if speaking to them: \"The chatbot says bats are blind. I'm not going to trust that yet. Let's check our book. The book says bats can see, and many also use echolocation. So the chatbot got this one wrong.\" Then ask: \"What would you keep? What would you change for your kids?\"",
+        "**Segment 5 · Plan the measure (18–20 min).** \"What will students turn in that shows the check happened?\" · \"Which three samples will you bring me?\" · \"What question will we ask when we look at them?\" · \"When can we look together?\" Write the date down before you stand up, and send any resource you promised within a day.",
+        "**Talk stems by grade band, if the shift includes student talk:** Elementary, give voice to a reason: \"I think… because…\" · Middle, argue from evidence: \"The source says…, which shows…\" · High school, weigh viewpoints: \"One source claims…, but another suggests…, so…\"",
+        "**If the conversation drifts to a tool:** \"That might be the right tool. Before we pick it, what would it help students show?\" **If the teacher wants you to decide:** \"I have an idea, but you know these students. Which of these fits them better?\" **If time runs out:** skip Segment 4, never Segment 5."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Co-Planning Template",
+      "type": "worksheet",
+      "instructions": "Fill this in together during the twenty minutes. The teacher keeps the original; the coach keeps a copy.",
+      "sections": [
+        {
+          "prompt": "Segment 1 · Acknowledge: the teacher's goal and concern, in the teacher's words:",
+          "lines": 2
+        },
+        {
+          "prompt": "Segment 2 · Reframe: the concern restated as a design barrier the lesson can change (or the teacher's own reframe):",
+          "lines": 2
+        },
+        {
+          "prompt": "Segment 2 · What a strong student answer or product will contain (what we'd see on paper):",
+          "lines": 3
+        },
+        {
+          "prompt": "Segment 3 · Commit: the one shift, the verification move, and at least two ways students can show it (firm goal, flexible means):",
+          "lines": 4
+        },
+        {
+          "prompt": "Segment 3 · Does AI belong in this lesson? Our decision and our reason:",
+          "lines": 2
+        },
+        {
+          "prompt": "Segment 4 · What the teacher kept or changed from the coach's 60-second model:",
+          "lines": 2
+        },
+        {
+          "prompt": "Segment 5 · The artifact students turn in, the three samples we'll look at, our question for the work, and the date:",
+          "lines": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "digital-learning-rounds",
+  "title": "Instructional Rounds for Digital Learning",
+  "tagline": "Leadership teams run a full rounds protocol on five written classroom vignettes, noting only what students do with technology and AI, then find patterns and name the next level of work for teachers, coaches, and themselves.",
+  "audience": "pl",
+  "roles": ["leaders", "coaches", "teachers"],
+  "grades": ["K-12"],
+  "strands": ["genai", "medialit"],
+  "mode": "unplugged",
+  "minutes": 75,
+  "groupSize": "Teams of 4–5 (a campus leadership team, coaches, and teacher leaders together is ideal); any number of teams",
+  "eles": ["L2.1", "L2.3", "L2.2", "L3.1", "T4.2"],
+  "overview": "Walkthroughs often end in a verdict (\"great tech use!\") that tells a teacher nothing and tells a campus even less. Instructional rounds work differently: a team agrees on a problem of practice, gathers descriptive evidence of what students are actually doing, looks for patterns across classrooms, and names the next level of work for the whole system, not for one teacher. In this session, teams practice the protocol on five written vignettes from a fictional middle school whose problem of practice is about students reasoning together with technology and AI. They set their notes beside the campus walkthrough app's summary to see what each kind of data can and can't tell them. Unlike building a look-for rubric, rounds are about learning to see and deciding together what the campus does next.",
+  "objectives": [
+    "Participants will distinguish descriptive notes from evaluative and interpretive ones and rewrite evaluative notes as evidence.",
+    "Participants will collect descriptive evidence about what students do with technology and AI, anchored to a problem of practice.",
+    "Participants will identify patterns across classrooms and compare them with digital walkthrough data to decide what that data can and cannot tell them.",
+    "Participants will name a next level of work for teachers, coaches, and leaders, including a collaboration structure that has students reason together."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Coyote Run Middle School: Problem of Practice and Five Classrooms (1 per person; also print each vignette large and post it around the room as a \"classroom\")",
+      "Handout B: Describe, Don't Judge Sort (1 set per team, cut apart)",
+      "Handout C: Patterns and Next Level of Work (1 per team, enlarged if possible)",
+      "Sticky notes (one color per team), chart paper, markers, a timer"
+    ],
+    "digital": [
+      "None required. Optional: a shared document or spreadsheet where teams type their sticky-note evidence so patterns can be sorted and tallied"
+    ]
+  },
+  "prep": [
+    "Print the five vignettes from Handout A on separate sheets and post them around the room as five \"classrooms\" with space for sticky notes beside each.",
+    "Print and cut Handout B, one set per team.",
+    "Read the problem of practice aloud to yourself. Rounds only work if everyone sticks to it; be ready to redirect notes that wander.",
+    "If you are using this with your own campus next, draft your own problem of practice ahead of time so you can share it in the last step."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "What did you actually see?",
+      "body": "Read one walkthrough note aloud: **\"Great lesson, students were really engaged with the laptops.\"** Ask: \"If you were the teacher, what would you learn from this? If you were the principal planning PD, what would you know?\" Then ask a volunteer to describe, in one sentence, only what someone could have seen or heard. Say: \"Rounds are built on that second sentence.\"",
+      "note": "People often defend the first note as \"positive.\" Acknowledge the intent, then point out that praise without evidence can't be acted on or built on."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Describe, don't judge",
+      "body": "Teams sort the Handout B strips into **Descriptive**, **Evaluative**, and **Interpretive**. For every Evaluative strip, they write a descriptive rewrite on a sticky note: what might the observer actually have seen? Check against the key and discuss the ones teams disagreed on.",
+      "note": "Interpretive notes (\"students seemed confused\") aren't banned; they're held until the pattern step, where the team can test them against evidence. Evaluative notes (\"poor use of AI\") are the ones to rewrite."
+    },
+    {
+      "phase": "Model",
+      "minutes": 5,
+      "title": "The problem of practice and a model note",
+      "body": "Read the Coyote Run problem of practice aloud. Then model three descriptive notes on Vignette 1 as a think-aloud: \"Teacher projected a chatbot's summary. Six students raised hands to say a character was missing. One student asked, 'Why did it change her name?' Pairs compared whiteboards before sharing.\" Point out that each note is about **what students do**, and connects to the problem of practice.",
+      "note": "Model the discipline of leaving things out. The room decor and the teacher's pacing may be interesting, but they aren't the problem of practice."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 20,
+      "title": "Rounds: visit four classrooms",
+      "body": "Teams rotate to Vignettes 2–5 posted around the room, **five minutes per classroom**. Each person reads silently and writes descriptive notes, one per sticky note, about what students are doing with technology, with AI, and with each other. No talking during the visit. Before moving on, each team posts its sticky notes beside the vignette.",
+      "note": "Walk the room and gently return evaluative notes: \"What did you see that made you think that?\" Rotating silently keeps the observation individual, which is how real rounds protect against groupthink."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 15,
+      "title": "Patterns, then the walkthrough data",
+      "body": "Each team collects the sticky notes from all five classrooms and clusters them into **patterns across classrooms** on Handout C (for example, \"When there was one device per group with roles, students argued about sources; with one device per student, talk was about the task, not the thinking\"). Then read the walkthrough app summary on Handout A. Ask: **\"What does the app's data tell us about our problem of practice? What can't it tell us? What would we want our digital walkthrough tool to capture next time?\"**",
+      "note": "The app says technology was in use in most visits and engagement was high. The rounds notes show *how* students used it, and in two classrooms that wasn't reasoning together. Both data sources matter; they answer different questions."
+    },
+    {
+      "phase": "Create",
+      "minutes": 12,
+      "title": "Next level of work",
+      "body": "In the last column of Handout C, teams write the **next level of work** for three groups. **Teachers:** one collaboration structure that has students reason together with technology (shared device with roles, pair verification of AI output, peer feedback on drafts). **Coaches:** what they'd co-plan or model. **Leaders:** what the campus provides (time, training, schedule, a revised walkthrough question, a pause on something). Each team shares its single most important next step.",
+      "note": "Rounds recommendations are for the system, never for one teacher. If a note starts with \"The teacher in Classroom 2 should…\", ask the team to rewrite it as \"Our campus needs to…\"."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 8,
+      "title": "Your own problem of practice",
+      "body": "Individually, each leader drafts a problem of practice for their own campus about what students do with technology or AI, in two or three sentences. It should be observable, within the campus's control, and tied to student learning. Pairs swap and ask: **\"What would we see students doing if we solved this?\"**",
+      "note": "A strong problem of practice names student behavior (\"students accept AI answers without checking them\"), not a tool (\"teachers need to use the new platform more\")."
+    }
+  ],
+  "unplugged": "The whole protocol runs on paper: posted vignettes as classrooms, sticky notes as observation data, and chart-paper pattern maps. That makes it a safe way to practice the discipline of descriptive notes before visiting real classrooms, where the stakes and emotions are higher.",
+  "digital": "In a virtual session, post each vignette on its own slide and give teams a shared document with one column per classroom for their notes; breakout rooms rotate through slides on a timer. For live rounds on your campus, observers can type notes into a shared form tagged by classroom and problem-of-practice focus, which makes tallying patterns faster. Keep notes free of student names and share raw notes only with the rounds team.",
+  "whyTech": "Paper is better for practicing, because the handwritten sticky note forces one observation at a time. In live rounds, a shared digital form helps teams tally patterns across many classrooms and set them beside walkthrough-tool data, which is hard to do on chart paper.",
+  "adaptations": [
+    { "label": "Elementary campuses", "text": "Swap Vignettes 2 and 4 for a grade 1 center rotation with tablets and a grade 4 read-aloud where the teacher projects an AI-generated question set that students critique." },
+    { "label": "Teacher-led PLCs", "text": "Teachers can run rounds on each other's classrooms with consent. Keep the same rules: descriptive notes, patterns not people, next level of work for the team." },
+    { "label": "Short on time", "text": "Run a 45-minute version with three vignettes (1, 2, 3), a combined sort-and-model, and the pattern step. Save the next level of work for the next leadership meeting." }
+  ],
+  "lookFors": [
+    "Teams rewrite every evaluative strip on Handout B as a plausible descriptive observation.",
+    "Sticky notes describe student actions with technology and AI (verifying, questioning, building on each other) rather than device presence or teacher judgments.",
+    "Handout C names at least one pattern across classrooms and at least one thing the walkthrough app's data cannot show.",
+    "The next level of work includes a specific action for leaders, not only for teachers."
+  ],
+  "reflection": [
+    "How do I support and evaluate effective technology integration without reducing it to a device count? (Leader ELE 2.1)",
+    "What does my current walkthrough data tell me about what students are doing with technology, and what does it leave out? (Leader ELE 3.1)",
+    "Where does my campus need to learn together, and where have we been asking individual teachers to fix a system problem?"
+  ],
+  "transfer": "Share your draft problem of practice with your campus team this week and schedule one short live round (three classrooms, 10 minutes each) within the month. Use the same three rules: describe, find patterns, name the next level of work.",
+  "connections": [
+    { "title": "High-Effect Strategy Coach", "url": "https://mglearn.github.io/tcea/coach-tool/", "note": "Helps coaches and teachers turn the next level of work into specific instructional strategies." },
+    { "title": "TCEA ELEs (PDF)", "url": "https://tinyurl.com/tceaeles1", "note": "The leader and teacher indicators this session practices." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Coyote Run Middle School: Problem of Practice and Five Classrooms",
+      "type": "reading",
+      "instructions": "Coyote Run is fictional. Post each vignette as a separate \"classroom.\" Write only what students and the teacher say and do.",
+      "paragraphs": [
+        "**Problem of practice.** Coyote Run Middle School has one device per student and access to a district-approved AI chatbot. Teachers report that students complete digital tasks quickly, but when students use AI or online sources, they rarely question the information, check it, or build on each other's thinking. **Our question: When students use technology and AI, how often and in what ways do they reason together and verify information?**",
+        "**Walkthrough app summary, fall semester (fictional).** Visits logged: 48. \"Technology in use\": checked in 41 visits. \"Student engagement\": rated High in 36 visits. \"AI tool observed\": checked in 9 visits. Comment field most often left blank. The app has no field for what students were doing with the technology.",
+        "**Vignette 1 · Grade 6 reading (the facilitator models on this one).** The teacher projects a chatbot's summary of the class novel's first chapter and asks, \"What did it get right, and what did it leave out?\" Students write on mini whiteboards for two minutes, then compare with a partner. Six students raise hands to say the summary skips the younger sister. One student asks, \"Why did it change her name to Anna?\" The teacher writes the question on the board and says they'll come back to it. Pairs add one missing detail each to a class list.",
+        "**Vignette 2 · Grade 7 science.** Each student has a laptop and a digital worksheet on ecosystems with 10 questions. Most students type a question into a search engine or the AI chatbot and paste an answer into the worksheet. Two students talk about lunch. One student asks a neighbor, \"What did you put for number 4?\" and copies it. The teacher circulates and checks the completion bar on her own screen. At the end, 24 of 27 worksheets are submitted. No student is heard discussing an answer's source.",
+        "**Vignette 3 · Grade 8 U.S. history.** Groups of three share one laptop. Roles are posted: Searcher, Skeptic, Scribe. The task is to decide whether a viral photo labeled \"students protesting in 1968\" is what it claims. One group splits the work so each person searches alone and they don't speak for six minutes. Another group argues: the Skeptic says, \"That site sells posters. Why would we trust it?\" and the Searcher opens a museum archive. The teacher asks each group, \"How do you know?\" and waits for an answer. Two groups change their verdict after finding the original caption.",
+        "**Vignette 4 · Grade 7 English.** Students each asked the AI chatbot for three counterarguments to their essay thesis, then work in pairs to rank the six counterarguments from strongest to weakest and explain the top choice. One pair debates whether a counterargument is \"real or just something the AI made up to sound smart.\" One student in another pair says, \"I'll just use all of them,\" and pastes them into his draft; his partner says nothing. At the bottom of each document is a line: \"AI use: I used the chatbot for counterarguments. I kept ___ and changed ___.\" About half the students have filled it in.",
+        "**Vignette 5 · Grade 6 math.** No devices for the first 30 minutes. Groups solve a ratio problem on chart paper, then do a gallery walk leaving sticky-note questions on other groups' work (\"Why did you double here?\"). In the last 10 minutes, each group uses a tablet to record a 30-second explanation of its strategy for a class family page. One student who uses a speech-generating device records her group's explanation; a groupmate holds the tablet. Groups rewatch their video and two re-record after noticing they skipped a step."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Describe, Don't Judge Sort",
+      "type": "sort",
+      "instructions": "Sort each observation note. Rewrite every Evaluative note as something an observer could have actually seen or heard.",
+      "categories": ["Descriptive", "Evaluative", "Interpretive"],
+      "items": [
+        { "text": "Three of five groups changed their answer after one member asked where a source came from.", "answer": "Descriptive", "why": "Countable, observable, tied to student action." },
+        { "text": "Great use of technology!", "answer": "Evaluative", "why": "A verdict with no evidence; the teacher can't act on it." },
+        { "text": "Students seemed confused by the AI's answer.", "answer": "Interpretive", "why": "A reasonable inference to test in the pattern step: what did students say or do?" },
+        { "text": "A student said, \"The chatbot says 1972 but the museum page says 1968.\"", "answer": "Descriptive", "why": "A direct quote is the strongest descriptive evidence." },
+        { "text": "The teacher should have stopped students from using AI.", "answer": "Evaluative", "why": "A judgment and a prescription for one teacher; rounds look for system patterns." },
+        { "text": "Students typed questions into the chatbot and pasted answers into the worksheet without talking.", "answer": "Descriptive", "why": "Describes what students did, without judging it." },
+        { "text": "Students were highly engaged.", "answer": "Evaluative", "why": "\"Engaged\" is a rating. What were they doing: talking, typing, arguing, waiting?" },
+        { "text": "The pairs who ranked counterarguments probably understand argument better.", "answer": "Interpretive", "why": "A hypothesis worth checking against student work, not something observed." },
+        { "text": "Only the Searcher touched the laptop in two of the groups.", "answer": "Descriptive", "why": "Observable and relevant to collaboration." },
+        { "text": "This was a weak lesson.", "answer": "Evaluative", "why": "A verdict. Rewrite as what students did and didn't do." },
+        { "text": "Students may not know how to check an AI's claim.", "answer": "Interpretive", "why": "A possible cause behind a pattern; test it across classrooms." },
+        { "text": "The teacher asked \"How do you know?\" four times and waited at least five seconds each time.", "answer": "Descriptive", "why": "Describes a teacher move precisely enough to be replicated." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Patterns and Next Level of Work",
+      "type": "table",
+      "instructions": "Cluster your sticky notes into patterns across classrooms. Name the evidence, then the next level of work for the system.",
+      "columns": ["Pattern across classrooms", "Evidence (vignette + note)", "What the walkthrough app data shows or misses", "What students need next", "Next level of work: teachers / coaches / leaders"],
+      "rows": [],
+      "blankRows": 5
+    }
+  ]
+}

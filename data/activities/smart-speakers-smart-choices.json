@@ -1,0 +1,162 @@
+{
+  "id": "smart-speakers-smart-choices",
+  "title": "Smart Speakers, Smart Choices",
+  "tagline": "Children role-play with a pretend talking speaker to learn that voice helpers listen for a wake word, may keep what they hear, answer by guessing, and sometimes need a grown-up instead.",
+  "audience": "student",
+  "grades": ["K-2", "3-5"],
+  "strands": ["digcit", "genai"],
+  "mode": "unplugged",
+  "minutes": 35,
+  "groupSize": "Whole class, then groups of 3; any class size",
+  "eles": ["S2.1", "S2.3", "AI1.1", "AI1.3"],
+  "overview": "Many children talk to smart speakers, talking toys, and voice assistants on phones or tablets at home, and they often treat them like a friend who knows everything. In this role-play, a classmate wearing a paper \"speaker\" becomes **Pip**, a pretend voice helper. The class discovers three true things: Pip waits for its wake word and then listens closely, Pip may save what it hears on a far-away computer, and Pip answers by guessing from patterns, so it can be wrong. Children practice sorting what is OK to say to a device, what to keep private, and when to ask a grown-up instead.",
+  "objectives": [
+    "Students will explain in their own words that a voice helper listens for a wake word and may save what it hears after that.",
+    "Students will sort things people say to a voice helper into OK to ask, keep private, and ask a grown-up instead, and give a reason for one choice.",
+    "Students will catch a wrong or silly answer from a pretend voice helper and name a way to check it.",
+    "Students will role-play saying \"Pip, stop\" and turning to a trusted grown-up when a question is about safety, feelings, or buying something."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Pip's Script Cards (1 teacher set, cut apart; backs are your key)",
+      "Handout B: Talk-to-Pip Sort (1 sorting mat and set of strips per group of 3)",
+      "Handout C: My Smart Speaker Promise (1 per student)",
+      "A \"Pip\" prop: a paper cup, tissue box, or cardboard tube with a paper light strip; a green and a red paper circle for Pip's \"light\"",
+      "Crayons or pencils"
+    ],
+    "digital": [
+      "Optional: a voice assistant on the teacher's device only (a classroom smart speaker, or a phone or tablet assistant with the microphone setting you control)",
+      "Optional: a document camera or projector to show the sorting mat"
+    ]
+  },
+  "prep": [
+    "Make the Pip prop. Tape a green circle on one side (\"I'm listening closely\") and a red circle on the other (\"I'm waiting for my wake word\").",
+    "Print Handout A and cut apart the 10 script cards. Put them in order; Cards 1–4 are the teacher demo, Cards 5–10 are for student Pips.",
+    "Print and cut Handout B strips for each group of 3. Younger groups can sort with you as a whole class instead.",
+    "If you plan the optional live demo, check the device's history or privacy settings first so you can show children where saved recordings appear and how a grown-up can delete them. Do not use a child's name or voice on your own account."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "Who is listening?",
+      "body": "Hold up the Pip prop with the red side showing. Say: **\"This is Pip. Pip is a pretend talking helper, like a smart speaker or a talking toy. Some of you might have a helper at home that plays songs or tells the weather.\"** Ask for thumbs up if anyone has talked to a helper like this. Then ask: **\"Is Pip listening right now?\"** Take guesses. Explain: \"Pip's light is red. Pip is waiting for its special word, its **wake word**. When Pip hears its wake word, the light turns green and Pip listens closely.\"",
+      "note": "Stay accurate and calm. Helpers wait for a wake word, then listen closely to what comes next; many can save that part. Avoid telling children devices are spying on them all the time."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "Meet Pip: three true things",
+      "body": "Use Script Cards 1–4. You are Pip. A volunteer says the wake word, \"Hey Pip,\" and you flip to green. Read Pip's answers from the cards. After each card, name one true thing on the board with a picture: **1. Pip wakes up to a special word. 2. Pip may SAVE what it hears on a computer far away, and grown-ups can look at it or delete it. 3. Pip answers by GUESSING from lots of examples, so it can be wrong.** On Card 4, Pip gives a wrong answer with a confident voice (\"Spiders have six legs!\"). Ask: \"Was Pip right? How could we check?\"",
+      "note": "For Grades 3–5, add: \"Pip doesn't understand like a person does. It matches your words to patterns and picks an answer that sounds likely.\" That is the AI1.1 idea at their level."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 8,
+      "title": "Talk-to-Pip Sort",
+      "body": "Groups of 3 get Handout B. Read each strip aloud (or have readers read). Groups decide where it goes: **OK to ask Pip**, **Keep private**, or **Ask a grown-up instead**. Circulate and ask: \"Why did you put it there?\" Bring the class back and go over the tricky ones: telling Pip your address, asking Pip to buy something, and telling Pip you feel sad.",
+      "note": "Kindergarten: do this as a whole class with three corners of the rug instead of mats. Children walk to the corner that fits."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 8,
+      "title": "Student Pips",
+      "body": "Volunteers take turns holding Pip. Hand each new Pip one of Script Cards 5–10 to read as Pip's answer. A classmate asks the question on the card. The class decides together: **Was that a good thing to ask? Was Pip's answer right? Do we need a grown-up?** On the cards where Pip asks a child for private information or wants to buy something, the class practices the power words together: **\"Pip, stop.\"** Then the child turns to you and says, \"Can you help me?\"",
+      "note": "Look for children who notice that Pip sounds sure even when it is wrong. Praise that catch: \"You checked instead of just believing!\""
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 4,
+      "title": "What did Pip teach us?",
+      "body": "Point to the three true things on the board and read them together. Ask: \"When is Pip a good helper?\" (songs, timers, simple facts we can check). \"When do we go to a person?\" (private information, feelings, safety, buying things, when Pip's answer seems wrong). Add a fourth line with the class: **4. I can say \"stop\" and ask a grown-up.**",
+      "note": "If a child shares that a device at home heard something private, respond warmly and without alarm: \"Thanks for telling me. A grown-up at home can check the settings.\""
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 4,
+      "title": "My Smart Speaker Promise",
+      "body": "Children complete Handout C: draw something OK to ask a helper, draw a grown-up they can go to, and finish the sentences. Grades 3–5 also write one question they would ask a grown-up about the helper at home. Ask two or three children to share: **\"What will you do if a helper asks for your address?\"**",
+      "note": "Evidence to collect: children who can say \"it might save what I say\" and \"it can be wrong\" in their own words."
+    }
+  ],
+  "unplugged": "The full lesson runs with the Pip prop, printed script cards, and the sorting mat. For a movement version, label three corners of the room OK TO ASK, KEEP PRIVATE, and ASK A GROWN-UP; read each sort strip aloud and children walk to the corner that fits. A child with a green paper circle can stand in for Pip if you have no prop.",
+  "digital": "After the Debrief, you may demonstrate a real voice assistant from your own device, in front of the class. Ask it a simple question children can check (\"How many legs does a spider have?\") and compare its answer to a class book. Then, with the class watching, open the assistant's history or privacy page and show that a recording or text of what you said may be saved, and how a grown-up can delete it. Children do not use their own voices or accounts, and you do not ask it anything personal. Close by asking: \"What did the helper keep? Who can delete it?\"",
+  "whyTech": "The core ideas land best unplugged: a pretend Pip lets children practice saying \"stop\" and choosing a grown-up without any real data being saved. A short teacher-driven demo adds evidence paper cannot, because children see with their own eyes that a real helper may keep a record of what it heard.",
+  "adaptations": [
+    { "label": "Kindergarten", "text": "Use Script Cards 1–4 and three of the student cards (5, 7, and 9). Sort as a whole class using the three corners. Replace the writing on Handout C with drawing and dictation." },
+    { "label": "Grades 3–5", "text": "Add a \"Pip Settings\" talk: which settings a family could check (saved recordings, buying by voice, microphone off button). Students write one question to ask a grown-up at home about their device." },
+    { "label": "Emergent bilinguals", "text": "Teach gestures for the three categories (thumbs up for OK, finger to lips for private, pointing to a grown-up for ask a grown-up). Accept answers in any language and pair children with a language buddy for the sort." },
+    { "label": "Students who use speech devices or AAC", "text": "Program or print the phrases \"Pip, stop\" and \"Can you help me?\" so every child can take a speaking turn in the role-play." }
+  ],
+  "lookFors": [
+    "Children explain that a voice helper wakes up to a special word and may save what it hears, in their own words.",
+    "During the sort, children place address, full name, and passwords in Keep private and give a reason (\"strangers could know where I live\").",
+    "Children catch Pip's confident wrong answer and name a way to check it (a book, a grown-up, another source).",
+    "In the role-play, children say \"Pip, stop\" and turn to a grown-up when Pip asks for private information or tries to buy something."
+  ],
+  "reflection": [
+    "Do I stay safe and make good choices when I talk to a device? What will I keep private? (Student ELE 2.0)",
+    "How does a voice helper come up with an answer? Why might it be wrong?",
+    "Who is a grown-up I can go to when a helper's answer seems wrong or a question is about feelings or safety?"
+  ],
+  "transfer": "Children take home Handout C and share their promise with a family member. With a grown-up, they can look for the helper's wake word, its microphone off button, and whether it saves what it hears. Next lesson, connect to *Private or Share?* and *Robot Guesses* to go deeper on personal information and AI guessing.",
+  "connections": [
+    { "title": "Family App Privacy Audit", "url": "https://mglearn.github.io/tcea/privacy-audit/", "note": "Share with families who want to check settings on the devices and apps at home." },
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "Teacher-driven follow-up on how AI makes guesses." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Pip's Script Cards",
+      "type": "cards",
+      "instructions": "Teacher: Cards 1–4 are your demo as Pip. Cards 5–10 go to student Pips. A classmate asks the question on the front; Pip reads the answer. Backs are your key for the class talk.",
+      "cards": [
+        { "label": "Card 1 · Demo", "front": "Child: \"Hey Pip, play a dancing song.\"  Pip (light turns green): \"Here is a dancing song! Bee-bop-boo!\"", "back": "True thing 1: Pip woke up when it heard its wake word, \"Hey Pip.\" Before that, Pip was waiting. This is a good job for Pip." },
+        { "label": "Card 2 · Demo", "front": "Child: \"Hey Pip, what did I just say?\"  Pip: \"You asked me to play a dancing song. I saved that on my computer far away.\"", "back": "True thing 2: many helpers can save what they hear after the wake word. A grown-up can look at it or delete it in the settings." },
+        { "label": "Card 3 · Demo", "front": "Child: \"Hey Pip, how do you know things?\"  Pip: \"I learned from lots and lots of examples. I pick the answer that sounds most likely.\"", "back": "True thing 3: Pip answers by guessing from patterns. It does not think or know the way a person does." },
+        { "label": "Card 4 · Demo", "front": "Child: \"Hey Pip, how many legs does a spider have?\"  Pip (very sure): \"Spiders have six legs!\"", "back": "WRONG. Spiders have eight legs. Pip sounded sure, but sounding sure is not the same as being right. Check with a book or a grown-up." },
+        { "label": "Card 5 · Student Pip", "front": "Child: \"Hey Pip, set a timer for 5 minutes.\"  Pip: \"Okay! Timer set for 5 minutes.\"", "back": "Good job for Pip. Nothing private was shared. Thumbs up." },
+        { "label": "Card 6 · Student Pip", "front": "Child: \"Hey Pip, what's the weather today?\"  Pip: \"Today will be sunny and warm.\"", "back": "OK to ask. Ask: \"How could we check?\" (Look out the window!)" },
+        { "label": "Card 7 · Student Pip", "front": "Child: \"Hey Pip, how do I get home?\"  Pip: \"Tell me your home address and I will help.\"", "back": "Stop! A home address is private. Say \"Pip, stop,\" then ask a grown-up. Pip may save what you say." },
+        { "label": "Card 8 · Student Pip", "front": "Child: \"Hey Pip, buy me the new Zoomy Racer toy.\"  Pip: \"Okay! Buying Zoomy Racer now.\"", "back": "Stop! Buying things is a grown-up job. Say \"Pip, stop\" and tell a grown-up. Some helpers can buy by voice unless a grown-up turns that off." },
+        { "label": "Card 9 · Student Pip", "front": "Child: \"Hey Pip, I feel sad today.\"  Pip: \"I'm sorry. Would you like a funny joke?\"", "back": "A joke is nice, but Pip cannot really care for you. Feelings are for people. Go to a grown-up you trust." },
+        { "label": "Card 10 · Student Pip", "front": "Child: \"Hey Pip, is the moon made of cheese?\"  Pip: \"Some stories say the moon is made of cheese!\"", "back": "Pip mixed up stories and facts. The moon is made of rock. Pip's guess came from patterns in what it heard. Let's check!" }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Talk-to-Pip Sort",
+      "type": "sort",
+      "instructions": "Read each strip. Is it OK to say to a talking helper, something to keep private, or a time to ask a grown-up instead? Put it on the mat.",
+      "categories": ["OK to ask Pip", "Keep private", "Ask a grown-up instead"],
+      "items": [
+        { "text": "\"Pip, play my favorite song.\"", "answer": "OK to ask Pip", "why": "A simple job with nothing private in it." },
+        { "text": "\"Pip, how do you spell 'giraffe'?\"", "answer": "OK to ask Pip", "why": "A fact you can check in a book or with a teacher." },
+        { "text": "\"Pip, set a timer for my reading time.\"", "answer": "OK to ask Pip", "why": "Timers are a good helper job." },
+        { "text": "\"Pip, my address is 14 Willow Lane.\"", "answer": "Keep private", "why": "Your address tells where you live; Pip may save it." },
+        { "text": "\"Pip, my password is sunflower22.\"", "answer": "Keep private", "why": "Passwords are secret, even from helpers." },
+        { "text": "\"Pip, my full name and my school are...\"", "answer": "Keep private", "why": "Full name plus school can help a stranger find you." },
+        { "text": "\"Pip, my mom's phone number is...\"", "answer": "Keep private", "why": "Family phone numbers are private information." },
+        { "text": "\"Pip, buy a new game for my tablet.\"", "answer": "Ask a grown-up instead", "why": "Buying things costs real money; that is a grown-up choice." },
+        { "text": "\"Pip, someone online was mean to me.\"", "answer": "Ask a grown-up instead", "why": "A trusted person can help keep you safe." },
+        { "text": "\"Pip, I have a tummy ache. What medicine should I take?\"", "answer": "Ask a grown-up instead", "why": "Health and medicine questions need a grown-up." },
+        { "text": "Pip said spiders have six legs, and that seems wrong to me.", "answer": "Ask a grown-up instead", "why": "When an answer seems wrong, check with a person or a book." },
+        { "text": "\"Pip, tell me a knock-knock joke.\"", "answer": "OK to ask Pip", "why": "Just for fun, and nothing private is shared." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Smart Speaker Promise",
+      "type": "worksheet",
+      "instructions": "Draw and write. Your teacher can help with words. Take this home and share it with your family.",
+      "sections": [
+        { "prompt": "Draw something that is OK to ask a talking helper.", "boxes": true },
+        { "prompt": "A talking helper wakes up when it hears its ___ word.", "lines": 1 },
+        { "prompt": "A helper may ___ what I say, so I keep my address and passwords private.", "lines": 1 },
+        { "prompt": "A helper answers by guessing, so it can be ___. I can check with a book or a grown-up.", "lines": 1 },
+        { "prompt": "Draw a grown-up I can go to instead of the helper.", "boxes": true },
+        { "prompt": "Grades 3–5: Write one question you will ask a grown-up about the talking helper at home.", "lines": 2 }
+      ]
+    }
+  ]
+}

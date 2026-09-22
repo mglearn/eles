@@ -1,0 +1,153 @@
+{
+  "id": "feedback-partners-ai-drafts",
+  "title": "Feedback Partners: Peer Review in the Age of AI",
+  "tagline": "Teachers run a glow-grow-question peer review on two AI-assisted drafts, questioning the AI's suggestions as hard as the writer's, then adapt the protocol for their own students.",
+  "audience": "pl",
+  "roles": ["teachers", "coaches", "leaders"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["genai", "digcit"],
+  "mode": "hybrid",
+  "minutes": 60,
+  "groupSize": "Pairs, combined into groups of 4 for the debrief; any number",
+  "eles": ["T4.2", "T5.2", "T5.1", "T3.2", "L2.1"],
+  "overview": "When students revise with a generative AI tool, the tool's suggestions can quietly replace the most valuable feedback a writer gets: a real reader's question. This session puts peers back at the center. Participants act as students and give each other glow, grow, and question feedback on two fictional AI-assisted drafts. They also judge each AI suggestion (accept, adapt, or reject) and have to explain why. Then they debrief as teachers and adapt the protocol, with supports, for their own grade level. They finish by naming what a coach or leader would see in a classroom where this is working.",
+  "objectives": [
+    "Participants will give specific glow, grow, and question feedback on a peer's draft using protocol stems.",
+    "Participants will evaluate AI-generated revision suggestions by accepting, adapting, or rejecting each one with a stated reason, including one suggestion that introduces an unsupported claim.",
+    "Participants will adapt the protocol for their students, with at least two supports for diverse learners and a clear decision about whether AI belongs in the task.",
+    "Participants will name observable evidence that peer review with AI is improving students' thinking, not just polishing their prose."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Two AI-Assisted Drafts (1 per person)",
+      "Handout B: Feedback Partner Log (1 per pair)",
+      "Handout C: Protocol Adapter (1 per person)",
+      "Sticky notes in two colors; a timer"
+    ],
+    "digital": [
+      "Optional: one device per pair with a shared document so partners can leave comments on the drafts",
+      "Optional: a generative AI chatbot your district approves, projected by the facilitator only, to generate fresh suggestions on a participant's own sample paragraph"
+    ]
+  },
+  "prep": [
+    "Print Handouts A–C. Read the facilitator notes in the step notes so you know which AI suggestions are strong, weak, or problematic.",
+    "Post the three protocol stems large on the wall: **Glow** (\"One specific thing that works is… because…\"), **Grow** (\"One change that would help a reader is…\"), **Question** (\"I wondered… / How do you know…?\").",
+    "If you plan to project a live AI demo, prepare a short paragraph of your own (never student work) to paste in, and check your district's guidance on which tools are approved."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Feedback you remember",
+      "body": "Ask: **\"Think of a piece of feedback that actually changed your work. Who gave it, and what made it useful?\"** Pairs share for one minute each. Collect a few answers and listen for the pattern: specific, from someone who read closely, often a question that made you rethink. Then ask: \"Could a chatbot have given you that? Why or why not?\"",
+      "note": "Most rooms land on this: useful feedback comes from a reader who cared what you meant. Hold on to that; it's the reason peers stay in the loop even when AI is available."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Fishbowl the protocol",
+      "body": "With a volunteer, model the protocol on Draft 1 (Handout A) while others watch. The writer reads the draft aloud. The partner gives one **glow**, one **grow**, and one **question**, using the stems. Then you both look at the three AI suggestions and decide together: **accept, adapt, or reject, and why**. Narrate your thinking on Suggestion 3: \"The AI added a statistic the writer never had. Where did it come from? I can't trace it, so it can't go in.\"",
+      "note": "Draft 1, Suggestion 1 (add an example) is worth adapting: the idea is good, but the student should add their own example. Suggestion 2 (swap in fancier vocabulary) makes the writing less clear for a fifth-grade reader; reject or adapt. Suggestion 3 invents an unsupported claim; reject."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 15,
+      "title": "Partners as students: Draft 2",
+      "body": "Pairs work on Draft 2 as if they were high school or college students. Partner A is the writer and reads aloud; Partner B gives glow, grow, and question. Then **they switch roles for the AI's suggestions**: B reads each suggestion aloud and A, as the writer, decides whether to accept, adapt, or reject it while B pushes back with a question stem. Both log their decisions on Handout B.",
+      "note": "Look for pairs who ask the AI questions they'd ask a human reader: \"What makes this counterargument stronger?\" \"Would my actual audience say this?\" Suggestion 2 on Draft 2 removes the writer's personal experience to sound \"more academic\". Watch whether pairs notice that it deletes the draft's best evidence."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "What did the peer catch that the AI didn't?",
+      "body": "Pairs join into groups of four. Each group answers two questions on sticky notes, one color each: **\"What did the human partner notice that the AI suggestions missed?\"** and **\"What did the AI suggest that was actually helpful?\"** Post and cluster the notes. Then ask the room: \"What did the writer have to *know* to judge the AI's suggestions? Where do students learn that?\"",
+      "note": "The honest answer usually includes some helpful AI suggestions. The point is not that AI feedback is bad; it's that judging it is a thinking skill, and a peer's questions help students build it."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 16,
+      "title": "Adapt the protocol for your class",
+      "body": "Using Handout C, each person adapts the protocol for one upcoming assignment. They decide **whether AI belongs in this task at all**, and if it does, how it's used and disclosed (for students under 13, the teacher projects the tool and the class judges its suggestions together). They add at least two supports so every student can give and receive feedback: sentence stems, a sketch or audio option, feedback in a home language, partners chosen with care, a shorter draft. Then they name what students will turn in as evidence: the log and a short revision note saying what they changed and why.",
+      "note": "Push on the evidence line. \"Students will do peer review\" is an activity; \"Students turn in their log and a note naming one suggestion they rejected and why\" is evidence of thinking."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 8,
+      "title": "What would a visitor see?",
+      "body": "Partners swap planners and complete the last section together: **\"If a coach or principal walked in during this peer review, what would they see and hear that shows it's working?\"** Push past \"students are on task\" to things like \"students quoting each other's drafts,\" \"a student explaining why she rejected an AI suggestion,\" \"revision notes that name a peer's question.\" Coaches and leaders in the room turn these into two or three look-fors they could use in a walkthrough.",
+      "note": "This step connects classroom practice to how it's supported and evaluated. When teachers write the look-fors themselves, walkthrough feedback lands as support, not surveillance."
+    }
+  ],
+  "unplugged": "Run everything on paper: the drafts, the AI suggestions (already printed on Handout A), the log, and the adapter. With students, you can do the same thing. Print a draft with AI suggestions in the margin, or, for students under 13, project the tool, write its suggestions on the board, and have partners judge them on paper. The protocol itself needs no device.",
+  "digital": "Put the drafts in a shared document and have partners leave glow, grow, and question as comments, then reply to each AI suggestion comment with accept, adapt, or reject and a reason. The version history becomes evidence of revision. In an LMS, post the log as an assignment and collect revision notes with the final draft. Students 13 and older may use a district-approved AI tool to generate suggestions on their own drafts; they should never paste in a peer's work without permission.",
+  "whyTech": "A shared document with comments and version history shows who said what and what changed after each piece of feedback, which paper can't track as easily. The AI earns its place only when students have to judge its suggestions; the log is the evidence of that judgment.",
+  "adaptations": [
+    { "label": "K–2", "text": "Use two stems only (\"I like…\" and \"I wonder…\") on a class-written sentence or drawing. The teacher asks a chatbot for one suggestion on the projector and the class votes thumbs up or down with a reason." },
+    { "label": "Higher Ed faculty", "text": "Use Draft 2 as is and add a disclosure requirement: students attach a short statement of which AI suggestions they used, adapted, or rejected. Discuss how this fits your syllabus AI policy." },
+    { "label": "Students with IEPs or 504 plans", "text": "Offer audio feedback, a checklist version of the stems, or a teacher-selected partner. Keep the evidence expectation (one decision with a reason) and change only how it's shown." },
+    { "label": "Coaches", "text": "Co-plan the Apply step with a teacher, then co-teach the first round and review the logs together. What changed in student evidence?" }
+  ],
+  "lookFors": [
+    "Handout B shows at least one AI suggestion adapted or rejected with a specific reason, including the untraceable claim in Draft 1.",
+    "Glow and grow comments point to specific sentences rather than general praise (\"good job\") or general criticism (\"add more detail\").",
+    "Each adapted protocol on Handout C includes two or more supports for diverse learners and an explicit decision about whether AI belongs in the task.",
+    "Look-fors written in the Transfer step describe student talk and student evidence, not device use."
+  ],
+  "reflection": [
+    "How can I create opportunities for student collaboration and peer learning that AI tools support rather than replace? (Teacher ELE 4.2)",
+    "What questions do I want students asking about an AI's suggestions, and how will I teach those questions? (Teacher ELE 5.2)",
+    "What evidence would show me that peer review made students' thinking stronger, not just their sentences?"
+  ],
+  "transfer": "Run your adapted protocol on the next writing or project draft. Collect the logs and revision notes, and bring three samples (names removed) to your PLC or coach to look for how many students rejected or adapted a suggestion with a clear reason.",
+  "connections": [
+    { "title": "AI Essentials Prompt Library", "url": "https://mglearn.github.io/tcea/ai-essentials-prompt-library/", "note": "Sample prompts for asking an AI for feedback in ways students can then question." },
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "Student games on checking what AI tells you." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Two AI-Assisted Drafts",
+      "type": "reading",
+      "instructions": "Both drafts and all AI suggestions are fictional. Read the draft, then the AI's suggestions. Your job is to judge both.",
+      "paragraphs": [
+        "**Draft 1 · Grade 5 science explanation (by Marisol, a fictional student).** Prompt: *Explain where a puddle goes on a sunny day.* \"After it rains there is a puddle by our portable. When the sun comes out the puddle gets smaller and smaller until it is gone. The water did not go into the ground because the blacktop is hard. I think the sun heats the water and it turns into water vapor that goes into the air. That is called evaporation. It happens faster when it is hot.\"",
+        "**AI suggestions on Draft 1** (the teacher projected a chatbot and asked for three ways to improve the paragraph). **Suggestion 1:** \"Add an example of evaporation from everyday life to help the reader.\" **Suggestion 2:** \"Replace 'gets smaller and smaller' with 'undergoes a gradual diminution in volume.'\" **Suggestion 3:** \"Strengthen your claim with data: 'Scientists have found that puddles evaporate 50% faster on blacktop than on grass.'\"",
+        "**Draft 2 · Grade 11 or first-year college argument (by Theo, a fictional student).** Prompt: *Should our town keep the public library open on Sundays?* \"Our town should keep the Harlow Street library open on Sundays. For a lot of students, Sunday is the only day without work or practice, and it's the day big assignments get finished. When I worked on my history project last spring, the library was the only place with quiet, free printing, and a librarian who showed me how to find old newspaper articles. Some people say the money would be better spent on longer weekday hours. But weekday evenings are when many of us are working. A library that's only open when we can't go isn't really open to us.\"",
+        "**AI suggestions on Draft 2** (Theo asked a district-approved chatbot for feedback). **Suggestion 1:** \"Address the counterargument more fully. What would budget-minded residents say, and how would you respond?\" **Suggestion 2:** \"Remove the personal anecdote about your history project to sound more academic, and replace it with general statements about library usage.\" **Suggestion 3:** \"Consider ending with a call to action, such as urging readers to attend the next town council meeting.\"",
+        "**Protocol stems.** **Glow:** \"One specific thing that works is… because…\" **Grow:** \"One change that would help a reader is…\" **Question:** \"I wondered… / How do you know…? / Who is your reader?\" **Questioning the AI:** \"Where would that information come from? Can I trace it?\" \"Does this make it clearer for *my* reader, or just fancier?\" \"What would I lose if I took this suggestion?\" \"Is this still my idea and my voice?\"",
+        "**Decision rule.** For every AI suggestion, decide: **Accept** (it helps and it's true), **Adapt** (the idea helps, but you'll do it your own way), or **Reject** (it's wrong, untraceable, or makes the writing less yours or less clear). Write one reason for every decision."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Feedback Partner Log",
+      "type": "table",
+      "instructions": "Log your peer feedback first, then decide on each AI suggestion. Every decision needs a reason.",
+      "columns": ["Draft and item", "Glow (specific)", "Grow (one change)", "Question (for the writer or the AI)", "Decision on AI suggestion: accept / adapt / reject, and why"],
+      "rows": [
+        ["Draft 1 · peer feedback", "", "", "", "—"],
+        ["Draft 1 · AI suggestion 1", "—", "—", "", ""],
+        ["Draft 1 · AI suggestion 2", "—", "—", "", ""],
+        ["Draft 1 · AI suggestion 3", "—", "—", "", ""],
+        ["Draft 2 · peer feedback", "", "", "", "—"],
+        ["Draft 2 · AI suggestion 1", "—", "—", "", ""],
+        ["Draft 2 · AI suggestion 2", "—", "—", "", ""],
+        ["Draft 2 · AI suggestion 3", "—", "—", "", ""]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Protocol Adapter",
+      "type": "worksheet",
+      "instructions": "Adapt the protocol for one real assignment in the next few weeks.",
+      "sections": [
+        { "prompt": "The assignment, grade level, and what kind of draft students will bring:", "lines": 2 },
+        { "prompt": "Does AI belong in this task? If yes, how will it be used (teacher-projected or student tool), and how will students disclose it? If no, why not?", "lines": 3 },
+        { "prompt": "Your protocol steps and stems, rewritten for your students' age and language:", "lines": 4 },
+        { "prompt": "At least two supports so every student can give and receive feedback (stems, audio or sketch options, home language, partner choice, shorter drafts):", "lines": 3 },
+        { "prompt": "What students turn in as evidence of thinking (the log, a revision note, a decision with a reason):", "lines": 3 },
+        { "prompt": "What would a coach or principal see and hear that shows this is working? Write two or three look-fors:", "lines": 3 }
+      ]
+    }
+  ]
+}

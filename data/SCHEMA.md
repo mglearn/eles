@@ -126,4 +126,14 @@ placeholders like "insert example here".
 | AAP policy statement: Digital Ecosystems, Children, and Adolescents (Pediatrics, 2026) | https://publications.aap.org/pediatrics/article/157/2/e2025075320/206129/Digital-Ecosystems-Children-and-Adolescents-Policy |
 | AAP Family Media Plan (HealthyChildren.org) | https://www.healthychildren.org/English/fmp/Pages/MediaPlan.aspx |
 | The Common Sense Census: Media Use by Tweens and Teens, 2021 (report PDF) | https://www.commonsensemedia.org/sites/default/files/research/report/8-18-census-integrated-report-final-web_0.pdf |
+| TCEA Blog: Instructional Coaching, The Summer Planning Guide That Prevents November Burnout (Bruce Ellis, 2026) | https://blog.tcea.org/instructional-coaching-the-summer-planning-guide-that-prevents-november-burnout/ |
+| TCEA Blog: Instructional Coaching, Research-Based Teaching Strategies That Actually Work (Bruce Ellis, 2026) | https://blog.tcea.org/instructional-coaching-research-based-teaching-strategies-that-actually-work-in-every-classroom/ |
+| TCEA Blog: Stop Fixing Students, Coaching for Equity Through Universal Design (Miguel Guhlin, 2026) | https://blog.tcea.org/stop-fixing-students-coaching-for-equity-through-universal-design/ |
+| TCEA Blog: Coaching That Clicks With Micro-Teaching (Miguel Guhlin, 2026) | https://blog.tcea.org/coaching-that-clicks-with-micro-teaching/ |
+| TCEA Blog: Who's Coaching the Coach? (Ashly Shinde, 2025) | https://blog.tcea.org/whos-coaching-the-coach/ |
+| TCEA Blog: Strategies for Building Trust in Instructional Coaching (Diana Benner, 2025) | https://blog.tcea.org/strategies-for-building-trust-in-instructional-coaching/ |
+| TCEA Blog: Coaching Strategies, Part One (Miguel Guhlin, 2025) | https://blog.tcea.org/coaching-strategies-part-one/ |
+| TCEA Blog: Coaching Strategies, Part Two (Miguel Guhlin, 2025) | https://blog.tcea.org/coaching-strategies-part-two/ |
+| TCEA Blog: Introducing a Research-Based Coaching Cycle, TCEA EIIR (Miguel Guhlin, 2024) | https://blog.tcea.org/introducing-a-research-based-coaching-cycle-tcea-eiir/ |
+| TCEA Blog: Got GRITS? A Coaching Strategy for Lesson Study Groups (Miguel Guhlin, 2025) | https://blog.tcea.org/grits-model-a-coaching-strategy-for-lesson-study-groups/ |
 | Tomorrow's Front Page, by Tricia Friedman (inspiration for the futures-headline activities; credit it, never copy it) | https://triciafriedman.com/tomorrows-front-page/ |

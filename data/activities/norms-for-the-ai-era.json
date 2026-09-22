@@ -1,0 +1,161 @@
+{
+  "id": "norms-for-the-ai-era",
+  "title": "Norms for the AI Era",
+  "tagline": "A PLC builds trust first, then sorts real shared-planning dilemmas and drafts its own norms for AI use: disclose it, check it, and never put student data in a prompt.",
+  "audience": "pl",
+  "roles": ["coaches", "teachers", "leaders"],
+  "grades": ["K-12"],
+  "strands": ["genai", "digcit"],
+  "mode": "unplugged",
+  "minutes": 50,
+  "groupSize": "One PLC or grade-level team of 4–8, led by a coach; several teams can run in parallel",
+  "eles": ["C5.1", "C5.3", "C4.2", "AI2.1", "AI2.3"],
+  "overview": "Shared planning folders now hold quizzes, rubrics, and parent letters that a chatbot helped draft, and teams rarely talk about it. One teammate feels uneasy using an unmarked AI-written quiz; another quietly pasted student writing into a tool to get feedback ideas. This session gives a PLC a structured way to talk about it before it becomes a conflict: a Hopes, Hesitations, and Needs round built on three kinds of trust, a sort of realistic dilemmas, and a one-page set of team norms on disclosure, verification, and privacy that the team agrees to revisit.",
+  "objectives": [
+    "Participants will take part in an equal-voice trust protocol in which each speaker paraphrases the previous one before adding their own view.",
+    "Participants will sort shared-planning scenarios by what the team should do and justify each placement with a privacy, accuracy, or transparency reason.",
+    "Participants will draft team norms for AI use that include disclosure, a verification step, and a no-student-data rule, plus a date to revisit them.",
+    "The coach will identify at least one individual teacher's learning need from the protocol and plan a specific follow-up."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Trust Protocol Cards (1 set per team, cut apart)",
+      "Handout B: Shared Planning Dilemmas Sort (1 set per team, cut apart, plus the mat)",
+      "Handout C: Our Team's AI Norms (1 per team, plus copies for each member afterward)",
+      "A talking piece (any small object) and a timer"
+    ],
+    "digital": [
+      "Optional: the team's shared planning folder, open on one screen, so norms can be tested against real files",
+      "Optional: a shared document for the final norms, pinned at the top of the planning folder"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A and Handout B. Keep the three Trust Type cards separate; you will read them aloud in the Hook.",
+    "Look up your district's guidance on AI use and student data so you can answer \"Is this allowed?\" questions accurately in the sort. If there is no guidance, say so.",
+    "Bring a notebook page for yourself titled \"Follow-ups.\" You will note individual needs during the protocol, privately."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Who made this quiz?",
+      "body": "Describe a fictional moment: **\"You open your team's shared folder and find a new ten-question quiz for Friday. It's polished. Question 7 has two correct answers. There's no name on it and no note about how it was made.\"** Ask: \"What's your first feeling? What's your first question?\" Take three answers. Then read the three Trust Type cards from Handout A aloud: communicative, relational, and competence-based trust. Say: \"Norms only work on a team that trusts each other enough to say the uncomfortable thing. We start there.\"",
+      "note": "Answers usually split between \"who made it?\" and \"did anyone check it?\" Both are norm questions: disclosure and verification."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 13,
+      "title": "Hopes, Hesitations, and Needs",
+      "body": "Seat the team in a circle and use the talking piece. Run three rounds from the Handout A prompt cards: **Hopes** (\"One way AI could help our team plan better is…\"), **Hesitations** (\"One thing that worries me about AI in shared planning is…\"), and **Needs** (\"To trust a resource a teammate shares, I need to know…\"). The rule for every speaker after the first: paraphrase the person before you (\"What I hear you saying is…\") before adding your own answer. Anyone may pass once per round. The coach speaks last in each round and records Needs answers on chart paper, without names.",
+      "note": "Listen for individual needs, not just team themes: the teacher who has never used a chatbot, the one who worries about accusing students, the one who uses AI heavily and feels judged. Note each privately on your Follow-ups page. Following up within a week, with exactly what you promised, is what builds competence-based trust."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Sort the dilemmas",
+      "body": "The team sorts Handout B strips onto four columns: **Go ahead**, **Go ahead and disclose**, **Stop: remove student or colleague data first**, and **Pause: ask the team or district**. For every strip, someone must say the reason out loud using one of three words: *privacy*, *accuracy*, or *transparency*. Disagreements are welcome; place the strip on the line between columns and move on.",
+      "note": "Strips on the line are the most useful part of the sort. They are exactly where the team needs a norm. Don't resolve them yet."
+    },
+    {
+      "phase": "Create",
+      "minutes": 12,
+      "title": "Draft the norms",
+      "body": "Using the Needs chart and the strips on the line, the team completes Handout C. Push for norms written as actions a visitor could observe: \"We add a one-line note to any shared resource AI helped draft: tool, what it did, who checked it\" rather than \"We are transparent.\" Required: a **disclosure** norm, a **verification** norm, a **no student data in prompts** norm, a **trust** norm about how the team raises concerns, and a **revisit date**.",
+      "note": "Teams sometimes try to ban AI or require it. Steer toward norms about how the team works together, and let individual teachers decide about their own classrooms within district policy."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 5,
+      "title": "Test the norms",
+      "body": "Read the two test cases at the bottom of Handout C aloud. For each, the team asks: **\"Do our norms tell us what to do?\"** If not, revise one norm on the spot.",
+      "note": "The test cases are designed to find gaps: one about a parent letter translated by AI, one about a teammate who is uncomfortable using any AI-drafted material."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 3,
+      "title": "One word, and a win",
+      "body": "Close with a quick round: one word for how the team feels about AI in planning now. Then invite one person to name a teammate's idea from today that will help students. Say: \"We'll put these norms at the top of our folder and look at them again on the date we chose.\"",
+      "note": "Naming a colleague's contribution is a small act of relational trust. It also signals that the norms are the team's, not the coach's."
+    }
+  ],
+  "unplugged": "Everything runs in a circle with a talking piece, printed strips, and a paper norms sheet. A team with no devices loses nothing; the conversation is the work. Post the finished norms on the wall of the planning room.",
+  "digital": "Open the team's shared planning folder on one screen during the Apply step and test the norms against two or three real files: would they meet the disclosure norm? Move the final norms into a shared document pinned at the top of the folder, and add a disclosure-note template the team can copy. For a virtual PLC, run the rounds by calling names in a fixed order and use a four-column shared board for the sort.",
+  "whyTech": "This is better unplugged: trust is built face to face, and a screen invites side conversations. The digital step earns its place only when the team checks its norms against the real files in its shared folder, which turns abstract agreements into a concrete habit.",
+  "adaptations": [
+    { "label": "New or tense teams", "text": "Run only the Hopes and Needs rounds at the first meeting, and hold Hesitations for the second meeting once the paraphrase habit is familiar." },
+    { "label": "Campus leaders", "text": "Use the Pause column as your to-do list: each strip there is a question the campus or district needs to answer in writing." },
+    { "label": "Higher Ed departments", "text": "Swap two strips for syllabus-level dilemmas, such as sharing an AI-drafted course policy or rubric across sections." }
+  ],
+  "lookFors": [
+    "Every speaker after the first paraphrases the previous speaker before adding a view.",
+    "Sort placements are justified out loud with a privacy, accuracy, or transparency reason, and disputed strips are named rather than hidden.",
+    "The norms on Handout C are observable actions and include disclosure, verification, no student data in prompts, a way to raise concerns, and a revisit date.",
+    "The coach leaves with at least one named individual follow-up and a date to deliver it."
+  ],
+  "reflection": [
+    "To what extent am I fostering a collaborative culture among the educators I work with? (Coach ELE guiding question)",
+    "Which kind of trust, communicative, relational, or competence-based, is weakest on this team, and what is one thing I will do about it?",
+    "What would it look like, a month from now, for these norms to be working?"
+  ],
+  "transfer": "Deliver every follow-up you promised within a week. On the revisit date, open the shared folder with the team and check three recent resources against the norms. Ask students, too: a teacher can model the disclosure norm by telling a class which parts of a handout AI helped draft and how the teacher checked them.",
+  "connections": [
+    { "title": "TCEA Blog: Strategies for Building Trust in Instructional Coaching (Diana Benner, 2025)", "url": "https://blog.tcea.org/strategies-for-building-trust-in-instructional-coaching/", "note": "The three kinds of trust the protocol is built on." },
+    { "title": "Flip the Script: Better Campus Meetings", "url": "https://mglearn.github.io/tcea/cesm/", "note": "Meeting structures that keep the norms alive after this session." },
+    { "title": "Generative AI Adoption Checklist", "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/", "note": "Helps answer the questions that land in the Pause column." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Trust Protocol Cards",
+      "type": "cards",
+      "instructions": "Cut apart. The coach reads the three Trust Type cards in the Hook; the team uses the Round and Rule cards in the protocol. Backs are facilitator notes.",
+      "cards": [
+        { "label": "Trust Type · Communicative", "front": "Trust built by what we say and how we follow through on it: listening well, paraphrasing, being clear about expectations, and keeping shared notes so no one is surprised.", "back": "In this session: the paraphrase rule and the written norms." },
+        { "label": "Trust Type · Relational", "front": "Trust built by how we treat each other: noticing and celebrating wins, being present and dependable, and showing empathy when something is hard.", "back": "In this session: the closing win round, and taking hesitations seriously instead of arguing with them." },
+        { "label": "Trust Type · Competence-based", "front": "Trust built by doing what we said we would do, well: following through promptly on promised help, anticipating needs, and grounding advice in sound practice.", "back": "In this session: the coach's private follow-up list, delivered within a week." },
+        { "label": "Round 1 · Hopes", "front": "\"One way AI could help our team plan better is…\"", "back": "Hopes first lowers the temperature and reminds skeptics that the team is not choosing sides." },
+        { "label": "Round 2 · Hesitations", "front": "\"One thing that worries me about AI in shared planning is…\"", "back": "Do not answer or correct hesitations during the round. Record them. They become norms." },
+        { "label": "Round 3 · Needs", "front": "\"To trust a resource a teammate shares, I need to know…\"", "back": "Typical answers: who made it, whether anyone checked it, whether student information went into it. Each one is a norm." },
+        { "label": "Rule · Paraphrase first", "front": "Before you add your answer, restate the person before you: \"What I hear you saying is…\" Check: \"Did I get that right?\" Then add yours.", "back": "Slows the conversation just enough that people feel heard. Model it yourself if the first speaker skips it." },
+        { "label": "Rule · Equal voice", "front": "Speak only with the talking piece. Everyone speaks once per round. You may pass once. The coach speaks last.", "back": "The coach speaking last keeps the team's voice ahead of the coach's." },
+        { "label": "Closing · A win", "front": "\"One idea a teammate shared today that will help our students is…\"", "back": "Keep it specific and brief. It ends the session on shared purpose." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Shared Planning Dilemmas Sort",
+      "type": "sort",
+      "instructions": "Place each strip in a column and say your reason: privacy, accuracy, or transparency. If the team disagrees, put the strip on the line.",
+      "categories": ["Go ahead", "Go ahead and disclose", "Stop: remove student or colleague data first", "Pause: ask the team or district"],
+      "items": [
+        { "text": "Using an approved chatbot to brainstorm ten discussion questions for a novel, then choosing and editing four.", "answer": "Go ahead", "why": "Low risk; the teacher's judgment shapes the final product. Some teams will still want a disclosure note." },
+        { "text": "Sharing an AI-drafted quiz in the team folder for everyone to use on Friday.", "answer": "Go ahead and disclose", "why": "Transparency and accuracy: teammates need to know how it was made and who checked each item." },
+        { "text": "Pasting a student's essay, with the name, into a chatbot to get feedback ideas.", "answer": "Stop: remove student or colleague data first", "why": "Privacy: student work and names do not go into a prompt. Remove identifying details, or don't paste it at all." },
+        { "text": "Asking a chatbot to summarize last week's PLC notes, which include comments about two named students' behavior.", "answer": "Stop: remove student or colleague data first", "why": "Privacy: the notes identify students. Summarize by hand or remove names and details first." },
+        { "text": "Using AI to translate a newsletter to families into Spanish and Vietnamese.", "answer": "Pause: ask the team or district", "why": "Accuracy and access: families deserve an accurate translation; check whether the district has translation guidance or a human reviewer." },
+        { "text": "Generating a rubric with AI and adapting it to the team's writing standards.", "answer": "Go ahead and disclose", "why": "Transparency: note that AI drafted it and the team revised it." },
+        { "text": "Uploading the whole class roster with reading scores to an AI tool to form small groups.", "answer": "Stop: remove student or colleague data first", "why": "Privacy: never upload identifiable student data to a tool that is not district-approved for it." },
+        { "text": "A teammate uses a new AI lesson-plan app the district hasn't reviewed and wants to share its plans.", "answer": "Pause: ask the team or district", "why": "Privacy and accuracy: unreviewed tools raise data and quality questions the team can't settle alone." },
+        { "text": "Asking a chatbot for five common misconceptions about fractions, then checking them against the curriculum guide.", "answer": "Go ahead", "why": "Accuracy is handled by the check against a trusted source." },
+        { "text": "Creating an AI-generated image of a historical figure for a slide students will see.", "answer": "Go ahead and disclose", "why": "Transparency and media literacy: label it as generated so students don't mistake it for a historical image." },
+        { "text": "Writing an email to a colleague about a disagreement with AI help and sending it without reading it closely.", "answer": "Pause: ask the team or district", "why": "Trust: tone matters between colleagues. This one is better written, or at least reread, by the sender. Teams often move it to a trust norm." },
+        { "text": "Using AI to draft a parent email about a specific student's grades.", "answer": "Stop: remove student or colleague data first", "why": "Privacy: draft a general template without student details, then add specifics yourself." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Our Team's AI Norms",
+      "type": "worksheet",
+      "instructions": "Write each norm as an action a visitor could see. Test the draft against the two cases at the bottom.",
+      "sections": [
+        { "prompt": "Disclosure: When AI helps make something we share, we…", "lines": 2 },
+        { "prompt": "Verification: Before anything AI-drafted reaches students or families, we…", "lines": 2 },
+        { "prompt": "Privacy: We never put these into a prompt… (list them), and when in doubt we…", "lines": 3 },
+        { "prompt": "Trust: When someone is uncomfortable with a shared resource or with how AI was used, they can…, and we will…", "lines": 3 },
+        { "prompt": "Revisit: We will check these norms against real files in our shared folder on (date), and the person who brings three examples is…", "lines": 1 },
+        { "prompt": "Test case 1: A teammate used AI to translate a letter about the field trip into Arabic. A parent calls to say one sentence is confusing. Do our norms say what to do? What would we change?", "lines": 2 },
+        { "prompt": "Test case 2: A teammate says, \"I don't want to use any AI-drafted material with my students.\" Do our norms respect that and still let the team plan together? What would we change?", "lines": 2 }
+      ]
+    }
+  ]
+}

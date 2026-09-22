@@ -212,6 +212,24 @@
   ],
   "note": "Students read mock AI outputs through perspective lenses, quote words that reveal an assumption, and explain how training-data patterns produce stereotypes."
  },
+ "circles-not-screens": {
+  "teks": [
+   "ta-dc-8",
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "8.4",
+   "9.4",
+   "9.2",
+   "7.4"
+  ],
+  "sst": [],
+  "note": "Teachers run and plan community circles about students' online lives and rehearse a safe response to disclosure, preparing to teach healthy online relationships and safety."
+ },
  "co-creation-not-substitution": {
   "teks": [
    "ta-dc-9",
@@ -399,6 +417,22 @@
   "sst": [],
   "note": "Students combine a fictional classmate's posts to see what they reveal, then rewrite risky or hurtful ones, the grades 3–5 digital footprint and personal information expectations."
  },
+ "digital-learning-rounds": {
+  "teks": [],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "8.3",
+   "9.3",
+   "3.2",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Leaders practice descriptive classroom observation and pattern-finding about how students reason with technology and AI, then plan system-level next steps."
+ },
  "disclose-it": {
   "teks": [
    "ta-dc-9",
@@ -491,6 +525,26 @@
   ],
   "sst": [],
   "note": "Campus teams design family stations on how chatbots work, AI-generated images, and app privacy, extending student AI and privacy learning into homes."
+ },
+ "feedback-partners-ai-drafts": {
+  "teks": [
+   "elar-composition",
+   "elar-resp"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "8.5",
+   "8.3",
+   "5.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers practice peer feedback that judges AI revision suggestions with reasons, the same revising and questioning students do on their drafts."
  },
  "five-question-rollout-check": {
   "teks": [],
@@ -961,6 +1015,22 @@
   ],
   "sst": [],
   "note": "Students investigate cropped, edited, and AI-made photos by checking other coverage, reading images and captions as multimodal texts with a purpose."
+ },
+ "platform-pick-to-community-story": {
+  "teks": [],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "2.3",
+   "4.2",
+   "6.5",
+   "8.3"
+  ],
+  "sst": [],
+  "note": "Leaders choose a platform on evidence, accessibility, and privacy, then tell families the honest story in plain, multilingual language with a way to respond."
  },
  "primary-source-vs-ai-summary": {
   "teks": [

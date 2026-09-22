@@ -1,0 +1,296 @@
+{
+  "id": "wait-time-on-the-record",
+  "title": "Wait Time on the Record",
+  "tagline": "Coaches code a consented, timestamped classroom clip for questioning and wait time, test an AI summary against the timestamps, and write feedback a teacher can act on tomorrow.",
+  "audience": "pl",
+  "roles": [
+    "coaches",
+    "leaders"
+  ],
+  "grades": [
+    "K-12"
+  ],
+  "strands": [
+    "genai",
+    "digcit",
+    "medialit"
+  ],
+  "mode": "hybrid",
+  "minutes": 60,
+  "groupSize": "Pairs or trios; 6–40 people",
+  "eles": [
+    "C1.2",
+    "C3.3",
+    "C2.2",
+    "AI2.1",
+    "C1.1"
+  ],
+  "overview": "Video is one of the most useful things a coach can bring to a feedback conversation and one of the easiest to misuse. This session walks the micro-teaching video cycle (Empower, Implement, Investigate, Realize), which mirrors the Implement and Improve into Reflect and Realize phases of the TCEA EIIR coaching cycle. Coaches read the consent agreement and goal a teacher set, code a fictional timestamped transcript of a fifth-grade discussion about whether a viral hailstone photo is real, and measure wait time by hand with a Notice-Wonder-Next protocol. Then they test a confident AI-generated summary against their own data, decide whether an AI transcription tool belongs in their coaching at all, and write glows-and-grows feedback anchored to what students did.",
+  "objectives": [
+    "Participants will identify what a teacher must agree to, and what students and families must be protected from, before a lesson is recorded.",
+    "Participants will code a timestamped transcript for question type and wait time and use Notice-Wonder-Next to describe observable patterns in student responses, not impressions of the teacher.",
+    "Participants will test an AI-generated lesson summary against their own coding and decide when, if ever, an AI transcript or summary tool belongs in their coaching.",
+    "Participants will write feedback that cites a timestamp, names a glow, a grow, and a new target tied to the teacher's own goal, and leaves the decision with the teacher."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Consent Agreement, Transcript, and AI Summary (1 per person)",
+      "Handout B: Question and Wait Time Log (1 per pair)",
+      "Handout C: Consent, Privacy, and Feedback Checklist (1 per person)",
+      "A stopwatch or phone timer for the Hook"
+    ],
+    "digital": [
+      "Optional: a shared spreadsheet with Handout B's columns so pairs can total wait times automatically",
+      "Optional: an AI transcription or summary tool your district has approved, demonstrated by the facilitator only, on a short recording of the facilitator (never a student)"
+    ]
+  },
+  "prep": [
+    "Read Handout A and code the transcript yourself so you know the pattern: short waits and self-answered questions before 12:30, longer waits and deeper answers after the partner talk.",
+    "Decide whether you will demonstrate an approved transcription tool. If you do, record only yourself reading a few lines of the transcript. Do not use real classroom audio in PD.",
+    "Check your district's policy on recording in classrooms so you can answer questions accurately. Do not guess."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Five seconds of silence",
+      "body": "Ask the room an open question: **\"What makes feedback hard to hear?\"** Then say nothing. Start the stopwatch visibly and wait a full five seconds before calling on anyone, then another three after the first answer. Ask: \"How did that silence feel? What happened to the answers after the pause?\" Say: \"Wait time is easy to talk about and hard to see in your own teaching. That is why teachers ask coaches to record it.\"",
+      "note": "Five seconds feels long to adults. That discomfort is the insight teachers get when they see their own timestamps."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 8,
+      "title": "Empower: consent and a goal before the camera",
+      "body": "Pairs read the Consent Agreement and the teacher's RISE goal at the top of Handout A and use the Before section of Handout C. Ask: **\"Who owns this video? Who can see it? When is it deleted? What happens to the students who appear in it? Whose goal is the recording serving?\"** Pairs mark any line in the agreement they would add or change for their campus. Point out that the goal is **Relevant, Impactful, Specific, and Energized**, and that the teacher wrote it, not the coach.",
+      "note": "Look for pairs who notice that the teacher chose the focus, can stop the recording, and that the video never goes to evaluators. Elena Aguilar makes the point in *The Art of Coaching* that when coaching is tied to evaluation, teachers stop taking the risks that growth requires. Treat the recording the way you would a coaching walk: non-evaluative, about student learning, and on the teacher's terms."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 15,
+      "title": "Investigate: code the transcript by hand",
+      "body": "Pairs work through the transcript on Handout A and log each teacher question on Handout B: the time, the question, **open or closed**, the **wait time in seconds** (from the end of the question to the next voice), and **who spoke next** (student or teacher). When they finish, they total the waits before and after the 12:30 partner talk and complete **Notice-Wonder-Next** on the back of Handout B: *Notice* only what the timestamps and student words show; *Wonder* a question the teacher might want to explore; *Next* a possible move, held loosely until the teacher weighs in.",
+      "note": "Common slip: counting the teacher answering her own question as \"wait time.\" If the next voice is the teacher, log that and note it. Another slip: a Notice that is really a judgment (\"she rushed\"). Push for observable patterns: before 12:30, several questions got one or two seconds and three were answered by the teacher; after the partner talk, waits of four to eight seconds came with longer, more careful student answers."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 10,
+      "title": "Test the AI summary against the timestamps",
+      "body": "Pairs read the AI-generated summary at the bottom of Handout A and check each sentence against their log. For every claim, mark **Matches our data**, **Contradicts our data**, or **Can't be checked from the transcript**. Then ask: \"The tool's transcript had no pause timestamps. Could it have measured wait time at all?\" Pairs finish the During and After sections of Handout C and decide: **use the tool, use it only for a rough transcript we check by hand, or don't use it**.",
+      "note": "The summary contradicts the timestamps on wait time, and its question count and \"all students participated\" can't be verified. It also used student first names and was generated by a tool whose terms allow recordings to improve the product. Separate the accuracy question from the privacy question; both matter, and they may point to different decisions."
+    },
+    {
+      "phase": "Create",
+      "minutes": 12,
+      "title": "Realize: glows, grows, and a new target",
+      "body": "Each pair writes feedback on the back of Handout B in four parts: **a glow anchored to a timestamp and to what students did** (\"At 13:30, after about four seconds, a student added 'they could be wrong too,' which is exactly the doubt your goal is about\"), **a grow stated as a pattern in numbers** the teacher can check, **a new target** she could try tomorrow without a new tool, framed as a next RISE goal, and **one question** that hands the decision back to her. Pairs check their draft against the Feedback section of Handout C.",
+      "note": "Watch for feedback that grades the lesson (\"good discussion\") or the teacher (\"you need to slow down\") instead of describing student learning. Specific means a timestamp or a quotation; actionable means she could try it in the next lesson."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "Deliver it and listen",
+      "body": "In trios, one person plays Ms. Villanueva, one delivers the feedback, and one observes whether the teacher talked more than the coach. Swap once if time allows. Then ask the whole room: **\"What evidence will show that this feedback changed her practice?\"** Take answers such as a second recording in three weeks, a self-coded clip, or a student exit ticket asking whether they had time to think.",
+      "note": "The strongest measure is the teacher coding her own next clip. It moves the data into her hands and closes the Reflect and Realize phase with her own evidence."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 2,
+      "title": "Your campus version",
+      "body": "Each coach writes one change they will make to how they record, store, or summarize classroom video, and one teacher they will offer a self-coding cycle to this semester.",
+      "note": "If your campus has no written consent agreement for coaching video, the change may be drafting one with your principal."
+    }
+  ],
+  "unplugged": "Everything runs on paper: the transcript carries timestamps, so wait time is calculated by subtraction on Handout B. The AI summary is printed as a mock output, which keeps the activity free of real recordings and real student data. In a real coaching cycle without video, the coach can script the discussion by hand, writing the time in the margin every time a question is asked and when the next voice begins.",
+  "digital": "Pairs can log Handout B in a shared spreadsheet that totals wait time before and after 12:30. If you demonstrate an approved transcription tool, run it only on a recording of yourself reading lines from the transcript, then show the room what the tool's output kept (words) and dropped (pauses, overlapping voices, tone). In a virtual session, share Handout A as a document pairs can annotate and use breakout rooms for the delivery role-play.",
+  "whyTech": "Video and timestamps make wait time visible in a way memory never does, and a spreadsheet makes the before-and-after pattern easy for a teacher to see. An AI summary earns a place only if it keeps the evidence the teacher asked for and protects students; this session tests that rather than assuming it.",
+  "adaptations": [
+    {
+      "label": "Campus leaders",
+      "text": "Add a discussion of the line between coaching video and evaluation. Agree on who never sees coaching recordings and write that into the consent agreement."
+    },
+    {
+      "label": "Secondary coaches",
+      "text": "Swap the hailstone photo for a clip about a viral screenshot of a school board post, and code whether follow-up questions ask students to trace the claim."
+    },
+    {
+      "label": "Coaches without video permission",
+      "text": "Use live scripting: sit in the room, write every question verbatim, and note the time in the margin when the next voice starts. The coding and feedback steps are identical."
+    }
+  ],
+  "lookFors": [
+    "Handout B shows wait times calculated from the timestamps, and the Notice section of Notice-Wonder-Next uses numbers and student words, not adjectives about the teacher.",
+    "Pairs mark at least two AI summary claims as contradicted or uncheckable and name the student privacy issue separately from the accuracy issue.",
+    "Written feedback cites at least one timestamp, names a glow, a grow, and a new target tied to the teacher's RISE goal, and ends with a question that leaves the choice with the teacher."
+  ],
+  "reflection": [
+    "How am I using data to inform and guide my coaching practices? (Coach ELE guiding question)",
+    "What would a teacher need to believe about me before inviting me to record her class?",
+    "If an AI tool summarized my coaching conversations, what would it get wrong, and who would be harmed by the errors?"
+  ],
+  "transfer": "Offer one teacher the full micro-teaching cycle: they set a RISE goal, record a 10–15 minute discussion under a consent agreement, and code their own wait time with Handout B before you meet to investigate it together. Bring your campus's revised consent agreement to your next coaching team meeting.",
+  "connections": [
+    {
+      "title": "TCEA Blog: Coaching That Clicks With Micro-Teaching (Miguel Guhlin, 2026)",
+      "url": "https://blog.tcea.org/coaching-that-clicks-with-micro-teaching/",
+      "note": "The Empower, Implement, Investigate, Realize video cycle this session practices."
+    },
+    {
+      "title": "TCEA Blog: Introducing a Research-Based Coaching Cycle, TCEA EIIR (Miguel Guhlin, 2024)",
+      "url": "https://blog.tcea.org/introducing-a-research-based-coaching-cycle-tcea-eiir/",
+      "note": "Where video feedback fits: Implement and Improve, then Reflect and Realize."
+    },
+    {
+      "title": "PROTECT Rubric v2.0",
+      "url": "https://mglearn.github.io/tcea/protect_rubric_v2/",
+      "note": "Use it to evaluate any AI transcription or summary tool before it touches classroom recordings."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Consent Agreement, Transcript, and AI Summary",
+      "type": "reading",
+      "instructions": "Fictional materials from Cedar Bluff Elementary, Grade 5. Students are labeled S1–S8; the coach removed first names before sharing. Times are minutes:seconds into the recording.",
+      "paragraphs": [
+        "**Coaching Video Agreement (signed by Ms. Rosa Villanueva and coach Dana Whitfield).** (1) The teacher chooses the focus and wrote this RISE goal: *Relevant*, discussion is where my students practice checking what they see online; *Impactful*, more students give a reason, not just yes or no; *Specific*, I wait at least three seconds after open questions; *Energized*, I want to see this for myself, not be told. (2) The teacher can stop the recording at any time. (3) The recording is stored only in the teacher's district account and shared with the coach alone. (4) It is not used for evaluation and is not shared with administrators. (5) The camera faces the teacher; student faces are avoided, and students whose families declined photo or video permission sit out of frame. (6) The recording is deleted within 30 days of the feedback conversation. (7) Any transcript uses student numbers, not names.",
+        "**Context:** The class is looking at a projected photo posted by an account called @CountyWeatherWatch, showing a hailstone the size of a softball with the caption \"Our county last night!!\"",
+        "10:02 T: \"Okay, look at this photo. Someone posted it saying it fell in our county last night. Is it real?\" · 10:03 S1: \"Yes!\" · 10:03 S2: \"No, it's fake.\" · 10:04 T: \"Why do you think it's fake?\" · 10:05 S2: \"It's too big.\" · 10:06 T: \"Too big. Okay. What else could we check?\" · 10:07 T: \"Anyone? Who posted it, maybe? Yes, we could check who posted it.\"",
+        "10:15 T: \"Is @CountyWeatherWatch a news station?\" · 10:16 S3: \"I don't know.\" · 10:17 T: \"It's not, it's just an account. So should we trust it?\" · 10:18 S4: \"No.\" · 10:19 T: \"Right. And what about the size? Can hail get that big?\" · 10:20 T: \"It can, actually, sometimes. So size alone doesn't tell us.\"",
+        "12:30 T: \"Turn to your partner. What is one thing you could do to find out where this photo really came from? You have one minute.\" (Partner talk, 12:31–13:19.)",
+        "13:20 T: \"S5, what did your pair say?\" · 13:23 S5: \"We could see if a news station posted it too.\" · 13:26 T: \"Why would that help?\" · 13:30 S6: \"Because a news station would check first. Maybe. They could be wrong too.\" · 13:37 T: \"Say more about that.\" · 13:43 S6: \"Like if they just copied the post from the account.\"",
+        "13:47 T: \"So what would we really need to find?\" · 13:55 S7: \"The first person who posted it. The very first one.\" · 13:59 T: \"That's called tracing. How could we find the first one?\" · 14:06 S8: \"You can search with the picture. My brother did that.\" · 14:10 T: \"Let's try it.\" (End of excerpt.)",
+        "**AI-generated summary (mock output from a transcription tool a colleague tried; the tool's terms allow uploaded recordings to be used to improve the product).** \"In this lesson, Ms. Villanueva asked 14 questions, most of them higher-order. Wait time was consistently 3–5 seconds, giving students ample time to think. All students participated actively. Standout contributions came from Marisol and Jaden. Suggestion: incorporate more technology, such as a polling tool, to increase engagement.\""
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Question and Wait Time Log",
+      "type": "table",
+      "instructions": "Log every teacher question. Wait time = seconds from the teacher's question to the next voice. If the next voice is the teacher, write \"T\" in the last column. On the back: Notice-Wonder-Next, then glow, grow, new target, and one question.",
+      "columns": [
+        "Time",
+        "Teacher question (verbatim)",
+        "Open or closed?",
+        "Wait time (seconds)",
+        "Next voice: student # or T"
+      ],
+      "rows": [
+        [
+          "10:02",
+          "Is it real?",
+          "",
+          "",
+          ""
+        ],
+        [
+          "10:04",
+          "Why do you think it's fake?",
+          "",
+          "",
+          ""
+        ],
+        [
+          "10:06",
+          "What else could we check?",
+          "",
+          "",
+          ""
+        ],
+        [
+          "10:07",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "10:15",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "10:17",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "10:19",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "13:20",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "13:26",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "13:37",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "13:47",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "13:59",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Totals",
+          "Before 12:30: average wait ___ s · After 12:30: average wait ___ s",
+          "",
+          "",
+          "Teacher answered own question ___ times"
+        ]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Consent, Privacy, and Feedback Checklist",
+      "type": "checklist",
+      "instructions": "Before, during, and after any recorded coaching cycle. Mark each item for the Cedar Bluff case, then for your own campus.",
+      "scale": [
+        "Yes",
+        "Partly",
+        "No"
+      ],
+      "items": [
+        "Before: The teacher chose the focus and agreed in writing to the recording.",
+        "Before: The agreement says who can see the video, where it is stored, and when it is deleted.",
+        "Before: Students whose families declined photo or video permission are out of frame, and the camera faces the teacher.",
+        "Before: The agreement says the video is for coaching, not evaluation.",
+        "During: Any transcript replaces student names with numbers before anyone else sees it.",
+        "During: Any AI transcription or summary tool is district-approved, and its terms do not allow recordings to be used to train or improve the product.",
+        "During: We checked the tool's output against the recording or timestamps before using any of it.",
+        "After: The feedback cites at least one timestamp or direct quotation, and describes what students did, not just what the teacher did.",
+        "After: The feedback names a glow, a grow, and a new target the teacher could try tomorrow without a new tool.",
+        "After: The feedback ends with a question that leaves the decision with the teacher.",
+        "After: The recording was deleted on the agreed date, and the teacher was told."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "platform-pick-to-community-story",
+  "title": "From Platform Pick to Community Story",
+  "tagline": "A selection committee weighs three fictional math platforms on evidence, assessment data, accessibility, and privacy, then tells families the honest story of the choice in plain language, in more than one language, with a real way to talk back.",
+  "audience": "pl",
+  "roles": ["leaders", "staff"],
+  "grades": ["K-12"],
+  "strands": ["digcit", "genai", "medialit"],
+  "mode": "hybrid",
+  "minutes": 90,
+  "groupSize": "Committees of 5 (one per role card); any number of committees",
+  "eles": ["L2.2", "L3.3", "L3.2", "L5.2", "L5.1"],
+  "overview": "Choosing a digital curriculum platform is only half the job. The other half is explaining the choice to families who will see it on their child's screen every night. In this session, committees in fictional Laurel Ridge ISD compare three fictional grades 3–8 math platforms using the evidence behind their claims, the kind of assessment data they produce, accessibility, privacy, and AI features. They read a small local pilot honestly, choose, and then replace an overhyped AI-drafted announcement with a plain-language communication plan (newsletter blurb, family FAQ, social post) that says what they know, what they don't know yet, and how families can weigh in, in the district's main home languages.",
+  "objectives": [
+    "Participants will compare platform options against evidence, assessment-data, accessibility, and privacy criteria and cite the line in each profile behind every rating.",
+    "Participants will interpret a small local pilot honestly, naming what it can and cannot show, and choose one simple visual or statement to share it with families.",
+    "Participants will write a plain-language newsletter blurb, family FAQ, and social post that share evidence without overclaiming and invite feedback through at least one non-digital channel.",
+    "Participants will plan for multilingual access, including human review of any machine or AI translation by a fluent staff member or community partner."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The Laurel Ridge Platform Packet (1 per person)",
+      "Handout B: Selection Matrix (1 per committee, enlarged if possible)",
+      "Handout C: Community Communication Plan (1 per committee)",
+      "Role cards written on index cards: Curriculum Lead, Accessibility and Special Education, Data Privacy and Technology, Bilingual/ESL Coordinator, Family Representative",
+      "Chart paper and markers for the communication gallery"
+    ],
+    "digital": [
+      "Optional: one device per committee to draft the communication plan in a shared document",
+      "Optional: a generative AI chatbot your district approves, projected by the facilitator only, to demonstrate a first-pass translation that a fluent speaker then reviews"
+    ]
+  },
+  "prep": [
+    "Print Handouts A–C and make the five role cards for each committee. If your group has fewer than five per table, combine Curriculum Lead with Data Privacy.",
+    "Read the platform profiles closely. There is no single right answer: each option has a real strength and a real problem. The goal is a reasoned choice with conditions, not a winner.",
+    "Invite at least one bilingual colleague or community partner to review the committees' translated lines in the Create step, or plan to show the translation-review move yourself.",
+    "Decide whether committees will share communication plans as a gallery walk (unplugged) or in a shared folder (digital)."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "The announcement that wrote itself",
+      "body": "Read aloud the AI-drafted announcement at the top of Handout A. Ask: **\"If you were a parent, what would you believe after reading this? If you were the superintendent, which sentence would worry you most?\"** Collect two or three answers. Say: \"By the end of today, you'll have made the choice and written the version you could defend at a board meeting and a kitchen table.\"",
+      "note": "Participants usually flag \"proven,\" \"completely safe,\" and \"every student.\" Hype is a media literacy problem too; the families reading it deserve the same honesty we ask of students."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 20,
+      "title": "Read the packet in role",
+      "body": "Hand out role cards. Everyone reads the three platform profiles and the pilot notes on Handout A, but each person reads **through their role's lens** and marks lines with a symbol: ✓ strength, ✗ concern, ? need to ask. The Curriculum Lead watches instructional fit and evidence; Accessibility watches screen readers, captions, and alternatives; Data Privacy watches data use, retention, and AI training; Bilingual/ESL watches languages for students and families; the Family Representative asks, \"What will this look like at my kitchen table at 8 p.m.?\"",
+      "note": "The Family Representative role matters. Committees without one tend to pick for teacher convenience and discover the family problems after launch."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 15,
+      "title": "Fill the Selection Matrix",
+      "body": "Committees complete Handout B, rating each option **Strong, Mixed, or Weak** on each criterion and writing the exact line from the packet that justifies the rating. In the last column, they note **what would change our mind**: a question for the vendor, a condition in the contract, or a pilot measure.",
+      "note": "Look for committees that separate the vendor's own study from independent or local evidence, and that recognize an assessment dashboard's mastery percentage is not the same as item-level data a teacher can act on."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 10,
+      "title": "Decide, and read the pilot honestly",
+      "body": "Each committee makes a recommendation, with **conditions** (for example, \"Numina, only if the AI chat is off by default and student data is excluded from model training in the contract\"). Then they reread the Laurel Ridge pilot notes and write two sentences: **what the pilot shows** and **what it can't show yet**. They choose one way to share it with families: a single plain sentence, a simple labeled chart, or a student-work example, and explain why that choice won't mislead.",
+      "note": "The pilot is two classrooms for six weeks with no comparison group. It can show that students and teachers could use the platform and what they said about it. It can't show that the platform raised achievement. Saying so builds trust."
+    },
+    {
+      "phase": "Create",
+      "minutes": 25,
+      "title": "Write the community story",
+      "body": "Using Handout C, committees write a **newsletter blurb** (about 100 words), a **family FAQ** (four questions families will really ask, with honest answers), and a **social post** (under 50 words, with a clear way to learn more). Every piece must say what was chosen and why, one thing the district doesn't know yet, and how families can give feedback, including at least one non-digital channel. Then committees plan languages: which home languages, who writes or reviews each version, and how translation errors will be caught. If a bilingual colleague is present, they review one translated line per committee live.",
+      "note": "If a committee uses an AI chatbot for a first-draft translation, a fluent human reviewer is not optional. Watch for mistranslated technical terms like \"assessment,\" \"data,\" and \"opt out,\" which carry weight for families."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 10,
+      "title": "The kitchen-table read",
+      "body": "Committees post their blurbs and FAQs. Everyone does a gallery walk **in role as a family member** (a grandparent raising two grandchildren, a parent who works nights, a parent who reads Spanish more comfortably than English, a parent of a child who uses a screen reader, a parent worried about AI). On each poster, they leave one sticky note: **\"What I understood\"** and **\"What I still need to know.\"**",
+      "note": "The \"still need to know\" notes are the most useful feedback of the day. They're exactly the questions that would have flooded the front office after launch."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "The five questions, one more time",
+      "body": "Individually, participants check their committee's plan against the leaders' five questions: **What is the vision? What evidence will guide us? What changes in instruction? Who might be left out? How will families understand the change?** They circle the weakest answer and write one sentence about how they'd strengthen it before a real rollout.",
+      "note": "Most committees find \"What changes in instruction?\" is the weakest. A platform choice communicates a tool; families also want to know what their child's math class will look and feel like."
+    }
+  ],
+  "unplugged": "Run the whole session on paper: the packet, the matrix, handwritten communication drafts on chart paper, and a sticky-note gallery walk in family roles. For multilingual drafts, pair committees with bilingual colleagues or invite a community partner, such as a family literacy volunteer, to review translated lines in person.",
+  "digital": "Committees draft Handout C in a shared document so the gallery walk becomes comments in role. The facilitator can project an approved AI chatbot to produce a first-pass translation of one blurb, then have a fluent reviewer mark every change they'd make, which models why human review is required. For a real rollout, the same materials go out through the district's newsletter and family messaging tools, with a short feedback form and a paper option at every campus front office.",
+  "whyTech": "Drafting in a shared document leaves a record of how the message changed after the in-role feedback, and projecting an AI translation next to a human review shows the translation risk in a way a warning can't. The selection work itself is better on paper, where every rating has to point to a printed line.",
+  "adaptations": [
+    { "label": "Campus-level teams", "text": "Swap the math platforms for a campus decision you actually face (a reading intervention tool, an AI feature being switched on in an existing platform) and keep the same matrix and communication plan." },
+    { "label": "District communications staff", "text": "Spend more of the Create step on channel planning: which message goes to which audience, when, and how questions will be answered and tracked." },
+    { "label": "Short on time", "text": "Run a 60-minute version: skip role reading (everyone reads everything), compress the matrix to four criteria, and write only the family FAQ." },
+    { "label": "Emergent bilingual families", "text": "Ask the Bilingual/ESL role to test the FAQ with plain-language checks first. Simpler English translates better and reads better for everyone." }
+  ],
+  "lookFors": [
+    "Every rating on Handout B cites a specific line from the packet, and at least one rating distinguishes vendor-reported evidence from local evidence.",
+    "The committee's summary of the pilot names something it cannot show yet, and the chosen family visual or statement doesn't overstate the result.",
+    "Communication drafts include one honest unknown, a feedback invitation with a non-digital channel, and a named plan for human review of translations.",
+    "Gallery sticky notes in family roles get answered or reflected in a revised FAQ before the session ends."
+  ],
+  "reflection": [
+    "How do I guide the implementation of a digital curriculum so that families, not just staff, understand why it was chosen? (Leader ELE 2.2)",
+    "What assessment data will this platform give teachers, and what would it be inappropriate to use that data for? (Leader ELE 3.3)",
+    "Which families are least likely to see or understand our message, and what partnership would reach them? (Leader ELE 5.1)"
+  ],
+  "transfer": "Take the next platform, pilot, or AI feature decision on your campus and draft the family FAQ before the decision is final. Share it with two families from different backgrounds and revise from their questions.",
+  "connections": [
+    { "title": "TCEA ELEs Alignment Assistant", "url": "https://mglearn.github.io/tcea/eles/", "note": "Align your platform decision and communication plan to the leader ELEs." },
+    { "title": "Digital Accessibility Readiness Assessment", "url": "https://mglearn.github.io/tcea/a11y/", "note": "A deeper accessibility check for any platform you shortlist." },
+    { "title": "PROTECT Rubric v2.0", "url": "https://mglearn.github.io/tcea/protect_rubric_v2/", "note": "A structured privacy and safety review for tools with student data and AI features." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The Laurel Ridge Platform Packet",
+      "type": "reading",
+      "instructions": "Laurel Ridge ISD, all three platforms, and the pilot are fictional. Mark lines ✓ strength, ✗ concern, ? need to ask.",
+      "paragraphs": [
+        "**The AI-drafted announcement (first draft, not approved).** \"Exciting news! Laurel Ridge ISD is launching a revolutionary new math platform proven to boost scores for every student. Its AI tutor gives personalized help 24/7, and it is completely safe and secure. Families don't need to do anything. Your child's success is guaranteed!\"",
+        "**The decision.** Laurel Ridge ISD is choosing one digital math practice and formative assessment platform for grades 3–8. Many Laurel Ridge families speak Spanish at home, and there is a growing Vietnamese-speaking community. Many students do homework on a shared family phone. The board wants a recommendation and a family communication plan within the month.",
+        "**Option 1 · TallyPath Math.** Adaptive practice with a teacher dashboard showing each student's mastery percentage by standard; item-level responses are available only as a paid add-on. Evidence: a vendor-funded study in another state describes gains for students who used it at least 60 minutes a week, with no comparison group reported. Accessibility: the vendor states it meets accessibility guidelines; its own help page notes that drag-and-drop problems don't work with screen readers yet. Languages: student interface in English and Spanish; family reports in English only. Privacy: data is deleted within 90 days of contract end; no AI features. Requires a steady internet connection.",
+        "**Option 2 · Numina Practice.** Practice problems plus an AI chat tutor that students can ask for hints. Teacher dashboard shows item-level answers, common errors, and a transcript of each student's AI chat. Evidence: the vendor cites \"thousands of satisfied teachers\" and one case study from a single school. Accessibility: works with screen readers and has captions on all videos. Languages: student and family interfaces in English, Spanish, and Vietnamese. Privacy: terms state that \"de-identified student interactions may be used to improve our AI models\"; the AI chat is on by default; retention period is not stated. Works offline and syncs later.",
+        "**Option 3 · OpenSteps Math.** A lower-cost option built around openly licensed lessons, with short digital check-ins teachers write or choose. Dashboard shows item-level results but no adaptive practice. Evidence: none beyond teacher testimonials; the lessons follow a published curriculum framework. Accessibility: plain text and images with alt text, works with screen readers, printable versions of every check-in. Languages: lessons in English and Spanish; teachers must translate their own check-ins. Privacy: stores only student name, class, and responses; data deleted on request; no AI features. Requires much more teacher planning time.",
+        "**Laurel Ridge pilot notes (two grade 5 classrooms, six weeks, fall).** Both classrooms tried TallyPath for three weeks and Numina for three weeks. Teachers said Numina's error reports helped them plan small groups. Several students said Numina's AI hints \"just gave the answer\" when they asked twice. One student who uses a screen reader could complete Numina problems but not TallyPath's drag-and-drop items. Families of four students asked the front office what the AI chat was and whether it recorded their child. Scores on the unit test were similar across both classes. No classroom used OpenSteps.",
+        "**Questions the board has already asked.** \"Which one works?\" \"What does it cost to train teachers?\" \"What happens to student data?\" \"Will families be able to help with homework?\""
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Selection Matrix",
+      "type": "table",
+      "instructions": "Rate each option Strong, Mixed, or Weak and quote the line from the packet behind it. Use the last column for conditions, questions, or pilot measures.",
+      "columns": ["Criterion", "TallyPath Math", "Numina Practice", "OpenSteps Math", "What would change our mind?"],
+      "rows": [
+        ["Instructional fit for grades 3–8 math", "", "", "", ""],
+        ["Quality of evidence (who studied it, how, and how close to us?)", "", "", "", ""],
+        ["Assessment data: what teachers see and can act on; uses to avoid", "", "", "", ""],
+        ["Accessibility (screen readers, alternatives, offline and shared-phone use)", "", "", "", ""],
+        ["Privacy, data retention, and AI features", "", "", "", ""],
+        ["Languages for students and families", "", "", "", ""],
+        ["Cost, training, and teacher time", "", "", "", ""]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Community Communication Plan",
+      "type": "worksheet",
+      "instructions": "Write for a busy family member reading on a phone. Every piece says what, why, one honest unknown, and how to give feedback.",
+      "sections": [
+        { "prompt": "Newsletter blurb (about 100 words): what we chose, why, what the pilot showed and didn't show, and how to weigh in:", "lines": 7 },
+        { "prompt": "Family FAQ: four questions families will really ask (about homework, AI, data, and access), each with a short honest answer:", "lines": 8 },
+        { "prompt": "Social post (under 50 words) with a clear next step. Read it aloud: does any word promise more than the evidence shows?", "lines": 3 },
+        { "prompt": "Languages and access: which languages, who drafts and who reviews each version (staff or community partner), and how you'll reach families without reliable internet. Example of a reviewed Spanish line: \"Queremos escuchar su opinión antes de tomar la decisión final.\"", "lines": 4 },
+        { "prompt": "Feedback loop: two ways families can respond (at least one non-digital), who reads the responses, and when you'll report back what changed:", "lines": 3 },
+        { "prompt": "Partners: one community organization (a library, a faith group, a family literacy program, a youth league) that could help families try the platform and ask questions:", "lines": 2 }
+      ]
+    }
+  ]
+}

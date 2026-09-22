@@ -1,0 +1,153 @@
+{
+  "id": "is-this-health-advice-real",
+  "title": "Is This Health Advice Real?",
+  "tagline": "Students check influencer clips, supplement ads, forum posts, and a chatbot answer about wellness by reading laterally, then decide when a question belongs with a trusted adult or clinician.",
+  "audience": "student",
+  "grades": ["9-12"],
+  "strands": ["medialit", "genai"],
+  "mode": "hybrid",
+  "minutes": 50,
+  "groupSize": "Teams of 3; any number of teams",
+  "eles": ["S2.2", "AI4.1", "S5.1"],
+  "overview": "Teens meet health and wellness claims everywhere: a fitness influencer's morning routine, a sponsored supplement ad, a forum thread at 1 a.m., a chatbot that answers any question in a confident paragraph. In this activity, teams sort eight clearly fictional health posts by who is behind them, what they want, and what better sources say, using lateral reading instead of gut feeling. The goal is not to decide what is medically true. It is to build a repeatable habit for checking health information and to know when the right next step is a person, not another search.",
+  "objectives": [
+    "Students will apply lateral reading to at least four health or wellness claims and name the move that changed or confirmed their verdict.",
+    "Students will identify persuasion and profit cues (sponsorship, urgency, miracle language, fake credentials) in health content.",
+    "Students will trace the claims in a mock AI chatbot health answer and explain why a fluent answer still needs a qualified source.",
+    "Students will write a personal plan naming when they would take a health question to a trusted adult, school nurse, or clinician."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Health Post Cards (1 set per team, cut apart; print the card backs separately as the facilitator key and \"Other sources\" slips)",
+      "Handout B: Health Claim Check Log (1 per team)",
+      "Handout C: My Health Info Game Plan (1 per student)",
+      "Sticky notes in three colors, or index cards labeled Trust · Doubt · Ask a Pro"
+    ],
+    "digital": [
+      "One device with a browser per team for the lateral-reading round",
+      "Optional: a generative AI chatbot your district approves, projected by the teacher only, for the live comparison in the Debrief"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Keep the backs as your key and cut the \"Other sources\" text into slips for the unplugged path.",
+    "Read every card back. Your job is to coach the checking moves, not to rule on the health question. If a student asks \"so what's the right answer?\", the answer is \"a qualified source, and for your own body, a clinician.\"",
+    "Find out who your school nurse and counselor are and how students reach them, so you can name them in the Apply step.",
+    "Be ready for personal disclosures. Some students have real health worries. Remind the class that no one shares their own health details today, and follow up privately if a student seems concerned."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Would you try it?",
+      "body": "Read Card 1 aloud (the \"Glow Reset\" tea influencer). Ask: **\"Would you try it, skip it, or want to know more first?\"** Students vote with a hand signal. Then ask: \"What made you lean that way: the person, the before-and-after, the comments?\" List a few reasons on the board without judging them. Say: \"Health posts are designed to feel personal and urgent. Today you'll learn the checking moves that work even when a post feels convincing.\"",
+      "note": "Make it clear up front: every person, product, and site on the cards is invented. We are practicing moves, not reviewing real products."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Round 1: judge it from the post alone",
+      "body": "Teams draw Cards 2–5 and may use **only what is on the card**. For each, they log on Handout B: What is the claim? Who is behind it? What do they want me to do (buy, share, stop, worry)? Verdict: **Trust, Doubt, or Ask a Pro**, with a confidence score from 1–5.",
+      "note": "Listen for \"she's a nurse, so it's true\" or \"it has lots of five-star reviews.\" Those are the vertical-reading habits you'll revisit."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "Think aloud: three questions for health info",
+      "body": "Model on Card 3 (the supplement ad). Narrate three moves out loud: **1. Who's behind it?** Search the brand or person's name plus words like \"sponsored\" or \"who owns.\" **2. What do better sources say?** Search the claim itself and look for hospitals, university health centers, public health agencies, or medical organizations that explain the topic, with a named reviewer and a date. **3. Is this a question for a person?** If the post asks you to change what you eat, take, or skip for your own body, the next step is a trusted adult or clinician. Point out what you do *not* do: trust the testimonials, the lab coat, or the number of followers.",
+      "note": "Unplugged: read the \"Other sources\" slip aloud as though it were your search results. The move of leaving the post to check elsewhere is the same."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Round 2: read laterally, including the chatbot",
+      "body": "Teams re-check Cards 2–5 and take on Cards 6–8, with roles rotating each card: **Searcher** (drives the device or asks for the slip), **Skeptic** (asks \"who profits?\"), **Scribe** (logs moves on Handout B). Card 7 is a mock AI chatbot answer. Teams must pull out each factual claim in it and mark which ones they could trace to a reliable source and which they could not.",
+      "note": "Most teams find the chatbot answer is calm and partly sensible, with one invented statistic and a made-up \"study.\" The lesson: an AI answer has no author to investigate, so tracing claims is the only check, and a chatbot is not a clinician."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 7,
+      "title": "What flipped, and what belongs with a person?",
+      "body": "Compare Round 1 and Round 2 confidence scores. Ask: **\"Which cards flipped? Which move flipped them?\"** Then sort the cards on the board into three columns: *Trust the source*, *Doubt it*, *Take it to a person*. Ask: \"Why does Card 8 (the forum post about stopping a prescription) go in the last column even if the poster means well?\" Build a class list: **Signs a health post needs a second look**: selling something, miracle or guaranteed results, a short timeline, fake or vague credentials, \"doctors don't want you to know,\" no date or reviewer, and advice to stop or start something on your own.",
+      "note": "If you project an approved chatbot, ask it a general wellness question and have students spot whether it tells them to see a clinician, cites sources, or states numbers without a trace. Don't enter any personal health details."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 6,
+      "title": "My game plan",
+      "body": "Each student completes Handout C: two go-to kinds of reliable sources, the three questions they'll ask of any health post, and the trusted people they could take a question to (a family member, school nurse, counselor, doctor or clinic). Name your school nurse and counselor and how to reach them.",
+      "note": "Handout C stays private. Students write roles or initials, not personal health details."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 3,
+      "title": "Exit ticket",
+      "body": "On a sticky note, students finish: **\"The next time a health post makes me want to buy, stop, or worry, I will first…\"** Collect them as you would an exit ticket.",
+      "note": "Look for a named move (search the source, find better coverage, trace the claim) or a named person, not \"be careful.\""
+    }
+  ],
+  "unplugged": "Run both rounds on paper. The card backs include an \"Other sources\" note describing what a lateral search would turn up. When a team asks \"what do other sources say?\", hand them that slip. Asking for the slip is the visible habit you want. Model the chatbot card by reading it aloud as a printed AI answer, and have teams underline each claim before you hand them the trace slip.",
+  "digital": "Give each team one device for Round 2 only, so Round 1 stays a pure read of the post itself. Teams search the fictional names and discover they return nothing, then search the claim to find reliable health organizations explaining the topic. In an LMS, post the cards as a slide deck and have scribes fill Handout B as a shared table. Only the teacher runs any AI chatbot, on the projector, with no personal information entered.",
+  "whyTech": "Live searching shows students how quickly a lateral check turns up a sponsor, a missing credential, or a better explanation from a medical organization, and how a chatbot answer can sound right while inventing a number. That speed and contrast is the evidence of learning paper can only describe.",
+  "adaptations": [
+    { "label": "Grades 6–8", "text": "Use Cards 1, 3, 7, and 8 and shrink the moves to two: \"Who is selling or sharing this?\" and \"Who could I ask?\" Make the trusted-adult plan the main product." },
+    { "label": "Health science or CTE classes", "text": "Add a round comparing two reliable sources on the same topic and discuss why a reviewer's name, a review date, and cited guidance matter in patient education materials." },
+    { "label": "Emergent bilinguals", "text": "Pre-teach claim, sponsor, credential, and clinician with visuals, and let teams search in their strongest language; many health organizations publish reliable information in several languages." },
+    { "label": "Sensitive topics", "text": "If your class includes students managing a health condition, keep all cards general, never ask for examples from students' lives, and point to the nurse and counselor privately." }
+  ],
+  "lookFors": [
+    "Handout B shows at least one changed verdict that names the move responsible, such as \"Searched the brand: owned by the company selling it.\"",
+    "Teams break the chatbot answer into separate claims and mark each as traced or untraceable instead of trusting or rejecting it whole.",
+    "Students place advice to start, stop, or change something for their own body in the \"take it to a person\" column and explain why.",
+    "Exit tickets name a specific checking move or trusted person."
+  ],
+  "reflection": [
+    "How do I know if a health source online is trustworthy, and what move did I use to find out? (Student ELE S2.2)",
+    "What did the chatbot answer get right, what did it invent, and how did I tell the difference?",
+    "Which health questions would I rather take to a person than a search bar, and why?"
+  ],
+  "transfer": "In the next lesson, students bring one health or wellness claim they have seen (without personal details) and run it through the three questions for a partner. At home, they can share the class list of \"signs a health post needs a second look\" with a family member.",
+  "connections": [
+    { "title": "Digital Inquiry Group: Civic Online Reasoning", "url": "https://cor.inquirygroup.org/", "note": "Free lateral reading lessons that pair well with Round 2." },
+    { "title": "News Literacy Project", "url": "https://newslit.org/", "note": "Lessons on sponsored content, misinformation, and checking viral claims." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Health Post Cards",
+      "type": "cards",
+      "instructions": "Every person, brand, and site on these cards is fictional. Keep the stack face down and flip one card at a time. Backs are the teacher key and \"Other sources\" slips.",
+      "cards": [
+        { "label": "Card 1 · Influencer video", "front": "@GlowWithJaylee (410K followers), 30-second video: \"I drink Glow Reset tea every morning and my skin cleared up in a week. It flushes out toxins. Use my code JAYLEE20!\" Caption: #ad #selfcare", "back": "Other sources: the #ad tag and discount code mean she is paid when you buy. Searching the brand turns up only its own store. Medical organizations explain that your liver and kidneys already filter the body and that \"flushes toxins\" is a marketing phrase, not a measured result. Verdict: Doubt. A paid post is an ad, even when it feels personal." },
+        { "label": "Card 2 · Health system page", "front": "A web page from Riverbend Regional Health titled \"Sleep and Teens,\" listing a medical reviewer by name and credentials, a \"last reviewed\" date, links to the guidance it summarizes, and a note: \"This information does not replace advice from your own clinician.\"", "back": "Other sources: a search shows Riverbend Regional Health is a hospital system, and other medical organizations explain the same topic in similar ways. Verdict: Trust the source for general information. Note the habits that earn trust: a named reviewer, a date, links to guidance, and a reminder to see your own clinician." },
+        { "label": "Card 3 · Supplement ad", "front": "Sponsored ad: \"FocusMax Pro, the #1 study supplement! Doctor-formulated. Boost your brain power 300% before finals. Only 12 bottles left at this price!\" A person in a lab coat smiles next to the bottle.", "back": "Other sources: searching \"FocusMax Pro\" finds only sellers. The \"doctor\" has no name, so there is nothing to check. \"300%\" has no source. Urgency (\"only 12 left\") and miracle numbers are persuasion cues. Supplements should be discussed with a clinician before taking them. Verdict: Doubt, and Ask a Pro." },
+        { "label": "Card 4 · Forum post", "front": "Post on a fitness forum by user LiftLife_88: \"Skip breakfast and train fasted, it's the only way to get lean. Anyone who says otherwise is stuck in the past. Trust me, I've been lifting 10 years.\"", "back": "Other sources: LiftLife_88 is anonymous; \"10 years lifting\" is experience, not a health credential. Searching the claim shows reliable sources describe different approaches that work for different people, and suggest talking with a clinician or registered dietitian before big changes, especially for teens. Verdict: Doubt. Watch for \"the only way\" language." },
+        { "label": "Card 5 · Viral screenshot", "front": "A screenshot shared 22K times: \"New study: teens who use phones after 9 p.m. lose 2 hours of sleep every night. Share to warn your friends!\" No link, no author, no study name.", "back": "Other sources: no original study can be found from the screenshot. Reliable sources do discuss screens and sleep, but the specific number cannot be traced. Verdict: Doubt the number; the topic is worth reading about from a better source. An untraceable number is a finding, not a fact." },
+        { "label": "Card 6 · \"Doctor\" account", "front": "Video from @DrWellnessCoach: \"As a doctor, I tell all my patients to cut out fruit completely. Sugar is sugar.\" Profile bio: \"Wellness doctor. DM for my 30-day plan, $49.\"", "back": "Other sources: searching the account finds no name, no clinic, and no license listed; the \"doctor\" title cannot be checked, and the bio sells a plan. Reliable nutrition sources generally include fruit as part of healthy eating. Verdict: Doubt. A title in a username is not a credential you can verify." },
+        { "label": "Card 7 · AI chatbot answer", "front": "A chatbot's answer to \"How much water should a teenager drink?\": \"Great question! Needs vary with age, size, activity, and weather, so there is no single number for everyone. Many people get fluids from both drinks and food. A 2023 Harvale University study found that 78% of teens are chronically dehydrated. Drinking a gallon a day is safe for everyone and improves test scores.\"", "back": "Trace each claim. The first two sentences match what medical organizations generally say. \"Harvale University\" and its \"78%\" cannot be found: the model produced a plausible-sounding study. \"Safe for everyone\" and \"improves test scores\" are sweeping claims with no source, and a fixed amount is not right for every person. Verdict: partly reasonable, partly invented. For your own needs, ask a clinician." },
+        { "label": "Card 8 · Group chat advice", "front": "A message in a support group chat: \"My doctor put me on allergy medicine but I stopped taking it and switched to essential oils. Way better! You should all try it, you don't need the pharmacy stuff.\"", "back": "Other sources: the poster may mean well, but a stranger's experience cannot tell you what is right for your body. Reliable health sources advise talking with the prescriber before stopping or changing any medicine. Verdict: Ask a Pro. Advice to stop or start something on your own always goes to a clinician or trusted adult." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Health Claim Check Log",
+      "type": "table",
+      "instructions": "Log both rounds. In Round 2, name the move that changed or confirmed your verdict: Who's behind it? · What do better sources say? · Is this a question for a person?",
+      "columns": ["Card", "Round 1: claim, who's behind it, verdict + confidence (1–5)", "Move used in Round 2", "What we found", "Round 2 verdict: Trust · Doubt · Ask a Pro"],
+      "rows": [["1", "", "", "", ""], ["2", "", "", "", ""], ["3", "", "", "", ""], ["4", "", "", "", ""], ["5", "", "", "", ""], ["6", "", "", "", ""], ["7 (AI): list each claim", "", "", "", ""], ["8", "", "", "", ""]]
+    },
+    {
+      "id": "C",
+      "title": "My Health Info Game Plan",
+      "type": "worksheet",
+      "instructions": "This plan is for you. Do not write personal health details. Use roles or initials for people.",
+      "sections": [
+        { "prompt": "Two kinds of sources I'll look for when I have a general health question (for example, a hospital or university health center, a public health agency, a medical organization), and one sign that tells me a page is reliable:", "lines": 3 },
+        { "prompt": "The three questions I'll ask of any health post, ad, or chatbot answer, in my own words:", "lines": 3 },
+        { "prompt": "Three warning signs that a health post is trying to sell, scare, or rush me:", "lines": 3 },
+        { "prompt": "When I use a chatbot for a general health question, what I will check before I believe it, and what I will never type into it:", "lines": 3 },
+        { "prompt": "Trusted people I could take a health question to (a family member, the school nurse, a counselor, a doctor or clinic), and how I would reach them:", "lines": 3 },
+        { "prompt": "A question that should go to a person, not a search bar, and why:", "lines": 2 }
+      ]
+    }
+  ]
+}
