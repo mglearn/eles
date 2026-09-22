@@ -1,0 +1,25 @@
+{
+ "_about": "Search topics. An activity is tagged with a topic when a synonym appears in its title, tagline, or overview, or at least twice anywhere in its English text. Tagged activities are then found by the topic name or any synonym, in every language. Labels are translated in data/i18n/<lang>/ui.json as topic.<id>.",
+ "topics": [
+  { "id": "screentime", "label": "screen time", "synonyms": ["screen time", "screentime", "screen-time", "screen use", "device use", "school-issued device", "hb 1481", "media plan", "green time", "unplugged time"] },
+  { "id": "deepfakes", "label": "deepfakes", "synonyms": ["deepfake", "synthetic media", "synthetic audio", "voice clone", "cloned voice", "cheapfake", "ai-generated image", "manipulated video"] },
+  { "id": "misinformation", "label": "misinformation", "synonyms": ["misinformation", "disinformation", "rumor", "viral", "fake news", "fact-check", "lateral reading", "sift"] },
+  { "id": "privacy", "label": "privacy", "synonyms": ["privacy", "personal information", "personal data", "data trail", "digital footprint", "tracking", "de-identif"] },
+  { "id": "security", "label": "scams and security", "synonyms": ["phishing", "scam", "password", "passphrase", "two-step", "cybersecurity", "malware", "hacked"] },
+  { "id": "kindness", "label": "kindness and cyberbullying", "synonyms": ["cyberbullying", "upstander", "kind words", "unkind", "group chat", "respectful communication"] },
+  { "id": "copyright", "label": "copyright and credit", "synonyms": ["copyright", "fair use", "creative commons", "give credit", "citation", "cite", "remix", "intellectual property"] },
+  { "id": "integrity", "label": "academic integrity", "synonyms": ["academic integrity", "disclosure", "disclose", "ai-use statement", "cheating", "detector", "process log"] },
+  { "id": "bias", "label": "bias and fairness", "synonyms": ["bias", "stereotype", "fairness", "who is missing", "whose story", "representation"] },
+  { "id": "hallucination", "label": "AI hallucinations", "synonyms": ["hallucinat", "confidently wrong", "fabricated", "made-up citation", "verify", "verification"] },
+  { "id": "howaiworks", "label": "how AI works", "synonyms": ["next word", "next-word", "predict", "pattern", "training data", "language model"] },
+  { "id": "prompting", "label": "prompting", "synonyms": ["prompt", "custom instructions", "instructions for a", "clear directions"] },
+  { "id": "algorithms", "label": "algorithms and feeds", "synonyms": ["algorithm", "feed", "recommendation", "engagement design", "scroll"] },
+  { "id": "wellbeing", "label": "wellbeing and balance", "synonyms": ["wellbeing", "well-being", "balance", "sleep", "companion chatbot", "emotional support"] },
+  { "id": "accessibility", "label": "accessibility and inclusion", "synonyms": ["accessib", "screen reader", "udl", "inclusive", "emergent bilingual", "digital divide", "who gets left out"] },
+  { "id": "policy", "label": "AI policy and guidance", "synonyms": ["policy", "guidance statement", "acceptable use", "guardrail", "board"] },
+  { "id": "data", "label": "data and dashboards", "synonyms": ["dashboard", "data team", "chart", "student data", "data snapshot"] },
+  { "id": "families", "label": "families and community", "synonyms": ["family night", "families", "parent", "community", "take-home"] },
+  { "id": "futures", "label": "futures thinking", "synonyms": ["futures wheel", "future headline", "pre-mortem", "backcast", "signal"] },
+  { "id": "ads", "label": "ads and persuasion", "synonyms": ["advertis", "sponsored", "clickbait", "persuasion", "vendor claim", "marketing"] }
+ ]
+}

@@ -528,3 +528,10 @@ a.std:hover { border-color: currentColor; }
 .hero-text p { font-size: 1rem; line-height: 1.55; }
 .hero-photo { aspect-ratio: 5 / 2; max-width: 560px; margin: 4px 0 16px; }
 .hero-note { margin-bottom: 0; }
+.hero-search { display: flex; gap: 8px; margin: 18px 0 8px; max-width: 560px; }
+.hero-search input { flex: 1; min-width: 0; font: 400 .95rem var(--sans); padding: 9px 12px; border-radius: 8px; border: 1.5px solid rgba(255,255,255,.3); background: rgba(255,255,255,.08); color: #fff; }
+.hero-search input::placeholder { color: rgba(255,255,255,.6); }
+.hero-search input:focus { outline: none; border-color: var(--gold); background: rgba(255,255,255,.14); }
+.hero-search .btn { padding: 8px 16px; }
+.hero-topics { font-size: .85rem !important; color: rgba(255,255,255,.7) !important; margin: 0; display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.hero-topics a { color: var(--gold-light); }

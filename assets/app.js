@@ -29,13 +29,16 @@
     if (f.role.length && !f.role.some(r => d.roles.includes(r))) return false;
     if (f.time.length && !timeOk(d.minutes, f.time)) return false;
     if (area && !d.areas.includes(area)) return false;
-    if (f.q) for (const w of f.q.split(/\s+/)) if (w && !d.text.includes(w.replace(/[–—]/g, '-'))) return false;
+    if (f.q && f.phrase) { if (!d.text.includes(f.q.replace(/[–—]/g, '-'))) return false; }
+    else if (f.q) for (const w of f.q.split(/\s+/)) if (w && !d.text.includes(w.replace(/[–—]/g, '-'))) return false;
     return true;
   }
 
   function apply(push) {
     const f = Object.fromEntries(KEYS.map(k => [k, checked(k)]));
     f.q = norm(q.value.trim());
+    // multi-word searches look for the exact phrase first ("screen time"), then all the words
+    f.phrase = f.q.includes(' ') && data.some(d => d.text.includes(f.q.replace(/[–—]/g, '-')));
     let n = 0;
     for (const c of cards) { const ok = matches(byId[c.dataset.id], f); c.hidden = !ok; if (ok) n++; }
     count.textContent = n === data.length ? t('f.all', { n }) : t('f.some', { n, total: data.length });
@@ -90,5 +93,14 @@
   form.addEventListener('change', setToggle);
   document.getElementById('clear').addEventListener('click', setToggle);
   setToggle();
+  // hero search box and topic links feed the catalog search
+  const hq = document.getElementById('hq');
+  const go = v => {
+    q.value = v; if (hq) hq.value = v; apply(true);
+    document.getElementById('catalog').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+  };
+  if (hq) { hq.value = q.value; hq.closest('form').addEventListener('submit', e => { e.preventDefault(); go(hq.value.trim()); }); }
+  q.addEventListener('input', () => { if (hq) hq.value = q.value; });
+  document.querySelectorAll('.hero-topics a[data-q]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); go(a.dataset.q); }));
   apply(false);
 })();

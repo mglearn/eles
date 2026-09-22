@@ -81,6 +81,16 @@ const TEKS_SECTIONS = {
   ta: { 'K-2': '§126.5–§126.7', '3-5': '§126.8–§126.10', '6-8': '§126.17–§126.19' },
   elar: { 'K-2': '§110.2–§110.4', '3-5': '§110.5–§110.7', '6-8': '§110.22–§110.24', '9-12': '§110.36–§110.39' },
 };
+// Search topics (data/topics.json): tag each activity from its English text
+const TOPICS = (readJson(path.join(ROOT, 'data/topics.json')) || { topics: [] }).topics;
+const allText = o => typeof o === 'string' ? o : Array.isArray(o) ? o.map(allText).join(' ') : o && typeof o === 'object' ? Object.values(o).map(allText).join(' ') : '';
+const ACT_TOPICS = {};
+for (const a of ACTS_EN) {
+  const head = [a.title, a.tagline, a.overview].join(' ').toLowerCase(), body = allText(a).toLowerCase();
+  const count = (txt, w) => txt.split(w).length - 1;
+  ACT_TOPICS[a.id] = TOPICS.filter(tp => tp.synonyms.some(w => head.includes(w) || count(body, w) >= 2)).map(tp => tp.id);
+}
+const HERO_TOPICS = ['screentime', 'deepfakes', 'privacy', 'hallucination', 'copyright'];
 // Guide page: activities for the screen-time conversation (missing ids are skipped)
 const SCREEN_ACTS = ['minutes-with-a-purpose', 'screens-at-school-screens-at-home', 'does-this-need-a-screen', 'screen-time-green-time', 'evidence-before-tools', 'five-question-rollout-check', 'the-feed-game', 'algorithm-autopsy'];
 // TCEA's own ELE infographic slides (source_materials deck), shown on the framework page
@@ -457,10 +467,17 @@ ${scripts.replace(/\{root\}/g, root)}
       <p>${esc(t('home.intro', { n: acts.length, pl: nPL, st: acts.length - nPL, un: acts.filter(a => a.mode === 'unplugged').length }))}</p>
       ${hasImg('hero-home') ? `<figure class="hero-photo">${pic('hero-home', root, { lazy: false })}</figure>` : ''}
       <p class="hero-note">${esc(t('home.note'))}</p>
+
     </div>
     <div class="hero-matrix">
       ${matrix}
       <p class="mx-caption">${esc(t('home.matrixCaption'))}</p>
+      <form class="hero-search" role="search" action="#catalog" onsubmit="return false">
+        <label for="hq" class="sr">${esc(t('hs.label'))}</label>
+        <input id="hq" type="search" placeholder="${esc(t('hs.placeholder'))}" autocomplete="off">
+        <button type="submit" class="btn btn-gold">${esc(t('hs.button'))}</button>
+      </form>
+      <p class="hero-topics"><span>${esc(t('hs.try'))}</span> ${HERO_TOPICS.map(id => `<a href="?q=${encodeURIComponent(t('topic.' + id))}#catalog" data-q="${esc(t('topic.' + id))}">${esc(t('topic.' + id))}</a>`).join(' ')}</p>
     </div>
   </section>
 
@@ -623,7 +640,8 @@ ${scripts.replace(/\{root\}/g, root)}
       // English text is always searchable too, so an English term finds the activity in any language
       text: norm([a.title, a.tagline, a.overview, a.eles.join(' '), a.eles.map(id => IND[id].text + ' ' + IND[id].area.title).join(' '),
         a.strands.map(s => t(`strand.${s}.name`)).join(' '), a.handouts.map(h => h.title).join(' '), a.steps.map(s => s.title).join(' '), a.grades.join(' '),
-        ...(lang === 'en' ? [] : (() => { const e = ACTS_EN.find(x => x.id === a.id); return [e.title, e.tagline]; })())].join(' ')),
+        ...(lang === 'en' ? [] : (() => { const e = ACTS_EN.find(x => x.id === a.id); return [e.title, e.tagline]; })()),
+        ...ACT_TOPICS[a.id].map(id => { const tp = TOPICS.find(x => x.id === id); return [tp.label, ...tp.synonyms, t('topic.' + id)].join(' '); })].join(' ')),
     }));
     const areas = {};
     for (const r of ELES.roles) for (const ar of r.areas) areas[ar.id] = `${r.short} ${ar.num}.0 ${ar.title}`;
