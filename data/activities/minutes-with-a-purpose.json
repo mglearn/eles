@@ -1,0 +1,184 @@
+{
+  "id": "minutes-with-a-purpose",
+  "title": "Minutes With a Purpose: A Screen Time Audit",
+  "tagline": "Teams audit a fictional district's school-device minutes by purpose, not just by total, and draft grade-band guidance that protects unplugged time and asks for evidence of learning.",
+  "audience": "pl",
+  "roles": ["leaders", "coaches", "teachers"],
+  "grades": ["K-12"],
+  "strands": ["digcit", "medialit"],
+  "mode": "hybrid",
+  "minutes": 70,
+  "groupSize": "Teams of 4 (ideally one person per grade band); 8–40 people",
+  "eles": ["L3.2", "L4.3", "L3.1", "L1.1", "C3.1"],
+  "overview": "Texas HB 1481 (2025) settled the personal-phone question for the school day, and it explicitly leaves out devices the district provides. How much and how well students use *school-issued* devices is still your district's call. In this audit, teams read a fictional district's device-use snapshot critically, sort real-feeling classroom uses by purpose (creating, researching and collaborating, practicing with feedback, or just watching), and apply the 2026 ELE question: \"What evidence shows the technology improved the learning?\" They leave with draft grade-band guidance and an honest, privacy-safe plan to gather their own local data. The goal is intentional, age-appropriate use judged by learning, not a blanket cut.",
+  "objectives": [
+    "Participants will name at least three things a device-minutes report cannot tell them about learning, attention, or purpose.",
+    "Participants will sort classroom device uses by purpose and justify each placement with the evidence of learning it produces, or fails to produce.",
+    "Participants will draft grade-band guidance (K–2, 3–5, 6–8, 9–12) that prioritizes creating over consuming and protects unplugged time.",
+    "Participants will plan a local data collection that looks at purpose as well as minutes and includes specific privacy safeguards."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Pecan Creek ISD Device-Use Snapshot (fictional), 1 per person",
+      "Handout B: Purpose Sort (1 set per team, strips cut apart) plus the facilitator key",
+      "Handout C: Grade-Band Guidance Drafter, 1 per team (extras for individuals)",
+      "Chart paper with three columns: \"It tells us / It can't tell us / We'd ask\"; markers; sticky notes in two colors"
+    ],
+    "digital": [
+      "Optional: one device per team with a shared copy of the Handout A table in a spreadsheet the district approves",
+      "Optional: a projector for the snapshot and the five-question check"
+    ]
+  },
+  "prep": [
+    "Print Handout A for everyone and cut Handout B into strips (one set per team). Keep the facilitator key for yourself.",
+    "Draw the three-column chart (\"It tells us / It can't tell us / We'd ask\") and a second chart titled \"Five-question check\" with the five leader questions written down the side.",
+    "Skim the three sources in Connections so you can answer questions accurately: the HB 1481 bill text (the personal-device definition and its exclusion of district-provided devices), the Common Sense Census (2021), and the American Academy of Pediatrics' 2026 policy statement.",
+    "If you want the digital path, paste the Handout A table into a shared spreadsheet and make one copy per team."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "One number, three reactions",
+      "body": "Project one line from Handout A: **\"Pecan Creek ISD (fictional): grades 9–12 students average 185 minutes a day on school-issued devices.\"** Ask people to stand on a line: *too much* on one end, *too little* on the other, *can't tell* in the middle. Ask two people from each spot why they stood there. Then say: \"Texas HB 1481 (2025) required every district to adopt a policy on students' personal communication devices during the school day, and it specifically excludes devices the district provides. So nobody in Austin is going to answer the 185-minute question for us. It's ours. Today we answer it with purpose and evidence, not a gut reaction to a big number.\"",
+      "note": "People who stood in the middle are usually right, and saying so early lowers the temperature. The rest of the session turns \"can't tell\" into \"here's what we'd need to know.\""
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Read the snapshot like a skeptic",
+      "body": "Teams read Handout A, including the notes and the four voices at the bottom. On sticky notes, they fill the three-column chart: **It tells us** (what the report actually measured), **It can't tell us** (what it's silent on), and **We'd ask** (the question they'd put to the tech office or a teacher). Prompt with: \"Is a minute in front of a window the same as a minute of attention? Who decided which category an app belongs to? What happened on the benchmark day?\" After 8 minutes, each team reads its best \"can't tell\" note aloud.",
+      "note": "Look for the big three: **minutes are not learning**, **logged time is not attention** (a window in front can be ignored), and **purpose was assigned by app name, not by what students did**. If no one spots that K–2 minutes come from shared carts divided by enrollment, point to the notes row. If someone brings up national figures, be precise: the Common Sense Census (2021) found that tweens averaged 5 hours 33 minutes and teens 8 hours 39 minutes of entertainment screen media a day, *not counting* screens used for school or homework. Those figures describe life outside school and can't be compared with Handout A. No independent national measure of school-device minutes exists, so don't let anyone imply one."
+    },
+    {
+      "phase": "Model",
+      "minutes": 6,
+      "title": "Think aloud: two strips that fool the report",
+      "body": "Place Handout B's four category headers on the table. Think aloud with Strip 5 (the documentary with three stop-and-write points): \"The device report filed this under *consume/watch* because it was a video site. But students stopped three times to write a claim and evidence. The purpose is **research**. The evidence is on their papers, not in the log.\" Then Strip 4 (adaptive math app, teacher never adjusts groups): \"This is *practice with feedback* for the student. But the feedback loop stops at the student. If no adult acts on the report, we're not getting the learning we're paying minutes for.\" Say: \"Sort by what students *do* and what evidence it leaves, not by the app.\"",
+      "note": "This is the core move of the audit. Purpose belongs to the task, not the tool."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 14,
+      "title": "Sort, then ask the evidence question",
+      "body": "Teams sort the remaining strips, reading each aloud and saying why before placing it. Then each team chooses the **three strips they argued about most** and, for each one, answers the 2026 ELE question on a sticky note: **\"What evidence shows the technology improved the learning?\"** They mark each of the three **Keep**, **Redesign** (same device, better task), or **Unplug** (paper, talk, or hands-on would produce better evidence). Share one Redesign per team.",
+      "note": "Expect the most debate on Strips 4, 5, 10, and 13. Keep the tone practical: \"Consume/watch\" is not a verdict on a teacher. A short video can launch a great lesson. The audit question is whether the minutes were attached to a task that left evidence."
+    },
+    {
+      "phase": "Create",
+      "minutes": 18,
+      "title": "Draft grade-band guidance",
+      "body": "Each team member takes one grade band on Handout C (K–2, 3–5, 6–8, 9–12). For 8 minutes, they draft alone: which purposes to prioritize, what stays unplugged, and what evidence of learning a principal or coach would look for. Then the team reads all four bands in order and checks the progression: **Does creating grow as students get older? Is there protected unplugged time in every band? Does K–2 guidance fit how young children actually learn (hands, talk, play)?** Finish the vision line and the \"Who might be left out?\" box together. Share the framing from the American Academy of Pediatrics' 2026 policy statement, which moves guidance beyond simple screen-time limits toward **quality, context, and conversation**: \"That's our lens too. We're describing good use, not only counting minutes.\"",
+      "note": "Teams sometimes want to write a minute cap and attribute it to pediatricians. Don't let that happen: the AAP's 2026 statement is about quality, context, and conversation, not an hour limit for school. If a team sets a local target, label it plainly as a local decision and say what evidence would make you revise it. In the \"left out\" box, look for students whose IEP or 504 plan calls for assistive technology, emergent bilinguals who rely on translation or read-aloud tools, and students without home internet."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 10,
+      "title": "Plan to gather your own data, honestly",
+      "body": "Say: \"The snapshot was fictional. Your real data doesn't exist yet in the form you need.\" Teams complete the local data plan on Handout C by choosing at least two of three sources: a **teacher time study** (a sample of teachers note, for one week, when devices were used, for what purpose, and what evidence it produced), **student logs** (grades 3–12 students record purpose in one tap or one line; K–2 teachers log for the class), and **device reports** (aggregate only, read with today's skepticism). For each source they write the question it answers and one limitation. Then they write their **privacy safeguards**: collect only what the question needs, report by grade band or campus rather than by student or teacher, say who can see the raw data, and set a date to delete it.",
+      "note": "Push back on any plan that uses device logs to evaluate individual teachers or students. A time study only works if teachers trust it's for learning about the system, not for evaluating them."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 5,
+      "title": "The five-question check",
+      "body": "Point to the five-question chart. Each team puts a sticky dot next to the question its draft answers **least** well: *What is the vision? What evidence will guide us? What changes in instruction? Who might be left out? How will families understand the change?* Read the dot pattern aloud. Close: \"Families will hear 'screen time' and think phones and home. Our job is to explain the difference between minutes and purpose so they can trust the guidance.\"",
+      "note": "\"How will families understand the change?\" is usually the thinnest. The companion activity Screens at School, Screens at Home is a ready-made family session for exactly that."
+    }
+  ],
+  "unplugged": "Everything runs on paper: Handout A is the data, Handout B is a physical sort, and Handout C is the drafter. Teams that want to see how the story changes when minutes are re-sorted by purpose can use the \"re-tag\" move: they cross out the report's category for a row of Handout A and write their own estimate in the margin, then total by hand. The debate about what a minute *means* is identical with or without a spreadsheet.",
+  "digital": "Give each team a shared spreadsheet copy of the Handout A table. After the sort, teams re-tag two or three categories based on what they learned (for example, moving part of 9–12 \"consume/watch\" to research because of documentary-with-stops lessons) and chart minutes by purpose for each grade band. In a virtual session, run the sort as a drag-and-drop slide per team in breakout rooms, collect \"can't tell\" notes on a shared board, and have each team paste its grade-band draft into one shared document for comparison.",
+  "whyTech": "The spreadsheet lets teams watch the \"story\" in a chart flip as soon as a category is re-tagged, which is the clearest proof that a minutes report reflects someone's labeling choices. The judgment work (sorting by purpose and naming evidence) is just as strong on paper.",
+  "adaptations": [
+    { "label": "Campus leadership team", "text": "Replace Handout A with your campus's own aggregate device report (grade band or campus level only, no names) after doing the fictional version first, so people practice skepticism before it's personal." },
+    { "label": "Coaches", "text": "Turn the teacher time study into a coaching cycle: listen to what a teacher wants to know, co-plan one lesson that shifts consume minutes to create minutes, model it, measure the student evidence, and adjust. Ask: \"What changed in teacher practice or student evidence?\"" },
+    { "label": "Short on time (35 min)", "text": "Skip the Model step, sort only Strips 1–8, and have each team draft one grade band instead of four." },
+    { "label": "Single-level campus", "text": "Split your grade band into two (for example, grade 6 and grades 7–8) so the progression discussion still happens." }
+  ],
+  "lookFors": [
+    "The \"It can't tell us\" column names specific limits (logged time is not attention, categories assigned by app, shared carts, the benchmark day), not just \"it's incomplete.\"",
+    "Sort placements are justified by what students did and what evidence it left, and at least one strip is re-tagged from the report's category to a different purpose.",
+    "Each grade band on Handout C names protected unplugged time and at least one concrete piece of student evidence (a revised draft, a sourced claim, an explanation recorded in a student's own words).",
+    "The local data plan combines at least two sources, states one limitation of each, and lists safeguards: aggregate reporting, limited access, and a deletion date."
+  ],
+  "reflection": [
+    "What evidence will guide our device-use decisions, and how will we know if a change improved learning rather than just lowering minutes? (Leader ELE 3.0)",
+    "Where in our schools are device minutes attached to tasks that leave no evidence of learning?",
+    "Who might be left out if we cut minutes across the board, and how does our guidance protect them? (Leader ELE 4.0)",
+    "How will we explain the difference between minutes and purpose to families?"
+  ],
+  "transfer": "Within two weeks, run a one-week teacher time study with three to five volunteer teachers per grade band using the purpose categories from Handout B. Bring the aggregate results and three pieces of student work to your leadership team or PLC and revise your grade-band draft based on what you find.",
+  "connections": [
+    { "title": "Texas HB 1481 (2025), enrolled bill text: personal communication devices", "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01481F.htm", "note": "Read the definition: devices the district provides are excluded, so school-device use is a district decision." },
+    { "title": "The Common Sense Census: Media Use by Tweens and Teens, 2021 (report PDF)", "url": "https://www.commonsensemedia.org/sites/default/files/research/report/8-18-census-integrated-report-final-web_0.pdf", "note": "National data on entertainment screen use outside school, including how little of it is creating." },
+    { "title": "AAP policy statement: Digital Ecosystems, Children, and Adolescents (Pediatrics, 2026)", "url": "https://publications.aap.org/pediatrics/article/157/2/e2025075320/206129/Digital-Ecosystems-Children-and-Adolescents-Policy", "note": "The source for the quality, context, and conversation framing." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Pecan Creek ISD Device-Use Snapshot (fictional)",
+      "type": "table",
+      "instructions": "FICTIONAL DATA for practice. Pecan Creek ISD, its people, and these numbers are invented. Average minutes per student per school day on school-issued devices, from the district's device reports for one week in October.",
+      "columns": ["Purpose category (as the report assigned it)", "K–2", "3–5", "6–8", "9–12"],
+      "rows": [
+        ["Create (writing, video, design, coding tools)", "6", "10", "18", "34"],
+        ["Research (search, databases, digital library)", "2", "8", "22", "30"],
+        ["Practice with feedback (adaptive and drill apps)", "24", "31", "26", "18"],
+        ["Assess (quizzes, benchmark tests)", "8", "12", "14", "16"],
+        ["Communicate / collaborate (LMS messages, shared documents, video calls)", "1", "4", "15", "28"],
+        ["Consume / watch (video sites, streaming)", "14", "17", "29", "26"],
+        ["Unassigned (app or site not on the category list)", "5", "8", "21", "33"],
+        ["TOTAL minutes per student per day", "60", "90", "145", "185"],
+        ["Devices counted", "Shared classroom carts; cart minutes divided by class enrollment", "Carts in grade 3; one device per student in grades 4–5, kept at school", "One device per student; school-day minutes only", "One device per student; school-day minutes only"],
+        ["How a minute was counted", "App window in front and device awake, whether or not anyone was using it", "Same", "Same", "Same"],
+        ["How purpose was assigned", "By app or site name, one category per app, set by the tech office", "Same", "Same", "Same"],
+        ["Note on the week", "Includes one district benchmark day", "Includes one district benchmark day", "Includes one district benchmark day", "Includes one district benchmark day"],
+        ["Voices (fictional)", "Kindergarten teacher: \"Our cart logs in under a class account, so our 'watch' minutes include the phonics song we dance to every morning.\"", "4th grader: \"When I finish the math app early, I get to watch videos until everybody's done.\"", "7th-grade teacher: \"Research minutes went way up after we got the new database. I honestly don't know if the research got better.\"", "11th grader: \"Unassigned is probably the coding site for CS. Sometimes it's just a tab I left open while I did the worksheet on paper.\""]
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Purpose Sort",
+      "type": "sort",
+      "instructions": "Cut apart the strips. Sort by what students actually DO and what evidence it leaves, not by the app. Before placing a strip, finish aloud: \"The evidence of learning here is ___.\"",
+      "categories": [
+        "Create",
+        "Research & collaborate",
+        "Practice with feedback & assess",
+        "Consume / watch"
+      ],
+      "items": [
+        { "text": "1. Kindergarten: the class watches a 4-minute read-aloud video of a picture book while the teacher sets up centers. No discussion follows.", "answer": "Consume / watch", "why": "No task is attached and no evidence is left. A live read-aloud with talk would teach more; the video could still work with a question before and after." },
+        { "text": "2. Grade 4: pairs build a stop-motion clay video explaining the water cycle, then revise one scene after peer feedback.", "answer": "Create", "why": "Students make an original explanation and revise it. The video and the revision are the evidence." },
+        { "text": "3. Grade 7 science: pairs find three sources on whether a local creek is safe for swimming and record who published each one.", "answer": "Research & collaborate", "why": "The evidence is the source log and the reasoning about who is behind each source." },
+        { "text": "4. Grade 3: 20 minutes a day on an adaptive math app. The teacher reads the weekly report but never changes groups or reteaches from it.", "answer": "Practice with feedback & assess", "why": "Students get feedback, but the loop stops there. Close call: it becomes strong practice only when an adult acts on the data." },
+        { "text": "5. Grade 10: students watch a 12-minute documentary segment, pausing at three teacher-set stops to write a claim and the evidence for it.", "answer": "Research & collaborate", "why": "The report calls this 'watch' because it's a video site, but students are gathering and evaluating evidence. The claims on paper are the evidence." },
+        { "text": "6. Grades 9–12: students take a 20-question online benchmark test.", "answer": "Practice with feedback & assess", "why": "Assessment. Ask how fast results come back and whether anyone uses them to change instruction." },
+        { "text": "7. Grade 6: students co-write a shared document with a class in another Texas city comparing a month of local rainfall records.", "answer": "Research & collaborate", "why": "The device makes the partnership possible; the evidence is the comparison and the questions students ask each other." },
+        { "text": "8. Grade 8: students who finish early are told to \"get on your device\" and quietly watch short videos until the bell.", "answer": "Consume / watch", "why": "Filler time. It shows up as school-device minutes with no learning purpose. An unplugged extension or a reading choice would do more." },
+        { "text": "9. Grade 1: children use a drawing app to make a labeled picture of a plant, then tell the teacher what each label means.", "answer": "Create", "why": "The telling is the evidence. Crayons would work too; the app helps only if it lets children record or revise their labels." },
+        { "text": "10. Grade 11: students type an argumentative essay, the teacher leaves comments in the document, and students revise twice.", "answer": "Create", "why": "Writing and revising is making. Close call with feedback: the visible revision history is strong evidence of learning." },
+        { "text": "11. Grade 5: 10 minutes of typing practice that shows speed and accuracy after each round.", "answer": "Practice with feedback & assess", "why": "Immediate feedback on a skill students will use. Keep it short and purposeful." },
+        { "text": "12. Grade 12: a student messages a teacher through the learning platform to ask a question about a lab procedure.", "answer": "Research & collaborate", "why": "Communication in service of learning. Few minutes, high value; minute counts undervalue it." },
+        { "text": "13. Grade 6: a points-and-badges review game where the fastest answer wins, and no one explains answers.", "answer": "Practice with feedback & assess", "why": "It is practice with right/wrong feedback, but speed can reward guessing. Close call: add a pause to explain one answer and the evidence improves." },
+        { "text": "14. Grade 7: students scroll a recommended-video feed \"for research\" with no question to answer and nothing to turn in.", "answer": "Consume / watch", "why": "Without a question, the feed chooses the path. Give students a question and a source log and it becomes research." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Grade-Band Guidance Drafter",
+      "type": "worksheet",
+      "instructions": "Draft guidance for school-issued devices that prioritizes creating over consuming, protects unplugged time, and names the evidence of learning you'll look for. This is a draft for discussion, not policy.",
+      "sections": [
+        { "prompt": "Our vision in one sentence: \"In our schools, students use school devices when…\"", "lines": 2 },
+        { "prompt": "K–2: purposes to prioritize • what stays unplugged (hands-on play, talk, handwriting, read-alouds) • evidence of learning we'll look for:", "lines": 4 },
+        { "prompt": "3–5: purposes to prioritize • what stays unplugged • evidence of learning we'll look for:", "lines": 4 },
+        { "prompt": "6–8: purposes to prioritize • what stays unplugged • evidence of learning we'll look for:", "lines": 4 },
+        { "prompt": "9–12: purposes to prioritize • what stays unplugged • evidence of learning we'll look for:", "lines": 4 },
+        { "prompt": "Who might be left out? (students whose IEP or 504 plan calls for assistive technology, emergent bilinguals who use translation or read-aloud tools, students without home internet) How does our guidance protect them?", "lines": 3 },
+        { "prompt": "Our local data plan. Sources (circle two or more): teacher time study • student logs • device reports. The question each source answers, and one limitation of each. Privacy safeguards: what we collect, who sees it, how we report it (grade band or campus, never by student), when we delete it:", "lines": 6 },
+        { "prompt": "How will families understand the change? One sentence we'd say at a family night:", "lines": 2 }
+      ]
+    }
+  ]
+}

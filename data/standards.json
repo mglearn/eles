@@ -787,6 +787,26 @@
   "sst": [],
   "note": "A PLC reads student Dust Bowl notes for evidence of real checking, then plans instruction on verifying AI claims against independent sources."
  },
+ "minutes-with-a-purpose": {
+  "teks": [
+   "ta-data",
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "6.3",
+   "8.3",
+   "6.5"
+  ],
+  "sst": [],
+  "note": "Leaders and coaches audit fictional school-device minutes by purpose, draft grade-band guidance, and plan privacy-safe local data collection."
+ },
  "my-digital-safety-plan": {
   "teks": [
    "ta-dc-10"
@@ -1120,6 +1140,23 @@
   ],
   "sst": [],
   "note": "Children observe and record how their bodies feel after screen stillness versus movement, then plan a balanced mix of screen and green time."
+ },
+ "screens-at-school-screens-at-home": {
+  "teks": [],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "2.3",
+   "8.4",
+   "7.2",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Families sort screen moments by purpose, learn what HB 1481 covers, and start a family media agreement, extending balance and wellbeing learning into homes."
  },
  "seminar-on-a-machines-answer": {
   "teks": [

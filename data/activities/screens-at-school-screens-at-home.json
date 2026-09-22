@@ -1,0 +1,165 @@
+{
+  "id": "screens-at-school-screens-at-home",
+  "title": "Screens at School, Screens at Home: A Family Conversation",
+  "tagline": "Families sort everyday screen moments by purpose, learn in plain language what the Texas phone law does and doesn't cover, and start a family media agreement that fits their own home.",
+  "audience": "pl",
+  "roles": ["teachers", "librarians", "leaders", "staff"],
+  "grades": ["K-12"],
+  "strands": ["digcit", "medialit"],
+  "mode": "unplugged",
+  "minutes": 40,
+  "groupSize": "Tables of 2–4 families (children welcome); one facilitator per 3–4 tables",
+  "eles": ["L5.1", "L5.3", "L4.1", "T2.2"],
+  "overview": "Families hear two messages about screens: \"phones are banned at school now\" and \"kids use screens all day at school.\" Both are partly true, and the difference matters. In this ready-to-run session, facilitators sit *with* families as they sort everyday screen moments from school and home by purpose, hear what Texas HB 1481 (2025) does and doesn't cover, learn how the American Academy of Pediatrics' 2026 policy statement shifts the advice toward quality, context, and conversation, and start a family media agreement to finish at home. It stands alone or runs as one station inside a family night planned with the Designing a Family AI & Digital Citizenship Night activity. There is no \"right\" family here: the goal is conversation, not judgment.",
+  "objectives": [
+    "Families will sort at least eight everyday screen moments by purpose (making, learning, connecting, just watching) and explain one choice in their own words.",
+    "Families will be able to say in one sentence what the Texas personal-device law covers (personal phones and similar devices during the school day) and what it doesn't (school-issued devices).",
+    "Families will start a family media agreement that names at least one screen use they value and one screen-free time or place.",
+    "Staff will collect families' questions about school-device use and commit to answering them."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Screen-Moment Cards (1 set per table, cut apart; facilitator notes printed separately)",
+      "Handout B: What the Law Says, What Doctors Say, What We Decide (1 per family, plus extras)",
+      "Handout C: Our Family Media Agreement Starter (1 per family)",
+      "A sorting mat per table: chart paper divided into four zones labeled in words with a simple drawing: Making something (a paintbrush), Learning or looking something up (a magnifying glass), Connecting with people (two hands waving), Just watching or scrolling (a couch)",
+      "Large-print copies, crayons for children, sticky notes, and a \"Questions for our school\" poster"
+    ],
+    "digital": [
+      "Optional: a projector to show the cards one at a time for a large group",
+      "Optional: a printed QR code families can scan to open the free AAP Family Media Plan on their own phone"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Print the card backs (facilitator notes) on a separate sheet for each facilitator. Use large print (at least 16-point) where you can.",
+    "Print Handouts B and C in the languages your families use. The site's language menu offers Spanish (Español) and Vietnamese (Tiếng Việt) versions of these handouts; arrange interpreters for other home languages, and seat families who share a language together if they want that.",
+    "Find out from your district the basics of how school-issued devices are used at your campus (which grades take devices home, what students mostly do on them) so you can answer honestly. If you don't know, say so and write the question on the poster.",
+    "Draw the four-zone sorting mats and set out crayons so children can draw on Handout C while grown-ups talk."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "A screen moment you liked",
+      "body": "Welcome families and say: \"There's no family here doing screens wrong. Everyone is figuring this out, including us.\" Share one screen moment *you* liked this week (for example, a video call with a relative or a recipe you followed together). Then ask each family to tell their table one screen moment they liked. Children can go first. Offer the frame: **\"This week, a screen helped us ___.\"**",
+      "note": "Starting with a positive moment is deliberate. Families who expect a lecture relax, and it sets up the big idea: screens aren't good or bad by themselves; purpose and context matter."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Sort the screen moments",
+      "body": "Each table gets the Handout A cards and a sorting mat. A family member reads a card aloud (including the picture description), and the table decides together which zone it belongs in: **Making something**, **Learning or looking something up**, **Connecting with people**, or **Just watching or scrolling**. Some cards fit two zones, and that's fine: put them on the line and say why. Facilitators sit with tables and use the notes on the card backs to ask questions, not give answers. Frame for families: **\"We put this one here because ___.\"**",
+      "note": "Listen for families discovering that school screen moments and home screen moments can land in the same zones. Say out loud that \"just watching\" is allowed: rest, fun, and togetherness count. The question is balance and what gets pushed out."
+    },
+    {
+      "phase": "Model",
+      "minutes": 5,
+      "title": "What the law says, and doesn't",
+      "body": "Hold up Card 13 (phones put away at school) and read the first section of Handout B together. Say it plainly: \"Texas HB 1481 (2025) required every school district to have a policy that stops students from using personal phones, smartwatches, and similar devices at school during the school day. It does **not** cover laptops or tablets the school gives students. Those are a separate question, and that question belongs to our district, so you're welcome to ask us about it.\" Mention the required exceptions: a student's IEP, 504, or similar plan, a doctor's directive for a medical need, and safety requirements.",
+      "note": "Families often assume the law limits all screen time at school. Be clear and calm. If a parent asks how many minutes students spend on school devices, don't guess: write it on the \"Questions for our school\" poster and follow up."
+    },
+    {
+      "phase": "Model",
+      "minutes": 5,
+      "title": "What doctors say",
+      "body": "Read the second section of Handout B together. Say: \"The American Academy of Pediatrics' 2026 policy statement moves the advice beyond just counting hours. It asks families to think about **quality** (what kind of screen time), **context** (when, where, with whom), and **conversation** (talking about it together). It also points out that some apps and games are designed to keep us using them, which can crowd out sleep and moving our bodies. That's true for grown-ups too.\" Then point to the four zones: \"Which zone do you want more of in your home? Which zone tends to take over at bedtime?\"",
+      "note": "Don't give an hour limit and attribute it to the AAP; the 2026 statement's message is quality, context, and conversation. If families ask \"how much is too much?\", turn it back warmly: \"That's what the Family Media Plan helps each family decide.\""
+    },
+    {
+      "phase": "Create",
+      "minutes": 10,
+      "title": "Start a family media agreement",
+      "body": "Families start Handout C together. Children draw in the boxes while grown-ups write, or everyone talks and one person writes. Encourage families to include at least one screen use they **value**, one screen-free **time or place**, and one thing **grown-ups** will do too. Offer the frames on the handout. Say: \"This is a start, not a contract. The American Academy of Pediatrics has a free Family Media Plan at HealthyChildren.org that helps you finish it at home, and it's on the back of Handout B.\"",
+      "note": "Some families will write a lot; some will draw one picture. Both count. Never collect or read the agreements; they belong to the family."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 3,
+      "title": "One thing to try, one question for us",
+      "body": "Each family tells their table one thing they'll try this week. Then invite everyone to put a sticky note on the **\"Questions for our school\"** poster, especially about school-issued devices: what students do on them, which grades take them home, and how teachers decide when to use them. Promise a follow-up date and keep it.",
+      "note": "The poster is your evidence. The questions families ask tell the campus what to explain better, in which languages."
+    }
+  ],
+  "unplugged": "The whole session is designed to run unplugged: paper cards, a hand-drawn mat, printed take-homes, and talk. It works in a cafeteria, a library, a church hall, or a community center with no Wi-Fi. The only screen-based piece, the AAP Family Media Plan, is something families finish at home, and Handout C works without it.",
+  "digital": "For a large group or a virtual family meeting, project the cards one at a time and have families vote by holding up one to four fingers for the zone, or use chat for the zone name. Share Handout B and C as translated PDFs in the district's family communication app. Post a QR code to the AAP Family Media Plan so families can open it on their own phone. Keep any digital poll anonymous and never collect family agreements.",
+  "whyTech": "This one is better unplugged: the evidence is the conversation at the table and the agreement a family takes home, and a screen would pull attention away from both. The digital path adds reach (families who can't attend) but not better learning.",
+  "adaptations": [
+    { "label": "Families of young children (K–2)", "text": "Use Cards 1, 2, 4, 5, 7, 10, 11, and 14 and just three zones (Making, Learning, Just watching). Children point and grown-ups read. Children draw their favorite screen-free activity on Handout C." },
+    { "label": "Families of teens (6–12)", "text": "Invite teens to co-facilitate a table. Add a question: \"Which app is hardest to put down, and why do you think it was designed that way?\" Teens often lead the bedtime-charging idea themselves." },
+    { "label": "Multilingual families", "text": "Print Handouts A–C in Spanish or Vietnamese from the site's language menu, and arrange interpreters for other languages. Read each picture description aloud, let families discuss in their home language, and use the sentence frames in any language." },
+    { "label": "15-minute family-night station", "text": "Run it as one station in a family night: 6 minutes of card sorting with Cards 1–8, a 3-minute reading of Handout B's law and doctors sections, then hand out Handout C to finish at home." }
+  ],
+  "lookFors": [
+    "Families place cards and explain a choice in their own words, including at least one school moment and one home moment in the same zone.",
+    "When asked, a family member can say that the Texas law covers personal phones and similar devices, not school-issued laptops or tablets.",
+    "Families leave with Handout C started, showing at least one valued screen use and one screen-free time or place.",
+    "The \"Questions for our school\" poster has family questions about school-device use, and staff set a follow-up date."
+  ],
+  "reflection": [
+    "How are we building a real partnership with families about technology, beyond sending rules home? (Leader ELE 5.1)",
+    "Which families did we reach tonight, and whose voices were missing? How will we reach them?",
+    "What did families' questions reveal about what we haven't explained well about school-issued devices?",
+    "How will we show families evidence that screen time at school is purposeful?"
+  ],
+  "transfer": "Within two weeks, answer every question on the \"Questions for our school\" poster in the family newsletter or at the next meeting, in the languages families use. Then ask one grade-level team to share one example of students creating (not just consuming) on school devices, so families see what purposeful use looks like.",
+  "connections": [
+    { "title": "AAP Family Media Plan (HealthyChildren.org)", "url": "https://www.healthychildren.org/English/fmp/Pages/MediaPlan.aspx", "note": "The free tool families use to finish their agreement at home." },
+    { "title": "Texas HB 1481 (2025), enrolled bill text: personal communication devices", "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01481F.htm", "note": "The source for what the law does and doesn't cover." },
+    { "title": "AAP policy statement: Digital Ecosystems, Children, and Adolescents (Pediatrics, 2026)", "url": "https://publications.aap.org/pediatrics/article/157/2/e2025075320/206129/Digital-Ecosystems-Children-and-Adolescents-Policy", "note": "The source for the quality, context, and conversation framing." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Screen-Moment Cards",
+      "type": "cards",
+      "instructions": "Cut apart. Read each card aloud, including the picture description. The backs are facilitator notes: print them on a separate sheet and use them to ask questions, not to give answers.",
+      "cards": [
+        { "label": "Card 1 · At home", "front": "**A video call with Grandma to show her a drawing.** Picture: a grandmother and a 6-year-old on a video call. The child holds a drawing up to the camera.", "back": "Usually: Connecting (and a little Making). Ask: \"Which screen moments bring your family closer?\" Screens that connect us with people we love are worth protecting." },
+        { "label": "Card 2 · At school", "front": "**Making a short video that explains how a seed grows.** Picture: two 4th graders with a tablet, moving clay figures to make a stop-motion video.", "back": "Usually: Making. This is what purposeful school screen time can look like: students create and explain. Families can ask their child's teacher, \"What do students make on their school devices?\"" },
+        { "label": "Card 3 · At home", "front": "**Scrolling short videos in bed after lights out.** Picture: a teenager in bed in the dark, face lit by a phone. The clock says 11:40.", "back": "Usually: Just watching or scrolling. No blame: many apps are designed to keep us watching, and the AAP's 2026 policy statement notes this can crowd out sleep. Idea: a family charging spot outside bedrooms, for grown-ups' phones too." },
+        { "label": "Card 4 · At school", "front": "**A math practice game that shows right away if an answer is right.** Picture: a 2nd grader wearing headphones, playing a math game. Stars pop up after each answer.", "back": "Usually: Learning. Practice with quick feedback can help, especially when the teacher looks at the results and adjusts. A good question for school: \"What does the teacher do with the results?\"" },
+        { "label": "Card 5 · At home", "front": "**Looking up \"Why do cats purr?\" together.** Picture: a parent and a 10-year-old side by side at a laptop, both laughing.", "back": "Usually: Learning and Connecting. Searching together is the AAP's \"conversation\" in action. Ask: \"How did you decide the answer was true?\"" },
+        { "label": "Card 6 · At school", "front": "**Watching a video after the work is done.** Picture: students watching a video on a big classroom screen at the end of the day.", "back": "Usually: Just watching. Sometimes it's a well-earned break; sometimes it's filler. Families can ask respectfully: \"When students finish early, what do they do?\"" },
+        { "label": "Card 7 · At home", "front": "**Family movie night.** Picture: a family on a couch with a bowl of popcorn, watching a movie.", "back": "Usually: Just watching, and that's okay. Rest, fun, and time together count. This is the AAP's \"context\": the same movie is a different experience watched together on a Friday than alone at midnight." },
+        { "label": "Card 8 · At home", "front": "**Making music or writing stories on a phone.** Picture: a 13-year-old with headphones, making a beat in a music app on a phone.", "back": "Usually: Making. The Common Sense Census (2021) found that creating things like art, music, writing, or video took only about 8 minutes a day for tweens and 14 minutes for teens of their free-time screen use. Making is rare and worth encouraging." },
+        { "label": "Card 9 · At school", "front": "**Checking who wrote a news story before using it in an essay.** Picture: a high school student at a laptop with three tabs open and a notebook beside it.", "back": "Usually: Learning. Checking sources is a life skill families use too. Ask your teen: \"How do you decide if something online is true?\"" },
+        { "label": "Card 10 · At home", "front": "**A tablet at the table so a little one eats calmly.** Picture: a toddler in a high chair watching a tablet at dinner while tired parents eat.", "back": "Usually: Just watching. Many tired families do this; no shame. Idea to offer, not require: choose one meal a week with no screens for anyone, and talk about the best part of the day." },
+        { "label": "Card 11 · At school", "front": "**A laptop reads the book aloud because of the student's learning plan.** Picture: a student wearing headphones while a school laptop reads a chapter aloud and highlights the words.", "back": "Usually: Learning. For some students, a device is how they access learning, often as part of an IEP or 504 plan. Cutting screen time for everyone could take this away, so plans come first." },
+        { "label": "Card 12 · At home", "front": "**Planning a study group with friends by text.** Picture: a teen texting in a group chat. The screen says: \"Study at the library at 4?\"", "back": "Usually: Connecting. Texting friends is how many teens plan and belong. Ask: \"How do you step away when the group chat gets too much?\"" },
+        { "label": "Card 13 · At school", "front": "**Personal phones stay put away during the school day.** Picture: a backpack zipped closed with a phone inside.", "back": "This card is about the law. Texas HB 1481 (2025) requires a policy on personal phones and similar devices during the school day. It does not cover laptops or tablets the school provides. Use this card to start the \"What the law says\" talk." },
+        { "label": "Card 14 · At home", "front": "**Homework on one screen, a game on another, same room.** Picture: a 9-year-old doing homework on a school laptop at the kitchen table while an older brother plays a video game nearby.", "back": "Could be Learning and Just watching (or Connecting, if the game is with friends). Ask: \"Does the homework need the screen? Is the game making it hard to focus?\" A good agreement topic." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "What the Law Says, What Doctors Say, What We Decide",
+      "type": "reading",
+      "instructions": "A take-home page for families. Ask for it in Spanish or Vietnamese, or ask for an interpreter.",
+      "paragraphs": [
+        "**Screens are not all the same.** Making a video, looking something up, talking to Grandma, and scrolling at midnight are all \"screen time,\" but they are very different. Your family gets to think about purpose, not just hours.",
+        "**What the law says.** Texas HB 1481, passed in 2025, requires every Texas public school district and open-enrollment charter school to have a policy that stops students from using personal phones, smartwatches, tablets, and similar devices at school during the school day. Schools must allow exceptions for a student's IEP, 504, or similar plan, for a doctor's directive for a medical need, and for safety requirements.",
+        "**What the law does not cover.** The same law leaves out devices the school gives to students, such as school laptops and tablets. How much and how well students use those devices is decided by your school district. You have every right to ask: What do students do on school devices? Which grades bring them home? How do teachers decide when to use them?",
+        "**What doctors say.** The American Academy of Pediatrics (AAP), a national group of children's doctors, published a policy statement in 2026 that moves beyond counting minutes. It asks families to think about **quality** (what kind of screen time), **context** (when, where, and with whom), and **conversation** (talking about it together).",
+        "**Some apps are built to keep us watching.** The AAP's 2026 statement also notes that apps and games designed to keep people engaged can lead to long stretches of use that crowd out sleep and physical activity. That is true for grown-ups too, so it's something to solve together, not a sign that anyone failed.",
+        "**What a national survey found.** The Common Sense Census (2021), a national survey of young people ages 8–18, found that tweens (ages 8–12) spent about 5 hours 33 minutes a day and teens (13–18) about 8 hours 39 minutes a day on entertainment screen media, not counting screens used for school or homework. The Common Sense Census (2021) also found that making things, like art, music, writing, or videos, was a small part of that time: about 8 minutes a day for tweens and 14 minutes for teens. These are national averages, not a report card on your family.",
+        "**What we decide.** Every family is different. The AAP recommends that each family make a Family Media Plan with limits that fit its own routines and values. The free AAP Family Media Plan is at HealthyChildren.org (search \"AAP Family Media Plan\"). Tonight's agreement starter is a first step.",
+        "**Three questions to talk about at home:** Which screen moments help our family? When and where do we want no screens (meals, car rides, bedrooms at night)? What do we want to make more of, not just watch?"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Our Family Media Agreement Starter",
+      "type": "worksheet",
+      "instructions": "Write, draw, or both. Any language is welcome. This is a start, not a contract; finish it at home with the free AAP Family Media Plan if you like.",
+      "sections": [
+        { "prompt": "Screens help our family when we… (draw or write: \"In our family, screens help us ___.\")", "lines": 3, "boxes": true },
+        { "prompt": "Our screen-free times and places: \"We keep screens away during ___ and in ___.\" (ideas: meals, car rides, bedrooms at night, the first hour after school)", "lines": 3, "boxes": true },
+        { "prompt": "At night, our devices sleep here: \"Our phones and tablets charge ___.\"", "lines": 2 },
+        { "prompt": "Something we will MAKE together, not just watch: \"This month we will make ___.\" (a video for a relative, a song, a comic, a recipe card)", "lines": 3, "boxes": true },
+        { "prompt": "What grown-ups will do too: \"The grown-ups in our family will ___.\"", "lines": 2 },
+        { "prompt": "A question we want to ask our school about school laptops or tablets:", "lines": 2 },
+        { "prompt": "We will check in on this agreement on (date) ___. Signed or drawn by everyone in our family:", "lines": 2, "boxes": true }
+      ]
+    }
+  ]
+}

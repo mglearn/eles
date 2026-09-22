@@ -597,6 +597,7 @@ ${scripts.replace(/\{root\}/g, root)}
   <h1>${esc(t('std.title'))}</h1>
   <p class="lede">${esc(t('std.lede'))}</p>
   <p class="muted">${esc(t('std.disclaimer'))}</p>
+  ${hasImg('hero-standards') ? `<figure class="guide-photo">${pic('hero-standards', '', { lazy: false })}</figure>` : ''}
   <nav class="fw-tabs" aria-label="${esc(t('std.jump'))}"><a href="#sst">${esc(t('std.group.sst'))}</a><a href="#teks">TEKS</a><a href="#elps">ELPS</a><a href="#udl">UDL</a><a href="#table">${esc(t('std.table.h'))}</a></nav>
   <section id="sst"><h2>${esc(t('std.sst.h'))}</h2><p>${md(t('std.sst.p1'))}</p><p>${md(t('std.sst.p2'))}</p><p>${md(t('std.sst.p3'))}</p>
     ${codeList('sst', Object.keys(STD_CAT.sst))}
