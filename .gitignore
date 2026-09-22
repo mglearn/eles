@@ -2,3 +2,4 @@
 source_materials/
 node_modules/
 .DS_Store
+.drafts/

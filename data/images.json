@@ -1,0 +1,107 @@
+{
+ "cat-35-digcit": {
+  "alt": "Fifth graders discuss a trail of paper footprints across their classroom floor.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-35-genai": {
+  "alt": "Fourth graders give and follow instructions while building with blocks.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-35-medialit": {
+  "alt": "Third graders use magnifying glasses to compare two printed advertisements.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-68-digcit": {
+  "alt": "Seventh graders discuss a scenario in a circle with their phones set aside.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-68-genai": {
+  "alt": "Middle school students and their teacher examine a printed AI answer and circle details.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-68-medialit": {
+  "alt": "Eighth graders connect printed claims to sources on a classroom whiteboard.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-912-digcit": {
+  "alt": "Two high school students read and highlight a printed app privacy policy.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-912-genai": {
+  "alt": "High school students discuss a printed AI paragraph in a Socratic circle.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-912-medialit": {
+  "alt": "High school students work together in a classroom newsroom using photographs and sources.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-k2-digcit": {
+  "alt": "Two first graders sort picture cards into hoops while a teacher listens nearby.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-k2-genai": {
+  "alt": "Kindergartners guess the next picture in a pattern as their teacher holds up cards.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-k2-medialit": {
+  "alt": "Second graders compare printed photographs and discuss whether they are real or pretend.",
+  "w": 1536,
+  "h": 1024
+ },
+ "hero-framework": {
+  "alt": "A school library where students, a teacher, a coach, and a principal are each learning in different ways.",
+  "w": 1600,
+  "h": 900
+ },
+ "hero-guide": {
+  "alt": "A teacher's hands prepare printed cards and handouts for an activity.",
+  "w": 1600,
+  "h": 900
+ },
+ "hero-home": {
+  "alt": "Five educators around a table debate printed cards during a professional learning session.",
+  "w": 1600,
+  "h": 900
+ },
+ "og-share": {
+  "alt": "Three high school students examine a printed social media post together.",
+  "w": 1200,
+  "h": 630
+ },
+ "role-ai": {
+  "alt": "Adult learners compare a laptop screen against a printed textbook with their instructor.",
+  "w": 1536,
+  "h": 1024
+ },
+ "role-coaches": {
+  "alt": "An instructional coach and a teacher sort student work after school.",
+  "w": 1536,
+  "h": 1024
+ },
+ "role-leaders": {
+  "alt": "A principal leads a hallway conversation with a group of teachers.",
+  "w": 1536,
+  "h": 1024
+ },
+ "role-students": {
+  "alt": "Three middle school students read and annotate an article together.",
+  "w": 1536,
+  "h": 1024
+ },
+ "role-teachers": {
+  "alt": "A teacher kneels to listen as a student explains his thinking.",
+  "w": 1536,
+  "h": 1024
+ }
+}

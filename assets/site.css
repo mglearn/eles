@@ -148,7 +148,6 @@ a.ele:hover { background: var(--navy); color: #fff; }
 .e-genai { background: var(--genai); } .e-digcit { background: var(--digcit); } .e-medialit { background: var(--medialit); }
 .card-kind { font-size: .78rem; font-weight: 700; color: var(--text-muted); margin: 0 0 6px; display: flex; flex-wrap: wrap; gap: 0 8px; }
 .card-kind span { font-weight: 500; }
-.card-kind span::before { content: "for "; }
 .card h3 { font-size: 1.3rem; margin: 0 0 8px; }
 .card h3 a { color: var(--navy); text-decoration: none; }
 .card h3 a::after { content: ""; position: absolute; inset: 0; }
@@ -423,3 +422,17 @@ figure { margin: 0; }
 .cover-url { font-size: 9pt; color: #555; margin-top: 12px; }
 @media (max-width: 1000px) { .act-head.has-photo { grid-template-columns: 1fr; } .act-head.has-photo .act-photo { order: 0; } }
 @media print { .act-photo, .card-photo { display: none; } .act-head.has-photo { display: block; } .cover-photo img { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+
+/* ---------- language ---------- */
+.lang-pick { display: inline-flex; align-items: center; gap: 6px; color: rgba(255,255,255,.85); }
+.lang-pick select { font: 500 .9rem var(--sans); color: #fff; background: transparent; border: 1.5px solid rgba(255,255,255,.35); border-radius: 6px; padding: 3px 6px; cursor: pointer; }
+.lang-pick select:hover { border-color: var(--gold-light); }
+.lang-pick option { color: var(--text); background: #fff; }
+.lang-notice { margin: 0; padding: 8px var(--gutter); background: var(--gold-pale); color: var(--navy-dark); font-size: .88rem; }
+.topbar nav { align-items: center; }
+[dir="rtl"] .card-edge { left: auto; right: 0; }
+[dir="rtl"] .card { padding: 20px 26px 16px 20px; }
+[dir="rtl"] .hero-note, [dir="rtl"] .role-intro blockquote { border-left: 0; border-right: 3px solid var(--gold); padding-left: 0; padding-right: 14px; }
+[dir="rtl"] .evidence li { padding-left: 0; padding-right: 30px; }
+[dir="rtl"] .evidence li::before { left: auto; right: 2px; }
+[dir="rtl"] .sh-instr { border-left: 0; border-right: 4px solid var(--gold); }

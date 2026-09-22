@@ -11,6 +11,10 @@
   const areaNote = document.getElementById('areaNote');
   const cells = [...document.querySelectorAll('.mx-cell')];
   const KEYS = ['audience', 'strand', 'grade', 'mode', 'role', 'time'];
+  const UI = window.ELE_UI || {};
+  const t = (k, v = {}) => String(UI[k] || k).replace(/\{(\w+)\}/g, (m, x) => (v[x] !== undefined ? v[x] : m));
+  // accent-insensitive: matches the normalization used for catalog text at build time
+  const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase();
   let area = null;
 
   const checked = name => [...form.querySelectorAll(`input[name="${name}"]:checked`)].map(i => i.value);
@@ -31,18 +35,18 @@
 
   function apply(push) {
     const f = Object.fromEntries(KEYS.map(k => [k, checked(k)]));
-    f.q = q.value.trim().toLowerCase();
+    f.q = norm(q.value.trim());
     let n = 0;
     for (const c of cards) { const ok = matches(byId[c.dataset.id], f); c.hidden = !ok; if (ok) n++; }
-    count.textContent = n === data.length ? `All ${n} activities` : `${n} of ${data.length} activities`;
+    count.textContent = n === data.length ? t('f.all', { n }) : t('f.some', { n, total: data.length });
     empty.hidden = n > 0;
     cells.forEach(c => c.setAttribute('aria-pressed', String(c.dataset.area === area)));
     if (area) {
       areaNote.hidden = false;
       areaNote.innerHTML = '';
-      areaNote.append(`ELE area: ${window.ELE_AREAS[area]} `);
+      areaNote.append(t('f.area', { area: window.ELE_AREAS[area] }) + ' ');
       const b = document.createElement('button');
-      b.type = 'button'; b.textContent = 'Show all areas';
+      b.type = 'button'; b.textContent = t('f.allAreas');
       b.onclick = () => { area = null; apply(true); };
       areaNote.append(b);
     } else areaNote.hidden = true;
@@ -79,7 +83,7 @@
   const ft = document.getElementById('ftoggle');
   const setToggle = () => {
     const n = form.querySelectorAll('input[type=checkbox]:checked').length;
-    ft.textContent = (form.classList.contains('open') ? 'Hide filters' : 'Show filters') + (n ? ` (${n} on)` : '');
+    ft.textContent = t(form.classList.contains('open') ? 'f.hide' : 'f.show') + (n ? ' ' + t('f.on', { n }) : '');
     ft.setAttribute('aria-expanded', String(form.classList.contains('open')));
   };
   ft.addEventListener('click', () => { form.classList.toggle('open'); setToggle(); });
