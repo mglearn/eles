@@ -325,5 +325,16 @@
  "std.sst.math-reasoning": "Matemáticas: análisis de datos y hacer visible el razonamiento",
  "nav.menuGuide": "Guía",
  "ho.printOne": "Imprimir solo una:",
- "ho.showAll": "Ver el paquete completo"
+ "ho.showAll": "Ver el paquete completo",
+ "g.s8.h": "Tiempo frente a pantallas: propósito, no solo minutos",
+ "g.s8.p1": "En Texas, las reglas sobre los teléfonos cambiaron primero. La ley HB 1481 (2025) exige que cada distrito y escuela chárter prohíba que los estudiantes usen dispositivos personales de comunicación durante la jornada escolar, pero la ley excluye de manera explícita los dispositivos que proporciona la escuela. Cómo usan los estudiantes las computadoras portátiles y tabletas de la escuela sigue siendo una decisión de cada distrito, y hacia allí se ha movido la conversación.",
+ "g.s8.p2": "La investigación apunta en la misma dirección. La declaración de políticas 2026 de la Academia Americana de Pediatría va más allá de los simples límites de tiempo y se enfoca en la calidad, el contexto y la conversación. El Censo de Common Sense (2021) encontró que los preadolescentes pasan en promedio 5 horas 33 minutos y los adolescentes 8 horas 39 minutos al día con pantallas por entretenimiento, sin contar la escuela ni las tareas, y solo 8 y 14 minutos de ese tiempo se dedican a crear. En la escuela, la pregunta no es solo cuánto tiempo, sino para qué: crear, investigar y practicar con retroalimentación no es lo mismo que mirar.",
+ "g.s8.p3": "Este banco está hecho para esa pregunta. Cada actividad tiene una versión sin pantallas y una respuesta clara a *¿necesita una pantalla?*, y {n} no necesitan ningún dispositivo. No existe una medida nacional independiente del tiempo que los estudiantes pasan en dispositivos de la escuela, así que empiece con sus propios datos.",
+ "g.s8.start": "Actividades para la conversación sobre el tiempo frente a pantallas",
+ "g.s8.unplugged": "Ver las {n} actividades sin pantallas",
+ "g.s8.sources": "Fuentes",
+ "g.s8.src1": "Ley HB 1481 de Texas (2025), texto aprobado",
+ "g.s8.src2": "Academia Americana de Pediatría, Digital Ecosystems, Children, and Adolescents (declaración de políticas, Pediatrics, 2026)",
+ "g.s8.src3": "Plan de Medios Familiar de la AAP (gratuito)",
+ "g.s8.src4": "The Common Sense Census: Media Use by Tweens and Teens, 2021"
 }

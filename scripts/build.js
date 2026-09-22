@@ -81,6 +81,8 @@ const TEKS_SECTIONS = {
   ta: { 'K-2': '§126.5–§126.7', '3-5': '§126.8–§126.10', '6-8': '§126.17–§126.19' },
   elar: { 'K-2': '§110.2–§110.4', '3-5': '§110.5–§110.7', '6-8': '§110.22–§110.24', '9-12': '§110.36–§110.39' },
 };
+// Guide page: activities for the screen-time conversation (missing ids are skipped)
+const SCREEN_ACTS = ['minutes-with-a-purpose', 'screens-at-school-screens-at-home', 'does-this-need-a-screen', 'screen-time-green-time', 'evidence-before-tools', 'five-question-rollout-check', 'the-feed-game', 'algorithm-autopsy'];
 // TCEA's own ELE infographic slides (source_materials deck), shown on the framework page
 const INFOGRAPHICS = readJson(path.join(ROOT, 'data/infographics.json')) || [];
 
@@ -554,6 +556,22 @@ ${scripts.replace(/\{root\}/g, root)}
   <section>
     <h2>${esc(t('g.s6.h'))}</h2>
     <ul>${li(['g.s6.a', 'g.s6.b', 'g.s6.c', 'g.s6.d'])}</ul>
+  </section>
+  <section id="screen-time">
+    <h2>${esc(t('g.s8.h'))}</h2>
+    <p>${md(t('g.s8.p1'))}</p>
+    <p>${md(t('g.s8.p2'))}</p>
+    <p>${md(t('g.s8.p3', { n: acts.filter(a => a.mode === 'unplugged').length }))}</p>
+    <h3>${esc(t('g.s8.start'))}</h3>
+    <ul class="st-acts">${SCREEN_ACTS.map(id => acts.find(a => a.id === id)).filter(Boolean).map(a => `<li><a href="activities/${a.id}.html"${a.translated ? '' : ' lang="en"'}>${esc(a.title)}</a> <span class="muted">${esc(a.audience === 'pl' ? t('aud.pl') : gradeList(a))}</span></li>`).join('')}</ul>
+    <p><a href="index.html?mode=unplugged#catalog">${esc(t('g.s8.unplugged', { n: acts.filter(a => a.mode === 'unplugged').length }))}</a></p>
+    <h3>${esc(t('g.s8.sources'))}</h3>
+    <ul class="sources">
+      <li><a href="https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01481F.htm">${esc(t('g.s8.src1'))}</a></li>
+      <li><a href="https://publications.aap.org/pediatrics/article/157/2/e2025075320/206129/Digital-Ecosystems-Children-and-Adolescents-Policy">${esc(t('g.s8.src2'))}</a></li>
+      <li><a href="https://www.healthychildren.org/English/fmp/Pages/MediaPlan.aspx">${esc(t('g.s8.src3'))}</a></li>
+      <li><a href="https://www.commonsensemedia.org/sites/default/files/research/report/8-18-census-integrated-report-final-web_0.pdf">${esc(t('g.s8.src4'))}</a></li>
+    </ul>
   </section>
   <section>
     <h2>${esc(t('g.s7.h'))}</h2>

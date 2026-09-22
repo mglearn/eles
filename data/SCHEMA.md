@@ -122,4 +122,8 @@ placeholders like "insert example here".
 | Learning Activities Hub | https://mglearn.github.io/activities/ |
 | Digital Inquiry Group: Civic Online Reasoning (lateral reading lessons) | https://cor.inquirygroup.org/ |
 | News Literacy Project | https://newslit.org/ |
+| Texas HB 1481 (2025), enrolled bill text: personal communication devices | https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01481F.htm |
+| AAP policy statement: Digital Ecosystems, Children, and Adolescents (Pediatrics, 2026) | https://publications.aap.org/pediatrics/article/157/2/e2025075320/206129/Digital-Ecosystems-Children-and-Adolescents-Policy |
+| AAP Family Media Plan (HealthyChildren.org) | https://www.healthychildren.org/English/fmp/Pages/MediaPlan.aspx |
+| The Common Sense Census: Media Use by Tweens and Teens, 2021 (report PDF) | https://www.commonsensemedia.org/sites/default/files/research/report/8-18-census-integrated-report-final-web_0.pdf |
 | Tomorrow's Front Page, by Tricia Friedman (inspiration for the futures-headline activities; credit it, never copy it) | https://triciafriedman.com/tomorrows-front-page/ |

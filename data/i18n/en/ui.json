@@ -325,5 +325,16 @@
  "std.sst.math-reasoning": "Mathematics: data analysis and making reasoning visible",
  "nav.menuGuide": "Guide",
  "ho.printOne": "Print just one:",
- "ho.showAll": "Show the whole packet"
+ "ho.showAll": "Show the whole packet",
+ "g.s8.h": "Screen time: purpose, not just minutes",
+ "g.s8.p1": "In Texas, the rules on phones changed first. HB 1481 (2025) requires every district and charter school to prohibit students from using personal communication devices during the school day, but the law explicitly excludes devices the school provides. How students use school-issued laptops and tablets is still each district's decision, and that is where the conversation has moved.",
+ "g.s8.p2": "The research points the same way. The American Academy of Pediatrics' 2026 policy statement moves beyond simple time limits toward quality, context, and conversation. The Common Sense Census (2021) found that tweens average 5 hours 33 minutes and teens 8 hours 39 minutes of entertainment screen media a day, not counting school or homework, and only 8 and 14 minutes of that is spent creating. At school, the question isn't only how long, but for what: creating, researching, and practicing with feedback are not the same as watching.",
+ "g.s8.p3": "This bank is built for that question. Every activity has an unplugged path and a plain answer to *does it need a screen?*, and {n} need no devices at all. There is no independent national measure of how much time students spend on school-issued devices, so start with your own data.",
+ "g.s8.start": "Activities for the screen-time conversation",
+ "g.s8.unplugged": "Browse all {n} unplugged activities",
+ "g.s8.sources": "Sources",
+ "g.s8.src1": "Texas HB 1481 (2025), enrolled bill text",
+ "g.s8.src2": "American Academy of Pediatrics, Digital Ecosystems, Children, and Adolescents (policy statement, Pediatrics, 2026)",
+ "g.s8.src3": "AAP Family Media Plan (free)",
+ "g.s8.src4": "The Common Sense Census: Media Use by Tweens and Teens, 2021"
 }

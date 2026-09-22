@@ -1,4 +1,184 @@
 {
+ "act-after-the-rumor": {
+  "alt": "A campus team places dot stickers on a root-cause chart while their facilitator asks another \"why?\"",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-ai-critic-tank": {
+  "alt": "A team of educators pitches a hand-drawn project plan to a panel holding scoring rubrics.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-ai-ethics-case-court": {
+  "alt": "Educators hold a mock court: a defender argues while a panel of three judges listens and takes notes.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-ai-guidance-from-values": {
+  "alt": "School and college leaders silently place dot stickers on printed values cards spread across a board room table.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-ask-two": {
+  "alt": "Two first graders count the legs on a model spider to check an answer.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-bias-detectives": {
+  "alt": "Three educators highlight differences between two nearly identical mock letters.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-co-creation-not-substitution": {
+  "alt": "Faculty and teachers place task strips along a masking-tape line on the floor and argue about where each belongs.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-dashboard-critical-read": {
+  "alt": "Three education leaders redraw a misleading bar chart on chart paper so its baseline starts at zero.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-deepfake-principal-tabletop": {
+  "alt": "A school crisis team leans in as one member flips the next card in a tabletop exercise about a fake audio clip.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-did-the-ai-help": {
+  "alt": "A young coach and two science teachers debate how to sort study-design strips on a lab bench.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-does-this-need-a-screen": {
+  "alt": "Four teachers sort classroom tasks on a paper mat, arguing whether each one really needs a screen.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-evidence-before-tools": {
+  "alt": "Teachers redesign a lesson on chart paper, starting from the evidence of learning they want to see.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-explain-it-to-grandma": {
+  "alt": "A young teacher practices explaining AI in plain language to a colleague playing a skeptical grandparent.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-family-ai-night-design": {
+  "alt": "A campus team sorts printed photos into real and AI-made piles while planning a family night.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-five-question-rollout-check": {
+  "alt": "A planning team listens to a new development in a role-play while a blind teacher reads her braille role card.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-four-lens-app-review": {
+  "alt": "Two review teams compare their app scores at a sticky-note grid, citing a line from a printed profile.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-glass-box-checklist": {
+  "alt": "A librarian holds up a clear jar and a closed box to start a conversation about how transparent AI tools are.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-human-language-model": {
+  "alt": "Educators laugh at a confident but wrong sentence their paper language model just produced.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-hype-check-showcase": {
+  "alt": "Teachers at a showcase station debate whether a tool earns a \"pilot\" dot.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-journal-club-by-design": {
+  "alt": "Four coaches in an early-morning journal club question the claims in a printed article.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-kind-by-design": {
+  "alt": "Teachers group sticky notes on a classroom window to draft norms for kind online communication.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-lateral-reading-relay": {
+  "alt": "A veteran librarian searches for a source while two teachers question a claim card and log their moves.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-look-fors-for-learning": {
+  "alt": "A principal and his leadership team debate where to place walkthrough notes on a three-column sorting mat.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-looking-for-the-checking": {
+  "alt": "A teacher team lines up sticky notes beside photocopied student work, describing only what they see.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-never-paste-this": {
+  "alt": "Educators in a data room use red pens to remove student identifiers from meeting notes.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-personalization-with-guardrails": {
+  "alt": "Teachers review each other's posters about supporting different learners, leaving sticky-note feedback.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-real-remixed-or-made-up": {
+  "alt": "Two educators in a hallway gallery walk study a printed photo of a double rainbow, deciding whether it's real.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-seminar-on-a-machines-answer": {
+  "alt": "Teachers in a fishbowl seminar discuss a printed chatbot answer while a colleague outside the circle tallies their questions.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-shallow-answers-coaching-cycle": {
+  "alt": "In a coaching role-play, a young coach listens closely while an experienced teacher describes her class.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-the-prompt-ladder": {
+  "alt": "Teachers time a colleague as she plays a chatbot, with prompt cards laid out like a ladder on the table.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-two-drafts-of-feedback": {
+  "alt": "Two coaches and a principal sort strips about AI in classroom observations and write guardrails on sticky notes.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-vendor-claims-vs-evidence": {
+  "alt": "Education leaders highlight claims, evidence, and data terms in a printed vendor packet.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-verify-the-bot-workshop": {
+  "alt": "A science teacher and a librarian check a chatbot's claims against a textbook, one claim at a time.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-what-do-my-apps-know": {
+  "alt": "Two teachers audit the apps their students use, starting from a stack of sticky notes.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-who-gets-left-out-map": {
+  "alt": "Educators post sticky notes on a wall-sized barrier map while an interpreter signs for a Deaf colleague.",
+  "w": 1536,
+  "h": 1024
+ },
+ "act-whose-story-is-missing": {
+  "alt": "A librarian and three teachers review illustrated cards and discuss who is represented and who is left out.",
+  "w": 1536,
+  "h": 1024
+ },
  "cat-35-digcit": {
   "alt": "Fifth graders discuss a trail of paper footprints across their classroom floor.",
   "w": 1536,
@@ -44,6 +224,21 @@
   "w": 1536,
   "h": 1024
  },
+ "cat-he-digcit": {
+  "alt": "Two adult learners compare notes on a privacy checklist in a college library study room.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-he-genai": {
+  "alt": "University students discuss a printed article while their professor listens.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-he-medialit": {
+  "alt": "College students trace news claims to printed sources and record a citation.",
+  "w": 1536,
+  "h": 1024
+ },
  "cat-k2-digcit": {
   "alt": "Two first graders sort picture cards into hoops while a teacher listens nearby.",
   "w": 1536,
@@ -56,6 +251,21 @@
  },
  "cat-k2-medialit": {
   "alt": "Second graders compare printed photographs and discuss whether they are real or pretend.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-pl-digcit": {
+  "alt": "A librarian leads teachers in a discussion and vote using colored cards.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-pl-genai": {
+  "alt": "Teachers compare printed AI answers with a source packet during professional learning.",
+  "w": 1536,
+  "h": 1024
+ },
+ "cat-pl-medialit": {
+  "alt": "Educators discuss printed posts during a gallery walk while a teacher interprets in ASL.",
   "w": 1536,
   "h": 1024
  },
