@@ -70,7 +70,7 @@
   area = params.get('area');
 
   form.addEventListener('change', () => apply(true));
-  let t; q.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => apply(true), 120); });
+  let typing; q.addEventListener('input', () => { clearTimeout(typing); typing = setTimeout(() => apply(true), 120); });
   document.getElementById('clear').addEventListener('click', () => {
     form.querySelectorAll('input[type=checkbox]').forEach(i => (i.checked = false));
     q.value = ''; area = null; apply(true);
