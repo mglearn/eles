@@ -3,13 +3,29 @@
   "title": "Tool Tryout Lab",
   "tagline": "Instead of a demo and a vote, teacher teams test an emerging AI feature inside a GRITS lesson-study loop, watch students rather than the tool, and decide from student evidence.",
   "audience": "pl",
-  "roles": ["coaches", "teachers", "librarians"],
-  "grades": ["6-8", "9-12"],
-  "strands": ["genai", "medialit", "digcit"],
+  "roles": [
+    "coaches",
+    "teachers",
+    "librarians"
+  ],
+  "grades": [
+    "K-12"
+  ],
+  "strands": [
+    "genai",
+    "medialit",
+    "digcit"
+  ],
   "mode": "hybrid",
   "minutes": 90,
   "groupSize": "Teacher teams of 3–5 led by a coach; 6–40 people",
-  "eles": ["C2.2", "C2.3", "C5.2", "C4.1", "AI3.2"],
+  "eles": [
+    "C2.2",
+    "C2.3",
+    "C5.2",
+    "C4.1",
+    "AI3.2"
+  ],
   "overview": "Teachers ask \"Can we use this?\" about a new AI feature almost weekly. The usual answer is a demo and a show of hands. This lab replaces the vote with a structured tryout built on the GRITS lesson study model: the team sets a learning goal from student data, picks the research-based strategy the tool must serve, tries the fictional MarginMate annotation tool's new AI Hints feature as learners, plans a classroom tryout where colleagues observe students instead of the teacher, and then analyzes returned student work from two teams to reach a decision with a rubric. The possible decisions are adopt, adjust and retry, or drop, and adjust is the most common honest answer.",
   "objectives": [
     "Participants will state a learning goal and the research-based strategy a tool must serve before evaluating the tool itself.",
@@ -89,9 +105,18 @@
   "digital": "If your district already approves an annotation tool with an AI hint feature, teams can try it on a public-domain text during the Explore step, with the facilitator's account projected rather than personal accounts. After a real classroom tryout, teams post de-identified student work in a shared folder and score the rubric in a shared document so the decision and its evidence stay together for the PLC.",
   "whyTech": "Trying the feature live shows how the hint appears, how fast it arrives, and whether it can be ignored, which paper cannot fully show. The decision itself should rest on student work from a classroom tryout, which is why the printed evidence carries the most weight.",
   "adaptations": [
-    { "label": "Elementary teams", "text": "Swap the tool for a read-aloud feature with AI comprehension questions, teacher-driven on a projector. Observers watch whether students answer from the text or from the AI question's wording." },
-    { "label": "Librarians", "text": "Run the lab on a database's new AI summary feature. The R row becomes source evaluation: does the summary help students decide whether an article is worth reading?" },
-    { "label": "Leaders", "text": "Sit in as observers of the decision protocol and add one row to Handout B: what the district would need to support the Adjust conditions (contract changes, accessibility fixes, training time)." }
+    {
+      "label": "Elementary teams",
+      "text": "Swap the tool for a read-aloud feature with AI comprehension questions, teacher-driven on a projector. Observers watch whether students answer from the text or from the AI question's wording."
+    },
+    {
+      "label": "Librarians",
+      "text": "Run the lab on a database's new AI summary feature. The R row becomes source evaluation: does the summary help students decide whether an article is worth reading?"
+    },
+    {
+      "label": "Leaders",
+      "text": "Sit in as observers of the decision protocol and add one row to Handout B: what the district would need to support the Adjust conditions (contract changes, accessibility fixes, training time)."
+    }
   ],
   "lookFors": [
     "Handout C's G and R rows are complete before anyone scores the tool, and the strategy named is a research-based practice, not \"use the tool.\"",
@@ -106,9 +131,21 @@
   ],
   "transfer": "Pick the next tool request on your list and run the G and R conversation with the requesting teacher this week. Schedule one observed tryout lesson within a month, and bring the student work and the team's decision to your PLC.",
   "connections": [
-    { "title": "TCEA Blog: Got GRITS? A Coaching Strategy for Lesson Study Groups (Miguel Guhlin, 2025)", "url": "https://blog.tcea.org/grits-model-a-coaching-strategy-for-lesson-study-groups/", "note": "The lesson study cycle the tryout is built on." },
-    { "title": "TCEA Blog: Instructional Coaching, Research-Based Teaching Strategies That Actually Work (Bruce Ellis, 2026)", "url": "https://blog.tcea.org/instructional-coaching-research-based-teaching-strategies-that-actually-work-in-every-classroom/", "note": "The strategies a tool must serve before it earns a tryout." },
-    { "title": "PROTECT Rubric v2.0", "url": "https://mglearn.github.io/tcea/protect_rubric_v2/", "note": "A deeper privacy and safety review for any tool that passes the tryout." }
+    {
+      "title": "TCEA Blog: Got GRITS? A Coaching Strategy for Lesson Study Groups (Miguel Guhlin, 2025)",
+      "url": "https://blog.tcea.org/grits-model-a-coaching-strategy-for-lesson-study-groups/",
+      "note": "The lesson study cycle the tryout is built on."
+    },
+    {
+      "title": "TCEA Blog: Instructional Coaching, Research-Based Teaching Strategies That Actually Work (Bruce Ellis, 2026)",
+      "url": "https://blog.tcea.org/instructional-coaching-research-based-teaching-strategies-that-actually-work-in-every-classroom/",
+      "note": "The strategies a tool must serve before it earns a tryout."
+    },
+    {
+      "title": "PROTECT Rubric v2.0",
+      "url": "https://mglearn.github.io/tcea/protect_rubric_v2/",
+      "note": "A deeper privacy and safety review for any tool that passes the tryout."
+    }
   ],
   "handouts": [
     {
@@ -131,13 +168,58 @@
       "title": "Tryout Decision Rubric",
       "type": "rubric",
       "instructions": "Score from the returned student evidence, not the demo. Cite a specific student action for every score.",
-      "levels": ["Not ready", "Adjust and retry", "Works for this purpose", "Strong fit"],
+      "levels": [
+        "Not ready",
+        "Adjust and retry",
+        "Works for this purpose",
+        "Strong fit"
+      ],
       "criteria": [
-        { "name": "Serves the learning goal and strategy", "descriptors": ["The tool's output is unrelated to the goal or replaces the strategy.", "The tool touches the goal but its default setup works against the strategy (for example, hints before any student attempt).", "The tool supports the named strategy under a clear setup.", "The tool strengthens the strategy in ways paper could not, and the team can show how."] },
-        { "name": "Student thinking vs. tool thinking", "descriptors": ["Student work mostly repeats the tool's wording.", "Some students reason on their own; many copy the tool.", "Most students attempt first and use the tool to check or revise.", "Students question, correct, or reject the tool's output with reasons."] },
-        { "name": "Accuracy and verification", "descriptors": ["Errors went unnoticed by students and teachers.", "Errors were caught by the teacher only.", "Some students caught errors when prompted.", "Catching and explaining tool errors became part of the lesson."] },
-        { "name": "Privacy and data", "descriptors": ["Data terms are unknown or allow student work to train the product.", "Terms are known but the district opt-out is not yet confirmed.", "District terms protect student work; no personal data is collected beyond the approved account.", "Terms are confirmed, documented for the PLC, and explained to students in plain language."] },
-        { "name": "Access and inclusion", "descriptors": ["Some students cannot use the feature at all.", "Barriers exist (for example, screen reader access) with no fix planned.", "The feature works for all students in the tryout, with minor supports.", "The feature measurably widened access, for example for English learners, with no student left out."] }
+        {
+          "name": "Serves the learning goal and strategy",
+          "descriptors": [
+            "The tool's output is unrelated to the goal or replaces the strategy.",
+            "The tool touches the goal but its default setup works against the strategy (for example, hints before any student attempt).",
+            "The tool supports the named strategy under a clear setup.",
+            "The tool strengthens the strategy in ways paper could not, and the team can show how."
+          ]
+        },
+        {
+          "name": "Student thinking vs. tool thinking",
+          "descriptors": [
+            "Student work mostly repeats the tool's wording.",
+            "Some students reason on their own; many copy the tool.",
+            "Most students attempt first and use the tool to check or revise.",
+            "Students question, correct, or reject the tool's output with reasons."
+          ]
+        },
+        {
+          "name": "Accuracy and verification",
+          "descriptors": [
+            "Errors went unnoticed by students and teachers.",
+            "Errors were caught by the teacher only.",
+            "Some students caught errors when prompted.",
+            "Catching and explaining tool errors became part of the lesson."
+          ]
+        },
+        {
+          "name": "Privacy and data",
+          "descriptors": [
+            "Data terms are unknown or allow student work to train the product.",
+            "Terms are known but the district opt-out is not yet confirmed.",
+            "District terms protect student work; no personal data is collected beyond the approved account.",
+            "Terms are confirmed, documented for the PLC, and explained to students in plain language."
+          ]
+        },
+        {
+          "name": "Access and inclusion",
+          "descriptors": [
+            "Some students cannot use the feature at all.",
+            "Barriers exist (for example, screen reader access) with no fix planned.",
+            "The feature works for all students in the tryout, with minor supports.",
+            "The feature measurably widened access, for example for English learners, with no student left out."
+          ]
+        }
       ]
     },
     {
@@ -145,13 +227,37 @@
       "title": "GRITS Tryout Plan",
       "type": "table",
       "instructions": "Fill in G and R before you look at the tool closely. The tryout is one or two lessons.",
-      "columns": ["GRITS phase", "Our plan", "Evidence we'll bring back"],
+      "columns": [
+        "GRITS phase",
+        "Our plan",
+        "Evidence we'll bring back"
+      ],
       "rows": [
-        ["G · Goal setting: the learning gap in our student data and the outcome we want", "", ""],
-        ["R · Research: the proven strategy the tool must serve, our formative checkpoints, and supports for different learners", "", ""],
-        ["I · Implementation: class, lesson, comparison, what observers watch in students, privacy check, access check, date", "", ""],
-        ["T · Team analysis: stems we'll use, rubric scores, misconceptions we found, our decision and its conditions", "", ""],
-        ["S · Strengthening and sharing: what changes before reteaching, how we document it for the PLC, our reply to the requester", "", ""]
+        [
+          "G · Goal setting: the learning gap in our student data and the outcome we want",
+          "",
+          ""
+        ],
+        [
+          "R · Research: the proven strategy the tool must serve, our formative checkpoints, and supports for different learners",
+          "",
+          ""
+        ],
+        [
+          "I · Implementation: class, lesson, comparison, what observers watch in students, privacy check, access check, date",
+          "",
+          ""
+        ],
+        [
+          "T · Team analysis: stems we'll use, rubric scores, misconceptions we found, our decision and its conditions",
+          "",
+          ""
+        ],
+        [
+          "S · Strengthening and sharing: what changes before reteaching, how we document it for the PLC, our reply to the requester",
+          "",
+          ""
+        ]
       ]
     }
   ]

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hiểu dữ liệu qua bảng tính | Ngân hàng Hoạt động ELE</title>
+<meta name="description" content="Học sinh biến một cuộc khảo sát về bữa trưa thành bảng tính hoặc bảng kẻ ô trên giấy, tính số lượng và trung bình, vẽ một biểu đồ trung thực, rồi phát hiện và sửa những biểu đồ (và một gợi ý biểu đồ của AI) gây hiểu lầm vì trục bị cắt bớt hoặc khoảng dữ liệu bị chọn lọc có chủ ý.">
+<meta property="og:title" content="Hiểu dữ liệu qua bảng tính | Ngân hàng Hoạt động ELE">
+<meta property="og:description" content="Học sinh biến một cuộc khảo sát về bữa trưa thành bảng tính hoặc bảng kẻ ô trên giấy, tính số lượng và trung bình, vẽ một biểu đồ trung thực, rồi phát hiện và sửa những biểu đồ (và một gợi ý biểu đồ của AI) gây hiểu lầm vì trục bị cắt bớt hoặc khoảng dữ liệu bị chọn lọc có chủ ý.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/spreadsheet-sense-making.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/spreadsheet-sense-making.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/activities/spreadsheet-sense-making.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/spreadsheet-sense-making.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Ngân hàng Hoạt động</span></a>
+  <nav aria-label="Chính">
+    <a href="../index.html#catalog">Hoạt động</a>
+    <a href="../framework.html">Các ELE</a>
+    <details class="navmenu"><summary>Dành cho người điều phối</summary><div class="navmenu-panel">
+      <a href="../guide.html">Hướng dẫn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Chuẩn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../packets.html">Tài liệu in</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Ngôn ngữ</span><select aria-label="Ngôn ngữ"><option value="en" lang="en" data-href="../../activities/spreadsheet-sense-making.html">English</option><option value="es" lang="es" data-href="../../es/activities/spreadsheet-sense-making.html">Español</option><option value="vi" lang="vi" data-href="../../vi/activities/spreadsheet-sense-making.html" selected>Tiếng Việt</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="vi">Bản dịch này được thực hiện với sự hỗ trợ của AI và đang chờ người bản ngữ xem xét. Bản tiếng Anh là bản gốc.</p>
+
+<main id="main" class="act">
+  <div class="act-head has-photo">
+    <figure class="act-photo"><img class="photo" src="../../assets/img/cat-68-medialit.jpg" width="1536" height="1024" alt="Eighth graders connect printed claims to sources on a classroom whiteboard."></figure>
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Tất cả hoạt động</a> <span aria-hidden="true">/</span> Học tập của học sinh</p>
+    <h1>Hiểu dữ liệu qua bảng tính</h1>
+    <p class="lede">Học sinh biến một cuộc khảo sát về bữa trưa thành bảng tính hoặc bảng kẻ ô trên giấy, tính số lượng và trung bình, vẽ một biểu đồ trung thực, rồi phát hiện và sửa những biểu đồ (và một gợi ý biểu đồ của AI) gây hiểu lầm vì trục bị cắt bớt hoặc khoảng dữ liệu bị chọn lọc có chủ ý.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/spreadsheet-sense-making.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">In hướng dẫn này</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="Tóm tắt nhanh">
+      <dl>
+        <div><dt>Thời gian</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 phút</dd></div>
+        <div><dt>Hình thức</dt><dd class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</dd></div>
+        <div><dt>Lớp</dt><dd>6–8, 9–12</dd></div>
+        
+        <div><dt>Nhóm</dt><dd>Theo cặp hoặc nhóm 3 em; bao nhiêu nhóm cũng được</dd></div>
+        <div><dt>Mạch nội dung</dt><dd class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Chỉ báo ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#S5.1">S5.1</a><div><span class="ind-area">Học sinh · Người Giải quyết Vấn đề Sáng tạo</span>Em biết cách tiếp cận các vấn đề phức tạp một cách có hệ thống.</div></li><li><a class="ele" href="../framework.html#S1.1">S1.1</a><div><span class="ind-area">Học sinh · Thành thạo Công nghệ</span>Em biết cách sử dụng công nghệ để hỗ trợ việc học của mình.</div></li><li><a class="ele" href="../framework.html#S5.2">S5.2</a><div><span class="ind-area">Học sinh · Người Giải quyết Vấn đề Sáng tạo</span>Em có thể vận dụng sự sáng tạo và tư duy logic để tìm ra các giải pháp đổi mới.</div></li><li><a class="ele" href="../framework.html#AI4.1">AI4.1</a><div><span class="ind-area">AI trong Giáo dục · AI và Tư duy Phản biện</span>Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.</div></li></ul>
+      <h2 class="glance-h">Phiếu</h2>
+      <ul class="handout-list"><li><a href="../handouts/spreadsheet-sense-making.html#handout-A"><span class="hl">A</span> Dữ liệu khảo sát bữa trưa Cedar Ridge</a> <span class="muted">(sơ đồ tổ chức)</span></li><li><a href="../handouts/spreadsheet-sense-making.html#handout-B"><span class="hl">B</span> Những biểu đồ kể chuyện, và gợi ý của một chatbot</a> <span class="muted">(bài đọc)</span></li><li><a href="../handouts/spreadsheet-sense-making.html#handout-C"><span class="hl">C</span> Phiếu hiểu dữ liệu</a> <span class="muted">(phiếu bài tập)</span></li></ul>
+      <p class="glance-print"><a class="btn btn-gold" href="../handouts/spreadsheet-sense-making.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a></p>
+    </aside>
+    <div class="act-main">
+      <section><h2>Tổng quan</h2><p class="overview">Biểu đồ xuất hiện ở khắp nơi học sinh nhìn thấy: bản tin của trường, quảng cáo, bài báo, bài đăng trên mạng xã hội, và ngày càng nhiều hơn là các công cụ AI đề nghị &quot;vẽ biểu đồ giúp bạn&quot;. Trong bài học này, học sinh trở thành nhóm dữ liệu cho căng tin của trường trung học cơ sở hư cấu Cedar Ridge Middle School. Các em nhập 24 câu trả lời khảo sát vào bảng tính (hoặc bảng kẻ ô trên giấy), đếm các món được yêu thích và tính trung bình điểm đánh giá thực đơn, rồi vẽ một biểu đồ trung thực. Sau đó, các em gặp hai biểu đồ bắt mắt dùng cùng loại dữ liệu để kể một câu chuyện gây hiểu lầm, một biểu đồ có <strong>trục bị cắt bớt</strong> và một biểu đồ có <strong>khoảng dữ liệu được chọn lọc</strong>, cùng với một gợi ý biểu đồ đầy tự tin của AI nhưng tính toán sai. Học sinh sửa từng biểu đồ và viết ra một quy tắc có thể dùng mỗi khi một biểu đồ tìm cách thuyết phục mình.</p>
+        <h3 class="sub">Mục tiêu</h3><ul><li>Học sinh sắp xếp dữ liệu khảo sát trong bảng tính hoặc bảng kẻ ô trên giấy và tính số lượng, giá trị trung bình (trung bình cộng) và trung vị, trình bày công thức hoặc các bước đã dùng.</li><li>Học sinh tạo một biểu đồ cột có trục bắt đầu từ 0, nhãn rõ ràng và tiêu đề nêu đúng điều dữ liệu thực sự cho thấy.</li><li>Học sinh nhận ra trục bị cắt bớt và khoảng dữ liệu được chọn lọc trong một biểu đồ gây hiểu lầm, giải thích mỗi thủ thuật làm thay đổi câu chuyện ra sao, và vẽ lại biểu đồ một cách trung thực.</li><li>Học sinh đối chiếu gợi ý biểu đồ của một công cụ AI với các phép tính của chính mình và sửa ít nhất hai lỗi.</li></ul></section>
+      <section class="two">
+        <div><h2>Học liệu</h2>
+          <h3 class="sub">Trên giấy</h3><ul><li>Phiếu A: Dữ liệu khảo sát bữa trưa Cedar Ridge (mỗi cặp 1 phiếu)</li><li>Phiếu B: Những biểu đồ kể chuyện, và gợi ý của một chatbot (mỗi cặp 1 phiếu)</li><li>Phiếu C: Phiếu hiểu dữ liệu (mỗi học sinh 1 phiếu)</li><li>Giấy kẻ ô hoặc giấy vẽ đồ thị, thước kẻ, bút chì màu; máy tính cầm tay cho hướng làm trên giấy</li></ul>
+          <h3 class="sub">Trên màn hình</h3><ul><li>Mỗi cặp một thiết bị có ứng dụng bảng tính mà nhà trường đã cung cấp, dùng tài khoản do trường quản lý</li><li>Tùy chọn: một chatbot AI tạo sinh được học khu phê duyệt, chỉ chạy trên thiết bị của giáo viên và chiếu cho cả lớp (với học sinh dưới 13 tuổi, giáo viên luôn là người thao tác)</li></ul></div>
+        <div><h2>Trước khi bắt đầu</h2><ol class="prep"><li>In Phiếu A, B và C. Với hướng làm trên giấy, chuẩn bị sẵn giấy kẻ ô và máy tính cầm tay.</li><li>Với hướng làm kỹ thuật số, thầy cô có thể nhập sẵn Phiếu A vào một mẫu bảng tính và chia sẻ bản sao cho từng cặp, hoặc để các cặp tự nhập (nhập 24 dòng mất khoảng 5 phút và giúp phát hiện lỗi nhập liệu).</li><li>Phác họa Biểu đồ 1 từ Phiếu B lên bảng, đúng như mô tả (trục dọc bắt đầu từ 6), để thầy cô có thể hé lộ nó ở phần khởi động.</li><li>Tùy chọn: nếu muốn dùng dữ liệu thật của lớp, hãy làm nhanh một cuộc khảo sát ẩn danh bằng cách giơ tay (món ăn trưa yêu thích và điểm đánh giá từ 1–5) và dùng nó thay cho Phiếu A. Giữ không khí nhẹ nhàng và không bao giờ ghi tên.</li><li>Nếu định làm bước AI trực tiếp, hãy thử trước một lần câu lệnh (prompt) trong phần Kỹ thuật số để biết công cụ của mình sẽ đưa ra kiểu gợi ý nào.</li></ol></div>
+      </section>
+      <section><h2>Từng bước</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khởi động</p>
+        <h3>Pizza thắng áp đảo?</h3>
+        <p>Hé lộ hình phác họa Biểu đồ 1 trên bảng: hai cột, cột Pizza cao vượt hẳn cột Tacos, cùng tiêu đề <strong>&quot;Pizza ĐÈ BẸP Tacos!&quot;</strong> Hỏi: &quot;Em nào tin tiêu đề này thì giơ ngón cái. Các em nghĩ có bao nhiêu học sinh chọn pizza nhiều hơn?&quot; Hầu hết sẽ đoán gấp đôi hoặc hơn. Nói: &quot;Hãy nhớ con số các em vừa đoán. Cuối buổi học, các em sẽ biết chính xác là bao nhiêu, và sẽ biết thủ thuật nào khiến nó trông như vậy.&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Chưa tiết lộ thủ thuật về trục. Hãy để học sinh tự khám phá sau khi đã vẽ biểu đồ của mình từ số liệu thật.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–17 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khám phá</p>
+        <h3>Lập bảng dữ liệu</h3>
+        <p>Các cặp nhập Phiếu A vào bảng tính (hoặc chép lên giấy kẻ ô). Sau đó các em tính và ghi vào Phiếu C: <strong>số học sinh chọn mỗi món ăn trưa</strong>, <strong>điểm đánh giá thực đơn trung bình (trung bình cộng)</strong>, <strong>điểm trung vị</strong>, và <strong>số học sinh chấm thực đơn 4 hoặc 5 điểm</strong>. Trên bảng tính, hãy giới thiệu các công thức mà hầu hết ứng dụng đều dùng, như =COUNTIF(C2:C25,&quot;Pizza&quot;) để đếm và =AVERAGE(D2:D25) để tính trung bình cộng. Trên giấy, học sinh gạch đếm rồi chia. Các cặp so sánh với một cặp khác và sửa những chỗ khác nhau.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Đáp án: Pizza 8, Tacos 7, Mì Ý 4, Quầy salad 3, Bánh mì kẹp 2 (tổng 24). Tổng điểm đánh giá là 81, nên trung bình cộng là 81 ÷ 24 = 3.375, khoảng 3.4. Trung vị là 3.5. Mười hai học sinh (một nửa) chấm thực đơn 4 hoặc 5 điểm. Những cặp có kết quả khác thường là do nhập sai một dòng, và đó cũng là một bài học: hãy kiểm tra dữ liệu mình nhập.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">17–25 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Sáng tạo</p>
+        <h3>Vẽ một biểu đồ trung thực</h3>
+        <p>Các cặp vẽ biểu đồ cột về các món ăn trưa được yêu thích (dùng công cụ biểu đồ của bảng tính hoặc vẽ tay trên giấy kẻ ô). Biểu đồ phải có: <strong>trục dọc bắt đầu từ 0</strong>, các trục được ghi nhãn, số lượng ghi trên hoặc phía trên mỗi cột, và một tiêu đề nói điều dữ liệu cho thấy mà không phóng đại (ví dụ: &quot;Các món ăn trưa được yêu thích, khảo sát 24 học sinh&quot;). Hỏi: &quot;Giờ hãy nhìn Pizza và Tacos. Chênh lệch thực sự lớn đến mức nào?&quot; (Một học sinh.)</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Một số ứng dụng bảng tính tự động chọn điểm bắt đầu của trục. Nếu biểu đồ của một cặp không bắt đầu từ 0, đó là cơ hội dạy học tuyệt vời: chỉ cho các em chỗ chỉnh giá trị nhỏ nhất của trục.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">25–35 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Luyện tập</p>
+        <h3>Bắt bài thủ thuật biểu đồ</h3>
+        <p>Các cặp đọc Phần 1 và Phần 2 của Phiếu B. Với mỗi biểu đồ, các em trả lời trên Phiếu C: <strong>Biểu đồ muốn mình tin câu chuyện gì? Thủ thuật nào khiến nó trông như vậy? Dữ liệu đầy đủ, trung thực cho thấy điều gì?</strong> Sau đó các em vẽ lại một trong hai biểu đồ một cách trung thực, dùng dữ liệu được cho. Tập hợp cả lớp và gọi tên hai thủ thuật: <strong>trục bị cắt bớt</strong> (trục bắt đầu trên mức 0, nên chênh lệch nhỏ trông rất lớn) và <strong>khoảng dữ liệu được chọn lọc</strong> (chỉ cho thấy phần dữ liệu ủng hộ câu chuyện).</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Biểu đồ 2 khó hơn: năm ngày cuối đúng là có tăng. Biểu đồ không nói dối về những ngày đó. Nó bỏ qua ba tuần trước đó, khi lượt mượn sách giảm. Trung bình theo tuần: 46.8, 40.4, 34.4, 35.4.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">35–43 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Vận dụng</p>
+        <h3>Kiểm tra chatbot</h3>
+        <p>Các cặp đọc Phần 3 của Phiếu B, gợi ý của một chatbot về cách vẽ biểu đồ cho cuộc khảo sát. Dựa trên các phép tính của mình, các em đánh dấu mỗi nhận định là <strong>đúng</strong>, <strong>sai</strong> hoặc <strong>gây hiểu lầm</strong>, và viết phần sửa lại. Tổng kết: &quot;Chatbot nói rất chắc chắn. Làm sao các em biết nó sai? Nếu một biểu đồ sai được đăng lên, ai chịu trách nhiệm: chatbot hay người đăng?&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Các lỗi cần phát hiện: trung bình khoảng 3.4, không phải 3.9; một nửa học sinh (không phải 75%) chấm thực đơn 4 hoặc 5 điểm; Pizza là món được yêu thích nhiều nhất nhưng chỉ 8 trên 24 (một phần ba), không phải &quot;đa số học sinh&quot;; bắt đầu trục từ 6 chính là thủ thuật trục bị cắt bớt. Gợi ý dùng biểu đồ tròn là vấn đề cần cân nhắc; biểu đồ cột cho điểm đánh giá dễ so sánh hơn.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">43–50 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Suy ngẫm</p>
+        <h3>Quy tắc kiểm tra biểu đồ của em</h3>
+        <p>Học sinh hoàn thành phần cuối của Phiếu C: một quy tắc ba phần các em sẽ dùng mỗi khi một biểu đồ tìm cách thuyết phục mình, và một câu về việc khi nào công cụ AI có thể giúp vẽ biểu đồ và các em sẽ kiểm tra điều gì trước tiên. Mời vài em đọc to quy tắc của mình và cùng làm một áp phích của lớp, chẳng hạn <strong>&quot;Kiểm tra trục. Kiểm tra khoảng dữ liệu. Kiểm tra phép tính.&quot;</strong></p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Bằng chứng học tập cần thu thập: biểu đồ được vẽ lại và các nhận định của chatbot đã được sửa cho thấy học sinh có thực sự kiểm tra được hay không, chứ không chỉ gọi tên được thủ thuật.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Giấy hay màn hình</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</h3><p>Mọi thứ đều làm được trên giấy: học sinh chép dữ liệu khảo sát lên giấy kẻ ô, gạch đếm số lượng, tính trung bình bằng máy tính cầm tay hoặc tính tay, và vẽ biểu đồ cột bằng thước. Để có phiên bản vận động, cho học sinh xếp hàng theo món ăn trưa yêu thích để tạo thành một biểu đồ cột bằng người, rồi mời một em cầm &quot;trục&quot; bằng giấy bắt đầu từ 6 trong khi cả lớp quan sát hình ảnh thay đổi thế nào.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kỹ thuật số</h3><p>Các cặp nhập dữ liệu vào ứng dụng bảng tính bằng tài khoản do trường quản lý, dùng công thức COUNTIF và AVERAGE, và chèn một biểu đồ cột. Sau đó các em cố ý đổi giá trị nhỏ nhất của trục dọc thành 6 và quan sát biểu đồ biến thành biểu đồ gây hiểu lầm, rồi đổi lại. Với bước AI, giáo viên chiếu một chatbot được học khu phê duyệt, dán dữ liệu khảo sát vào và gõ: &quot;Tôi nên vẽ biểu đồ gì từ cuộc khảo sát bữa trưa này, và nó cho thấy điều gì?&quot; Cả lớp đối chiếu câu trả lời trực tiếp với các phép tính của mình, giống như đã làm với Phiếu B. Học sinh dưới 13 tuổi không bao giờ dùng tài khoản AI của riêng mình.</p></div>
+        <p class="why"><strong>Có cần màn hình không?</strong> Bảng tính xứng đáng với thời gian dùng màn hình ở đây: học sinh thấy công thức tính lại ngay lập tức khi sửa một lỗi gõ, và có thể đổi một cài đặt trục để thấy biểu đồ trung thực trở thành biểu đồ gây hiểu lầm, khiến thủ thuật trở nên cụ thể theo cách mà hình vẽ không làm được. Bước kiểm tra AI trực tiếp bổ sung bằng chứng rằng học sinh xác minh kết quả của máy dựa trên phép tính của chính mình thay vì tin ngay.</p>
+      </section>
+      <section class="evidence"><h2>Bằng chứng học tập</h2><p class="muted">Những gì bạn có thể quan sát hoặc thu thập được nếu hoạt động thành công.</p><ul><li>Số lượng và trung bình cộng khớp với đáp án (Pizza 8, Tacos 7, Mì Ý 4, Quầy salad 3, Bánh mì kẹp 2; trung bình khoảng 3.4), và các cặp trình bày được công thức hoặc các bước đã dùng.</li><li>Biểu đồ của học sinh bắt đầu từ 0, ghi nhãn cả hai trục và có tiêu đề mô tả chứ không phóng đại.</li><li>Học sinh gọi tên thủ thuật trục bị cắt bớt và khoảng dữ liệu được chọn lọc, và vẽ lại ít nhất một biểu đồ một cách trung thực bằng dữ liệu đầy đủ.</li><li>Học sinh phát hiện ít nhất hai lỗi của chatbot (trung bình 3.9, nhận định 75 phần trăm, &quot;đa số học sinh&quot;, trục bắt đầu từ 6) và giải thích phần sửa bằng số liệu của chính mình.</li></ul></section>
+      <section><h2>Điều chỉnh</h2><dl class="adapt"><div><dt>Lớp 6</dt><dd>Bỏ phần trung vị và biểu đồ có khoảng dữ liệu được chọn lọc. Tập trung vào số lượng, trung bình cộng và trục bị cắt bớt, và cung cấp khung câu: &quot;Biểu đồ làm cho có vẻ như ___, nhưng số liệu thật cho thấy ___.&quot;</dd></div><div><dt>Lớp 9–12</dt><dd>Thêm một thủ thuật gây hiểu lầm thứ ba: biểu đồ dùng tỉ lệ phần trăm mà không nói rằng tổng số chỉ có 24 học sinh. Học sinh viết một bài nhận xét ngắn về một biểu đồ trong bản tin của trường hoặc một bài báo, dùng quy tắc của lớp.</dd></div><div><dt>Học sinh song ngữ đang phát triển</dt><dd>Dán một bức tường từ vựng có hình ảnh cho các từ trục, trung bình, số lượng, khoảng dữ liệu và biểu đồ, mỗi từ kèm một ví dụ có ghi nhãn. Cho phép các cặp thảo luận bằng tiếng mẹ đẻ và viết phần sửa với khung câu.</dd></div><div><dt>Học sinh có nhu cầu về thị giác hoặc vận động</dt><dd>Cung cấp bảng tính dựng sẵn với chữ to hơn và bố cục thân thiện với trình đọc màn hình, hoặc một biểu đồ cột xúc giác làm bằng khối lắp ghép; các em có thể cảm nhận thủ thuật trục bằng cách bỏ sáu khối dưới cùng của mỗi tháp.</dd></div></dl></section>
+      <section class="stds"><h2>Liên kết với các chuẩn</h2><p>Học sinh tính toán và vẽ biểu đồ dữ liệu khảo sát trong bảng tính, rồi phát hiện và sửa các trục gây hiểu lầm, khoảng dữ liệu được chọn lọc có chủ ý, và một gợi ý biểu đồ sai của AI.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-data" title="Ứng dụng Công nghệ: hiểu biết, quản lý và biểu diễn dữ liệu">hiểu biết, quản lý và biểu diễn dữ liệu</a><a class="std std-teks" href="../standards.html#teks-elar-genres" title="ELAR: đa thể loại, bao gồm văn bản đa phương thức và kỹ thuật số">đa thể loại, bao gồm văn bản đa phương thức và kỹ thuật số</a><span class="std-sec">Các mục TEKS: Technology Applications §126.17–§126.19, các môn Ứng dụng Công nghệ bậc trung học phổ thông (19 TAC Chương 126); ELAR §110.22–§110.24, §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Nói">Nói</a><a class="std std-elps" href="../standards.html#elps-c4" title="Đọc">Đọc</a><a class="std std-elps" href="../standards.html#elps-c5" title="Viết">Viết</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Làm nổi bật và khám phá khuôn mẫu, đặc điểm then chốt, ý tưởng lớn và các mối quan hệ">3.2</a><a class="std std-udl" href="../standards.html#udl-5-2" title="Sử dụng nhiều công cụ để xây dựng, sáng tác và sáng tạo">5.2</a><a class="std std-udl" href="../standards.html#udl-8-5" title="Đưa ra phản hồi hướng đến hành động">8.5</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-math-reasoning" title="Toán học: phân tích dữ liệu và thể hiện rõ lập luận">phân tích dữ liệu và thể hiện rõ lập luận</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Xem cách tất cả hoạt động được đối chiếu với các chuẩn</a></p></section>
+      <section class="two">
+        <div><h2>Suy ngẫm</h2><ul><li>Em đã tiếp cận dữ liệu từng bước như thế nào để có thể tin vào câu trả lời của mình? (ELE Học sinh 5.0)</li><li>Lần tới khi một biểu đồ cố thuyết phục em điều gì đó, em sẽ đặt những câu hỏi nào?</li><li>Khi nào một công cụ AI có thể giúp em vẽ biểu đồ, và em sẽ kiểm tra điều gì trước khi chia sẻ nó?</li></ul></div>
+        <div><h2>Bước tiếp theo</h2><p>Ở nhà, học sinh cùng một người trong gia đình tìm một biểu đồ trong tờ rơi, quảng cáo hoặc bài báo và kiểm tra nó bằng quy tắc của lớp: trục, khoảng dữ liệu và phép tính. Ở bài học sau, học sinh dùng cùng các kỹ năng bảng tính để vẽ biểu đồ dữ liệu từ một thí nghiệm khoa học hoặc một cuộc thăm dò của lớp, và giải thích vì sao biểu đồ của mình trung thực.</p></div>
+      </section>
+      <section><h2>Kết hợp tốt với</h2><ul class="connections"><li><a href="https://mglearn.github.io/tcea/ddp/">Data Display Patterns field guide</a><span>Tài liệu tham khảo cho giáo viên về cách chọn loại biểu đồ và nhận ra những kiểu trình bày gây hiểu lầm.</span></li><li><a href="https://mglearn.github.io/activities/ctobs/clear/">Critical Thinking Breakouts: Signal Check, The Viral Claim (6–8 media literacy)</a><span>Hoạt động nối tiếp về những nhận định mang tính thuyết phục mà học sinh gặp trên truyền thông.</span></li></ul></section>
+      <section class="related noprint"><h2>Hoạt động liên quan</h2><div class="cards"><article class="card has-photo" data-id="ad-or-info">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/act-ad-or-info.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 3–5</span></p>
+    <h3><a href="../activities/ad-or-info.html">Quảng cáo hay Thông tin?</a></h3>
+    <p class="card-tag">Học sinh phân loại các bài đăng, video và tiêu đề giả lập thành quảng cáo, thông tin và câu click, truy tìm các chiêu thuyết phục, rồi tự tạo một quảng cáo trung thực, được ghi nhãn rõ ràng.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>40 phút</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#S2.2" title="Học sinh 2.2: Em có thể nhận biết các nguồn thông tin đáng tin cậy trên internet.">S2.2</a><a class="ele" href="../framework.html#S5.2" title="Học sinh 5.2: Em có thể vận dụng sự sáng tạo và tư duy logic để tìm ra các giải pháp đổi mới.">S5.2</a><a class="ele" href="../framework.html#S3.2" title="Học sinh 3.2: Em có thể truyền đạt ý tưởng của mình một cách rõ ràng cho người khác.">S3.2</a></span></div>
+  </article><article class="card has-photo" data-id="algorithm-autopsy">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/act-algorithm-autopsy.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 9–12</span></p>
+    <h3><a href="../activities/algorithm-autopsy.html">Giải phẫu Thuật toán</a></h3>
+    <p class="card-tag">Học sinh mổ xẻ các tính năng thiết kế của một ứng dụng mạng xã hội hư cấu, lần theo cách mỗi tính năng định hình sự chú ý và niềm tin, rồi thiết kế lại bảng tin để phục vụ con người thay vì lượt tương tác.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>75 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span><span class="strand s-digcit">Công dân số</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI trong Giáo dục 1.1: Tôi biết các hệ thống AI hoạt động như thế nào và khả năng của chúng trong bối cảnh giáo dục.">AI1.1</a><a class="ele" href="../framework.html#S5.2" title="Học sinh 5.2: Em có thể vận dụng sự sáng tạo và tư duy logic để tìm ra các giải pháp đổi mới.">S5.2</a><a class="ele" href="../framework.html#S5.1" title="Học sinh 5.1: Em biết cách tiếp cận các vấn đề phức tạp một cách có hệ thống.">S5.1</a></span></div>
+  </article><article class="card has-photo" data-id="cart-check">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-912-digcit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-digcit"></span><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Học tập của học sinh<span>dành cho Lớp 9–12, Giáo dục đại học</span></p>
+    <h3><a href="../activities/cart-check.html">Kiểm Tra Giỏ Hàng: Lừa Đảo Mua Sắm và Tiền Bạc Trên Mạng</a></h3>
+    <p class="card-tag">Trước khi bấm &quot;Mua&quot;, học sinh kiểm tra cửa hàng, món hời, bài đánh giá và phương thức thanh toán, đồng thời tập dượt chính xác những việc cần làm nếu một giao dịch gặp trục trặc.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>55 phút</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-digcit">Công dân số</span><span class="strand s-genai">AI tạo sinh</span><span class="strand s-medialit">Hiểu biết truyền thông</span></span><span class="eles"><a class="ele" href="../framework.html#S2.1" title="Học sinh 2.1: Em biết cách bảo vệ thông tin cá nhân của mình trên mạng.">S2.1</a><a class="ele" href="../framework.html#S5.1" title="Học sinh 5.1: Em biết cách tiếp cận các vấn đề phức tạp một cách có hệ thống.">S5.1</a><a class="ele" href="../framework.html#AI4.1" title="AI trong Giáo dục 4.1: Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.">AI4.1</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Ngân hàng Hoạt động Kỳ vọng Học tập Thiết yếu của TCEA.</strong> Hoạt động bồi dưỡng chuyên môn và hoạt động cho học sinh K–16 về hiểu biết AI tạo sinh, công dân số và hiểu biết truyền thông, trên giấy hoặc trên màn hình.</p>
+    <p>Hoạt động do Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>) biên soạn, dựa trên <a href="https://tinyurl.com/tceaeles1">Kỳ vọng Học tập Thiết yếu của TCEA</a> (CC BY-SA 2024). Chia sẻ theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: được sao chép, chỉnh sửa và tái sử dụng khi ghi nguồn. Không cần đăng nhập, không theo dõi.</p>
+    <p class="ai-note">Ảnh trên trang này là hình minh họa do AI tạo ra về những người hư cấu, không phải học sinh hay nhân viên thật.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog TCEA</a>
+    <a href="https://convention.tcea.org/">Hội nghị &amp; Triển lãm TCEA</a>
+  </nav>
+  <nav aria-label="Liên quan">
+    <p class="foot-h">Thêm tài nguyên miễn phí</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Trợ lý Đối chiếu ELE</a>
+    <a href="https://mglearn.github.io/activities/">Trung tâm Hoạt động Học tập</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Hoạt động nhóm về Công dân số</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

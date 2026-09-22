@@ -1,0 +1,348 @@
+{
+  "id": "spreadsheet-sense-making",
+  "title": "Spreadsheet Sense-Making",
+  "tagline": "Students turn a lunch survey into a spreadsheet or paper grid, compute counts and averages, build an honest chart, then catch and fix charts (and an AI chart suggestion) that mislead with a truncated axis or a cherry-picked range.",
+  "audience": "student",
+  "grades": [
+    "6-8",
+    "9-12"
+  ],
+  "strands": [
+    "medialit",
+    "genai"
+  ],
+  "mode": "hybrid",
+  "minutes": 50,
+  "groupSize": "Pairs or teams of 3; any number of teams",
+  "eles": [
+    "S5.1",
+    "S1.1",
+    "S5.2",
+    "AI4.1"
+  ],
+  "overview": "Charts show up everywhere students look: school newsletters, ads, news stories, social posts, and more and more often, AI tools that offer to \"make a chart for you.\" In this lesson, students become the data team for the fictional Cedar Ridge Middle School cafeteria. They enter 24 survey responses into a spreadsheet (or a paper grid), count favorites and average the menu ratings, and draw an honest chart. Then they meet two flashy charts that use the same kind of data to tell a misleading story, one with a **truncated axis** and one with a **cherry-picked range**, plus a confident AI chart suggestion that gets the math wrong. Students fix each one and write a rule they can use whenever a chart tries to persuade them.",
+  "objectives": [
+    "Students will organize survey data in a spreadsheet or paper grid and compute counts, an average (mean), and a median, showing the formula or steps they used.",
+    "Students will create a bar chart with a zero baseline, clear labels, and a title that states what the data actually shows.",
+    "Students will identify a truncated axis and a cherry-picked range in a misleading chart, explain how each changes the story, and redraw the chart honestly.",
+    "Students will check an AI tool's chart suggestion against their own calculations and correct at least two errors."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Cedar Ridge Lunch Survey Data (1 per pair)",
+      "Handout B: Charts That Tell a Story, and a Chatbot's Suggestion (1 per pair)",
+      "Handout C: Sense-Making Worksheet (1 per student)",
+      "Grid or graph paper, rulers, colored pencils; calculators for the paper path"
+    ],
+    "digital": [
+      "One device per pair with a spreadsheet app your school already provides, using school-managed accounts",
+      "Optional: a generative AI chatbot your district approves, on the teacher's device only, projected for the class (under 13, the teacher always drives)"
+    ]
+  },
+  "prep": [
+    "Print Handouts A, B, and C. For the paper path, have grid paper and calculators ready.",
+    "For the digital path, you may pre-load Handout A into a spreadsheet template and share a copy with each pair, or let pairs type it in (typing 24 rows takes about 5 minutes and catches entry errors).",
+    "Sketch Chart 1 from Handout B on the board, exactly as described (vertical axis starting at 6), so you can reveal it in the Hook.",
+    "Optional: if you'd rather use real class data, run a quick anonymous show-of-hands survey (favorite lunch item and a 1–5 rating) and swap it in for Handout A. Keep it low-stakes and never collect names.",
+    "If you plan the live AI step, try the prompt in the Digital section once ahead of time so you know what kind of suggestion your tool gives."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Pizza wins by a landslide?",
+      "body": "Reveal your board sketch of Chart 1: two bars, Pizza towering over Tacos, and the headline **\"Pizza CRUSHES Tacos!\"** Ask: \"Thumbs up if you believe the headline. How many more students do you think picked pizza?\" Most will guess double or more. Say: \"Hold on to that guess. By the end of class, you'll know exactly how many, and you'll know the trick that made it look that way.\"",
+      "note": "Don't reveal the axis trick yet. Let students discover it after they've made their own chart from the real numbers."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Build the data grid",
+      "body": "Pairs enter Handout A into a spreadsheet (or copy it onto grid paper). Then they compute, and record on Handout C: **how many students picked each lunch item**, **the average (mean) menu rating**, **the median rating**, and **how many rated the menu 4 or 5**. In a spreadsheet, show the formulas most apps use, such as =COUNTIF(C2:C25,\"Pizza\") for a count and =AVERAGE(D2:D25) for the mean. On paper, students tally and divide. Pairs compare with another pair and fix any differences.",
+      "note": "Answer key: Pizza 8, Tacos 7, Pasta 4, Salad bar 3, Sandwich 2 (24 total). Ratings add to 81, so the mean is 81 ÷ 24 = 3.375, about 3.4. The median is 3.5. Twelve students (half) rated the menu 4 or 5. Pairs that disagree usually mistyped a row, which is its own lesson: check your data entry."
+    },
+    {
+      "phase": "Create",
+      "minutes": 8,
+      "title": "Make an honest chart",
+      "body": "Pairs make a bar chart of favorite lunch items (spreadsheet chart tool or hand-drawn on grid paper). The chart must have: **a vertical axis that starts at 0**, labeled axes, a count shown on or above each bar, and a title that says what the data shows without exaggerating (for example, \"Favorite Lunch Items, 24 Students Surveyed\"). Ask: \"Now look at Pizza and Tacos. How big is the difference really?\" (One student.)",
+      "note": "Some spreadsheet apps choose an axis starting point automatically. If a pair's chart doesn't start at 0, that's a perfect teachable moment: show them where the axis minimum setting is."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 10,
+      "title": "Catch the chart tricks",
+      "body": "Pairs read Parts 1 and 2 of Handout B. For each chart, they answer on Handout C: **What story does the chart want me to believe? What trick makes it look that way? What does the full, honest data show?** Then they redraw one of the two charts honestly, using the data given. Bring the class together and name the two tricks: a **truncated axis** (the axis starts above zero, so small differences look huge) and a **cherry-picked range** (only the part of the data that supports the story is shown).",
+      "note": "Chart 2 is the harder one: the last five days really did go up. The chart isn't lying about those days. It's leaving out the three weeks before, when checkouts fell. Weekly averages: 46.8, 40.4, 34.4, 35.4."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 8,
+      "title": "Check the chatbot",
+      "body": "Pairs read Part 3 of Handout B, a chatbot's suggestion for charting the survey. Using their own calculations, they mark every claim as **correct**, **wrong**, or **misleading**, and write the correction. Debrief: \"The chatbot sounded sure. How did you know it was wrong? Who's responsible if a wrong chart gets published, the chatbot or the person who posted it?\"",
+      "note": "Errors to catch: the average is about 3.4, not 3.9; half of students (not 75%) rated the menu 4 or 5; Pizza is the most common favorite but only 8 of 24 (one-third), not \"most students\"; starting the axis at 6 is the same truncated-axis trick. The pie chart suggestion is a judgment call; a bar chart of ratings is easier to compare."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 7,
+      "title": "My chart-checking rule",
+      "body": "Students complete the last section of Handout C: a three-part rule they'll use whenever a chart tries to persuade them, and one sentence about when an AI tool might help with a chart and what they would check first. Share a few rules aloud and build a class poster, such as **\"Check the axis. Check the range. Check the math.\"**",
+      "note": "Evidence to collect: the redrawn chart and the corrected chatbot claims show whether students can do the checking, not just name the tricks."
+    }
+  ],
+  "unplugged": "Everything works on paper: students copy the survey onto grid paper, tally counts, compute the average with a calculator or by hand, and draw bar charts with rulers. For a moving version, have students stand in lines by favorite lunch item to form a human bar chart, then have a volunteer hold a paper \"axis\" that starts at 6 while the class notices how the picture changes.",
+  "digital": "Pairs enter the data in a spreadsheet app with school-managed accounts, use COUNTIF and AVERAGE formulas, and insert a bar chart. Then they deliberately change the vertical axis minimum to 6 and watch the chart turn into the misleading one, and change it back. For the AI step, the teacher projects a district-approved chatbot, pastes the survey data, and types: \"What chart should I make from this lunch survey, and what does it show?\" The class checks the live answer against their own calculations, just as they did with Handout B. Students under 13 never use their own AI accounts.",
+  "whyTech": "The spreadsheet earns its screen time here: students see a formula recompute instantly when they fix a typo, and they can flip an axis setting and watch an honest chart become a misleading one, which makes the trick concrete in a way a drawing cannot. The live AI check adds evidence that students verify machine output against their own math instead of trusting it.",
+  "adaptations": [
+    {
+      "label": "Grade 6",
+      "text": "Skip the median and the cherry-picked chart. Focus on counts, the mean, and the truncated axis, and give a sentence frame: \"The chart makes it look like ___, but the real numbers show ___.\""
+    },
+    {
+      "label": "Grades 9–12",
+      "text": "Add a third misleading move: a chart using percentages without saying the total is only 24 students. Students write a short critique of a chart from a school newsletter or a news story, using the class rule."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Post a visual word wall for axis, average, count, range, and chart, with a labeled example of each. Allow pairs to discuss in their home language and write corrections with sentence frames."
+    },
+    {
+      "label": "Students with visual or motor needs",
+      "text": "Provide a pre-built spreadsheet with larger text and a screen reader friendly layout, or a tactile bar chart built with interlocking cubes; the axis trick can be felt by removing the bottom six cubes from each tower."
+    }
+  ],
+  "lookFors": [
+    "Counts and the mean match the key (Pizza 8, Tacos 7, Pasta 4, Salad bar 3, Sandwich 2; mean about 3.4), and pairs can show the formula or steps they used.",
+    "Student charts start at zero, label both axes, and use a title that describes rather than exaggerates.",
+    "Students name the truncated axis and cherry-picked range tricks and redraw at least one chart honestly using the full data.",
+    "Students catch at least two chatbot errors (the 3.9 average, the 75 percent claim, \"most students,\" the axis starting at 6) and explain the correction with their own numbers."
+  ],
+  "reflection": [
+    "How did I approach the data step by step so I could trust my answer? (Student ELE 5.0)",
+    "What questions will I ask the next time a chart tries to convince me of something?",
+    "When could an AI tool help me make a chart, and what would I check before I shared it?"
+  ],
+  "transfer": "At home, students find one chart or graph in a flyer, ad, or news story with a family member and check it with the class rule: the axis, the range, and the math. Next lesson, students use the same spreadsheet skills to chart data from a science investigation or a class poll, and explain why their chart is honest.",
+  "connections": [
+    {
+      "title": "Data Display Patterns field guide",
+      "url": "https://mglearn.github.io/tcea/ddp/",
+      "note": "Teacher reference for choosing chart types and spotting display patterns that mislead."
+    },
+    {
+      "title": "Critical Thinking Breakouts: Signal Check, The Viral Claim (6–8 media literacy)",
+      "url": "https://mglearn.github.io/activities/ctobs/clear/",
+      "note": "A follow-up on persuasive claims students meet in media."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Cedar Ridge Lunch Survey Data",
+      "type": "table",
+      "instructions": "Made-up data from the fictional Cedar Ridge Middle School. 24 students answered two questions: \"What is your favorite lunch item?\" and \"Rate the cafeteria menu from 1 (not good) to 5 (great).\" No names were collected.",
+      "columns": [
+        "Response #",
+        "Grade",
+        "Favorite lunch item",
+        "Menu rating (1–5)"
+      ],
+      "rows": [
+        [
+          "1",
+          "6",
+          "Pizza",
+          "5"
+        ],
+        [
+          "2",
+          "7",
+          "Tacos",
+          "4"
+        ],
+        [
+          "3",
+          "8",
+          "Pizza",
+          "3"
+        ],
+        [
+          "4",
+          "6",
+          "Pasta",
+          "4"
+        ],
+        [
+          "5",
+          "7",
+          "Salad bar",
+          "2"
+        ],
+        [
+          "6",
+          "8",
+          "Tacos",
+          "5"
+        ],
+        [
+          "7",
+          "6",
+          "Pizza",
+          "3"
+        ],
+        [
+          "8",
+          "7",
+          "Sandwich",
+          "4"
+        ],
+        [
+          "9",
+          "8",
+          "Tacos",
+          "1"
+        ],
+        [
+          "10",
+          "6",
+          "Pizza",
+          "3"
+        ],
+        [
+          "11",
+          "7",
+          "Pasta",
+          "4"
+        ],
+        [
+          "12",
+          "8",
+          "Tacos",
+          "5"
+        ],
+        [
+          "13",
+          "6",
+          "Salad bar",
+          "2"
+        ],
+        [
+          "14",
+          "7",
+          "Pizza",
+          "3"
+        ],
+        [
+          "15",
+          "8",
+          "Tacos",
+          "4"
+        ],
+        [
+          "16",
+          "6",
+          "Pasta",
+          "3"
+        ],
+        [
+          "17",
+          "7",
+          "Pizza",
+          "5"
+        ],
+        [
+          "18",
+          "8",
+          "Sandwich",
+          "4"
+        ],
+        [
+          "19",
+          "6",
+          "Tacos",
+          "2"
+        ],
+        [
+          "20",
+          "7",
+          "Pizza",
+          "3"
+        ],
+        [
+          "21",
+          "8",
+          "Salad bar",
+          "4"
+        ],
+        [
+          "22",
+          "6",
+          "Tacos",
+          "3"
+        ],
+        [
+          "23",
+          "7",
+          "Pasta",
+          "1"
+        ],
+        [
+          "24",
+          "8",
+          "Pizza",
+          "4"
+        ]
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Charts That Tell a Story, and a Chatbot's Suggestion",
+      "type": "reading",
+      "instructions": "These charts and the chatbot answer are made up for practice. Read each part, then answer the questions on Handout C.",
+      "paragraphs": [
+        "PART 1: CHART 1, from a flyer made by the fictional Cedar Ridge Pizza Club. Headline: \"Pizza CRUSHES Tacos!\" The chart shows two bars, Pizza and Tacos. The vertical axis starts at 6 and goes up to 8. The Pizza bar reaches 8 and the Tacos bar reaches 7, so on the page the Pizza bar looks twice as tall as the Tacos bar. There are no numbers on the bars and no mention that only 24 students were surveyed.",
+        "PART 2: THE LIBRARY DATA. The fictional Cedar Ridge library counted books checked out each school day for four weeks. Week 1 (Days 1–5): 48, 45, 50, 47, 44. Week 2 (Days 6–10): 42, 40, 43, 39, 38. Week 3 (Days 11–15): 36, 35, 37, 33, 31. Week 4 (Days 16–20): 30, 33, 35, 38, 41.",
+        "PART 2: CHART 2, from the fictional school newsletter. Headline: \"Library Checkouts Are SOARING!\" The line chart shows only Days 16 to 20. The line climbs steeply from 30 to 41. The vertical axis starts at 28. There is no mention of Days 1 to 15.",
+        "PART 3: THE CHATBOT'S SUGGESTION. A student pasted the lunch survey into an AI chatbot and asked, \"What chart should I make, and what does it show?\" The chatbot answered:",
+        "\"Great data! I recommend a pie chart of the menu ratings to show how students feel overall. Key findings: (1) The average menu rating is 3.9 out of 5, which shows strong approval. (2) 75% of students rated the menu 4 or 5. (3) Pizza is the favorite lunch item of most students. (4) For your favorite-item bar chart, start the vertical axis at 6 so the differences between items really stand out. This will make your presentation more exciting!\"",
+        "THINK ABOUT IT: Every chart and answer above sounds confident. Which ones would still hold up after you checked the full data and did the math yourself?"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Sense-Making Worksheet",
+      "type": "worksheet",
+      "instructions": "Show your work. When a question asks you to check something, use your own calculations as evidence.",
+      "sections": [
+        {
+          "prompt": "Counts: How many students picked each lunch item? (Pizza, Tacos, Pasta, Salad bar, Sandwich.) Write the formula or tally method you used.",
+          "lines": 3
+        },
+        {
+          "prompt": "Average (mean) menu rating: ___. Median rating: ___. Number of students who rated 4 or 5: ___ out of 24. Show how you found the mean.",
+          "lines": 3
+        },
+        {
+          "prompt": "Sketch your honest bar chart of favorite lunch items. The axis starts at 0, both axes are labeled, and the title describes the data.",
+          "boxes": true
+        },
+        {
+          "prompt": "Chart 1: What story does it want you to believe? What trick makes it look that way? What do the real numbers show?",
+          "lines": 4
+        },
+        {
+          "prompt": "Chart 2: What story does it want you to believe? What trick makes it look that way? What does the full four weeks show? (Hint: find each week's average.)",
+          "lines": 4
+        },
+        {
+          "prompt": "Chatbot check: Mark each of the four findings correct, wrong, or misleading, and write the correction using your numbers.",
+          "lines": 5
+        },
+        {
+          "prompt": "My three-part chart-checking rule, and one thing I would check before sharing a chart an AI tool made for me:",
+          "lines": 3
+        }
+      ]
+    }
+  ]
+}

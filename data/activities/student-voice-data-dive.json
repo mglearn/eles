@@ -3,13 +3,28 @@
   "title": "Student Voice Data Dive",
   "tagline": "Coaches and teachers design a short, privacy-safe student survey on devices, AI, and wellbeing, then read returned results with Notice-Wonder-Next and act on what students said.",
   "audience": "pl",
-  "roles": ["coaches", "teachers", "leaders"],
-  "grades": ["3-5", "6-8", "9-12"],
-  "strands": ["digcit", "genai"],
+  "roles": [
+    "coaches",
+    "teachers",
+    "leaders"
+  ],
+  "grades": [
+    "K-12"
+  ],
+  "strands": [
+    "digcit",
+    "genai"
+  ],
   "mode": "hybrid",
   "minutes": 60,
   "groupSize": "Grade-level or department teams of 3–5, led by a coach; any number of teams",
-  "eles": ["C3.1", "C3.2", "C5.2", "T4.3", "AI4.1"],
+  "eles": [
+    "C3.1",
+    "C3.2",
+    "C5.2",
+    "T4.3",
+    "AI4.1"
+  ],
   "overview": "Campuses make decisions about screens, AI, and phone rules every week, usually without asking the students who live with them. This session treats student voice as instructional data. Teams design a five-question anonymous survey and a short interview on when technology helps or hinders learning and wellbeing, check it against a privacy checklist, and then read a fictional set of returned results from a seventh-grade team using Notice-Wonder-Next. The protocol keeps the team describing before interpreting and reframing problems as design choices the team controls, and it ends with one change and a plan to tell students what their answers changed.",
   "objectives": [
     "Participants will write an anonymous student survey of five questions or fewer, plus two interview prompts, that asks about learning and wellbeing without inviting sensitive personal disclosures.",
@@ -82,9 +97,18 @@
   "digital": "Build the survey in a district-approved form tool with name and email collection turned off, and share it through the LMS. The form's summary view makes it quick to compare sections or grade levels, and a coach can chart results for the team meeting. Remove any open response that could identify a student before sharing results beyond the team, and don't paste raw student responses into an AI tool to summarize them.",
   "whyTech": "A form tool makes anonymous responses easier to collect and faster to chart across sections, which helps a team see patterns it would miss by hand. The interpretation, and the decision about what to change, stays a human conversation at the table.",
   "adaptations": [
-    { "label": "Grades 3–5", "text": "Use three questions with faces or thumbs for answers and one open question read aloud. Students respond on paper; the teacher reads the questions to the whole class." },
-    { "label": "High school", "text": "Invite two students to help write and pilot the survey. Their revisions usually make the questions clearer than the adults' drafts." },
-    { "label": "Campus leaders", "text": "Aggregate results across teams to inform a campus device or AI guideline, and share a one-page \"you said, we did\" with students and families." }
+    {
+      "label": "Grades 3–5",
+      "text": "Use three questions with faces or thumbs for answers and one open question read aloud. Students respond on paper; the teacher reads the questions to the whole class."
+    },
+    {
+      "label": "High school",
+      "text": "Invite two students to help write and pilot the survey. Their revisions usually make the questions clearer than the adults' drafts."
+    },
+    {
+      "label": "Campus leaders",
+      "text": "Aggregate results across teams to inform a campus device or AI guideline, and share a one-page \"you said, we did\" with students and families."
+    }
   ],
   "lookFors": [
     "Draft surveys have five questions or fewer, and each question names an action the team would take depending on the answer.",
@@ -99,9 +123,21 @@
   ],
   "transfer": "Run your revised survey with one class or grade level within two weeks, run Notice-Wonder-Next with your team, make one change, and tell students what changed. Repeat two questions a month later to see whether the change shows up in their answers.",
   "connections": [
-    { "title": "TCEA Blog: Stop Fixing Students, Coaching for Equity Through Universal Design (Miguel Guhlin, 2026)", "url": "https://blog.tcea.org/stop-fixing-students-coaching-for-equity-through-universal-design/", "note": "The Notice-Wonder-Next protocol and the shift from student deficits to design barriers." },
-    { "title": "TCEA Blog: Coaching Strategies, Part One (Miguel Guhlin, 2025)", "url": "https://blog.tcea.org/coaching-strategies-part-one/", "note": "Student-centered, non-evaluative coaching that keeps the focus on results for students." },
-    { "title": "Data Display Patterns field guide", "url": "https://mglearn.github.io/tcea/ddp/", "note": "Ideas for charting survey results so a team can read them quickly." }
+    {
+      "title": "TCEA Blog: Stop Fixing Students, Coaching for Equity Through Universal Design (Miguel Guhlin, 2026)",
+      "url": "https://blog.tcea.org/stop-fixing-students-coaching-for-equity-through-universal-design/",
+      "note": "The Notice-Wonder-Next protocol and the shift from student deficits to design barriers."
+    },
+    {
+      "title": "TCEA Blog: Coaching Strategies, Part One (Miguel Guhlin, 2025)",
+      "url": "https://blog.tcea.org/coaching-strategies-part-one/",
+      "note": "Student-centered, non-evaluative coaching that keeps the focus on results for students."
+    },
+    {
+      "title": "Data Display Patterns field guide",
+      "url": "https://mglearn.github.io/tcea/ddp/",
+      "note": "Ideas for charting survey results so a team can read them quickly."
+    }
   ],
   "handouts": [
     {
@@ -109,7 +145,11 @@
       "title": "Privacy-Safe Student Voice Checklist",
       "type": "checklist",
       "instructions": "Check every survey and interview plan before it reaches students. Any \"No\" means revise first.",
-      "scale": ["Yes", "Partly", "No"],
+      "scale": [
+        "Yes",
+        "Partly",
+        "No"
+      ],
       "items": [
         "The survey does not collect names, email addresses, student IDs, or sign-ins.",
         "No combination of answers (for example, class period plus a small group) could identify a student.",
@@ -146,9 +186,17 @@
       "title": "Notice-Wonder-Next Organizer",
       "type": "table",
       "instructions": "Fill the columns in order. A Notice must be something anyone could point to on Handout B. Write your \"you said, we did\" on the back.",
-      "columns": ["Notice (what the data shows)", "Wonder (what it makes us ask)", "Next (one design change we control)"],
+      "columns": [
+        "Notice (what the data shows)",
+        "Wonder (what it makes us ask)",
+        "Next (one design change we control)"
+      ],
       "rows": [
-        ["Example: 33 of 71 students were not sure of the class AI rule.", "Example: Have we ever said the rule out loud, or only posted it in the LMS?", "Example: Post the rule on the lab sheet and practice it once with a real AI answer."]
+        [
+          "Example: 33 of 71 students were not sure of the class AI rule.",
+          "Example: Have we ever said the rule out loud, or only posted it in the LMS?",
+          "Example: Post the rule on the lab sheet and practice it once with a real AI answer."
+        ]
       ],
       "blankRows": 6
     }

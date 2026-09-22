@@ -1,0 +1,160 @@
+{
+  "id": "inbox-to-impact",
+  "title": "Inbox to Impact: Professional Digital Communication",
+  "tagline": "Staff revise five realistic messages to families and colleagues for clarity, kindness, privacy, accessibility, and translation, and learn to review an AI-drafted message before it goes out.",
+  "audience": "pl",
+  "roles": ["staff", "teachers", "leaders"],
+  "grades": ["K-12"],
+  "strands": ["digcit", "genai"],
+  "mode": "unplugged",
+  "minutes": 60,
+  "groupSize": "Tables of 3–5; works for 6–80 people",
+  "eles": ["T4.1", "L5.2", "AI2.1", "T3.1"],
+  "overview": "A single email can build trust with a family or undo a month of it. In this session, participants work as editors on five fictional messages: a sharp reply to a parent, a staff email that exposes student information, a jargon-heavy newsletter for a multilingual community, an AI-drafted message with a made-up policy in it, and a video-meeting invite missing everything people need. Using a shared Before You Hit Send checklist, tables revise each message, then write one real message of their own to use this week. The big idea: professional communication is relationship work, and privacy, access, and AI review are part of being kind.",
+  "objectives": [
+    "Participants will revise at least three mock messages for a clear purpose, a warm and professional tone, and plain language.",
+    "Participants will identify information that should never go in an email or group message and choose a safer channel for it.",
+    "Participants will plan how a message reaches multilingual families accurately, including when machine translation needs a fluent human check.",
+    "Participants will review an AI-drafted message for accuracy, tone, and privacy, and name what they changed before sending."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Five Messages That Need a Second Look (1 per table)",
+      "Handout B: Before You Hit Send checklist (1 per person; many keep it by their desk)",
+      "Handout C: Message Makeover Log (1 per table)",
+      "Colored pens for editing, sticky notes, chart paper titled \"Our Team's Message Norms\""
+    ],
+    "digital": [
+      "Optional: an email app or shared document to draft the final message",
+      "Optional: a generative AI chatbot your district approves, projected by the facilitator, to generate a first draft live for the group to review",
+      "Optional: your district's approved translation service or tool, for the translation discussion"
+    ]
+  },
+  "prep": [
+    "Print Handout A for each table and Handout B for each person.",
+    "Find out your district's rules and approved routes for three things: sharing student information, translation and interpretation for families, and using AI tools for staff communication. Have them ready to name.",
+    "Know who in your district handles translation requests and how long they take, so participants leave with a real route, not just advice.",
+    "If you'll demo an AI draft live, test your prompt first and never include real names or student details in it."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Read it as the family would",
+      "body": "Read Message 1 from Handout A aloud in a neutral voice. Then ask participants to imagine they are Ms. Delgado, a parent reading it on her phone at 9 p.m. after a long shift. Ask: **\"How does she feel? What does she do next?\"** Take a few answers. Say: \"The words we send are the only part of us people see. Today we'll edit five messages and leave with one of our own ready to send.\"",
+      "note": "Participants often laugh in recognition. Honor it: everyone has sent a message they wish they could revise."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "Think aloud with the checklist",
+      "body": "Project Handout B and model it on Message 1. \"**Purpose:** what do I want her to know and do? That should be in the first two lines. **Tone:** I'll start with something true and positive about her child, describe the issue as behavior and facts, not labels, and offer a next step together. **Privacy:** this is about her child only, so it's fine to send to her, but not to copy the whole grade-level team. **Access:** short sentences, no acronyms, and I'll check which language she prefers. **Channel:** some of this might be better as a phone call.\" Rewrite the opening lines together on chart paper.",
+      "note": "Name the channel choice explicitly. Some messages shouldn't be emails at all."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 18,
+      "title": "Editing stations",
+      "body": "Tables work through Messages 2–5 on Handout A, about four minutes each, logging each on Handout C: **What's wrong**, **Who might be hurt or left out**, **The fix**, and **Better channel?** For Message 4 (the AI draft), tables must underline every factual claim and mark it Verified, Wrong, or Can't tell before editing the tone. Tables rewrite at least the first three lines of each message in colored pen.",
+      "note": "Message 2 surprises people. Listen for the realization that a helpful reminder to staff exposed health and discipline information to a whole list. Message 4 usually reveals that the AI invented a policy and a date."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 10,
+      "title": "What never goes in an email?",
+      "body": "Pull the room together. Build a quick list on chart paper: **Never in an email or group message**: student health or disability information, discipline details, grades or test scores of any student other than the family's own child, student ID numbers, passwords or login codes, home addresses, custody or legal matters, and anything you'd be uncomfortable seeing forwarded. Then discuss two questions: **\"When does a message need a human translator, not just a tool?\"** and **\"What's your personal rule for reviewing an AI draft before you send it?\"**",
+      "note": "Keep legal specifics tied to your district policy, and point people to whoever handles student records questions. The goal is habits, not legal advice."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 6,
+      "title": "Video-meeting norms in two minutes",
+      "body": "Using Message 5, tables list what a good virtual meeting invite and meeting include. Collect on the norms chart: a clear purpose and agenda, the date with time zone and length, one link and a phone option, an interpreter arranged in advance when needed, captions turned on, camera optional, a note on whether it will be recorded and why, and no student information shown on a shared screen. Ask: **\"Who might be left out of a video meeting, and how do we plan for them?\"**",
+      "note": "Families without reliable internet, those working shifts, and those who need interpretation are the usual answers. A phone option and a written summary help."
+    },
+    {
+      "phase": "Create",
+      "minutes": 10,
+      "title": "One real message",
+      "body": "Each person drafts one message they actually need to send in the next week, to a family or a colleague, on the back of Handout C or in an email app. Use fictional placeholders only, no real student names. Swap with a partner, who reviews it with Handout B and gives one specific suggestion. If anyone used AI for the first draft, the partner asks: **\"What did you check and change?\"**",
+      "note": "This is the evidence of learning: a revised, ready-to-send message and the reason for each change."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 4,
+      "title": "Our team's message norms",
+      "body": "Each table adds one norm to the chart titled \"Our Team's Message Norms,\" such as \"Purpose in the first two lines\" or \"We read AI drafts out loud before sending.\" Leaders commit to one norm they'll model in their own messages this month.",
+      "note": "Leaders: photograph the chart and share it with staff as a starting draft for campus communication norms."
+    }
+  ],
+  "unplugged": "This session is designed to run entirely on paper. Tables edit printed messages in colored pen, log changes on Handout C, and build norms on chart paper. For the AI step, Message 4 is a printed AI draft, so no tool is needed to practice the review habit.",
+  "digital": "Share Handout A as a document so tables can use suggestion mode to edit, and draft the final message in an email app, saved as a draft, not sent. The facilitator can project an approved AI chatbot to generate a first draft from a prompt with no real names, then have the room review it with Handout B. In a virtual session, run editing stations in breakout rooms and apply the video-meeting norms to the session itself.",
+  "whyTech": "Paper is the better default here: editing a printed message slows people down enough to notice tone, privacy, and access problems. A live AI draft adds value only if the group reviews it; watching it appear fluent and still wrong makes the case for a human check before sending.",
+  "adaptations": [
+    { "label": "Front office and support staff", "text": "Swap Message 3 for a phone-message follow-up or a school closure text, and add a station on what to say when a family asks for information you can't share." },
+    { "label": "Leaders", "text": "Add a sixth message: a campus-wide announcement about a change. Run it through the five-question check, with extra time on \"How will families understand the change?\"" },
+    { "label": "Multilingual campuses", "text": "Invite a staff member who serves as an interpreter to co-facilitate the translation discussion and share what makes a message easier to translate well." },
+    { "label": "Short on time", "text": "Run Messages 1, 2, and 4 only (30 minutes), and send Handout B home as the takeaway." }
+  ],
+  "lookFors": [
+    "Revised messages state the purpose and any action needed in the first two lines, in plain language.",
+    "Tables identify every privacy problem in Message 2 and name a safer channel for each piece of information.",
+    "For the AI draft, tables mark individual claims as verified, wrong, or can't tell, and correct the invented policy before editing tone.",
+    "Each participant leaves with one revised real message and can explain at least one change they made and why."
+  ],
+  "reflection": [
+    "How do my messages build positive relationships with students and families? (Teacher ELE T4.1)",
+    "How clearly am I sharing school goals and news with families, including those who read in another language? (Leader ELE L5.2)",
+    "What is my personal rule for reviewing an AI-drafted message before it goes out, and who is accountable for what it says?"
+  ],
+  "transfer": "Send the revised message this week and note the response. Teachers can adapt Message 1 as a lesson on respectful email for students. Bring the Our Team's Message Norms chart to your next team meeting to adopt as shared norms.",
+  "connections": [
+    { "title": "Flip the Script: Better Campus Meetings", "url": "https://mglearn.github.io/tcea/cesm/", "note": "Pairs well with the video-meeting norms." },
+    { "title": "Digital Accessibility Readiness Assessment", "url": "https://mglearn.github.io/tcea/a11y/", "note": "For making messages and attachments accessible." },
+    { "title": "AI Essentials Prompt Library", "url": "https://mglearn.github.io/tcea/ai-essentials-prompt-library/", "note": "Prompts for drafting, with a human review step." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Five Messages That Need a Second Look",
+      "type": "reading",
+      "instructions": "All names, schools, and details are fictional. Read each message as the person receiving it would, then edit.",
+      "paragraphs": [
+        "**Message 1 · Teacher to parent, sent 9:47 p.m.** Subject: \"Problem.\" \"Mrs. Delgado, Mateo was disruptive AGAIN today. He refuses to do his work and it is affecting the whole class. This has been going on for weeks and I need you to deal with it. If this continues there will be consequences. — Mr. Harlan\"",
+        "**Message 2 · Counselor to the whole 7th grade team (14 people), Oak Ridge Middle School.** Subject: \"Heads up for Monday.\" \"Quick reminders: Aria P. starts her new ADHD medication Monday, so watch for side effects. Jalen W. is back from his 3-day suspension for the fight. Sofia R.'s parents are in a custody dispute; Dad is NOT allowed to pick her up. Also Liam's reading score came back at a 2nd-grade level, attached is his full report with his student ID. Let me know if you need anything!\"",
+        "**Message 3 · Principal's newsletter to all families, Pecan Grove Elementary (families speak English, Spanish, Vietnamese, and Arabic).** \"Per our CIP and in alignment with TEKS-based PLC data, we are implementing a new MTSS framework for Tier 2 RTI this semester. Families should access the portal to review BOY benchmark data and complete the attached form by EOW. See the flyer image below for details.\" The details are only in an image of a flyer, with no text version and no translation.",
+        "**Message 4 · AI-drafted message a teacher is about to send to all families.** The teacher's prompt: \"Write a friendly email to families about our field trip.\" The draft: \"Dear Families, We are thrilled to announce our exciting field trip to the Cedar Valley Science Center on Friday, March 14! Per district policy 4.12, all students must bring $25 cash and a signed waiver by Monday. Students who do not attend will receive a zero for the unit. Lunch will be provided free of charge by the Science Center. We look forward to an unforgettable experience! Warm regards.\" The actual trip is on Thursday, March 13; the cost is $12 with scholarships available; there is no district policy 4.12; students who don't attend do an alternate activity at school; and students need to bring a lunch.",
+        "**Message 5 · Video meeting invite from a grade-level team to families.** Subject: \"Meeting.\" \"Please join our meeting tomorrow. Link: see below.\" There is no time, no time zone, no length, no purpose, no agenda, and no phone option. The link goes to a meeting set to record automatically, and the host plans to share the class gradebook on screen to \"show where everyone stands.\""
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Before You Hit Send",
+      "type": "checklist",
+      "instructions": "Run every important message through this list. If you can't check a box, revise, change the channel, or ask someone first.",
+      "scale": ["Yes", "Fix", "N/A"],
+      "items": [
+        "Purpose: the reader knows what this is about and what, if anything, they need to do, within the first two lines.",
+        "Subject line: specific and neutral (\"Mateo's week in math: a quick check-in\"), not alarming (\"Problem\").",
+        "Tone: I'd be comfortable if this were read aloud at a meeting with the recipient, my supervisor, and the student present.",
+        "Kindness: I start with something true and positive, describe facts and behavior rather than labels, and offer a next step together.",
+        "Plain language: short sentences, no acronyms or jargon unless I explain them.",
+        "Privacy: no health, disability, discipline, custody, grades of other students, ID numbers, passwords, or home addresses. If it's sensitive, I use a phone call, a meeting, or the district's secure system.",
+        "Recipients: only the people who need to know. Group messages to families use blind copy or the district's messaging system so addresses stay private.",
+        "Access: key information is in the text, not only in an image or attachment; links say where they go; attachments are readable with a screen reader.",
+        "Language: I know the family's preferred language. Important or sensitive messages go through the district's approved translation or interpretation route, and machine translations of important details are checked by a fluent speaker.",
+        "Timing: I'm not sending in anger or late at night; I've scheduled it for a reasonable hour if my email app allows.",
+        "AI review: if AI helped draft this, I checked every date, number, name, and policy against the real source, adjusted the tone to sound like me, and entered no student information into the tool.",
+        "Channel: this is the right channel. Some conversations should be a call or a face-to-face meeting instead."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Message Makeover Log",
+      "type": "table",
+      "instructions": "Log each message. Rewrite the first three lines on the back or in the margins of Handout A.",
+      "columns": ["Message", "What's wrong (tone, privacy, access, accuracy)", "Who might be hurt or left out", "The fix (key changes)", "Better channel?"],
+      "rows": [["1 · Teacher to parent", "", "", "", ""], ["2 · Counselor to team", "", "", "", ""], ["3 · Principal's newsletter", "", "", "", ""], ["4 · AI-drafted field trip email", "", "", "", ""], ["5 · Video meeting invite", "", "", "", ""], ["My real message", "", "", "", ""]]
+    }
+  ]
+}

@@ -535,3 +535,20 @@ a.std:hover { border-color: currentColor; }
 .hero-search .btn { padding: 8px 16px; }
 .hero-topics { font-size: .85rem !important; color: rgba(255,255,255,.7) !important; margin: 0; display: flex; flex-wrap: wrap; gap: 4px 12px; }
 .hero-topics a { color: var(--gold-light); }
+
+/* ---------- printable packets page ---------- */
+.pkpage { max-width: 1240px; margin: 0 auto; padding: 36px var(--gutter) 64px; }
+.pk-tip { margin-top: 10px; }
+.pk-sec { margin-top: 36px; scroll-margin-top: 20px; }
+.pk-sec h2 .muted, .pk-sec h3 .muted { font-family: var(--sans); font-size: .9rem; font-weight: 500; margin-left: 6px; }
+.pk-sec h3 { font-size: 1.3rem; margin-top: 18px; }
+.pk-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.pk { background: #fff; border: 1.5px solid var(--border); border-radius: var(--r); overflow: hidden; display: flex; flex-direction: column; }
+.pk-photo { aspect-ratio: 3 / 2; background: var(--pale-navy); }
+.pk-body { padding: 14px 16px 16px; display: flex; flex-direction: column; flex: 1; }
+.pk-body h3 { font-size: 1.12rem; margin: 0 0 4px; }
+.pk-meta { font-size: .85rem; color: var(--text-muted); margin: 0 0 4px; }
+.pk-types { font-size: .85rem; margin: 0 0 12px; flex: 1; }
+.pk-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.pk-links .btn { padding: 7px 12px; font-size: .88rem; }
+.org.dense td { height: auto; padding: 3px 8px; }

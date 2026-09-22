@@ -212,6 +212,29 @@
   ],
   "note": "Students read mock AI outputs through perspective lenses, quote words that reveal an assumption, and explain how training-data patterns produce stereotypes."
  },
+ "cart-check": {
+  "teks": [
+   "ta-dc-10",
+   "elar-purpose"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "7.2",
+   "3.2",
+   "6.2",
+   "8.3"
+  ],
+  "sst": [
+   "rla-reading",
+   "ss-sources"
+  ],
+  "note": "Students test storefronts, reviews, and payment options and plan a scam response, the privacy, safety, and security expectations of digital citizenship applied to everyday money decisions."
+ },
  "circles-not-screens": {
   "teks": [
    "ta-dc-8",
@@ -248,6 +271,34 @@
   ],
   "sst": [],
   "note": "Teachers write assignment-level AI-use statements and a student disclosure template, preparing students to credit AI help honestly while keeping creative ownership."
+ },
+ "co-plan-in-20": {
+  "teks": [],
+  "elps": [
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "7.1",
+   "8.2",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "A coach and teacher practice a timed co-planning protocol that adds a verification step for AI output or sources to a real lesson."
+ },
+ "coach-to-coach-microteaching": {
+  "teks": [],
+  "elps": [
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "8.5",
+   "5.3",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Coaches rehearse 10-minute micro-PD sessions on digital literacy moves and revise them after protocol-based peer feedback."
  },
  "community-problem-pitch": {
   "teks": [
@@ -432,6 +483,25 @@
   ],
   "sst": [],
   "note": "Leaders practice descriptive classroom observation and pattern-finding about how students reason with technology and AI, then plan system-level next steps."
+ },
+ "digital-notebook-detectives": {
+  "teks": [
+   "ta-ptc",
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.3",
+   "3.2",
+   "8.3"
+  ],
+  "sst": [
+   "rla-reading"
+  ],
+  "note": "Students organize and name digital files, recover work with version history, and compare an AI summary to original notes to find missing details."
  },
  "disclose-it": {
   "teks": [
@@ -727,6 +797,47 @@
   "sst": [],
   "note": "Teachers test tool claims and synthetic media at stations, preparing students to choose tools for learning and check media by source and context."
  },
+ "inbox-to-impact": {
+  "teks": [
+   "ta-dc-8"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "2.3",
+   "8.4",
+   "9.4",
+   "6.5"
+  ],
+  "sst": [],
+  "note": "Staff revise family and colleague messages for tone, privacy, translation, and AI accuracy, modeling the respectful digital communication students are taught in digital citizenship."
+ },
+ "is-this-health-advice-real": {
+  "teks": [
+   "elar-inquiry",
+   "elar-purpose",
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "7.2",
+   "3.2",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [
+   "rla-reading"
+  ],
+  "note": "Students read health posts and a chatbot answer laterally to judge sources, purpose, and claims, the inquiry and author's-purpose work in ELAR plus online safety in digital citizenship."
+ },
  "journal-club-by-design": {
   "teks": [
    "ta-dc-9"
@@ -803,6 +914,21 @@
   ],
   "sst": [],
   "note": "Teachers use SIFT to verify claims, including an AI summary, preparing students to judge source reliability and show verification evidence."
+ },
+ "lms-tidy-up": {
+  "teks": [],
+  "elps": [
+   "c1",
+   "c4"
+  ],
+  "udl": [
+   "6.3",
+   "4.2",
+   "8.1",
+   "6.5"
+  ],
+  "sst": [],
+  "note": "Educators run a findability test and reorganize a course so students can find due dates, directions, and accessible materials without extra help."
  },
  "look-fors-for-learning": {
   "teks": [],
@@ -938,6 +1064,20 @@
   ],
   "note": "Students tally which word follows which and generate sentences by chance draws, seeing how prediction from patterns can produce a confident false fact."
  },
+ "norms-for-the-ai-era": {
+  "teks": [],
+  "elps": [
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "8.4",
+   "9.4",
+   "8.3"
+  ],
+  "sst": [],
+  "note": "A PLC builds trust through a structured protocol and drafts norms for disclosure, verification, and privacy in AI-assisted planning."
+ },
  "password-power": {
   "teks": [
    "ta-dc-10"
@@ -956,6 +1096,20 @@
   ],
   "sst": [],
   "note": "Students rank passwords, build practice passphrases, and decide who may know a password, core grades 3–5 privacy, safety, and security skills."
+ },
+ "pd-menu-makeover": {
+  "teks": [],
+  "elps": [
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "7.1",
+   "7.2",
+   "6.5"
+  ],
+  "sst": [],
+  "note": "Coaches redesign a one-size-fits-all AI PD day into a choice menu based on a needs assessment and adult learning principles."
  },
  "personalization-with-guardrails": {
   "teks": [
@@ -1031,6 +1185,28 @@
   ],
   "sst": [],
   "note": "Leaders choose a platform on evidence, accessibility, and privacy, then tell families the honest story in plain, multilingual language with a way to respond."
+ },
+ "presentation-makeover": {
+  "teks": [
+   "ta-dc-9",
+   "elar-composition",
+   "ta-ci"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "4.2",
+   "5.1",
+   "5.2",
+   "8.5"
+  ],
+  "sst": [
+   "rla-writing"
+  ],
+  "note": "Students revise a slide deck for clarity, accessibility, credit, and AI disclosure and present it, connecting ELAR composition with the ethics and creativity strands of Technology Applications."
  },
  "primary-source-vs-ai-summary": {
   "teks": [
@@ -1290,6 +1466,57 @@
   ],
   "note": "Students write a future news headline, lede, and evidence line, then fact-check a peer's draft for clickbait and invented numbers and revise."
  },
+ "smart-speakers-smart-choices": {
+  "teks": [
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "4.1",
+   "7.3",
+   "2.5"
+  ],
+  "sst": [],
+  "note": "Children role-play with a pretend voice helper to practice keeping personal information private and checking a device's guesses, the privacy-and-safety expectation for young learners."
+ },
+ "spreadsheet-sense-making": {
+  "teks": [
+   "ta-data",
+   "elar-genres"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "5.2",
+   "8.5"
+  ],
+  "sst": [
+   "math-reasoning"
+  ],
+  "note": "Students compute and chart survey data in a spreadsheet, then detect and correct misleading axes, cherry-picked ranges, and a flawed AI chart suggestion."
+ },
+ "student-voice-data-dive": {
+  "teks": [],
+  "elps": [
+   "c2",
+   "c3",
+   "c4"
+  ],
+  "udl": [
+   "9.2",
+   "6.4",
+   "8.4"
+  ],
+  "sst": [],
+  "note": "Teams design a privacy-safe student survey on technology and wellbeing and interpret returned results with Notice-Wonder-Next."
+ },
  "student-voice-policy-makers": {
   "teks": [
    "elar-inquiry",
@@ -1354,6 +1581,20 @@
   "sst": [],
   "note": "Teams match project tasks to tools, or no tool, and explain what each choice shows they learned, the tool-selection focus of practical technology concepts."
  },
+ "the-coaching-agreement": {
+  "teks": [],
+  "elps": [
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "6.1",
+   "6.3",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "A coach and principal analyze a coaching-time audit and write a one-page agreement on role, boundaries, caseload, and log privacy."
+ },
  "the-feed-game": {
   "teks": [
    "ta-ct",
@@ -1395,6 +1636,21 @@
   ],
   "sst": [],
   "note": "Teachers predict how each added prompt detail changes AI output, preparing to teach students that a prompt is context for prediction and still needs checking."
+ },
+ "tool-tryout-lab": {
+  "teks": [],
+  "elps": [
+   "c2",
+   "c3",
+   "c4"
+  ],
+  "udl": [
+   "4.2",
+   "8.3",
+   "6.4"
+  ],
+  "sst": [],
+  "note": "Teacher teams test an emerging AI feature in a lesson study cycle and decide from student evidence using a rubric."
  },
  "two-drafts-of-feedback": {
   "teks": [],
@@ -1446,6 +1702,21 @@
   "sst": [],
   "note": "Teachers split AI science answers into claims and check each against two independent sources, preparing students to keep a claim ledger in class."
  },
+ "wait-time-on-the-record": {
+  "teks": [],
+  "elps": [
+   "c2",
+   "c3",
+   "c4"
+  ],
+  "udl": [
+   "8.5",
+   "6.4",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Coaches code a consented, timestamped transcript for wait time, test an AI summary against it, and write action-oriented feedback."
+ },
  "what-do-my-apps-know": {
   "teks": [
    "ta-dc-10"
@@ -1462,6 +1733,23 @@
   ],
   "sst": [],
   "note": "Teachers audit the privacy policies of tools they use and plan a student lesson on asking what an app knows, the privacy-and-security substrand."
+ },
+ "what-your-map-app-knows": {
+  "teks": [
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "7.2",
+   "6.2"
+  ],
+  "sst": [],
+  "note": "Students infer what a trail of location data reveals and plan a step-by-step device settings checkup, the privacy-and-security substrand."
  },
  "who-gets-left-out-map": {
   "teks": [],

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spreadsheet Sense-Making | ELE Activity Bank</title>
+<meta name="description" content="Students turn a lunch survey into a spreadsheet or paper grid, compute counts and averages, build an honest chart, then catch and fix charts (and an AI chart suggestion) that mislead with a truncated axis or a cherry-picked range.">
+<meta property="og:title" content="Spreadsheet Sense-Making | ELE Activity Bank">
+<meta property="og:description" content="Students turn a lunch survey into a spreadsheet or paper grid, compute counts and averages, build an honest chart, then catch and fix charts (and an AI chart suggestion) that mislead with a truncated axis or a cherry-picked range.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/spreadsheet-sense-making.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/spreadsheet-sense-making.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/activities/spreadsheet-sense-making.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/spreadsheet-sense-making.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Activity Bank</span></a>
+  <nav aria-label="Main">
+    <a href="../index.html#catalog">Activities</a>
+    <a href="../framework.html">The ELEs</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Guide</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Standards</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../packets.html">Printables</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Language</span><select aria-label="Language"><option value="en" lang="en" data-href="../activities/spreadsheet-sense-making.html" selected>English</option><option value="es" lang="es" data-href="../es/activities/spreadsheet-sense-making.html">Español</option><option value="vi" lang="vi" data-href="../vi/activities/spreadsheet-sense-making.html">Tiếng Việt</option></select></label>
+  </nav>
+</header>
+
+
+<main id="main" class="act">
+  <div class="act-head has-photo">
+    <figure class="act-photo"><img class="photo" src="../assets/img/cat-68-medialit.jpg" width="1536" height="1024" alt="Eighth graders connect printed claims to sources on a classroom whiteboard."></figure>
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">All activities</a> <span aria-hidden="true">/</span> Student learning</p>
+    <h1>Spreadsheet Sense-Making</h1>
+    <p class="lede">Students turn a lunch survey into a spreadsheet or paper grid, compute counts and averages, build an honest chart, then catch and fix charts (and an AI chart suggestion) that mislead with a truncated axis or a cherry-picked range.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/spreadsheet-sense-making.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Print handouts</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">Print this guide</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="At a glance">
+      <dl>
+        <div><dt>Time</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 minutes</dd></div>
+        <div><dt>Mode</dt><dd class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Hybrid</dd></div>
+        <div><dt>Grades</dt><dd>6–8, 9–12</dd></div>
+        
+        <div><dt>Group</dt><dd>Pairs or teams of 3; any number of teams</dd></div>
+        <div><dt>Strands</dt><dd class="chips"><span class="strand s-medialit">Media literacy</span><span class="strand s-genai">Gen AI</span></dd></div>
+      </dl>
+      <h2 class="glance-h">ELE indicators</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#S5.1">S5.1</a><div><span class="ind-area">Students · Creative Problem Solver</span>I know how to approach complex problems systematically.</div></li><li><a class="ele" href="../framework.html#S1.1">S1.1</a><div><span class="ind-area">Students · Tech Savvy</span>I know how to use technology to support my learning.</div></li><li><a class="ele" href="../framework.html#S5.2">S5.2</a><div><span class="ind-area">Students · Creative Problem Solver</span>I can use creativity and logic to find innovative solutions.</div></li><li><a class="ele" href="../framework.html#AI4.1">AI4.1</a><div><span class="ind-area">AI in Education · AI and Critical Thinking</span>I know how to promote critical thinking skills in relation to AI-generated information.</div></li></ul>
+      <h2 class="glance-h">Handouts</h2>
+      <ul class="handout-list"><li><a href="../handouts/spreadsheet-sense-making.html#handout-A"><span class="hl">A</span> Cedar Ridge Lunch Survey Data</a> <span class="muted">(organizer)</span></li><li><a href="../handouts/spreadsheet-sense-making.html#handout-B"><span class="hl">B</span> Charts That Tell a Story, and a Chatbot's Suggestion</a> <span class="muted">(reading)</span></li><li><a href="../handouts/spreadsheet-sense-making.html#handout-C"><span class="hl">C</span> Sense-Making Worksheet</a> <span class="muted">(worksheet)</span></li></ul>
+      <p class="glance-print"><a class="btn btn-gold" href="../handouts/spreadsheet-sense-making.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Print handouts</a></p>
+    </aside>
+    <div class="act-main">
+      <section><h2>Overview</h2><p class="overview">Charts show up everywhere students look: school newsletters, ads, news stories, social posts, and more and more often, AI tools that offer to &quot;make a chart for you.&quot; In this lesson, students become the data team for the fictional Cedar Ridge Middle School cafeteria. They enter 24 survey responses into a spreadsheet (or a paper grid), count favorites and average the menu ratings, and draw an honest chart. Then they meet two flashy charts that use the same kind of data to tell a misleading story, one with a <strong>truncated axis</strong> and one with a <strong>cherry-picked range</strong>, plus a confident AI chart suggestion that gets the math wrong. Students fix each one and write a rule they can use whenever a chart tries to persuade them.</p>
+        <h3 class="sub">Objectives</h3><ul><li>Students will organize survey data in a spreadsheet or paper grid and compute counts, an average (mean), and a median, showing the formula or steps they used.</li><li>Students will create a bar chart with a zero baseline, clear labels, and a title that states what the data actually shows.</li><li>Students will identify a truncated axis and a cherry-picked range in a misleading chart, explain how each changes the story, and redraw the chart honestly.</li><li>Students will check an AI tool's chart suggestion against their own calculations and correct at least two errors.</li></ul></section>
+      <section class="two">
+        <div><h2>Materials</h2>
+          <h3 class="sub">On paper</h3><ul><li>Handout A: Cedar Ridge Lunch Survey Data (1 per pair)</li><li>Handout B: Charts That Tell a Story, and a Chatbot's Suggestion (1 per pair)</li><li>Handout C: Sense-Making Worksheet (1 per student)</li><li>Grid or graph paper, rulers, colored pencils; calculators for the paper path</li></ul>
+          <h3 class="sub">On screen</h3><ul><li>One device per pair with a spreadsheet app your school already provides, using school-managed accounts</li><li>Optional: a generative AI chatbot your district approves, on the teacher's device only, projected for the class (under 13, the teacher always drives)</li></ul></div>
+        <div><h2>Before you start</h2><ol class="prep"><li>Print Handouts A, B, and C. For the paper path, have grid paper and calculators ready.</li><li>For the digital path, you may pre-load Handout A into a spreadsheet template and share a copy with each pair, or let pairs type it in (typing 24 rows takes about 5 minutes and catches entry errors).</li><li>Sketch Chart 1 from Handout B on the board, exactly as described (vertical axis starting at 6), so you can reveal it in the Hook.</li><li>Optional: if you'd rather use real class data, run a quick anonymous show-of-hands survey (favorite lunch item and a 1–5 rating) and swap it in for Handout A. Keep it low-stakes and never collect names.</li><li>If you plan the live AI step, try the prompt in the Digital section once ahead of time so you know what kind of suggestion your tool gives.</li></ol></div>
+      </section>
+      <section><h2>Step by step</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Hook</p>
+        <h3>Pizza wins by a landslide?</h3>
+        <p>Reveal your board sketch of Chart 1: two bars, Pizza towering over Tacos, and the headline <strong>&quot;Pizza CRUSHES Tacos!&quot;</strong> Ask: &quot;Thumbs up if you believe the headline. How many more students do you think picked pizza?&quot; Most will guess double or more. Say: &quot;Hold on to that guess. By the end of class, you'll know exactly how many, and you'll know the trick that made it look that way.&quot;</p>
+        <p class="step-note"><span>Facilitator note</span>Don't reveal the axis trick yet. Let students discover it after they've made their own chart from the real numbers.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–17 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Explore</p>
+        <h3>Build the data grid</h3>
+        <p>Pairs enter Handout A into a spreadsheet (or copy it onto grid paper). Then they compute, and record on Handout C: <strong>how many students picked each lunch item</strong>, <strong>the average (mean) menu rating</strong>, <strong>the median rating</strong>, and <strong>how many rated the menu 4 or 5</strong>. In a spreadsheet, show the formulas most apps use, such as =COUNTIF(C2:C25,&quot;Pizza&quot;) for a count and =AVERAGE(D2:D25) for the mean. On paper, students tally and divide. Pairs compare with another pair and fix any differences.</p>
+        <p class="step-note"><span>Facilitator note</span>Answer key: Pizza 8, Tacos 7, Pasta 4, Salad bar 3, Sandwich 2 (24 total). Ratings add to 81, so the mean is 81 ÷ 24 = 3.375, about 3.4. The median is 3.5. Twelve students (half) rated the menu 4 or 5. Pairs that disagree usually mistyped a row, which is its own lesson: check your data entry.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">17–25 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Create</p>
+        <h3>Make an honest chart</h3>
+        <p>Pairs make a bar chart of favorite lunch items (spreadsheet chart tool or hand-drawn on grid paper). The chart must have: <strong>a vertical axis that starts at 0</strong>, labeled axes, a count shown on or above each bar, and a title that says what the data shows without exaggerating (for example, &quot;Favorite Lunch Items, 24 Students Surveyed&quot;). Ask: &quot;Now look at Pizza and Tacos. How big is the difference really?&quot; (One student.)</p>
+        <p class="step-note"><span>Facilitator note</span>Some spreadsheet apps choose an axis starting point automatically. If a pair's chart doesn't start at 0, that's a perfect teachable moment: show them where the axis minimum setting is.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">25–35 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Practice</p>
+        <h3>Catch the chart tricks</h3>
+        <p>Pairs read Parts 1 and 2 of Handout B. For each chart, they answer on Handout C: <strong>What story does the chart want me to believe? What trick makes it look that way? What does the full, honest data show?</strong> Then they redraw one of the two charts honestly, using the data given. Bring the class together and name the two tricks: a <strong>truncated axis</strong> (the axis starts above zero, so small differences look huge) and a <strong>cherry-picked range</strong> (only the part of the data that supports the story is shown).</p>
+        <p class="step-note"><span>Facilitator note</span>Chart 2 is the harder one: the last five days really did go up. The chart isn't lying about those days. It's leaving out the three weeks before, when checkouts fell. Weekly averages: 46.8, 40.4, 34.4, 35.4.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">35–43 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Apply</p>
+        <h3>Check the chatbot</h3>
+        <p>Pairs read Part 3 of Handout B, a chatbot's suggestion for charting the survey. Using their own calculations, they mark every claim as <strong>correct</strong>, <strong>wrong</strong>, or <strong>misleading</strong>, and write the correction. Debrief: &quot;The chatbot sounded sure. How did you know it was wrong? Who's responsible if a wrong chart gets published, the chatbot or the person who posted it?&quot;</p>
+        <p class="step-note"><span>Facilitator note</span>Errors to catch: the average is about 3.4, not 3.9; half of students (not 75%) rated the menu 4 or 5; Pizza is the most common favorite but only 8 of 24 (one-third), not &quot;most students&quot;; starting the axis at 6 is the same truncated-axis trick. The pie chart suggestion is a judgment call; a bar chart of ratings is easier to compare.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">43–50 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Reflect</p>
+        <h3>My chart-checking rule</h3>
+        <p>Students complete the last section of Handout C: a three-part rule they'll use whenever a chart tries to persuade them, and one sentence about when an AI tool might help with a chart and what they would check first. Share a few rules aloud and build a class poster, such as <strong>&quot;Check the axis. Check the range. Check the math.&quot;</strong></p>
+        <p class="step-note"><span>Facilitator note</span>Evidence to collect: the redrawn chart and the corrected chatbot claims show whether students can do the checking, not just name the tricks.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Paper or screen</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</h3><p>Everything works on paper: students copy the survey onto grid paper, tally counts, compute the average with a calculator or by hand, and draw bar charts with rulers. For a moving version, have students stand in lines by favorite lunch item to form a human bar chart, then have a volunteer hold a paper &quot;axis&quot; that starts at 6 while the class notices how the picture changes.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Digital</h3><p>Pairs enter the data in a spreadsheet app with school-managed accounts, use COUNTIF and AVERAGE formulas, and insert a bar chart. Then they deliberately change the vertical axis minimum to 6 and watch the chart turn into the misleading one, and change it back. For the AI step, the teacher projects a district-approved chatbot, pastes the survey data, and types: &quot;What chart should I make from this lunch survey, and what does it show?&quot; The class checks the live answer against their own calculations, just as they did with Handout B. Students under 13 never use their own AI accounts.</p></div>
+        <p class="why"><strong>Does it need a screen?</strong> The spreadsheet earns its screen time here: students see a formula recompute instantly when they fix a typo, and they can flip an axis setting and watch an honest chart become a misleading one, which makes the trick concrete in a way a drawing cannot. The live AI check adds evidence that students verify machine output against their own math instead of trusting it.</p>
+      </section>
+      <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Counts and the mean match the key (Pizza 8, Tacos 7, Pasta 4, Salad bar 3, Sandwich 2; mean about 3.4), and pairs can show the formula or steps they used.</li><li>Student charts start at zero, label both axes, and use a title that describes rather than exaggerates.</li><li>Students name the truncated axis and cherry-picked range tricks and redraw at least one chart honestly using the full data.</li><li>Students catch at least two chatbot errors (the 3.9 average, the 75 percent claim, &quot;most students,&quot; the axis starting at 6) and explain the correction with their own numbers.</li></ul></section>
+      <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grade 6</dt><dd>Skip the median and the cherry-picked chart. Focus on counts, the mean, and the truncated axis, and give a sentence frame: &quot;The chart makes it look like ___, but the real numbers show ___.&quot;</dd></div><div><dt>Grades 9–12</dt><dd>Add a third misleading move: a chart using percentages without saying the total is only 24 students. Students write a short critique of a chart from a school newsletter or a news story, using the class rule.</dd></div><div><dt>Emergent bilinguals</dt><dd>Post a visual word wall for axis, average, count, range, and chart, with a labeled example of each. Allow pairs to discuss in their home language and write corrections with sentence frames.</dd></div><div><dt>Students with visual or motor needs</dt><dd>Provide a pre-built spreadsheet with larger text and a screen reader friendly layout, or a tactile bar chart built with interlocking cubes; the axis trick can be felt by removing the bottom six cubes from each tower.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Students compute and chart survey data in a spreadsheet, then detect and correct misleading axes, cherry-picked ranges, and a flawed AI chart suggestion.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-data" title="Technology Applications: data literacy, management, and representation">data literacy, management, and representation</a><a class="std std-teks" href="../standards.html#teks-elar-genres" title="ELAR: multiple genres, including multimodal and digital texts">multiple genres, including multimodal and digital texts</a><span class="std-sec">TEKS sections: Technology Applications §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126); ELAR §110.22–§110.24, §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Highlight and explore patterns, critical features, big ideas, and relationships">3.2</a><a class="std std-udl" href="../standards.html#udl-5-2" title="Use multiple tools for construction, composition, and creativity">5.2</a><a class="std std-udl" href="../standards.html#udl-8-5" title="Offer action-oriented feedback">8.5</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-math-reasoning" title="Mathematics: data analysis and making reasoning visible">data analysis and making reasoning visible</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
+      <section class="two">
+        <div><h2>Reflect</h2><ul><li>How did I approach the data step by step so I could trust my answer? (Student ELE 5.0)</li><li>What questions will I ask the next time a chart tries to convince me of something?</li><li>When could an AI tool help me make a chart, and what would I check before I shared it?</li></ul></div>
+        <div><h2>What comes next</h2><p>At home, students find one chart or graph in a flyer, ad, or news story with a family member and check it with the class rule: the axis, the range, and the math. Next lesson, students use the same spreadsheet skills to chart data from a science investigation or a class poll, and explain why their chart is honest.</p></div>
+      </section>
+      <section><h2>Pairs well with</h2><ul class="connections"><li><a href="https://mglearn.github.io/tcea/ddp/">Data Display Patterns field guide</a><span>Teacher reference for choosing chart types and spotting display patterns that mislead.</span></li><li><a href="https://mglearn.github.io/activities/ctobs/clear/">Critical Thinking Breakouts: Signal Check, The Viral Claim (6–8 media literacy)</a><span>A follow-up on persuasive claims students meet in media.</span></li></ul></section>
+      <section class="related noprint"><h2>Related activities</h2><div class="cards"><article class="card has-photo" data-id="ad-or-info">
+    <div class="card-photo"><img class="photo" src="../assets/img/thumb/act-ad-or-info.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Student learning<span>for Grades 3–5</span></p>
+    <h3><a href="../activities/ad-or-info.html">Ad or Info?</a></h3>
+    <p class="card-tag">Students sort mock posts, videos, and headlines into ads, information, and clickbait, hunt for persuasion tricks, and then create an honest, clearly labeled ad of their own.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>40 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Hybrid</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Media literacy</span><span class="strand s-genai">Gen AI</span></span><span class="eles"><a class="ele" href="../framework.html#S2.2" title="Students 2.2: I can identify trustworthy sources of information on the internet.">S2.2</a><a class="ele" href="../framework.html#S5.2" title="Students 5.2: I can use creativity and logic to find innovative solutions.">S5.2</a><a class="ele" href="../framework.html#S3.2" title="Students 3.2: I can communicate my ideas clearly to others.">S3.2</a></span></div>
+  </article><article class="card has-photo" data-id="algorithm-autopsy">
+    <div class="card-photo"><img class="photo" src="../assets/img/thumb/act-algorithm-autopsy.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Student learning<span>for Grades 9–12</span></p>
+    <h3><a href="../activities/algorithm-autopsy.html">Algorithm Autopsy</a></h3>
+    <p class="card-tag">Students dissect the design features of a fictional social app, trace how each one shapes attention and belief, and redesign the feed for people instead of engagement.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>75 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Media literacy</span><span class="strand s-genai">Gen AI</span><span class="strand s-digcit">Digital citizenship</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI in Education 1.1: I know how AI systems work and their capabilities in educational contexts.">AI1.1</a><a class="ele" href="../framework.html#S5.2" title="Students 5.2: I can use creativity and logic to find innovative solutions.">S5.2</a><a class="ele" href="../framework.html#S5.1" title="Students 5.1: I know how to approach complex problems systematically.">S5.1</a></span></div>
+  </article><article class="card has-photo" data-id="cart-check">
+    <div class="card-photo"><img class="photo" src="../assets/img/thumb/cat-912-digcit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-digcit"></span><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Student learning<span>for Grades 9–12, Higher Ed</span></p>
+    <h3><a href="../activities/cart-check.html">Cart Check: Shopping and Money Scams Online</a></h3>
+    <p class="card-tag">Before they tap &quot;Buy,&quot; students check the storefront, the deal, the reviews, and the payment method, and they practice exactly what to do if a purchase goes wrong.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>55 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Hybrid</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-digcit">Digital citizenship</span><span class="strand s-genai">Gen AI</span><span class="strand s-medialit">Media literacy</span></span><span class="eles"><a class="ele" href="../framework.html#S2.1" title="Students 2.1: I know how to protect my personal information online.">S2.1</a><a class="ele" href="../framework.html#S5.1" title="Students 5.1: I know how to approach complex problems systematically.">S5.1</a><a class="ele" href="../framework.html#AI4.1" title="AI in Education 4.1: I know how to promote critical thinking skills in relation to AI-generated information.">AI4.1</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>TCEA Essential Learning Expectations Activity Bank.</strong> Professional learning and K–16 student activities for Gen AI literacy, digital citizenship, and media literacy, on paper or on screen.</p>
+    <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
+    <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
+  <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
+    <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
+    <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

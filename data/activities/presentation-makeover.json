@@ -1,0 +1,158 @@
+{
+  "id": "presentation-makeover",
+  "title": "Presentation Makeover",
+  "tagline": "Teams rescue a cluttered slide deck, making it clear, accessible, honestly sourced, and upfront about AI images, then pitch the revised version in 60 seconds.",
+  "audience": "student",
+  "grades": ["6-8", "9-12"],
+  "strands": ["medialit", "digcit", "genai"],
+  "mode": "hybrid",
+  "minutes": 55,
+  "groupSize": "Teams of 3–4; any number of teams",
+  "eles": ["S3.2", "S1.1", "AI2.1", "S1.3"],
+  "overview": "Most students have sat through a slide deck with tiny yellow text, a paragraph per slide, a mystery statistic, and a photo pulled from somewhere. In this activity, teams get a printed \"before\" deck made by fictional students and give it a full makeover: one idea per slide, readable fonts and contrast, alt text for images, credit for every image and fact, and a clear note on any AI-generated image. Then each team presents the revised version in 60 seconds. The point is that a presentation is communication, and honest, accessible design is part of communicating well.",
+  "objectives": [
+    "Students will identify at least eight clarity, accessibility, and sourcing problems in a mock slide deck and explain why each one matters to an audience.",
+    "Students will redesign slides using one idea per slide, readable fonts, strong contrast, and descriptive alt text.",
+    "Students will credit every image and factual claim, remove or replace unsupported statistics, and disclose AI-generated images with a clear label.",
+    "Students will present a 60-second revised version and explain one design choice they made for their audience."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The \"Before\" Deck (1 per team; print in color if you can, so the contrast problems show)",
+      "Handout B: Makeover Checklist (1 per team)",
+      "Handout C: 60-Second Pitch Rubric (1 per team, plus one for peer feedback)",
+      "Blank paper or index cards for sketching new slides (6 per team), markers, sticky notes"
+    ],
+    "digital": [
+      "One device per team with any presentation or slide app your school supports",
+      "The app's built-in accessibility checker, if it has one",
+      "Optional: an AI image generator your district approves, used by the teacher on a projector to show what a disclosure label looks like"
+    ]
+  },
+  "prep": [
+    "Print Handout A. If you run the digital path, rebuild the six slides in your slide app exactly as described (tiny text, yellow on white, crowded bullets) and share a copy with each team.",
+    "Decide on a format for credit lines and AI disclosures your class will use all year, for example \"Image: title, creator, license or source\" and \"Image created with an AI tool; prompt written by our team.\"",
+    "Set up a timer visible to the room for the 60-second pitches."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Five seconds per slide",
+      "body": "Project or hold up Slide 2 of Handout A for **five seconds only**, then hide it. Ask: **\"What was the main point?\"** Most students can't say. Then ask: \"What got in the way?\" Collect answers: too many words, can't read the color, too small. Say: \"Today you're a design team. Your client made this deck. Your job is to make it work for every person in the audience, and to make it honest.\"",
+      "note": "Keep the fictional authors off the hook: the goal is to fix the slides, not mock the people who made them."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Audit the \"before\" deck",
+      "body": "Teams read Handout A and use Handout B to mark every problem they find, slide by slide. They sort each problem into one of four lenses: **Clarity** (one idea, fewer words), **Access** (contrast, font size, alt text, color alone carrying meaning), **Honesty** (sources for facts, credit for images), and **AI** (disclosing AI-generated images). Teams aim to find at least eight problems.",
+      "note": "Students often miss the color-coded chart on Slide 4. If the only difference between the bars is red versus green, some viewers can't tell them apart. Labels fix it."
+    },
+    {
+      "phase": "Model",
+      "minutes": 6,
+      "title": "Think aloud: fixing Slide 3",
+      "body": "Model a makeover of Slide 3 (the garden statistic) out loud. \"The claim is 'Gardens make students 50% happier!' Source: 'the internet.' I can't trace that, so I can't keep it as a fact. I have three honest options: **find a reliable source** and cite it, **change it to our own evidence** ('In our survey of 42 classmates, 30 said they'd join a garden club'), or **cut it**. Now the image: it's AI-generated, so I add a small label: 'Image created with an AI tool.' Then alt text: 'Raised garden beds with tomato plants beside a school building.' I describe what matters, not every pixel.\"",
+      "note": "Point out that the survey numbers in your model are part of the fictional deck. Students should use only evidence they can actually trace or collect."
+    },
+    {
+      "phase": "Create",
+      "minutes": 16,
+      "title": "Make it over",
+      "body": "Teams rebuild the deck, either sketching new slides on paper or editing the shared copy in a slide app. Required: a clear title slide with the team's names, **no more than one main idea per slide**, readable font size and strong contrast, **alt text written for every image**, a credit line for every image and fact, **a disclosure label on every AI-generated image**, and a final Sources slide. Teams may cut slides; fewer is often better. They use Handout B as a final check before they present.",
+      "note": "Circulate and ask, \"Who is this slide for? Could someone in the back row read it? Could someone using a screen reader understand the image?\""
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "60-second pitches",
+      "body": "Each team presents its revised deck in **60 seconds**. After each pitch, one listener team scores it with Handout C and gives one \"glow\" and one \"grow.\" Presenters end by naming one design choice they made for their audience, for example: \"We moved the details into speaker notes so the slide has just one sentence.\"",
+      "note": "With many teams, run pitches in parallel pods of three teams so everyone presents and everyone gives feedback."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 6,
+      "title": "What changed and why",
+      "body": "Each student writes on an exit slip: **\"The change that helped the audience most was… The change that made the deck more honest was… One thing I'll do differently on my next project is…\"** Ask two or three volunteers to share.",
+      "note": "Look for specific reasons (\"yellow text failed contrast\"), not just \"it looks better.\""
+    }
+  ],
+  "unplugged": "The whole makeover works on paper. Teams sketch each revised slide on a half sheet or index card, write the alt text and credit line on the back, and add a small \"AI\" disclosure label with a sticky note. Pitches happen with the sketched cards held up or taped to the board. Contrast can be tested by holding the printed deck at arm's length or photocopying it in grayscale: if you can't read it, the contrast is too low.",
+  "digital": "Each team edits a shared copy of the deck in a slide app. They use the app's alt text field on each image, run any built-in accessibility checker, and test the deck in presenter view from across the room. Speaker notes hold the details that were cut from the slides. If you demonstrate AI image generation, the teacher runs an approved tool on the projector and models adding a visible disclosure label; students don't need accounts.",
+  "whyTech": "A slide app's alt text field and accessibility checker give instant, specific feedback on problems students can't easily see on paper, such as reading order and missing descriptions. The paper path is just as strong for clarity and honesty, and often faster for the first redesign.",
+  "adaptations": [
+    { "label": "Grades 6–7", "text": "Reduce the deck to four slides and focus on three fixes: one idea per slide, alt text, and credit lines. Provide sentence starters for alt text: \"A photo of… showing…\"" },
+    { "label": "Grades 11–12", "text": "Add a slide with a complex chart and have teams redesign it for accuracy (labeled axes, a source, a baseline that doesn't exaggerate), then write a speaker-notes script." },
+    { "label": "Emergent bilinguals", "text": "Let teams pitch in pairs with one speaker and one pointer, and allow a bilingual title slide. Pre-teach contrast, credit, alt text, and disclose with visuals." },
+    { "label": "Students with IEPs or 504 plans", "text": "Offer a partially redesigned deck as a starting point and let students present by recording audio or pointing to slides while a partner reads." }
+  ],
+  "lookFors": [
+    "Handout B shows at least eight problems sorted across all four lenses, including the chart that depends on color alone.",
+    "Every image in the revised deck has descriptive alt text and a credit line, and every AI-generated image carries a visible disclosure label.",
+    "The unsourced statistic is sourced, replaced with evidence the team can trace, or cut, and the team can explain which option they chose and why.",
+    "Presenters name at least one design choice and the audience it serves."
+  ],
+  "reflection": [
+    "How clearly did I communicate my ideas, and what did I change so everyone in the audience could follow them? (Student ELE S3.2)",
+    "When is it right to use an AI-generated image in a presentation, and how do I make sure the audience knows?",
+    "What makes a fact on a slide trustworthy enough to keep?"
+  ],
+  "transfer": "Students apply the Makeover Checklist to their next class presentation before they present it and attach the completed checklist as part of the project. At home, they can offer to review a family member's slide deck or flyer using the same four lenses.",
+  "connections": [
+    { "title": "Digital Accessibility Readiness Assessment", "url": "https://mglearn.github.io/tcea/a11y/", "note": "Background for teachers on accessible documents and slides." },
+    { "title": "Data Display Patterns field guide", "url": "https://mglearn.github.io/tcea/ddp/", "note": "Useful for the chart redesign extension." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The \"Before\" Deck",
+      "type": "reading",
+      "instructions": "This deck was made by fictional students at fictional Ridgeview Middle School. Read each slide description and mark every problem you find.",
+      "paragraphs": [
+        "**Slide 1 (title):** \"Why Ridgeview Needs a School Garden!!!\" in a curly script font, pale yellow text on a white background, with a busy photo of flowers behind the words. No names of who made the deck.",
+        "**Slide 2:** Title \"Reasons.\" Eleven bullet points in 12-point font, each a full sentence, for example: \"Gardens are good because they let students learn about plants and also science and also they help the environment which is important for the future and our community.\" The last three bullets run off the bottom of the slide.",
+        "**Slide 3:** A large photo of a beautiful garden next to a school, with perfect rows of vegetables and a rainbow in the sky. The photo was made with an AI image generator, but the slide doesn't say so. Big text over the image: \"Gardens make students 50% happier!\" Source at the bottom in tiny gray text: \"the internet.\"",
+        "**Slide 4:** A bar chart titled \"Support.\" Two bars, one red and one green, with no labels, no numbers on the axis, and no legend. The only way to tell what the bars mean is a note in the speaker notes: \"red = against, green = for.\"",
+        "**Slide 5:** A photo of a famous chef in a garden, copied from a website. No credit line and no permission noted. Caption: \"Even famous people love gardens.\" The photo has no alt text.",
+        "**Slide 6:** Title \"The End.\" Clip art of a smiling carrot. No sources slide, no summary of what the team wants the audience to do, and no contact information for the garden club.",
+        "**Bonus problem to find:** Every slide uses a different font and a different background color, and the slides are numbered out of order, so the deck jumps from Slide 2 to Slide 4 to Slide 3 when presented."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Makeover Checklist",
+      "type": "checklist",
+      "instructions": "Use this twice: once to audit the \"before\" deck, and again as a final check on your revised deck before you present.",
+      "scale": ["Yes", "Partly", "No"],
+      "items": [
+        "Clarity: each slide has one main idea that a viewer could name in five seconds.",
+        "Clarity: slides use short phrases, and extra details live in speaker notes.",
+        "Access: text is large enough to read from the back of the room (a good rule is no smaller than about 24-point).",
+        "Access: text and background have strong contrast (dark on light or light on dark), and no text sits on a busy image.",
+        "Access: fonts are simple and consistent across the deck.",
+        "Access: meaning never depends on color alone; charts have labels, a legend, and numbered axes.",
+        "Access: every meaningful image has alt text that describes what matters for the message.",
+        "Honesty: every factual claim or statistic is traced to a source we can name, or it has been changed or cut.",
+        "Honesty: every image has a credit line (creator and source or license), or we made it ourselves and say so.",
+        "AI: every AI-generated image has a visible label, such as \"Image created with an AI tool.\"",
+        "AI: we checked AI-generated images for anything misleading, such as details that make the idea look more real or certain than it is.",
+        "Structure: the deck has a title slide with our names, slides in a logical order, a clear ask or takeaway, and a Sources slide."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "60-Second Pitch Rubric",
+      "type": "rubric",
+      "instructions": "Listener teams score the pitch and write one glow and one grow on the back.",
+      "levels": ["Beginning", "Developing", "Proficient", "Exemplary"],
+      "criteria": [
+        { "name": "Clear message", "descriptors": ["The main point is hard to find.", "The main point is stated but slides compete with it.", "The main point is clear and each slide supports it.", "The main point is clear in the first 10 seconds and every slide builds toward a specific takeaway or ask."] },
+        { "name": "Accessible design", "descriptors": ["Text is hard to read; images lack alt text.", "Some slides are readable; some alt text is missing or vague.", "Text is readable with strong contrast; all images have alt text.", "Design works for every viewer, including color-independent charts, and the team can explain its choices."] },
+        { "name": "Honest sourcing and credit", "descriptors": ["Facts and images are uncredited.", "Some credits are present; the unsourced statistic remains.", "Every fact and image is credited; the unsourced statistic was fixed or cut.", "Credits are complete and consistent, and the team explains how it checked its evidence."] },
+        { "name": "AI disclosure", "descriptors": ["AI-generated images are not disclosed.", "A disclosure appears but is hard to see or unclear.", "Every AI-generated image has a clear, visible label.", "Labels are clear, and the team explains why an AI image fit (or didn't fit) the message."] },
+        { "name": "Delivery in 60 seconds", "descriptors": ["The pitch runs well over time or reads slides word for word.", "The pitch fits the time but mostly reads the slides.", "The pitch fits the time and speaks to the audience, not the screen.", "The pitch is confident, on time, and names a design choice made for the audience."] }
+      ]
+    }
+  ]
+}

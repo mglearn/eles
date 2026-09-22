@@ -360,5 +360,13 @@
  "hs.label": "Search activities",
  "hs.placeholder": "Search a topic: screen time, deepfakes, privacy…",
  "hs.button": "Search",
- "hs.try": "Try:"
+ "hs.try": "Try:",
+ "nav.packets": "Printables",
+ "pk.title": "Printable packets by grade",
+ "pk.desc": "Every print-ready handout packet in the ELE Activity Bank, organized by grade level and role.",
+ "pk.lede": "Every activity comes with a print-ready packet: cards, sorts, worksheets, readings, and a facilitator key on the last page. Here are all {n}, organized by grade level, with professional learning grouped by role.",
+ "pk.jump": "Jump to",
+ "pk.tip": "Activities that fit more than one grade band appear in each band. Every packet prints on US Letter and works without devices.",
+ "pk.print": "Print packet",
+ "pk.guide": "Facilitator guide"
 }

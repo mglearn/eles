@@ -360,5 +360,13 @@
  "hs.label": "Tìm hoạt động",
  "hs.placeholder": "Tìm theo chủ đề: thời gian dùng màn hình, deepfake, quyền riêng tư…",
  "hs.button": "Tìm",
- "hs.try": "Thử:"
+ "hs.try": "Thử:",
+ "nav.packets": "Tài liệu in",
+ "pk.title": "Bộ phiếu in theo cấp lớp",
+ "pk.desc": "Mọi bộ phiếu sẵn sàng để in trong Ngân hàng Hoạt động ELE, sắp xếp theo cấp lớp và vai trò.",
+ "pk.lede": "Mỗi hoạt động đều có một bộ phiếu sẵn sàng để in: thẻ, phân loại, phiếu bài tập, bài đọc và đáp án cho người điều phối ở trang cuối. Dưới đây là tất cả {n} hoạt động, sắp xếp theo cấp lớp, còn phần bồi dưỡng chuyên môn được nhóm theo vai trò.",
+ "pk.jump": "Đi đến",
+ "pk.tip": "Các hoạt động phù hợp với nhiều cấp lớp sẽ xuất hiện ở mỗi cấp. Mỗi bộ phiếu in trên khổ Letter và dùng được mà không cần thiết bị.",
+ "pk.print": "In bộ phiếu",
+ "pk.guide": "Hướng dẫn điều phối"
 }

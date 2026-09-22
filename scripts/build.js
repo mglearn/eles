@@ -192,7 +192,8 @@ ${FONTS}
     <a href="${base}framework.html">${esc(t('nav.eles'))}</a>
     <details class="navmenu"><summary>${esc(t('nav.facilitator'))}</summary><div class="navmenu-panel">
       <a href="${base}guide.html">${esc(t('nav.menuGuide'))}</a><span class="navmenu-sep" aria-hidden="true">|</span>
-      <a href="${base}standards.html">${esc(t('nav.standards'))}</a>
+      <a href="${base}standards.html">${esc(t('nav.standards'))}</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="${base}packets.html">${esc(t('nav.packets'))}</a>
     </div></details>
     ${picker}
   </nav>
@@ -391,7 +392,7 @@ ${scripts.replace(/\{root\}/g, root)}
           break;
         case 'table': {
           const rows = [...(h.rows || []), ...Array.from({ length: h.blankRows || 0 }, () => h.columns.map(() => ''))];
-          out.push(sheet(`${sheetHead(h)}<table class="org" style="--cols:${h.columns.length}"><thead><tr>${h.columns.map(c => `<th>${md(c)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map((c, i) => `<td${i === 0 && c ? ' class="rowhead"' : ''}>${md(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`));
+          out.push(sheet(`${sheetHead(h)}<table class="org${rows.length > 12 ? ' dense' : ''}" style="--cols:${h.columns.length}"><thead><tr>${h.columns.map(c => `<th>${md(c)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map((c, i) => `<td${i === 0 && c ? ' class="rowhead"' : ''}>${md(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`));
           break;
         }
         case 'checklist': {
@@ -638,6 +639,48 @@ ${scripts.replace(/\{root\}/g, root)}
       scripts: `<script>(function(){var q=document.getElementById('tq'),rows=[].slice.call(document.querySelectorAll('.align tbody tr'));function n(s){return s.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase()}function go(){var v=n(q.value.trim());rows.forEach(function(r){r.hidden=v&&!(r.dataset.text.indexOf(v)>=0||r.dataset.codes.split(' ').indexOf(v)>=0)})}q.addEventListener('input',go);document.querySelectorAll('[data-filter]').forEach(function(a){a.addEventListener('click',function(){q.value=a.dataset.filter;go()})});var h=location.hash.match(/^#(teks|elps|udl|sst)-(.+)$/);})();</script>` });
   }
 
+  // ---------- printable packets by grade ----------
+  function packetCard(a, root) {
+    const im = imgFor(a);
+    const types = [...new Set(a.handouts.map(h => htype(h.type)))].join(', ');
+    return `<article class="pk"${a.translated ? '' : ' lang="en"'}>
+      ${im ? `<div class="pk-photo">${pic(im, root, { thumb: true, decorative: true })}</div>` : ''}
+      <div class="pk-body">
+        <h3>${esc(a.title)}</h3>
+        <p class="pk-meta">${esc(a.audience === 'pl' ? whoLabel(a) : gradeList(a))} · ${esc(t('minutes', { n: a.minutes }))} · ${esc(a.handouts.length === 1 ? t('ho.countOne') : t('ho.countMany', { n: a.handouts.length }))}</p>
+        <p class="pk-types">${esc(types)}</p>
+        <div class="pk-links"><a class="btn btn-gold" href="handouts/${a.id}.html">${ICON.print}${esc(t('pk.print'))}</a><a class="btn btn-line" href="activities/${a.id}.html">${esc(t('pk.guide'))}</a></div>
+      </div>
+    </article>`;
+  }
+  function packetsPage() {
+    const root = rootFrom(0);
+    const bands = [['K-2', 'K–2'], ['3-5', '3–5'], ['6-8', '6–8'], ['9-12', '9–12'], ['Higher Ed', t('grade.he')]];
+    const plRoles = [['teachers', 'librarians'], ['coaches'], ['leaders', 'staff', 'faculty']];
+    const st = acts.filter(a => a.audience === 'student'), pl = acts.filter(a => a.audience === 'pl');
+    const secs = bands.map(([g, label]) => {
+      const list = st.filter(a => a.grades.includes(g));
+      return list.length ? `<section class="pk-sec" id="grades-${g.replace(' ', '-').toLowerCase()}"><h2>${esc(g === 'Higher Ed' ? label : t('grade.band', { g: label }))} <span class="muted">${esc(t('std.used', { n: list.length }))}</span></h2><div class="pk-grid">${list.map(a => packetCard(a, root)).join('')}</div></section>` : '';
+    }).join('');
+    const seen = new Set();
+    const plSecs = plRoles.map(rs => {
+      // each PL activity appears once, under its primary (first-listed) role
+      const pick = pl.filter(a => !seen.has(a.id) && rs.includes(a.roles[0]));
+      pick.forEach(a => seen.add(a.id));
+      return pick.length ? `<section class="pk-sec" id="pl-${rs[0]}"><h3>${esc(rs.map(r => t('role.' + r)).join(', '))} <span class="muted">${esc(t('std.used', { n: pick.length }))}</span></h3><div class="pk-grid">${pick.map(a => packetCard(a, root)).join('')}</div></section>` : '';
+    }).join('');
+    const body = `
+<main id="main" class="pkpage">
+  <h1>${esc(t('pk.title'))}</h1>
+  <p class="lede">${esc(t('pk.lede', { n: acts.length }))}</p>
+  <nav class="fw-tabs" aria-label="${esc(t('pk.jump'))}">${bands.filter(([g]) => st.some(a => a.grades.includes(g))).map(([g, label]) => `<a href="#grades-${g.replace(' ', '-').toLowerCase()}">${esc(label)}</a>`).join('')}<a href="#pl">${esc(t('aud.pl'))}</a></nav>
+  <p class="muted pk-tip">${esc(t('pk.tip'))}</p>
+  ${secs}
+  <section class="pk-sec" id="pl"><h2>${esc(t('aud.pl'))} <span class="muted">${esc(t('std.used', { n: pl.length }))}</span></h2>${plSecs}</section>
+</main>`;
+    page({ pagePath: 'packets.html', title: `${t('pk.title')} | ${t('site.titleSuffix')}`, desc: t('pk.desc'), body });
+  }
+
   // ---------- catalog data ----------
   function catalogJs() {
     const rows = acts.map(a => ({
@@ -658,7 +701,7 @@ ${scripts.replace(/\{root\}/g, root)}
   fs.rmSync(path.join(ROOT, prefix, 'activities'), { recursive: true, force: true });
   fs.rmSync(path.join(ROOT, prefix, 'handouts'), { recursive: true, force: true });
   for (const a of acts) { activityPage(a); handoutPage(a); }
-  indexPage(); frameworkPage(); guidePage(); standardsPage(); catalogJs();
+  indexPage(); frameworkPage(); guidePage(); standardsPage(); packetsPage(); catalogJs();
   const done = acts.filter(a => a.translated).length;
   return { acts, cover, IND, done };
 }

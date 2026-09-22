@@ -1,0 +1,169 @@
+{
+  "id": "coach-to-coach-microteaching",
+  "title": "Coach-to-Coach Microteaching",
+  "tagline": "Coaches plan and deliver 10-minute micro-PD sessions on one digital literacy move, get protocol-based peer feedback, and revise before a teacher ever sees it.",
+  "audience": "pl",
+  "roles": ["coaches", "librarians"],
+  "grades": ["K-12"],
+  "strands": ["medialit", "genai", "digcit"],
+  "mode": "hybrid",
+  "minutes": 90,
+  "groupSize": "Trios of coaches; 6–30 people",
+  "eles": ["C4.1", "C4.3", "C5.3", "C1.2", "AI4.2"],
+  "overview": "Coaches are often asked to teach a skill to adults in the ten minutes at the start of a staff meeting, and those ten minutes rarely get rehearsed. In this session, each coach draws one digital literacy move (tracing a quote, checking an AI answer's sources, a privacy pause before uploading), plans a 10-minute micro-PD with a RISE goal and adult learning principles built in, delivers it to two colleagues, and receives feedback through a structured glow, grow, and try protocol. Coaches also test an AI-drafted set of feedback stems and decide what to keep. Everyone revises and re-delivers the weakest two minutes before leaving.",
+  "objectives": [
+    "Participants will plan a 10-minute micro-PD on one digital literacy move that includes a why, a live model, participant practice, and a transfer to students.",
+    "Participants will give and receive feedback using a structured protocol and rubric language, citing specific moments rather than general impressions.",
+    "Participants will critique an AI-drafted set of feedback stems, keep what matches the rubric, and rewrite what doesn't.",
+    "Participants will revise and re-deliver one segment of their micro-PD and name what changed."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Move Cards and AI-Drafted Stems (1 set per trio, cut apart)",
+      "Handout B: Micro-PD Planner (1 per person)",
+      "Handout C: Micro-PD Feedback Rubric (3 per person, one for each session they observe or deliver)",
+      "Timers for each trio; sticky notes"
+    ],
+    "digital": [
+      "Optional: one device per trio for moves that need a live search or an approved AI chatbot",
+      "Optional: an AI chatbot your district approves, for coaches to draft their own feedback stems (no teacher or student names or details in any prompt)"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Separate the eight Move cards from the two AI-Drafted Stems cards.",
+    "Choose one move card yourself and prepare a 3-minute model of the Model segment so the room sees the level of specificity you expect.",
+    "Set up the room so trios can sit apart; each trio needs a surface for the presenter's materials."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Ten minutes, rehearsed",
+      "body": "Ask: **\"When did you last teach adults something in ten minutes? Did you rehearse it?\"** Most hands stay down on the second question. Say: \"We ask teachers to plan and revise lessons. Today we do the same with our own PD, and we practice giving each other feedback we'd want to receive.\" Briefly set trio norms: feedback is about the session, not the person; every grow comes with a try; the presenter decides what to use.",
+      "note": "These norms build trust among peers who may rarely see each other teach. Name them out loud; don't assume them."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 8,
+      "title": "Draw a move",
+      "body": "Each coach draws a Move card from Handout A (or chooses one if the trio prefers). Read the front and back: the move, why it matters, and the common misconception. Coaches jot the teacher audience they would actually teach this to and one reason those teachers need it now.",
+      "note": "Coaches who pick a move they already know well should be nudged to teach it to an audience that is new to them, such as K–2 teachers or a skeptical department."
+    },
+    {
+      "phase": "Create",
+      "minutes": 15,
+      "title": "Plan the ten minutes",
+      "body": "Coaches complete Handout B: a RISE goal for the session (**Relevant, Impactful, Specific, Energized**), then four segments. **Why (1 min):** a problem teachers recognize. **Model (3 min):** a live think-aloud of the move. **Try (4 min):** participants do the move themselves on a real example. **Transfer (2 min):** what teachers will do with students next week and what evidence they'll bring back. Each segment names the adult learning principle it honors.",
+      "note": "The most common plan is eight minutes of explaining and two of practice. Hold the line: at least four minutes of participants doing the move."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "Critique the AI-drafted stems",
+      "body": "Trios read the two AI-Drafted Stems cards from Handout A: stems a coach generated with a chatbot by pasting in the rubric criteria and asking for peer feedback stems. For each stem, trios decide: **keep, revise, or cut**, using Handout C's rubric language as the test. Then each trio agrees on three glow stems and three grow stems to use today. Say: \"AI can draft the stems; it can't notice the moment in your session that worked. That part is ours.\"",
+      "note": "Look for trios that notice the AI stems are generic, praise-heavy, and in one case evaluate the presenter rather than the session. Point out the prompt contained only rubric language, no names or details, which is the right way to use a tool for this kind of administrative drafting."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 40,
+      "title": "Three rounds: deliver, feedback, reflect",
+      "body": "Each coach delivers their 10-minute micro-PD to the other two, who participate as teachers would. Then run the protocol for 3 minutes: **(1)** the presenter names one thing they'd change; **(2)** each colleague gives one glow and one grow using the agreed stems, citing a specific moment; **(3)** each grow comes with a concrete try (\"Try giving us the example before the definition\"); **(4)** the presenter says thank you and nothing else. Both colleagues score Handout C quietly and hand it to the presenter. Rotate until everyone has presented.",
+      "note": "Keep time strictly. A presenter who runs long cuts into a colleague's practice, and learning to land inside ten minutes is half the skill."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 8,
+      "title": "Revise and re-deliver two minutes",
+      "body": "Each coach reads their rubric sheets, picks the weakest segment, revises it on Handout B, and re-delivers just that segment (2 minutes) to a coach from another trio. The listener answers one question: **\"What would a teacher do differently after this version?\"**",
+      "note": "Most revisions shorten the Why and lengthen the Try. Point that out if you see it; it is adult learning principles in action."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 5,
+      "title": "What changed in the revision?",
+      "body": "Ask: **\"What changed between your first and second delivery, and which piece of feedback caused it?\"** Then: \"How did it feel to receive feedback from a peer, and what made it safe or unsafe?\" Chart the moves that made feedback usable.",
+      "note": "Coaches often say the presenter-speaks-first step made the grows easier to hear. That is worth borrowing for teacher feedback conversations."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 2,
+      "title": "Book your ten minutes",
+      "body": "Each coach names the staff meeting or PLC where they will deliver the revised micro-PD and the evidence teachers will bring back: student work showing the move.",
+      "note": "For a longer follow-on, bring the teachers' student work to a lesson study group and run a GRITS cycle on the same move."
+    }
+  ],
+  "unplugged": "All eight moves can be modeled and practiced with printed examples: a printed social post and its original context, a printed AI answer with sources to check, a printed app permission screen. Coaches bring their examples on paper, trios sit together, and the rubric and feedback protocol need nothing but pencils. The AI-drafted stems are printed on Handout A.",
+  "digital": "Moves such as reverse image search or checking an AI answer's cited sources are more convincing live, so give each trio one device for the Model and Try segments. Coaches may use an approved chatbot during the Create step to draft their own stems or a session outline, with no teacher or student names or details in the prompt, and then compare the draft to Handout C. In a virtual session, run trios in breakout rooms and share rubric sheets as a form so presenters receive them instantly.",
+  "whyTech": "Live searches show teachers how fast a verification move can be, which a printed example can only describe. The feedback protocol is better on paper and face to face, where attention stays on the presenter.",
+  "adaptations": [
+    { "label": "New coaches", "text": "Shorten sessions to six minutes (Why 1, Model 2, Try 2, Transfer 1) for the first round, then build to ten." },
+    { "label": "Librarians", "text": "Draw from the source evaluation moves and use items from your collection or databases as the Try examples." },
+    { "label": "Coaching teams across campuses", "text": "Mix trios across campuses so feedback comes from colleagues who haven't seen each other teach. Trust norms matter even more." }
+  ],
+  "lookFors": [
+    "Each Handout B plan gives participants at least four minutes of doing the move, not just watching it.",
+    "Glows and grows cite a specific moment in the session and each grow comes with a concrete try.",
+    "Trios revise or cut AI-drafted stems that are generic or evaluate the person, and keep stems that match rubric language.",
+    "Each coach names a specific change between first delivery and re-delivery and the feedback that prompted it."
+  ],
+  "reflection": [
+    "How effective are my professional development initiatives in addressing teachers' needs? (Coach ELE guiding question)",
+    "What part of my PD do I usually skip rehearsing, and what did rehearsing it show me?",
+    "Where could an AI tool take administrative work off my plate so I can spend more time with teachers, and where should it never be used?"
+  ],
+  "transfer": "Deliver your revised micro-PD within two weeks and ask teachers to bring back one piece of student work showing the move. Bring those samples to your coaching team and ask the same question you asked today: what changed?",
+  "connections": [
+    { "title": "TCEA Blog: Who's Coaching the Coach? (Ashly Shinde, 2025)", "url": "https://blog.tcea.org/whos-coaching-the-coach/", "note": "Using AI for a coach's administrative work, like drafting stems or agendas, so time goes to people." },
+    { "title": "TCEA Blog: Strategies for Building Trust in Instructional Coaching (Diana Benner, 2025)", "url": "https://blog.tcea.org/strategies-for-building-trust-in-instructional-coaching/", "note": "Trust moves that make peer feedback safe to give and receive." },
+    { "title": "TCEA Blog: Got GRITS? A Coaching Strategy for Lesson Study Groups (Miguel Guhlin, 2025)", "url": "https://blog.tcea.org/grits-model-a-coaching-strategy-for-lesson-study-groups/", "note": "A lesson study follow-on once teachers bring back student work on the move." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Move Cards and AI-Drafted Stems",
+      "type": "cards",
+      "instructions": "Cut apart. Each coach draws one Move card. The two AI-Drafted Stems cards are for the whole trio. Backs are the key idea and the common misconception.",
+      "cards": [
+        { "label": "Move · Trace the quote", "front": "Before sharing a quotation from a post, find where the person actually said it and read the sentences around it.", "back": "Why it matters: quotations are often clipped to reverse their meaning. Misconception: \"If there's a name attached, it's real.\"" },
+        { "label": "Move · Check the AI's sources", "front": "When a chatbot cites a source, open it. Does it exist? Does it say what the chatbot claims?", "back": "Why it matters: chatbots can produce plausible citations that don't exist or don't support the claim. Misconception: \"It gave a source, so it's checked.\"" },
+        { "label": "Move · Who's behind this site?", "front": "Leave the page and search the organization's name to learn who runs and funds it before trusting its claims.", "back": "Why it matters: a professional look and a .org address tell you nothing about bias. Misconception: \"I'll read the About page.\"" },
+        { "label": "Move · Find the original image", "front": "Use a reverse image search, or look for the earliest post, to see where and when a photo first appeared.", "back": "Why it matters: real photos are often reshared with false context. Misconception: \"I can tell by looking whether it's edited.\"" },
+        { "label": "Move · Check the date", "front": "Before reacting to a story, look for when it was published and whether it's being recirculated as new.", "back": "Why it matters: old stories resurface as breaking news. Misconception: \"If it's in my feed today, it happened today.\"" },
+        { "label": "Move · The privacy pause", "front": "Before uploading anything to an app or AI tool, ask: whose information is in this, and where does it go?", "back": "Why it matters: student names and work end up in tools that keep or train on them. Misconception: \"It's a school device, so it's safe.\"" },
+        { "label": "Move · Disclose the AI help", "front": "Add a short note to work that AI helped with: which tool, what it did, what you changed and checked.", "back": "Why it matters: disclosure builds trust and makes the student's own thinking visible. Misconception: \"Disclosure means admitting you cheated.\"" },
+        { "label": "Move · Name the persuasion", "front": "Before sharing, name the technique the post uses: urgency, fear, flattery, bandwagon, or a strong emotion.", "back": "Why it matters: naming the technique slows the share. Misconception: \"Only other people fall for that.\"" },
+        { "label": "AI-Drafted Stems · Glows", "front": "Mock chatbot output: \"1. You did an amazing job! 2. Your energy was fantastic and really engaging. 3. The participants practiced the move with a real example, which built their confidence. 4. Great use of technology!\"", "back": "Keep 3 (it names a rubric criterion). Revise 2 to cite a moment. Cut 1 and 4: generic praise, and 4 counts tool use as quality." },
+        { "label": "AI-Drafted Stems · Grows", "front": "Mock chatbot output: \"1. Consider adding more interactive elements. 2. You seemed nervous; work on your confidence. 3. The model could show a dead end as well as a success, so participants see what checking really looks like. 4. Next time, include a clear link to what students will do.\"", "back": "Keep 3 and 4 (specific, tied to the rubric). Revise 1 to name which segment. Cut 2: it evaluates the person, not the session." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Micro-PD Planner",
+      "type": "worksheet",
+      "instructions": "Ten minutes total. Name the adult learning principle each segment honors: why before what, use experience, real problems, choice, relevance now, practice with feedback.",
+      "sections": [
+        { "prompt": "My move and the teachers I'd teach it to:", "lines": 1 },
+        { "prompt": "RISE goal for this micro-PD. Relevant (why these teachers, why now) · Impactful (what changes for students) · Specific (what teachers will be able to do) · Energized (why they'll want to try it):", "lines": 3 },
+        { "prompt": "Why (1 min): the problem teachers will recognize. Principle honored:", "lines": 2 },
+        { "prompt": "Model (3 min): my think-aloud, including one dead end. The example I'll use:", "lines": 4 },
+        { "prompt": "Try (4 min): what participants do, on what example, and how I'll know they did it:", "lines": 4 },
+        { "prompt": "Transfer (2 min): what teachers do with students next week and the student evidence they bring back:", "lines": 2 },
+        { "prompt": "Revision after feedback: the segment I changed, what I changed, and which feedback prompted it:", "lines": 3 }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Micro-PD Feedback Rubric",
+      "type": "rubric",
+      "instructions": "Score quietly after each session. Circle one level per row and write the moment that shows it in the margin.",
+      "levels": ["Not yet", "Emerging", "Solid", "Ready for teachers"],
+      "criteria": [
+        { "name": "Why before what", "descriptors": ["Starts with a definition or a tool.", "Names a problem, but it's generic.", "Opens with a problem these teachers recognize.", "Opens with a problem these teachers recognize, and connects it to their students in under a minute."] },
+        { "name": "Live model", "descriptors": ["Describes the move instead of doing it.", "Does the move, but silently or too fast to follow.", "Thinks aloud through the move on a real example.", "Thinks aloud, including a dead end, so the checking looks real."] },
+        { "name": "Participants practice", "descriptors": ["Participants only watch.", "Participants practice for under two minutes.", "Participants do the move on a real example for about four minutes.", "Participants do the move and the presenter checks that each person did it."] },
+        { "name": "Transfer to students", "descriptors": ["No mention of students.", "Suggests students could try it someday.", "Names what students will do next week.", "Names what students will do and the student evidence teachers will bring back."] },
+        { "name": "Respect for adult learners", "descriptors": ["Talks down to participants or ignores their experience.", "Acknowledges experience but doesn't use it.", "Invites participants' experience or a choice at one point.", "Uses participants' experience and offers a real choice within the ten minutes."] }
+      ]
+    }
+  ]
+}

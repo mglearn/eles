@@ -1,0 +1,159 @@
+{
+  "id": "what-your-map-app-knows",
+  "title": "What Your Map App Knows",
+  "tagline": "Students plot a fictional teen's Saturday from location clues on a town map, discover how much a trail of pings reveals, weigh safety against privacy, and write a location settings checkup plan.",
+  "audience": "student",
+  "grades": ["6-8"],
+  "strands": ["digcit"],
+  "mode": "unplugged",
+  "minutes": 45,
+  "groupSize": "Teams of 3–4; any number of teams",
+  "eles": ["S2.1", "S2.3", "S5.1"],
+  "overview": "Phones, games, cameras, and friend-finder apps can record where we are, often without us thinking about it. In this unplugged simulation, teams receive twelve location clues from one Saturday in the life of Dani, a fictional seventh grader in the fictional town of Juniper Falls: map app pings, a geotagged photo, a check-in, a live location share. Teams plot the trail on a printed town grid and discover that a handful of dots reveals where Dani lives, who Dani hangs out with, and where Dani will probably be next Saturday. Then students weigh when sharing location keeps people safe and when it puts them at risk, and write a step-by-step checkup plan for their own device settings.",
+  "objectives": [
+    "Students will plot location clues from several sources and infer at least three things the trail reveals (home area, routine, companions, likely future location).",
+    "Students will identify at least three ways location data gets created: GPS in apps, location sharing, geotagged photos, check-ins, and location history.",
+    "Students will explain a trade-off between safety and privacy for a location-sharing decision and defend a choice.",
+    "Students will write a systematic, step-by-step location settings checkup plan they can complete with a family member."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Juniper Falls Town Grid (1 per team, enlarged to 11 x 17 if possible)",
+      "Handout B: Dani's Saturday Location Clues (1 set of 12 cards per team, cut apart, shuffled)",
+      "Handout C: My Location Settings Checkup Plan (1 per student)",
+      "Colored pencils or markers; small sticky dots or numbered sticky notes",
+      "Four corner signs: SHARE IT, SHARE FOR NOW, ONLY WITH FAMILY, KEEP IT OFF"
+    ],
+    "digital": [
+      "Optional: the teacher's own phone or tablet, projected, to show where location settings live (no student devices required)",
+      "Optional: a shared digital map or drawing tool where teams drop pins on a blank fictional town map"
+    ]
+  },
+  "prep": [
+    "Print Handout A for each team, ideally enlarged. Print and cut Handout B into 12 cards per team; shuffle so the times are out of order.",
+    "Post the four corner signs around the room for the trade-offs round.",
+    "Read the card backs so you can steer teams toward inferences without giving them away.",
+    "If you plan the optional demo, find your own device's location settings, per-app location permissions, and photo location option ahead of time. Turn off anything that would show your real home or routine before projecting."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Three dots",
+      "body": "Draw three dots on the board and label them *Mon 7:30 AM*, *Mon 3:45 PM*, *Mon 9:00 PM*. Say: **\"Imagine these are three places a phone was on Monday. What could you guess about the person?\"** Students will quickly say: school in the morning, practice or a friend's house after school, home at night. Say: \"Three dots, and you already know a lot. Today you'll get twelve.\"",
+      "note": "Keep the Hook abstract. Do not invite students to share their own routes or addresses."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Plot Dani's Saturday",
+      "body": "Teams get Handout A and a shuffled set of Handout B cards. Their job: **put the clues in time order, plot each one on the grid with a numbered dot, and connect the dots into a trail.** Next to each dot, they write the source of the clue (map app, photo, check-in, live share, location history, game). Then they answer on the back of the grid: *Where does Dani probably live? Who is Dani with? What is Dani's routine? Where will Dani probably be next Saturday at 10 AM?*",
+      "note": "Circulate and ask, \"Which single card gave away the most?\" Teams usually pick the geotagged photo or the 11 PM ping in the home area."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 6,
+      "title": "What the trail reveals",
+      "body": "Each team reports one inference and the clue behind it. Build a list on the board with two columns: **What the trail showed** and **Where the data came from**. Then name the big idea: \"No single clue said 'Dani lives on Oak Court.' The **pattern** said it. Location data becomes powerful when it's collected over time and combined.\" Point out that Dani chose some clues (the check-in, the photo post) and never noticed others (location history, the game).",
+      "note": "Stay accurate and avoid fear. Location features are useful and often switched on for good reasons. The skill is knowing what's on and deciding on purpose."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 8,
+      "title": "Four corners: safety vs. privacy",
+      "body": "Read each scenario aloud. Students walk to the corner that matches their choice: **SHARE IT, SHARE FOR NOW, ONLY WITH FAMILY, KEEP IT OFF**. Ask one student per corner to give a reason. Scenarios: (1) Your family wants to see your location when you walk home from school. (2) A new game asks for your location \"always,\" even when you're not playing. (3) You post a photo from your backyard and the photo still has location info attached. (4) A friend you met in an online game asks you to turn on friend-finder so you can \"meet up sometime.\" (5) You're at a big, crowded festival with your cousin and could share location with each other until you leave. (6) A weather app asks for your precise location.",
+      "note": "Model that thoughtful people disagree on some of these (1, 5, 6), and that others have a clear safest answer (2, 3, 4). Scenario 4 needs a firm, calm message: an online-only friend never gets your location; tell a trusted adult."
+    },
+    {
+      "phase": "Create",
+      "minutes": 10,
+      "title": "My checkup plan",
+      "body": "Students complete Handout C, a step-by-step plan they can do with a family member: which settings to check, in what order, and what they'll decide for each. Push for a system, not a list of worries: **Step 1: find the main location setting. Step 2: go app by app. Step 3: check who you share live location with. Step 4: check the camera's location option. Step 5: look at location history. Step 6: set a date to check again.** Students also write one location choice they'll keep on because it keeps them safe, and why.",
+      "note": "Students without a phone can plan for a family device, a tablet, or a game console. Everyone can do this plan."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 4,
+      "title": "Exit ticket",
+      "body": "On a sticky note, students finish: **\"Before I share my location, I will ask myself...\"** Collect notes on the door on the way out and read a few aloud next class.",
+      "note": "Strong answers name a person (Who can see this?), a time (For how long?), and a purpose (Why does this app need it?)."
+    }
+  ],
+  "unplugged": "The full lesson is designed to run with no devices: the printed town grid, the clue cards, colored pencils, and the four corners. For a bigger, moving version, tape a large Juniper Falls grid on the floor with masking tape and have one student per team walk Dani's route while teammates call out the clues in order.",
+  "digital": "Teams can plot the clues by dropping numbered pins on a blank fictional town map in a shared drawing or slide tool, which makes the trail easy to compare across teams on the projector. For the checkup plan, project your own device (with anything identifying turned off) and walk through where the main location setting, per-app permissions (often choices like \"never,\" \"while using the app,\" and \"always\"), precise vs. approximate location, photo location, and location history usually live. Students do not need their own devices or accounts; they take the plan home.",
+  "whyTech": "This one is stronger unplugged: plotting clues by hand makes students do the inferring themselves, which is exactly what makes location trails powerful. A short teacher-led settings tour adds what paper cannot, showing that these controls are real, findable, and changeable.",
+  "adaptations": [
+    { "label": "Grades 9–12", "text": "Add a card about a fitness or run-tracking app that shares routes publicly by default, and have students write a short argument about whether apps should default to location off." },
+    { "label": "Grade 6 or first-time learners", "text": "Give teams the clue cards already in time order and have them focus on plotting and on the four questions." },
+    { "label": "Emergent bilinguals", "text": "Add icons to each clue source (camera, map pin, people, game controller) and pre-teach \"location,\" \"share,\" \"history,\" and \"setting\" with a visual word wall." },
+    { "label": "Students with motor or mobility needs", "text": "Replace walking to corners with holding up one of four colored cards; let a teammate place dots while the student directs." }
+  ],
+  "lookFors": [
+    "Teams infer Dani's home area, companion, and likely Saturday routine and point to the specific clues that support each inference.",
+    "Students name at least three different sources of location data, including ones Dani did not choose on purpose (location history, a game running in the background).",
+    "In four corners, students give reasons that weigh who can see the location, for how long, and why, not just \"it's creepy\" or \"it's fine.\"",
+    "Checkup plans are step-by-step and specific, include a date to check again, and name at least one location choice kept on for safety."
+  ],
+  "reflection": [
+    "Do I know what my devices share about where I am, and do I choose it on purpose? (Student ELE 2.0)",
+    "When does sharing my location keep me safer, and when could it put me at risk?",
+    "How did working through the clues step by step help us see a pattern that one clue alone could not show? (Student ELE 5.0)"
+  ],
+  "transfer": "At home, students complete their checkup plan with a family member on one device and bring back one decision they made together (no screenshots or locations needed). Next lesson, connect to *Data Trail Audit* or *What Do My Apps Know?* to look at the other kinds of data apps collect.",
+  "connections": [
+    { "title": "Family App Privacy Audit", "url": "https://mglearn.github.io/tcea/privacy-audit/", "note": "Send home with the checkup plan so families can review app permissions together." },
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "Grades 6–8 privacy breakouts extend this lesson." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Juniper Falls Town Grid",
+      "type": "table",
+      "instructions": "Juniper Falls is a made-up town. Each box is one block. Plot Dani's clues with numbered dots in time order and connect them into a trail.",
+      "columns": ["Row", "A", "B", "C", "D"],
+      "rows": [
+        ["1", "Juniper Falls Library", "Cedar Park and Skate Ramp", "Pine Ridge Apartments", "Ridgeview Soccer Fields"],
+        ["2", "Main Street Shops", "Blue Heron Café", "Town Pool", "Juniper Falls Middle School"],
+        ["3", "Oak Court (houses)", "Maple Lane (houses)", "Post Office", "Sunny Days Donuts"],
+        ["4", "Willow Creek Trail", "Grandview Grocery", "Juniper Cinema", "Fire Station"],
+        ["5", "River Bend Houses", "Hillside Houses", "Juniper Falls Bus Station", "Lakeside Picnic Area"]
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Dani's Saturday Location Clues",
+      "type": "cards",
+      "instructions": "Put the clues in time order, then plot each one on the Juniper Falls grid. Write the source of each clue next to its dot. The backs are for your teacher.",
+      "cards": [
+        { "label": "Location history · 12:10 AM", "front": "Dani's phone saved a location point overnight: Oak Court (houses), A3. The phone stayed there until 8:50 AM.", "back": "Where a phone sits overnight is almost always home. This is the clue Dani never saw being created." },
+        { "label": "Map app · 9:05 AM", "front": "Dani's map app got directions from Oak Court to Ridgeview Soccer Fields, D1. Travel mode: car.", "back": "Someone drove Dani to soccer. Directions requests reveal both the start point and the destination." },
+        { "label": "Check-in · 9:20 AM", "front": "Dani's team app posted: \"Dani checked in at Juniper Falls Thunder practice, Ridgeview Soccer Fields.\"", "back": "Dani chose this one on purpose. It shows the team name, too, which tells people where Dani will be every Saturday morning." },
+        { "label": "Map app suggestion · 8:40 AM", "front": "Dani's phone showed a pop-up: \"Leave now for Ridgeview Soccer Fields. 6 minutes.\" Dani never typed that in.", "back": "The phone predicted the trip from Dani's past Saturdays. The pattern of past locations lets software guess future ones." },
+        { "label": "Live location share · 11:30 AM", "front": "Dani's friend Rae sees Dani on a friend-finder map: \"Dani is at Blue Heron Café, B2, with you.\"", "back": "Dani and Rae share live location. That's a choice between friends, but anyone on Dani's list can see where Dani is right now." },
+        { "label": "Geotagged photo · 11:45 AM", "front": "Dani posted a photo of two smoothies. Hidden in the photo file: GPS location = Blue Heron Café, B2, and the time it was taken.", "back": "Many cameras can save location inside a photo file. Some apps remove it when you post; others keep it. Worth checking your camera setting." },
+        { "label": "Game · 1:15 PM", "front": "A monster-catching game running in the background recorded Dani's location at Cedar Park and Skate Ramp, B1.", "back": "The game had location set to \"always.\" Dani wasn't even playing. Apps with \"always\" permission can collect location all day." },
+        { "label": "Photo post · 1:40 PM", "front": "Rae posted a video: \"Dani landing the kickflip at Cedar Park!\" with Dani tagged by name.", "back": "Someone else shared Dani's location. You can't control every post, but you can talk with friends about tagging." },
+        { "label": "Map app · 3:10 PM", "front": "Dani searched for \"Sunny Days Donuts\" and walked there, D3.", "back": "Search history and walking directions add another dot. Together with the others, a full day is visible." },
+        { "label": "Location history · 4:30 PM", "front": "Dani's phone saved a location point at Maple Lane (houses), B3, for 2 hours.", "back": "A long stop at a house in the afternoon suggests a friend's or relative's home. Location history saves places you stay a while." },
+        { "label": "Live location share · 7:05 PM", "front": "Dani's family's location app: \"Dani arrived at Home, Oak Court, A3.\"", "back": "Family sharing can be a real safety tool. It also confirms the home location from Card 1." },
+        { "label": "Location history · 11:00 PM", "front": "Dani's phone saved a location point: Oak Court (houses), A3. The phone stayed there all night.", "back": "Same place, same time, week after week. Now anyone who saw this trail could guess where Dani lives and where Dani will be next Saturday at 9:20 AM." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Location Settings Checkup Plan",
+      "type": "worksheet",
+      "instructions": "Make a plan you can do with a family member on one device (a phone, tablet, or game console). You don't need to write down any real places.",
+      "sections": [
+        { "prompt": "The device I will check is: ___. The grown-up who will help me is: ___.", "lines": 1 },
+        { "prompt": "Step 1: Find the main location setting. What I will look for and where I think it is:", "lines": 2 },
+        { "prompt": "Step 2: Go app by app. For each app, I'll choose never, while using, or always. Two apps I'll check first and what I expect to choose:", "lines": 3 },
+        { "prompt": "Step 3: Who can see my live location right now? Who should stay on the list, and why?", "lines": 3 },
+        { "prompt": "Step 4: Does my camera save location in photos? What will I decide?", "lines": 2 },
+        { "prompt": "Step 5: Is location history turned on? What will I do about it?", "lines": 2 },
+        { "prompt": "One location choice I will KEEP ON because it keeps me safer, and why:", "lines": 2 },
+        { "prompt": "I will check these settings again on (date): ___, and whenever I install a new app.", "lines": 1 }
+      ]
+    }
+  ]
+}

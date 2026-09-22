@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Đào sâu dữ liệu tiếng nói học sinh | Ngân hàng Hoạt động ELE</title>
+<meta name="description" content="Chuyên viên hỗ trợ giảng dạy và giáo viên thiết kế một khảo sát học sinh ngắn, an toàn về quyền riêng tư, về thiết bị, AI và sức khỏe tinh thần, rồi đọc kết quả thu về bằng quy trình Notice-Wonder-Next và hành động dựa trên những gì học sinh chia sẻ.">
+<meta property="og:title" content="Đào sâu dữ liệu tiếng nói học sinh | Ngân hàng Hoạt động ELE">
+<meta property="og:description" content="Chuyên viên hỗ trợ giảng dạy và giáo viên thiết kế một khảo sát học sinh ngắn, an toàn về quyền riêng tư, về thiết bị, AI và sức khỏe tinh thần, rồi đọc kết quả thu về bằng quy trình Notice-Wonder-Next và hành động dựa trên những gì học sinh chia sẻ.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/student-voice-data-dive.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/student-voice-data-dive.html">
+<link rel="alternate" hreflang="vi" href="https://mglearn.github.io/eles/vi/activities/student-voice-data-dive.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/student-voice-data-dive.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Ngân hàng Hoạt động</span></a>
+  <nav aria-label="Chính">
+    <a href="../index.html#catalog">Hoạt động</a>
+    <a href="../framework.html">Các ELE</a>
+    <details class="navmenu"><summary>Dành cho người điều phối</summary><div class="navmenu-panel">
+      <a href="../guide.html">Hướng dẫn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Chuẩn</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../packets.html">Tài liệu in</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Ngôn ngữ</span><select aria-label="Ngôn ngữ"><option value="en" lang="en" data-href="../../activities/student-voice-data-dive.html">English</option><option value="es" lang="es" data-href="../../es/activities/student-voice-data-dive.html">Español</option><option value="vi" lang="vi" data-href="../../vi/activities/student-voice-data-dive.html" selected>Tiếng Việt</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="vi">Bản dịch này được thực hiện với sự hỗ trợ của AI và đang chờ người bản ngữ xem xét. Bản tiếng Anh là bản gốc.</p>
+
+<main id="main" class="act">
+  <div class="act-head has-photo">
+    <figure class="act-photo"><img class="photo" src="../../assets/img/cat-pl-digcit.jpg" width="1536" height="1024" alt="A librarian leads teachers in a discussion and vote using colored cards."></figure>
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Tất cả hoạt động</a> <span aria-hidden="true">/</span> Bồi dưỡng chuyên môn</p>
+    <h1>Đào sâu dữ liệu tiếng nói học sinh</h1>
+    <p class="lede">Chuyên viên hỗ trợ giảng dạy và giáo viên thiết kế một khảo sát học sinh ngắn, an toàn về quyền riêng tư, về thiết bị, AI và sức khỏe tinh thần, rồi đọc kết quả thu về bằng quy trình Notice-Wonder-Next và hành động dựa trên những gì học sinh chia sẻ.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/student-voice-data-dive.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">In hướng dẫn này</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="Tóm tắt nhanh">
+      <dl>
+        <div><dt>Thời gian</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>60 phút</dd></div>
+        <div><dt>Hình thức</dt><dd class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Kết hợp</dd></div>
+        <div><dt>Dành cho</dt><dd>Chuyên viên hỗ trợ, Giáo viên, Lãnh đạo</dd></div>
+        <div><dt>Đối tượng</dt><dd>K–12</dd></div>
+        <div><dt>Nhóm</dt><dd>Nhóm khối lớp hoặc tổ bộ môn 3–5 người, do một chuyên viên hỗ trợ giảng dạy dẫn dắt; bao nhiêu nhóm cũng được</dd></div>
+        <div><dt>Mạch nội dung</dt><dd class="chips"><span class="strand s-digcit">Công dân số</span><span class="strand s-genai">AI tạo sinh</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Chỉ báo ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#C3.1">C3.1</a><div><span class="ind-area">Chuyên viên Hỗ trợ · Hỗ trợ Chuyên môn Dựa trên Dữ liệu</span>Tôi biết cách sử dụng dữ liệu để định hướng các quyết định giảng dạy.</div></li><li><a class="ele" href="../framework.html#C3.2">C3.2</a><div><span class="ind-area">Chuyên viên Hỗ trợ · Hỗ trợ Chuyên môn Dựa trên Dữ liệu</span>Tôi có thể giúp giáo viên diễn giải và hành động dựa trên kết quả đánh giá.</div></li><li><a class="ele" href="../framework.html#C5.2">C5.2</a><div><span class="ind-area">Chuyên viên Hỗ trợ · Lãnh đạo Hợp tác</span>Tôi có thể điều phối các buổi thảo luận và giải quyết vấn đề hiệu quả.</div></li><li><a class="ele" href="../framework.html#T4.3">T4.3</a><div><span class="ind-area">Giáo viên · Xây dựng Mối quan hệ</span>Tôi nhận thức được tầm quan trọng của sự hỗ trợ về mặt cảm xúc đối với thành công trong học tập.</div></li><li><a class="ele" href="../framework.html#AI4.1">AI4.1</a><div><span class="ind-area">AI trong Giáo dục · AI và Tư duy Phản biện</span>Tôi biết cách thúc đẩy kỹ năng tư duy phản biện đối với thông tin do AI tạo ra.</div></li></ul>
+      <h2 class="glance-h">Phiếu</h2>
+      <ul class="handout-list"><li><a href="../handouts/student-voice-data-dive.html#handout-A"><span class="hl">A</span> Bảng kiểm tiếng nói học sinh an toàn về quyền riêng tư</a> <span class="muted">(danh sách kiểm tra)</span></li><li><a href="../handouts/student-voice-data-dive.html#handout-B"><span class="hl">B</span> Kết quả thu về, lớp 7 Mesquite Ridge</a> <span class="muted">(bài đọc)</span></li><li><a href="../handouts/student-voice-data-dive.html#handout-C"><span class="hl">C</span> Sơ đồ tổ chức Notice-Wonder-Next</a> <span class="muted">(sơ đồ tổ chức)</span></li></ul>
+      <p class="glance-print"><a class="btn btn-gold" href="../handouts/student-voice-data-dive.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>In phiếu</a></p>
+    </aside>
+    <div class="act-main">
+      <section><h2>Tổng quan</h2><p class="overview">Nhà trường đưa ra quyết định về màn hình, AI và quy định dùng điện thoại hằng tuần, thường mà không hỏi chính những học sinh chịu tác động của các quyết định đó. Buổi này xem tiếng nói học sinh là dữ liệu giảng dạy. Các nhóm thiết kế một khảo sát ẩn danh gồm năm câu hỏi và một buổi phỏng vấn ngắn về việc khi nào công nghệ hỗ trợ hay cản trở việc học và sức khỏe tinh thần, đối chiếu với một bảng kiểm quyền riêng tư, rồi đọc một bộ kết quả hư cấu thu về từ một nhóm giáo viên lớp 7 bằng quy trình Notice-Wonder-Next (Nhận thấy – Băn khoăn – Bước tiếp theo). Quy trình giúp nhóm mô tả trước khi diễn giải, và nhìn các vấn đề như những lựa chọn thiết kế mà nhóm có thể kiểm soát; buổi học kết thúc với một thay đổi cụ thể và kế hoạch cho học sinh biết câu trả lời của các em đã tạo ra thay đổi gì.</p>
+        <h3 class="sub">Mục tiêu</h3><ul><li>Người tham gia viết một khảo sát học sinh ẩn danh có không quá năm câu hỏi, cùng hai câu hỏi phỏng vấn, hỏi về việc học và sức khỏe tinh thần mà không khơi gợi những chia sẻ cá nhân nhạy cảm.</li><li>Người tham gia đối chiếu khảo sát với bảng kiểm an toàn về quyền riêng tư và chỉnh sửa ít nhất một câu hỏi.</li><li>Người tham gia dùng Notice-Wonder-Next để tách điều quan sát được khỏi điều diễn giải trong dữ liệu khảo sát và phỏng vấn học sinh.</li><li>Người tham gia chọn một thay đổi trong giảng dạy được dữ liệu ủng hộ và lên kế hoạch phản hồi lại cho học sinh.</li></ul></section>
+      <section class="two">
+        <div><h2>Học liệu</h2>
+          <h3 class="sub">Trên giấy</h3><ul><li>Phiếu A: Bảng kiểm tiếng nói học sinh an toàn về quyền riêng tư (mỗi nhóm 1 phiếu)</li><li>Phiếu B: Kết quả thu về, lớp 7 Mesquite Ridge (mỗi người 1 phiếu)</li><li>Phiếu C: Sơ đồ tổ chức Notice-Wonder-Next (mỗi nhóm 1 phiếu)</li><li>Thẻ ghi chú để soạn câu hỏi khảo sát; bút dạ quang hai màu</li></ul>
+          <h3 class="sub">Trên màn hình</h3><ul><li>Tùy chọn: một công cụ biểu mẫu được học khu phê duyệt, cài đặt để không thu thập tên hoặc địa chỉ email</li><li>Tùy chọn: một bảng tính hoặc trang tóm tắt của biểu mẫu để vẽ biểu đồ kết quả theo từng lớp</li></ul></div>
+        <div><h2>Trước khi bắt đầu</h2><ol class="prep"><li>Đọc Phiếu B và tự hoàn thành Phiếu C để biết mục Nhận thấy nào là quan sát và mục nào thực ra là diễn giải trá hình.</li><li>Tìm hiểu quy định của trường về việc khảo sát học sinh: có cần thông báo cho phụ huynh không, câu hỏi nào cần được phê duyệt, và nhân viên phải làm gì nếu một câu trả lời cho thấy mối lo ngại về an toàn. Chuẩn bị sẵn câu trả lời đó.</li><li>Nếu các nhóm sẽ tạo biểu mẫu trực tuyến, hãy cài đặt công cụ biểu mẫu để không ghi lại tên, email hay thông tin đăng nhập, và thử nghiệm một lần.</li></ol></div>
+      </section>
+      <section><h2>Từng bước</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khởi động</p>
+        <h3>Dự đoán trước khi xem</h3>
+        <p>Đọc to Câu hỏi 3 trong Phiếu B mà không kèm kết quả: <strong>&quot;Khi dùng AI cho bài vở, em kiểm tra những gì nó nói.&quot;</strong> Mỗi người viết lên giấy ghi chú dự đoán của mình về cách học sinh lớp 7 đã trả lời. Sau đó công bố kết quả. Hỏi: &quot;Quý thầy cô đoán gần đúng ở đâu? Điều gì khiến mình bất ngờ? Chúng ta còn đang phỏng đoán điều gì khác về chính học sinh của mình?&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Nhiều người dự đoán hoặc là &quot;em nào cũng dùng và không bao giờ kiểm tra&quot; hoặc là &quot;các em không dùng&quot;. Bức tranh thực tế đan xen chính là lý do cần phải hỏi.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–17 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Khám phá</p>
+        <h3>Thiết kế khảo sát năm câu hỏi</h3>
+        <p>Các nhóm soạn trên thẻ ghi chú: <strong>không quá năm câu hỏi</strong> và <strong>hai câu hỏi phỏng vấn</strong> cho một nhóm nhỏ học sinh. Đưa ra trọng tâm: &quot;Khi nào công nghệ, bao gồm cả AI, giúp em học trong lớp mình, và khi nào nó cản trở việc học hay ảnh hưởng đến cảm nhận của em?&quot; Yêu cầu có ít nhất một câu về việc kiểm tra kết quả của AI, một câu về sự xao nhãng hoặc cân bằng, và một câu hỏi mở. Mỗi thẻ cần ghi nhóm sẽ <em>làm</em> gì khác đi tùy theo câu trả lời; câu hỏi nào không dẫn đến hành động nào thì bỏ.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Tránh những câu hỏi khơi gợi những chia sẻ mà một khảo sát không thể phản hồi, như vấn đề giấc ngủ, hoàn cảnh gia đình hay sức khỏe tâm thần. Hãy hỏi về những trải nghiệm ở trường mà nhóm có thể thay đổi: &quot;Khi nào máy tính xách tay gây cản trở trong giờ học?&quot; thay vì &quot;Ở nhà em dùng màn hình bao nhiêu?&quot;</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">17–25 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Luyện tập</p>
+        <h3>Đổi thẻ kiểm tra quyền riêng tư</h3>
+        <p>Các nhóm đổi thẻ với một nhóm khác và rà soát bằng Phiếu A. Người rà soát đánh dấu mỗi mục là Có, Một phần hoặc Không, và viết một gợi ý viết lại. Các nhóm nhận lại thẻ và chỉnh sửa ít nhất một câu hỏi. Hỏi: <strong>&quot;Có câu trả lời nào có thể làm lộ danh tính một học sinh không? Có câu hỏi nào có thể đặt học sinh vào thế khó xử không?&quot;</strong></p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Những lỗi thường gặp: câu hỏi &quot;em học tiết mấy?&quot; trong một nhóm nhỏ có thể làm lộ danh tính học sinh; một câu hỏi mở về điện thoại ở nhà có thể khơi gợi chi tiết gia đình; một câu hỏi mở bắt buộc gây áp lực cho những em không muốn chia sẻ.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">25–45 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Vận dụng</p>
+        <h3>Đọc kết quả thu về bằng Notice-Wonder-Next</h3>
+        <p>Nói: &quot;Nhóm giáo viên lớp 7 ở Mesquite Ridge đã thực hiện một khảo sát giống của quý thầy cô. Đây là kết quả thu về.&quot; Các nhóm đọc Phiếu B và điền vào Phiếu C. <strong>Notice (Nhận thấy)</strong> (8 phút): chỉ những nhận định mà người khác có thể kiểm chứng trên trang giấy, tô bằng một màu. <strong>Wonder (Băn khoăn)</strong> (5 phút): những câu hỏi dữ liệu gợi ra, tô bằng màu còn lại. <strong>Next (Bước tiếp theo)</strong> (7 phút): một thay đổi nhóm có thể kiểm soát, viết thành một điều chỉnh thiết kế, không phải một cách &quot;sửa&quot; học sinh. Chuyên viên hỗ trợ giảng dạy hoặc một thành viên điều phối và giữ đúng trình tự: không Băn khoăn trong lúc Nhận thấy, không đưa giải pháp trong lúc Băn khoăn.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Lắng nghe những mục Nhận thấy thực ra là diễn giải (&quot;học sinh nghiện máy tính xách tay&quot;). Hỏi: &quot;Chỗ nào trên trang giấy nói điều đó?&quot; Cũng lắng nghe cách nhìn thiếu hụt về học sinh (&quot;các em lười kiểm tra AI&quot;) và đổi góc nhìn: &quot;Điều gì trong thiết kế của chúng ta khiến việc kiểm tra trở nên khó hoặc không bắt buộc?&quot; Các nhóm tốt sẽ nhận thấy 41 trên 71 học sinh chọn trao đổi với bạn cùng cặp, 33 em không chắc về quy định AI của lớp, và một học sinh không có internet ở nhà.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">45–55 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Sáng tạo</p>
+        <h3>Một thay đổi và thông điệp &quot;các em nói, chúng tôi làm&quot;</h3>
+        <p>Mỗi nhóm cam kết một thay đổi được dữ liệu ủng hộ và viết ba câu ở mặt sau Phiếu C: <strong>học sinh đã nói gì</strong>, <strong>chúng ta sẽ thay đổi gì</strong>, và <strong>chúng ta sẽ cho các em biết bằng cách nào</strong>. Ví dụ: &quot;Nhiều em chưa chắc về quy định AI của lớp mình. Thầy cô đã dán quy định lên và thứ Ba này chúng ta sẽ cùng luyện tập kiểm tra một câu trả lời của AI.&quot; Sau đó, các nhóm nêu bằng chứng sẽ cho thấy thay đổi có hiệu quả, chẳng hạn một khảo sát tiếp nối hai câu hỏi hoặc sản phẩm học tập tiếp theo của học sinh.</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Phản hồi lại cho học sinh chính là điều khiến khảo sát lần sau đáng để trả lời. Học sinh không thấy điều gì thay đổi sẽ hiểu rằng tiếng nói của mình chỉ để trang trí.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">55–60 phút</span></div>
+      <div class="step-body">
+        <p class="step-phase">Tổng kết</p>
+        <h3>Học sinh thấy điều gì mà chúng ta không thấy?</h3>
+        <p>Hỏi cả phòng: <strong>&quot;Câu trả lời của học sinh cho thấy điều gì mà chỉ quan sát lớp học thôi thì chúng ta sẽ bỏ sót?&quot;</strong> Rồi hỏi: &quot;Quý thầy cô muốn tìm hiểu thêm về câu trả lời nào trong Phiếu B, và sẽ làm điều đó thế nào mà không phá vỡ tính ẩn danh?&quot;</p>
+        <p class="step-note"><span>Ghi chú cho người điều phối</span>Câu trả lời &quot;không có wifi ở nhà&quot; là trường hợp điển hình: nhóm không thể tìm ra học sinh đó từ một khảo sát ẩn danh, nhưng có thể thay đổi thiết kế bài tập về nhà cho tất cả mọi người, chẳng hạn các lựa chọn không cần mạng và thời gian làm bài trên lớp.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Giấy hay màn hình</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</h3><p>Thực hiện khảo sát trên nửa tờ giấy không ghi tên, thu vào một chiếc hộp hoặc bìa hồ sơ để không ai thấy ai viết gì. Cùng một đồng nghiệp đếm tay các câu hỏi đóng, gõ hoặc chép lại các câu trả lời mở lên một tờ giấy sạch để nét chữ không làm lộ danh tính ai, rồi thực hiện Notice-Wonder-Next trên tờ giấy đó. Phỏng vấn diễn ra như một cuộc trò chuyện ngắn trong nhóm nhỏ, chuyên viên hỗ trợ giảng dạy ghi chép, không ghi âm.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kỹ thuật số</h3><p>Tạo khảo sát trong một công cụ biểu mẫu được học khu phê duyệt, tắt chức năng thu thập tên và email, và chia sẻ qua LMS (hệ thống quản lý học tập). Trang tóm tắt của biểu mẫu giúp so sánh nhanh giữa các lớp hoặc khối, và chuyên viên hỗ trợ giảng dạy có thể vẽ biểu đồ kết quả cho buổi họp nhóm. Xóa mọi câu trả lời mở có thể làm lộ danh tính học sinh trước khi chia sẻ kết quả ra ngoài nhóm, và không dán nguyên văn câu trả lời của học sinh vào công cụ AI để tóm tắt.</p></div>
+        <p class="why"><strong>Có cần màn hình không?</strong> Công cụ biểu mẫu giúp thu thập câu trả lời ẩn danh dễ hơn và vẽ biểu đồ nhanh hơn giữa các lớp, giúp nhóm thấy những khuôn mẫu mà làm bằng tay sẽ bỏ sót. Việc diễn giải và quyết định thay đổi điều gì vẫn là cuộc trò chuyện giữa con người với nhau quanh bàn họp.</p>
+      </section>
+      <section class="evidence"><h2>Bằng chứng học tập</h2><p class="muted">Những gì bạn có thể quan sát hoặc thu thập được nếu hoạt động thành công.</p><ul><li>Bản nháp khảo sát có không quá năm câu hỏi, và mỗi câu hỏi nêu một hành động nhóm sẽ thực hiện tùy theo câu trả lời.</li><li>Khảo sát đã chỉnh sửa đạt các tiêu chí trong Phiếu A về tính ẩn danh, trả lời tự nguyện và không có câu hỏi cá nhân nhạy cảm.</li><li>Phiếu C cho thấy các mục Nhận thấy có thể kiểm chứng trên trang giấy, được tách riêng khỏi các mục Băn khoăn, và một mục Bước tiếp theo được viết thành một thay đổi thiết kế mà nhóm kiểm soát.</li><li>Mỗi nhóm viết một thông điệp &quot;các em nói, chúng tôi làm&quot; và nêu bằng chứng sẽ cho thấy thay đổi có hiệu quả hay không.</li></ul></section>
+      <section><h2>Điều chỉnh</h2><dl class="adapt"><div><dt>Lớp 3–5</dt><dd>Dùng ba câu hỏi có hình khuôn mặt hoặc ngón cái để trả lời và một câu hỏi mở được đọc to. Học sinh trả lời trên giấy; giáo viên đọc câu hỏi cho cả lớp.</dd></div><div><dt>Trung học phổ thông</dt><dd>Mời hai học sinh cùng viết và thử nghiệm khảo sát. Những chỉnh sửa của các em thường làm câu hỏi rõ ràng hơn bản nháp của người lớn.</dd></div><div><dt>Lãnh đạo nhà trường</dt><dd>Tổng hợp kết quả của các nhóm để làm cơ sở cho hướng dẫn về thiết bị hoặc AI của trường, và chia sẻ một trang &quot;các em nói, chúng tôi làm&quot; với học sinh và gia đình.</dd></div></dl></section>
+      <section class="stds"><h2>Liên kết với các chuẩn</h2><p>Các nhóm thiết kế một khảo sát học sinh an toàn về quyền riêng tư về công nghệ và sức khỏe tinh thần, rồi diễn giải kết quả thu được bằng Notice-Wonder-Next (Nhận thấy - Thắc mắc - Bước tiếp theo).</p><dl><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Nghe">Nghe</a><a class="std std-elps" href="../standards.html#elps-c3" title="Nói">Nói</a><a class="std std-elps" href="../standards.html#elps-c4" title="Đọc">Đọc</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-9-2" title="Phát triển nhận thức về bản thân và người khác">9.2</a><a class="std std-udl" href="../standards.html#udl-6-4" title="Nâng cao năng lực theo dõi tiến bộ">6.4</a><a class="std std-udl" href="../standards.html#udl-8-4" title="Nuôi dưỡng cảm giác thuộc về và cộng đồng">8.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Xem cách tất cả hoạt động được đối chiếu với các chuẩn</a></p></section>
+      <section class="two">
+        <div><h2>Suy ngẫm</h2><ul><li>Tôi đang sử dụng dữ liệu như thế nào để định hướng và dẫn dắt hoạt động hỗ trợ giảng dạy của mình? (Câu hỏi định hướng ELE dành cho chuyên viên hỗ trợ giảng dạy)</li><li>Lần gần nhất tôi đưa ra quyết định về việc học sinh dùng công nghệ mà không hỏi các em là khi nào?</li><li>Dữ liệu này đã thách thức giả định nào của nhóm tôi về học sinh và AI?</li></ul></div>
+        <div><h2>Mang về lớp học của bạn</h2><p>Trong vòng hai tuần, hãy thực hiện khảo sát đã chỉnh sửa với một lớp hoặc một khối, cùng nhóm thực hiện Notice-Wonder-Next, đưa ra một thay đổi, và cho học sinh biết điều gì đã thay đổi. Một tháng sau, hỏi lại hai câu hỏi để xem thay đổi có thể hiện trong câu trả lời của các em hay không.</p></div>
+      </section>
+      <section><h2>Kết hợp tốt với</h2><ul class="connections"><li><a href="https://blog.tcea.org/stop-fixing-students-coaching-for-equity-through-universal-design/">TCEA Blog: Stop Fixing Students, Coaching for Equity Through Universal Design (Miguel Guhlin, 2026)</a><span>Quy trình Notice-Wonder-Next và sự chuyển dịch từ cách nhìn thiếu hụt của học sinh sang rào cản trong thiết kế.</span></li><li><a href="https://blog.tcea.org/coaching-strategies-part-one/">TCEA Blog: Coaching Strategies, Part One (Miguel Guhlin, 2025)</a><span>Hỗ trợ giảng dạy lấy học sinh làm trung tâm, không mang tính đánh giá, luôn tập trung vào kết quả cho học sinh.</span></li><li><a href="https://mglearn.github.io/tcea/ddp/">Data Display Patterns field guide</a><span>Ý tưởng vẽ biểu đồ kết quả khảo sát để nhóm có thể đọc nhanh.</span></li></ul></section>
+      <section class="related noprint"><h2>Hoạt động liên quan</h2><div class="cards"><article class="card has-photo" data-id="looking-for-the-checking">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/act-looking-for-the-checking.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Bồi dưỡng chuyên môn<span>dành cho Chuyên viên hỗ trợ, Giáo viên, Thủ thư</span></p>
+    <h3><a href="../activities/looking-for-the-checking.html">Tìm dấu vết của việc kiểm chứng</a></h3>
+    <p class="card-tag">Một quy trình xem xét sản phẩm của học sinh, đặt ra một câu hỏi duy nhất cho cả một bộ bài của lớp: học sinh có thực sự kiểm chứng những gì AI nói với các em không, và làm sao chúng ta biết được?</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-medialit">Hiểu biết truyền thông</span></span><span class="eles"><a class="ele" href="../framework.html#C3.1" title="Chuyên viên Hỗ trợ 3.1: Tôi biết cách sử dụng dữ liệu để định hướng các quyết định giảng dạy.">C3.1</a><a class="ele" href="../framework.html#C3.2" title="Chuyên viên Hỗ trợ 3.2: Tôi có thể giúp giáo viên diễn giải và hành động dựa trên kết quả đánh giá.">C3.2</a><a class="ele" href="../framework.html#AI4.2" title="AI trong Giáo dục 4.2: Tôi có thể dạy người khác đặt câu hỏi và kiểm chứng kết quả do AI tạo ra.">AI4.2</a></span></div>
+  </article><article class="card has-photo" data-id="shallow-answers-coaching-cycle">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/act-shallow-answers-coaching-cycle.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Bồi dưỡng chuyên môn<span>dành cho Chuyên viên hỗ trợ, Giáo viên</span></p>
+    <h3><a href="../activities/shallow-answers-coaching-cycle.html">Chu trình Hỗ trợ Chuyên môn cho Câu trả lời Hời hợt</a></h3>
+    <p class="card-tag">Các chuyên viên hỗ trợ giảng dạy đóng vai trọn một chu trình lắng nghe, cùng lập kế hoạch, làm mẫu, đo lường, điều chỉnh xoay quanh một vấn đề quen thuộc: học sinh hoàn thành bài tập kỹ thuật số nhưng nói được rất ít.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>60 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">AI tạo sinh</span><span class="strand s-medialit">Hiểu biết truyền thông</span></span><span class="eles"><a class="ele" href="../framework.html#C1.1" title="Chuyên viên Hỗ trợ 1.1: Tôi biết cách kèm cặp giáo viên về các thực hành giảng dạy hiệu quả.">C1.1</a><a class="ele" href="../framework.html#C1.2" title="Chuyên viên Hỗ trợ 1.2: Tôi có thể đưa ra phản hồi mang tính xây dựng để cải thiện chiến lược giảng dạy.">C1.2</a><a class="ele" href="../framework.html#C3.2" title="Chuyên viên Hỗ trợ 3.2: Tôi có thể giúp giáo viên diễn giải và hành động dựa trên kết quả đánh giá.">C3.2</a></span></div>
+  </article><article class="card has-photo" data-id="after-the-rumor">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/act-after-the-rumor.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-digcit"></span><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Bồi dưỡng chuyên môn<span>dành cho Chuyên viên hỗ trợ, Giáo viên, Lãnh đạo, Nhân viên</span></p>
+    <h3><a href="../activities/after-the-rumor.html">Sau Tin Đồn</a></h3>
+    <p class="card-tag">Một nhóm trong trường vượt qua việc đổ lỗi để tìm ra nguyên nhân gốc rễ của một sự cố hư cấu gồm tin đồn lan truyền và hình ảnh bị chỉnh sửa bằng AI, rồi viết ra các quy ước về niềm tin và sử dụng AI mà cả nhóm sẽ cùng giữ cho lần sau.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>60 phút</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Không dùng màn hình</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-digcit">Công dân số</span><span class="strand s-medialit">Hiểu biết truyền thông</span><span class="strand s-genai">AI tạo sinh</span></span><span class="eles"><a class="ele" href="../framework.html#C5.2" title="Chuyên viên Hỗ trợ 5.2: Tôi có thể điều phối các buổi thảo luận và giải quyết vấn đề hiệu quả.">C5.2</a><a class="ele" href="../framework.html#C5.3" title="Chuyên viên Hỗ trợ 5.3: Tôi nhận thức được các chiến lược xây dựng lòng tin và thúc đẩy tinh thần làm việc nhóm.">C5.3</a><a class="ele" href="../framework.html#C5.1" title="Chuyên viên Hỗ trợ 5.1: Tôi biết cách vun đắp văn hóa hợp tác giữa các nhà giáo.">C5.1</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Ngân hàng Hoạt động Kỳ vọng Học tập Thiết yếu của TCEA.</strong> Hoạt động bồi dưỡng chuyên môn và hoạt động cho học sinh K–16 về hiểu biết AI tạo sinh, công dân số và hiểu biết truyền thông, trên giấy hoặc trên màn hình.</p>
+    <p>Hoạt động do Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>) biên soạn, dựa trên <a href="https://tinyurl.com/tceaeles1">Kỳ vọng Học tập Thiết yếu của TCEA</a> (CC BY-SA 2024). Chia sẻ theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: được sao chép, chỉnh sửa và tái sử dụng khi ghi nguồn. Không cần đăng nhập, không theo dõi.</p>
+    <p class="ai-note">Ảnh trên trang này là hình minh họa do AI tạo ra về những người hư cấu, không phải học sinh hay nhân viên thật.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog TCEA</a>
+    <a href="https://convention.tcea.org/">Hội nghị &amp; Triển lãm TCEA</a>
+  </nav>
+  <nav aria-label="Liên quan">
+    <p class="foot-h">Thêm tài nguyên miễn phí</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Trợ lý Đối chiếu ELE</a>
+    <a href="https://mglearn.github.io/activities/">Trung tâm Hoạt động Học tập</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Hoạt động nhóm về Công dân số</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Hoạt động nhóm về Hiểu biết AI tạo sinh</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

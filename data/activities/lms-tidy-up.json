@@ -1,0 +1,170 @@
+{
+  "id": "lms-tidy-up",
+  "title": "LMS Tidy-Up: Courses Students Can Find Their Way Through",
+  "tagline": "Educators run a student-eye findability test on a messy mock course, then tidy their own with consistent modules, one home for due dates, accessible files, and a check on any AI-generated materials.",
+  "audience": "pl",
+  "roles": ["teachers", "coaches", "librarians"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["digcit", "genai"],
+  "mode": "hybrid",
+  "minutes": 60,
+  "groupSize": "Pairs within tables of 4–6; works for 6–60 people",
+  "eles": ["T3.2", "C2.1", "T1.1", "S1.2"],
+  "overview": "When students can't find the assignment, the rubric, or the due date, the course has become a scavenger hunt, and the students who struggle most with organization, language, or access pay the highest price. In this session, participants play students trying to complete five everyday tasks in a deliberately messy mock course, counting clicks and dead ends. They then tidy it using a shared checklist: consistent module structure, predictable names, one place for due dates, accessible files, and fewer clicks. Finally they check an AI-generated course page before posting and plan a findability test with real students in their own course.",
+  "objectives": [
+    "Participants will run a student-eye findability test on a mock course and record clicks, dead ends, and where they looked first.",
+    "Participants will redesign a course structure using a consistent module template, predictable naming, and a single home for due dates.",
+    "Participants will identify accessibility barriers in course files and pages and name a fix for each.",
+    "Participants will review AI-generated course materials for accuracy, alignment, and accessibility before posting, and plan a findability test with their own students."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Ms. Varga's Course, As Students See It (1 per pair)",
+      "Handout B: Findability Test (1 per pair, plus 1 per person to take back to their own course)",
+      "Handout C: Course Tidy-Up Checklist (1 per person)",
+      "Sticky notes and chart paper for sketching a module template"
+    ],
+    "digital": [
+      "Participants' own devices with access to a course in your learning management system (edit access to their own course, or a sandbox course)",
+      "Optional: a student-view or preview mode in your learning management system",
+      "Optional: a generative AI chatbot your district approves, for the facilitator to generate a sample course page on the projector"
+    ]
+  },
+  "prep": [
+    "Print Handouts A–C. If possible, rebuild Handout A as a messy sandbox course in your learning management system so the digital path has a live version.",
+    "Learn where your learning management system keeps its student-view mode, calendar or to-do list, and any built-in accessibility checker, so you can point people to them.",
+    "Invite participants to bring a course they teach and, if they can, the names of two or three students willing to try a findability test next week.",
+    "Check your district guidance on posting AI-generated materials in courses, so you can name it during the AI review step."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Where's the rubric?",
+      "body": "Ask everyone to stand. Say: \"Think about the last time you logged into a course or site you didn't build, like a benefits portal or a conference app, and couldn't find what you needed. Sit down when you've remembered how it felt.\" Then: **\"That's what a disorganized course feels like to a student, every day.\"** Hand out Handout A and say: \"For the next 12 minutes, you're a student in Ms. Varga's ninth-grade biology course.\"",
+      "note": "Higher Ed faculty relate quickly to this. Swap \"ninth-grade biology\" for an intro course if your room is mostly faculty."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Findability test as a student",
+      "body": "In pairs, one person is the **Student** and one is the **Observer**. The Student tries each of the five tasks on Handout B using only the course map on Handout A, tracing the path with a finger and saying each \"click\" aloud. The Observer counts clicks, notes where the Student looked first, and records any dead ends. Swap roles halfway. Pairs mark whether each task was found and how confident they are that it's the right item.",
+      "note": "The ah-ha is usually Task 1: there are three different due dates for the same lab in three places. Listen for \"Which one is right?\""
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 6,
+      "title": "What made it hard, and for whom?",
+      "body": "Collect click counts for each task on chart paper. Ask: **\"What patterns made tasks hard? Which students would struggle most with this course?\"** Draw out: inconsistent module names, files named \"Document1,\" due dates in several places, scanned image-only files, videos with no captions, and important information buried in announcements. Connect it to inclusive teaching: a predictable structure helps everyone and is essential for some.",
+      "note": "Name the students who are often left out: those who are new to the course or the country, those using a screen reader or a phone, and those with executive function challenges."
+    },
+    {
+      "phase": "Model",
+      "minutes": 6,
+      "title": "Think aloud: one module, tidied",
+      "body": "Sketch a module template on chart paper while you think aloud. \"Every week looks the same: **1. Start Here** (a two-sentence overview and what's due), **2. Learn** (readings and videos, each with captions or a transcript), **3. Do** (assignments, each with its rubric attached), **4. Check** (a quick self-check or exit ticket). Names follow one pattern: 'Week 3 · Lab: Cell Membranes.' **Due dates live in the assignment itself**, so they appear in the calendar and to-do list automatically. I never type a due date anywhere else.\" Show how that reduces Task 1 to two clicks.",
+      "note": "The template matters less than the consistency. If a team already uses a different structure, keep theirs and make it predictable."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 8,
+      "title": "Check the AI-generated page",
+      "body": "Read Page 6 on Handout A: a \"Week 4 overview\" Ms. Varga generated with an AI tool. Tables check it against three questions: **Is it accurate?** (dates, vocabulary, and claims match the course and the real content), **Is it aligned?** (it describes what students will actually do), and **Is it accessible?** (headings, readable language, descriptive links, alt text). Tables list every fix and decide: post as is, post after edits, or don't post.",
+      "note": "Most tables find a wrong due date, an assignment that doesn't exist, a vague \"click here\" link, and reading level that's higher than needed. The point: AI can speed up drafting, but the teacher is accountable for what students see."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 15,
+      "title": "Tidy your own course",
+      "body": "Participants open their own course (or a sandbox) and use Handout C to tidy **one module** or one week: apply the template, rename items with the naming pattern, move all due dates into the assignments, fix one file for accessibility, and remove any duplicate or outdated item. Without devices, they sketch their current module on sticky notes and rearrange it on chart paper. Coaches circulate and ask: **\"How many clicks now? Where would a student look first?\"**",
+      "note": "Coaches: this is a co-planning moment. Note which teachers want a follow-up visit to finish the course, and schedule it before they leave."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 8,
+      "title": "Plan a real student findability test",
+      "body": "Each person fills in the bottom of Handout B: which two or three students they'll ask to try the five tasks next week (in student view, while the teacher watches without helping), what they'll measure (clicks, time, dead ends, confidence), and what they'll change based on what students do. Pairs share: **\"What will count as evidence that the tidy-up helped students?\"**",
+      "note": "This is the ELE question: the evidence isn't a prettier course, it's students finding what they need and adapting to the platform on their own."
+    }
+  ],
+  "unplugged": "The whole findability test runs on the printed course map in Handout A: participants trace paths with a finger, count clicks aloud, and log results on Handout B. The redesign happens with sticky notes on chart paper, one note per course item, rearranged into the template. The AI review uses the printed page. Participants take Handout C back to their course later.",
+  "digital": "If you rebuild Handout A as a sandbox course, pairs run the findability test live in student-view mode and record real clicks. Participants then tidy one module of their own course, use the platform's calendar or to-do list to confirm due dates appear in one place, and run any built-in accessibility checker. The facilitator can generate a sample course page with an approved AI tool on the projector and have the room review it before \"posting.\"",
+  "whyTech": "A live student-view test turns a vague sense that a course is \"a little messy\" into hard evidence: click counts, dead ends, and the moment a student gives up. That evidence, repeated with real students, is what shows whether the tidy-up improved learning, not how the course looks.",
+  "adaptations": [
+    { "label": "Elementary teachers", "text": "Focus on a single \"Today\" page with picture icons and read-aloud directions, and run the findability test with a student as the driver while the teacher only observes." },
+    { "label": "Higher Ed faculty", "text": "Add a syllabus and grading-policy task to the findability test, and discuss consistency across sections of the same course taught by different faculty." },
+    { "label": "Coaches", "text": "Use the Findability Test as the \"measure\" step of a coaching cycle: listen to a teacher's goal, co-plan the tidy-up, model one module, measure with students, adjust." },
+    { "label": "Librarians", "text": "Add a task that asks students to find the research databases and citation help, and co-plan a consistent \"Research Help\" item with teachers across a department." }
+  ],
+  "lookFors": [
+    "Handout B shows click counts and dead ends for each task, and participants explain which course features caused the problems.",
+    "Tidied modules follow one consistent template and naming pattern, with due dates set only inside assignments.",
+    "Participants identify at least three problems in the AI-generated page (accuracy, alignment, accessibility) and fix them before deciding to post.",
+    "Each participant leaves with a findability test planned with real students and a named measure of success."
+  ],
+  "reflection": [
+    "How am I adapting my course design so students with diverse needs can find and use what they need? (Teacher ELE T3.2)",
+    "How am I guiding teachers to use the learning management system in ways that improve learning, not just add content? (Coach ELE C2.1)",
+    "What evidence from students will tell me the course is easier to navigate and that they can adapt to the platform on their own?"
+  ],
+  "transfer": "Next week, run the Findability Test with two or three students in student view and change one thing based on what you see. Share before-and-after click counts with your coach, team, or department, and agree on a shared module template if students move between your courses.",
+  "connections": [
+    { "title": "Digital Accessibility Readiness Assessment", "url": "https://mglearn.github.io/tcea/a11y/", "note": "A deeper look at accessible files, pages, and media." },
+    { "title": "TCEA Blog: Stop Fixing Students, Coaching for Equity Through Universal Design (Miguel Guhlin, 2026)", "url": "https://blog.tcea.org/stop-fixing-students-coaching-for-equity-through-universal-design/", "note": "Why predictable course design is an equity move." },
+    { "title": "High-Effect Strategy Coach", "url": "https://mglearn.github.io/tcea/coach-tool/", "note": "For coaches planning the follow-up cycle." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Ms. Varga's Course, As Students See It",
+      "type": "reading",
+      "instructions": "This course, teacher, and school are fictional. Each paragraph describes one area of the course. Count every click it takes to reach an item.",
+      "paragraphs": [
+        "**Course home page (Biology 9, Maple Hollow High School):** A long scrolling page of 23 announcements, newest at the bottom. Announcement 17 says \"Lab 3 due Thursday!\" Below the announcements, a navigation menu lists: Modules, Files, Assignments, Stuff, Week 3 NEW, Old, and Resources (2). Each link is one click from home.",
+        "**Modules:** Modules are named \"Unit 1,\" \"Week Two,\" \"cells stuff,\" \"Wk 4 (REAL ONE),\" and \"Copy of Week 4.\" Inside \"cells stuff,\" items are in no particular order: \"Document1.pdf,\" \"lab.docx,\" \"video,\" \"READ THIS FIRST,\" \"Lab 3 Cell Membranes,\" and \"rubric final FINAL v2.\" Each item is one more click.",
+        "**Assignments:** The assignment \"Lab 3 Cell Membranes\" lists the due date as Friday. It has no rubric attached; the rubric is a separate file in the Files area, inside a folder called \"misc.\" The assignment description says \"Directions are in the lab doc.\"",
+        "**Files:** The Files area has 64 files in 9 folders. The lab directions, \"lab.docx,\" are in a folder called \"Old.\" The reading for Week 3, \"Document1.pdf,\" is a scanned image of textbook pages, so it can't be searched, enlarged cleanly, or read by a screen reader.",
+        "**Week 3 NEW page:** A page with a bright red heading and the text \"Lab 3 due Wednesday. Video below.\" The video has no captions and no transcript. A link says \"click here\" and goes to a practice quiz that closed last week.",
+        "**Getting help:** The teacher's email and office hours are listed only in a syllabus file inside \"Resources (2),\" on page 4. There is no \"Ask a question\" discussion or help item anywhere in the modules.",
+        "**Page 6 · AI-generated Week 4 overview (Ms. Varga pasted this in from an AI tool and hasn't posted it yet):** \"Welcome to Week 4: Photosynthesis and Cellular Respiration! This week, learners will interrogate the bioenergetic pathways underpinning autotrophic and heterotrophic metabolism. Complete the Photosynthesis Virtual Lab (due Monday) and the Chapter 9 Essay (due Wednesday). Click here for the readings. Remember, mitochondria are the only organelles that contain DNA.\" In the real course plan, Week 4 has a hands-on leaf-disk lab due Thursday and a short exit ticket, there is no virtual lab or Chapter 9 essay, the \"click here\" link goes nowhere, the image of a leaf beside the text has no alt text, and the DNA claim is wrong (chloroplasts also contain their own DNA)."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Findability Test",
+      "type": "table",
+      "instructions": "Student traces and says each click aloud; Observer records. Use the blank rows to plan a real test with students in your own course.",
+      "columns": ["Task", "Where the student looked first", "Clicks + dead ends", "Found it? Confident it's right? (Y/N)", "Fix that would make it easier"],
+      "rows": [
+        ["1. When is Lab 3 due?", "", "", "", ""],
+        ["2. Find the rubric for Lab 3.", "", "", "", ""],
+        ["3. Open this week's reading and make it larger or listen to it.", "", "", "", ""],
+        ["4. Watch the Week 3 video with captions.", "", "", "", ""],
+        ["5. How do you contact the teacher with a question?", "", "", "", ""],
+        ["My course, next week: students I'll ask, tasks I'll test, what I'll measure", "", "", "", ""]
+      ],
+      "blankRows": 2
+    },
+    {
+      "id": "C",
+      "title": "Course Tidy-Up Checklist",
+      "type": "checklist",
+      "instructions": "Tidy one module at a time. Check it again in student view, or with a student, when you finish.",
+      "scale": ["Done", "Next", "N/A"],
+      "items": [
+        "A \"Start Here\" item on the home page tells students where to begin, how the course is organized, and how to get help.",
+        "Every module follows the same structure (for example: Start Here · Learn · Do · Check).",
+        "Module and item names follow one pattern students can predict (for example: \"Week 3 · Lab: Cell Membranes\").",
+        "Due dates live in one place only: set inside each assignment so they appear in the calendar or to-do list. They are not repeated in announcements, pages, or file names.",
+        "Every assignment has its directions and rubric attached to it, one click from the assignment.",
+        "Old, duplicate, and \"copy of\" items are removed or hidden from students.",
+        "Files have descriptive names, use real text (not scanned images), and have headings a screen reader can use.",
+        "Videos have accurate captions or a transcript; images that carry meaning have alt text.",
+        "Links say where they go (\"Week 3 reading: Cell Membranes\"), not \"click here,\" and every link works.",
+        "Key tasks take three clicks or fewer from the course home, and the course works on a phone.",
+        "Any AI-generated page, quiz, or summary was checked for accuracy, matches what students will actually do, uses readable language, and meets the same accessibility checks before posting.",
+        "I ran a findability test with at least two students and changed something based on what they did."
+      ]
+    }
+  ]
+}

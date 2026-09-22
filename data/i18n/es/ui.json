@@ -360,5 +360,13 @@
  "hs.label": "Buscar actividades",
  "hs.placeholder": "Busque un tema: tiempo frente a pantallas, deepfakes, privacidad…",
  "hs.button": "Buscar",
- "hs.try": "Pruebe:"
+ "hs.try": "Pruebe:",
+ "nav.packets": "Imprimibles",
+ "pk.title": "Paquetes imprimibles por grado",
+ "pk.desc": "Todos los paquetes de hojas listos para imprimir del Banco de actividades ELE, organizados por grado y función.",
+ "pk.lede": "Cada actividad incluye un paquete listo para imprimir: tarjetas, clasificaciones, hojas de trabajo, lecturas y una clave para el facilitador en la última página. Aquí están las {n}, organizadas por grado, con el aprendizaje profesional agrupado por función.",
+ "pk.jump": "Ir a",
+ "pk.tip": "Las actividades que sirven para más de un nivel aparecen en cada uno. Cada paquete se imprime en tamaño carta y funciona sin dispositivos.",
+ "pk.print": "Imprimir paquete",
+ "pk.guide": "Guía del facilitador"
 }

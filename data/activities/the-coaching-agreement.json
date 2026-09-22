@@ -1,0 +1,156 @@
+{
+  "id": "the-coaching-agreement",
+  "title": "The Coaching Agreement",
+  "tagline": "A coach and principal analyze a coaching-time audit together, including the drift that AI and tech rollouts cause, and write a one-page agreement before the coaching cycle begins.",
+  "audience": "pl",
+  "roles": ["coaches", "leaders"],
+  "grades": ["K-12"],
+  "strands": ["digcit", "genai"],
+  "mode": "unplugged",
+  "minutes": 55,
+  "groupSize": "Coach–principal pairs (or coaches paired with each other, one playing the principal); any number of pairs",
+  "eles": ["C3.1", "C5.1", "C1.1", "L2.1"],
+  "overview": "By November, many coaches find their weeks filled with testing coordination, class coverage, and resetting passwords for the latest platform, while coaching cycles quietly stall. This session comes before the TCEA EIIR coaching cycle begins. A coach and a principal read a fictional two-week coaching-time audit, sort where the time went, and name the sources of role drift, including a campus AI rollout. Then they walk through a six-step conversation and write a one-page agreement: the role, the evaluation boundary, what the coach won't take on, a realistic caseload, how coaching logs stay private, and what AI may and may not do with them.",
+  "objectives": [
+    "Participants will analyze a coaching-time audit and distinguish deep coaching, surface support, and non-coaching duties.",
+    "Participants will identify how technology and AI initiatives cause coaching role drift and propose a boundary for each.",
+    "Participants will use a six-step protocol to agree on the coach's role, evaluation boundaries, caseload, and what the coach won't take on.",
+    "Participants will write a one-page coach–principal agreement that includes privacy rules for coaching logs and limits on AI use with them."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Coaching-Time Audit, Sycamore Springs Elementary (1 per person)",
+      "Handout B: Six-Step Agreement Conversation (1 per pair)",
+      "Handout C: Coach–Principal Agreement (1 per pair, plus a clean copy for each campus pair to take home)",
+      "Highlighters in three colors"
+    ],
+    "digital": [
+      "Optional: the coach's own calendar or log, exported to a spreadsheet, for a real audit after the session",
+      "Optional: a shared document for the final agreement that both the coach and principal can see, and no one else"
+    ]
+  },
+  "prep": [
+    "Read Handout A and sort the hours yourself so you can steer pairs toward the pattern: a small share of time in coaching cycles and a large share in tech support, testing, and coverage.",
+    "Invite campus pairs to come together. If principals can't attend, pair coaches and have one play the principal using the principal's notes in Handout A.",
+    "Check your district's guidance on coaching logs and records requests so you can answer questions about who can see a coach's notes. If you don't know, say so."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Guess your own number",
+      "body": "Ask each coach to write, privately, **the share of last week they spent in real coaching with teachers**: co-planning, modeling, observing without evaluating, and looking at student work together. Ask principals to write what they *believe* their coach's number is. Pairs compare. Say: \"The gap between those two numbers is what today's agreement is for.\"",
+      "note": "The gap usually surprises both people. Keep it curious, not blaming: principals rarely see the requests that pull coaches away."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Read the audit",
+      "body": "Pairs read Handout A and highlight every line in three colors: **deep coaching** (cycles, co-planning and modeling tied to student work), **surface support** (quick resource drops, one-off tech fixes), and **non-coaching duties** (testing, coverage, duty, administrative tasks). Then they answer: \"Which requests came from technology or AI initiatives? Which of those needed a coach, and which needed a help desk, a trainer, or a decision?\"",
+      "note": "Look for pairs who spot the AI platform rollout as a drift source: password resets and newsletter slides are real work, but not coaching. Also flag the coaching log: it names teachers with notes like \"struggling,\" sits in a folder the admin team can open, and was pasted into an AI tool to summarize."
+    },
+    {
+      "phase": "Model",
+      "minutes": 6,
+      "title": "Model the hardest step: the evaluation boundary",
+      "body": "With a volunteer as principal, model Step 3 from Handout B. As the coach, say: \"I want to be sure teachers can take risks with me. If what I see in coaching shows up in evaluations, they'll stop inviting me in. Can we agree that I don't share observation notes or coaching logs for evaluation, and that you'll ask teachers directly about their growth?\" Let the volunteer push back (\"But I need to know who's struggling\"), and respond with what you *can* share: which teachers are in cycles, the focus, and de-identified patterns in student evidence.",
+      "note": "Elena Aguilar makes the point in *The Art of Coaching* that coaching tied to evaluation undermines teachers' willingness to take risks. Principals often agree once they hear what they will still get: patterns, not names."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 18,
+      "title": "The six-step conversation",
+      "body": "Pairs work through Handout B, three minutes per step, recording agreements in the right-hand column. **(1)** Gather the evidence: what the audit and last year's student work show. **(2)** Clarify the role: what coaching means here, in one sentence. **(3)** Set evaluation boundaries. **(4)** Name what the coach won't take on, and who will. **(5)** Set a realistic caseload: how many teachers in cycles at once. **(6)** Learn the campus before launching anything new: what the coach will listen for in the first weeks. Coaches paraphrase the principal's view at each step before responding: \"What I hear you saying is…\"",
+      "note": "Step 4 is where AI and tech drift gets settled. A strong agreement names a specific person or channel for platform troubleshooting and says the coach supports AI integration through coaching cycles, not as tech support."
+    },
+    {
+      "phase": "Create",
+      "minutes": 10,
+      "title": "Write the one-page agreement",
+      "body": "Pairs fill in Handout C from their Handout B notes. Require the **coaching log section**: where logs live, who can see them, that teacher names and student information never go into an AI tool, and what AI *may* help with (drafting agendas, turning the coach's own de-identified notes into a to-do list, drafting sentence stems). Both people sign and set a check-in date to rerun the audit.",
+      "note": "An agreement that fits on one page gets reread. Push pairs to cut anything that isn't a decision."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 4,
+      "title": "What will we measure in November?",
+      "body": "Ask: **\"What evidence will tell you in November that this agreement is working?\"** Take answers such as the share of time in cycles, the number of teachers in cycles, and changes in student work from those classrooms. Then ask principals: \"What's one request you'll redirect this month?\"",
+      "note": "The agreement is itself a trust-building tool: it sets expectations clearly and gives both people something to follow through on."
+    }
+  ],
+  "unplugged": "The whole session runs on paper: a printed audit, a printed protocol, and a signed one-page agreement. For the real audit afterward, a coach can tally two weeks of a paper planner by hand into the same three colors.",
+  "digital": "After the session, a coach can export two weeks of calendar entries to a spreadsheet and categorize each as deep coaching, surface support, or non-coaching, which makes the rerun in November quick. Keep the signed agreement in a document only the coach and principal can open. If the coach keeps a digital coaching log, store it where the admin team cannot browse it, and remove teacher names and student details before using any AI tool on it.",
+  "whyTech": "A spreadsheet makes the time audit faster to repeat and easier to compare over the year, which is what turns the agreement into data. The conversation and the agreement are better on paper, where both people's attention is on each other.",
+  "adaptations": [
+    { "label": "District coaches serving several campuses", "text": "Write one agreement per campus, and add a row for how time is split across campuses and who decides when a campus needs more." },
+    { "label": "New coaches", "text": "Put more weight on Step 6: list three things you'll learn about the campus in the first month before you offer any new initiative." },
+    { "label": "Technology integration specialists", "text": "Split Step 4 into two lists: tech tasks you'll hand to a help desk, and tech tasks that are real coaching because they connect to a lesson and student evidence." }
+  ],
+  "lookFors": [
+    "Handout A is highlighted in three colors, and pairs name specific drift sources, including the AI platform rollout.",
+    "Handout B records an evaluation boundary that says what the principal will and will not receive from coaching.",
+    "Handout C names at least one task the coach won't take on and who will, a caseload number, and a privacy rule for coaching logs that bars teacher names and student data from AI tools.",
+    "Each pair sets a date to rerun the audit and names the evidence that will show the agreement is working."
+  ],
+  "reflection": [
+    "How effectively am I supporting teachers in improving their instructional practices, and how much of my week actually goes to it? (Coach ELE guiding question)",
+    "What would teachers on my campus need to believe about my coaching notes before they invite me into a risky lesson?",
+    "Which technology or AI request this year was really a coaching opportunity, and which one needed a different person?"
+  ],
+  "transfer": "Run a real two-week audit of your own time using the three colors, bring it to your principal, and sign your agreement. Tell teachers in one sentence what coaching is on your campus and what happens to your notes, then rerun the audit before November.",
+  "connections": [
+    { "title": "TCEA Blog: Instructional Coaching, The Summer Planning Guide That Prevents November Burnout (Bruce Ellis, 2026)", "url": "https://blog.tcea.org/instructional-coaching-the-summer-planning-guide-that-prevents-november-burnout/", "note": "The coaching audit and six-step conversation this session adapts." },
+    { "title": "TCEA Blog: Strategies for Building Trust in Instructional Coaching (Diana Benner, 2025)", "url": "https://blog.tcea.org/strategies-for-building-trust-in-instructional-coaching/", "note": "Coaching agreements as a way to build communicative trust." },
+    { "title": "TCEA Blog: Who's Coaching the Coach? (Ashly Shinde, 2025)", "url": "https://blog.tcea.org/whos-coaching-the-coach/", "note": "What AI can take off a coach's plate, and what it can't." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Coaching-Time Audit, Sycamore Springs Elementary",
+      "type": "reading",
+      "instructions": "Fictional audit of two weeks (75 contract hours) for coach Imani Brooks. Highlight each line: deep coaching, surface support, or non-coaching.",
+      "paragraphs": [
+        "**Coaching cycles with teachers, 9 hours.** Two active cycles: a Grade 3 teacher working on student discussion, and a Grade 5 teacher redesigning a research lesson so students check sources. Includes co-planning, one modeled lesson, and one session looking at student work together.",
+        "**PLC and planning meetings, 8 hours.** Six meetings. In four, the coach facilitated a look at student work. In two, the coach presented district updates.",
+        "**Non-evaluative classroom visits, 4 hours.** Five short visits requested by teachers, each followed by a two-minute conversation.",
+        "**Technology support, 14 hours.** Resetting passwords and fixing sign-in problems on the new district AI writing platform; setting up accounts for two classes; troubleshooting projectors; answering \"Can we use this app?\" emails.",
+        "**Testing coordination, 10 hours.** Organizing materials and schedules for a benchmark assessment window.",
+        "**Covering classes, 7 hours.** Three days of substitute coverage when no sub was available. **Lunch and bus duty, 7.5 hours.**",
+        "**Administrative meetings, 6 hours.** Leadership team and a district meeting. **Materials for the principal, 5 hours.** Slides and a newsletter section announcing the AI writing platform. **Email and logging, 4.5 hours.**",
+        "**Contact tally.** 31 teacher contacts in two weeks: 6 were deep (tied to a cycle or student work), 25 were surface (a link, a quick fix, a resource dropped in a mailbox).",
+        "**Coaching log excerpt.** Stored in the campus leadership shared folder. \"Mr. Hale, struggling with management, AI platform not set up. Ms. Ortiz, great lesson, kids on task. Ms. Ruiz, resistant to AI, needs push.\" Note at the bottom: \"Pasted the log into a chatbot to summarize for the principal.\"",
+        "**Principal's note (for the person playing the principal).** \"Imani is our most trusted teacher leader, so everything lands on her. The superintendent wants every teacher using the AI platform by winter break, and I need someone to make that happen. I also need to know which teachers are struggling.\""
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Six-Step Agreement Conversation",
+      "type": "table",
+      "instructions": "About three minutes per step. The coach paraphrases the principal's view before responding at every step. Record only what you both agree to.",
+      "columns": ["Step", "Questions to discuss", "What we agree"],
+      "rows": [
+        ["1 · Gather the evidence", "What does the audit show? What did student work from last year's coaching cycles show? What surprised each of us?", ""],
+        ["2 · Clarify the role", "In one sentence, what is coaching on this campus? Who is it for? How will teachers hear about it?", ""],
+        ["3 · Set evaluation boundaries", "What does the principal receive from coaching (patterns, cycle focus areas) and never receive (observation notes, logs, names tied to concerns)?", ""],
+        ["4 · Name what the coach won't take on", "Which duties go to someone else? Who handles platform troubleshooting and accounts? How is coaching's role in the AI rollout different from tech support?", ""],
+        ["5 · Set a realistic caseload", "How many teachers in cycles at once? How many hours a week are protected for coaching? What happens when coverage is needed?", ""],
+        ["6 · Learn the campus first", "What will the coach listen for in the first weeks before launching anything new? Which teachers and students haven't been heard yet?", ""]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Coach–Principal Agreement",
+      "type": "worksheet",
+      "instructions": "One page. Write only decisions. Both people sign at the bottom and set a date to rerun the audit.",
+      "sections": [
+        { "prompt": "Coaching on our campus is… (one sentence teachers will hear):", "lines": 2 },
+        { "prompt": "Evaluation boundary: The principal will receive… The principal will not receive…", "lines": 3 },
+        { "prompt": "The coach will not take on… These go instead to…", "lines": 3 },
+        { "prompt": "Caseload and protected time: teachers in cycles at once, protected hours per week, and what happens when coverage is needed:", "lines": 2 },
+        { "prompt": "Coaching logs: where they live, who can see them, and our rule for AI (teacher names and student information never go into an AI tool; AI may help with…):", "lines": 3 },
+        { "prompt": "Technology and AI initiatives: how the coach supports them through coaching cycles, and what counts as support someone else provides:", "lines": 2 },
+        { "prompt": "Evidence we'll check, the date we rerun the audit, and our signatures:", "lines": 2 }
+      ]
+    }
+  ]
+}
