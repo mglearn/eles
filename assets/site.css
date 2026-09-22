@@ -436,3 +436,10 @@ figure { margin: 0; }
 [dir="rtl"] .evidence li { padding-left: 0; padding-right: 30px; }
 [dir="rtl"] .evidence li::before { left: auto; right: 2px; }
 [dir="rtl"] .sh-instr { border-left: 0; border-right: 4px solid var(--gold); }
+.infographics { margin: 28px 0 8px; }
+.infographics h2 { margin-bottom: .2em; }
+.ig-strip { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(240px, 1fr); gap: 12px; overflow-x: auto; padding-bottom: 8px; scroll-snap-type: x mandatory; }
+.ig-strip a { display: block; border-radius: 8px; overflow: hidden; border: 1.5px solid var(--border); scroll-snap-align: start; background: #fff; }
+.ig-strip a:hover { border-color: var(--navy); }
+.ig-strip img { display: block; width: 100%; height: auto; }
+@media print { .infographics { display: none; } }

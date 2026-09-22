@@ -207,5 +207,7 @@
  "404.title": "Page not found",
  "404.h1": "That page isn't here",
  "404.p": "The activity may have been renamed. {link}.",
- "404.link": "Browse all activities"
+ "404.link": "Browse all activities",
+ "fw.visual": "See it at a glance",
+ "fw.visualSub": "TCEA's infographics for the updated ELEs. Choose one to open it full size."
 }
