@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El juego del feed | Banco de actividades ELE</title>
+<meta name="description" content="Los estudiantes hacen a mano el papel de un motor de recomendaciones con tarjetas, ven cómo su feed se reduce a unos pocos temas y luego diseñan maneras de recuperar el control.">
+<meta property="og:title" content="El juego del feed | Banco de actividades ELE">
+<meta property="og:description" content="Los estudiantes hacen a mano el papel de un motor de recomendaciones con tarjetas, ven cómo su feed se reduce a unos pocos temas y luego diseñan maneras de recuperar el control.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/the-feed-game.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/the-feed-game.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/the-feed-game.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Banco de actividades</span></a>
+  <nav aria-label="Principal">
+    <a href="../index.html#catalog">Actividades</a>
+    <a href="../framework.html">Las ELE</a>
+    <details class="navmenu"><summary>Para el facilitador</summary><div class="navmenu-panel">
+      <a href="../guide.html">Guía</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Estándares</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Idioma</span><select aria-label="Idioma"><option value="en" lang="en" data-href="../../activities/the-feed-game.html">English</option><option value="es" lang="es" data-href="../../es/activities/the-feed-game.html" selected>Español</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="es">Esta traducción se hizo con ayuda de IA y está pendiente de revisión por hablantes nativos. La versión en inglés es la original.</p>
+
+<main id="main" class="act">
+  <div class="act-head has-photo">
+    <figure class="act-photo"><img class="photo" src="../../assets/img/cat-68-medialit.jpg" width="1536" height="1024" alt="Eighth graders connect printed claims to sources on a classroom whiteboard."></figure>
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Todas las actividades</a> <span aria-hidden="true">/</span> Aprendizaje estudiantil</p>
+    <h1>El juego del feed</h1>
+    <p class="lede">Los estudiantes hacen a mano el papel de un motor de recomendaciones con tarjetas, ven cómo su feed se reduce a unos pocos temas y luego diseñan maneras de recuperar el control.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/the-feed-game.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Imprimir hojas</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">Imprimir esta guía</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="De un vistazo">
+      <dl>
+        <div><dt>Tiempo</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 minutos</dd></div>
+        <div><dt>Modalidad</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</dd></div>
+        <div><dt>Grados</dt><dd>6–8, 9–12</dd></div>
+        
+        <div><dt>Grupo</dt><dd>Equipos de 3 (Espectador, Algoritmo, Anotador); cualquier número de equipos</dd></div>
+        <div><dt>Ejes</dt><dd class="chips"><span class="strand s-medialit">Alfabetización mediática</span><span class="strand s-genai">IA generativa</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Indicadores ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#S2.3">S2.3</a><div><span class="ind-area">Estudiantes · Seguridad en línea</span>Soy consciente de los posibles riesgos de compartir contenido en internet.</div></li><li><a class="ele" href="../framework.html#AI1.1">AI1.1</a><div><span class="ind-area">IA en la educación · Alfabetización en IA</span>Sé cómo funcionan los sistemas de IA y cuáles son sus capacidades en contextos educativos.</div></li><li><a class="ele" href="../framework.html#S5.3">S5.3</a><div><span class="ind-area">Estudiantes · Solucionador creativo de problemas</span>Sé cómo aplicar el pensamiento computacional en diversas materias.</div></li><li><a class="ele" href="../framework.html#S2.2">S2.2</a><div><span class="ind-area">Estudiantes · Seguridad en línea</span>Puedo identificar fuentes de información confiables en internet.</div></li></ul>
+      <h2 class="glance-h">Hojas</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Tarjetas del feed <span class="muted">(tarjetas para recortar)</span></li><li><span class="hl">B</span> Registro del feed <span class="muted">(organizador)</span></li><li><span class="hl">C</span> Recupera tu feed <span class="muted">(hoja de trabajo)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Resumen</h2><p class="overview">Los sistemas de recomendación no saben qué es verdad, qué es amable ni qué es bueno para ti. Predicen qué hará que sigas mirando, a partir de patrones en lo que hiciste antes. En este juego, un estudiante hace el papel del Algoritmo y sigue una tarjeta de reglas impresa para elegir publicaciones para un Espectador, y le da puntos a cada reacción. En cinco rondas, la mayoría de los feeds se reducen a uno o dos temas, y las publicaciones diseñadas para provocar emociones fuertes suben hasta arriba. Luego los estudiantes cambian una regla y descubren qué pueden controlar y qué no.</p>
+        <h3 class="sub">Objetivos</h3><ul><li>Los estudiantes simularán un algoritmo de recomendación siguiendo reglas escritas y explicarán, con sus propias palabras, cómo predice qué mostrar después.</li><li>Los estudiantes usarán los datos de cada ronda para describir cómo se reduce un feed y por qué se impulsan las publicaciones que provocan emociones fuertes.</li><li>Los estudiantes propondrán y pondrán a prueba un cambio (en las reglas o en su propio comportamiento) que amplíe un feed, y explicarán lo que se gana y lo que se pierde.</li></ul></section>
+      <section class="two">
+        <div><h2>Materiales</h2>
+          <h3 class="sub">En papel</h3><ul><li>Hoja A: Tarjetas del feed (1 juego de 16 por equipo, recortado: 14 tarjetas de publicaciones y 2 tarjetas de reglas)</li><li>Hoja B: Registro del feed (1 por equipo)</li><li>Hoja C: Recupera tu feed (1 por estudiante)</li><li>Fichas o clips para llevar la puntuación (unos 30 por equipo), o marcas de conteo</li></ul>
+          <h3 class="sub">En pantalla</h3><ul><li>Opcional: una diapositiva proyectada por el maestro con la tarjeta de reglas y un temporizador</li><li>Opcional: una hoja de cálculo compartida donde los Anotadores ingresen el conteo de temas para hacer una gráfica de la clase</li></ul></div>
+        <div><h2>Antes de empezar</h2><ol class="prep"><li>Imprima y recorte la Hoja A. Mantenga aparte las dos tarjetas de reglas para que el Algoritmo de cada equipo las reciba primero.</li><li>Dibuje en el pizarrón un conteo de la clase con columnas para los cinco temas (Videojuegos, Animales, Deportes, Ciencia, Cocina) y filas para la Ronda 1 y la Ronda 5.</li><li>Decida cómo se formarán los equipos. Mezcle a los estudiantes para que los Espectadores no sean todos amigos con los mismos intereses; los feeds variados dan pie a un mejor cierre.</li></ol></div>
+      </section>
+      <section><h2>Paso a paso</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Enganche</p>
+        <h3>¿Por qué me apareció eso?</h3>
+        <p>Pregunte: <strong>&quot;¿Alguna vez vieron un video y luego todo su feed cambió?&quot;</strong> Escuche algunas historias rápidas. Luego diga: &quot;Hoy uno de ustedes va a <em>ser</em> el algoritmo. No pueden usar su opinión. Siguen las reglas, exactamente como lo hace una computadora&quot;.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Mantenga un tono ligero. Los estudiantes no necesitan nombrar aplicaciones ni confesar cuánto tiempo pasan frente a la pantalla.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–10 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Modelar</p>
+        <h3>Cómo se juega</h3>
+        <p>Lea en voz alta la Tarjeta de reglas 1 y juegue una ronda con un Espectador voluntario frente a la clase. El Algoritmo reparte 4 tarjetas de publicaciones al azar. El Espectador reacciona con honestidad a cada una: <strong>Saltar (0), Ver (1), Me gusta (2) o Comentar/Compartir (3)</strong>. Las publicaciones marcadas como <strong>Chispa</strong> ganan +1 porque las personas se quedan más tiempo en lo que les provoca emociones fuertes. El Anotador escribe los temas y los puntos en la Hoja B. Luego muestre la Tarjeta de reglas 2: en la siguiente ronda, el Algoritmo reparte 3 tarjetas del tema con más puntos y 1 del segundo tema con más puntos.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Recalque que los Espectadores deben reaccionar como ellos mismos. La simulación solo funciona con reacciones honestas.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">10–22 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Practicar</p>
+        <h3>Cinco rondas</h3>
+        <p>Los equipos juegan cinco rondas sin cambiar de rol, para que un solo Espectador construya un solo feed. Después de cada ronda, el Anotador suma los puntos por tema y escribe qué temas siguen apareciendo. Cuando se acaban las tarjetas de un tema, el Algoritmo vuelve a barajar las tarjetas ya vistas de ese tema (&quot;los feeds se repiten&quot;). Después de la Ronda 5, los Anotadores informan en el conteo de la clase: <strong>¿cuántos temas aparecieron en la Ronda 1 y cuántos en la Ronda 5?</strong></p>
+        <p class="step-note"><span>Nota para el facilitador</span>Circule y pregunte a los Algoritmos: &quot;¿Revisaste si esa publicación era verdad?&quot;. La respuesta es no. Las reglas nunca lo piden.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">22–30 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Análisis</p>
+        <h3>Lo que sabía el Algoritmo</h3>
+        <p>Miren juntos el conteo de la clase. Pregunte: <strong>&quot;¿Qué sabía el Algoritmo sobre el Espectador?&quot;</strong> (Solo sus reacciones). <strong>&quot;¿Qué no sabía?&quot;</strong> (Si una publicación era verdad, amable o buena para él; su estado de ánimo; lo que quería aprender). <strong>&quot;¿Por qué seguían ganando las publicaciones Chispa?&quot;</strong> Conéctelo con la IA: &quot;Los sistemas de recomendación reales son mucho más complejos, pero la idea central es la misma: aprenden patrones del comportamiento pasado y predicen qué te mantendrá enganchado. Eso es predicción, no comprensión&quot;.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Esté atento a la idea errónea de que el algoritmo &quot;intenta engañarte&quot;. Está optimizando una meta que alguien eligió. La pregunta justa es: ¿la meta de quién?</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">30–40 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Aplicar</p>
+        <h3>Cambien una regla</h3>
+        <p>Los equipos eligen un cambio y juegan dos rondas más con él. <strong>Opción A (cambias tú):</strong> el Espectador ve a propósito y le da &quot;Me gusta&quot; a un tema que nunca elegiría. <strong>Opción B (cambian los diseñadores):</strong> reescriban la Tarjeta de reglas 2 (por ejemplo, &quot;1 tarjeta de cada tema&quot; o &quot;las publicaciones Chispa no ganan puntos extra&quot;). Los equipos anotan si el feed se amplió y algo que se pierde a cambio (&quot;más variedad, pero más cosas que salté&quot;).</p>
+        <p class="step-note"><span>Nota para el facilitador</span>La Opción B es pensamiento computacional en acción: los estudiantes modifican un algoritmo y ponen a prueba el resultado. Pídales que hagan una predicción antes de jugar.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">40–45 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Reflexionar</p>
+        <h3>Recupera tu feed</h3>
+        <p>Los estudiantes completan la Hoja C de forma individual. Para cerrar, pida a dos o tres estudiantes que compartan el hábito que probarán esta semana.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Recoja la Hoja C. Busque respuestas que relacionen un comportamiento específico (dar &quot;Me gusta&quot;, volver a ver, compartir) con lo que el feed muestra después.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Papel o pantalla</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</h3><p>Esta actividad está diseñada para hacerse sin pantallas: las tarjetas, las fichas y un conteo en el pizarrón simulan todo el sistema. Las tarjetas de reglas físicas hacen visible la lógica del algoritmo de una manera que ninguna aplicación lo hace.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Digital</h3><p>Los Anotadores ingresan el conteo de temas de la Ronda 1 y de la Ronda 5 en una hoja de cálculo compartida para que la clase vea en vivo una gráfica de barras de cómo se reducen los feeds. Como seguimiento, los estudiantes (con permiso de su familia, en casa) revisan por qué una aplicación dice que les recomendó una publicación, si ofrece esa opción, y comparan la explicación de la aplicación con sus tarjetas de reglas. En clase no se necesitan cuentas de estudiantes.</p></div>
+        <p class="why"><strong>¿Necesita una pantalla?</strong> El aprendizaje central funciona mejor sin pantallas: los estudiantes pueden ver y tener en la mano cada regla, algo que una aplicación real oculta. Una gráfica compartida de la clase añade una imagen clara del patrón de reducción en muchos feeds a la vez.</p>
+      </section>
+      <section class="evidence"><h2>Evidencia de aprendizaje</h2><p class="muted">Lo que debería poder ver o recopilar si funcionó.</p><ul><li>La Hoja B muestra menos temas en la Ronda 5 que en la Ronda 1, y los estudiantes pueden explicar por qué usando la tarjeta de reglas.</li><li>Los estudiantes distinguen lo que el algoritmo &quot;sabe&quot; (las reacciones) de lo que no sabe (la verdad, la amabilidad, las metas del espectador).</li><li>Los equipos predicen el efecto de su cambio de regla antes de ponerlo a prueba y comparan la predicción con sus resultados.</li></ul></section>
+      <section><h2>Adaptaciones</h2><dl class="adapt"><div><dt>Grados 3–5</dt><dd>Use tres temas (Animales, Videojuegos, Cocina), jueguen tres rondas y omitan la puntuación Chispa. Enfóquense en una pregunta: &quot;¿Por qué seguías viendo el mismo tipo de publicación?&quot;</dd></div><div><dt>Grados 9–12</dt><dd>Agregue una tercera tarjeta de reglas escrita por una &quot;empresa&quot;: se insertan publicaciones patrocinadas cada dos rondas. Debatan a quién sirve el algoritmo: al espectador, a los creadores o a los anunciantes.</dd></div><div><dt>Estudiantes con IEP o plan 504</dt><dd>Dé al rol del Algoritmo una versión impresa de las tarjetas de reglas en forma de lista de pasos, y permita que el Espectador señale tarjetas de reacción (Saltar, Ver, Me gusta, Compartir) en lugar de decirlas.</dd></div></dl></section>
+      <section class="stds"><h2>Conexiones con los estándares</h2><p>Los estudiantes actúan como un algoritmo de recomendación que sigue reglas, llevan la cuenta de los temas en cada ronda y comparan el efecto de un cambio de regla con su predicción.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Aplicaciones Tecnológicas: pensamiento computacional">pensamiento computacional</a><a class="std std-teks" href="../standards.html#teks-ta-data" title="Aplicaciones Tecnológicas: alfabetización, gestión y representación de datos">alfabetización, gestión y representación de datos</a><span class="std-sec">Secciones de los TEKS: Technology Applications §126.17–§126.19, cursos de Aplicaciones Tecnológicas de preparatoria (19 TAC Capítulo 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Comprensión auditiva">Comprensión auditiva</a><a class="std std-elps" href="../standards.html#elps-c3" title="Expresión oral">Expresión oral</a><a class="std std-elps" href="../standards.html#elps-c4" title="Lectura">Lectura</a><a class="std std-elps" href="../standards.html#elps-c5" title="Escritura">Escritura</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Destacar y explorar patrones, características esenciales, grandes ideas y relaciones">3.2</a><a class="std std-udl" href="../standards.html#udl-7-3" title="Fomentar la alegría y el juego">7.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Fomentar la colaboración, la interdependencia y el aprendizaje colectivo">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promover la reflexión individual y colectiva">9.3</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-math-reasoning" title="Matemáticas: análisis de datos y hacer visible el razonamiento">análisis de datos y hacer visible el razonamiento</a><a class="std std-sst" href="../standards.html#sst-ss-sources" title="Estudios sociales: fuentes, afirmaciones y el eje de economía, ciencia, tecnología y sociedad">fuentes, afirmaciones y el eje de economía, ciencia, tecnología y sociedad</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Vea cómo se alinean todas las actividades</a></p></section>
+      <section class="two">
+        <div><h2>Reflexionar</h2><ul><li>¿Me mantengo seguro y tomo buenas decisiones en línea? ¿Cómo influyen mis &quot;Me gusta&quot; y lo que comparto en lo que yo, y otras personas, veremos después?</li><li>¿Por qué un feed que muestra solo un tipo de publicación podría hacer más difícil encontrar información confiable?</li><li>Si pudiera reescribir una regla de las aplicaciones que uso, ¿cuál sería y quién se opondría?</li></ul></div>
+        <div><h2>Lo que sigue</h2><p>De tarea, los estudiantes observan algo que su feed (o el de un familiar, con permiso) sigue mostrando y escriben una oración en la que adivinan qué acción anterior lo causó. Esa observación abre la siguiente lección sobre la persuasión y el contenido patrocinado.</p></div>
+      </section>
+      <section><h2>Combina bien con</h2><ul class="connections"><li><a href="https://mglearn.github.io/activities/genailit/">Actividades de alfabetización en IA generativa (K–8)</a><span>Actividades de seguimiento sobre cómo los sistemas de IA aprenden de los patrones.</span></li><li><a href="https://mglearn.github.io/activities/ctobs/clear/">Critical Thinking Breakouts: Signal Check, The Viral Claim</a><span>Combina bien: por qué se difunden las publicaciones virales y cómo verificarlas.</span></li></ul></section>
+      <section class="related noprint"><h2>Actividades relacionadas</h2><div class="cards"><article class="card has-photo" data-id="algorithm-autopsy">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-912-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Aprendizaje estudiantil<span>para Grados 9–12</span></p>
+    <h3><a href="../activities/algorithm-autopsy.html">Autopsia de un algoritmo</a></h3>
+    <p class="card-tag">Los estudiantes diseccionan las funciones de diseño de una app social ficticia, rastrean cómo cada una moldea la atención y las creencias, y rediseñan el feed pensando en las personas en lugar de en la interacción.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>75 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Alfabetización mediática</span><span class="strand s-genai">IA generativa</span><span class="strand s-digcit">Ciudadanía digital</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="IA en la educación 1.1: Sé cómo funcionan los sistemas de IA y cuáles son sus capacidades en contextos educativos.">AI1.1</a><a class="ele" href="../framework.html#S5.2" title="Estudiantes 5.2: Puedo usar la creatividad y la lógica para encontrar soluciones innovadoras.">S5.2</a><a class="ele" href="../framework.html#S5.1" title="Estudiantes 5.1: Sé cómo abordar problemas complejos de manera sistemática.">S5.1</a></span></div>
+  </article><article class="card has-photo" data-id="photo-detective">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-35-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Aprendizaje estudiantil<span>para Grados 3–5</span></p>
+    <h3><a href="../activities/photo-detective.html">Detectives de fotos</a></h3>
+    <p class="card-tag">Los estudiantes investigan fotos descritas que fueron recortadas, editadas o hechas con IA, y aprenden dos acciones de los verificadores de datos que funcionan mejor que mirar fijamente: Alto, y Busca mejor cobertura.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Alfabetización mediática</span><span class="strand s-genai">IA generativa</span></span><span class="eles"><a class="ele" href="../framework.html#S2.2" title="Estudiantes 2.2: Puedo identificar fuentes de información confiables en internet.">S2.2</a><a class="ele" href="../framework.html#AI4.1" title="IA en la educación 4.1: Sé cómo promover habilidades de pensamiento crítico en relación con la información generada por IA.">AI4.1</a><a class="ele" href="../framework.html#AI1.3" title="IA en la educación 1.3: Soy consciente de las limitaciones actuales y los posibles sesgos de los sistemas de IA.">AI1.3</a></span></div>
+  </article><article class="card has-photo" data-id="signal-to-headline-lab">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-68-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Aprendizaje estudiantil<span>para Grados 6–8, Grados 9–12</span></p>
+    <h3><a href="../activities/signal-to-headline-lab.html">Laboratorio: de la señal al titular</a></h3>
+    <p class="card-tag">Los estudiantes convierten una tendencia tecnológica real de hoy en un titular y una entradilla verosímiles del futuro, y luego intercambian y verifican el trabajo de otros para comprobar su exactitud y detectar el clickbait.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Alfabetización mediática</span><span class="strand s-genai">IA generativa</span><span class="strand s-digcit">Ciudadanía digital</span></span><span class="eles"><a class="ele" href="../framework.html#S2.2" title="Estudiantes 2.2: Puedo identificar fuentes de información confiables en internet.">S2.2</a><a class="ele" href="../framework.html#AI4.1" title="IA en la educación 4.1: Sé cómo promover habilidades de pensamiento crítico en relación con la información generada por IA.">AI4.1</a><a class="ele" href="../framework.html#S5.2" title="Estudiantes 5.2: Puedo usar la creatividad y la lógica para encontrar soluciones innovadoras.">S5.2</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Banco de actividades de las Expectativas Esenciales de Aprendizaje de TCEA.</strong> Aprendizaje profesional y actividades para estudiantes K–16 sobre alfabetización en IA generativa, ciudadanía digital y alfabetización mediática, en papel o en pantalla.</p>
+    <p>Actividades de Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), basadas en las <a href="https://tinyurl.com/tceaeles1">Expectativas Esenciales de Aprendizaje de TCEA</a> (CC BY-SA 2024). Compartidas bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: cópielas, adáptelas y reutilícelas dando crédito. Sin inicio de sesión ni rastreo.</p>
+    <p class="ai-note">Las fotos de este sitio son ilustraciones generadas con IA de personas ficticias, no de estudiantes ni personal reales.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog de TCEA</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
+  <nav aria-label="Relacionados">
+    <p class="foot-h">Más recursos gratuitos</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Asistente de alineación con las ELE</a>
+    <a href="https://mglearn.github.io/activities/">Centro de actividades de aprendizaje</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Breakouts de ciudadanía digital</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Breakouts de alfabetización en IA generativa</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

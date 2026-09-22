@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La escalera de instrucciones | Banco de actividades ELE</title>
+<meta name="description" content="Los docentes suben ocho peldaños de instrucciones para la misma tarea del salón, predicen cada respuesta simulada de la IA antes de leerla y sopesan lo que gana y lo que cuesta cada detalle añadido.">
+<meta property="og:title" content="La escalera de instrucciones | Banco de actividades ELE">
+<meta property="og:description" content="Los docentes suben ocho peldaños de instrucciones para la misma tarea del salón, predicen cada respuesta simulada de la IA antes de leerla y sopesan lo que gana y lo que cuesta cada detalle añadido.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/the-prompt-ladder.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/the-prompt-ladder.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/the-prompt-ladder.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Banco de actividades</span></a>
+  <nav aria-label="Principal">
+    <a href="../index.html#catalog">Actividades</a>
+    <a href="../framework.html">Las ELE</a>
+    <details class="navmenu"><summary>Para el facilitador</summary><div class="navmenu-panel">
+      <a href="../guide.html">Guía</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Estándares</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Idioma</span><select aria-label="Idioma"><option value="en" lang="en" data-href="../../activities/the-prompt-ladder.html">English</option><option value="es" lang="es" data-href="../../es/activities/the-prompt-ladder.html" selected>Español</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="es">Esta traducción se hizo con ayuda de IA y está pendiente de revisión por hablantes nativos. La versión en inglés es la original.</p>
+
+<main id="main" class="act">
+  <div class="act-head">
+    
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Todas las actividades</a> <span aria-hidden="true">/</span> Aprendizaje profesional</p>
+    <h1>La escalera de instrucciones</h1>
+    <p class="lede">Los docentes suben ocho peldaños de instrucciones para la misma tarea del salón, predicen cada respuesta simulada de la IA antes de leerla y sopesan lo que gana y lo que cuesta cada detalle añadido.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/the-prompt-ladder.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Imprimir hojas</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">Imprimir esta guía</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="De un vistazo">
+      <dl>
+        <div><dt>Tiempo</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 minutos</dd></div>
+        <div><dt>Modalidad</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</dd></div>
+        <div><dt>Para</dt><dd>Docentes, Bibliotecarios</dd></div>
+        <div><dt>Dirigido a</dt><dd>K–12</dd></div>
+        <div><dt>Grupo</dt><dd>Equipos de 3–4; cualquier número de equipos</dd></div>
+        <div><dt>Ejes</dt><dd class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-digcit">Ciudadanía digital</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Indicadores ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#T1.2">T1.2</a><div><span class="ind-area">Docentes · Integración de la tecnología</span>Puedo usar herramientas de IA para enriquecer las experiencias de aprendizaje de los estudiantes.</div></li><li><a class="ele" href="../framework.html#AI1.1">AI1.1</a><div><span class="ind-area">IA en la educación · Alfabetización en IA</span>Sé cómo funcionan los sistemas de IA y cuáles son sus capacidades en contextos educativos.</div></li><li><a class="ele" href="../framework.html#T1.3">T1.3</a><div><span class="ind-area">Docentes · Integración de la tecnología</span>Conozco las tecnologías emergentes y sus posibles aplicaciones en la educación.</div></li><li><a class="ele" href="../framework.html#AI3.1">AI3.1</a><div><span class="ind-area">IA en la educación · Aprendizaje enriquecido con IA</span>Sé cómo aprovechar las herramientas de IA para personalizar y enriquecer las experiencias de aprendizaje.</div></li><li><a class="ele" href="../framework.html#AI2.1">AI2.1</a><div><span class="ind-area">IA en la educación · Uso ético de la IA</span>Sé cómo aplicar principios éticos al usar o desarrollar IA para la educación.</div></li></ul>
+      <h2 class="glance-h">Hojas</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Tarjetas de peldaños <span class="muted">(tarjetas para recortar)</span></li><li><span class="hl">B</span> Respuestas simuladas <span class="muted">(lectura)</span></li><li><span class="hl">C</span> Tabla de costo-beneficio de las instrucciones <span class="muted">(organizador)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Resumen</h2><p class="overview">Un chatbot predice su respuesta a partir de los patrones que aprendió más las palabras que usted le da, así que su instrucción (prompt) es el contexto desde el cual predice. Agregar detalles suele acercar la respuesta a lo que usted quiere, pero no siempre sale gratis. En esta sesión sin pantallas, los equipos suben una &quot;escalera&quot; de ocho instrucciones para una tarea docente real (un boleto de salida de 4.º grado sobre el ciclo del agua). En cada peldaño, predicen lo que producirá la IA, leen una respuesta simulada impresa y califican el costo-beneficio. Dos peldaños son trampas: uno en el que un error conceptual incluido en la instrucción se repite como si fuera un hecho, y otro que funciona bien pero pega información privada de estudiantes en la herramienta. Los docentes se van con un hábito para escribir instrucciones que pueden modelar ante sus estudiantes: agregar el contexto que sirve al aprendizaje y detenerse antes de que cueste exactitud o privacidad.</p>
+        <h3 class="sub">Objetivos</h3><ul><li>Los participantes explicarán por qué el contexto añadido cambia la respuesta de un chatbot, usando la idea de que el modelo predice a partir de patrones más la instrucción.</li><li>Los participantes evaluarán el costo-beneficio de las instrucciones: calidad ganada frente a tiempo invertido, pérdida de variedad, sesgo de la respuesta hacia los supuestos de quien escribe la instrucción y riesgo para la privacidad.</li><li>Los participantes reescribirán una instrucción que comparte demasiado para que conserve el beneficio pedagógico sin ninguna información que identifique a los estudiantes.</li><li>Los participantes redactarán una escalera de tres peldaños para una tarea real y decidirán dónde detenerse, o si siquiera hace falta la IA.</li></ul></section>
+      <section class="two">
+        <div><h2>Materiales</h2>
+          <h3 class="sub">En papel</h3><ul><li>Hoja A: Tarjetas de peldaños (1 juego por equipo, recortado y apilado en orden, boca abajo; reversos impresos como clave del facilitador)</li><li>Hoja B: Respuestas simuladas (1 por equipo, doblada o boca abajo hasta que se haga cada predicción)</li><li>Hoja C: Tabla de costo-beneficio de las instrucciones (1 por equipo)</li><li>Notas adhesivas; un cronómetro</li></ul>
+          <h3 class="sub">En pantalla</h3><ul><li>Opcional: un chatbot de IA generativa aprobado por su distrito, proyectado solo por el facilitador, para ejecutar en vivo los peldaños 1, 3 y 5</li><li>Opcional: un documento compartido por equipo para la escalera de la transferencia</li></ul></div>
+        <div><h2>Antes de empezar</h2><ol class="prep"><li>Imprima y recorte la Hoja A; apile las tarjetas en el orden de los peldaños. Imprima la Hoja B de manera que cada respuesta pueda revelarse de una en una (dóblela en acordeón o recorte las respuestas por separado).</li><li>Lea la clave del facilitador en el reverso de las tarjetas, sobre todo el Peldaño 5 (el error conceptual: las nubes están formadas por gotitas de agua líquida o cristales de hielo, no por vapor de agua, que es invisible) y el Peldaño 6 (información privada de estudiantes).</li><li>Revise las pautas de su distrito sobre lo que se puede ingresar en las herramientas de IA. Téngalas en una diapositiva para el paso de modelado.</li></ol></div>
+      </section>
+      <section><h2>Paso a paso</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Enganche</p>
+        <h3>Más palabras, predicciones más estrechas</h3>
+        <p>Pida al grupo que complete en voz alta cada frase a medida que usted agrega palabras: &quot;El…&quot; (cualquier cosa vale). &quot;El agua…&quot; &quot;El agua del charco…&quot; &quot;En una tarde calurosa y soleada, el agua del charco…&quot; (<em>se secó, se evaporó</em>). Diga: &quot;Cada palabra que agregué hizo más estrecha su predicción. Un chatbot hace algo parecido: predice su respuesta a partir de los patrones que aprendió más todo lo que hay en su instrucción. Su instrucción es su contexto. Hoy vamos a comprobar cuándo más contexto ayuda y cuándo cuesta algo&quot;.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Si le preguntan cómo funciona la predicción por dentro, déjelo para una sesión de seguimiento. Mantenga el enfoque en la instrucción como contexto.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–13 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Explorar</p>
+        <h3>Hagan de chatbot</h3>
+        <p>Una persona de cada equipo es el &quot;chatbot&quot;. Voltee el Peldaño 1 (&quot;preguntas ciclo del agua&quot;). El chatbot tiene 60 segundos para escribir las preguntas que produciría, sin poder hacer preguntas de aclaración, porque un chatbot responde a lo que se le da. Luego los compañeros leen la Respuesta 1 de la Hoja B y comparan. Pregunte: &quot;¿Qué tuvo que <em>adivinar</em> el chatbot? ¿El grado? ¿Cuántas preguntas? ¿Qué tipo de pensamiento?&quot;. Registren el Peldaño 1 en la Hoja C.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Los &quot;chatbots&quot; humanos suelen hacer las mismas suposiciones que la respuesta simulada: preguntas genéricas de memoria con un nivel mezclado. De eso se trata: las instrucciones vagas obligan a adivinar, y lo que se adivina es el patrón más común.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">13–28 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Practicar</p>
+        <h3>Suban la escalera</h3>
+        <p>Los equipos voltean los Peldaños 2–8 de uno en uno. En cada peldaño: <strong>predicen</strong> en una oración qué cambiará en la respuesta, <strong>leen</strong> la respuesta correspondiente de la Hoja B y luego <strong>califican</strong> el peldaño en la Hoja C: qué mejoró, qué costó (tiempo, variedad, sesgo, privacidad) y si valió la pena. Roten a la persona que lee en cada peldaño.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Esté atento al Peldaño 5. Algunos equipos no notarán que la respuesta repite el error conceptual de la instrucción (nubes como vapor de agua). Si se les pasa, pregunte: &quot;¿Todas las respuestas de la clave son correctas?&quot;.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">28–35 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Modelar</p>
+        <h3>Las dos trampas, en voz alta</h3>
+        <p>Piense en voz alta sobre el <strong>Peldaño 5</strong>: &quot;Mi instrucción suponía que las nubes son vapor de agua. La respuesta armó una clave de respuestas sobre mi error y lo marcó como <em>verdadero</em>. Una instrucción más específica empeoró la respuesta porque mis detalles estaban equivocados. El modelo tiende a seguir el enfoque que le doy&quot;. Luego el <strong>Peldaño 6</strong>: &quot;Esta respuesta es realmente útil. Y acabo de escribir en una herramienta los nombres de dos estudiantes, sus planes por discapacidad y sus exámenes reprobados. Vean cómo la reescribo&quot;. Escriba en papel rotafolio: <em>&quot;Haz una versión con oraciones más cortas y un banco de palabras, y otra con tres preguntas en lugar de cinco, incluida una pregunta de dibujo.&quot;</em> El mismo beneficio pedagógico, sin información que identifique. Muestre la diapositiva con las pautas del distrito.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Ángulo de tecnologías emergentes (ELE 1.3 para docentes): muchas herramientas ahora agregan memoria, carga de archivos e instrucciones personalizadas guardadas, lo que significa que viaja más contexto con cada instrucción. La cuestión de la privacidad se vuelve más grande, no más pequeña.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">35–40 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Análisis</p>
+        <h3>¿Dónde dejarían de subir?</h3>
+        <p>Cada equipo coloca una nota adhesiva en el peldaño donde se detendría para esta tarea y explica por qué. Comenten: &quot;¿Qué peldaño dio el mayor salto de calidad con el menor esfuerzo?&quot; (Por lo general, el Peldaño 3: indicar la evidencia de aprendizaje que se busca). &quot;¿Qué peldaños empeoraron la respuesta o la hicieron más riesgosa?&quot; &quot;¿Habría sido más rápido escribir ustedes mismos estas cinco preguntas?&quot;. Para algunos docentes, sí, y esa es una respuesta legítima.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Conéctelo con la pregunta de las ELE de 2026: la mejor instrucción es la que indica la <em>evidencia de aprendizaje</em> que se busca. El Peldaño 3 es &quot;La evidencia antes que las herramientas&quot; en forma de instrucción.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">40–45 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Transferir</p>
+        <h3>Sus propios tres peldaños</h3>
+        <p>En el reverso de la Hoja C, cada persona escribe una escalera de tres peldaños para una tarea real próxima: una instrucción vaga, una instrucción que indica el público y la evidencia de aprendizaje, y una instrucción que agrega una restricción útil. Al lado, escribe una cosa que nunca pondrá en una instrucción y una señal de que debería dejar de escribir instrucciones y hacerlo por su cuenta. Luego planeen cómo harían una versión para estudiantes: los estudiantes suben una escalera para su propia tarea de estudio y explican qué peldaño ayudó a su aprendizaje.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Con estudiantes menores de 13 años, el docente ejecuta cualquier instrucción en vivo en el proyector; la escalera en sí funciona en papel a cualquier edad.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Papel o pantalla</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</h3><p>La sesión está diseñada para realizarse sin pantallas: las instrucciones son tarjetas, las respuestas están impresas y el &quot;chatbot&quot; humano de la exploración hace concreta la idea de la predicción. Las respuestas simuladas impresas también garantizan que todos los equipos vean los mismos resultados, algo que las herramientas en vivo no pueden asegurar.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Digital</h3><p>Después del paso de práctica, el facilitador ejecuta en vivo los Peldaños 1, 3 y 5 en un chatbot aprobado por el distrito en el proyector. Los participantes comparan las respuestas reales con las simuladas: ¿La herramienta real repite el error conceptual sobre las nubes o lo corrige? Los resultados varían según la herramienta y el día, y esa variación es en sí misma una lección. Nunca haga la demostración del Peldaño 6 con nombres reales; si lo muestra, use la versión reescrita. En una sesión virtual, comparta las tarjetas y las respuestas como diapositivas que se revelan de una en una, con una tabla de puntuación compartida por sala.</p></div>
+        <p class="why"><strong>¿Necesita una pantalla?</strong> Ejecutar tres peldaños en vivo permite a los docentes contrastar lo que dice el papel con una herramienta real y ver que las respuestas varían, y que algunas herramientas corrigen una premisa equivocada mientras que otras la repiten. La escalera en sí funciona mejor en papel, porque las respuestas fijas mantienen la conversación en el costo-beneficio y no en lo que la herramienta haya dicho ese día.</p>
+      </section>
+      <section class="evidence"><h2>Evidencia de aprendizaje</h2><p class="muted">Lo que debería poder ver o recopilar si funcionó.</p><ul><li>Las predicciones de la Hoja C se vuelven más acertadas a medida que los equipos suben, lo que muestra que entienden la instrucción como contexto para la predicción.</li><li>Los equipos detectan el error conceptual del Peldaño 5 y explican que un supuesto equivocado en una instrucción puede repetirse como si fuera un hecho.</li><li>Los participantes reescriben el Peldaño 6 de modo que conserve el beneficio de la diferenciación sin nombres, planes ni otros datos que identifiquen.</li><li>Las escaleras de transferencia incluyen un peldaño que indica la evidencia de aprendizaje, además de una señal explícita de &quot;me detengo y lo escribo yo&quot;.</li></ul></section>
+      <section><h2>Adaptaciones</h2><dl class="adapt"><div><dt>Docentes de K–2</dt><dd>Usen los Peldaños 1, 2, 3 y 6 con una tarea de K–2 (por ejemplo, una pregunta de conversación sobre una lectura en voz alta). La versión para estudiantes se convierte en una charla dirigida por el docente: &quot;¿Qué tuve que decirle a la computadora para que nos pudiera ayudar?&quot;.</dd></div><div><dt>Docentes de secundaria y preparatoria</dt><dd>Pidan a los estudiantes que construyan una escalera para una tarea de estudio (un cuestionario de práctica, un contraargumento, retroalimentación sobre un borrador) y que entreguen su mejor instrucción con una justificación de una oración y una nota sobre lo que verificaron en la respuesta.</dd></div><div><dt>Bibliotecarios</dt><dd>Comparen la escalera con el refinamiento de consultas de búsqueda: qué se transfiere de la búsqueda en bases de datos (especificidad, filtros) y qué no (un chatbot responderá aunque sus fuentes sean escasas).</dd></div><div><dt>Profesorado de educación superior</dt><dd>Cambien la tarea por una de nivel universitario (una instrucción para un estudio de caso, el borrador de una rúbrica) y agreguen un peldaño que pida al modelo citar fuentes; luego verifiquen si las citas existen.</dd></div></dl></section>
+      <section class="stds"><h2>Conexiones con los estándares</h2><p>Los docentes predicen cómo cada detalle que se añade a la instrucción cambia la respuesta de la IA, preparándose para enseñar a los estudiantes que una instrucción es contexto para la predicción y que la respuesta aún debe verificarse.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Aplicaciones Tecnológicas: pensamiento computacional">pensamiento computacional</a><a class="std std-teks" href="../standards.html#teks-ta-ptc" title="Aplicaciones Tecnológicas: conceptos prácticos de tecnología">conceptos prácticos de tecnología</a><span class="std-sec">Secciones de los TEKS: Technology Applications §126.5–§126.7, §126.8–§126.10, §126.17–§126.19, cursos de Aplicaciones Tecnológicas de preparatoria (19 TAC Capítulo 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Expresión oral">Expresión oral</a><a class="std std-elps" href="../standards.html#elps-c4" title="Lectura">Lectura</a><a class="std std-elps" href="../standards.html#elps-c5" title="Escritura">Escritura</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Destacar y explorar patrones, características esenciales, grandes ideas y relaciones">3.2</a><a class="std std-udl" href="../standards.html#udl-5-3" title="Desarrollar la fluidez con apoyo graduado para la práctica y el desempeño">5.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Fomentar la colaboración, la interdependencia y el aprendizaje colectivo">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximizar la transferencia y la generalización">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Vea cómo se alinean todas las actividades</a></p></section>
+      <section class="two">
+        <div><h2>Reflexionar</h2><ul><li>¿Cómo puedo usar herramientas de IA para enriquecer el aprendizaje de los estudiantes y, al mismo tiempo, modelar ante ellos una forma cuidadosa y ética de escribir instrucciones? (ELE 1.2 para docentes)</li><li>¿Qué detalles sobre mis estudiantes ayudan a una herramienta de IA sin identificar a nadie, y cuáles nunca deberían salir de mi salón?</li><li>A medida que las herramientas de IA agregan memoria y carga de archivos, ¿qué nuevas preguntas debo hacerme antes de usarlas? (ELE 1.3 para docentes)</li></ul></div>
+        <div><h2>Llévelo a sus estudiantes</h2><p>Use su escalera de tres peldaños para una tarea real esta semana y guarde las respuestas. Luego enseñe a los estudiantes a subir una escalera para una tarea de estudio, y recoja su mejor instrucción junto con una oración que explique qué peldaño mejoró su aprendizaje y qué verificaron en la respuesta.</p></div>
+      </section>
+      <section><h2>Combina bien con</h2><ul class="connections"><li><a href="https://mglearn.github.io/tcea/ai-essentials-prompt-library/">Biblioteca de instrucciones esenciales de IA</a><span>Instrucciones de partida para poner en su propia escalera y evaluar su costo-beneficio.</span></li><li><a href="https://mglearn.github.io/tcea/custom-instructions-library/">Biblioteca de instrucciones personalizadas de IA</a><span>Contexto guardado que viaja con cada instrucción. Sopéselo con el mismo costo-beneficio.</span></li></ul></section>
+      <section class="related noprint"><h2>Actividades relacionadas</h2><div class="cards"><article class="card" data-id="personalization-with-guardrails">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Aprendizaje profesional<span>para Docentes, Coaches, Bibliotecarios</span></p>
+    <h3><a href="../activities/personalization-with-guardrails.html">Personalización con límites claros</a></h3>
+    <p class="card-tag">Los maestros diseñan versiones apoyadas por IA de una misma tarea de lectura para distintos estudiantes y luego evalúan cada versión con la misma meta de aprendizaje, una verificación de datos y un límite de privacidad.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>70 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-digcit">Ciudadanía digital</span></span><span class="eles"><a class="ele" href="../framework.html#AI3.1" title="IA en la educación 3.1: Sé cómo aprovechar las herramientas de IA para personalizar y enriquecer las experiencias de aprendizaje.">AI3.1</a><a class="ele" href="../framework.html#AI3.3" title="IA en la educación 3.3: Soy consciente de cómo la IA puede apoyar diversas necesidades y estilos de aprendizaje.">AI3.3</a><a class="ele" href="../framework.html#AI4.1" title="IA en la educación 4.1: Sé cómo promover habilidades de pensamiento crítico en relación con la información generada por IA.">AI4.1</a></span></div>
+  </article><article class="card" data-id="ai-ethics-case-court">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Aprendizaje profesional<span>para Líderes, Docentes, Profesorado universitario, Coaches</span></p>
+    <h3><a href="../activities/ai-ethics-case-court.html">Tribunal de Casos de Ética de la IA</a></h3>
+    <p class="card-tag">Los educadores llevan a juicio usos ficticios de la IA en la calificación, la supervisión de exámenes, la detección y el monitoreo, y luego emiten fallos con condiciones que podrían convertirse en políticas reales.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>70 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-digcit">Ciudadanía digital</span></span><span class="eles"><a class="ele" href="../framework.html#AI2.2" title="IA en la educación 2.2: Puedo identificar posibles problemas éticos en las aplicaciones de IA y proponer soluciones.">AI2.2</a><a class="ele" href="../framework.html#AI2.1" title="IA en la educación 2.1: Sé cómo aplicar principios éticos al usar o desarrollar IA para la educación.">AI2.1</a><a class="ele" href="../framework.html#AI2.3" title="IA en la educación 2.3: Soy consciente de la importancia de la transparencia y la rendición de cuentas en los sistemas de IA.">AI2.3</a></span></div>
+  </article><article class="card" data-id="bias-detectives">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Aprendizaje profesional<span>para Docentes, Bibliotecarios, Coaches</span></p>
+    <h3><a href="../activities/bias-detectives.html">Detectives de sesgos</a></h3>
+    <p class="card-tag">Los equipos comparan pares de respuestas de IA en las que solo cambió un nombre, un idioma o un pronombre; luego realizan sus propias pruebas justas y proponen soluciones antes de que las respuestas de la IA lleguen a los estudiantes.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>60 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-medialit">Alfabetización mediática</span><span class="strand s-digcit">Ciudadanía digital</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.3" title="IA en la educación 1.3: Soy consciente de las limitaciones actuales y los posibles sesgos de los sistemas de IA.">AI1.3</a><a class="ele" href="../framework.html#AI2.2" title="IA en la educación 2.2: Puedo identificar posibles problemas éticos en las aplicaciones de IA y proponer soluciones.">AI2.2</a><a class="ele" href="../framework.html#AI4.1" title="IA en la educación 4.1: Sé cómo promover habilidades de pensamiento crítico en relación con la información generada por IA.">AI4.1</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Banco de actividades de las Expectativas Esenciales de Aprendizaje de TCEA.</strong> Aprendizaje profesional y actividades para estudiantes K–16 sobre alfabetización en IA generativa, ciudadanía digital y alfabetización mediática, en papel o en pantalla.</p>
+    <p>Actividades de Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), basadas en las <a href="https://tinyurl.com/tceaeles1">Expectativas Esenciales de Aprendizaje de TCEA</a> (CC BY-SA 2024). Compartidas bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: cópielas, adáptelas y reutilícelas dando crédito. Sin inicio de sesión ni rastreo.</p>
+    <p class="ai-note">Las fotos de este sitio son ilustraciones generadas con IA de personas ficticias, no de estudiantes ni personal reales.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog de TCEA</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
+  <nav aria-label="Relacionados">
+    <p class="foot-h">Más recursos gratuitos</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Asistente de alineación con las ELE</a>
+    <a href="https://mglearn.github.io/activities/">Centro de actividades de aprendizaje</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Breakouts de ciudadanía digital</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Breakouts de alfabetización en IA generativa</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

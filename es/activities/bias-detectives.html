@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Detectives de sesgos | Banco de actividades ELE</title>
+<meta name="description" content="Los equipos comparan pares de respuestas de IA en las que solo cambió un nombre, un idioma o un pronombre; luego realizan sus propias pruebas justas y proponen soluciones antes de que las respuestas de la IA lleguen a los estudiantes.">
+<meta property="og:title" content="Detectives de sesgos | Banco de actividades ELE">
+<meta property="og:description" content="Los equipos comparan pares de respuestas de IA en las que solo cambió un nombre, un idioma o un pronombre; luego realizan sus propias pruebas justas y proponen soluciones antes de que las respuestas de la IA lleguen a los estudiantes.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/bias-detectives.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/bias-detectives.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/bias-detectives.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Banco de actividades</span></a>
+  <nav aria-label="Principal">
+    <a href="../index.html#catalog">Actividades</a>
+    <a href="../framework.html">Las ELE</a>
+    <details class="navmenu"><summary>Para el facilitador</summary><div class="navmenu-panel">
+      <a href="../guide.html">Guía</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Estándares</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Idioma</span><select aria-label="Idioma"><option value="en" lang="en" data-href="../../activities/bias-detectives.html">English</option><option value="es" lang="es" data-href="../../es/activities/bias-detectives.html" selected>Español</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="es">Esta traducción se hizo con ayuda de IA y está pendiente de revisión por hablantes nativos. La versión en inglés es la original.</p>
+
+<main id="main" class="act">
+  <div class="act-head">
+    
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Todas las actividades</a> <span aria-hidden="true">/</span> Aprendizaje profesional</p>
+    <h1>Detectives de sesgos</h1>
+    <p class="lede">Los equipos comparan pares de respuestas de IA en las que solo cambió un nombre, un idioma o un pronombre; luego realizan sus propias pruebas justas y proponen soluciones antes de que las respuestas de la IA lleguen a los estudiantes.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/bias-detectives.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Imprimir hojas</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">Imprimir esta guía</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="De un vistazo">
+      <dl>
+        <div><dt>Tiempo</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>60 minutos</dd></div>
+        <div><dt>Modalidad</dt><dd class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</dd></div>
+        <div><dt>Para</dt><dd>Docentes, Bibliotecarios, Coaches</dd></div>
+        <div><dt>Dirigido a</dt><dd>6–8, 9–12, Educación superior</dd></div>
+        <div><dt>Grupo</dt><dd>Equipos de 3–4; funciona para 8–40 personas</dd></div>
+        <div><dt>Ejes</dt><dd class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-medialit">Alfabetización mediática</span><span class="strand s-digcit">Ciudadanía digital</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Indicadores ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI1.3">AI1.3</a><div><span class="ind-area">IA en la educación · Alfabetización en IA</span>Soy consciente de las limitaciones actuales y los posibles sesgos de los sistemas de IA.</div></li><li><a class="ele" href="../framework.html#AI2.2">AI2.2</a><div><span class="ind-area">IA en la educación · Uso ético de la IA</span>Puedo identificar posibles problemas éticos en las aplicaciones de IA y proponer soluciones.</div></li><li><a class="ele" href="../framework.html#AI4.1">AI4.1</a><div><span class="ind-area">IA en la educación · IA y pensamiento crítico</span>Sé cómo promover habilidades de pensamiento crítico en relación con la información generada por IA.</div></li><li><a class="ele" href="../framework.html#AI2.1">AI2.1</a><div><span class="ind-area">IA en la educación · Uso ético de la IA</span>Sé cómo aplicar principios éticos al usar o desarrollar IA para la educación.</div></li></ul>
+      <h2 class="glance-h">Hojas</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Expedientes de respuestas simuladas <span class="muted">(tarjetas para recortar)</span></li><li><span class="hl">B</span> Bitácora del detective <span class="muted">(organizador)</span></li><li><span class="hl">C</span> Planificador de prueba justa <span class="muted">(hoja de trabajo)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Resumen</h2><p class="overview">Los modelos de IA aprenden de textos e imágenes creados por personas, por lo que pueden absorber los estereotipos, vacíos y supuestos predeterminados de esos datos. El sesgo rara vez se anuncia; aparece cuando se cambia un pequeño detalle y la respuesta se modifica. En esta sesión, los equipos actúan como detectives con pares de respuestas simuladas, impresas y claramente ficticias (una carta de recomendación, una traducción, orientación vocacional, retroalimentación sobre escritura), y luego diseñan y realizan su propia prueba de instrucciones pareadas en una herramienta aprobada por el distrito. Se van con un protocolo de prueba justa y un plan de mitigación para un uso real en el salón de clases.</p>
+        <h3 class="sub">Objetivos</h3><ul><li>Los participantes identificarán qué cambió entre pares de respuestas de IA y describirán una fuente plausible de la diferencia (patrones en los datos de entrenamiento, supuestos predeterminados, decisiones de diseño).</li><li>Los participantes diseñarán una prueba justa de instrucciones pareadas que cambie solo una variable y repita cada instrucción para tener en cuenta el azar.</li><li>Los participantes propondrán al menos una mitigación práctica antes de usar respuestas de IA con los estudiantes y explicarán a quién podría perjudicar su ausencia.</li></ul></section>
+      <section class="two">
+        <div><h2>Materiales</h2>
+          <h3 class="sub">En papel</h3><ul><li>Hoja A: Expedientes de respuestas simuladas (1 juego por equipo, recortado)</li><li>Hoja B: Bitácora del detective (1 por equipo)</li><li>Hoja C: Planificador de prueba justa (1 por equipo)</li><li>Resaltadores de dos colores; papel rotafolio titulado &quot;Patrones que encontramos&quot; y &quot;Soluciones que usaríamos&quot;</li></ul>
+          <h3 class="sub">En pantalla</h3><ul><li>Un chatbot de IA generativa aprobado por su distrito: proyectado por el facilitador, o en un dispositivo por equipo si el personal tiene cuentas aprobadas</li><li>Opcional: una herramienta de traducción aprobada por su distrito, para la prueba de traducción</li></ul></div>
+        <div><h2>Antes de empezar</h2><ol class="prep"><li>Imprima y recorte la Hoja A. Cada equipo recibe los seis expedientes boca abajo. Imprima los reversos de las tarjetas como clave del facilitador.</li><li>Pruebe con anticipación dos o tres instrucciones (prompts) pareadas en la herramienta aprobada por su distrito para saber qué hace actualmente. Los resultados cambian a medida que las herramientas se actualizan, y es posible que algunas no muestren los patrones de los expedientes simulados. Eso también es un hallazgo.</li><li>Recuerde el enfoque: las respuestas simuladas están escritas para ilustrar <em>tipos</em> de sesgo que han preocupado a investigadores y educadores. No son evidencia sobre ningún producto específico.</li></ol></div>
+      </section>
+      <section><h2>Paso a paso</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Enganche</p>
+        <h3>Encuentra la diferencia</h3>
+        <p>Proyecte el Expediente 1 (dos cartas de recomendación simuladas que difieren solo en el nombre del estudiante). Dé 60 segundos de lectura en silencio y luego pregunte: <strong>&quot;Misma instrucción, mismas calificaciones, un solo cambio. ¿Qué más cambió?&quot;</strong> Pida que digan palabras en voz alta. Resalte &quot;brillante, analítica&quot; frente a &quot;trabajador, respetuoso&quot;.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Diga claramente: &quot;Estas son respuestas ficticias escritas para la capacitación. Ilustran un patrón que vale la pena poner a prueba, no una afirmación sobre ningún producto. Más adelante ustedes mismos probarán una herramienta real&quot;.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–18 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Explorar</p>
+        <h3>Analicen los expedientes</h3>
+        <p>Los equipos trabajan con los Expedientes 2–6. En cada uno, resaltan con un color <strong>lo que cambió en la instrucción</strong> y con el otro <strong>lo que cambió en la respuesta</strong>; luego completan una fila de la Hoja B: el patrón, una posible fuente (datos de entrenamiento, un supuesto predeterminado, el diseño), a quién podría perjudicar en el salón de clases y una primera idea para solucionarlo.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Lleve a los equipos más allá de &quot;la IA es racista/sexista&quot; hacia el mecanismo: &quot;Si la mayoría de los textos de los que aprendió asociaban 'enfermera' con 'ella', ¿qué haría un sistema que predice la siguiente palabra?&quot;. El mecanismo conduce a la mitigación.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">18–25 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Modelar</p>
+        <h3>Qué hace justa una prueba</h3>
+        <p>Repase las reglas de la Hoja C usando el Expediente 4 (orientación vocacional). Una prueba justa <strong>cambia solo una variable</strong> (nombre, pronombre o idioma), mantiene todo lo demás idéntico palabra por palabra, <strong>ejecuta cada versión al menos tres veces en conversaciones nuevas</strong> porque las respuestas varían por azar, y registra la redacción exacta. Modele un par en vivo en la herramienta aprobada proyectada y regístrelo con el grupo.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>El mayor error de las pruebas de sesgo improvisadas es sacar conclusiones de una sola ejecución. Una respuesta extraña es una anécdota; un patrón repetido en ejecuciones nuevas es evidencia.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">25–40 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Practicar</p>
+        <h3>Realicen su propia prueba</h3>
+        <p>Cada equipo diseña en la Hoja C una instrucción pareada que sea importante para sus estudiantes: retroalimentación sobre el mismo párrafo con dos nombres distintos, la traducción de una oración con un pronombre de género neutro, sugerencias de libros para &quot;un niño&quot; frente a &quot;una niña&quot;, la descripción de &quot;una familia&quot; o de &quot;un científico&quot;. Los equipos la ejecutan en la herramienta aprobada (o piden al facilitador que la ejecute en el proyector) tres veces por versión y registran lo que sucedió. <strong>Nada de nombres ni trabajos reales de estudiantes.</strong> Usen nombres inventados y un párrafo escrito por ustedes.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Si un equipo no encuentra ninguna diferencia, celébrelo y pídale que lo informe. Es útil saber que una herramienta trata ambas versiones por igual en esta prueba, aunque eso no demuestra que esté libre de sesgos.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">40–52 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Análisis</p>
+        <h3>Patrones y soluciones</h3>
+        <p>Cada equipo presenta una prueba en 60 segundos: qué cambiaron, qué observaron en las ejecuciones y una solución. Publiquen los hallazgos en &quot;Patrones que encontramos&quot; y las soluciones en &quot;Soluciones que usaríamos&quot;. Luego pregunte: <strong>&quot;¿Cuáles de estas soluciones son un truco de instrucción y cuáles son un paso de juicio humano?&quot;</strong> Encierre en un círculo las soluciones de juicio humano (revisar antes de compartir, quitar los nombres antes de pedir retroalimentación, comparar con una segunda fuente, dejar que los estudiantes critiquen la respuesta).</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Las instrucciones (&quot;evita los estereotipos&quot;) pueden reducir algunos problemas, pero no son una garantía. Las mitigaciones más sólidas mantienen a una persona tomando las decisiones y hacen que la revisión de sesgos forme parte del trabajo de los estudiantes.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">52–60 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Transferir</p>
+        <h3>Un uso, una salvaguarda</h3>
+        <p>Cada persona nombra una forma en que las respuestas de IA podrían llegar a sus estudiantes el próximo mes (lecturas generadas, retroalimentación, imágenes para diapositivas, cartas traducidas para las familias) y escribe en el reverso de la Hoja C la salvaguarda que usará. En parejas se preguntan: <strong>&quot;¿Quién podría quedar excluido o mal representado, y cómo te darías cuenta?&quot;</strong></p>
+        <p class="step-note"><span>Nota para el facilitador</span>Las cartas traducidas para las familias son un punto ciego frecuente. Sugiera que una persona con dominio del idioma revise toda carta traducida con IA antes de enviarla a casa.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Papel o pantalla</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</h3><p>Realicen los expedientes, la bitácora del detective y el diseño de la prueba justa completamente en papel. En el paso de práctica, los equipos escriben sus instrucciones pareadas y los resultados que predicen; el facilitador ejecuta algunas más tarde en la herramienta aprobada y comparte los resultados en la siguiente reunión, o los equipos intercambian sus diseños de prueba y evalúan si son justos (una variable, ejecuciones repetidas, redacción exacta).</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Digital</h3><p>Los equipos con acceso aprobado para el personal ejecutan sus instrucciones pareadas en su propio dispositivo; si no, el facilitador las ejecuta en el proyector. Registren los resultados en una hoja de cálculo compartida con las columnas de la Hoja B para que todo el personal vea los patrones de muchas pruebas. En un LMS (sistema de gestión del aprendizaje), publiquen los expedientes como foro de discusión y pidan a los equipos que respondan con las filas de su bitácora.</p></div>
+        <p class="why"><strong>¿Necesita una pantalla?</strong> La prueba en vivo es el momento en que los participantes dejan de ver el sesgo como un titular y empiezan a verlo como algo que pueden comprobar. Ejecutar la misma instrucción tres veces también muestra el azar de manera directa, lo que evita que las personas saquen conclusiones exageradas de una sola respuesta. Es evidencia que el papel no puede ofrecer.</p>
+      </section>
+      <section class="evidence"><h2>Evidencia de aprendizaje</h2><p class="muted">Lo que debería poder ver o recopilar si funcionó.</p><ul><li>Las entradas de la bitácora del detective nombran un mecanismo (patrón en los datos de entrenamiento, supuesto predeterminado) en lugar de solo un juicio.</li><li>Los diseños de prueba justa cambian exactamente una variable, usan nombres inventados y repiten cada versión al menos tres veces.</li><li>Los equipos informan sus resultados con honestidad, incluido &quot;no encontramos diferencias&quot;, sin generalizar a partir de una sola ejecución.</li><li>Cada participante escribe una salvaguarda específica vinculada a una forma real en que las respuestas de IA podrían llegar a sus estudiantes.</li></ul></section>
+      <section><h2>Adaptaciones</h2><dl class="adapt"><div><dt>Bibliotecarios y especialistas en medios</dt><dd>Centren la prueba en vivo en recomendaciones de libros y recursos: pidan &quot;libros que le gustarían a un niño de 12 años&quot; frente a &quot;a una niña de 12 años&quot;, y compárenlo con la auditoría de diversidad de su propia colección.</dd></div><div><dt>Profesorado de educación superior</dt><dd>Agreguen una ronda sobre listas de lecturas y citas generadas por IA para un tema de investigación: ¿qué trabajos académicos aparecen de forma predeterminada y qué regiones o idiomas faltan?</dd></div><div><dt>Docentes bilingües y de ESL</dt><dd>Dirijan las pruebas de traducción. Comparen cómo maneja la herramienta el español regional (como el vocabulario tejano) y la alternancia de idiomas, y redacten una salvaguarda para la comunicación con las familias en su campus.</dd></div></dl></section>
+      <section class="stds"><h2>Conexiones con los estándares</h2><p>Los docentes diseñan una prueba justa con instrucciones emparejadas que cambia una sola variable y repite las pruebas, preparando a los estudiantes para investigar el sesgo de la IA con prácticas científicas.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-sci-practices" title="Ciencias: prácticas científicas y de ingeniería">prácticas científicas y de ingeniería</a><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Aplicaciones Tecnológicas: pensamiento computacional">pensamiento computacional</a><span class="std-sec">Secciones de los TEKS: Technology Applications §126.17–§126.19, cursos de Aplicaciones Tecnológicas de preparatoria (19 TAC Capítulo 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Comprensión auditiva">Comprensión auditiva</a><a class="std std-elps" href="../standards.html#elps-c3" title="Expresión oral">Expresión oral</a><a class="std std-elps" href="../standards.html#elps-c4" title="Lectura">Lectura</a><a class="std std-elps" href="../standards.html#elps-c5" title="Escritura">Escritura</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-1-3" title="Representar una diversidad de perspectivas e identidades de manera auténtica">1.3</a><a class="std std-udl" href="../standards.html#udl-2-4" title="Abordar los sesgos en el uso del lenguaje y los símbolos">2.4</a><a class="std std-udl" href="../standards.html#udl-7-4" title="Abordar sesgos, amenazas y distracciones">7.4</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Fomentar la colaboración, la interdependencia y el aprendizaje colectivo">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximizar la transferencia y la generalización">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Vea cómo se alinean todas las actividades</a></p></section>
+      <section class="two">
+        <div><h2>Reflexionar</h2><ul><li>¿De qué maneras estoy atendiendo las consideraciones éticas al usar la IA en el aprendizaje y la enseñanza?</li><li>¿Cuáles de mis estudiantes podrían quedar mal representados o excluidos por los supuestos predeterminados de la IA, y cómo lo notaría?</li><li>¿Cómo pueden los propios estudiantes convertirse en detectives de sesgos, en lugar de que yo lo filtre todo por ellos?</li></ul></div>
+        <div><h2>Llévelo a sus estudiantes</h2><p>Con estudiantes de 6.º grado en adelante, proyecte un expediente simulado y una instrucción pareada que usted mismo haya ejecutado; luego pida a los estudiantes que diseñen su propia prueba justa en papel. Recoja sus diseños de prueba como evidencia de que pueden cuestionar una respuesta de IA, no solo consumirla.</p></div>
+      </section>
+      <section><h2>Combina bien con</h2><ul class="connections"><li><a href="https://mglearn.github.io/tcea/alf/">Marco ampliado de aprendizaje de IA K–16</a><span>Muestra dónde encaja la conciencia sobre los sesgos en una progresión de alfabetización en IA de K–16.</span></li><li><a href="https://mglearn.github.io/tcea/ai-adoption-checklist/">Lista de verificación para la adopción de IA generativa</a><span>Agregue su protocolo de prueba justa a la revisión de herramientas de su campus o distrito.</span></li></ul></section>
+      <section class="related noprint"><h2>Actividades relacionadas</h2><div class="cards"><article class="card" data-id="ai-ethics-case-court">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Aprendizaje profesional<span>para Líderes, Docentes, Profesorado universitario, Coaches</span></p>
+    <h3><a href="../activities/ai-ethics-case-court.html">Tribunal de Casos de Ética de la IA</a></h3>
+    <p class="card-tag">Los educadores llevan a juicio usos ficticios de la IA en la calificación, la supervisión de exámenes, la detección y el monitoreo, y luego emiten fallos con condiciones que podrían convertirse en políticas reales.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>70 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-digcit">Ciudadanía digital</span></span><span class="eles"><a class="ele" href="../framework.html#AI2.2" title="IA en la educación 2.2: Puedo identificar posibles problemas éticos en las aplicaciones de IA y proponer soluciones.">AI2.2</a><a class="ele" href="../framework.html#AI2.1" title="IA en la educación 2.1: Sé cómo aplicar principios éticos al usar o desarrollar IA para la educación.">AI2.1</a><a class="ele" href="../framework.html#AI2.3" title="IA en la educación 2.3: Soy consciente de la importancia de la transparencia y la rendición de cuentas en los sistemas de IA.">AI2.3</a></span></div>
+  </article><article class="card" data-id="human-language-model">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Aprendizaje profesional<span>para Docentes, Bibliotecarios, Coaches, Profesorado universitario</span></p>
+    <h3><a href="../activities/human-language-model.html">El modelo de lenguaje humano</a></h3>
+    <p class="card-tag">Los educadores se convierten en un diminuto modelo de lenguaje con papelitos y un vaso, y descubren de primera mano por qué un texto fluido de IA puede estar equivocado con total seguridad.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-medialit">Alfabetización mediática</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="IA en la educación 1.1: Sé cómo funcionan los sistemas de IA y cuáles son sus capacidades en contextos educativos.">AI1.1</a><a class="ele" href="../framework.html#AI1.2" title="IA en la educación 1.2: Puedo explicar los conceptos de IA en términos sencillos a diversas partes interesadas.">AI1.2</a><a class="ele" href="../framework.html#AI1.3" title="IA en la educación 1.3: Soy consciente de las limitaciones actuales y los posibles sesgos de los sistemas de IA.">AI1.3</a></span></div>
+  </article><article class="card" data-id="glass-box-checklist">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Aprendizaje profesional<span>para Líderes, Bibliotecarios, Coaches, Docentes</span></p>
+    <h3><a href="../activities/glass-box-checklist.html">La lista de verificación de la caja de cristal</a></h3>
+    <p class="card-tag">Los equipos analizan a fondo la vistosa ficha técnica de un proveedor ficticio de IA, clasifican las preguntas que realmente importan y crean una lista de verificación de transparencia y rendición de cuentas que pueden usar con herramientas reales.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>60 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-digcit">Ciudadanía digital</span></span><span class="eles"><a class="ele" href="../framework.html#AI2.3" title="IA en la educación 2.3: Soy consciente de la importancia de la transparencia y la rendición de cuentas en los sistemas de IA.">AI2.3</a><a class="ele" href="../framework.html#AI2.1" title="IA en la educación 2.1: Sé cómo aplicar principios éticos al usar o desarrollar IA para la educación.">AI2.1</a><a class="ele" href="../framework.html#AI1.3" title="IA en la educación 1.3: Soy consciente de las limitaciones actuales y los posibles sesgos de los sistemas de IA.">AI1.3</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Banco de actividades de las Expectativas Esenciales de Aprendizaje de TCEA.</strong> Aprendizaje profesional y actividades para estudiantes K–16 sobre alfabetización en IA generativa, ciudadanía digital y alfabetización mediática, en papel o en pantalla.</p>
+    <p>Actividades de Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), basadas en las <a href="https://tinyurl.com/tceaeles1">Expectativas Esenciales de Aprendizaje de TCEA</a> (CC BY-SA 2024). Compartidas bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: cópielas, adáptelas y reutilícelas dando crédito. Sin inicio de sesión ni rastreo.</p>
+    <p class="ai-note">Las fotos de este sitio son ilustraciones generadas con IA de personas ficticias, no de estudiantes ni personal reales.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog de TCEA</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
+  <nav aria-label="Relacionados">
+    <p class="foot-h">Más recursos gratuitos</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Asistente de alineación con las ELE</a>
+    <a href="https://mglearn.github.io/activities/">Centro de actividades de aprendizaje</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Breakouts de ciudadanía digital</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Breakouts de alfabetización en IA generativa</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

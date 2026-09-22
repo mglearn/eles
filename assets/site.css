@@ -499,3 +499,12 @@ a.std:hover { border-color: currentColor; }
 @media (max-width: 700px) { .stds dl > div { grid-template-columns: 1fr; gap: 4px; } .codes li { grid-template-columns: 1fr; gap: 2px; } .site-foot { grid-template-columns: 1fr; } }
 @media print { .navmenu { display: none; } }
 .codes.nocode li { grid-template-columns: 1fr auto; }
+.navmenu-sep { display: none; }
+.navmenu > summary::marker { content: ""; }
+@media (max-width: 700px) {
+  .navmenu[open] { flex-basis: 100%; }
+  .navmenu-panel { position: static; flex-direction: row; align-items: center; gap: 4px; background: transparent; border: 0; box-shadow: none; padding: 6px 0 0; min-width: 0; }
+  .topbar .navmenu-panel a { color: #fff; padding: 2px 4px; }
+  .topbar .navmenu-panel a:hover { background: transparent; color: var(--gold-light); }
+  .navmenu-sep { display: inline; color: rgba(255,255,255,.5); }
+}

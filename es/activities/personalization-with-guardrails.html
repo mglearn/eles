@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personalización con límites claros | Banco de actividades ELE</title>
+<meta name="description" content="Los maestros diseñan versiones apoyadas por IA de una misma tarea de lectura para distintos estudiantes y luego evalúan cada versión con la misma meta de aprendizaje, una verificación de datos y un límite de privacidad.">
+<meta property="og:title" content="Personalización con límites claros | Banco de actividades ELE">
+<meta property="og:description" content="Los maestros diseñan versiones apoyadas por IA de una misma tarea de lectura para distintos estudiantes y luego evalúan cada versión con la misma meta de aprendizaje, una verificación de datos y un límite de privacidad.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/personalization-with-guardrails.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/personalization-with-guardrails.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/personalization-with-guardrails.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Banco de actividades</span></a>
+  <nav aria-label="Principal">
+    <a href="../index.html#catalog">Actividades</a>
+    <a href="../framework.html">Las ELE</a>
+    <details class="navmenu"><summary>Para el facilitador</summary><div class="navmenu-panel">
+      <a href="../guide.html">Guía</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Estándares</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Idioma</span><select aria-label="Idioma"><option value="en" lang="en" data-href="../../activities/personalization-with-guardrails.html">English</option><option value="es" lang="es" data-href="../../es/activities/personalization-with-guardrails.html" selected>Español</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="es">Esta traducción se hizo con ayuda de IA y está pendiente de revisión por hablantes nativos. La versión en inglés es la original.</p>
+
+<main id="main" class="act">
+  <div class="act-head">
+    
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Todas las actividades</a> <span aria-hidden="true">/</span> Aprendizaje profesional</p>
+    <h1>Personalización con límites claros</h1>
+    <p class="lede">Los maestros diseñan versiones apoyadas por IA de una misma tarea de lectura para distintos estudiantes y luego evalúan cada versión con la misma meta de aprendizaje, una verificación de datos y un límite de privacidad.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/personalization-with-guardrails.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Imprimir hojas</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">Imprimir esta guía</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="De un vistazo">
+      <dl>
+        <div><dt>Tiempo</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>70 minutos</dd></div>
+        <div><dt>Modalidad</dt><dd class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</dd></div>
+        <div><dt>Para</dt><dd>Docentes, Coaches, Bibliotecarios</dd></div>
+        <div><dt>Dirigido a</dt><dd>3–5, 6–8, 9–12</dd></div>
+        <div><dt>Grupo</dt><dd>Equipos de 3 a 4, idealmente que combinen maestros de educación general, de educación especial y de ESL/educación bilingüe</dd></div>
+        <div><dt>Ejes</dt><dd class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-digcit">Ciudadanía digital</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Indicadores ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI3.1">AI3.1</a><div><span class="ind-area">IA en la educación · Aprendizaje enriquecido con IA</span>Sé cómo aprovechar las herramientas de IA para personalizar y enriquecer las experiencias de aprendizaje.</div></li><li><a class="ele" href="../framework.html#AI3.3">AI3.3</a><div><span class="ind-area">IA en la educación · Aprendizaje enriquecido con IA</span>Soy consciente de cómo la IA puede apoyar diversas necesidades y estilos de aprendizaje.</div></li><li><a class="ele" href="../framework.html#AI4.1">AI4.1</a><div><span class="ind-area">IA en la educación · IA y pensamiento crítico</span>Sé cómo promover habilidades de pensamiento crítico en relación con la información generada por IA.</div></li><li><a class="ele" href="../framework.html#AI2.1">AI2.1</a><div><span class="ind-area">IA en la educación · Uso ético de la IA</span>Sé cómo aplicar principios éticos al usar o desarrollar IA para la educación.</div></li></ul>
+      <h2 class="glance-h">Hojas</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> La estación de paso de las monarcas: original y versión simulada adaptada por IA <span class="muted">(lectura)</span></li><li><span class="hl">B</span> Tarjetas de perfiles de estudiantes <span class="muted">(tarjetas para recortar)</span></li><li><span class="hl">C</span> Rúbrica de límites claros <span class="muted">(rúbrica)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Resumen</h2><p class="overview">Las herramientas de IA pueden producir rápidamente textos por niveles, glosarios bilingües, preguntas divididas en partes y audio de lectura en voz alta, y junto con tecnologías de asistencia de larga trayectoria como el texto a voz y la voz a texto, pueden abrir el contenido de nivel de grado a más estudiantes. También pueden, sin que se note, bajar las expectativas, introducir errores de contenido o exponer información de los estudiantes. En esta sesión, los equipos primero detectan un error en un pasaje simulado adaptado por IA, luego diseñan versiones con apoyos de una lectura de ciencias para perfiles de estudiantes ficticios y evalúan cada diseño con cuatro límites claros: la misma meta de aprendizaje, exactitud verificada, privacidad protegida y evidencia de aprendizaje.</p>
+        <h3 class="sub">Objetivos</h3><ul><li>Los participantes diseñarán versiones apoyadas por IA de una tarea de lectura que mantengan la misma meta de aprendizaje de nivel de grado para distintos estudiantes.</li><li>Los participantes verificarán un texto modificado por IA comparándolo con el original y corregirán cualquier cambio de significado o de contenido.</li><li>Los participantes relacionarán los apoyos (texto a voz, voz a texto, glosarios, división en partes, ampliación) con necesidades específicas de los estudiantes, y no con etiquetas o &quot;estilos de aprendizaje&quot;.</li><li>Los participantes protegerán la privacidad de los estudiantes al mantener los nombres y los detalles de discapacidad o del IEP fuera de las instrucciones que se dan a la IA.</li></ul></section>
+      <section class="two">
+        <div><h2>Materiales</h2>
+          <h3 class="sub">En papel</h3><ul><li>Hoja A: La estación de paso de las monarcas, pasaje original y versión simulada adaptada por IA (1 por persona)</li><li>Hoja B: Tarjetas de perfiles de estudiantes (1 juego por equipo, recortado)</li><li>Hoja C: Rúbrica de límites claros (2 por equipo)</li><li>Papel de rotafolio para los carteles de diseño, marcadores, notas adhesivas para la retroalimentación en la galería</li></ul>
+          <h3 class="sub">En pantalla</h3><ul><li>Un chatbot de IA generativa aprobado por su distrito, proyectado por el facilitador o usado por los equipos con cuentas del personal aprobadas</li><li>Cualquier herramienta de texto a voz disponible en los dispositivos del distrito (muchos sistemas operativos y navegadores incluyen una), además de dictado por voz a texto</li><li>Opcional: audífonos para probar el texto a voz</li></ul></div>
+        <div><h2>Antes de empezar</h2><ol class="prep"><li>Imprima las Hojas A y C; imprima y recorte la Hoja B. Cada equipo necesita las ocho tarjetas de perfiles.</li><li>Pruebe las funciones de texto a voz y de dictado en los dispositivos de su distrito para poder hacer una demostración en menos de dos minutos.</li><li>Ejecute una instrucción (prompt) para adaptar el nivel en su herramienta de IA aprobada con el original de la Hoja A, para saber qué produce actualmente. Primero verifique usted mismo el resultado comparándolo con el original.</li><li>Si su plantel cuenta con un especialista en educación especial o en dislexia, invítelo a cofacilitar el paso de modelado.</li></ol></div>
+      </section>
+      <section><h2>Paso a paso</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Enganche</p>
+        <h3>¿Más fácil o diferente?</h3>
+        <p>Proyecte lado a lado las dos versiones de la Hoja A. Pregunte: <strong>&quot;La versión simplificada es más fácil de leer. ¿Está enseñando lo mismo?&quot;</strong> Dé 90 segundos de lectura en silencio y luego recoja las primeras reacciones sin confirmar nada todavía.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>La mayoría nota primero las oraciones más cortas. Menos personas notan los cambios de contenido. Esa brecha es el tema de la sesión.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–15 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Explorar</p>
+        <h3>Verificar el texto adaptado</h3>
+        <p>De manera individual, comparen línea por línea la versión simulada adaptada por IA con el original. Marquen (1) cualquier <strong>error de contenido</strong>, (2) cualquier <strong>idea clave omitida</strong> y (3) cualquier <strong>vocabulario que la meta de aprendizaje necesita</strong> y que se eliminó. Los equipos comparan y se ponen de acuerdo. Luego revele: la versión simulada dice que las monarcas ponen sus huevos en &quot;muchos tipos de plantas&quot; (falso: solo en el algodoncillo), omite la razón por la que la estación de paso es importante y elimina la palabra <em>migración</em>, que es el vocabulario meta de la lección.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Mensaje clave: un texto adaptado por IA es un borrador, no un material terminado. Simplificar puede cambiar el significado, y un estudiante que leyera la versión más fácil aprendería algo falso.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">15–25 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Modelar</p>
+        <h3>Apoyos que mantienen la meta</h3>
+        <p>Demuestre tres acciones en el proyector. (1) <strong>Texto a voz</strong> con el pasaje original: un estudiante con dislexia puede acceder al propio texto de nivel de grado. (2) Una <strong>instrucción que protege la privacidad</strong> para la herramienta de IA aprobada: &quot;Crea un glosario de cinco términos clave de este pasaje con definiciones fáciles de entender para estudiantes y una traducción al español. Conserva los términos migración, algodoncillo y estación de paso&quot;. Sin nombres de estudiantes, sin diagnósticos. (3) <strong>Verificar el resultado</strong> comparándolo con el original antes de dárselo a nadie. Nombre el principio: cambia el <em>acceso</em>, se mantiene el <em>razonamiento</em>.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Aborde los &quot;estilos de aprendizaje&quot; de forma directa y amable: la investigación no respalda adaptar la enseñanza a un estilo preferido como &quot;aprendiz visual&quot;. Diseñe para necesidades específicas (decodificación, idioma, atención, visión) y ofrezca opciones a todos.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">25–45 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Crear</p>
+        <h3>Diseñar para dos estudiantes</h3>
+        <p>Cada equipo saca dos Tarjetas de perfiles de estudiantes y diseña una versión con apoyos de la tarea de la estación de paso de las monarcas para cada una: los apoyos, si interviene la IA (y la instrucción exacta, escrita sin detalles identificables), cómo verificarán cualquier resultado de la IA y <strong>qué producirá el estudiante</strong> para mostrar que alcanzó la meta: &quot;Explica por qué un jardín escolar con algodoncillo ayuda a las monarcas durante su migración&quot;. Coloquen ambos diseños en un cartel. Al menos un apoyo debe ser sin IA.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Esté atento a los diseños que cambian la tarea por una más fácil (&quot;rotula las partes de una mariposa&quot;). Pregunte: &quot;¿Este estudiante sigue explicando por qué importa la estación de paso?&quot;</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">45–60 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Practicar</p>
+        <h3>Galería de límites claros</h3>
+        <p>Los carteles se pegan en la pared. Los equipos rotan y califican otros dos carteles con la Hoja C, dejando notas adhesivas: una de &quot;mantiene la meta porque…&quot; y otra de &quot;límite que conviene agregar…&quot;. De vuelta en sus propios carteles, los equipos revisan un diseño con base en las notas y marcan el cambio con otro color.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>El límite de privacidad es el que más se pasa por alto. Busque instrucciones que incluyan frases como &quot;un estudiante de 7.º grado con dislexia llamado…&quot;.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">60–70 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Transferir</p>
+        <h3>Su texto real</h3>
+        <p>Cada persona elige una lectura que asignará en las próximas dos semanas y una necesidad de un estudiante de su grupo. Escribe la meta de aprendizaje, un apoyo (con o sin IA), el paso de verificación y la evidencia de aprendizaje que recopilará. Los compañeros preguntan: <strong>&quot;¿Cómo sabrá que el apoyo ayudó a este estudiante a aprender, y no solo a terminar?&quot;</strong></p>
+        <p class="step-note"><span>Nota para el facilitador</span>Coaches: ofrézcanse para planificar juntos el paso de verificación y para revisar después juntos el trabajo de los estudiantes. Esa es la parte de medir y ajustar del ciclo.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Papel o pantalla</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</h3><p>Todo el razonamiento central funciona en papel: verificar el pasaje simulado adaptado, diseñar apoyos a partir de las tarjetas de perfiles y calificar con la rúbrica. Los equipos pueden describir por escrito cualquier apoyo de IA o de tecnología de asistencia, y el facilitador puede leer en voz alta el pasaje original para simular el texto a voz. Los apoyos sin IA, como glosarios impresos, tiras de preguntas divididas en partes y la lectura en pareja, son excelentes diseños sin pantallas.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Digital</h3><p>Los equipos con acceso aprobado para el personal ejecutan sus instrucciones que protegen la privacidad en la herramienta de IA del distrito, prueban el texto a voz y el dictado con el pasaje original, y verifican los resultados comparándolos con la Hoja A antes de agregarlos a sus carteles. En un LMS, los equipos publican sus diseños en un foro de discusión para calificarlos con la rúbrica de manera asincrónica, incluyendo la instrucción de IA y las notas de verificación.</p></div>
+        <p class="why"><strong>¿Necesita una pantalla?</strong> Escuchar de verdad cómo el texto a voz lee el pasaje de nivel de grado, y ver a una herramienta de IA generar un glosario en segundos, muestra lo que estos apoyos hacen posible. Verificar el resultado en vivo muestra por qué el juicio del maestro todavía tiene que estar entre la herramienta y el estudiante. La evidencia es un estudiante que produce la misma explicación de nivel de grado por un camino distinto.</p>
+      </section>
+      <section class="evidence"><h2>Evidencia de aprendizaje</h2><p class="muted">Lo que debería poder ver o recopilar si funcionó.</p><ul><li>Los equipos identifican el error de contenido, la idea clave omitida y el vocabulario meta eliminado en el texto simulado adaptado.</li><li>Cada diseño mantiene la misma meta de aprendizaje y nombra el producto del estudiante que la demostrará.</li><li>Las instrucciones de IA en los carteles no contienen nombres, diagnósticos ni otros detalles identificables.</li><li>Cada diseño incluye un paso de verificación para cualquier resultado de la IA y al menos un apoyo sin IA.</li></ul></section>
+      <section><h2>Adaptaciones</h2><dl class="adapt"><div><dt>Maestros de grados 3–5</dt><dd>Use solo los dos primeros párrafos del original y pida a los estudiantes que muestren su comprensión con un dibujo rotulado más una oración, dicha en voz alta o dictada, que explique por qué importa el algodoncillo.</dd></div><div><dt>Especialistas en educación especial y en dislexia</dt><dd>Dirijan el paso de modelado. Agreguen cómo se conectan los apoyos con las adaptaciones documentadas de los estudiantes y cómo los estudiantes pueden aprender a elegir y activar sus propias herramientas.</dd></div><div><dt>Profesorado de educación superior</dt><dd>Cambie el pasaje por una lectura densa del curso y comenten cómo los resúmenes de IA, el texto a voz y los glosarios pueden apoyar el acceso mientras los estudiantes siguen trabajando con el texto original.</dd></div></dl></section>
+      <section class="stds"><h2>Conexiones con los estándares</h2><p>Los docentes verifican un texto nivelado por IA y asignan apoyos como la conversión de texto a voz según cada estudiante, para que todos alcancen la misma meta de lectura del grado.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-elar-comp" title="ELAR (Artes del Lenguaje en Inglés y Lectura): destrezas de comprensión">destrezas de comprensión</a><a class="std std-teks" href="../standards.html#teks-ta-ptc" title="Aplicaciones Tecnológicas: conceptos prácticos de tecnología">conceptos prácticos de tecnología</a><span class="std-sec">Secciones de los TEKS: Technology Applications §126.8–§126.10, §126.17–§126.19, cursos de Aplicaciones Tecnológicas de preparatoria (19 TAC Capítulo 126); ELAR §110.5–§110.7, §110.22–§110.24, §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Expresión oral">Expresión oral</a><a class="std std-elps" href="../standards.html#elps-c4" title="Lectura">Lectura</a><a class="std std-elps" href="../standards.html#elps-c5" title="Escritura">Escritura</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-1-2" title="Apoyar múltiples formas de percibir la información">1.2</a><a class="std std-udl" href="../standards.html#udl-2-1" title="Aclarar el vocabulario, los símbolos y las estructuras del lenguaje">2.1</a><a class="std std-udl" href="../standards.html#udl-4-2" title="Optimizar el acceso a materiales accesibles y a tecnologías y herramientas de asistencia y accesibles">4.2</a><a class="std std-udl" href="../standards.html#udl-8-2" title="Optimizar el desafío y el apoyo">8.2</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximizar la transferencia y la generalización">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Vea cómo se alinean todas las actividades</a></p></section>
+      <section class="two">
+        <div><h2>Reflexionar</h2><ul><li>¿Cómo estoy aprovechando la IA para personalizar y enriquecer las experiencias de aprendizaje sin bajar las expectativas?</li><li>Cuando simplifico un texto, ¿cómo verifico que no he cambiado lo que aprenden los estudiantes?</li><li>¿Cómo pueden los estudiantes aprender a elegir y usar sus propios apoyos, para que la personalización no sea algo que se les hace <em>a</em> ellos?</li></ul></div>
+        <div><h2>Llévelo a sus estudiantes</h2><p>Use su plan de transferencia con una lectura real esta semana. Guarde el trabajo de los estudiantes que usaron el apoyo y de algunos que no lo usaron, y lleve ambos a su PLC (comunidad de aprendizaje profesional) o a su coach para preguntar: ¿el apoyo ayudó a los estudiantes a alcanzar la meta?</p></div>
+      </section>
+      <section><h2>Combina bien con</h2><ul class="connections"><li><a href="https://mglearn.github.io/tcea/a11y/">Evaluación de preparación en accesibilidad digital</a><span>Verifica, para empezar, si los materiales y las herramientas que usa son accesibles.</span></li><li><a href="https://mglearn.github.io/tcea/ai-essentials-prompt-library/">Biblioteca de instrucciones esenciales de IA</a><span>Instrucciones iniciales para la diferenciación. Aplique a cada una los límites de privacidad y verificación de hoy.</span></li></ul></section>
+      <section class="related noprint"><h2>Actividades relacionadas</h2><div class="cards"><article class="card" data-id="bias-detectives">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Aprendizaje profesional<span>para Docentes, Bibliotecarios, Coaches</span></p>
+    <h3><a href="../activities/bias-detectives.html">Detectives de sesgos</a></h3>
+    <p class="card-tag">Los equipos comparan pares de respuestas de IA en las que solo cambió un nombre, un idioma o un pronombre; luego realizan sus propias pruebas justas y proponen soluciones antes de que las respuestas de la IA lleguen a los estudiantes.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>60 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-medialit">Alfabetización mediática</span><span class="strand s-digcit">Ciudadanía digital</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.3" title="IA en la educación 1.3: Soy consciente de las limitaciones actuales y los posibles sesgos de los sistemas de IA.">AI1.3</a><a class="ele" href="../framework.html#AI2.2" title="IA en la educación 2.2: Puedo identificar posibles problemas éticos en las aplicaciones de IA y proponer soluciones.">AI2.2</a><a class="ele" href="../framework.html#AI4.1" title="IA en la educación 4.1: Sé cómo promover habilidades de pensamiento crítico en relación con la información generada por IA.">AI4.1</a></span></div>
+  </article><article class="card" data-id="the-prompt-ladder">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Aprendizaje profesional<span>para Docentes, Bibliotecarios</span></p>
+    <h3><a href="../activities/the-prompt-ladder.html">La escalera de instrucciones</a></h3>
+    <p class="card-tag">Los docentes suben ocho peldaños de instrucciones para la misma tarea del salón, predicen cada respuesta simulada de la IA antes de leerla y sopesan lo que gana y lo que cuesta cada detalle añadido.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-digcit">Ciudadanía digital</span></span><span class="eles"><a class="ele" href="../framework.html#T1.2" title="Docentes 1.2: Puedo usar herramientas de IA para enriquecer las experiencias de aprendizaje de los estudiantes.">T1.2</a><a class="ele" href="../framework.html#AI1.1" title="IA en la educación 1.1: Sé cómo funcionan los sistemas de IA y cuáles son sus capacidades en contextos educativos.">AI1.1</a><a class="ele" href="../framework.html#T1.3" title="Docentes 1.3: Conozco las tecnologías emergentes y sus posibles aplicaciones en la educación.">T1.3</a></span></div>
+  </article><article class="card" data-id="ai-ethics-case-court">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Aprendizaje profesional<span>para Líderes, Docentes, Profesorado universitario, Coaches</span></p>
+    <h3><a href="../activities/ai-ethics-case-court.html">Tribunal de Casos de Ética de la IA</a></h3>
+    <p class="card-tag">Los educadores llevan a juicio usos ficticios de la IA en la calificación, la supervisión de exámenes, la detección y el monitoreo, y luego emiten fallos con condiciones que podrían convertirse en políticas reales.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>70 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-digcit">Ciudadanía digital</span></span><span class="eles"><a class="ele" href="../framework.html#AI2.2" title="IA en la educación 2.2: Puedo identificar posibles problemas éticos en las aplicaciones de IA y proponer soluciones.">AI2.2</a><a class="ele" href="../framework.html#AI2.1" title="IA en la educación 2.1: Sé cómo aplicar principios éticos al usar o desarrollar IA para la educación.">AI2.1</a><a class="ele" href="../framework.html#AI2.3" title="IA en la educación 2.3: Soy consciente de la importancia de la transparencia y la rendición de cuentas en los sistemas de IA.">AI2.3</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Banco de actividades de las Expectativas Esenciales de Aprendizaje de TCEA.</strong> Aprendizaje profesional y actividades para estudiantes K–16 sobre alfabetización en IA generativa, ciudadanía digital y alfabetización mediática, en papel o en pantalla.</p>
+    <p>Actividades de Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), basadas en las <a href="https://tinyurl.com/tceaeles1">Expectativas Esenciales de Aprendizaje de TCEA</a> (CC BY-SA 2024). Compartidas bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: cópielas, adáptelas y reutilícelas dando crédito. Sin inicio de sesión ni rastreo.</p>
+    <p class="ai-note">Las fotos de este sitio son ilustraciones generadas con IA de personas ficticias, no de estudiantes ni personal reales.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog de TCEA</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
+  <nav aria-label="Relacionados">
+    <p class="foot-h">Más recursos gratuitos</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Asistente de alineación con las ELE</a>
+    <a href="https://mglearn.github.io/activities/">Centro de actividades de aprendizaje</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Breakouts de ciudadanía digital</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Breakouts de alfabetización en IA generativa</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

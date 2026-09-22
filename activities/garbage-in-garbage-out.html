@@ -8,8 +8,15 @@
 <meta property="og:title" content="Garbage In, Garbage Out | ELE Activity Bank">
 <meta property="og:description" content="Students write instructions for a classmate &quot;robot&quot; who follows them exactly, discover why vague prompts get surprising results, and build a recipe for clear prompts they can use with AI and with people.">
 <meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
-
-
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/garbage-in-garbage-out.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/garbage-in-garbage-out.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/garbage-in-garbage-out.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/site.css">
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
@@ -22,10 +29,10 @@
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
     <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
-      <a href="../guide.html">Facilitator guide</a>
+      <a href="../guide.html">Guide</a><span class="navmenu-sep" aria-hidden="true">|</span>
       <a href="../standards.html">Standards</a>
     </div></details>
-    
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Language</span><select aria-label="Language"><option value="en" lang="en" data-href="../activities/garbage-in-garbage-out.html" selected>English</option><option value="es" lang="es" data-href="../es/activities/garbage-in-garbage-out.html">Español</option></select></label>
   </nav>
 </header>
 
@@ -182,7 +189,7 @@
   </nav>
 </footer>
 <script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
-
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
 
 </body>
 </html>

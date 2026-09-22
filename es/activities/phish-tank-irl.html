@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La pecera del phishing | Banco de actividades ELE</title>
+<meta name="description" content="Los equipos clasifican catorce mensajes de texto, correos electrónicos y mensajes de chat de juegos en seguros, estafas o verificar de otra manera, y aprenden por qué las estafas pulidas con IA hacen que los errores de ortografía ya no sirvan como pista.">
+<meta property="og:title" content="La pecera del phishing | Banco de actividades ELE">
+<meta property="og:description" content="Los equipos clasifican catorce mensajes de texto, correos electrónicos y mensajes de chat de juegos en seguros, estafas o verificar de otra manera, y aprenden por qué las estafas pulidas con IA hacen que los errores de ortografía ya no sirvan como pista.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/phish-tank-irl.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/phish-tank-irl.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/phish-tank-irl.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Banco de actividades</span></a>
+  <nav aria-label="Principal">
+    <a href="../index.html#catalog">Actividades</a>
+    <a href="../framework.html">Las ELE</a>
+    <details class="navmenu"><summary>Para el facilitador</summary><div class="navmenu-panel">
+      <a href="../guide.html">Guía</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Estándares</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Idioma</span><select aria-label="Idioma"><option value="en" lang="en" data-href="../../activities/phish-tank-irl.html">English</option><option value="es" lang="es" data-href="../../es/activities/phish-tank-irl.html" selected>Español</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="es">Esta traducción se hizo con ayuda de IA y está pendiente de revisión por hablantes nativos. La versión en inglés es la original.</p>
+
+<main id="main" class="act">
+  <div class="act-head has-photo">
+    <figure class="act-photo"><img class="photo" src="../../assets/img/cat-35-digcit.jpg" width="1536" height="1024" alt="Fifth graders discuss a trail of paper footprints across their classroom floor."></figure>
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Todas las actividades</a> <span aria-hidden="true">/</span> Aprendizaje estudiantil</p>
+    <h1>La pecera del phishing</h1>
+    <p class="lede">Los equipos clasifican catorce mensajes de texto, correos electrónicos y mensajes de chat de juegos en seguros, estafas o verificar de otra manera, y aprenden por qué las estafas pulidas con IA hacen que los errores de ortografía ya no sirvan como pista.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/phish-tank-irl.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Imprimir hojas</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">Imprimir esta guía</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="De un vistazo">
+      <dl>
+        <div><dt>Tiempo</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>40 minutos</dd></div>
+        <div><dt>Modalidad</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</dd></div>
+        <div><dt>Grados</dt><dd>3–5, 6–8</dd></div>
+        
+        <div><dt>Grupo</dt><dd>Equipos de 3–4; de 6 a 10 equipos funciona bien para el recorrido por la galería</dd></div>
+        <div><dt>Ejes</dt><dd class="chips"><span class="strand s-digcit">Ciudadanía digital</span><span class="strand s-genai">IA generativa</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Indicadores ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#S2.1">S2.1</a><div><span class="ind-area">Estudiantes · Seguridad en línea</span>Sé cómo proteger mi información personal en internet.</div></li><li><a class="ele" href="../framework.html#S2.3">S2.3</a><div><span class="ind-area">Estudiantes · Seguridad en línea</span>Soy consciente de los posibles riesgos de compartir contenido en internet.</div></li><li><a class="ele" href="../framework.html#AI2.2">AI2.2</a><div><span class="ind-area">IA en la educación · Uso ético de la IA</span>Puedo identificar posibles problemas éticos en las aplicaciones de IA y proponer soluciones.</div></li><li><a class="ele" href="../framework.html#T2.2">T2.2</a><div><span class="ind-area">Docentes · Alfabetización digital</span>Sé cómo guiar a los estudiantes en el uso seguro y responsable de internet.</div></li></ul>
+      <h2 class="glance-h">Hojas</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> La pecera de mensajes <span class="muted">(clasificación de tarjetas)</span></li><li><span class="hl">B</span> Revisión CON CALMA <span class="muted">(lista de verificación)</span></li><li><span class="hl">C</span> Laboratorio de respuestas a estafas <span class="muted">(hoja de trabajo)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Resumen</h2><p class="overview">A muchos nos enseñaron que las estafas son fáciles de detectar porque están llenas de errores. Ahora cualquiera puede usar IA para escribir en segundos una estafa pulida, amable y sin una sola falta de ortografía. En esta clasificación tipo recorrido por la galería, los equipos visitan una &quot;pecera&quot; de catorce mensajes realistas, deciden cuáles son seguros, cuáles son estafas y cuáles hay que verificar de otra manera, y nombran las señales de alerta que todavía funcionan. Se van con una rutina, CON CALMA, que pueden usar con cualquier mensaje.</p>
+        <h3 class="sub">Objetivos</h3><ul><li>Los estudiantes clasificarán mensajes realistas como Seguro, Estafa o Verifica de otra manera, y justificarán cada decisión con al menos una señal de alerta o una señal de confianza.</li><li>Los estudiantes explicarán por qué la ortografía y la gramática ya no son pistas confiables de una estafa y nombrarán señales que todavía funcionan (urgencia, secreto, pedidos de códigos o contraseñas, enlaces inesperados).</li><li>Los estudiantes practicarán una respuesta segura: no hacer clic, verificar por una vía de confianza y avisar a un adulto de confianza.</li></ul></section>
+      <section class="two">
+        <div><h2>Materiales</h2>
+          <h3 class="sub">En papel</h3><ul><li>Hoja A: La pecera de mensajes (1 juego de 14 tiras; amplíelas y péguelas por el salón, o dé un juego a cada equipo)</li><li>Tapete de clasificación de la Hoja A (1 por equipo)</li><li>Hoja B: Revisión CON CALMA (1 por estudiante)</li><li>Hoja C: Laboratorio de respuestas a estafas (1 por equipo)</li><li>Cinta de pintor; notas adhesivas de tres colores (verde = Seguro, rojo = Estafa, amarillo = Verifica de otra manera)</li></ul>
+          <h3 class="sub">En pantalla</h3><ul><li>Opcional: proyector del maestro para mostrar los mensajes como diapositivas</li><li>Opcional: un chatbot de IA generativa aprobado por su distrito, manejado solo por el maestro, para la demostración de la &quot;estafa pulida&quot;</li></ul></div>
+        <div><h2>Antes de empezar</h2><ol class="prep"><li>Imprima la Hoja A. Para el recorrido por la galería, amplíe cada tira de mensaje y péguela por el salón, numeradas del 1 al 14. Para trabajar en los escritorios, recorte un juego por equipo.</li><li>Ponga un montón de notas adhesivas verdes, rojas y amarillas en cada estación, o dé un juego a cada equipo.</li><li>Revise la clave. Varios mensajes son seguros (Mensajes 3, 7, 11) o necesitan verificarse (Mensajes 5, 9, 13). No deje que la lección se convierta en &quot;todo es una estafa&quot;.</li><li>Si planea la demostración con IA, prepare una instrucción inofensiva como &quot;Reescribe este mensaje para que suene amable y profesional&quot; y pegue la versión con errores del Mensaje 1.</li></ol></div>
+      </section>
+      <section><h2>Paso a paso</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Enganche</p>
+        <h3>Detecta la estafa en dos segundos</h3>
+        <p>Muestre o lea dos versiones del mismo mensaje lado a lado. <strong>Versión 1:</strong> &quot;URJENTE!! tu cuenta esta bloquiada. has clik aki para areglarlo ya&quot;. <strong>Versión 2:</strong> &quot;¡Hola! Detectamos actividad inusual en tu cuenta de PixelPlay. Para proteger tu progreso, confirma tu inicio de sesión en las próximas 24 horas usando el enlace seguro que aparece abajo&quot;. Pregunte: <strong>&quot;¿Cuál es la estafa?&quot;</strong> Revele: las dos lo son. Diga: &quot;Ahora los estafadores pueden usar IA para corregir la ortografía y hacer que suene amable. Así que necesitamos mejores pistas&quot;.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Si tiene un chatbot aprobado por el distrito, pegue la Versión 1 y pídale en vivo en el proyector que &quot;haga que esto suene profesional&quot;. No envíe nada a ningún lado; lo importante es lo rápido que aparece el pulido.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–18 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Explorar</p>
+        <h3>El recorrido por la galería</h3>
+        <p>Los equipos rotan por los 14 mensajes (más o menos un minuto por estación, o trabajan con las tiras en sus escritorios). En cada uno, colocan una nota adhesiva de color: <strong>verde = Seguro, rojo = Estafa, amarillo = Verifica de otra manera</strong>, y escriben una señal que los convenció. Los equipos no pueden hacer clic, llamar ni responder a nada; solo pueden observar.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Esté atento a frases como &quot;No tiene errores, así que está bien&quot;. Lleve ese razonamiento a la reflexión final.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">18–26 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Análisis</p>
+        <h3>¿Qué señales todavía funcionan?</h3>
+        <p>Vayan a los tres mensajes con los votos más divididos. Pida a los equipos que defiendan su color. Revele la clave y construya una lista de la clase titulada <strong>&quot;Señales que todavía funcionan&quot;</strong>: urgencia, secreto (&quot;no le digas a nadie&quot;), un pedido de contraseñas, códigos o dinero, un enlace o remitente que no coincide con la empresa real, una oferta demasiado buena para ser verdad y un mensaje que no esperabas. Luego pregunte: <strong>&quot;¿Por qué 'verifica de otra manera' a veces es la respuesta más inteligente?&quot;</strong></p>
+        <p class="step-note"><span>Nota para el facilitador</span>Recalque que pedir un código de verificación es una señal de alerta grave. Un código de inicio de sesión es solo para ti; un amigo de verdad o una empresa real no te pedirá que se lo envíes en un mensaje.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">26–30 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Modelar</p>
+        <h3>La revisión CON CALMA</h3>
+        <p>Reparta la Hoja B y modélela con el Mensaje 5 (el &quot;amigo&quot; que pide un código en el chat del juego). Piense en voz alta: &quot;<strong>C</strong>alma. Siento que me están apurando. <strong>O</strong>bservo quién lo envía... es una cuenta nueva con el nombre de mi amigo. <strong>N</strong>o abro nada. <strong>C</strong>onsulto con alguien: le preguntaré a mi amigo en persona o por nuestro chat de siempre. <strong>A</strong> nadie le doy códigos ni contraseñas, nunca. <strong>L</strong>e aviso a un adulto. <strong>M</strong>e aseguro de advertir a otros. <strong>A</strong>noto lo que pasó para reconocerlo la próxima vez&quot;.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Es posible que los estudiantes menores de 13 años no tengan cuentas propias; preséntelo como proteger un teléfono de la familia, una consola de videojuegos o una cuenta de la escuela.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">30–37 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Aplicar</p>
+        <h3>Laboratorio de respuestas a estafas</h3>
+        <p>Los equipos completan la Hoja C. Eligen una estafa de la pecera y escriben <strong>la acción segura</strong> que tomarían, <strong>la vía de confianza</strong> que usarían para verificar y <strong>lo que le dirían</strong> a un hermano menor o a un amigo que recibiera el mismo mensaje. Luego cada equipo escribe una señal nueva que la clase no haya incluido en la lista.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Busque vías de confianza que no usen el propio mensaje: la app oficial, un número del reverso de una tarjeta, un maestro o un padre, el sitio web real escrito a mano.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">37–40 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Reflexionar</p>
+        <h3>Una señal que voy a recordar</h3>
+        <p>En una nota adhesiva de salida, cada estudiante escribe la señal que va a recordar y a qué persona le avisaría si algo no le pareciera bien. Recójalas en la puerta.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Si un estudiante comparte una estafa real que vivió él o su familia, agradézcale y siga el proceso de reporte de su escuela si hay algún riesgo que continúe.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Papel o pantalla</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</h3><p>Diseñada para papel: la pecera de mensajes se pega en las paredes, las notas adhesivas registran los votos y la tarjeta CON CALMA se va a casa. Si no tiene proyector, lea en voz alta la Versión 1 y la Versión 2 de la actividad inicial.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Digital</h3><p>Publique los mensajes como diapositivas o en un formulario para que los estudiantes voten Seguro, Estafa o Verifica de otra manera y vean los resultados de la clase en una gráfica. Solo el maestro puede demostrar cómo un chatbot aprobado por el distrito pule un mensaje torpe; los estudiantes nunca pegan mensajes reales ni información personal en una herramienta de IA. Los estudiantes de 6–8 pueden revisar después, con el maestro, la configuración de seguridad de su cuenta escolar.</p></div>
+        <p class="why"><strong>¿Necesita una pantalla?</strong> Una demostración en vivo del pulido con IA prueba en segundos que la buena ortografía no significa nada, y eso lleva a los estudiantes a fijarse en las señales que todavía funcionan. La clasificación y el razonamiento centrales son más sólidos en papel, donde cada voto y cada señal quedan a la vista en la pared.</p>
+      </section>
+      <section class="evidence"><h2>Evidencia de aprendizaje</h2><p class="muted">Lo que debería poder ver o recopilar si funcionó.</p><ul><li>Los estudiantes justifican un color con una señal específica (&quot;pide un código&quot;, &quot;el enlace no coincide con la empresa&quot;), no con &quot;se ve falso&quot;.</li><li>Los estudiantes descartan la ortografía como pista confiable y explican por qué, citando el ejemplo pulido con IA.</li><li>La Hoja C nombra una vía de confianza que no usa el enlace, el número ni el botón de respuesta del propio mensaje sospechoso.</li></ul></section>
+      <section><h2>Adaptaciones</h2><dl class="adapt"><div><dt>Grados 3–5</dt><dd>Use los Mensajes 1, 3, 5, 7, 8 y 12, y reduzca CON CALMA a tres pasos: Detente, No hagas clic, Díselo a un adulto.</dd></div><div><dt>Grados 9–12</dt><dd>Agregue estafas de ofertas de trabajo y de becas, y conversen sobre cómo la IA ayuda a los estafadores a personalizar mensajes con información que la gente publica abiertamente.</dd></div><div><dt>Estudiantes bilingües emergentes</dt><dd>Ofrezca los mensajes en los idiomas que los estudiantes hablan en casa cuando sea posible; las estafas a menudo se dirigen a las familias en más de un idioma. Permita que los equipos conversen sobre las señales en cualquier idioma.</dd></div></dl></section>
+      <section class="stds"><h2>Conexiones con los estándares</h2><p>Los estudiantes clasifican mensajes realistas como seguros, estafa o verificar por otra vía, y nombran señales de alerta que siguen funcionando, la parte de phishing y seguridad de la ciudadanía digital.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-10" title="Aplicaciones Tecnológicas, ciudadanía digital: privacidad, seguridad y protección (c)(10)">privacidad, seguridad y protección (c)(10)</a><span class="std-sec">Secciones de los TEKS: Technology Applications §126.8–§126.10, §126.17–§126.19</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Comprensión auditiva">Comprensión auditiva</a><a class="std std-elps" href="../standards.html#elps-c3" title="Expresión oral">Expresión oral</a><a class="std std-elps" href="../standards.html#elps-c4" title="Lectura">Lectura</a><a class="std std-elps" href="../standards.html#elps-c5" title="Escritura">Escritura</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Destacar y explorar patrones, características esenciales, grandes ideas y relaciones">3.2</a><a class="std std-udl" href="../standards.html#udl-4-1" title="Variar y respetar los métodos de respuesta, navegación y movimiento">4.1</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Fomentar la colaboración, la interdependencia y el aprendizaje colectivo">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promover la reflexión individual y colectiva">9.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Vea cómo se alinean todas las actividades</a></p></section>
+      <section class="two">
+        <div><h2>Reflexionar</h2><ul><li>¿Me mantengo seguro y tomo buenas decisiones cuando uso internet? ¿Qué haré la próxima vez que un mensaje me haga sentir apurado?</li><li>¿Qué información personal querría más un estafador de mí o de mi familia, y cómo la voy a proteger?</li><li>¿Quién es mi adulto de confianza o cuál es mi vía de confianza para verificar un mensaje?</li></ul></div>
+        <div><h2>Lo que sigue</h2><p>Los estudiantes se llevan a casa la tarjeta CON CALMA y le explican a un familiar, paso a paso, un mensaje de la pecera. En la siguiente clase, invite a voluntarios a compartir una señal de estafa que su familia reconoció.</p></div>
+      </section>
+      <section><h2>Combina bien con</h2><ul class="connections"><li><a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts (K–8)</a><span>Actividades de escape (breakouts) de seguimiento sobre seguridad y privacidad en línea.</span></li><li><a href="https://mglearn.github.io/tcea/privacy-audit/">Family App Privacy Audit</a><span>Una herramienta para las familias para continuar la conversación en casa.</span></li></ul></section>
+      <section class="related noprint"><h2>Actividades relacionadas</h2><div class="cards"><article class="card has-photo" data-id="data-trail-audit">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-912-digcit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-digcit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Aprendizaje estudiantil<span>para Grados 9–12, Educación superior</span></p>
+    <h3><a href="../activities/data-trail-audit.html">Auditoría del rastro de datos</a></h3>
+    <p class="card-tag">Los equipos leen la política de privacidad de una app de estudio con IA como si fueran investigadores, trazan un mapa de hacia dónde podrían viajar sus datos y eligen configuraciones y hábitos que reducen su rastro.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>65 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-digcit">Ciudadanía digital</span><span class="strand s-genai">IA generativa</span></span><span class="eles"><a class="ele" href="../framework.html#S2.1" title="Estudiantes 2.1: Sé cómo proteger mi información personal en internet.">S2.1</a><a class="ele" href="../framework.html#S2.3" title="Estudiantes 2.3: Soy consciente de los posibles riesgos de compartir contenido en internet.">S2.3</a><a class="ele" href="../framework.html#AI2.3" title="IA en la educación 2.3: Soy consciente de la importancia de la transparencia y la rendición de cuentas en los sistemas de IA.">AI2.3</a></span></div>
+  </article><article class="card has-photo" data-id="my-digital-safety-plan">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-68-digcit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-digcit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Aprendizaje estudiantil<span>para Grados 6–8, Grados 9–12</span></p>
+    <h3><a href="../activities/my-digital-safety-plan.html">Mi plan de seguridad digital</a></h3>
+    <p class="card-tag">Los estudiantes analizan dilemas reales sobre qué compartir, revisan sus hábitos de seguridad y privacidad en sus cuentas y escriben un plan de seguridad personal que le explican a un familiar.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-digcit">Ciudadanía digital</span><span class="strand s-genai">IA generativa</span></span><span class="eles"><a class="ele" href="../framework.html#S2.1" title="Estudiantes 2.1: Sé cómo proteger mi información personal en internet.">S2.1</a><a class="ele" href="../framework.html#S2.3" title="Estudiantes 2.3: Soy consciente de los posibles riesgos de compartir contenido en internet.">S2.3</a><a class="ele" href="../framework.html#S1.2" title="Estudiantes 1.2: Puedo adaptarme a nuevas herramientas y plataformas digitales.">S1.2</a></span></div>
+  </article><article class="card has-photo" data-id="password-power">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-35-digcit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-digcit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Aprendizaje estudiantil<span>para Grados 3–5</span></p>
+    <h3><a href="../activities/password-power.html">El poder de las contraseñas y los Guardianes de Secretos</a></h3>
+    <p class="card-tag">Los estudiantes ordenan contraseñas de la más débil a la más fuerte, arman frases de contraseña de práctica chistosas pero fuertes y clasifican momentos difíciles en guárdalo en secreto, compártelo con un adulto de confianza o avísale a un adulto ahora.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>40 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-digcit">Ciudadanía digital</span><span class="strand s-genai">IA generativa</span></span><span class="eles"><a class="ele" href="../framework.html#S2.1" title="Estudiantes 2.1: Sé cómo proteger mi información personal en internet.">S2.1</a><a class="ele" href="../framework.html#S2.3" title="Estudiantes 2.3: Soy consciente de los posibles riesgos de compartir contenido en internet.">S2.3</a><a class="ele" href="../framework.html#S4.1" title="Estudiantes 4.1: Sé cómo asumir la responsabilidad de mi propio aprendizaje.">S4.1</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Banco de actividades de las Expectativas Esenciales de Aprendizaje de TCEA.</strong> Aprendizaje profesional y actividades para estudiantes K–16 sobre alfabetización en IA generativa, ciudadanía digital y alfabetización mediática, en papel o en pantalla.</p>
+    <p>Actividades de Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), basadas en las <a href="https://tinyurl.com/tceaeles1">Expectativas Esenciales de Aprendizaje de TCEA</a> (CC BY-SA 2024). Compartidas bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: cópielas, adáptelas y reutilícelas dando crédito. Sin inicio de sesión ni rastreo.</p>
+    <p class="ai-note">Las fotos de este sitio son ilustraciones generadas con IA de personas ficticias, no de estudiantes ni personal reales.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog de TCEA</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
+  <nav aria-label="Relacionados">
+    <p class="foot-h">Más recursos gratuitos</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Asistente de alineación con las ELE</a>
+    <a href="https://mglearn.github.io/activities/">Centro de actividades de aprendizaje</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Breakouts de ciudadanía digital</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Breakouts de alfabetización en IA generativa</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

@@ -105,10 +105,12 @@ const FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link 
 
 // Runs in <head> before paint: honor ?lang=, then a saved choice, then the browser
 // language (Contraband's order), by moving to the same page in that language.
+// A translated URL is always respected, so a shared Spanish link stays Spanish;
+// only English (default) pages redirect on a saved or browser preference.
 const LANG_BOOT = `(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
 document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
 var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
-if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
 if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
 else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();`;
 const NAV_JS = `document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});`;
@@ -171,7 +173,7 @@ ${FONTS}
     <a href="${base}index.html#catalog">${esc(t('nav.activities'))}</a>
     <a href="${base}framework.html">${esc(t('nav.eles'))}</a>
     <details class="navmenu"><summary>${esc(t('nav.facilitator'))}</summary><div class="navmenu-panel">
-      <a href="${base}guide.html">${esc(t('nav.guide'))}</a>
+      <a href="${base}guide.html">${esc(t('nav.menuGuide'))}</a><span class="navmenu-sep" aria-hidden="true">|</span>
       <a href="${base}standards.html">${esc(t('nav.standards'))}</a>
     </div></details>
     ${picker}

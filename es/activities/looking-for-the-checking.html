@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>En busca de la verificación | Banco de actividades ELE</title>
+<meta name="description" content="Un protocolo para analizar trabajos de estudiantes que le hace una sola pregunta a un conjunto de trabajos de un grupo: ¿los estudiantes realmente verificaron lo que les dijo la IA, y cómo podemos saberlo?">
+<meta property="og:title" content="En busca de la verificación | Banco de actividades ELE">
+<meta property="og:description" content="Un protocolo para analizar trabajos de estudiantes que le hace una sola pregunta a un conjunto de trabajos de un grupo: ¿los estudiantes realmente verificaron lo que les dijo la IA, y cómo podemos saberlo?">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/looking-for-the-checking.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/looking-for-the-checking.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/looking-for-the-checking.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Banco de actividades</span></a>
+  <nav aria-label="Principal">
+    <a href="../index.html#catalog">Actividades</a>
+    <a href="../framework.html">Las ELE</a>
+    <details class="navmenu"><summary>Para el facilitador</summary><div class="navmenu-panel">
+      <a href="../guide.html">Guía</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Estándares</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Idioma</span><select aria-label="Idioma"><option value="en" lang="en" data-href="../../activities/looking-for-the-checking.html">English</option><option value="es" lang="es" data-href="../../es/activities/looking-for-the-checking.html" selected>Español</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="es">Esta traducción se hizo con ayuda de IA y está pendiente de revisión por hablantes nativos. La versión en inglés es la original.</p>
+
+<main id="main" class="act">
+  <div class="act-head">
+    
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Todas las actividades</a> <span aria-hidden="true">/</span> Aprendizaje profesional</p>
+    <h1>En busca de la verificación</h1>
+    <p class="lede">Un protocolo para analizar trabajos de estudiantes que le hace una sola pregunta a un conjunto de trabajos de un grupo: ¿los estudiantes realmente verificaron lo que les dijo la IA, y cómo podemos saberlo?</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/looking-for-the-checking.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Imprimir hojas</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">Imprimir esta guía</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="De un vistazo">
+      <dl>
+        <div><dt>Tiempo</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 minutos</dd></div>
+        <div><dt>Modalidad</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</dd></div>
+        <div><dt>Para</dt><dd>Coaches, Docentes, Bibliotecarios</dd></div>
+        <div><dt>Dirigido a</dt><dd>6–8, 9–12</dd></div>
+        <div><dt>Grupo</dt><dd>Equipos de PLC de 3 a 6 con un facilitador (coach o maestro líder)</dd></div>
+        <div><dt>Ejes</dt><dd class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-medialit">Alfabetización mediática</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Indicadores ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#C3.1">C3.1</a><div><span class="ind-area">Coaches · Coaching basado en datos</span>Sé cómo usar los datos para fundamentar las decisiones pedagógicas.</div></li><li><a class="ele" href="../framework.html#C3.2">C3.2</a><div><span class="ind-area">Coaches · Coaching basado en datos</span>Puedo ayudar a los docentes a interpretar los resultados de las evaluaciones y actuar en consecuencia.</div></li><li><a class="ele" href="../framework.html#AI4.2">AI4.2</a><div><span class="ind-area">IA en la educación · IA y pensamiento crítico</span>Puedo enseñar a otros a cuestionar y verificar las respuestas de la IA.</div></li><li><a class="ele" href="../framework.html#T2.3">T2.3</a><div><span class="ind-area">Docentes · Alfabetización digital</span>Conozco estrategias para ayudar a los estudiantes a identificar y combatir la desinformación.</div></li></ul>
+      <h2 class="glance-h">Hojas</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Conjunto de trabajos de estudiantes: notas de investigación sobre el Dust Bowl <span class="muted">(lectura)</span></li><li><span class="hl">B</span> Continuo de evidencia de verificación <span class="muted">(rúbrica)</span></li><li><span class="hl">C</span> Registro del protocolo <span class="muted">(organizador)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Resumen</h2><p class="overview">Hoy los maestros piden a los estudiantes que &quot;verifiquen lo que dice la IA&quot;, y la mayoría escribe &quot;Lo verifiqué&quot;. Este protocolo trata esa tarea como datos. Una PLC (comunidad de aprendizaje profesional) lee un conjunto ficticio de notas de investigación de octavo grado, describe lo que realmente aparece en la página, ubica cada muestra en un continuo de evidencia de verificación y planifica la enseñanza que el patrón requiere. La acción clave para los coaches: pasar de la conversación &quot;¿Los estudiantes están haciendo trampa con la IA?&quot; a &quot;¿Qué muestra el trabajo de nuestros estudiantes sobre cómo verifican, y qué enseñamos a continuación?&quot;.</p>
+        <h3 class="sub">Objetivos</h3><ul><li>Los participantes separarán la descripción de baja inferencia del trabajo de los estudiantes de la interpretación y el juicio.</li><li>Los participantes ubicarán muestras de trabajo de estudiantes en un continuo de evidencia de verificación y describirán el patrón en el conjunto de trabajos del grupo.</li><li>Los participantes planificarán una acción de enseñanza, y la evidencia que debería producir, para cada nivel del patrón.</li></ul></section>
+      <section class="two">
+        <div><h2>Materiales</h2>
+          <h3 class="sub">En papel</h3><ul><li>Hoja A: Conjunto de trabajos de estudiantes, notas de investigación sobre el Dust Bowl (1 por persona)</li><li>Hoja B: Continuo de evidencia de verificación (1 por persona)</li><li>Hoja C: Registro del protocolo (1 por equipo, para quien toma notas)</li><li>Notas adhesivas de dos colores (uno para &quot;Observo&quot; y otro para &quot;Me pregunto&quot;)</li></ul>
+          <h3 class="sub">En pantalla</h3><ul><li>Opcional: trabajos de los propios estudiantes del equipo, sin datos identificables, escaneados en una carpeta compartida</li><li>Opcional: una copia compartida de la Hoja C para PLC virtuales</li></ul></div>
+        <div><h2>Antes de empezar</h2><ol class="prep"><li>Lea la Hoja A y las notas del facilitador del paso 3 para poder regresar al equipo a la evidencia.</li><li>Elija con anticipación a quien controla el tiempo y a quien toma notas, o asígnelos al inicio.</li><li>Si el equipo traerá sus propios trabajos de estudiantes la próxima vez, dígaselo ahora: deben quitar los nombres y todo lo que identifique a un estudiante antes de compartirlos.</li></ol></div>
+      </section>
+      <section><h2>Paso a paso</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–4 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Enganche</p>
+        <h3>&quot;Lo verifiqué.&quot;</h3>
+        <p>Escriba en el pizarrón: <strong>&quot;Lo verifiqué y está bien.&quot;</strong> Pregunte: <strong>&quot;Si un estudiante escribió esto, ¿qué sabe usted realmente?&quot;</strong> Tome dos o tres respuestas. Diga: &quot;Hoy buscamos la verificación en sí. No la respuesta ni el esfuerzo. La evidencia de la acción&quot;.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>La respuesta honesta es: usted sabe que el estudiante sabe que se suponía que debía verificar. Nada más.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">4–14 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Explorar</p>
+        <h3>Solo describir</h3>
+        <p>Todos leen la Hoja A en silencio. En notas adhesivas de un color, escriban solo lo que está <strong>en la página</strong>: &quot;El estudiante C cita un número de página&quot;, no &quot;El estudiante C es cuidadoso&quot;. Después de seis minutos, den una vuelta a la mesa; cada persona lee una nota. El facilitador redirige cualquier juicio: <strong>&quot;¿Qué hay en el trabajo que le hace decir eso?&quot;</strong> Quien toma notas registra las descripciones en la Hoja C.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Este paso se siente lento. Es donde el equipo deja de ver &quot;niños buenos&quot; y &quot;niños flojos&quot; y empieza a ver acciones.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">14–24 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Practicar</p>
+        <h3>Ubicar cada muestra en el continuo</h3>
+        <p>Con la Hoja B, las parejas ubican cada una de las siete muestras en un nivel para cada criterio y luego comparan con el resto de la mesa. Cuenten cuántas muestras llegaron a <strong>Verificó una afirmación</strong> o más. Comenten las difíciles: el estudiante E verificó en un sitio que repetía exactamente las palabras de la IA; el estudiante F no usó la IA en absoluto; el estudiante G encontró una discrepancia y aun así conservó la versión de la IA.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Qué buscar: el equipo trata el caso de E como una brecha de <em>alfabetización mediática</em> (fuentes circulares) y el de G como una brecha de <em>disposición</em> (confiar en la máquina por encima de una fuente). Necesitan enseñanza distinta.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">24–31 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Análisis</p>
+        <h3>¿Qué dice el patrón sobre nuestra enseñanza?</h3>
+        <p>Haga la pregunta de coaching en su forma de datos: <strong>&quot;Si este fuera nuestro grupo, ¿qué dice este patrón sobre lo que enseñamos y lo que dimos por sentado?&quot;</strong> Lleve al equipo de las etiquetas sobre los estudiantes a las causas instruccionales: &quot;¿Alguna vez modelamos cómo se ve una verificación? ¿La tarea pedía evidencia de la verificación o solo la respuesta?&quot;</p>
+        <p class="step-note"><span>Nota para el facilitador</span>En este conjunto, la tarea decía &quot;verifiquen dos afirmaciones&quot;, pero nunca mostró cómo ni pidió a los estudiantes que anotaran qué compararon. La mayoría de las brechas tienen su origen ahí.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">31–42 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Aplicar</p>
+        <h3>Planificar la siguiente acción para cada grupo</h3>
+        <p>En la última columna de la Hoja C, el equipo planifica una acción para cada nivel: para los estudiantes <strong>sin verificación</strong>, un modelado en voz alta del maestro verificando una afirmación de la IA; para las <strong>verificaciones declaradas</strong>, un registro de verificación obligatorio (afirmación · dónde verifiqué · coincide o no coincide · qué cambié); para las <strong>fuentes circulares</strong>, una minilección sobre cómo encontrar una fuente que no haya copiado a la primera; para <strong>encontró una discrepancia pero conservó la IA</strong>, una discusión sobre por qué una fuente documentada tiene más peso que una respuesta fluida. Para cada acción, escriban cómo se verá distinto el trabajo de los estudiantes la próxima vez.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Mantenga el plan lo bastante pequeño para probarlo en una semana. La medida es el siguiente conjunto de trabajos del grupo, no una encuesta.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">42–45 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Reflexionar</p>
+        <h3>Próxima fecha de datos</h3>
+        <p>El equipo fija una fecha para traer el siguiente conjunto de trabajos de estudiantes y acuerda qué criterio de la Hoja B va a contar. Cada persona escribe una oración: &quot;La próxima vez sabré que mi acción funcionó si…&quot;</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Esta es la parte de medir y ajustar del ciclo de coaching. Ponga la fecha en el calendario de la PLC antes de que la gente se vaya.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Papel o pantalla</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</h3><p>El protocolo está diseñado para papel: trabajos impresos, notas adhesivas y un registro compartido. Analizar los trabajos de los estudiantes en una mesa, con todos sosteniendo la misma página, mantiene la conversación anclada en la evidencia y facilita señalar una línea.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Digital</h3><p>Coloque escaneos sin datos identificables de los trabajos de estudiantes en una carpeta compartida y use una copia compartida de la Hoja C. En una PLC virtual, los participantes agregan comentarios de &quot;Observo&quot; directamente sobre el trabajo escaneado y luego el facilitador los agrupa. Si los estudiantes hicieron su verificación en un registro o documento digital con historial de versiones, el equipo puede ver cuándo y cómo ocurrió la verificación.</p></div>
+        <p class="why"><strong>¿Necesita una pantalla?</strong> El papel es la mejor opción para el protocolo en sí. Un registro de verificación digital se gana su lugar en el aula después, porque marca la fecha y hora de cada verificación y conserva juntos la afirmación, la fuente y la revisión, lo cual es una evidencia más rica que un párrafo terminado.</p>
+      </section>
+      <section class="evidence"><h2>Evidencia de aprendizaje</h2><p class="muted">Lo que debería poder ver o recopilar si funcionó.</p><ul><li>Las descripciones en la Hoja C se mantienen de baja inferencia (lo que está en la página) antes de cualquier interpretación.</li><li>El equipo distingue una verificación declarada de una verificación documentada y nombra las fuentes circulares como un problema en sí mismo.</li><li>Las acciones planificadas están vinculadas al diseño de la tarea y cada una nombra la evidencia de los estudiantes que se espera la próxima vez.</li><li>Antes de terminar la reunión se fijan una fecha y un criterio para el siguiente análisis de trabajos de estudiantes.</li></ul></section>
+      <section><h2>Adaptaciones</h2><dl class="adapt"><div><dt>Equipos de grados 3–5</dt><dd>Simplifique el continuo a tres niveles: &quot;No verificó&quot;, &quot;Verificó una cosa&quot;, &quot;Encontró algo que corregir&quot;. Use una respuesta de IA proyectada por el maestro en lugar de que los estudiantes usen la IA.</dd></div><div><dt>Educación superior</dt><dd>Use bibliografías comentadas de un curso que permita búsquedas asistidas por IA. Agregue un criterio sobre si las fuentes citadas existen y dicen lo que el estudiante afirma.</dd></div><div><dt>Bibliotecarios</dt><dd>Cofacilite con la PLC y dirija la minilección sobre fuentes circulares que el paso de aplicación suele requerir.</dd></div></dl></section>
+      <section class="stds"><h2>Conexiones con los estándares</h2><p>Una PLC (comunidad de aprendizaje profesional) examina las notas de los estudiantes sobre el Dust Bowl en busca de evidencia de una verificación real, y luego planifica la enseñanza sobre cómo contrastar las afirmaciones de la IA con fuentes independientes.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-elar-inquiry" title="ELAR: indagación e investigación">indagación e investigación</a><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Aplicaciones Tecnológicas, ciudadanía digital: ética y leyes (c)(9)">ética y leyes (c)(9)</a><a class="std std-teks" href="../standards.html#teks-ss-skills" title="Destrezas de estudios sociales (fuentes, marcos de referencia, sesgo y evidencia)">Destrezas de estudios sociales (fuentes, marcos de referencia, sesgo y evidencia)</a><span class="std-sec">Secciones de los TEKS: Technology Applications §126.17–§126.19, cursos de Aplicaciones Tecnológicas de preparatoria (19 TAC Capítulo 126); ELAR §110.22–§110.24, §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Comprensión auditiva">Comprensión auditiva</a><a class="std std-elps" href="../standards.html#elps-c3" title="Expresión oral">Expresión oral</a><a class="std std-elps" href="../standards.html#elps-c4" title="Lectura">Lectura</a><a class="std std-elps" href="../standards.html#elps-c5" title="Escritura">Escritura</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-6-4" title="Mejorar la capacidad de monitorear el progreso">6.4</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Fomentar la colaboración, la interdependencia y el aprendizaje colectivo">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promover la reflexión individual y colectiva">9.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximizar la transferencia y la generalización">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Vea cómo se alinean todas las actividades</a></p></section>
+      <section class="two">
+        <div><h2>Reflexionar</h2><ul><li>¿Cómo estoy usando los datos para informar y orientar mis prácticas de coaching? (Pregunta guía de las ELE para coaches)</li><li>¿Qué cuenta como datos en nuestra PLC, y dónde falta el razonamiento de los estudiantes en lo que analizamos?</li><li>¿Cómo sabría si mejoró la verificación de los estudiantes, sin depender de lo que ellos me digan?</li></ul></div>
+        <div><h2>Llévelo a sus estudiantes</h2><p>Revise una próxima tarea para que los estudiantes tengan que registrar cada verificación (afirmación, fuente, coincide o no coincide, cambio). Lleve el siguiente conjunto de trabajos del grupo a la PLC y cuente el mismo criterio para ver qué cambió.</p></div>
+      </section>
+      <section><h2>Combina bien con</h2><ul class="connections"><li><a href="https://cor.inquirygroup.org/">Digital Inquiry Group: Razonamiento cívico en línea</a><span>Lecciones para las brechas de fuentes circulares y de lectura lateral que este protocolo suele sacar a la luz.</span></li><li><a href="https://mglearn.github.io/tcea/ddp/">Guía de campo de patrones para presentar datos</a><span>Ideas para mostrar el conteo de antes y después a una PLC o a un equipo directivo.</span></li></ul></section>
+      <section class="related noprint"><h2>Actividades relacionadas</h2><div class="cards"><article class="card" data-id="lateral-reading-relay">
+    
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Aprendizaje profesional<span>para Docentes, Bibliotecarios, Coaches</span></p>
+    <h3><a href="../activities/lateral-reading-relay.html">Relevos de lectura lateral</a></h3>
+    <p class="card-tag">Los equipos compiten para verificar afirmaciones virales y un resumen escrito por IA saliendo de la página, no mirándola con más atención.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Alfabetización mediática</span><span class="strand s-genai">IA generativa</span></span><span class="eles"><a class="ele" href="../framework.html#T2.1" title="Docentes 2.1: Puedo enseñar a los estudiantes a evaluar críticamente la información en línea.">T2.1</a><a class="ele" href="../framework.html#T2.3" title="Docentes 2.3: Conozco estrategias para ayudar a los estudiantes a identificar y combatir la desinformación.">T2.3</a><a class="ele" href="../framework.html#AI4.2" title="IA en la educación 4.2: Puedo enseñar a otros a cuestionar y verificar las respuestas de la IA.">AI4.2</a></span></div>
+  </article><article class="card" data-id="real-remixed-or-made-up">
+    
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Aprendizaje profesional<span>para Docentes, Bibliotecarios</span></p>
+    <h3><a href="../activities/real-remixed-or-made-up.html">¿Real, remezclado o inventado?</a></h3>
+    <p class="card-tag">Un recorrido por una galería de diez publicaciones virales simuladas (deepfakes o ultrafalsos, cheapfakes, fotos fuera de contexto y algunas reales) que enseña a los docentes a comprobar de dónde vienen los medios en lugar de entrecerrar los ojos buscando fallas.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Alfabetización mediática</span><span class="strand s-genai">IA generativa</span></span><span class="eles"><a class="ele" href="../framework.html#T2.3" title="Docentes 2.3: Conozco estrategias para ayudar a los estudiantes a identificar y combatir la desinformación.">T2.3</a><a class="ele" href="../framework.html#T2.1" title="Docentes 2.1: Puedo enseñar a los estudiantes a evaluar críticamente la información en línea.">T2.1</a><a class="ele" href="../framework.html#AI4.2" title="IA en la educación 4.2: Puedo enseñar a otros a cuestionar y verificar las respuestas de la IA.">AI4.2</a></span></div>
+  </article><article class="card" data-id="verify-the-bot-workshop">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Aprendizaje profesional<span>para Docentes, Bibliotecarios, Coaches</span></p>
+    <h3><a href="../activities/verify-the-bot-workshop.html">Verifica al bot</a></h3>
+    <p class="card-tag">Docentes de ciencias dividen explicaciones seguras de la IA en afirmaciones comprobables, verifican cada una con dos fuentes independientes y se van con un taller de 15 minutos para enseñar la rutina a sus colegas.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>60 min</span>
+      <span class="mode m-digital"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Digital</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">IA generativa</span><span class="strand s-medialit">Alfabetización mediática</span></span><span class="eles"><a class="ele" href="../framework.html#AI4.2" title="IA en la educación 4.2: Puedo enseñar a otros a cuestionar y verificar las respuestas de la IA.">AI4.2</a><a class="ele" href="../framework.html#AI4.1" title="IA en la educación 4.1: Sé cómo promover habilidades de pensamiento crítico en relación con la información generada por IA.">AI4.1</a><a class="ele" href="../framework.html#AI4.3" title="IA en la educación 4.3: Conozco estrategias para desarrollar habilidades de resolución de problemas relacionadas con la IA.">AI4.3</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Banco de actividades de las Expectativas Esenciales de Aprendizaje de TCEA.</strong> Aprendizaje profesional y actividades para estudiantes K–16 sobre alfabetización en IA generativa, ciudadanía digital y alfabetización mediática, en papel o en pantalla.</p>
+    <p>Actividades de Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), basadas en las <a href="https://tinyurl.com/tceaeles1">Expectativas Esenciales de Aprendizaje de TCEA</a> (CC BY-SA 2024). Compartidas bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: cópielas, adáptelas y reutilícelas dando crédito. Sin inicio de sesión ni rastreo.</p>
+    <p class="ai-note">Las fotos de este sitio son ilustraciones generadas con IA de personas ficticias, no de estudiantes ni personal reales.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog de TCEA</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
+  <nav aria-label="Relacionados">
+    <p class="foot-h">Más recursos gratuitos</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Asistente de alineación con las ELE</a>
+    <a href="https://mglearn.github.io/activities/">Centro de actividades de aprendizaje</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Breakouts de ciudadanía digital</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Breakouts de alfabetización en IA generativa</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>

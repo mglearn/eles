@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Autopsia de un algoritmo | Banco de actividades ELE</title>
+<meta name="description" content="Los estudiantes diseccionan las funciones de diseño de una app social ficticia, rastrean cómo cada una moldea la atención y las creencias, y rediseñan el feed pensando en las personas en lugar de en la interacción.">
+<meta property="og:title" content="Autopsia de un algoritmo | Banco de actividades ELE">
+<meta property="og:description" content="Los estudiantes diseccionan las funciones de diseño de una app social ficticia, rastrean cómo cada una moldea la atención y las creencias, y rediseñan el feed pensando en las personas en lugar de en la interacción.">
+<meta property="og:image" content="https://mglearn.github.io/eles/assets/img/og-share.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://mglearn.github.io/eles/activities/algorithm-autopsy.html">
+<link rel="alternate" hreflang="es" href="https://mglearn.github.io/eles/es/activities/algorithm-autopsy.html">
+<link rel="alternate" hreflang="x-default" href="https://mglearn.github.io/eles/activities/algorithm-autopsy.html">
+<script>(function(){var K='tcea.eles.lang',h=document.documentElement,cur=h.lang,alt={};
+document.querySelectorAll('link[rel=alternate][hreflang]').forEach(function(l){alt[l.hreflang]=l.href});
+var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{saved=localStorage.getItem(K)}catch(e){}
+if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else if(cur!=='en'){want=cur}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
+if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
+else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Banco de actividades</span></a>
+  <nav aria-label="Principal">
+    <a href="../index.html#catalog">Actividades</a>
+    <a href="../framework.html">Las ELE</a>
+    <details class="navmenu"><summary>Para el facilitador</summary><div class="navmenu-panel">
+      <a href="../guide.html">Guía</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="../standards.html">Estándares</a>
+    </div></details>
+    <label class="lang-pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr">Idioma</span><select aria-label="Idioma"><option value="en" lang="en" data-href="../../activities/algorithm-autopsy.html">English</option><option value="es" lang="es" data-href="../../es/activities/algorithm-autopsy.html" selected>Español</option></select></label>
+  </nav>
+</header>
+<p class="lang-notice noprint" lang="es">Esta traducción se hizo con ayuda de IA y está pendiente de revisión por hablantes nativos. La versión en inglés es la original.</p>
+
+<main id="main" class="act">
+  <div class="act-head has-photo">
+    <figure class="act-photo"><img class="photo" src="../../assets/img/cat-912-medialit.jpg" width="1536" height="1024" alt="High school students work together in a classroom newsroom using photographs and sources."></figure>
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">Todas las actividades</a> <span aria-hidden="true">/</span> Aprendizaje estudiantil</p>
+    <h1>Autopsia de un algoritmo</h1>
+    <p class="lede">Los estudiantes diseccionan las funciones de diseño de una app social ficticia, rastrean cómo cada una moldea la atención y las creencias, y rediseñan el feed pensando en las personas en lugar de en la interacción.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/algorithm-autopsy.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Imprimir hojas</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">Imprimir esta guía</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="De un vistazo">
+      <dl>
+        <div><dt>Tiempo</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>75 minutos</dd></div>
+        <div><dt>Modalidad</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</dd></div>
+        <div><dt>Grados</dt><dd>9–12</dd></div>
+        
+        <div><dt>Grupo</dt><dd>Equipos de 3–4 para la autopsia; toda la clase en dos círculos para el seminario</dd></div>
+        <div><dt>Ejes</dt><dd class="chips"><span class="strand s-medialit">Alfabetización mediática</span><span class="strand s-genai">IA generativa</span><span class="strand s-digcit">Ciudadanía digital</span></dd></div>
+      </dl>
+      <h2 class="glance-h">Indicadores ELE</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI1.1">AI1.1</a><div><span class="ind-area">IA en la educación · Alfabetización en IA</span>Sé cómo funcionan los sistemas de IA y cuáles son sus capacidades en contextos educativos.</div></li><li><a class="ele" href="../framework.html#S5.2">S5.2</a><div><span class="ind-area">Estudiantes · Solucionador creativo de problemas</span>Puedo usar la creatividad y la lógica para encontrar soluciones innovadoras.</div></li><li><a class="ele" href="../framework.html#S5.1">S5.1</a><div><span class="ind-area">Estudiantes · Solucionador creativo de problemas</span>Sé cómo abordar problemas complejos de manera sistemática.</div></li><li><a class="ele" href="../framework.html#AI1.3">AI1.3</a><div><span class="ind-area">IA en la educación · Alfabetización en IA</span>Soy consciente de las limitaciones actuales y los posibles sesgos de los sistemas de IA.</div></li><li><a class="ele" href="../framework.html#S2.2">S2.2</a><div><span class="ind-area">Estudiantes · Seguridad en línea</span>Puedo identificar fuentes de información confiables en internet.</div></li></ul>
+      <h2 class="glance-h">Hojas</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Autopsia de las funciones de Loop <span class="muted">(clasificación de tarjetas)</span></li><li><span class="hl">B</span> El memorándum de Loop (texto para el seminario) <span class="muted">(lectura)</span></li><li><span class="hl">C</span> Especificación de diseño de un feed más saludable <span class="muted">(hoja de trabajo)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Resumen</h2><p class="overview">Los sistemas de recomendación son una forma de IA que la mayoría de los estudiantes usa todos los días sin haberla elegido. Predicen qué mantendrá a una persona mirando y ordenan el contenido en consecuencia, y la app que los rodea está diseñada con funciones como la reproducción automática, las rachas y el desplazamiento infinito, que mantienen a las personas en la app por más tiempo. En esta autopsia, los equipos examinan las funciones de una app ficticia llamada Loop, clasifican cada una según para qué está optimizada y discuten en un seminario socrático si un feed puede moldear lo que la gente cree. Terminan diseñando un feed más saludable con reglas específicas, ventajas y desventajas, y una forma de medir si funciona.</p>
+        <h3 class="sub">Objetivos</h3><ul><li>Los estudiantes explicarán cómo un sistema de recomendación usa predicciones basadas en el comportamiento pasado para ordenar el contenido, y nombrarán para qué está optimizado.</li><li>Los estudiantes analizarán funciones específicas de diseño para la interacción y relacionarán cada una con su efecto probable en la atención, las emociones o las creencias.</li><li>Los estudiantes diseñarán un feed con reglas de clasificación explícitas y controles para el usuario, y justificarán las ventajas y desventajas con evidencia del seminario.</li></ul></section>
+      <section class="two">
+        <div><h2>Materiales</h2>
+          <h3 class="sub">En papel</h3><ul><li>Hoja A: clasificación Autopsia de las funciones de Loop (1 juego por equipo, recortado, con tapete de clasificación)</li><li>Hoja B: El memorándum de Loop, texto para el seminario (1 por estudiante)</li><li>Hoja C: Especificación de diseño de un feed más saludable (1 por equipo)</li><li>Papel rotafolio, marcadores, notas adhesivas</li></ul>
+          <h3 class="sub">En pantalla</h3><ul><li>No se requieren dispositivos</li><li>Opcional: en casa, los estudiantes pueden revisar en privado la página de configuración de su propia app (controles del feed, límites de tiempo, funciones de &quot;¿por qué estoy viendo esto?&quot;)</li></ul></div>
+        <div><h2>Antes de empezar</h2><ol class="prep"><li>Imprima y recorte la Hoja A para cada equipo; imprima la Hoja B para cada estudiante.</li><li>Organice el salón para un seminario en pecera: un círculo interior de 6–8 sillas y un círculo exterior.</li><li>Lea las líneas del &quot;por qué&quot; en la clave de clasificación para poder explicar el propósito de diseño de cada función sin citar estadísticas externas.</li><li>Decida si los estudiantes presentarán sus diseños a otra clase, a una clase de medios digitales o al personal de tecnología de su campus.</li></ol></div>
+      </section>
+      <section><h2>Paso a paso</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Enganche</p>
+        <h3>¿Por qué me mostró eso?</h3>
+        <p>Pida a los estudiantes que recuerden el último video o la última publicación que los sorprendió en un feed. <strong>&quot;¿Por qué creen que se eligió para ustedes?&quot;</strong> Anote las ideas en el pizarrón (&quot;vi algo parecido&quot;, &quot;a mis amigos les gustó&quot;, &quot;era popular&quot;). Diga: &quot;Cada una de estas ideas describe una predicción. Hoy vamos a hacerle una autopsia a un feed para ver cómo funcionan las predicciones y qué intentan lograr&quot;.</p>
+        
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–13 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Modelar</p>
+        <h3>Cómo funciona un sistema de recomendación</h3>
+        <p>Dibuje un ciclo sencillo en el pizarrón: <strong>Tú actúas</strong> (miras, pausas, das me gusta, compartes, saltas) → <strong>el sistema lo registra</strong> → <strong>predice</strong> con qué es probable que interactúes después, según tu historial y el de personas con historiales parecidos → <strong>ordena</strong> el contenido según esas predicciones → <strong>vuelves a actuar</strong>. Explique que esto es un tipo de IA: aprende patrones a partir de enormes cantidades de datos de comportamiento. La pregunta clave es <strong>para qué está optimizado</strong>. Un sistema recompensado por el tiempo de visualización aprenderá a favorecer lo que mantenga a la gente mirando, que no necesariamente es lo verdadero, lo útil ni lo bueno para ella.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Evite afirmar que plataformas específicas funcionan de maneras específicas. Diga &quot;muchos feeds&quot; y &quot;puede&quot;, y mantenga el enfoque en la app ficticia Loop.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">13–27 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Explorar</p>
+        <h3>La autopsia de las funciones</h3>
+        <p>Los equipos clasifican las tiras de funciones de la Hoja A en tres categorías: <strong>Te mantiene en la app</strong>, <strong>Moldea lo que ves y crees</strong> y <strong>Te da control</strong>. Para cada tira, los equipos deben decir para qué está optimizada la función y quién se beneficia. Luego cada equipo elige la función que cree que tiene el mayor efecto en lo que creen los usuarios y la escribe en una nota adhesiva para el seminario.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Algunas funciones encajan en más de una categoría. Acepte una elección razonada y pida al equipo que anote también la segunda categoría. La reproducción automática, por ejemplo, te mantiene en la app <em>y</em> decide qué ves después.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">27–47 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Análisis</p>
+        <h3>Seminario socrático: ¿Puede un feed hacerte cambiar de opinión?</h3>
+        <p>Los estudiantes leen la Hoja B, un memorándum interno ficticio del equipo de producto de Loop, y lo anotan. Haga un seminario en pecera: el círculo interior conversa durante 8 minutos mientras el círculo exterior registra la evidencia y escucha las intervenciones sólidas; luego se intercambian. Pregunta inicial: <strong>&quot;El memorándum dice que Loop solo muestra a la gente lo que quiere. ¿Es cierto?&quot;</strong> Preguntas de seguimiento: &quot;Si un feed te muestra más de aquello a lo que reaccionas, y la indignación genera reacciones, ¿qué pasa con lo que te parece normal?&quot;. &quot;¿Quién es responsable de lo que ves: tú, la empresa, los creadores o el algoritmo?&quot;. &quot;¿Confiarías más en un feed si pudieras ver por qué eligió cada publicación?&quot;.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Esté atento a los estudiantes que distinguen entre <em>mostrar a la gente lo que quiere</em> y <em>mostrar a la gente aquello a lo que reacciona</em>. Esa distinción es la idea central. Evite presentar las &quot;burbujas de filtro&quot; como un hecho comprobado para todos; la investigación sobre cuánto moldean los feeds las creencias continúa, y el seminario debe explorar la pregunta, no zanjarla.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">47–67 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Crear</p>
+        <h3>Diseña un feed más saludable</h3>
+        <p>Los equipos completan la Hoja C: eligen para quién es el feed, para qué está optimizado en lugar de la pura interacción, tres reglas de clasificación, dos controles para el usuario, una función que eliminarían y <strong>cómo medirían si funciona</strong>. También deben nombrar una desventaja: qué perderían la empresa o los usuarios. Los equipos bosquejan la pantalla del feed en el recuadro.</p>
+        <p class="step-note"><span>Nota para el facilitador</span>Insista en la medición. &quot;Los usuarios se sienten mejor&quot; es una meta; &quot;los usuarios indican si aprendieron algo nuevo después de una sesión&quot; es una medida.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">67–75 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Reflexionar</p>
+        <h3>Presentación y compromiso</h3>
+        <p>Cada equipo hace una presentación de 60 segundos. La clase vota con notas adhesivas por el diseño que realmente usaría. Cada estudiante escribe una oración: <strong>&quot;Algo que haré diferente con mi propio feed esta semana es ___.&quot;</strong></p>
+        <p class="step-note"><span>Nota para el facilitador</span>Ejemplos: usar el botón de &quot;no me interesa&quot;, desactivar la reproducción automática, seguir una fuente que no piensa como ellos o cambiar a la vista cronológica donde esté disponible.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Papel o pantalla</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</h3><p>Diseñada para hacerse sin pantallas. La clasificación de funciones, el texto del seminario y la especificación de diseño se hacen en papel, y la discusión hace el trabajo pesado. Los estudiantes revisan la configuración de sus propias apps en privado en casa, si así lo deciden.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Digital</h3><p>Haga la clasificación en una presentación de diapositivas compartida con tiras que se pueden arrastrar, y el seminario como una discusión en hilos en su LMS, pidiendo a cada estudiante que cite el memorándum y responda a un compañero. Los equipos pueden hacer un prototipo de su feed más saludable en cualquier herramienta de diapositivas o de diseño. Los estudiantes de 13 años o más pueden explorar los controles del feed y la configuración de &quot;¿por qué estoy viendo esto?&quot; en las apps que ya usan, en sus propios dispositivos, sin compartir capturas de pantalla de sus feeds personales.</p></div>
+        <p class="why"><strong>¿Necesita una pantalla?</strong> Mejor sin pantallas: la evidencia de aprendizaje es el razonamiento sobre las decisiones de diseño y sus efectos, que la discusión y la clasificación sacan a la luz muy bien sin agregar más tiempo de pantalla a una lección sobre el tiempo de pantalla. Un prototipo digital es un toque final opcional.</p>
+      </section>
+      <section class="evidence"><h2>Evidencia de aprendizaje</h2><p class="muted">Lo que debería poder ver o recopilar si funcionó.</p><ul><li>Los equipos nombran para qué está optimizada cada función y quién se beneficia, no solo si es buena o mala.</li><li>Las intervenciones en el seminario citan el memorándum y distinguen entre lo que los usuarios quieren y aquello a lo que reaccionan.</li><li>Las especificaciones de diseño incluyen reglas de clasificación, controles para el usuario, una desventaja explícita y una forma concreta de medir el éxito.</li><li>Los compromisos personales nombran una acción específica, no una intención general.</li></ul></section>
+      <section><h2>Adaptaciones</h2><dl class="adapt"><div><dt>9.º grado</dt><dd>Use ocho tiras de funciones (1, 2, 3, 5, 7, 9, 11, 13) y haga el seminario como una discusión con toda la clase en lugar de en pecera.</dd></div><div><dt>Clases de ciencias de la computación</dt><dd>Pida a los equipos que escriban sus tres reglas de clasificación en pseudocódigo, incluyendo cómo el feed puntuaría y ordenaría una lista de publicaciones de ejemplo.</dd></div><div><dt>Estudiantes bilingües emergentes</dt><dd>Ofrezca inicios de oración para el seminario (&quot;Estoy de acuerdo con ___ porque ___&quot;, &quot;El memorándum dice ___, pero ___&quot;) y enseñe con anticipación <em>optimizar</em>, <em>interacción</em> y <em>recomendación</em>.</dd></div><div><dt>Clases de psicología o salud</dt><dd>Relacione las funciones de &quot;Te mantiene en la app&quot; con el contenido del curso sobre hábitos y recompensas, y agregue una medida de bienestar a la especificación de diseño.</dd></div></dl></section>
+      <section class="stds"><h2>Conexiones con los estándares</h2><p>Los estudiantes explican cómo un sistema de recomendación predice y ordena el contenido, citan un memorando de producto en un seminario y diseñan un feed más saludable con reglas medibles y ventajas y desventajas.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Aplicaciones Tecnológicas: pensamiento computacional">pensamiento computacional</a><a class="std std-teks" href="../standards.html#teks-ta-ci" title="Aplicaciones Tecnológicas: creatividad e innovación">creatividad e innovación</a><a class="std std-teks" href="../standards.html#teks-elar-resp" title="ELAR: destrezas de respuesta">destrezas de respuesta</a><span class="std-sec">Secciones de los TEKS: Technology Applications cursos de Aplicaciones Tecnológicas de preparatoria (19 TAC Capítulo 126); ELAR §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Comprensión auditiva">Comprensión auditiva</a><a class="std std-elps" href="../standards.html#elps-c3" title="Expresión oral">Expresión oral</a><a class="std std-elps" href="../standards.html#elps-c4" title="Lectura">Lectura</a><a class="std std-elps" href="../standards.html#elps-c5" title="Escritura">Escritura</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Destacar y explorar patrones, características esenciales, grandes ideas y relaciones">3.2</a><a class="std std-udl" href="../standards.html#udl-7-2" title="Optimizar la relevancia, el valor y la autenticidad">7.2</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Fomentar la colaboración, la interdependencia y el aprendizaje colectivo">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promover la reflexión individual y colectiva">9.3</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-ss-sources" title="Estudios sociales: fuentes, afirmaciones y el eje de economía, ciencia, tecnología y sociedad">fuentes, afirmaciones y el eje de economía, ciencia, tecnología y sociedad</a><a class="std std-sst" href="../standards.html#sst-rla-reading" title="Lectura de RLA (Artes del Lenguaje): comprensión y análisis de textos, con evidencia">comprensión y análisis de textos, con evidencia</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">Vea cómo se alinean todas las actividades</a></p></section>
+      <section class="two">
+        <div><h2>Reflexionar</h2><ul><li>¿Cómo funciona un sistema de recomendación y qué intenta lograr? (AI1.1)</li><li>¿Qué limitaciones o sesgos pueden surgir de un sistema que aprende de aquello a lo que la gente reacciona? (AI1.3)</li><li>¿Cómo usó mi equipo la creatividad y la lógica para diseñar algo mejor? (S5.2)</li></ul></div>
+        <div><h2>Lo que sigue</h2><p>Durante una semana, los estudiantes llevan en casa un breve &quot;diario del feed&quot; en el que anotan una publicación al día y su mejor suposición sobre por qué se eligió para ellos; luego traen el diario a clase para poner a prueba sus suposiciones con el modelo del Paso 2. La siguiente lección de alfabetización mediática puede usar sus ejemplos.</p></div>
+      </section>
+      <section><h2>Combina bien con</h2><ul class="connections"><li><a href="https://newslit.org/">News Literacy Project</a><span>Recursos sobre algoritmos, feeds de noticias y cómo se difunde la información en línea.</span></li><li><a href="https://mglearn.github.io/activities/">Learning Activities Hub</a><span>Más actividades de alfabetización mediática y en IA, incluidas actividades de escape (breakouts) sobre afirmaciones virales.</span></li></ul></section>
+      <section class="related noprint"><h2>Actividades relacionadas</h2><div class="cards"><article class="card has-photo" data-id="signal-to-headline-lab">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-68-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Aprendizaje estudiantil<span>para Grados 6–8, Grados 9–12</span></p>
+    <h3><a href="../activities/signal-to-headline-lab.html">Laboratorio: de la señal al titular</a></h3>
+    <p class="card-tag">Los estudiantes convierten una tendencia tecnológica real de hoy en un titular y una entradilla verosímiles del futuro, y luego intercambian y verifican el trabajo de otros para comprobar su exactitud y detectar el clickbait.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Alfabetización mediática</span><span class="strand s-genai">IA generativa</span><span class="strand s-digcit">Ciudadanía digital</span></span><span class="eles"><a class="ele" href="../framework.html#S2.2" title="Estudiantes 2.2: Puedo identificar fuentes de información confiables en internet.">S2.2</a><a class="ele" href="../framework.html#AI4.1" title="IA en la educación 4.1: Sé cómo promover habilidades de pensamiento crítico en relación con la información generada por IA.">AI4.1</a><a class="ele" href="../framework.html#S5.2" title="Estudiantes 5.2: Puedo usar la creatividad y la lógica para encontrar soluciones innovadoras.">S5.2</a></span></div>
+  </article><article class="card has-photo" data-id="photo-detective">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-35-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Aprendizaje estudiantil<span>para Grados 3–5</span></p>
+    <h3><a href="../activities/photo-detective.html">Detectives de fotos</a></h3>
+    <p class="card-tag">Los estudiantes investigan fotos descritas que fueron recortadas, editadas o hechas con IA, y aprenden dos acciones de los verificadores de datos que funcionan mejor que mirar fijamente: Alto, y Busca mejor cobertura.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Híbrida</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Alfabetización mediática</span><span class="strand s-genai">IA generativa</span></span><span class="eles"><a class="ele" href="../framework.html#S2.2" title="Estudiantes 2.2: Puedo identificar fuentes de información confiables en internet.">S2.2</a><a class="ele" href="../framework.html#AI4.1" title="IA en la educación 4.1: Sé cómo promover habilidades de pensamiento crítico en relación con la información generada por IA.">AI4.1</a><a class="ele" href="../framework.html#AI1.3" title="IA en la educación 1.3: Soy consciente de las limitaciones actuales y los posibles sesgos de los sistemas de IA.">AI1.3</a></span></div>
+  </article><article class="card has-photo" data-id="the-feed-game">
+    <div class="card-photo"><img class="photo" src="../../assets/img/thumb/cat-68-medialit.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"></div>
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Aprendizaje estudiantil<span>para Grados 6–8, Grados 9–12</span></p>
+    <h3><a href="../activities/the-feed-game.html">El juego del feed</a></h3>
+    <p class="card-tag">Los estudiantes hacen a mano el papel de un motor de recomendaciones con tarjetas, ven cómo su feed se reduce a unos pocos temas y luego diseñan maneras de recuperar el control.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sin pantallas</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Alfabetización mediática</span><span class="strand s-genai">IA generativa</span></span><span class="eles"><a class="ele" href="../framework.html#S2.3" title="Estudiantes 2.3: Soy consciente de los posibles riesgos de compartir contenido en internet.">S2.3</a><a class="ele" href="../framework.html#AI1.1" title="IA en la educación 1.1: Sé cómo funcionan los sistemas de IA y cuáles son sus capacidades en contextos educativos.">AI1.1</a><a class="ele" href="../framework.html#S5.3" title="Estudiantes 5.3: Sé cómo aplicar el pensamiento computacional en diversas materias.">S5.3</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>Banco de actividades de las Expectativas Esenciales de Aprendizaje de TCEA.</strong> Aprendizaje profesional y actividades para estudiantes K–16 sobre alfabetización en IA generativa, ciudadanía digital y alfabetización mediática, en papel o en pantalla.</p>
+    <p>Actividades de Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), basadas en las <a href="https://tinyurl.com/tceaeles1">Expectativas Esenciales de Aprendizaje de TCEA</a> (CC BY-SA 2024). Compartidas bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: cópielas, adáptelas y reutilícelas dando crédito. Sin inicio de sesión ni rastreo.</p>
+    <p class="ai-note">Las fotos de este sitio son ilustraciones generadas con IA de personas ficticias, no de estudiantes ni personal reales.</p>
+  </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">Blog de TCEA</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
+  <nav aria-label="Relacionados">
+    <p class="foot-h">Más recursos gratuitos</p>
+    <a href="https://mglearn.github.io/tcea/eles/">Asistente de alineación con las ELE</a>
+    <a href="https://mglearn.github.io/activities/">Centro de actividades de aprendizaje</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Breakouts de ciudadanía digital</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Breakouts de alfabetización en IA generativa</a>
+  </nav>
+</footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
+<script>document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});</script>
+
+</body>
+</html>
