@@ -129,5 +129,36 @@ if (fs.existsSync(stdPath) && !process.argv.slice(2).length) {
   errs.forEach(e => console.log('  ✗ standards.json ' + e));
   if (errs.length) bad++;
 }
+// Daily openers (data/openers/*.json, see data/OPENERS.md)
+const OP_DIR = path.join(ROOT, 'data/openers');
+let opCount = 0, opBad = 0;
+if (fs.existsSync(OP_DIR) && !process.argv.slice(2).length) {
+  const ACT_IDS = new Set(fs.readdirSync(path.join(ROOT, 'data/activities')).filter(f => f.endsWith('.json')).map(f => f.slice(0, -5)));
+  const seen = new Set();
+  const FORMATS = ['quick-write', 'turn-and-talk', 'vote', 'fact-or-fake', 'sort', 'would-you-rather', 'image-talk', 'stand-up-sit-down', 'draw'];
+  for (const f of fs.readdirSync(OP_DIR).filter(f => f.endsWith('.json'))) {
+    let data; try { data = JSON.parse(fs.readFileSync(path.join(OP_DIR, f), 'utf8')); } catch (e) { console.log(`  ✗ openers/${f}: invalid JSON ${e.message}`); opBad++; continue; }
+    for (const o of data.openers || []) {
+      opCount++;
+      const e = [];
+      if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(o.id || '')) e.push('id must be kebab-case');
+      if (seen.has(o.id)) e.push('duplicate id'); seen.add(o.id);
+      for (const k of ['title', 'prompt', 'teacher', 'lookFor', 'next']) if (typeof o[k] !== 'string' || o[k].trim().length < 8) e.push(`"${k}" missing or too short`);
+      if (!Array.isArray(o.grades) || !o.grades.length || o.grades.some(g => !ENUM.grades.includes(g))) e.push('bad grades');
+      if (!Array.isArray(o.strands) || !o.strands.length || o.strands.length > 2 || o.strands.some(x => !ENUM.strands.includes(x))) e.push('bad strands');
+      if (!Array.isArray(o.eles) || !o.eles.length || o.eles.length > 3 || o.eles.some(x => !INDICATORS.has(x)) || !/^S\d/.test(o.eles[0])) e.push('eles: 1–3 valid ids, first must be S*');
+      if (!FORMATS.includes(o.format)) e.push(`format "${o.format}" not in ${FORMATS.join(', ')}`);
+      if (!ENUM.mode.includes(o.mode)) e.push('bad mode');
+      if (![5, 7, 10].includes(o.minutes)) e.push('minutes must be 5, 7, or 10');
+      if (o.options !== undefined && (!Array.isArray(o.options) || o.options.length < 2 || o.options.length > 6)) e.push('options: 2–6');
+      if (o.format === 'fact-or-fake' && !o.answer) e.push('fact-or-fake needs "answer"');
+      if (o.related && !ACT_IDS.has(o.related)) e.push(`related activity "${o.related}" not found`);
+      const m = JSON.stringify(o).match(PLACEHOLDER); if (m) e.push(`placeholder-looking text: "${m[0]}"`);
+      if (e.length) { opBad++; console.log(`  ✗ openers/${f} ${o.id}: ${e.join('; ')}`); }
+    }
+  }
+  if (opBad) bad++;
+  console.log(`${opCount - opBad}/${opCount} daily openers valid.`);
+}
 console.log(`\n${files.length - bad}/${files.length} activity files valid.`);
 process.exit(bad ? 1 : 0);

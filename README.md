@@ -36,6 +36,15 @@ handouts/<id>.html        GENERATED print packet (US Letter) + facilitator key
 
 No dependencies: plain Node 18+.
 
+## Daily openers
+
+`data/openers/<band>.json` (k2, 35, 68, 912) holds 5–10 minute bellringers built
+around the Student ELEs; see `data/OPENERS.md` for the format. They render on
+`openers.html` (filters, text search, a full-screen **Project** view with arrow-key
+navigation, and a print layout) and join the home catalog search: they appear in
+results when someone searches or picks the "Daily openers" type. `validate.js` checks
+them; translations use units `openers-<band>`.
+
 ## Languages
 
 English is the source, at the site root. Spanish (`/es/`) and Vietnamese (`/vi/`) are

@@ -10,7 +10,7 @@
   const empty = document.getElementById('empty');
   const areaNote = document.getElementById('areaNote');
   const cells = [...document.querySelectorAll('.mx-cell')];
-  const KEYS = ['audience', 'strand', 'grade', 'mode', 'role', 'time'];
+  const KEYS = ['type', 'audience', 'strand', 'grade', 'mode', 'role', 'time'];
   const UI = window.ELE_UI || {};
   const t = (k, v = {}) => String(UI[k] || k).replace(/\{(\w+)\}/g, (m, x) => (v[x] !== undefined ? v[x] : m));
   // accent-insensitive: matches the normalization used for catalog text at build time
@@ -21,6 +21,9 @@
   const timeOk = (m, t) => t.some(v => (v === '30' && m <= 30) || (v === '60' && m > 30 && m <= 60) || (v === '61' && m > 60));
 
   function matches(d, f) {
+    // daily openers join the results only when searching or when that type is chosen
+    if (d.type === 'opener' && !f.q && !f.type.includes('opener')) return false;
+    if (f.type.length && !f.type.includes(d.type)) return false;
     if (f.audience.length && !f.audience.includes(d.audience)) return false;
     if (f.strand.length && !f.strand.some(s => d.strands.includes(s))) return false;
     // "K-12" on a PL activity means it serves every band
@@ -39,10 +42,14 @@
     f.q = norm(q.value.trim());
     // multi-word searches look for the exact phrase first ("screen time"), then all the words
     f.phrase = f.q.includes(' ') && data.some(d => d.text.includes(f.q.replace(/[–—]/g, '-')));
-    let n = 0;
-    for (const c of cards) { const ok = matches(byId[c.dataset.id], f); c.hidden = !ok; if (ok) n++; }
-    count.textContent = n === data.length ? t('f.all', { n }) : t('f.some', { n, total: data.length });
-    empty.hidden = n > 0;
+    let n = 0, m = 0;
+    const totalActs = data.filter(d => d.type !== 'opener').length;
+    for (const c of cards) {
+      const d = byId[c.dataset.id]; const ok = matches(d, f); c.hidden = !ok;
+      if (ok) { if (d.type === 'opener') m++; else n++; }
+    }
+    count.textContent = (n === totalActs ? t('f.all', { n }) : t('f.some', { n, total: totalActs })) + (m ? ' ' + t('f.plusOpeners', { m }) : '');
+    empty.hidden = n + m > 0;
     cells.forEach(c => c.setAttribute('aria-pressed', String(c.dataset.area === area)));
     if (area) {
       areaNote.hidden = false;

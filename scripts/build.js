@@ -96,6 +96,17 @@ for (const a of ACTS_EN) {
   const count = (txt, w) => txt.split(w).length - 1;
   ACT_TOPICS[a.id] = TOPICS.filter(tp => tp.synonyms.some(w => head.includes(w) || count(body, w) >= 2)).map(tp => tp.id);
 }
+// Daily openers (data/openers/<band>.json, see data/OPENERS.md)
+const OP_DIR = path.join(ROOT, 'data/openers');
+const OP_FILES = fs.existsSync(OP_DIR) ? fs.readdirSync(OP_DIR).filter(f => f.endsWith('.json')).map(f => path.basename(f, '.json')) : [];
+const OP_BAND_ORDER = ['k2', '35', '68', '912'];
+OP_FILES.sort((a, b) => OP_BAND_ORDER.indexOf(a) - OP_BAND_ORDER.indexOf(b));
+const OPENERS_EN = OP_FILES.flatMap(b => (readJson(path.join(OP_DIR, b + '.json')).openers || []).map(o => ({ ...o, band: b })));
+const OP_TOPICS = {};
+for (const o of OPENERS_EN) {
+  const txt = allText(o).toLowerCase();
+  OP_TOPICS[o.id] = TOPICS.filter(tp => tp.synonyms.some(w => txt.includes(w))).map(tp => tp.id);
+}
 const HERO_TOPICS = ['screentime', 'deepfakes', 'privacy', 'hallucination', 'copyright'];
 // Guide page: activities for the screen-time conversation (missing ids are skipped)
 const SCREEN_ACTS = ['minutes-with-a-purpose', 'screens-at-school-screens-at-home', 'does-this-need-a-screen', 'screen-time-green-time', 'evidence-before-tools', 'five-question-rollout-check', 'the-feed-game', 'algorithm-autopsy'];
@@ -145,6 +156,11 @@ function buildLang(L) {
   const stdNotes = readJson(path.join(I18N, lang, 'standards.json')) || {};
   const acts = ACTS_EN.map(a => ({ ...localizeActivity(a, lang), stdNote: stdNotes[`${a.id}.note`] })).sort((a, b) => a.title.localeCompare(b.title, lang));
   const prefix = lang === 'en' ? '' : `${lang}/`;
+  const openers = OP_FILES.flatMap(b => {
+    const data = readJson(path.join(OP_DIR, b + '.json'));
+    const ov = lang === 'en' ? null : readJson(path.join(I18N, lang, 'openers', b + '.json'));
+    return (applyOverlay(data, ov).openers || []).map(o => ({ ...o, band: b, translated: lang === 'en' || !!ov }));
+  });
 
   const IND = {};
   for (const r of ELES.roles) for (const a of r.areas) for (const i of a.indicators) IND[i.id] = { ...i, area: a, role: r };
@@ -189,6 +205,7 @@ ${FONTS}
   <a class="brand" href="${base}index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>${esc(t('site.name'))}</span></a>
   <nav aria-label="${esc(t('nav.main'))}">
     <a href="${base}index.html#catalog">${esc(t('nav.activities'))}</a>
+    ${OPENERS_EN.length ? `<a href="${base}openers.html">${esc(t('nav.openers'))}</a>` : ''}
     <a href="${base}framework.html">${esc(t('nav.eles'))}</a>
     <details class="navmenu"><summary>${esc(t('nav.facilitator'))}</summary><div class="navmenu-panel">
       <a href="${base}guide.html">${esc(t('nav.menuGuide'))}</a><span class="navmenu-sep" aria-hidden="true">|</span>
@@ -251,6 +268,18 @@ ${scripts.replace(/\{root\}/g, root)}
   const strandChips = a => a.strands.map(s => `<span class="strand s-${s}">${esc(strandShort(s))}</span>`).join('');
   const eleChips = (ids, base) => ids.map(id => `<a class="ele" href="${base}framework.html#${id}" title="${esc(IND[id].role.short + ' ' + id.replace(/^[A-Z]+/, '') + ': ' + IND[id].text)}">${id}</a>`).join('');
 
+  const fmtLabel = f => t('fmt.' + f);
+  const bandLabel = b => ({ k2: t('grade.band', { g: 'K–2' }), '35': t('grade.band', { g: '3–5' }), '68': t('grade.band', { g: '6–8' }), '912': t('grade.band', { g: '9–12' }) })[b];
+  function openerMini(o) {
+    return `<article class="card op-mini" data-id="op:${o.id}" hidden${o.translated ? '' : ' lang="en"'}>
+    <div class="card-edge">${o.strands.map(s => `<span class="e-${s}"></span>`).join('')}</div>
+    <p class="card-kind">${esc(t('op.kind'))}<span>${esc(t('card.for', { who: o.grades.map(g => g === 'Higher Ed' ? t('grade.he') : t('grade.band', { g: gradeLabel(g) })).join(', ') }))}</span></p>
+    <h3><a href="openers.html#${o.id}">${esc(o.title)}</a></h3>
+    <p class="card-tag">${md(o.prompt)}</p>
+    <div class="card-meta"><span>${ICON.clock}${esc(t('min', { n: o.minutes }))}</span><span>${esc(fmtLabel(o.format))}</span></div>
+    <div class="card-foot"><span class="chips">${o.strands.map(s => `<span class="strand s-${s}">${esc(strandShort(s))}</span>`).join('')}</span><span class="eles">${eleChips(o.eles.slice(0, 2), '')}</span></div>
+  </article>`;
+  }
   function card(a, base, root) {
     const im = imgFor(a);
     return `<article class="card${im ? ' has-photo' : ''}" data-id="${a.id}"${a.translated ? '' : ' lang="en"'}>
@@ -491,6 +520,7 @@ ${scripts.replace(/\{root\}/g, root)}
   <section id="catalog" class="catalog">
     <form class="filters" id="filters" aria-label="${esc(t('f.label'))}" onsubmit="return false">
       <div class="f-search"><label for="q">${esc(t('f.search'))}</label><input id="q" type="search" placeholder="${esc(t('f.placeholder'))}" autocomplete="off"><button type="button" class="btn btn-line f-toggle" id="ftoggle" aria-expanded="false" aria-controls="filters">${esc(t('f.show'))}</button></div>
+      ${openers.length ? `<fieldset><legend>${esc(t('f.type'))}</legend>${opt('type', [['activity', t('f.typeAct')], ['opener', t('f.typeOp')]])}</fieldset>` : ''}
       <fieldset><legend>${esc(t('f.who'))}</legend>${opt('audience', [['pl', t('f.educators')], ['student', t('f.students')]])}</fieldset>
       <fieldset><legend>${esc(t('f.strand'))}</legend>${opt('strand', STRANDS.map(s => [s, strandShort(s)]))}</fieldset>
       <fieldset><legend>${esc(t('f.grade'))}</legend>${opt('grade', [['K-2', 'K–2'], ['3-5', '3–5'], ['6-8', '6–8'], ['9-12', '9–12'], ['Higher Ed', t('grade.he')]])}</fieldset>
@@ -501,12 +531,12 @@ ${scripts.replace(/\{root\}/g, root)}
     </form>
     <div class="results">
       <div class="results-bar"><p id="count" aria-live="polite"></p><p id="areaNote" class="area-note" hidden></p></div>
-      <div class="cards" id="cards">${acts.map(a => card(a, '', root)).join('')}</div>
+      <div class="cards" id="cards">${acts.map(a => card(a, '', root)).join('')}${openers.map(o => openerMini(o)).join('')}</div>
       <p class="empty" id="empty" hidden>${esc(t('f.empty'))}</p>
     </div>
   </section>
 </main>`;
-    const uiForApp = Object.fromEntries(['f.show', 'f.hide', 'f.on', 'f.all', 'f.some', 'f.area', 'f.allAreas'].map(k => [k, t(k)]));
+    const uiForApp = Object.fromEntries(['f.show', 'f.hide', 'f.on', 'f.all', 'f.some', 'f.area', 'f.allAreas', 'f.plusOpeners'].map(k => [k, t(k)]));
     page({ pagePath: 'index.html', title: t('home.title'), desc: t('home.desc'), body, bodyClass: 'home',
       scripts: `<script>window.ELE_UI=${JSON.stringify(uiForApp)};</script><script src="{root}assets/catalog${lang === 'en' ? '' : '.' + lang}.js"></script><script src="{root}assets/app.js"></script>` });
   }
@@ -639,6 +669,56 @@ ${scripts.replace(/\{root\}/g, root)}
       scripts: `<script>(function(){var q=document.getElementById('tq'),rows=[].slice.call(document.querySelectorAll('.align tbody tr'));function n(s){return s.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase()}function go(){var v=n(q.value.trim());rows.forEach(function(r){r.hidden=v&&!(r.dataset.text.indexOf(v)>=0||r.dataset.codes.split(' ').indexOf(v)>=0)})}q.addEventListener('input',go);document.querySelectorAll('[data-filter]').forEach(function(a){a.addEventListener('click',function(){q.value=a.dataset.filter;go()})});var h=location.hash.match(/^#(teks|elps|udl|sst)-(.+)$/);})();</script>` });
   }
 
+  // ---------- daily openers ----------
+  function openersPage() {
+    if (!openers.length) return;
+    const root = rootFrom(0);
+    const formats = [...new Set(openers.map(o => o.format))];
+    const chip = (name, v, l) => `<label class="pill"><input type="checkbox" name="${name}" value="${esc(v)}"><span>${esc(l)}</span></label>`;
+    const opCard = o => {
+      const rel = o.related && acts.find(a => a.id === o.related);
+      return `<article class="op" id="${o.id}" data-band="${o.band}" data-strands="${o.strands.join(' ')}" data-format="${o.format}" data-text="${esc(norm([o.title, o.prompt, (o.options || []).join(' '), o.teacher, o.eles.join(' '), fmtLabel(o.format), ...OP_TOPICS[o.id].map(id => t('topic.' + id) + ' ' + TOPICS.find(x => x.id === id).label)].join(' ')))}"${o.translated ? '' : ' lang="en"'}>
+      <div class="op-top"><span class="op-fmt">${esc(fmtLabel(o.format))}</span><span class="muted">${ICON.clock}${esc(t('min', { n: o.minutes }))}</span>${o.mode === 'unplugged' ? `<span class="muted">${ICON.unplugged}${esc(t('mode.unplugged'))}</span>` : ''}</div>
+      <h3>${esc(o.title)}</h3>
+      <div class="op-prompt"><p>${md(o.prompt)}</p>${o.options ? `<ul class="op-options">${o.options.map(x => `<li>${md(x)}</li>`).join('')}</ul>` : ''}</div>
+      <div class="op-actions noprint"><button type="button" class="btn btn-gold op-project">${esc(t('op.project'))}</button>${o.answer ? `<details class="op-answer"><summary>${esc(t('op.answer'))}</summary><p>${md(o.answer)}</p></details>` : ''}</div>
+      <dl class="op-notes">
+        <div><dt>${esc(t('op.teacher'))}</dt><dd>${md(o.teacher)}</dd></div>
+        <div><dt>${esc(t('op.lookFor'))}</dt><dd>${md(o.lookFor)}</dd></div>
+        <div><dt>${esc(t('op.nextStep'))}</dt><dd>${md(o.next)}${rel ? ` <a href="activities/${rel.id}.html">${esc(t('op.related', { title: rel.title }))}</a>` : ''}</dd></div>
+      </dl>
+      <div class="op-foot"><span class="chips">${o.strands.map(s => `<span class="strand s-${s}">${esc(strandShort(s))}</span>`).join('')}</span><span class="eles">${eleChips(o.eles, '')}</span></div>
+    </article>`;
+    };
+    const sections = OP_FILES.map(b => {
+      const list = openers.filter(o => o.band === b);
+      return `<section class="op-band" data-band="${b}" id="band-${b}">
+      <div class="op-band-head">${hasImg('openers-' + b) ? `<figure class="op-band-photo">${pic('openers-' + b, root)}</figure>` : ''}<h2>${esc(bandLabel(b))} <span class="muted">${esc(t('op.count', { n: list.length }))}</span></h2></div>
+      <div class="op-grid">${list.map(opCard).join('')}</div></section>`;
+    }).join('');
+    const body = `
+<main id="main" class="oppage">
+  <div class="op-hero">
+    <div><h1>${esc(t('op.title'))}</h1><p class="lede">${esc(t('op.lede', { n: openers.length }))}</p><p>${md(t('op.how'))}</p></div>
+    ${hasImg('hero-openers') ? `<figure class="op-hero-photo">${pic('hero-openers', root, { lazy: false })}</figure>` : ''}
+  </div>
+  <form class="op-filters noprint" id="opf" onsubmit="return false" aria-label="${esc(t('f.label'))}">
+    <input type="search" id="opq" placeholder="${esc(t('op.search'))}" aria-label="${esc(t('f.search'))}" autocomplete="off">
+    <fieldset><legend>${esc(t('f.grade'))}</legend>${OP_FILES.map(b => chip('band', b, bandLabel(b))).join('')}</fieldset>
+    <fieldset><legend>${esc(t('f.strand'))}</legend>${STRANDS.map(s => chip('strand', s, strandShort(s))).join('')}</fieldset>
+    <fieldset><legend>${esc(t('op.format'))}</legend>${formats.map(f => chip('format', f, fmtLabel(f))).join('')}</fieldset>
+    <p id="opcount" class="op-count" aria-live="polite"></p>
+  </form>
+  ${sections}
+  <div class="op-stage" id="stage" hidden role="dialog" aria-modal="true" aria-label="${esc(t('op.project'))}">
+    <div class="op-stage-inner"><p class="op-stage-title" id="stageTitle"></p><div class="op-stage-prompt" id="stagePrompt"></div></div>
+    <div class="op-stage-bar"><button type="button" id="stPrev">${esc(t('op.prev'))}</button><button type="button" id="stNext">${esc(t('op.nextBtn'))}</button><button type="button" id="stClose">${esc(t('op.close'))}</button></div>
+  </div>
+</main>`;
+    page({ pagePath: 'openers.html', title: `${t('op.title')} | ${t('site.titleSuffix')}`, desc: t('op.desc'), body, bodyClass: 'op-body',
+      scripts: `<script>window.ELE_OPUI=${JSON.stringify({ count: t('op.countShown') })};</script><script src="{root}assets/openers.js"></script>` });
+  }
+
   // ---------- printable packets by grade ----------
   function packetCard(a, root) {
     const im = imgFor(a);
@@ -692,6 +772,15 @@ ${scripts.replace(/\{root\}/g, root)}
         ...(lang === 'en' ? [] : (() => { const e = ACTS_EN.find(x => x.id === a.id); return [e.title, e.tagline]; })()),
         ...ACT_TOPICS[a.id].map(id => { const tp = TOPICS.find(x => x.id === id); return [tp.label, ...tp.synonyms, t('topic.' + id)].join(' '); })].join(' ')),
     }));
+    for (const o of openers) rows.push({
+      id: 'op:' + o.id, type: 'opener', audience: 'student', roles: [], grades: o.grades, strands: o.strands, mode: o.mode, minutes: o.minutes,
+      areas: [...new Set(o.eles.map(areaOf))],
+      text: norm([o.title, o.prompt, (o.options || []).join(' '), o.teacher, o.answer || '', o.eles.join(' '), fmtLabel(o.format), t('op.kind'), 'daily opener bellringer bell ringer warm up warm-up do now',
+        o.strands.map(s => t(`strand.${s}.name`)).join(' '), o.grades.join(' '),
+        ...(lang === 'en' ? [] : (() => { const e = OPENERS_EN.find(x => x.id === o.id); return [e.title, e.prompt]; })()),
+        ...OP_TOPICS[o.id].map(id => { const tp = TOPICS.find(x => x.id === id); return [tp.label, ...tp.synonyms, t('topic.' + id)].join(' '); })].join(' ')),
+    });
+    rows.forEach(r => { if (!r.type) r.type = 'activity'; });
     const areas = {};
     for (const r of ELES.roles) for (const ar of r.areas) areas[ar.id] = `${r.short} ${ar.num}.0 ${ar.title}`;
     write(`assets/catalog${lang === 'en' ? '' : '.' + lang}.js`, `window.ELE_CATALOG=${JSON.stringify(rows)};\nwindow.ELE_AREAS=${JSON.stringify(areas)};\n`);
@@ -701,7 +790,7 @@ ${scripts.replace(/\{root\}/g, root)}
   fs.rmSync(path.join(ROOT, prefix, 'activities'), { recursive: true, force: true });
   fs.rmSync(path.join(ROOT, prefix, 'handouts'), { recursive: true, force: true });
   for (const a of acts) { activityPage(a); handoutPage(a); }
-  indexPage(); frameworkPage(); guidePage(); standardsPage(); packetsPage(); catalogJs();
+  indexPage(); frameworkPage(); guidePage(); standardsPage(); packetsPage(); openersPage(); catalogJs();
   const done = acts.filter(a => a.translated).length;
   return { acts, cover, IND, done };
 }
