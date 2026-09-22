@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Teams identify at least three weaknesses in the StepUp study design (no comparison group, small sample, vendor-created measure, confounding intervention).</li><li>Participants flag terms that allow student work to train AI models or allow terms to change without direct notice.</li><li>Handout C traces at least one real product claim to its source and names what the source actually shows.</li><li>Pilot designs include a comparison, a learning measure not created by the vendor, and a stop condition.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Higher Ed</dt><dd>Swap StepUp for an AI courseware or tutoring platform marketed to colleges with a claim about course pass rates, and involve institutional research staff in designing the pilot.</dd></div><div><dt>Curriculum and instruction teams</dt><dd>Extend the Create step into a full pilot proposal with timeline, training plan, and the student work samples teachers will collect.</dd></div><div><dt>Short on time (45 min)</dt><dd>Skip the real-product research; use Handouts A and B, then design the pilot for StepUp itself.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Leaders trace a product's marketing claim to its study and flag terms that let student work train AI, the claim-checking and privacy habits students need.</p><dl><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-6-3" title="Organize information and resources">6.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How am I staying aware of emerging technologies and evaluating their real potential impact on teaching and learning? (Leader ELE 1.3)</li><li>How can we evaluate the effectiveness of an AI-enhanced intervention in our own context before scaling it? (AI ELE 3.2)</li><li>What does transparency and accountability look like from a vendor, and what should we require before student data leaves our district?</li><li>Which of our current tools would pass the test we used today?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Before your next purchase or renewal decision, send the vendor your team's questions from Handout C and require written answers. Propose one local pilot, with a comparison and a learning measure, instead of a full rollout.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

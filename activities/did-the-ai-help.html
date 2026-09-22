@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -122,6 +125,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Sort results show participants separating learning evidence from use and enjoyment evidence.</li><li>Critiques of the mock report name specific confounds (extra time, different sections, unblinded scoring) and suggest a concrete fix.</li><li>Planners specify one learning target, a comparison with equal time, blind or partner scoring of student work, and a pre-decided rule for keep, adjust, or drop.</li><li>Participants name a scorer, dates, and who they'll share results with.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Higher Ed faculty</dt><dd>Use two sections or two assignments within one course as a crossover. Add a student reflection prompt about how the AI support changed their process, and consult your IRB before publishing or presenting results externally.</dd></div><div><dt>Instructional coaches</dt><dd>Run this as a coaching cycle with one teacher: listen (what problem is AI meant to solve?), co-plan the inquiry, model blind scoring, measure together, and adjust.</dd></div><div><dt>K–2 and 3–5 teachers</dt><dd>Keep the measure concrete and small, such as a short oral retell scored with a four-point checklist, and compare two read-aloud practice routines, one with teacher-driven AI support on the projector and one without.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Educators plan a fair, blind-scored comparison of an AI-supported task, so tool choices in class rest on evidence of student learning.</p><dl><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-6-1" title="Set meaningful goals">6.1</a><a class="std std-udl" href="../standards.html#udl-6-4" title="Enhance capacity for monitoring progress">6.4</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How am I leveraging AI to personalize and enhance learning experiences, and how do I know it's working?</li><li>What evidence have I accepted in the past that couldn't actually tell me whether a tool helped?</li><li>What will I do if my inquiry shows the AI-supported version didn't help?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Run your inquiry over the next four to six weeks and bring the blind-scored student work, not just the averages, to your PLC, department, or coach. Share one example of student work from each condition and your keep, adjust, or drop decision.</p></div>
@@ -170,13 +174,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

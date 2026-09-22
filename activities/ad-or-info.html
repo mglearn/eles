@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Teams cite a specific clue (#ad, Sponsored label, promo code, hurry words, a pitch inside an answer) for each tricky strip.</li><li>Students find persuasion techniques in the AI-written ad and flag any claim that couldn't be true.</li><li>Honest ads on Handout C include a clear AD label and no false promises; the info version sticks to facts.</li><li>Exit tickets name a specific question to ask about product posts.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grade 3</dt><dd>Use two categories (Ad and Info) with 10 strips, then introduce Clickbait as a bonus round with strips 3, 7, and 10.</dd></div><div><dt>Grade 5</dt><dd>Add a fourth category, &quot;Both,&quot; for items that mix info and selling, and have teams defend one item they placed there.</dd></div><div><dt>Emergent bilinguals</dt><dd>Pre-teach &quot;ad,&quot; &quot;sponsored,&quot; &quot;persuade,&quot; and &quot;clickbait&quot; with visuals; let students create their honest ad in either language.</dd></div><div><dt>Students who need fewer strips</dt><dd>Give a team 7 strips (one from each clear category plus the tricky ones) and a partner who reads aloud.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Students sort mock media by the creator's purpose and name the persuasion clue, core ELAR author's-purpose work that also builds the grades 3–5 media-spin strand of digital citizenship.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-elar-purpose" title="ELAR: author's purpose and craft">author's purpose and craft</a><a class="std std-teks" href="../standards.html#teks-elar-genres" title="ELAR: multiple genres, including multimodal and digital texts">multiple genres, including multimodal and digital texts</a><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Technology Applications, digital citizenship: ethics and laws (c)(9)">ethics and laws (c)(9)</a><a class="std std-teks" href="../standards.html#teks-elar-composition" title="ELAR: composition">composition</a><span class="std-sec">TEKS sections: Technology Applications §126.8–§126.10; ELAR §110.5–§110.7</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-4-1" title="Vary and honor the methods for response, navigation, and movement">4.1</a><a class="std std-udl" href="../standards.html#udl-7-1" title="Optimize choice and autonomy">7.1</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-rla-reading" title="RLA reading: comprehension and analysis of texts, with evidence">comprehension and analysis of texts, with evidence</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>Am I good at using different tools to help me learn? How do I know when a post is trying to sell me something? (Student ELE guiding question)</li><li>Which persuasion trick works best on you? Why?</li><li>How did it feel to try to persuade someone honestly?</li></ul></div>
         <div><h2>What comes next</h2><p>Students go on an &quot;ad hunt&quot; at home with a family member, finding one ad that says it's an ad and one that doesn't, and noting the clue for each on the back of Handout C. Next lesson, <em>Credit Where It's Due</em> builds on being an honest media maker.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

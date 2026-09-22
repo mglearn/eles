@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>The wall map has barriers in at least five of the seven columns, each tagged with a family card number.</li><li>Teams distinguish policy fixes from individual outreach rather than treating every barrier the same way.</li><li>Handout C lists a specific evidence measure for each strategy, not just the number of devices or hotspots distributed.</li><li>The revised plan addresses the cost gap between free and paid AI tiers and offers non-digital alternatives.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Higher Ed</dt><dd>Replace family cards with student profiles: a commuter who studies on the bus, a student parent, a veteran using disability services, an international student with limited data, a student who can't afford paid AI tools a course recommends.</dd></div><div><dt>Campus staff (front office, counselors)</dt><dd>Add a step where staff role-play the phone call or front-desk conversation with two of the families, practicing how to offer help without making families explain their circumstances publicly.</dd></div><div><dt>Short on time (45 min)</dt><dd>Use five family cards (1, 3, 5, 7, 9), skip the Apply step, and have teams complete only three rows of Handout C.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Teams walk a homework-and-AI-tutor plan through family profiles to find access barriers, so every student can use the tools a lesson requires.</p><dl><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-1-3" title="Represent a diversity of perspectives and identities in authentic ways">1.3</a><a class="std std-udl" href="../standards.html#udl-4-2" title="Optimize access to accessible materials and assistive and accessible technologies and tools">4.2</a><a class="std std-udl" href="../standards.html#udl-6-5" title="Challenge exclusionary practices">6.5</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>What steps am I taking to create an inclusive and positive digital learning culture? (Leader ELE 4.0)</li><li>Which families in our community would be least likely to tell us a plan isn't working for them, and how would we find out?</li><li>When an AI tool has free and paid tiers, what is our responsibility to students whose families can't pay?</li><li>Which of our current policies assume every student has the same evening, device, and connection?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Before your next technology decision, bring three family profiles from today to the planning meeting and walk the plan through them. Add &quot;Who might be left out?&quot; as a standing agenda item, and choose one measure from Handout C to begin tracking this semester.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Children name a maker (a person, a company, a news team, a person using AI) rather than &quot;the TV&quot; or &quot;the store.&quot;</li><li>Children choose a corner and give a <em>because</em> that points to what the media is trying to do (&quot;it wants you to buy it&quot;).</li><li>Children say that a person decided to make the AI picture and that telling people AI helped is the honest thing to do.</li><li>On Handout B, children name who their creation is for, why they made it, and what they used.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Kindergarten</dt><dd>Use only three corners (TEACH, SELL, FUN) and Maker Cards 1–6 plus 11. On Handout B, children draw and dictate one sentence.</dd></div><div><dt>Grade 2</dt><dd>Add a third question: &quot;Who is it for?&quot; For each card, children name the audience (kids, grown-ups, everyone) and notice that SELL items for kids often use cartoons and bright colors.</dd></div><div><dt>Emergent bilinguals</dt><dd>Teach the corner words with their pictures and home-language labels. Let children answer &quot;who made it&quot; by pointing to a set of picture cards: a person, a group of people, a person at a computer.</dd></div><div><dt>Students with motor needs</dt><dd>Replace walking with pointing to the corner signs on a single page, eye-gaze, or holding up a colored card for each corner.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Children name who made a piece of media and why, to teach, sell, entertain, or inform, early ELAR author's-purpose work that includes honesty about AI help.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-elar-purpose" title="ELAR: author's purpose and craft">author's purpose and craft</a><a class="std std-teks" href="../standards.html#teks-elar-genres" title="ELAR: multiple genres, including multimodal and digital texts">multiple genres, including multimodal and digital texts</a><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Technology Applications, digital citizenship: ethics and laws (c)(9)">ethics and laws (c)(9)</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7; ELAR §110.2–§110.4</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-4-1" title="Vary and honor the methods for response, navigation, and movement">4.1</a><a class="std std-udl" href="../standards.html#udl-5-1" title="Use multiple media for communication">5.1</a><a class="std std-udl" href="../standards.html#udl-7-3" title="Nurture joy and play">7.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>Who made the last video or game you saw? Why do you think they made it? (Student ELE 2.2: I can identify trustworthy sources of information on the internet.)</li><li>Why is it important to know if someone made something to sell or to teach?</li><li>When someone uses an AI tool to help make a picture, what should they tell us?</li></ul></div>
         <div><h2>What comes next</h2><p>At home, children do the Maker Hunt on Handout C with a family member, finding three things someone made and asking who made them and why; bring it back to share. Next lesson, connect to <em>Real, Pretend, or Changed?</em>, where children ask whether a picture was made to look real.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

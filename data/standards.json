@@ -1,0 +1,1438 @@
+{
+ "ad-or-info": {
+  "teks": [
+   "elar-purpose",
+   "elar-genres",
+   "ta-dc-9",
+   "elar-composition"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "4.1",
+   "7.1",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [
+   "rla-reading"
+  ],
+  "note": "Students sort mock media by the creator's purpose and name the persuasion clue, core ELAR author's-purpose work that also builds the grades 3–5 media-spin strand of digital citizenship."
+ },
+ "after-the-rumor": {
+  "teks": [
+   "ta-dc-8",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.2",
+   "8.3",
+   "9.3",
+   "9.4"
+  ],
+  "sst": [],
+  "note": "Staff trace a viral AI-edited photo rumor to root causes, preparing to teach students to check source and context and respond as upstanders instead of forwarding harmful content."
+ },
+ "ai-critic-tank": {
+  "teks": [
+   "ta-ci",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "8.1",
+   "8.3",
+   "8.5",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers design a community solution by hand, then weigh AI critiques and write an honest disclosure, modeling the design process and ethical crediting students practice in Technology Applications."
+ },
+ "ai-ethics-case-court": {
+  "teks": [
+   "ta-dc-9",
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "1.3",
+   "7.2",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Educators argue both sides of AI uses such as essay scoring and device monitoring, preparing to teach the ethics and privacy substrands of digital citizenship."
+ },
+ "ai-guidance-from-values": {
+  "teks": [
+   "ta-dc-9",
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "7.1",
+   "8.3",
+   "6.5",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teams draft campus AI guidance on disclosure and privacy, the expectations students meet in the digital citizenship ethics-and-laws and privacy-and-security substrands."
+ },
+ "ai-study-buddy-contract": {
+  "teks": [
+   "ta-ptc",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c1",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.1",
+   "6.4",
+   "7.1",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Students decide which AI uses build or replace their learning, set a SMART goal, and log honest AI use, practicing deliberate tool choice and academic integrity."
+ },
+ "algorithm-autopsy": {
+  "teks": [
+   "ta-ct",
+   "ta-ci",
+   "elar-resp"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "7.2",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [
+   "ss-sources",
+   "rla-reading"
+  ],
+  "note": "Students explain how a recommender predicts and ranks content, quote a product memo in seminar, and design a healthier feed with measurable rules and trade-offs."
+ },
+ "ask-two": {
+  "teks": [
+   "elar-inquiry",
+   "sci-practices"
+  ],
+  "elps": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "3.3",
+   "4.1",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Children check a robot helper's claims in a book, by observing, or with a grown-up, early inquiry and scientific observation that shows sure-sounding answers can be wrong."
+ },
+ "bias-detectives": {
+  "teks": [
+   "sci-practices",
+   "ta-ct"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "1.3",
+   "2.4",
+   "7.4",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers design a fair paired-prompt test that changes one variable and repeats runs, preparing students to investigate AI bias with science practices."
+ },
+ "bias-in-the-machine": {
+  "teks": [
+   "ta-ct",
+   "elar-resp",
+   "ss-skills"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "1.3",
+   "2.4",
+   "7.4",
+   "8.3",
+   "9.2"
+  ],
+  "sst": [
+   "rla-reading",
+   "ss-sources"
+  ],
+  "note": "Students read mock AI outputs through perspective lenses, quote words that reveal an assumption, and explain how training-data patterns produce stereotypes."
+ },
+ "co-creation-not-substitution": {
+  "teks": [
+   "ta-dc-9",
+   "ta-ci"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "5.2",
+   "8.1",
+   "9.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers write assignment-level AI-use statements and a student disclosure template, preparing students to credit AI help honestly while keeping creative ownership."
+ },
+ "community-problem-pitch": {
+  "teks": [
+   "ta-ci",
+   "ta-ct",
+   "elar-inquiry"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "5.2",
+   "7.2",
+   "8.1",
+   "8.3",
+   "8.5"
+  ],
+  "sst": [
+   "ss-sources"
+  ],
+  "note": "Students break down a real school problem, gather evidence, then keep, verify, or reject AI critiques before prototyping and pitching a solution."
+ },
+ "credit-where-its-due": {
+  "teks": [
+   "ta-dc-9",
+   "elar-inquiry"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "7.1",
+   "8.3",
+   "9.2",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Students write credit lines and AI Help Notes for work they used, the grades 3–5 intellectual property and citing expectations in digital citizenship and ELAR research."
+ },
+ "dashboard-critical-read": {
+  "teks": [
+   "ta-data",
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "6.3",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Leaders spot truncated axes, small samples, and proxy metrics, then redraw a chart honestly, the same data-representation and privacy skills they want students to apply."
+ },
+ "data-trail-audit": {
+  "teks": [
+   "ta-dc-10",
+   "elar-comp",
+   "elar-resp"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "2.1",
+   "6.3",
+   "7.2",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [
+   "rla-reading",
+   "ss-sources"
+  ],
+  "note": "Students decode a mock privacy policy, quote the exact wording on collection and sharing, and trace data to brokers, core privacy-and-security work in digital citizenship."
+ },
+ "deepfake-election-desk": {
+  "teks": [
+   "ta-dc-9",
+   "ss-skills",
+   "elar-inquiry",
+   "elar-composition"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "7.2",
+   "8.1",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [
+   "ss-sources",
+   "rla-writing"
+  ],
+  "note": "Student newsroom teams verify election media through origin, corroboration, and context, then write an editor's memo separating what was checked from what remains unknown."
+ },
+ "deepfake-principal-tabletop": {
+  "teks": [
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.2",
+   "7.2",
+   "8.3",
+   "9.4"
+  ],
+  "sst": [],
+  "note": "Leaders verify a fake principal audio clip by provenance and corroboration rather than detectors, preparing to build the source-reliability habits students need."
+ },
+ "did-the-ai-help": {
+  "teks": [],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.1",
+   "6.4",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Educators plan a fair, blind-scored comparison of an AI-supported task, so tool choices in class rest on evidence of student learning."
+ },
+ "digital-footprint-trail": {
+  "teks": [
+   "ta-dc-10",
+   "ta-dc-8"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "4.1",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Students combine a fictional classmate's posts to see what they reveal, then rewrite risky or hurtful ones, the grades 3–5 digital footprint and personal information expectations."
+ },
+ "disclose-it": {
+  "teks": [
+   "ta-dc-9",
+   "elar-composition"
+  ],
+  "elps": [
+   "c1",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.4",
+   "8.1",
+   "8.5",
+   "9.3"
+  ],
+  "sst": [
+   "rla-writing"
+  ],
+  "note": "Students apply course AI policies to scenarios, then write a specific disclosure and process log and revise it after peer feedback."
+ },
+ "does-this-need-a-screen": {
+  "teks": [
+   "ta-ptc"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4"
+  ],
+  "udl": [
+   "8.3",
+   "9.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers sort tasks by whether a screen adds evidence of learning, preparing to model purposeful tool choice for students."
+ },
+ "evidence-before-tools": {
+  "teks": [
+   "ta-ptc",
+   "elar-inquiry"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.1",
+   "8.1",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers rebuild a tool-heavy research lesson from the evidence backward, so students compare sources and justify every tool, including AI, against what it shows."
+ },
+ "explain-it-to-grandma": {
+  "teks": [
+   "ta-ct"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "2.1",
+   "8.3",
+   "8.5",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Educators explain how chatbots predict text in plain, accurate language, preparing students to explain AI concepts to others with an honest limitation."
+ },
+ "family-ai-night-design": {
+  "teks": [],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "2.3",
+   "6.5",
+   "7.2",
+   "8.4"
+  ],
+  "sst": [],
+  "note": "Campus teams design family stations on how chatbots work, AI-generated images, and app privacy, extending student AI and privacy learning into homes."
+ },
+ "five-question-rollout-check": {
+  "teks": [],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "1.3",
+   "4.2",
+   "6.5",
+   "8.3"
+  ],
+  "sst": [],
+  "note": "Leaders test an AI platform rollout against five questions, including a student's screen-reader barrier, so tool adoption serves every student's learning."
+ },
+ "four-lens-app-review": {
+  "teks": [
+   "ta-dc-10",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "4.2",
+   "8.1",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Coaches score apps on privacy, accessibility, and AI transparency and verify vendor claims laterally, habits students need for privacy and source reliability."
+ },
+ "garbage-in-garbage-out": {
+  "teks": [
+   "ta-ct",
+   "elar-composition"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "5.3",
+   "7.3",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [
+   "rla-writing"
+  ],
+  "note": "Students write, test, and revise precise step-by-step instructions, then upgrade vague AI prompts, practicing computational thinking and procedural writing."
+ },
+ "glass-box-checklist": {
+  "teks": [
+   "ta-dc-10",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.3",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teams turn vague vendor claims into answerable questions about data and limits, preparing students to ask what apps do with their information."
+ },
+ "hallucination-hunt": {
+  "teks": [
+   "elar-inquiry",
+   "ta-dc-9",
+   "ta-ct",
+   "elar-composition"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "8.1",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [
+   "rla-reading",
+   "rla-writing",
+   "ss-sources"
+  ],
+  "note": "Students trace each claim in an AI research brief to its source, catch fabricated and distorted citations, and revise the brief, core ELAR inquiry and research."
+ },
+ "headlines-from-year-three": {
+  "teks": [],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.2",
+   "8.3",
+   "8.5",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Leadership teams run a pre-mortem on an AI initiative and set guardrails, so tool adoption is judged by what changes for students."
+ },
+ "human-ai-studio": {
+  "teks": [
+   "elar-composition",
+   "ta-ci",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c1",
+   "c2",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "5.2",
+   "7.1",
+   "8.5",
+   "9.3"
+  ],
+  "sst": [
+   "rla-writing"
+  ],
+  "note": "Students draft flash fiction or a design concept, log every AI suggestion they keep, change, or reject, and disclose AI's role honestly."
+ },
+ "human-language-model": {
+  "teks": [
+   "ta-ct",
+   "ta-data"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "4.1",
+   "7.3",
+   "8.3"
+  ],
+  "sst": [],
+  "note": "Educators build a next-word frequency table by hand and watch it hallucinate, a classroom-ready model of how generative AI predicts from patterns."
+ },
+ "hype-check-showcase": {
+  "teks": [
+   "ta-ptc",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "2.5",
+   "7.2",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers test tool claims and synthetic media at stations, preparing students to choose tools for learning and check media by source and context."
+ },
+ "journal-club-by-design": {
+  "teks": [
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "7.1",
+   "8.3",
+   "9.1",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Coaches check a practice article's claims and evidence, then plan teacher learning on pausing before sharing, a digital citizenship habit for students."
+ },
+ "kind-by-design": {
+  "teks": [
+   "ta-dc-8"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "8.3",
+   "8.4",
+   "9.2",
+   "9.4"
+  ],
+  "sst": [],
+  "note": "Teachers rewrite sharp messages to be kind and clear and co-create norms, preparing to teach digital etiquette and respectful online communication."
+ },
+ "kind-clicks": {
+  "teks": [
+   "ta-dc-8"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "4.1",
+   "8.4",
+   "9.2",
+   "9.4"
+  ],
+  "sst": [],
+  "note": "Children sort kind and unkind online messages, rewrite unkind ones, and rehearse telling a trusted grown-up, the K–2 social-interactions strand of digital citizenship."
+ },
+ "lateral-reading-relay": {
+  "teks": [
+   "ta-dc-9",
+   "elar-inquiry",
+   "ss-skills"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.4",
+   "4.1",
+   "8.1",
+   "8.3"
+  ],
+  "sst": [],
+  "note": "Teachers use SIFT to verify claims, including an AI summary, preparing students to judge source reliability and show verification evidence."
+ },
+ "look-fors-for-learning": {
+  "teks": [],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "8.1",
+   "8.3",
+   "8.5",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Leaders revise walkthrough rubrics to capture student reasoning and verification of AI output, rather than device use alone."
+ },
+ "looking-for-the-checking": {
+  "teks": [
+   "elar-inquiry",
+   "ta-dc-9",
+   "ss-skills"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.4",
+   "8.3",
+   "9.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "A PLC reads student Dust Bowl notes for evidence of real checking, then plans instruction on verifying AI claims against independent sources."
+ },
+ "my-digital-safety-plan": {
+  "teks": [
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c1",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.1",
+   "6.4",
+   "7.2",
+   "8.5"
+  ],
+  "sst": [],
+  "note": "Students audit their own security habits and write a plan with passphrases, two-step login, and privacy settings, the privacy, safety, and security substrand."
+ },
+ "never-paste-this": {
+  "teks": [
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.2",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Data teams de-identify student notes before any AI use, modeling the personal-information protection students learn in digital citizenship."
+ },
+ "news-from-the-future-circle": {
+  "teks": [
+   "ta-dc-10",
+   "ta-ct"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "4.1",
+   "7.1",
+   "7.3",
+   "8.4"
+  ],
+  "sst": [],
+  "note": "Children name helpful and tricky sides of pretend AI helpers, including that helpers can be wrong and shouldn't get private information."
+ },
+ "next-word-by-hand": {
+  "teks": [
+   "ta-ct",
+   "ta-data"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "7.3",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [
+   "math-reasoning"
+  ],
+  "note": "Students tally which word follows which and generate sentences by chance draws, seeing how prediction from patterns can produce a confident false fact."
+ },
+ "password-power": {
+  "teks": [
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "7.3",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Students rank passwords, build practice passphrases, and decide who may know a password, core grades 3–5 privacy, safety, and security skills."
+ },
+ "personalization-with-guardrails": {
+  "teks": [
+   "elar-comp",
+   "ta-ptc"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "1.2",
+   "2.1",
+   "4.2",
+   "8.2",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers verify an AI-leveled text and match supports like text-to-speech to learners, so students reach the same grade-level reading target."
+ },
+ "phish-tank-irl": {
+  "teks": [
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "4.1",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Students sort realistic messages as safe, scam, or check another way and name red flags that still work, the phishing and security part of digital citizenship."
+ },
+ "photo-detective": {
+  "teks": [
+   "ta-dc-9",
+   "elar-genres"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "4.1",
+   "5.1",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Students investigate cropped, edited, and AI-made photos by checking other coverage, reading images and captions as multimodal texts with a purpose."
+ },
+ "primary-source-vs-ai-summary": {
+  "teks": [
+   "ss-skills",
+   "elar-comp",
+   "elar-resp"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "8.3",
+   "8.5",
+   "9.3"
+  ],
+  "sst": [
+   "rla-reading",
+   "rla-writing",
+   "ss-sources"
+  ],
+  "note": "Students compare an AI summary with a primary-source letter, cite paragraphs for each distortion, and write a faithful summary, core social studies source skills."
+ },
+ "private-or-share": {
+  "teks": [
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "4.1",
+   "7.3",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Children sort information into keep private, ask a grown-up, or OK to share and rehearse refusing a chatbot's request, the K–2 personal-information expectation."
+ },
+ "real-fake-or-generated": {
+  "teks": [
+   "ta-dc-9",
+   "ss-skills",
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "7.2",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [
+   "ss-sources"
+  ],
+  "note": "Students see visual clues fail and revise verdicts by checking who posted media first, then plan a safe response to a cloned-voice request."
+ },
+ "real-pretend-or-changed": {
+  "teks": [
+   "ta-dc-9",
+   "elar-genres"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "4.1",
+   "7.3",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Children tell real, pretend-on-purpose, and changed or computer-made pictures apart and give a clue, early media literacy about genre and trustworthiness."
+ },
+ "real-remixed-or-made-up": {
+  "teks": [
+   "ta-dc-9",
+   "ss-skills"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "4.1",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers label authentic, out-of-context, cheapfake, and synthetic media by provenance, then plan a student version that requires a verification move."
+ },
+ "remix-rights": {
+  "teks": [
+   "ta-dc-9",
+   "elar-inquiry"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "2.1",
+   "7.3",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Students decide which remixes need credit, permission, or a fair-use argument and write TASL credit lines, the intellectual property core of digital citizenship."
+ },
+ "ripple-out-futures-wheel": {
+  "teks": [
+   "ta-ci"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "1.3",
+   "8.3",
+   "9.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Educators map ripple effects of a near-future AI headline and backcast actions, preparing students to think creatively about technology's consequences."
+ },
+ "robot-guesses": {
+  "teks": [
+   "ta-ct",
+   "ta-data"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "4.1",
+   "7.3",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Children train a pretend robot with example cards, watch it misclassify, and fix it with more varied examples, an early model of how AI learns patterns."
+ },
+ "screen-time-green-time": {
+  "teks": [
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "4.1",
+   "7.3",
+   "9.2",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Children observe and record how their bodies feel after screen stillness versus movement, then plan a balanced mix of screen and green time."
+ },
+ "seminar-on-a-machines-answer": {
+  "teks": [
+   "elar-resp",
+   "ta-ct"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4"
+  ],
+  "udl": [
+   "3.2",
+   "8.3",
+   "9.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers run a Socratic seminar on a chatbot transcript, preparing students to question AI answers and see that agreement is not evidence."
+ },
+ "shallow-answers-coaching-cycle": {
+  "teks": [
+   "sci-practices",
+   "elar-resp"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4"
+  ],
+  "udl": [
+   "6.4",
+   "8.3",
+   "8.5",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Coaches co-plan a lesson that trades question volume for claims backed by class data and reasoning, then measure the change in student work."
+ },
+ "signal-to-headline-lab": {
+  "teks": [
+   "elar-composition",
+   "elar-purpose",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "7.2",
+   "8.3",
+   "8.5",
+   "9.3"
+  ],
+  "sst": [
+   "rla-writing",
+   "rla-reading"
+  ],
+  "note": "Students write a future news headline, lede, and evidence line, then fact-check a peer's draft for clickbait and invented numbers and revise."
+ },
+ "student-voice-policy-makers": {
+  "teks": [
+   "elar-inquiry",
+   "elar-composition",
+   "ss-skills"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "1.3",
+   "6.5",
+   "7.2",
+   "8.3",
+   "8.5"
+  ],
+  "sst": [
+   "ss-sources",
+   "rla-writing"
+  ],
+  "note": "Students gather stakeholder evidence, draft a technology policy proposal that passes the five-question check, and defend it before a mock board."
+ },
+ "study-coach-with-guardrails": {
+  "teks": [
+   "ta-ptc"
+  ],
+  "elps": [
+   "c1",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.1",
+   "6.4",
+   "7.1",
+   "8.2",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Students write custom instructions for an AI study coach, stress-test them, and judge with a before-and-after check whether the tool improved learning."
+ },
+ "team-tech-choices": {
+  "teks": [
+   "ta-ptc"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.1",
+   "6.5",
+   "7.1",
+   "8.3"
+  ],
+  "sst": [],
+  "note": "Teams match project tasks to tools, or no tool, and explain what each choice shows they learned, the tool-selection focus of practical technology concepts."
+ },
+ "the-feed-game": {
+  "teks": [
+   "ta-ct",
+   "ta-data"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "7.3",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [
+   "math-reasoning",
+   "ss-sources"
+  ],
+  "note": "Students act as a rule-following recommendation algorithm, track topic counts across rounds, and test a rule change against their prediction."
+ },
+ "the-prompt-ladder": {
+  "teks": [
+   "ta-ct",
+   "ta-ptc"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "5.3",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers predict how each added prompt detail changes AI output, preparing to teach students that a prompt is context for prediction and still needs checking."
+ },
+ "two-drafts-of-feedback": {
+  "teks": [],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "8.1",
+   "8.3",
+   "8.5"
+  ],
+  "sst": [],
+  "note": "Coaches trace AI-drafted feedback against a transcript and sort observation AI uses by consent and privacy, modeling data protection students also learn."
+ },
+ "vendor-claims-vs-evidence": {
+  "teks": [],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.3",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Leaders trace a product's marketing claim to its study and flag terms that let student work train AI, the claim-checking and privacy habits students need."
+ },
+ "verify-the-bot-workshop": {
+  "teks": [
+   "sci-practices",
+   "elar-inquiry",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "6.3",
+   "8.3",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers split AI science answers into claims and check each against two independent sources, preparing students to keep a claim ledger in class."
+ },
+ "what-do-my-apps-know": {
+  "teks": [
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "2.1",
+   "7.2",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers audit the privacy policies of tools they use and plan a student lesson on asking what an app knows, the privacy-and-security substrand."
+ },
+ "who-gets-left-out-map": {
+  "teks": [],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "1.3",
+   "4.2",
+   "6.5",
+   "8.3"
+  ],
+  "sst": [],
+  "note": "Teams walk a homework-and-AI-tutor plan through family profiles to find access barriers, so every student can use the tools a lesson requires."
+ },
+ "who-made-this": {
+  "teks": [
+   "elar-purpose",
+   "elar-genres",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "4.1",
+   "5.1",
+   "7.3"
+  ],
+  "sst": [],
+  "note": "Children name who made a piece of media and why, to teach, sell, entertain, or inform, early ELAR author's-purpose work that includes honesty about AI help."
+ },
+ "who-owns-the-output": {
+  "teks": [
+   "ta-dc-9",
+   "ta-ct",
+   "ss-skills"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "1.3",
+   "8.3",
+   "9.2",
+   "9.3"
+  ],
+  "sst": [
+   "ss-sources"
+  ],
+  "note": "Students argue both sides of AI training on artists' work and co-write a credit rule, reasoning about intellectual property in the ethics-and-laws substrand."
+ },
+ "whose-story-is-missing": {
+  "teks": [
+   "ss-skills",
+   "ta-ct"
+  ],
+  "elps": [
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "1.3",
+   "2.4",
+   "4.2",
+   "7.4",
+   "3.4"
+  ],
+  "sst": [],
+  "note": "Teachers audit AI-generated materials for who is missing or stereotyped, preparing students to question an output's frame of reference and add missing perspectives."
+ }
+}

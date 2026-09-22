@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Every Pilot verdict on Handout B names a student task and the evidence it would produce.</li><li>At the synthetic media stations, groups describe checking source and context rather than relying on spotting flaws.</li><li>Groups name at least one limitation or bias in an AI tool (for example, stereotyped images or confident wrong answers).</li><li>Remix plans on Handout C include a follow-up step to see whether any teacher changed practice.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Elementary campuses</dt><dd>Keep Stations 1, 2, and 5. Frame the questions for young students' safety: &quot;How would a 2nd grader know this isn't a real person?&quot;</dd></div><div><dt>Higher Ed</dt><dd>Replace the smart glasses station with an AI research assistant that summarizes papers. Trace its citations to see whether they exist and say what it claims.</dd></div><div><dt>Short version (30 minutes)</dt><dd>Run three stations at five minutes each with no Create step. Coaches take Handout C home.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Teachers test tool claims and synthetic media at stations, preparing students to choose tools for learning and check media by source and context.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ptc" title="Technology Applications: practical technology concepts">practical technology concepts</a><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Technology Applications, digital citizenship: ethics and laws (c)(9)">ethics and laws (c)(9)</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7, §126.8–§126.10, §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-2-5" title="Illustrate through multiple media">2.5</a><a class="std std-udl" href="../standards.html#udl-7-2" title="Optimize relevance, value, and authenticity">7.2</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>In what ways am I helping teachers meaningfully integrate technology into their teaching? (Coach ELE guiding question)</li><li>How do I stay current on emerging technology without passing the hype along to teachers?</li><li>What would convince me, six weeks after a showcase, that it changed anything in classrooms?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Teachers try one Pilot-verdict tool with one class and bring the student evidence to a PLC. Coaches run a campus showcase from Handout C and follow up two weeks later with one question: &quot;What did students produce?&quot;</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

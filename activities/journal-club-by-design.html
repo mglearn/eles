@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -122,6 +125,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Journal club verdicts cite the article's evidence limits (self-report, no comparison group, sponsor overlap) and still name something worth trying.</li><li>Coaches connect each design choice in their planner to a named adult learning principle.</li><li>Needs assessments include at least one source of evidence beyond a survey.</li><li>Every planner names what teacher practice or student evidence will show the series worked.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Campus leaders</dt><dd>Run the journal club on an article about a program the campus is considering, and add the leader five-question check to the Classroom Connector's role.</dd></div><div><dt>Higher Ed</dt><dd>Swap the practice article for a fictional conference abstract and add a Skeptic question about peer review versus a press release.</dd></div><div><dt>Short version (45 minutes)</dt><dd>Keep the Hook and the journal club, cut the profile cards, and assign Handout C as a follow-up.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Coaches check a practice article's claims and evidence, then plan teacher learning on pausing before sharing, a digital citizenship habit for students.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Technology Applications, digital citizenship: ethics and laws (c)(9)">ethics and laws (c)(9)</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7, §126.8–§126.10, §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-7-1" title="Optimize choice and autonomy">7.1</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-9-1" title="Recognize expectations, beliefs, and motivations">9.1</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How effective are my professional development initiatives in addressing teachers' needs? (Coach ELE guiding question)</li><li>When did I last let teachers choose what we would learn together?</li><li>How do I model the same claim-checking with research that we ask students to use with online information?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Send your invitation this week and run session 1 within a month. Between sessions, visit or co-teach the classroom try-it with at least two teachers and bring what students produced to session 2.</p></div>
@@ -170,13 +174,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

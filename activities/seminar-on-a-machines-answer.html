@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -108,6 +111,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Outer-circle tallies show at least four different question types, and participants can name which starred questions moved the discussion.</li><li>Participants identify the distance claim and the &quot;same seasons everywhere&quot; claim as false and the &quot;scientists agree&quot; line as unsupported, while keeping the accurate tilt explanation.</li><li>Participants explain that the chatbot's reversal reflects agreement with the user, not new evidence.</li><li>Handout C question sequences move from clarifying to implication questions and name a specific error or gap for students to find.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grades 3–5 teachers</dt><dd>Use only the first answer and the student's pushback, with four stems: &quot;What do you mean?&quot;, &quot;How do we know?&quot;, &quot;Is that always true?&quot;, and &quot;What would someone in another place say?&quot; Run it as a whole-class circle instead of a fishbowl.</dd></div><div><dt>Secondary teachers</dt><dd>Swap in a chatbot answer from your subject (a historical cause, a literary interpretation, a math explanation with a subtle error) and have students write the corrected answer with a cited source as their exit ticket.</dd></div><div><dt>Higher Ed faculty</dt><dd>Use a chatbot's summary of a disciplinary debate. Add a round in which students trace every claim to a course reading and discuss what the summary flattened or left out.</dd></div><div><dt>Librarians</dt><dd>Co-teach with a content teacher and add a station afterward where students find two reliable sources that settle the seminar's disputed claim.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Teachers run a Socratic seminar on a chatbot transcript, preparing students to question AI answers and see that agreement is not evidence.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-elar-resp" title="ELAR: response skills">response skills</a><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Technology Applications: computational thinking">computational thinking</a><span class="std-sec">TEKS sections: Technology Applications §126.8–§126.10, §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126); ELAR §110.5–§110.7, §110.22–§110.24, §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Highlight and explore patterns, critical features, big ideas, and relationships">3.2</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How do I use questioning techniques to stimulate deep learning, especially about AI-generated information? (Teacher ELE 5.2)</li><li>When my students ask a chatbot to check their ideas, what could they do to guard against it simply agreeing with them?</li><li>Which question type do I ask least often, and where could it help most?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Run a 20-minute AI-text seminar with one class using your Handout C plan. Have one student in the outer circle tally question types, and compare the tally with a regular discussion from the same class to see which kinds of questioning grew.</p></div>
@@ -156,13 +160,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

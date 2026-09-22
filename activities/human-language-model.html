@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -122,6 +125,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Handout B tallies are correct and teams can explain that the cup draw is weighted by frequency.</li><li>At least one generated &quot;fact&quot; answer is identified by the team as fluent, specific, and absent from the training text, and named as a hallucination.</li><li>Written one-minute explanations use prediction language (&quot;predicts likely next words&quot;) rather than retrieval language (&quot;looks it up&quot;) and include a verification move.</li><li>In the Reflect step, participants name a specific thin-data zone in their own subject.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>K–2 and 3–5 teachers</dt><dd>With young students, use only sentences 1–5, tally just &quot;the&quot; and one other word as a class on the board, and have the teacher draw from the cup. Keep the takeaway to one line: &quot;AI guesses the next word. Guesses can be wrong, so we check.&quot;</dd></div><div><dt>Higher Ed faculty</dt><dd>Add a round where teams remove sentence 8 from the library and retrain, then discuss what happens to facts that appear once, or never, in training data. Connect to why AI-generated citations and references must be checked individually.</dd></div><div><dt>Emergent bilinguals</dt><dd>Build a second library of five sentences in a student's home language. Compare how word order changes the tally, and discuss why a model trained mostly on English text may perform less reliably in other languages.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Educators build a next-word frequency table by hand and watch it hallucinate, a classroom-ready model of how generative AI predicts from patterns.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Technology Applications: computational thinking">computational thinking</a><a class="std std-teks" href="../standards.html#teks-ta-data" title="Technology Applications: data literacy, management, and representation">data literacy, management, and representation</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7, §126.8–§126.10, §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Highlight and explore patterns, critical features, big ideas, and relationships">3.2</a><a class="std std-udl" href="../standards.html#udl-4-1" title="Vary and honor the methods for response, navigation, and movement">4.1</a><a class="std std-udl" href="../standards.html#udl-7-3" title="Nurture joy and play">7.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How am I developing and applying AI literacy in educational contexts? What do my students currently believe AI is doing when it answers?</li><li>Where in my subject is fluent-but-false AI output most likely, and how will students catch it?</li><li>Which part of today's model is a simplification I need to be honest about when I teach it?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Run the Tiny Training Library with your students this week (Cards 1–6 are classroom-ready), then have each student write a two-sentence explanation of hallucination as an exit ticket. Bring five tickets to your PLC and sort them: prediction language or look-it-up language?</p></div>
@@ -170,13 +174,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

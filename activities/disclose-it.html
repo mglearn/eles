@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Students justify sort placements by quoting the policy wording, not by personal opinion (&quot;it says <em>any writing task</em>, so…&quot;).</li><li>Students choose &quot;Ask first&quot; for genuinely ambiguous cases rather than defaulting to allowed or banned.</li><li>Disclosures on Handout B include at least four of the five parts: tool type, task, kept, changed, verified.</li><li>Process logs record a decision at each stage, showing the student's own thinking.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Higher Ed</dt><dd>Replace the course names on the strips with courses from a first-year schedule (composition, statistics, studio art, nursing lab) and have students compare the actual AI statements from two of their own syllabi.</dd></div><div><dt>Dual credit</dt><dd>Add a scenario where the high school and college policies for the same course differ, and discuss which one governs and whom to ask.</dd></div><div><dt>Emergent bilinguals</dt><dd>Provide Handout B's five disclosure parts as sentence frames (&quot;I used ___ to ___. I kept ___. I changed ___. I checked ___.&quot;) and allow a first draft in any language.</dd></div><div><dt>Students with IEPs or 504 plans</dt><dd>Discuss how an accommodation (such as text-to-speech or a speech-to-text tool) fits into disclosure, and that approved accommodations are not an integrity issue.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Students apply course AI policies to scenarios, then write a specific disclosure and process log and revise it after peer feedback.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Technology Applications, digital citizenship: ethics and laws (c)(9)">ethics and laws (c)(9)</a><a class="std std-teks" href="../standards.html#teks-elar-composition" title="ELAR: composition">composition</a><span class="std-sec">TEKS sections: Technology Applications high school Technology Applications courses (19 TAC Chapter 126); ELAR §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c1" title="Learning strategies">Learning strategies</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-6-4" title="Enhance capacity for monitoring progress">6.4</a><a class="std std-udl" href="../standards.html#udl-8-1" title="Clarify the meaning and purpose of goals">8.1</a><a class="std std-udl" href="../standards.html#udl-8-5" title="Offer action-oriented feedback">8.5</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-rla-writing" title="RLA writing: composing, revising, and editing, including the extended constructed response">composing, revising, and editing, including the extended constructed response</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How do I take responsibility for my own learning when I use AI tools? (S4.1)</li><li>Why do transparency and accountability matter when AI is part of my work? (AI2.3)</li><li>What ethical principle guides me when a course policy doesn't answer my question? (AI2.1)</li></ul></div>
         <div><h2>What comes next</h2><p>Attach a disclosure statement (even &quot;No generative AI was used&quot;) to the next major assignment in any course. As a class, use the most-disputed scenario strips to co-write or revise your own course AI policy, then share it with families so the expectations are clear at home too.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

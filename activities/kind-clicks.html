@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -108,6 +111,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Children choose STOP AND TELL for messages that are mean, share others' photos without asking, or ask for passwords, and explain how the message would make someone feel.</li><li>Pairs turn unkind messages into kind ones in their own words.</li><li>Children use the full tell-a-grown-up sentence in the role-play and on Handout C.</li><li>Children give kind responses to classmates who like different games, foods, or activities.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Kindergarten</dt><dd>Use 8 strips and focus on the two signals; skip writing on Handout C and let children dictate their kind message.</dd></div><div><dt>Grade 2</dt><dd>Pairs write their own Fix-It Card (an unkind message on the front, a kind fix on the back) and trade with another pair.</dd></div><div><dt>Emergent bilinguals</dt><dd>Hand signals carry the meaning. Offer the kind-message sentence frames in both languages and let children say the fix in either one.</dd></div><div><dt>Social-emotional support</dt><dd>Let the school counselor co-teach the tell-a-grown-up role-play, and name the counselor as a trusted grown-up.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Children sort kind and unkind online messages, rewrite unkind ones, and rehearse telling a trusted grown-up, the K–2 social-interactions strand of digital citizenship.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-8" title="Technology Applications, digital citizenship: social interactions (c)(8)">social interactions (c)(8)</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-4-1" title="Vary and honor the methods for response, navigation, and movement">4.1</a><a class="std std-udl" href="../standards.html#udl-8-4" title="Foster belonging and community">8.4</a><a class="std std-udl" href="../standards.html#udl-9-2" title="Develop awareness of self and others">9.2</a><a class="std std-udl" href="../standards.html#udl-9-4" title="Cultivate empathy and restorative practices">9.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How would you feel if you got that message? How can we make someone's heart feel better?</li><li>How well do I work with others when we learn together? (Student ELE guiding question)</li><li>Who will you tell if you see something mean online?</li></ul></div>
         <div><h2>What comes next</h2><p>Send home the tell-a-grown-up sentence so families can practice it, and invite families to write one kind message together to a relative, on paper or on screen. Next lesson, use the kind-click signals during classroom partner work, not only online.</p></div>
@@ -156,13 +160,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

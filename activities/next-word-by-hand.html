@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -122,6 +125,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Handout C explains the false lake sentence as pieces stitched together (&quot;it saw 'is the deepest' on one card and 'Mossmere is' on another&quot;) rather than as the machine lying or being broken.</li><li>Students correctly predict that the &quot;the&quot; cup produces the most mixed-up sentences and say why (it has the most different next words).</li><li>Students can say what the longer prompt fixed and name that it could not fix what the machine never learned.</li><li>Each student names a specific way to check a chatbot's answer (a book, a trusted website, an adult expert).</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grade 3</dt><dd>Build one class machine at the front with student helpers, and run the lake round as a whole class with you flipping the coin. Use the sentence frame: &quot;The machine said that because it saw ___ and ___.&quot;</dd></div><div><dt>Grades 6–8</dt><dd>After the three-word round, ask teams to write two new true lake cards that would make a hallucination more likely, then trade with another team to test them. Discuss why more varied training text makes more varied, and sometimes wrong, output.</dd></div><div><dt>Emergent bilinguals</dt><dd>Make a second set of Story Cards in a student's home language and compare which words follow which. Word order that differs between languages makes the &quot;next word&quot; idea vivid.</dd></div><div><dt>Students with fine-motor needs</dt><dd>Skip slips: generate by pointing to tally marks or rolling a die and counting along the row. A partner can write the sentence.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Students tally which word follows which and generate sentences by chance draws, seeing how prediction from patterns can produce a confident false fact.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Technology Applications: computational thinking">computational thinking</a><a class="std std-teks" href="../standards.html#teks-ta-data" title="Technology Applications: data literacy, management, and representation">data literacy, management, and representation</a><span class="std-sec">TEKS sections: Technology Applications §126.8–§126.10, §126.17–§126.19</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Highlight and explore patterns, critical features, big ideas, and relationships">3.2</a><a class="std std-udl" href="../standards.html#udl-7-3" title="Nurture joy and play">7.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-math-reasoning" title="Mathematics: data analysis and making reasoning visible">data analysis and making reasoning visible</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How did our paper machine decide what word came next? How is a real chatbot like it, and how is it different?</li><li>Why could our machine say something false in a sure-sounding sentence? What should you do when a chatbot sounds sure? (Student ELE 1.3: I am aware of how AI can assist me in my studies.)</li><li>Where else do you see patterns being used to guess what comes next: in math, in music, in reading?</li></ul></div>
         <div><h2>What comes next</h2><p>At home, students play &quot;finish my sentence&quot; with family members and then teach them the lake round in one sentence: &quot;A chatbot guesses the next word from patterns, so it can sound sure and still be wrong, and that's why we check.&quot; In the next AI lesson, have students use their Handout C explanation before any teacher-projected chatbot demo.</p></div>
@@ -170,13 +174,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -129,6 +132,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Handout B shows the team's own ideas recorded before the AI critique.</li><li>Every AI suggestion is marked Keep, Verify, or Reject with a reason, and at least one claim was checked with a person or trusted source.</li><li>The pitch names what changed from the first idea to the final one and credits the evidence or critique that caused the change.</li><li>Team roles rotate or are used, and each member can explain part of the solution.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grades 3–5</dt><dd>Use one class-wide problem, have the teacher run the critic, and reduce the decisions to thumbs up (keep) or thumbs down (reject) with a spoken reason.</dd></div><div><dt>Grades 9–12</dt><dd>Expand to a community problem, require at least two verified sources or interviews, and include a cost or feasibility estimate. Teams present to a panel of adults.</dd></div><div><dt>Students who need structure</dt><dd>Provide sentence frames for Handout B (&quot;We rejected this because…&quot;, &quot;We changed our idea when…&quot;) and let teams choose a sketch or model instead of a spoken pitch.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Students break down a real school problem, gather evidence, then keep, verify, or reject AI critiques before prototyping and pitching a solution.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ci" title="Technology Applications: creativity and innovation">creativity and innovation</a><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Technology Applications: computational thinking">computational thinking</a><a class="std std-teks" href="../standards.html#teks-elar-inquiry" title="ELAR: inquiry and research">inquiry and research</a><span class="std-sec">TEKS sections: Technology Applications §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126); ELAR §110.22–§110.24, §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-5-2" title="Use multiple tools for construction, composition, and creativity">5.2</a><a class="std std-udl" href="../standards.html#udl-7-2" title="Optimize relevance, value, and authenticity">7.2</a><a class="std std-udl" href="../standards.html#udl-8-1" title="Clarify the meaning and purpose of goals">8.1</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-8-5" title="Offer action-oriented feedback">8.5</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-ss-sources" title="Social studies: sources, claims, and the economics, science, technology, and society strand">sources, claims, and the economics, science, technology, and society strand</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>Do I use what I learn to fix problems in real life? What problem at school could I keep working on?</li><li>How well did our team work together? What did each person bring that the AI couldn't?</li><li>When should I trust an AI suggestion, and how do I check it?</li></ul></div>
         <div><h2>What comes next</h2><p>Share the strongest pitches with your principal or the relevant staff member, and let one team try its solution for a week and report back with evidence. Students can use Handout B's steps at home to tackle a family problem, such as a messy shared space or a morning routine.</p></div>
@@ -177,13 +181,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

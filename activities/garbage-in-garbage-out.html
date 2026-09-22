@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Round 2 instructions include more size, position, count, and order words than Round 1, and the Robot's drawing is closer to the Director's.</li><li>Upgraded prompts on Handout C add at least three recipe ingredients.</li><li>Students explain that an AI tool guesses to fill missing details, and that a clear prompt still needs checking.</li><li>In Row 5, students notice that wrong information in the prompt can lead to a wrong answer.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grade 3</dt><dd>Use Shape Challenge Cards 1–4 (three shapes each) and limit instructions to five sentences. Do Handout C Rows 1–3 as a class.</dd></div><div><dt>Grade 5 / advanced</dt><dd>Add a Round 3 with a &quot;picky Robot&quot; who misreads any word that could mean two things. Directors hunt for ambiguous words like &quot;next to&quot; or &quot;big.&quot;</dd></div><div><dt>Emergent bilinguals</dt><dd>Post a word bank of position and size words with sketches (top, bottom, left, right, center, above, below, inside, big, small), and let pairs write in either language.</dd></div><div><dt>Students with fine-motor needs</dt><dd>Robots build with cut paper shapes instead of drawing.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Students write, test, and revise precise step-by-step instructions, then upgrade vague AI prompts, practicing computational thinking and procedural writing.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Technology Applications: computational thinking">computational thinking</a><a class="std std-teks" href="../standards.html#teks-elar-composition" title="ELAR: composition">composition</a><span class="std-sec">TEKS sections: Technology Applications §126.8–§126.10; ELAR §110.5–§110.7</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-5-3" title="Build fluencies with graduated support for practice and performance">5.3</a><a class="std std-udl" href="../standards.html#udl-7-3" title="Nurture joy and play">7.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-rla-writing" title="RLA writing: composing, revising, and editing, including the extended constructed response">composing, revising, and editing, including the extended constructed response</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>Do I use what I learn to fix problems in real life? Where else do clear instructions matter? (Student ELE guiding question)</li><li>What did you change between Round 1 and Round 2, and why?</li><li>If an AI tool gave you a great-sounding answer, how would you know if it was right?</li></ul></div>
         <div><h2>What comes next</h2><p>At home, students play &quot;Robot Chef&quot; with a family member: write instructions for making a simple snack (a sandwich, a bowl of cereal) and have the family member follow them exactly, then revise together. In class, post the Prompt Recipe and use it when students write directions in math, science procedures, or requests to classmates.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

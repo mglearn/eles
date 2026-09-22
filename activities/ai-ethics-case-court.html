@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Arguments cite specific details from the case file rather than general views about AI.</li><li>Handout C rulings name the principle that weighed most and include conditions specific enough to check (who, when, how).</li><li>Benches distinguish a tool's reliability from the decision rule built around it.</li><li>Guidance drafts include a student-facing right: to know, to question, or to appeal.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Higher Ed faculty</dt><dd>Use Cases 3 (remote proctoring) and 6 (faculty use of AI in recommendation letters) and add accreditation and disability services considerations to the bench card.</dd></div><div><dt>District and campus leaders</dt><dd>Add a &quot;procurement&quot; witness who must answer what the vendor contract says about data use, retention, and deletion. Leaders rule on the contract, not just the practice.</dd></div><div><dt>Grades 9–12 students</dt><dd>Teachers can run Cases 2 and 4 with students, who argue about decisions that directly affect them. Their conditions make excellent input for a student AI-use agreement.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Educators argue both sides of AI uses such as essay scoring and device monitoring, preparing to teach the ethics and privacy substrands of digital citizenship.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Technology Applications, digital citizenship: ethics and laws (c)(9)">ethics and laws (c)(9)</a><a class="std std-teks" href="../standards.html#teks-ta-dc-10" title="Technology Applications, digital citizenship: privacy, safety, and security (c)(10)">privacy, safety, and security (c)(10)</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7, §126.8–§126.10, §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-1-3" title="Represent a diversity of perspectives and identities in authentic ways">1.3</a><a class="std std-udl" href="../standards.html#udl-7-2" title="Optimize relevance, value, and authenticity">7.2</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>In what ways am I addressing ethical considerations when using AI in learning and teaching?</li><li>Where in my practice does software already influence decisions about students, and could a student see and question those decisions?</li><li>Which of today's conditions could I apply in my own classroom or office by Friday?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Share your three-sentence guidance with your students and ask what they'd add. Then choose one AI use in your own work (feedback, grading support, monitoring, recommendations) and apply your court's conditions to it before using it again.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

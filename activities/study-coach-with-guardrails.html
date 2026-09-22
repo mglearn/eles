@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -122,6 +125,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Custom instructions include a clear goal, a &quot;never do&quot; rule, and a question-first behavior.</li><li>The test log records what the coach actually did on each break-it prompt, and at least one revision is tied to a specific failure.</li><li>Evidence verdicts cite the before-and-after check and log excerpts, not general impressions.</li><li>Students identify at least one place where AI does not belong in their study process.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Higher Ed</dt><dd>Pair with a first-year study-skills or education-prep course. Have students connect their coach design to what they know about retrieval practice and spaced practice, and build a coach for a gateway course.</dd></div><div><dt>Education-prep courses</dt><dd>After designing their own coach, future teachers write instructions for a coach for a K–12 student and discuss what guardrails a younger learner would need.</dd></div><div><dt>Students with IEPs or 504 plans</dt><dd>Build supports into the instructions: shorter steps, reading questions aloud with text-to-speech, or extra wait before hints, aligned with the student's plan.</dd></div><div><dt>Emergent bilinguals</dt><dd>Students may ask the coach to explain in their home language first, then check understanding in English.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Students write custom instructions for an AI study coach, stress-test them, and judge with a before-and-after check whether the tool improved learning.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ptc" title="Technology Applications: practical technology concepts">practical technology concepts</a><span class="std-sec">TEKS sections: Technology Applications high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c1" title="Learning strategies">Learning strategies</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-6-1" title="Set meaningful goals">6.1</a><a class="std std-udl" href="../standards.html#udl-6-4" title="Enhance capacity for monitoring progress">6.4</a><a class="std std-udl" href="../standards.html#udl-7-1" title="Optimize choice and autonomy">7.1</a><a class="std std-udl" href="../standards.html#udl-8-2" title="Optimize challenge and support">8.2</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How can I use AI tools to personalize my learning without letting them do the learning for me? (AI3.1)</li><li>What goal did I set, and how did I monitor my progress toward it? (S4.2)</li><li>What did this show me about my learning strengths and the areas I need to work on? (S4.3)</li><li>How do I know whether an AI tool actually improved my learning? (AI3.2)</li></ul></div>
         <div><h2>What comes next</h2><p>Students use their coach for one week of homework or study sessions and add a line to their test log after each session. At the end of the week, they repeat the three-question check and decide whether to keep, revise, or retire the coach, and they can share their instructions with a family member who is also learning something.</p></div>
@@ -170,13 +174,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

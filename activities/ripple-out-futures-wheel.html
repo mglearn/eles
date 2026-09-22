@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -122,6 +125,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Wheels reach a third ring, and at least some third-order bubbles name a specific group of people rather than &quot;society&quot;.</li><li>Every wheel has at least one blue bubble (depends on choices we make now), and the backcast actions connect to those blue bubbles.</li><li>Handout C names an action for this semester plus the student or family evidence that would show it's working.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>K–5 staff</dt><dd>Use Cards 7 and 8 and add a rule that every wheel includes at least one bubble about a young child's daily routine: recess, reading time, the car line.</dd></div><div><dt>Higher Ed faculty</dt><dd>Use Cards 5, 6, and 10. In the backcast, ask faculty to name one change to a syllabus, assignment, or assessment for next term.</dd></div><div><dt>Librarians</dt><dd>Take Card 9 or the practice headline and backcast specifically to library instruction, collection decisions, and what the library teaches families.</dd></div><div><dt>Short on time (30 minutes)</dt><dd>Skip the gallery walk, build only two rings, and go straight to a one-row backcast: preferred future, one action this month.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Educators map ripple effects of a near-future AI headline and backcast actions, preparing students to think creatively about technology's consequences.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ci" title="Technology Applications: creativity and innovation">creativity and innovation</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7, §126.8–§126.10, §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-1-3" title="Represent a diversity of perspectives and identities in authentic ways">1.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>Which emerging technologies am I aware of, and which of their ripple effects have I not thought through for my own students? (Teacher ELE T1.3)</li><li>Who showed up in orange on the wheels, and how do my current lessons or policies account for them? (Teacher ELE T3.3)</li><li>Where does AI belong in the future I would prefer, if it belongs at all?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Pick one headline card and run a two-ring version with your students: let them build the wheel and color who benefits and who is left out. Bring the wheel to your PLC or coach and compare what students noticed that adults missed.</p></div>
@@ -170,13 +174,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

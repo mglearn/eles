@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Detective Log entries name a mechanism (training data pattern, default assumption) rather than only a judgment.</li><li>Fair-test designs change exactly one variable, use invented names, and repeat each version at least three times.</li><li>Teams report results honestly, including &quot;no difference found,&quot; without overgeneralizing from one run.</li><li>Each participant writes a specific guardrail tied to a real way AI output could reach their students.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Librarians and media specialists</dt><dd>Focus the live test on book and resource recommendations: ask for &quot;books a 12-year-old boy would like&quot; vs. &quot;a 12-year-old girl,&quot; and compare against your own collection's diversity audit.</dd></div><div><dt>Higher Ed faculty</dt><dd>Add a round on AI-generated reading lists and citations for a research topic: whose scholarship appears by default, and which regions or languages are missing?</dd></div><div><dt>Bilingual and ESL teachers</dt><dd>Lead the translation tests. Compare how the tool handles regional Spanish (such as Tejano vocabulary) and code-switching, and write a family-communication guardrail for your campus.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Teachers design a fair paired-prompt test that changes one variable and repeats runs, preparing students to investigate AI bias with science practices.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-sci-practices" title="Science: scientific and engineering practices">scientific and engineering practices</a><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Technology Applications: computational thinking">computational thinking</a><span class="std-sec">TEKS sections: Technology Applications §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-1-3" title="Represent a diversity of perspectives and identities in authentic ways">1.3</a><a class="std std-udl" href="../standards.html#udl-2-4" title="Address biases in the use of language and symbols">2.4</a><a class="std std-udl" href="../standards.html#udl-7-4" title="Address biases, threats, and distractions">7.4</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>In what ways am I addressing ethical considerations when using AI in learning and teaching?</li><li>Which of my students could be misrepresented or left out by AI defaults, and how would I notice?</li><li>How can students themselves become bias detectives, rather than me filtering everything for them?</li></ul></div>
         <div><h2>Take it to your students</h2><p>With students in grades 6 and up, project one mock case file and one paired prompt you ran yourself, then have students design their own fair test on paper. Collect their test designs as evidence that they can question an AI output, not just consume it.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

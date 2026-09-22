@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -122,6 +125,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Success headlines name what changed for students or teachers, not how much a tool was used.</li><li>Handout B has at least one reason in every row, and the team can say which row was empty before they looked.</li><li>Each guardrail has an observable first-semester signal, a named owner, and a real date.</li><li>The rewritten success lede cites evidence the team will actually collect, including evidence from families or students who could be left out.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Instructional coaches</dt><dd>Run it with one teacher team on a classroom-level change (a new AI feedback routine, a phone-free unit) and use the coaching cycle: the guardrails become what you'll measure and adjust.</dd></div><div><dt>Higher Ed</dt><dd>Use it for a department or program initiative, such as an AI course policy or a new tutoring service. Replace &quot;families&quot; with &quot;students and the people who support them&quot; and add accessibility services to the &quot;left out&quot; row.</dd></div><div><dt>District cabinet</dt><dd>Have each team member write the failure headline from a different stakeholder's newspaper: the student paper, the local weekly, the teacher association newsletter, a parent group's post.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Leadership teams run a pre-mortem on an AI initiative and set guardrails, so tool adoption is judged by what changes for students.</p><dl><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-6-2" title="Anticipate and plan for challenges">6.2</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-8-5" title="Offer action-oriented feedback">8.5</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How clearly have I communicated what this initiative is for, and would my staff write the same success headline? (Leader ELE L1.1)</li><li>Which students or families appear in my failure headline, and what policy would protect their access? (Leader ELE L4.2)</li><li>What ethical line, such as data, disclosure, or human review, would I hold even if the initiative were going well? (AI ELE AI2.1)</li></ul></div>
         <div><h2>Take it to your students</h2><p>Share both headlines and the top three guardrails with the staff who will carry out the initiative and ask them to add one failure reason you missed. Put the 90-day check date on the calendar and open that meeting by rereading both headlines.</p></div>
@@ -170,13 +174,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

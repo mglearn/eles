@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Handout B marks at least one tool as &quot;cut&quot; or &quot;swap&quot; with a reason tied to thinking (&quot;hides whether they understand&quot;), not preference (&quot;kids find it boring&quot;).</li><li>Rebuilt lessons state the evidence first, in observable terms (&quot;students write which source they trust more and quote two reasons&quot;), before any tool is named.</li><li>Each Handout C names what AI will do, what students will do with its output, or why AI doesn't belong in that lesson.</li><li>Partner feedback in section 7 names a specific piece of student work to collect, not a general impression.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>K–2 teachers</dt><dd>Swap the Before lesson for a &quot;digital storybook&quot; task and focus the evidence on oral retelling: what would a child say that shows they understood the story? Tools are judged by whether they capture that talk (for example, an audio recording) or get in the way.</dd></div><div><dt>Librarians</dt><dd>Co-plan the Practice step with a content teacher. Librarians often see the Before lesson from the research-skills angle: where did students get information, and did anything ask them to judge it?</dd></div><div><dt>Higher Ed faculty</dt><dd>Use a course assignment, such as a discussion-board post or a lab report, as the Before lesson. Ask what a post shows beyond participation and where generative AI could complete the task without any learning.</dd></div><div><dt>Short on time</dt><dd>Run Hook, Explore, and Model (25 minutes) as a PLC meeting, and assign Handout C for the next meeting with a partner check.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Teachers rebuild a tool-heavy research lesson from the evidence backward, so students compare sources and justify every tool, including AI, against what it shows.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ptc" title="Technology Applications: practical technology concepts">practical technology concepts</a><a class="std std-teks" href="../standards.html#teks-elar-inquiry" title="ELAR: inquiry and research">inquiry and research</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7, §126.8–§126.10, §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126); ELAR §110.2–§110.4, §110.5–§110.7, §110.22–§110.24, §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-6-1" title="Set meaningful goals">6.1</a><a class="std std-udl" href="../standards.html#udl-8-1" title="Clarify the meaning and purpose of goals">8.1</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How do I seamlessly integrate technology so it strengthens, not replaces, the thinking in my lessons? (Teacher ELE 1.0)</li><li>In my last three lessons that used technology, what evidence did students produce that I couldn't have gotten without it?</li><li>Where does AI belong in my lessons, if it belongs at all, and what will students do with its output?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Teach the redesigned lesson within two weeks. Collect the evidence you named in section 2 of Handout C from five students, and bring it to your PLC or coach with one question: &quot;Did the tool make this thinking visible, or would paper have shown the same thing?&quot;</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

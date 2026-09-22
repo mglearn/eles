@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Teams give a reason for each sort decision, especially that adults and teachers should also say when AI helped.</li><li>Rosa's credit lines include what, who, and where, and her AI Help Note names how she checked the volcano fact.</li><li>Students' own AI Help Notes name what AI did, a specific checking move, and what they did themselves.</li><li>Students connect giving credit to how they felt when their doodles were taken.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grade 3</dt><dd>Use three categories (Give credit, Ask permission first, My own work) for the first pass, then add &quot;Say AI helped&quot; with strips 3, 6, 9, and 12.</dd></div><div><dt>Grade 5</dt><dd>Introduce free-to-use and Creative Commons licenses in simple terms and have students find the license information for one image your district's library provides.</dd></div><div><dt>Emergent bilinguals</dt><dd>Provide the credit line and AI Help Note formulas as sentence frames in both languages.</dd></div><div><dt>Students who need support writing</dt><dd>Let students dictate their AI Help Note to a partner or use a fill-in frame with word choices (brainstorm, check spelling, explain an idea).</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Students write credit lines and AI Help Notes for work they used, the grades 3–5 intellectual property and citing expectations in digital citizenship and ELAR research.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Technology Applications, digital citizenship: ethics and laws (c)(9)">ethics and laws (c)(9)</a><a class="std std-teks" href="../standards.html#teks-elar-inquiry" title="ELAR: inquiry and research">inquiry and research</a><span class="std-sec">TEKS sections: Technology Applications §126.8–§126.10; ELAR §110.5–§110.7</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-7-1" title="Optimize choice and autonomy">7.1</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-9-2" title="Develop awareness of self and others">9.2</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>Am I trying my best to learn on my own? How does being honest about AI help show that? (Student ELE guiding question)</li><li>How did it feel to see your doodle in someone else's gallery?</li><li>When is AI help OK, and how do you show what you did yourself?</li></ul></div>
         <div><h2>What comes next</h2><p>Students teach a family member the credit line formula and, if the family uses an AI tool together at home, write an AI Help Note for something they made together. In class, require a credit line and, when relevant, an AI Help Note on every project this year.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

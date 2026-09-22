@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -129,6 +132,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Issue maps break the problem into parts and name specific affected groups before any rules are written.</li><li>Proposals contain specific, followable statements rather than general values, each with a reason.</li><li>The five-question check answers &quot;Who might be left out?&quot; with named groups and a concrete accommodation.</li><li>Teams answer board questions with evidence from stakeholders, not only opinion, and revise at least one statement based on feedback.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Higher Ed</dt><dd>In a first-year seminar, teams draft a student-voice proposal for the college's AI guidance and compare it with policies at two other institutions. Education-prep students draft a classroom AI policy for a grade level they plan to teach and present to practicing teachers.</dd></div><div><dt>Dual credit</dt><dd>Teams address the specific problem of courses where high school and college rules differ, and propose how students should be told which rule applies.</dd></div><div><dt>Shorter version (90 min)</dt><dd>Skip the stakeholder homework (use Handout A's voices only), combine drafting and the five-question check, and hold a short gallery-walk board hearing.</dd></div><div><dt>Emergent bilinguals</dt><dd>Invite teams to translate their one-page proposal into a family's home language, which directly addresses the fifth question on the check.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Students gather stakeholder evidence, draft a technology policy proposal that passes the five-question check, and defend it before a mock board.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-elar-inquiry" title="ELAR: inquiry and research">inquiry and research</a><a class="std std-teks" href="../standards.html#teks-elar-composition" title="ELAR: composition">composition</a><a class="std std-teks" href="../standards.html#teks-ss-skills" title="Social studies skills (sources, frames of reference, bias, and evidence)">Social studies skills (sources, frames of reference, bias, and evidence)</a><span class="std-sec">TEKS sections: ELAR §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-1-3" title="Represent a diversity of perspectives and identities in authentic ways">1.3</a><a class="std std-udl" href="../standards.html#udl-6-5" title="Challenge exclusionary practices">6.5</a><a class="std std-udl" href="../standards.html#udl-7-2" title="Optimize relevance, value, and authenticity">7.2</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-8-5" title="Offer action-oriented feedback">8.5</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-ss-sources" title="Social studies: sources, claims, and the economics, science, technology, and society strand">sources, claims, and the economics, science, technology, and society strand</a><a class="std std-sst" href="../standards.html#sst-rla-writing" title="RLA writing: composing, revising, and editing, including the extended constructed response">composing, revising, and editing, including the extended constructed response</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>What ethical principles did our team apply when deciding how AI and technology should be used? (AI2.1)</li><li>How clearly did I communicate our ideas to people with power to act on them? (S3.2)</li><li>How did we approach a complex problem systematically, and whose perspective changed our thinking? (S5.1, S3.3)</li></ul></div>
         <div><h2>What comes next</h2><p>Forward the board's top proposals to your campus or college leadership, student council, or site-based decision-making committee, and report back to students on what happened. Students take their one-page proposal home to discuss with family and bring back one family question for the team to answer.</p></div>
@@ -177,13 +181,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

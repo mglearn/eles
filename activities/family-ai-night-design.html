@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -122,6 +125,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Planning canvases name specific strategies for families least likely to attend, beyond &quot;send a flyer.&quot;</li><li>Each chosen station includes something families do together, not just information to receive.</li><li>Participants' 60-second chatbot explanations avoid jargon and include why verification matters.</li><li>Each team names at least one community partner and one way to gather evidence of what families did afterward.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Elementary campuses</dt><dd>Center stations on shared family routines: where devices sleep at night, asking a grown-up before sharing a photo, and a picture-sort of real and made-up images. Keep any AI demonstration adult-led.</dd></div><div><dt>Secondary campuses</dt><dd>Have students run stations and teach their families, including a station where teens explain how their feeds decide what they see.</dd></div><div><dt>Multilingual communities</dt><dd>Organize stations by language with bilingual staff or community volunteers, rather than translating one large presentation.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Campus teams design family stations on how chatbots work, AI-generated images, and app privacy, extending student AI and privacy learning into homes.</p><dl><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-2-3" title="Cultivate understanding and respect across languages and dialects">2.3</a><a class="std std-udl" href="../standards.html#udl-6-5" title="Challenge exclusionary practices">6.5</a><a class="std std-udl" href="../standards.html#udl-7-2" title="Optimize relevance, value, and authenticity">7.2</a><a class="std std-udl" href="../standards.html#udl-8-4" title="Foster belonging and community">8.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How effectively am I leveraging technology and partnerships to engage with our school community? (Leader ELE 5.0)</li><li>Which families have never attended a school technology event, and what would make it possible for them?</li><li>How can I explain AI to families in a way that builds confidence instead of fear? (AI ELE 1.2)</li><li>What online and community resources could support families long after the event?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Contact your first community partner this week and set a date. Send Handout C, customized for your campus and translated, home with every student before the event, so families who can't attend still get the conversations.</p></div>
@@ -170,13 +174,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

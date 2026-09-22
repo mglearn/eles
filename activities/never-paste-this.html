@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -108,6 +111,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Pairs place the &quot;only student who…&quot; and small-group strips in the Never or de-identified columns, not in Fine.</li><li>Red-pen edits on Handout B remove indirect identifiers as well as names and ID numbers.</li><li>Rewritten questions ask for instructional strategies and contain no student information.</li><li>Participants can name the district's approved AI tools, or name who to ask.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Campus leaders</dt><dd>Add strips about staff data (evaluation notes, medical leave) and discuss who approves AI tools for administrative use.</dd></div><div><dt>Special education teams</dt><dd>Add strips from IEP and 504 paperwork and practice rewriting accommodation questions without disability details.</dd></div><div><dt>Higher Ed</dt><dd>Swap in course roster, grade, and accommodation-letter examples, and name your institution's data classification levels as the categories.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Data teams de-identify student notes before any AI use, modeling the personal-information protection students learn in digital citizenship.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-10" title="Technology Applications, digital citizenship: privacy, safety, and security (c)(10)">privacy, safety, and security (c)(10)</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7, §126.8–§126.10, §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-6-2" title="Anticipate and plan for challenges">6.2</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How am I using data to inform and guide my coaching practices? (Coach ELE guiding question)</li><li>In our data meetings, where is student information most likely to leave the room without anyone noticing?</li><li>What instructional question could I ask an AI tool this week that needs no student data at all?</li></ul></div>
         <div><h2>Take it to your students</h2><p>At your next data meeting, read Handout C aloud before anyone opens an AI tool, and bring one rewritten, data-free question to test. Teach the same idea to students with the question: &quot;Would you want this detail about you pasted somewhere you can't see?&quot;</p></div>
@@ -156,13 +160,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

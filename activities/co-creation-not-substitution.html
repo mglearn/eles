@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -122,6 +125,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Sort justifications cite the learning goal, not a blanket rule about AI.</li><li>Co-creation logs show specific rejections and transformations, and the final product includes something unmistakably the participant's own.</li><li>Disclosure templates ask students what they asked, what they changed or rejected, and how they checked.</li><li>Course or syllabus statements are assignment-level, explain why, and include at least one permitted use and a &quot;when in doubt, ask&quot; path.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Higher Ed faculty</dt><dd>Use only the faculty and college-level strips in the sort, adapt the Higher Ed syllabus model on Handout C, and add a discussion of discipline-specific norms for AI in research and publication.</dd></div><div><dt>Grades 6–8 teachers</dt><dd>Simplify the disclosure to three sentence frames (&quot;I used AI to…&quot;, &quot;I changed…&quot;, &quot;I checked by…&quot;) and model them on the projector with a teacher-driven tool.</dd></div><div><dt>Librarians</dt><dd>Connect disclosure to citation: co-teach how students credit AI assistance alongside traditional sources, following whatever citation style your campus uses.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Teachers write assignment-level AI-use statements and a student disclosure template, preparing students to credit AI help honestly while keeping creative ownership.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Technology Applications, digital citizenship: ethics and laws (c)(9)">ethics and laws (c)(9)</a><a class="std std-teks" href="../standards.html#teks-ta-ci" title="Technology Applications: creativity and innovation">creativity and innovation</a><span class="std-sec">TEKS sections: Technology Applications §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-5-2" title="Use multiple tools for construction, composition, and creativity">5.2</a><a class="std std-udl" href="../standards.html#udl-8-1" title="Clarify the meaning and purpose of goals">8.1</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How am I fostering collaboration between humans and AI systems in educational projects and research?</li><li>Where in my course does AI risk replacing the thinking the assignment is meant to build?</li><li>How will I know whether students' use of AI augmented their creativity or flattened it?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Introduce your assignment-level AI-use statement and disclosure template with your next major assignment. Collect the disclosures with the work, and bring three to your PLC or department to discuss what they reveal about how students actually used AI.</p></div>
@@ -170,13 +174,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

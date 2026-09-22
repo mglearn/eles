@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -122,6 +125,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>In the Listen round, observers' tallies show more questions than suggestions, and the teacher's goal is recorded in the teacher's words.</li><li>Each co-planned revision on Handout C names what student evidence will look different, not just what the teacher will do.</li><li>Triads tally claim, data, and reasoning across Week 1 and Week 3 and name at least one student who needs a different adjustment than the class.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>K–2 teachers</dt><dd>Swap Handout B for oral responses you transcribe: &quot;I think ___ because I saw ___.&quot; Measure whether students name something they observed.</dd></div><div><dt>Higher Ed faculty</dt><dd>Use the same protocol with discussion-board posts. The revision cuts required posts from three to one, with a claim tied to a course reading and a reply that tests a peer's evidence.</dd></div><div><dt>New coaches</dt><dd>Run only the Listen round twice with different persona cards before moving on. It is the hardest phase to do well.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Coaches co-plan a lesson that trades question volume for claims backed by class data and reasoning, then measure the change in student work.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-sci-practices" title="Science: scientific and engineering practices">scientific and engineering practices</a><a class="std std-teks" href="../standards.html#teks-elar-resp" title="ELAR: response skills">response skills</a><span class="std-sec">TEKS sections: ELAR §110.2–§110.4, §110.5–§110.7, §110.22–§110.24, §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-6-4" title="Enhance capacity for monitoring progress">6.4</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-8-5" title="Offer action-oriented feedback">8.5</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How effectively am I supporting teachers in improving their instructional practices? (Coach ELE guiding question)</li><li>In my last coaching conversation, how much of the time was I listening versus suggesting?</li><li>What student evidence would convince me that a co-planned change worked, and when will I look at it with the teacher?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Start a real cycle with the teacher you named: one listening conversation this week, a co-planned lesson next week, and a 15-minute look at the student work together afterward. Bring the before-and-after tally to your coaching team.</p></div>
@@ -170,13 +174,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

@@ -41,11 +41,13 @@ const translatable = flat => Object.fromEntries(Object.entries(flat).filter(([k,
 function units() {
   const u = { ui: JSON.parse(fs.readFileSync(path.join(I18N, 'en/ui.json'), 'utf8')) };
   u.eles = translatable(flatten(JSON.parse(fs.readFileSync(path.join(ROOT, 'data/eles.json'), 'utf8'))));
+  const std = path.join(ROOT, 'data/standards.json');
+  if (fs.existsSync(std)) u.standards = Object.fromEntries(Object.entries(JSON.parse(fs.readFileSync(std, 'utf8'))).filter(([, v]) => v.note).map(([k, v]) => [`${k}.note`, v.note]));
   for (const f of fs.readdirSync(ACT_DIR).filter(f => f.endsWith('.json')).sort())
     u[path.basename(f, '.json')] = translatable(flatten(JSON.parse(fs.readFileSync(path.join(ACT_DIR, f), 'utf8'))));
   return u;
 }
-const overlayPath = (lang, unit) => unit === 'ui' || unit === 'eles'
+const overlayPath = (lang, unit) => unit === 'ui' || unit === 'eles' || unit === 'standards'
   ? path.join(I18N, lang, `${unit}.json`) : path.join(I18N, lang, 'activities', `${unit}.json`);
 function readOverlay(lang, unit) {
   const p = overlayPath(lang, unit);

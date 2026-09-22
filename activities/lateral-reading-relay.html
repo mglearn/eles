@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Handout B shows at least one change of verdict that names the move responsible (e.g., &quot;Investigated source: advocacy group funded by a product maker&quot;).</li><li>Participants trace the AI summary's claims individually rather than accepting or rejecting it as a whole.</li><li>Each retrofitted lesson on Handout C names a specific piece of student verification evidence to collect.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grades 3–5 teachers</dt><dd>Use Cards 1, 3, and 7 only and shrink SIFT to two moves: &quot;Who made this?&quot; and &quot;Does anyone else say so?&quot;</dd></div><div><dt>Higher Ed faculty</dt><dd>Swap Card 5 for a preprint-style claim and add a Trace discussion on the difference between a preprint, a peer-reviewed article, and a press release about either.</dd></div><div><dt>Librarians</dt><dd>Extend the Model step with advanced search operators and a database comparison, then co-plan with a content teacher using Handout C.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Teachers use SIFT to verify claims, including an AI summary, preparing students to judge source reliability and show verification evidence.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Technology Applications, digital citizenship: ethics and laws (c)(9)">ethics and laws (c)(9)</a><a class="std std-teks" href="../standards.html#teks-elar-inquiry" title="ELAR: inquiry and research">inquiry and research</a><a class="std std-teks" href="../standards.html#teks-ss-skills" title="Social studies skills (sources, frames of reference, bias, and evidence)">Social studies skills (sources, frames of reference, bias, and evidence)</a><span class="std-sec">TEKS sections: Technology Applications §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126); ELAR §110.22–§110.24, §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a><a class="std std-udl" href="../standards.html#udl-4-1" title="Vary and honor the methods for response, navigation, and movement">4.1</a><a class="std std-udl" href="../standards.html#udl-8-1" title="Clarify the meaning and purpose of goals">8.1</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How am I fostering critical thinking about online and AI-generated information in my lessons? (Teacher ELE 5.0)</li><li>Where do my students currently turn in answers without the evidence of how they checked them?</li><li>What would I accept as proof that a student verified an AI output?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Run Round 2 with students using the grade-appropriate cards, then collect Handout B as an exit ticket. Bring three samples to your coach or PLC and compare how many students named a verification move.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

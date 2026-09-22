@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -108,6 +111,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>My Ask Two Cards show two different checks (book, eyes, grown-up) and a circled decision that matches the evidence.</li><li>Children change their decision when a check disagrees with Robo, or choose &quot;not sure yet&quot; when their checks disagree.</li><li>In the Debrief, children say that a sure-sounding voice doesn't prove an answer is right.</li><li>On the Ask Two Card, children name a real checking strength and a small next-step goal.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Kindergarten</dt><dd>Run the stations as a whole class, one card at a time, with you walking the class to each station. Children circle a thumbs-up or thumbs-down face instead of writing.</dd></div><div><dt>Grade 2</dt><dd>Add a rule: at least one check must be a book or other printed source. Pairs write one sentence explaining which source they trusted most and why.</dd></div><div><dt>Emergent bilinguals</dt><dd>Provide nonfiction books in the home language when you can, and let the Grown-Up Desk adult speak the child's home language if available.</dd></div><div><dt>Early readers</dt><dd>Put a sticky-note picture cue on each marked book page, and pair emergent readers with a stronger reader for the Book Nook.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Children check a robot helper's claims in a book, by observing, or with a grown-up, early inquiry and scientific observation that shows sure-sounding answers can be wrong.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-elar-inquiry" title="ELAR: inquiry and research">inquiry and research</a><a class="std std-teks" href="../standards.html#teks-sci-practices" title="Science: scientific and engineering practices">scientific and engineering practices</a><span class="std-sec">TEKS sections: ELAR §110.2–§110.4</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c1" title="Learning strategies">Learning strategies</a><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-3" title="Cultivate multiple ways of knowing and making meaning">3.3</a><a class="std std-udl" href="../standards.html#udl-4-1" title="Vary and honor the methods for response, navigation, and movement">4.1</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>Am I trying my best to learn on my own? How did I check today? (Student ELE guiding question)</li><li>Which station helped you most? Why?</li><li>What will you do the next time a computer or speaker tells you something?</li></ul></div>
         <div><h2>What comes next</h2><p>Send home a blank My Ask Two Card. Families pick something a speaker, app, or TV show told them this week and check it in two places together (a book, a grown-up, or looking with their own eyes). In class, post &quot;Ask Two&quot; by the classroom library and use the two-finger signal whenever a surprising fact comes up.</p></div>
@@ -156,13 +160,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

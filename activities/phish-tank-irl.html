@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Students justify a color with a specific flag (&quot;asks for a code,&quot; &quot;link doesn't match the company&quot;), not &quot;it looks fake.&quot;</li><li>Students reject spelling as a reliable clue and explain why, citing the AI-polished example.</li><li>Handout C names a trusted route that doesn't use the suspicious message's own link, number, or reply button.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grades 3–5</dt><dd>Use Messages 1, 3, 5, 7, 8, and 12, and shorten SLOW DOWN to three moves: Stop, Don't click, Tell a grown-up.</dd></div><div><dt>Grades 9–12</dt><dd>Add job-offer and scholarship scams, and discuss how AI helps scammers personalize messages using information people post publicly.</dd></div><div><dt>Emergent bilinguals</dt><dd>Provide the messages in students' home languages where possible; scams often target families in more than one language. Let teams discuss the flags in any language.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Students sort realistic messages as safe, scam, or check another way and name red flags that still work, the phishing and security part of digital citizenship.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-10" title="Technology Applications, digital citizenship: privacy, safety, and security (c)(10)">privacy, safety, and security (c)(10)</a><span class="std-sec">TEKS sections: Technology Applications §126.8–§126.10, §126.17–§126.19</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Highlight and explore patterns, critical features, big ideas, and relationships">3.2</a><a class="std std-udl" href="../standards.html#udl-4-1" title="Vary and honor the methods for response, navigation, and movement">4.1</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>Do I stay safe and make good choices when I use the internet? What will I do the next time a message makes me feel rushed?</li><li>Which personal information would a scammer most want from me or my family, and how will I protect it?</li><li>Who is my trusted adult or trusted route for checking a message?</li></ul></div>
         <div><h2>What comes next</h2><p>Students take the SLOW DOWN card home and walk a family member through one message from the tank. Next class, invite volunteers to share one scam flag their family recognized.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

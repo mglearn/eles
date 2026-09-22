@@ -72,6 +72,15 @@ function imgFor(a) {
   return [`act-${a.id}`, ...a.strands.map(st => `cat-${band}-${st}`)].find(hasImg) || null;
 }
 const USES_PHOTOS = Object.keys(IMG_MANIFEST).some(hasImg);
+// Standards alignment (see data/standards-catalog.json, standards.html)
+const STD_CAT = readJson(path.join(ROOT, 'data/standards-catalog.json'));
+const STD = readJson(path.join(ROOT, 'data/standards.json')) || {};
+const STD_GROUPS = ['teks', 'elps', 'udl', 'sst'];
+// TEKS chapter sections by grade band, for citing (paraphrased; see tea.texas.gov)
+const TEKS_SECTIONS = {
+  ta: { 'K-2': '§126.5–§126.7', '3-5': '§126.8–§126.10', '6-8': '§126.17–§126.19' },
+  elar: { 'K-2': '§110.2–§110.4', '3-5': '§110.5–§110.7', '6-8': '§110.22–§110.24', '9-12': '§110.36–§110.39' },
+};
 // TCEA's own ELE infographic slides (source_materials deck), shown on the framework page
 const INFOGRAPHICS = readJson(path.join(ROOT, 'data/infographics.json')) || [];
 
@@ -102,6 +111,7 @@ var q=new URLSearchParams(location.search),want=q.get('lang'),saved=null;try{sav
 if(want&&alt[want]){try{localStorage.setItem(K,want)}catch(e){}}else{want=saved||((navigator.languages||[navigator.language]).map(function(x){return String(x).slice(0,2).toLowerCase()}).filter(function(x){return alt[x]})[0])||cur}
 if(want!==cur&&alt[want]){q.delete('lang');var s=q.toString();location.replace(alt[want]+(s?'?'+s:'')+location.hash)}
 else if(q.has('lang')){q.delete('lang');var s2=q.toString();history.replaceState(null,'',location.pathname+(s2?'?'+s2:'')+location.hash)}})();`;
+const NAV_JS = `document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});`;
 const LANG_PICK = `document.querySelectorAll('.lang-pick select').forEach(function(s){s.addEventListener('change',function(){try{localStorage.setItem('tcea.eles.lang',s.value)}catch(e){}var o=s.options[s.selectedIndex];location.href=o.dataset.href+location.search+location.hash})});`;
 
 // ======================================================================
@@ -112,7 +122,8 @@ function buildLang(L) {
   const UI = { ...UI_EN, ...(readJson(path.join(I18N, lang, 'ui.json')) || {}) };
   const t = (k, vars) => fill(UI[k] ?? k, vars);
   const ELES = applyOverlay(ELES_EN, readJson(path.join(I18N, lang, 'eles.json')));
-  const acts = ACTS_EN.map(a => localizeActivity(a, lang)).sort((a, b) => a.title.localeCompare(b.title, lang));
+  const stdNotes = readJson(path.join(I18N, lang, 'standards.json')) || {};
+  const acts = ACTS_EN.map(a => ({ ...localizeActivity(a, lang), stdNote: stdNotes[`${a.id}.note`] })).sort((a, b) => a.title.localeCompare(b.title, lang));
   const prefix = lang === 'en' ? '' : `${lang}/`;
 
   const IND = {};
@@ -159,7 +170,10 @@ ${FONTS}
   <nav aria-label="${esc(t('nav.main'))}">
     <a href="${base}index.html#catalog">${esc(t('nav.activities'))}</a>
     <a href="${base}framework.html">${esc(t('nav.eles'))}</a>
-    <a href="${base}guide.html">${esc(t('nav.guide'))}</a>
+    <details class="navmenu"><summary>${esc(t('nav.facilitator'))}</summary><div class="navmenu-panel">
+      <a href="${base}guide.html">${esc(t('nav.guide'))}</a>
+      <a href="${base}standards.html">${esc(t('nav.standards'))}</a>
+    </div></details>
     ${picker}
   </nav>
 </header>
@@ -171,13 +185,21 @@ ${body}
     <p>${fill(esc(t('foot.credit')), { mglearn: '<a href="https://mglearn.github.io/">mglearn</a>', eles: `<a href="https://tinyurl.com/tceaeles1">${esc(t('foot.elesLink'))}</a>`, license: '<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>' })}</p>
     ${USES_PHOTOS ? `<p class="ai-note">${esc(t('foot.photos'))}</p>` : ''}
   </div>
+  <nav aria-label="${esc(t('foot.tcea'))}">
+    <p class="foot-h">${esc(t('foot.tcea'))}</p>
+    <a href="https://tcea.org/">${esc(t('foot.tceaOrg'))}</a>
+    <a href="https://blog.tcea.org/">${esc(t('foot.tceaBlog'))}</a>
+    <a href="https://convention.tcea.org/">${esc(t('foot.tceaConvention'))}</a>
+  </nav>
   <nav aria-label="${esc(t('nav.related'))}">
+    <p class="foot-h">${esc(t('foot.more'))}</p>
     <a href="https://mglearn.github.io/tcea/eles/">${esc(t('foot.assistant'))}</a>
     <a href="https://mglearn.github.io/activities/">${esc(t('foot.hub'))}</a>
     <a href="https://mglearn.github.io/activities/digcit/">${esc(t('foot.digcit'))}</a>
     <a href="https://mglearn.github.io/activities/genailit/">${esc(t('foot.genailit'))}</a>
   </nav>
 </footer>
+<script>${NAV_JS}</script>
 ${LANGS.length > 1 ? `<script>${LANG_PICK}</script>` : ''}
 ${scripts.replace(/\{root\}/g, root)}
 </body>
@@ -195,6 +217,16 @@ ${scripts.replace(/\{root\}/g, root)}
   }
   const rootFrom = d => ups(d + (lang === 'en' ? 0 : 1));
 
+  const stdLabel = (g, c) => t(`std.${g}.${c}`);
+  const stdChip = (g, c, root) => `<a class="std std-${g}" href="${root}standards.html#${g}-${c.replace(/\./g, '-')}" title="${esc(stdLabel(g, c))}">${g === 'udl' ? c : esc(g === 'teks' || g === 'sst' ? stdLabel(g, c).replace(/^[^:]*:\s*/, '') : stdLabel(g, c))}</a>`;
+  const teksSections = a => {
+    const st = STD[a.id]; if (!st || !st.teks.length) return '';
+    const bands = a.grades.includes('K-12') ? ['K-2', '3-5', '6-8', '9-12'] : a.grades.filter(g => g !== 'Higher Ed');
+    const out = [];
+    if (st.teks.some(c => c.startsWith('ta-'))) out.push('Technology Applications ' + bands.map(b => TEKS_SECTIONS.ta[b] || t('grade.hs')).filter((v, i, x) => x.indexOf(v) === i).join(', '));
+    if (st.teks.some(c => c.startsWith('elar-'))) out.push('ELAR ' + bands.map(b => TEKS_SECTIONS.elar[b]).filter(Boolean).join(', '));
+    return out.join('; ');
+  };
   const strandChips = a => a.strands.map(s => `<span class="strand s-${s}">${esc(strandShort(s))}</span>`).join('');
   const eleChips = (ids, base) => ids.map(id => `<a class="ele" href="${base}framework.html#${id}" title="${esc(IND[id].role.short + ' ' + id.replace(/^[A-Z]+/, '') + ': ' + IND[id].text)}">${id}</a>`).join('');
 
@@ -290,6 +322,7 @@ ${scripts.replace(/\{root\}/g, root)}
       </section>
       <section class="evidence"><h2>${esc(t('act.evidence'))}</h2><p class="muted">${esc(t('act.evidenceSub'))}</p>${list(a.lookFors)}</section>
       <section><h2>${esc(t('act.adaptations'))}</h2><dl class="adapt">${a.adaptations.map(x => `<div><dt>${esc(x.label)}</dt><dd>${md(x.text)}</dd></div>`).join('')}</dl></section>
+      ${STD[a.id] ? `<section class="stds"><h2>${esc(t('act.standards'))}</h2>${STD[a.id].note ? `<p>${esc(a.stdNote || STD[a.id].note)}</p>` : ''}<dl>${STD_GROUPS.filter(g => STD[a.id][g].length).map(g => `<div><dt>${esc(t('std.group.' + g))}</dt><dd>${STD[a.id][g].map(c => stdChip(g, c, base)).join('')}${g === 'teks' && teksSections(a) ? `<span class="std-sec">${esc(t('act.teksSections', { list: teksSections(a) }))}</span>` : ''}</dd></div>`).join('')}</dl><p class="std-more noprint"><a href="${base}standards.html#table">${esc(t('act.standardsMore'))}</a></p></section>` : ''}
       <section class="two">
         <div><h2>${esc(t('act.reflect'))}</h2>${list(a.reflection)}</div>
         <div><h2>${esc(t(a.audience === 'pl' ? 'act.transferPL' : 'act.transferStudent'))}</h2><p>${md(a.transfer)}</p></div>
@@ -525,6 +558,39 @@ ${scripts.replace(/\{root\}/g, root)}
     page({ pagePath: 'guide.html', title: `${t('g.title')} | ${t('site.titleSuffix')}`, desc: t('g.desc'), body });
   }
 
+  // ---------- standards ----------
+  function standardsPage() {
+    const used = (g, c) => acts.filter(a => STD[a.id] && STD[a.id][g].includes(c)).length;
+    const codeList = (g, codes) => `<ul class="codes${g === 'teks' || g === 'sst' ? ' nocode' : ''}">${codes.map(c => `<li id="${g}-${c.replace(/\./g, '-')}">${g === 'elps' || g === 'udl' ? `<span class="code">${g === 'elps' ? '(c)(' + c.slice(1) + ')' : c}</span>` : ''}<span>${esc(stdLabel(g, c))}</span><a class="muted" href="#table" data-filter="${g}:${c}">${esc(t('std.used', { n: used(g, c) }))}</a></li>`).join('')}</ul>`;
+    const udlGroups = [['engagement', ['7', '8', '9']], ['representation', ['1', '2', '3']], ['action', ['4', '5', '6']]];
+    const rows = acts.map(a => {
+      const st = STD[a.id];
+      const cell = g => !st ? '' : st[g].length ? st[g].map(c => stdChip(g, c, '')).join('') : `<span class="muted">${esc(t(g === 'sst' || g === 'teks' ? 'std.table.na' : 'std.table.none'))}</span>`;
+      const codes = st ? STD_GROUPS.flatMap(g => st[g].map(c => g + ':' + c)).join(' ') : '';
+      return `<tr data-codes="${codes}" data-text="${esc(norm(a.title + ' ' + a.grades.join(' ') + ' ' + codes))}"${a.translated ? '' : ' lang="en"'}><th scope="row"><a href="activities/${a.id}.html">${esc(a.title)}</a><span class="muted">${esc(audienceLabel(a))} · ${esc(a.audience === 'pl' ? whoLabel(a) : gradeList(a))}</span></th>${STD_GROUPS.map(g => `<td>${cell(g)}</td>`).join('')}</tr>`;
+    }).join('');
+    const body = `
+<main id="main" class="stdpage">
+  <h1>${esc(t('std.title'))}</h1>
+  <p class="lede">${esc(t('std.lede'))}</p>
+  <p class="muted">${esc(t('std.disclaimer'))}</p>
+  <nav class="fw-tabs" aria-label="${esc(t('std.jump'))}"><a href="#sst">${esc(t('std.group.sst'))}</a><a href="#teks">TEKS</a><a href="#elps">ELPS</a><a href="#udl">UDL</a><a href="#table">${esc(t('std.table.h'))}</a></nav>
+  <section id="sst"><h2>${esc(t('std.sst.h'))}</h2><p>${md(t('std.sst.p1'))}</p><p>${md(t('std.sst.p2'))}</p><p>${md(t('std.sst.p3'))}</p>
+    ${codeList('sst', Object.keys(STD_CAT.sst))}
+    <p class="links"><a href="https://tea.texas.gov/data-reports/student-assessment-overview/house-bill-8-student-assessment">${esc(t('std.sst.tea'))}</a> <a href="https://mglearn.github.io/activities/sst/">${esc(t('std.sst.hub'))}</a></p></section>
+  <section id="teks"><h2>${esc(t('std.teks.h'))}</h2><p>${md(t('std.teks.p1'))}</p><p>${md(t('std.teks.p2'))}</p><p>${md(t('std.teks.p3'))}</p>${codeList('teks', Object.keys(STD_CAT.teks))}</section>
+  <section id="elps"><h2>${esc(t('std.elps.h'))}</h2><p>${md(t('std.elps.p1'))}</p>${codeList('elps', Object.keys(STD_CAT.elps))}<p>${md(t('std.elps.p2'))}</p>
+    <h3>${esc(t('std.elps.tips'))}</h3><ul>${['t1', 't2', 't3', 't4', 't5'].map(k => `<li>${md(t('std.elps.' + k))}</li>`).join('')}</ul></section>
+  <section id="udl"><h2>${esc(t('std.udl.h'))}</h2><p>${md(t('std.udl.p1'))}</p><p>${md(t('std.udl.p2'))}</p>
+    <div class="udl-cols">${udlGroups.map(([k, nums]) => `<div><h3>${esc(t('std.udl.' + k))}</h3>${codeList('udl', Object.keys(STD_CAT.udl).filter(c => nums.includes(c.split('.')[0])))}</div>`).join('')}</div></section>
+  <section id="table"><h2>${esc(t('std.table.h'))}</h2>
+    <label class="tfilter"><span>${esc(t('std.table.filter'))}</span><input type="search" id="tq" placeholder="${esc(t('std.table.placeholder'))}"></label>
+    <div class="table-wrap"><table class="align"><thead><tr><th>${esc(t('std.table.activity'))}</th>${STD_GROUPS.map(g => `<th>${esc(t('std.group.' + g))}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table></div></section>
+</main>`;
+    page({ pagePath: 'standards.html', title: `${t('std.title')} | ${t('site.titleSuffix')}`, desc: t('std.desc'), body,
+      scripts: `<script>(function(){var q=document.getElementById('tq'),rows=[].slice.call(document.querySelectorAll('.align tbody tr'));function n(s){return s.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase()}function go(){var v=n(q.value.trim());rows.forEach(function(r){r.hidden=v&&!(r.dataset.text.indexOf(v)>=0||r.dataset.codes.split(' ').indexOf(v)>=0)})}q.addEventListener('input',go);document.querySelectorAll('[data-filter]').forEach(function(a){a.addEventListener('click',function(){q.value=a.dataset.filter;go()})});var h=location.hash.match(/^#(teks|elps|udl|sst)-(.+)$/);})();</script>` });
+  }
+
   // ---------- catalog data ----------
   function catalogJs() {
     const rows = acts.map(a => ({
@@ -544,7 +610,7 @@ ${scripts.replace(/\{root\}/g, root)}
   fs.rmSync(path.join(ROOT, prefix, 'activities'), { recursive: true, force: true });
   fs.rmSync(path.join(ROOT, prefix, 'handouts'), { recursive: true, force: true });
   for (const a of acts) { activityPage(a); handoutPage(a); }
-  indexPage(); frameworkPage(); guidePage(); catalogJs();
+  indexPage(); frameworkPage(); guidePage(); standardsPage(); catalogJs();
   const done = acts.filter(a => a.translated).length;
   return { acts, cover, IND, done };
 }

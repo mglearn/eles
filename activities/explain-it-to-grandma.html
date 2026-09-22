@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Revised explanations on Handout B show a specific change after role-play feedback (a swapped jargon word, an added limit, a better comparison).</li><li>Checkers score accuracy and plain language separately, and at least one round catches an oversimplification that became untrue.</li><li>Final explanations include one honest limitation and one action the audience can take.</li><li>Each participant names a real upcoming moment where they'll use the explanation.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Campus and district leaders</dt><dd>Use only Audience cards A3 (board trustee), A5 (reporter), and A6 (privacy-worried parent). Add a requirement that each explanation ends with what the district is doing and how families can ask questions.</dd></div><div><dt>K–2 and 3–5 teachers</dt><dd>Replace the planner with a three-box version: &quot;AI is like…&quot;, &quot;But it can…&quot;, &quot;So we always…&quot; and practice on Audience card A2 (the second grader).</dd></div><div><dt>Families who speak languages other than English</dt><dd>Have explainers practice with an interpreter role (Audience card A7). Plain language translates better; idioms and jargon don't. Note which comparisons fall apart in translation.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Educators explain how chatbots predict text in plain, accurate language, preparing students to explain AI concepts to others with an honest limitation.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Technology Applications: computational thinking">computational thinking</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7, §126.8–§126.10, §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-2-1" title="Clarify vocabulary, symbols, and language structures">2.1</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-8-5" title="Offer action-oriented feedback">8.5</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How am I developing and applying AI literacy in educational contexts, including with families and community members?</li><li>When I simplify AI concepts, what do I risk getting wrong, and how will I check?</li><li>Which audience in my community currently hears the least accurate explanations of AI, and who could reach them?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Have students do the same activity: they explain one AI concept to a younger student or a family member and bring back one question they couldn't answer. Their questions become next week's mini-lesson.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

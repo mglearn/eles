@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -122,6 +125,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Teams correctly place at least 11 of 14 strips and write a specific student question for each &quot;Needs more context&quot; strip.</li><li>Calibration discussions cite specific evidence from the vignettes rather than general impressions.</li><li>Every criterion in the revised rubric can be scored in a lesson with no devices, and at least one criterion addresses verification of information or AI output.</li><li>Each team leaves with a named criterion, dates, and a plan for sharing evidence with teachers.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Higher Ed</dt><dd>Use the protocol for peer observation of teaching, replacing the vignettes with a lecture with polling, a lab, and a seminar. Emphasize that observation is formative and voluntary where faculty governance requires it.</dd></div><div><dt>Elementary campuses</dt><dd>Rewrite Vignette C as a K–2 center rotation and add a criterion about students explaining their thinking orally, since young students' evidence is often spoken rather than written.</dd></div><div><dt>Coaches only</dt><dd>Use the revised rubric as a self-assessment tool that teachers choose to use with their coach, not an observation form.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Leaders revise walkthrough rubrics to capture student reasoning and verification of AI output, rather than device use alone.</p><dl><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-8-1" title="Clarify the meaning and purpose of goals">8.1</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-8-5" title="Offer action-oriented feedback">8.5</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>In what ways am I supporting and evaluating effective use of educational technology across our school? (Leader ELE 2.0)</li><li>What does our current walkthrough tool reward, and what message does that send to teachers?</li><li>How would I evaluate whether an AI-enhanced lesson improved learning rather than just speeding up task completion? (AI ELE 3.0)</li><li>What will I do differently during my next classroom visit?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Next week, pilot one criterion from your revised rubric in at least five classrooms, using the two-minute student conversation in each. Share what you saw with the teachers as questions, not scores, and bring the patterns to your next leadership meeting.</p></div>
@@ -170,13 +174,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

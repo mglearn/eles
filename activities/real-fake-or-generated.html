@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Handout B shows at least one verdict that changed in Round 2, with the source question that changed it.</li><li>Students explain why a specific clue failed (e.g., &quot;the sixth finger was another kid's hand&quot;) instead of only listing clues.</li><li>Handout C names a concrete verification action for a suspicious voice message.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grades 3–5</dt><dd>Use Cards 2, 3, 5, and 8, and shrink the source questions to two: &quot;Who posted this?&quot; and &quot;Does anyone I trust say the same thing?&quot;</dd></div><div><dt>Grades 9–12</dt><dd>Add a debate: &quot;Should AI tools be required to label or watermark what they make?&quot; Students discuss what labels can and can't solve, using Card 7 (the label that got lost when reshared).</dd></div><div><dt>Emergent bilinguals</dt><dd>Pre-teach <em>generated, edited, original, source</em>, and pair each card with a quick sketch. Let teams discuss in any language and record the verdict in English.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Students see visual clues fail and revise verdicts by checking who posted media first, then plan a safe response to a cloned-voice request.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Technology Applications, digital citizenship: ethics and laws (c)(9)">ethics and laws (c)(9)</a><a class="std std-teks" href="../standards.html#teks-ss-skills" title="Social studies skills (sources, frames of reference, bias, and evidence)">Social studies skills (sources, frames of reference, bias, and evidence)</a><a class="std std-teks" href="../standards.html#teks-ta-dc-10" title="Technology Applications, digital citizenship: privacy, safety, and security (c)(10)">privacy, safety, and security (c)(10)</a><span class="std-sec">TEKS sections: Technology Applications §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Highlight and explore patterns, critical features, big ideas, and relationships">3.2</a><a class="std std-udl" href="../standards.html#udl-7-2" title="Optimize relevance, value, and authenticity">7.2</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-ss-sources" title="Social studies: sources, claims, and the economics, science, technology, and society strand">sources, claims, and the economics, science, technology, and society strand</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>Do I stay safe and make good choices when I use the internet? What will I do differently the next time something surprising shows up in my feed?</li><li>Which clue did I trust most at the start, and why was it not enough?</li><li>What would I say to a friend who shares something because it &quot;looked real&quot;?</li></ul></div>
         <div><h2>What comes next</h2><p>Students take Handout C home and set up a family code word or call-back plan with an adult. Next lesson, ask two volunteers to share how the conversation went, and begin the next media-literacy lesson with one source question as a warm-up.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

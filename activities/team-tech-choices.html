@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Handout B's reason and evidence columns explain how each tool shows learning, and at least one task uses &quot;no tool&quot; or a person on purpose.</li><li>Every teammate speaks before a match is recorded, and at least one match changes after a teammate's view.</li><li>Mystery Tool lists include safe, practical steps (try it small, ask, check what information it asks for).</li><li>Team goals on Handout C have dated checkpoints and a &quot;who might be left out&quot; adjustment.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grade 3</dt><dd>Use 5 Task Cards and 5 Tool Cards, and give teams sentence frames for the reason column: &quot;This tool fits because…&quot;</dd></div><div><dt>Grade 5</dt><dd>Add a budget: each team has 3 &quot;screen tokens&quot; and must decide which tasks earn screen time, then defend the choice with the evidence it will produce.</dd></div><div><dt>Emergent bilinguals</dt><dd>Assign the Tool Scout role to a student who can read cards aloud in the home language, and for the &quot;Share the guide with families&quot; task, discuss a home-language version of the guide as a real option.</dd></div><div><dt>Students who use assistive technology</dt><dd>Invite them to add their own tool as a Tool Card and teach the team what it does well.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Teams match project tasks to tools, or no tool, and explain what each choice shows they learned, the tool-selection focus of practical technology concepts.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ptc" title="Technology Applications: practical technology concepts">practical technology concepts</a><span class="std-sec">TEKS sections: Technology Applications §126.8–§126.10</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-6-1" title="Set meaningful goals">6.1</a><a class="std std-udl" href="../standards.html#udl-6-5" title="Challenge exclusionary practices">6.5</a><a class="std std-udl" href="../standards.html#udl-7-1" title="Optimize choice and autonomy">7.1</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>Am I good at using different tools and computers to help me learn? How did I choose? (Student ELE guiding question)</li><li>How well do I work with others when we learn together? When did a teammate's idea change the plan?</li><li>How would you learn a tool you've never used before?</li></ul></div>
         <div><h2>What comes next</h2><p>Teams carry out their plan over the next week and check in at each checkpoint on Handout C. At home, students interview a family member: &quot;What tool do you use for your work, and how did you learn it?&quot; and add the answer to their reflection.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

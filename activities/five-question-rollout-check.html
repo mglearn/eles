@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Handout C names at least one piece of missing evidence about student learning, not only about usage, training, or cost.</li><li>Tables respond to Dani's screen-reader report with a concrete action (a pause, an alternative, an accessibility review, a follow-up with Dani) and an owner.</li><li>Decisions labeled &quot;go with conditions&quot; list conditions specific enough that someone could check them in six weeks.</li><li>Transfer vision statements name an instructional problem rather than a tool.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Higher Ed</dt><dd>Recast the memo as a dean adopting a courseware platform across a college; replace the Math Chair with an adjunct faculty representative and the family card with a first-generation student who works full time.</dd></div><div><dt>District leadership teams</dt><dd>Run it across several campuses: each table plays a different campus with a different role list, and the debrief asks what a district-wide decision owes to the campus with the most barriers.</dd></div><div><dt>Short on time (35 min)</dt><dd>Use only Inject 1, shorten the meeting to 10 minutes, and have tables answer only questions 2 and 4 on Handout C.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Leaders test an AI platform rollout against five questions, including a student's screen-reader barrier, so tool adoption serves every student's learning.</p><dl><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-1-3" title="Represent a diversity of perspectives and identities in authentic ways">1.3</a><a class="std std-udl" href="../standards.html#udl-4-2" title="Optimize access to accessible materials and assistive and accessible technologies and tools">4.2</a><a class="std std-udl" href="../standards.html#udl-6-5" title="Challenge exclusionary practices">6.5</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How clearly have I articulated the instructional problem this initiative solves, and who have I tested that vision with? (Leader ELE 1.0)</li><li>Whose feedback in our last rollout did we treat as a complaint instead of as evidence?</li><li>When a tool includes an AI feature, what do families and students need to know about what happens to their work?</li><li>What will we look at in six weeks to decide whether this change helped students learn?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Before your next technology rollout meeting, send the five questions to the planning team in advance and ask one student and one family to review the plan. Bring their feedback to the meeting as evidence, and record the decision and its conditions where staff can see them.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

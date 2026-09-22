@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -108,6 +111,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Children place password, home address, and phone number on RED without prompting and give a safety reason.</li><li>During Chatty Says, children tell harmless questions apart from private ones instead of shouting the script at every card.</li><li>Each shield on Handout C shows at least three private items and a named trusted grown-up.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Kindergarten</dt><dd>Use two colors only (RED and GREEN) and 8 strips; say &quot;ask a grown-up&quot; for anything they're unsure about.</dd></div><div><dt>Grade 2</dt><dd>Add a &quot;Why?&quot; round: pairs choose one red strip and explain to the class what someone could do with that information.</dd></div><div><dt>Emergent bilinguals</dt><dd>Teach the three motions first; they carry the meaning. Label the circles in English and the home language and let children answer with motions.</dd></div><div><dt>Children who feel anxious</dt><dd>Frame red items as treasure, not danger, and let a child stand with a buddy at the circle.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Children sort information into keep private, ask a grown-up, or OK to share and rehearse refusing a chatbot's request, the K–2 personal-information expectation.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-10" title="Technology Applications, digital citizenship: privacy, safety, and security (c)(10)">privacy, safety, and security (c)(10)</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-4-1" title="Vary and honor the methods for response, navigation, and movement">4.1</a><a class="std std-udl" href="../standards.html#udl-7-3" title="Nurture joy and play">7.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>What goes in your treasure box? Why do we keep it private?</li><li>Do I stay safe and make good choices when I use the internet? (Student ELE guiding question)</li><li>Who is your trusted grown-up, and what will you say to them?</li></ul></div>
         <div><h2>What comes next</h2><p>Send the shield home with a note inviting families to play &quot;Traffic Light&quot; at dinner (a grown-up names a piece of information and the child says red, yellow, or green) and to agree together on who the child's trusted grown-ups are online. Next lesson, <em>Kind Clicks</em> builds on the &quot;tell a grown-up&quot; habit.</p></div>
@@ -156,13 +160,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

@@ -113,5 +113,20 @@ for (const f of files) {
   warn.forEach(x => console.log('  ! ' + x));
   if (errs.length) bad++;
 }
+// standards.json: every activity mapped, catalog codes only
+const stdPath = path.join(ROOT, 'data/standards.json');
+if (fs.existsSync(stdPath) && !process.argv.slice(2).length) {
+  const cat = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/standards-catalog.json'), 'utf8'));
+  const std = JSON.parse(fs.readFileSync(stdPath, 'utf8'));
+  const ids = files.map(f => path.basename(f, '.json'));
+  const errs = [];
+  ids.forEach(id => { if (!std[id]) errs.push(`${id}: missing from standards.json`); });
+  for (const [id, m] of Object.entries(std)) {
+    if (!ids.includes(id)) errs.push(`${id}: no such activity`);
+    for (const g of ['teks', 'elps', 'udl', 'sst']) (m[g] || []).forEach(c => { if (!(c in cat[g])) errs.push(`${id}: unknown ${g} code ${c}`); });
+  }
+  errs.forEach(e => console.log('  ✗ standards.json ' + e));
+  if (errs.length) bad++;
+}
 console.log(`\n${files.length - bad}/${files.length} activity files valid.`);
 process.exit(bad ? 1 : 0);

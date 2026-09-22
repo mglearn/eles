@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -101,6 +104,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Groups justify placements by naming the evidence of learning (&quot;they have to explain the pattern in the graph&quot;), not the tool's appeal.</li><li>At least one placement names a wellbeing or relationship factor (eye contact, belonging, attention, anxiety) as part of the reason.</li><li>Participants leave with one real task changed, kept, or dropped, with a stated reason on Handout B or a sticky note.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>K–5 teachers</dt><dd>Swap in items from your grade band (read-alouds, math manipulatives, phonics practice apps, class video calls) and add a fifth question to Handout B: &quot;How will I know young students are still getting enough talk, movement, and hands-on time?&quot;</dd></div><div><dt>Secondary teachers</dt><dd>Add items from your content area and a column for &quot;Students choose,&quot; with the condition that students must explain their choice. That builds the learning-owner habit the ELEs describe.</dd></div><div><dt>Student version (grades 6–12)</dt><dd>Students sort the same strips and then write a class agreement about when devices come out. Their reasons are often sharper than adults'.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Teachers sort tasks by whether a screen adds evidence of learning, preparing to model purposeful tool choice for students.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ptc" title="Technology Applications: practical technology concepts">practical technology concepts</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7, §126.8–§126.10, §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How do I decide when technology truly belongs in a lesson? (Teacher ELE 1.1)</li><li>Which of my routines build emotional connection, and would a screen help or get in the way? (Teacher ELE 4.3)</li><li>Which newer tools, including AI, am I using because they're available rather than because they improve the evidence of learning?</li></ul></div>
         <div><h2>Take it to your students</h2><p>For one week, before any device comes out, say the reason aloud to students (&quot;We're using the spreadsheet today because it lets us spend our time explaining the pattern, not drawing the graph&quot;). Notice whether students start asking &quot;Why a screen?&quot; themselves.</p></div>
@@ -149,13 +153,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

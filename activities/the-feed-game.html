@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Handout B shows fewer topics in Round 5 than in Round 1, and students can explain why using the rule card.</li><li>Students distinguish what the algorithm &quot;knows&quot; (reactions) from what it doesn't (truth, kindness, the viewer's goals).</li><li>Teams predict the effect of their rule change before testing it and compare the prediction to their results.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grades 3–5</dt><dd>Use three topics (Animals, Gaming, Cooking), play three rounds, and skip Spark scoring. Focus on one question: &quot;Why did you keep seeing the same kind of post?&quot;</dd></div><div><dt>Grades 9–12</dt><dd>Add a third rule card that a &quot;company&quot; writes: sponsored posts are inserted every other round. Debate who the algorithm serves: the viewer, the creators, or the advertisers.</dd></div><div><dt>Students with IEPs or 504s</dt><dd>Give the Algorithm role a printed step-by-step checklist version of the rule cards, and let the Viewer point to reaction cards (Skip, Watch, Like, Share) instead of saying them.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Students act as a rule-following recommendation algorithm, track topic counts across rounds, and test a rule change against their prediction.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Technology Applications: computational thinking">computational thinking</a><a class="std std-teks" href="../standards.html#teks-ta-data" title="Technology Applications: data literacy, management, and representation">data literacy, management, and representation</a><span class="std-sec">TEKS sections: Technology Applications §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Highlight and explore patterns, critical features, big ideas, and relationships">3.2</a><a class="std std-udl" href="../standards.html#udl-7-3" title="Nurture joy and play">7.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-math-reasoning" title="Mathematics: data analysis and making reasoning visible">data analysis and making reasoning visible</a><a class="std std-sst" href="../standards.html#sst-ss-sources" title="Social studies: sources, claims, and the economics, science, technology, and society strand">sources, claims, and the economics, science, technology, and society strand</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>Do I stay safe and make good choices online? How do my likes and shares shape what I, and other people, see next?</li><li>Why might a feed that shows only one kind of post make it harder to find trustworthy information?</li><li>If I could rewrite one rule for the apps I use, what would it be, and who would object?</li></ul></div>
         <div><h2>What comes next</h2><p>For homework, students notice one thing their feed (or a family member's, with permission) keeps showing and write one sentence guessing which past action caused it. That observation opens the next lesson on persuasion and sponsored content.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

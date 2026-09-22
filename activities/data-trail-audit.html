@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Handout C cites exact policy wording for each investigator question rather than paraphrasing loosely.</li><li>Teams notice vague or missing information (&quot;doesn't say whether chats train the model&quot;) and count it as a finding.</li><li>Students explain a data broker's role in their own words using the trail cards.</li><li>Data plans name a specific setting, a specific &quot;never type&quot; rule, and a specific question for a company.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Higher Ed</dt><dd>Audit the privacy policy of a campus-licensed AI tool and the institution's own guidance on student data, and discuss where student education records fit into the picture.</dd></div><div><dt>Grade 9</dt><dd>Use Sections 1, 2, 4, and 6 of Handout A only and give teams a glossary for &quot;third party,&quot; &quot;retain,&quot; &quot;de-identified,&quot; and &quot;opt out.&quot;</dd></div><div><dt>Emergent bilinguals</dt><dd>Pair teams with bilingual glossaries and let them check whether a real tool's policy is available in their home language, a useful access finding in itself.</dd></div><div><dt>Families</dt><dd>Send the investigator questions home and invite students to audit one app with a parent or guardian.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Students decode a mock privacy policy, quote the exact wording on collection and sharing, and trace data to brokers, core privacy-and-security work in digital citizenship.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-10" title="Technology Applications, digital citizenship: privacy, safety, and security (c)(10)">privacy, safety, and security (c)(10)</a><a class="std std-teks" href="../standards.html#teks-elar-comp" title="ELAR: comprehension skills">comprehension skills</a><a class="std std-teks" href="../standards.html#teks-elar-resp" title="ELAR: response skills">response skills</a><span class="std-sec">TEKS sections: Technology Applications high school Technology Applications courses (19 TAC Chapter 126); ELAR §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-2-1" title="Clarify vocabulary, symbols, and language structures">2.1</a><a class="std std-udl" href="../standards.html#udl-6-3" title="Organize information and resources">6.3</a><a class="std std-udl" href="../standards.html#udl-7-2" title="Optimize relevance, value, and authenticity">7.2</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div><div><dt>Student Success Tool</dt><dd><a class="std std-sst" href="../standards.html#sst-rla-reading" title="RLA reading: comprehension and analysis of texts, with evidence">comprehension and analysis of texts, with evidence</a><a class="std std-sst" href="../standards.html#sst-ss-sources" title="Social studies: sources, claims, and the economics, science, technology, and society strand">sources, claims, and the economics, science, technology, and society strand</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How do I protect my personal information when I use apps and AI tools? (S2.1)</li><li>What are the risks of sharing content or data online that I hadn't considered before? (S2.3)</li><li>Why should AI companies be transparent about what they do with what I type? (AI2.3)</li></ul></div>
         <div><h2>What comes next</h2><p>Before using any new app or AI tool this semester, students run the four investigator questions and jot the answers in their notes. At home, students can use the same questions with family on one app everyone uses.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

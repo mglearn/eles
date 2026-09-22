@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Children place at least one card in BOTH and explain why (&quot;you use a screen but you're dancing&quot;).</li><li>Children name a way screens can help, such as learning, making, or talking with family, rather than calling all screens bad.</li><li>On Handout B, children describe a change in their eyes, body, or feelings between sitting still and moving.</li><li>Balance plans show one purposeful screen choice, two green-time choices, and a stop signal the child can name.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Kindergarten</dt><dd>Use two categories (Screen time, Green time) and eight cards, then introduce BOTH as a surprise with the video call and dance-along cards. Children draw only one green-time choice.</dd></div><div><dt>Grade 2</dt><dd>Add a &quot;How long?&quot; row to the balance plan: children write or draw a clock for how long their screen choice usually takes and when they'll take a break.</dd></div><div><dt>Emergent bilinguals</dt><dd>Use the pictures on the signs and act out each card as you read it. Accept home-language words in the Body Check-In and add them to a class word wall.</dd></div><div><dt>Students with motor or sensory needs</dt><dd>Offer seated movement (arm circles, head turns, squeezing a stress ball) and let children answer the check-in with faces or colors rather than words.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Children observe and record how their bodies feel after screen stillness versus movement, then plan a balanced mix of screen and green time.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-10" title="Technology Applications, digital citizenship: privacy, safety, and security (c)(10)">privacy, safety, and security (c)(10)</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c1" title="Learning strategies">Learning strategies</a><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-4-1" title="Vary and honor the methods for response, navigation, and movement">4.1</a><a class="std std-udl" href="../standards.html#udl-7-3" title="Nurture joy and play">7.3</a><a class="std std-udl" href="../standards.html#udl-9-2" title="Develop awareness of self and others">9.2</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>What did your body tell you after sitting still? After moving? (Student ELE 4.3: I am aware of my learning strengths and areas for improvement.)</li><li>What is one way a screen helps you learn or talk to someone you love?</li><li>How will you know when it's time for a break? What will you say?</li></ul></div>
         <div><h2>What comes next</h2><p>Children take Handout C home and finish the balance plan with their family, choosing together when screens help and what green-time choices the family will try this week. In a later lesson, children share one thing that went well with their plan and one thing they changed.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

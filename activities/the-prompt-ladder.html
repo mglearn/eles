@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Handout C predictions become more accurate as teams climb, showing they understand the prompt as context for prediction.</li><li>Teams catch the Rung 5 misconception and explain that a prompt's wrong assumption can be repeated back as fact.</li><li>Participants rewrite Rung 6 so it keeps the differentiation benefit with no names, plans, or other identifying details.</li><li>Transfer ladders include a rung that states the evidence of learning, plus a stated &quot;stop and write it myself&quot; signal.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>K–2 teachers</dt><dd>Use Rungs 1, 2, 3, and 6 with a K–2 task (for example, a read-aloud discussion question). The student version becomes a teacher-led talk: &quot;What did I need to tell the computer so it could help us?&quot;</dd></div><div><dt>Secondary teachers</dt><dd>Have students build a ladder for a study task (a practice quiz, a counterargument, feedback on a draft), then submit their best prompt with a one-sentence justification and a note on what they checked in the output.</dd></div><div><dt>Librarians</dt><dd>Compare the ladder with search-query refinement: what carries over from database searching (specificity, limiters) and what doesn't (a chatbot will answer even when its sources are thin).</dd></div><div><dt>Higher Ed faculty</dt><dd>Swap the task for a course-level one (a case-study prompt, a rubric draft) and add a rung that asks the model to cite sources, then check whether the citations exist.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Teachers predict how each added prompt detail changes AI output, preparing to teach students that a prompt is context for prediction and still needs checking.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-ct" title="Technology Applications: computational thinking">computational thinking</a><a class="std std-teks" href="../standards.html#teks-ta-ptc" title="Technology Applications: practical technology concepts">practical technology concepts</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7, §126.8–§126.10, §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126)</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-3-2" title="Highlight and explore patterns, critical features, big ideas, and relationships">3.2</a><a class="std std-udl" href="../standards.html#udl-5-3" title="Build fluencies with graduated support for practice and performance">5.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How can I use AI tools to enhance student learning while modeling careful, ethical prompting for students? (Teacher ELE 1.2)</li><li>Which details about my students help an AI tool without identifying anyone, and which should never leave my classroom?</li><li>As AI tools add memory and file uploads, what new questions do I need to ask before using them? (Teacher ELE 1.3)</li></ul></div>
         <div><h2>Take it to your students</h2><p>Use your three-rung ladder for a real task this week and keep the outputs. Then teach students one ladder climb for a study task, and collect their best prompt plus a sentence explaining which rung improved their learning and what they checked in the output.</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

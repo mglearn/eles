@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -115,6 +118,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Teams identify the factual error, the dropped key idea, and the removed target vocabulary in the mock leveled text.</li><li>Every design keeps the same learning target and names the student product that will show it.</li><li>AI prompts on posters contain no names, diagnoses, or other identifying details.</li><li>Each design includes a verification step for any AI output and at least one non-AI support.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grades 3–5 teachers</dt><dd>Use only the first two paragraphs of the original, and have students show understanding with a labeled drawing plus one spoken or dictated sentence explaining why milkweed matters.</dd></div><div><dt>Special education and dyslexia specialists</dt><dd>Lead the Model step. Add how supports connect to students' documented accommodations, and how students can learn to choose and turn on their own tools.</dd></div><div><dt>Higher Ed faculty</dt><dd>Swap the passage for a dense course reading and discuss how AI summaries, text-to-speech, and glossaries can support access while students still engage with the primary text.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Teachers verify an AI-leveled text and match supports like text-to-speech to learners, so students reach the same grade-level reading target.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-elar-comp" title="ELAR: comprehension skills">comprehension skills</a><a class="std std-teks" href="../standards.html#teks-ta-ptc" title="Technology Applications: practical technology concepts">practical technology concepts</a><span class="std-sec">TEKS sections: Technology Applications §126.8–§126.10, §126.17–§126.19, high school Technology Applications courses (19 TAC Chapter 126); ELAR §110.5–§110.7, §110.22–§110.24, §110.36–§110.39</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c4" title="Reading">Reading</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-1-2" title="Support multiple ways to perceive information">1.2</a><a class="std std-udl" href="../standards.html#udl-2-1" title="Clarify vocabulary, symbols, and language structures">2.1</a><a class="std std-udl" href="../standards.html#udl-4-2" title="Optimize access to accessible materials and assistive and accessible technologies and tools">4.2</a><a class="std std-udl" href="../standards.html#udl-8-2" title="Optimize challenge and support">8.2</a><a class="std std-udl" href="../standards.html#udl-3-4" title="Maximize transfer and generalization">3.4</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How am I leveraging AI to personalize and enhance learning experiences without lowering expectations?</li><li>When I simplify a text, how do I check that I haven't changed what students learn?</li><li>How can students learn to choose and use their own supports, so personalization isn't something done <em>to</em> them?</li></ul></div>
         <div><h2>Take it to your students</h2><p>Use your Transfer plan with one real reading this week. Save the student work from students who used the support and from a few who didn't, and bring both to your PLC or coach to ask: did the support help students reach the target?</p></div>
@@ -163,13 +167,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>

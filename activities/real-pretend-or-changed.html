@@ -21,7 +21,10 @@
   <nav aria-label="Main">
     <a href="../index.html#catalog">Activities</a>
     <a href="../framework.html">The ELEs</a>
-    <a href="../guide.html">Facilitator guide</a>
+    <details class="navmenu"><summary>For the facilitator</summary><div class="navmenu-panel">
+      <a href="../guide.html">Facilitator guide</a>
+      <a href="../standards.html">Standards</a>
+    </div></details>
     
   </nav>
 </header>
@@ -108,6 +111,7 @@
       </section>
       <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Children give a clue for their choice (&quot;lions don't live in kitchens,&quot; &quot;it's a storybook&quot;), not just a label.</li><li>Children tell pretend apart from changed by asking whether it is trying to look real.</li><li>During the demo or reflection, children say that a picture can look real and still be made by a computer, and name a grown-up to ask.</li></ul></section>
       <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Kindergarten</dt><dd>Start with only REAL and PRETEND for the first six strips, then add CHANGED with the paper cut-out demo.</dd></div><div><dt>Grade 2</dt><dd>Pairs write a short &quot;changed&quot; caption for a real classroom photo (for example, &quot;Our class pet is a baby dragon&quot;) and explain how a reader could check it.</dd></div><div><dt>Emergent bilinguals</dt><dd>The poses carry meaning without words. Add simple sketches to the strips and teach &quot;real,&quot; &quot;pretend,&quot; and &quot;changed&quot; in both languages.</dd></div><div><dt>Children who can't move freely</dt><dd>Use three colored cards (green for real, yellow for pretend, blue for changed) instead of poses.</dd></div></dl></section>
+      <section class="stds"><h2>Standards connections</h2><p>Children tell real, pretend-on-purpose, and changed or computer-made pictures apart and give a clue, early media literacy about genre and trustworthiness.</p><dl><div><dt>TEKS</dt><dd><a class="std std-teks" href="../standards.html#teks-ta-dc-9" title="Technology Applications, digital citizenship: ethics and laws (c)(9)">ethics and laws (c)(9)</a><a class="std std-teks" href="../standards.html#teks-elar-genres" title="ELAR: multiple genres, including multimodal and digital texts">multiple genres, including multimodal and digital texts</a><span class="std-sec">TEKS sections: Technology Applications §126.5–§126.7; ELAR §110.2–§110.4</span></dd></div><div><dt>ELPS</dt><dd><a class="std std-elps" href="../standards.html#elps-c2" title="Listening">Listening</a><a class="std std-elps" href="../standards.html#elps-c3" title="Speaking">Speaking</a><a class="std std-elps" href="../standards.html#elps-c5" title="Writing">Writing</a></dd></div><div><dt>UDL 3.0</dt><dd><a class="std std-udl" href="../standards.html#udl-4-1" title="Vary and honor the methods for response, navigation, and movement">4.1</a><a class="std std-udl" href="../standards.html#udl-7-3" title="Nurture joy and play">7.3</a><a class="std std-udl" href="../standards.html#udl-8-3" title="Foster collaboration, interdependence, and collective learning">8.3</a><a class="std std-udl" href="../standards.html#udl-9-3" title="Promote individual and collective reflection">9.3</a></dd></div></dl><p class="std-more noprint"><a href="../standards.html#table">See how all activities align</a></p></section>
       <section class="two">
         <div><h2>Reflect</h2><ul><li>How can you tell if a picture is real? What if you can't tell by looking?</li><li>Do I stay safe and make good choices when I use the internet? (Student ELE guiding question)</li><li>Why is pretend OK in a storybook but tricky in a photo?</li></ul></div>
         <div><h2>What comes next</h2><p>Invite families to play &quot;Real, Pretend, or Changed?&quot; with pictures they see together in books, on cereal boxes, or on a screen, asking the three detective questions. Next lesson, <em>Ask Two</em> adds the habit of checking what a computer tells us with a second source.</p></div>
@@ -156,13 +160,21 @@
     <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
     <p class="ai-note">Photos on this site are AI-generated illustrations of fictional people, not real students or staff.</p>
   </div>
+  <nav aria-label="TCEA">
+    <p class="foot-h">TCEA</p>
+    <a href="https://tcea.org/">TCEA</a>
+    <a href="https://blog.tcea.org/">TCEA Blog</a>
+    <a href="https://convention.tcea.org/">TCEA Convention &amp; Exposition</a>
+  </nav>
   <nav aria-label="Related">
+    <p class="foot-h">More free resources</p>
     <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
     <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
     <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
     <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
   </nav>
 </footer>
+<script>document.addEventListener('click',function(e){document.querySelectorAll('.navmenu[open]').forEach(function(m){if(!m.contains(e.target))m.removeAttribute('open')})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.navmenu[open]').forEach(function(m){m.removeAttribute('open');m.querySelector('summary').focus()})});</script>
 
 
 </body>
