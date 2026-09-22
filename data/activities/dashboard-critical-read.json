@@ -1,0 +1,160 @@
+{
+  "id": "dashboard-critical-read",
+  "title": "Read the Dashboard Before It Reads You",
+  "tagline": "Leaders take apart eight mock dashboard panels, including an AI-generated \"insight,\" to practice asking what the data shows, what it can't show, and who could be harmed by a hasty conclusion.",
+  "audience": "pl",
+  "roles": ["leaders", "coaches", "faculty"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["medialit", "digcit"],
+  "mode": "hybrid",
+  "minutes": 60,
+  "groupSize": "Teams of 3–4; any number of teams",
+  "eles": ["L3.2", "L3.1", "L3.3", "AI1.3"],
+  "overview": "Dashboards arrive with confidence: colors, arrows, and increasingly, automatically generated \"insights\" written in plain English. Leaders are expected to act on them. In this session, teams read eight fictional dashboard panels with the same critical eye they'd teach students to bring to an infographic: checking axes, baselines, sample sizes, what the metric actually measures, and what the data can't tell you. They also examine what personal data each panel exposes and to whom. Teams finish by redrawing one misleading panel honestly and writing a three-sentence summary a staff meeting could trust.",
+  "objectives": [
+    "Participants will identify at least four ways a data display can mislead (truncated axes, missing baselines, small samples, proxy metrics, correlation presented as cause).",
+    "Participants will distinguish what a data panel shows from what it cannot show, and name the additional evidence needed before acting.",
+    "Participants will evaluate the privacy implications of who can see which student data on a dashboard.",
+    "Participants will redraw one misleading display and communicate its finding accurately in three sentences."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Dashboard Panel Cards (1 set per team, cut apart)",
+      "Handout B: Can / Can't Tell Organizer (1 per team)",
+      "Handout C: Dashboard Data Use and Privacy Checklist (1 per person)",
+      "Graph paper or blank paper, rulers, colored pencils for redrawing"
+    ],
+    "digital": [
+      "Optional: access to a real dashboard your campus uses, with student-identifying information hidden or a demo account",
+      "Optional: a spreadsheet with the Panel 1 numbers so teams can redraw charts digitally"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. The panels are described in words so they print cleanly; if you want visuals, sketch Panels 1 and 3 on chart paper as described.",
+    "If you plan to use a real dashboard in the Reflect step, check who is permitted to see it and hide student names. A training session is not a reason to widen access to student data.",
+    "Copy the Panel 1 numbers into a spreadsheet if you want teams to redraw digitally."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 6,
+      "title": "The alarming chart",
+      "body": "Sketch Panel 1 on chart paper exactly as described: a bar chart where the y-axis starts at 80%. Ask: **\"If this were on the screen at a board meeting, what would people conclude?\"** Then redraw the axis starting at 0% right next to it. Ask: \"Same data. What changed?\"",
+      "note": "People usually say attendance \"collapsed.\" The actual drop is about three percentage points. Both charts are accurate; only one is honest about scale."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 18,
+      "title": "Panel stations",
+      "body": "Teams rotate through the eight panels (or work through them at their table), spending about two minutes each. For each panel they fill a row of Handout B: **the claim someone might make, what the panel actually shows, what it can't tell us, and the next question or data needed.** They also mark any panel that exposes personal information to people who may not need it.",
+      "note": "Panel 5, the AI-generated insight, tends to spark the biggest debate. Ask: \"What data could the software actually have used to decide students are 'disengaged'?\""
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 10,
+      "title": "Name the moves",
+      "body": "Build a class list on chart paper titled **\"Questions to ask any dashboard\"** from what teams found: What's the baseline? How many students is this? What is this metric actually counting? Could something else explain it? Who can see this, and do they need to? Compare with the facilitator key on the card backs.",
+      "note": "Connect to media literacy: these are the same questions students should ask about a viral infographic. Leaders who model them teach them."
+    },
+    {
+      "phase": "Create",
+      "minutes": 14,
+      "title": "Redraw and rewrite",
+      "body": "Each team chooses one misleading panel and (1) **redraws it honestly** on paper or in a spreadsheet, and (2) writes a **three-sentence summary** for a staff meeting: what the data shows, what it can't tell us, and what we'll look at next. Post the redrawn charts.",
+      "note": "Look for summaries that include uncertainty without drowning in it. \"We don't know yet, and here's how we'll find out\" is a leadership sentence."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 7,
+      "title": "Privacy and use check",
+      "body": "Each person completes Handout C for a dashboard they actually use. Pairs compare and each names **one access or display change** they'll ask about, for example who can see individual student names, or whether an AI-generated label appears in a place families or other students can see it.",
+      "note": "Under FERPA, access to student records generally should be limited to school officials with a legitimate educational interest. Your district's policy details matter; check them rather than guessing."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 5,
+      "title": "Next data conversation",
+      "body": "Each person writes the one question from the class list they'll ask at their next data meeting, and who they'll ask it of.",
+      "note": "Suggest leaders post the \"Questions to ask any dashboard\" list in the room where data meetings happen."
+    }
+  ],
+  "unplugged": "All eight panels are described in words on printed cards, and teams redraw charts on graph paper. The facilitator can sketch the key panels on chart paper. No device is needed to learn to question a chart.",
+  "digital": "Give teams the Panel 1 numbers in a spreadsheet and have them create two charts, one with a truncated axis and one honest, to see how easily defaults mislead. If your campus has a demo account or anonymized view of a real dashboard, use it for the Reflect step. In a virtual session, share panels as slides and have teams complete Handout B in a shared document.",
+  "whyTech": "Building the misleading chart and the honest one from the same numbers in a spreadsheet shows, in under a minute, how a single axis setting changes the story. Paper can explain that; the spreadsheet lets leaders feel it.",
+  "adaptations": [
+    { "label": "Higher Ed", "text": "Recast the panels as course success rates, learning management system logins, and an early-alert system's AI-generated \"at-risk\" flags. Emphasize how students are notified when flagged." },
+    { "label": "Coaches", "text": "Use the panels in a PLC data meeting, and have teachers redraw a chart from their own class data before discussing it." },
+    { "label": "Board or community audiences", "text": "Use only Panels 1, 3, and 4, and focus on the \"can't tell us\" column as a model for public data reporting." }
+  ],
+  "lookFors": [
+    "Handout B names a specific missing baseline, sample size, or alternative explanation for at least four panels.",
+    "Teams identify that the AI-generated insight in Panel 5 is based on a proxy (login minutes) and question labeling students from it.",
+    "Redrawn charts start at an appropriate baseline and the three-sentence summaries include what the data cannot tell us.",
+    "Participants name at least one concrete change to who can see student-level data."
+  ],
+  "reflection": [
+    "How am I using digital tools and data analytics to drive school improvement efforts and decision-making? (Leader ELE 3.0)",
+    "When did a chart or dashboard last change my mind, and did I check it first?",
+    "What are the limitations and potential biases of AI-generated summaries of student data? (AI ELE 1.3)",
+    "How do I communicate uncertainty in data to staff and families without losing their trust?"
+  ],
+  "transfer": "At your next data meeting, ask one question from the class list before any decision is made, and present one chart with its \"what this can't tell us\" note beside it. Review who has access to your campus dashboards with your data privacy contact this month.",
+  "connections": [
+    { "title": "Data Display Patterns field guide", "url": "https://mglearn.github.io/tcea/ddp/", "note": "A companion guide to honest data display choices." },
+    { "title": "Critical Thinking Breakouts: Signal Check, The Viral Claim", "url": "https://mglearn.github.io/activities/ctobs/clear/", "note": "Students practice the same chart skepticism in grades 6–8." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Dashboard Panel Cards",
+      "type": "cards",
+      "instructions": "All data is fictional, from Pecan Creek ISD. Each card describes one dashboard panel. Backs are the facilitator key; print separately.",
+      "cards": [
+        { "label": "Panel 1 · Attendance", "front": "Bar chart titled \"Attendance Crisis at Oakview Middle.\" Five bars for August through December: 94%, 93%, 93%, 92%, 91%. The y-axis runs from 80% to 95%, so the December bar looks about one-third the height of August's. Bars turn red below 93%.", "back": "Truncated axis exaggerates a 3-point decline. The word \"crisis\" is an interpretation, not data. Can't tell: which students, which days (flu season? a holiday week?), whether chronic absence changed. Next: compare to prior years' same months." },
+        { "label": "Panel 2 · Reading growth", "front": "\"Reading Growth by Teacher\" ranks eight 3rd grade teachers by average growth points on the fall-to-winter screener. Ms. Tran is last with +2. Class sizes and student names appear on hover.", "back": "Can't tell: Ms. Tran has 9 students (a small sample) and a newcomer program. Ranking teachers publicly on one screener invites misuse. Privacy: student names on hover visible to anyone with dashboard access. Next: who needs this view?" },
+        { "label": "Panel 3 · Platform success", "front": "Line chart titled \"Math App Works!\" Two lines: minutes on the math app per week (rising) and benchmark scores (rising) from September to February. A caption reads: \"More app time = higher scores.\"", "back": "Correlation presented as cause. Both could rise because it's later in the year and students have had more instruction. Can't tell: whether students with more app time grew more than similar students with less. Next: compare similar groups." },
+        { "label": "Panel 4 · Discipline", "front": "Pie chart: \"Referrals by Grade.\" 6th grade 50%, 7th grade 30%, 8th grade 20%. No counts are shown. The summary line reads: \"6th graders are our behavior problem.\"", "back": "No counts: 50% of 10 referrals is different from 50% of 300. Labeling a whole grade is a harmful generalization. Can't tell: whether a few students account for most referrals, or whether referral practices differ by grade team. Next: counts and patterns by referral reason." },
+        { "label": "Panel 5 · AI insight", "front": "A box labeled \"AI Insight\" reads: \"Students in Section 4 of Algebra I are disengaged and at risk of failing. Recommended action: parent contact.\" A small link says \"Based on platform activity.\"", "back": "The model inferred \"disengaged\" from a proxy, likely login minutes or clicks. Section 4 may do more work on paper. An AI label can bias how adults see students. Can't tell: actual grades, work quality, or context. Next: ask the teacher before anyone calls families." },
+        { "label": "Panel 6 · Device checkout", "front": "Table showing each student's name, home address, device serial number, and \"Days since last home Wi-Fi connection.\" Sorted to show students who haven't connected at home in 30+ days. Visible to all campus staff.", "back": "Useful for identifying students who need connectivity support, but it exposes sensitive household information to far more people than need it. Can't tell: why a device hasn't connected (no internet? shared device? left at school?). Next: restrict access and reach out privately." },
+        { "label": "Panel 7 · Survey", "front": "Headline number in large green type: \"92% of families are satisfied with school communication!\" Fine print: \"Based on 48 responses to an online survey.\"", "back": "Small, self-selected sample from families who received and opened an online survey. The families least reached by school communication are the least likely to answer it. Next: how many families were invited, and in what languages?" },
+        { "label": "Panel 8 · Assessment tool", "front": "\"Mastery Heat Map\" from a weekly five-question quiz: rows are students, columns are standards, colored red to green. Many standards are marked \"mastered\" based on a single question.", "back": "Appropriate use of assessment tools: one item per standard is too thin to call mastery. Can't tell: whether students can apply the skill. Next: pair the quiz with student work samples before regrouping students." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Can / Can't Tell Organizer",
+      "type": "table",
+      "instructions": "One row per panel. Mark a P in the first column if the panel shows personal information to people who may not need it.",
+      "columns": ["Panel (P = privacy concern)", "Claim someone might make", "What it actually shows", "What it can't tell us", "Next question or data needed"],
+      "rows": [
+        ["1 · Attendance", "", "", "", ""],
+        ["2 · Reading growth", "", "", "", ""],
+        ["3 · Platform success", "", "", "", ""],
+        ["4 · Discipline", "", "", "", ""],
+        ["5 · AI insight", "", "", "", ""],
+        ["6 · Device checkout", "", "", "", ""],
+        ["7 · Survey", "", "", "", ""],
+        ["8 · Assessment tool", "", "", "", ""]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Dashboard Data Use and Privacy Checklist",
+      "type": "checklist",
+      "instructions": "Think of one dashboard you use regularly. Rate it honestly.",
+      "scale": ["Yes", "Partly", "No"],
+      "items": [
+        "I know what each metric on this dashboard actually counts (for example, logins versus completed work).",
+        "Charts show counts or sample sizes, not only percentages.",
+        "Chart axes and baselines are shown and don't exaggerate changes.",
+        "Comparisons to prior years or similar groups are available before we draw conclusions.",
+        "Only staff with a legitimate educational need can see individual student information.",
+        "I know whether any labels or recommendations are generated by AI, and what data they're based on.",
+        "AI-generated labels about students are reviewed by a person before anyone acts on them.",
+        "We pair dashboard numbers with student work or teacher knowledge before making decisions.",
+        "When we share data with staff or families, we say what it can't tell us.",
+        "I know how long this data is kept and who at the vendor can access it."
+      ]
+    }
+  ]
+}

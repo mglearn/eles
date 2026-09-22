@@ -1,0 +1,158 @@
+{
+  "id": "five-question-rollout-check",
+  "title": "The Five-Question Rollout Check",
+  "tagline": "Leadership teams role-play the planning meeting for a campus-wide platform rollout and discover that the questions that matter most come after \"should we buy it?\"",
+  "audience": "pl",
+  "roles": ["leaders", "coaches"],
+  "grades": ["K-12"],
+  "strands": ["digcit", "genai"],
+  "mode": "unplugged",
+  "minutes": 60,
+  "groupSize": "Tables of 6–10 (one role card each); any number of tables",
+  "eles": ["L1.1", "L1.2", "L2.2", "AI2.2"],
+  "overview": "A principal wants every department on a new learning platform with a built-in AI writing-feedback feature, starting in six weeks. In this tabletop, each participant takes a stakeholder role, including an eighth grader who reports that the feedback panel does not work with her screen reader, and the table must reach a rollout decision while timed injects keep arriving. The debrief turns the conversation into the five-question check from the updated ELEs: What is the vision? What evidence will guide us? What changes in instruction? Who might be left out? How will families understand the change? Technology purchases are easy to announce. Rollouts that improve learning start with those five questions.",
+  "objectives": [
+    "Participants will apply the five-question check to a proposed technology initiative and name the missing evidence before a rollout decision.",
+    "Participants will treat student and family feedback, including accessibility barriers, as implementation evidence rather than a side issue.",
+    "Participants will draft a vision statement for the initiative that names an instructional problem and the student evidence that would show progress."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The Rollout Memo (1 per person)",
+      "Handout B: Role and Inject Cards (1 set per table, cut apart; inject cards kept by the facilitator)",
+      "Handout C: Five-Question Check Organizer (1 per table, enlarged to 11×17 if possible)",
+      "Table tents or name cards so roles are visible; a timer"
+    ],
+    "digital": [
+      "Optional: a shared slide or document per table that mirrors Handout C, so the decision and evidence gaps can be compared across tables",
+      "Optional: a projector to display the injects as they arrive"
+    ]
+  },
+  "prep": [
+    "Print Handout A for everyone and cut Handout B apart. Give each table the nine role cards; keep the three inject cards (Cards 10–12) yourself.",
+    "If a table has fewer than nine people, drop roles in this order: Librarian, Counselor, Math Department Chair. Never drop Dani (the student) or the family card.",
+    "Read the facilitator notes on the card backs so you can nudge quiet roles into the conversation.",
+    "Decide in advance whether you want tables to reach a yes, a no, or a \"yes, if\" decision. Most rooms land on \"yes, if\"; that is a fine outcome if the conditions are specific."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "The memo everyone has received",
+      "body": "Hand out Handout A and give people three minutes to read it silently. Then ask: **\"If this memo landed in your inbox Monday, what's the first question you'd ask?\"** Collect four or five questions aloud without judging them. Say: \"Hold those. For the next half hour, you are not yourself. You're the people this memo affects.\"",
+      "note": "Early questions are usually about cost, training time, and logins. That is normal. Notice whether anyone asks about student learning or who might be left out. You'll return to this in the debrief."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 7,
+      "title": "Step into a role",
+      "body": "Deal one role card to each person at the table. Everyone reads their card, then writes on the back of the memo: **one thing my role needs from this rollout** and **one worry my role would raise**. Each person introduces their role in one sentence, in character: \"I'm Dani, I'm in eighth grade, and I use a screen reader.\"",
+      "note": "Assign the Principal card to someone who is *not* the most senior person at the table. It changes the conversation."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 20,
+      "title": "The planning meeting, with injects",
+      "body": "The Principal runs a 20-minute planning meeting with one goal: **decide whether the rollout goes forward on the memo's timeline, changes, or pauses.** Stay in role. At minute 5, read **Inject 1** (Dani's email) aloud to the room. At minute 10, read **Inject 2** (the neighborhood social media post). At minute 15, read **Inject 3** (the vendor's reply). Each table must respond to each inject before moving on.",
+      "note": "Walk the room. If a table rushes past Dani's email, ask the Principal: \"What will you tell Dani on Monday?\" If a table debates the AI feature only in terms of cheating, ask the Privacy Officer what the vendor does with student writing."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 12,
+      "title": "Run the five-question check",
+      "body": "Step out of role. Each table fills in Handout C together: for each of the five questions, what the memo already answers, **what evidence is still missing**, and a specific next step with an owner. The table then writes its decision in the bottom row: *go*, *go with conditions*, or *pause*, with the conditions spelled out.",
+      "note": "Push for evidence of learning, not evidence of use. \"90% of teachers logged in\" is a usage number. \"Students revise their drafts more and the revisions are stronger\" is a learning claim you could collect evidence for."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 10,
+      "title": "Compare decisions across tables",
+      "body": "Each table shares its decision and the single missing piece of evidence that most shaped it. Ask the room: **\"Which role changed your table's mind?\"** Then ask the Dani players: \"Did your table treat your report as evidence or as a complaint?\" Finally, return to the Hook questions and ask how many were about learning.",
+      "note": "Name the pattern out loud: the screen-reader report is exactly the kind of feedback a pilot is supposed to surface. A rollout that pauses to fix it is working as designed."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 6,
+      "title": "Your real initiative",
+      "body": "Each person names one real initiative on their campus (a platform, a device policy, an AI pilot, a new assessment tool). On an index card or the back of Handout C, they write a one-sentence vision that names the **instructional problem** it solves, and the answer to \"Who might be left out?\" Pairs swap and ask one follow-up question.",
+      "note": "If someone can't name the instructional problem, that is the most useful thing they'll learn today."
+    }
+  ],
+  "unplugged": "This activity is designed to run on paper. The memo, role cards, injects, and organizer are all printed, and the injects are read aloud by the facilitator. Movement comes from table rotation: in a longer session, have the Dani and Family players rotate to a new table for a second 10-minute meeting and see whether a fresh table responds differently.",
+  "digital": "In a virtual session, send role cards privately through chat or breakout room messages and paste injects into each breakout room at the timed intervals. Each table fills a shared copy of Handout C, and the facilitator displays all tables' decisions side by side in the debrief. If your district already uses a platform with an AI feature, you may substitute its name, but keep Dani's accessibility report in the scenario either way.",
+  "whyTech": "This one is better unplugged: the learning is in the conversation, the role-taking, and the pressure of timed injects. A shared digital organizer earns its place only in the debrief, when seeing every table's decision and evidence gaps side by side reveals patterns across the room.",
+  "adaptations": [
+    { "label": "Higher Ed", "text": "Recast the memo as a dean adopting a courseware platform across a college; replace the Math Chair with an adjunct faculty representative and the family card with a first-generation student who works full time." },
+    { "label": "District leadership teams", "text": "Run it across several campuses: each table plays a different campus with a different role list, and the debrief asks what a district-wide decision owes to the campus with the most barriers." },
+    { "label": "Short on time (35 min)", "text": "Use only Inject 1, shorten the meeting to 10 minutes, and have tables answer only questions 2 and 4 on Handout C." }
+  ],
+  "lookFors": [
+    "Handout C names at least one piece of missing evidence about student learning, not only about usage, training, or cost.",
+    "Tables respond to Dani's screen-reader report with a concrete action (a pause, an alternative, an accessibility review, a follow-up with Dani) and an owner.",
+    "Decisions labeled \"go with conditions\" list conditions specific enough that someone could check them in six weeks.",
+    "Transfer vision statements name an instructional problem rather than a tool."
+  ],
+  "reflection": [
+    "How clearly have I articulated the instructional problem this initiative solves, and who have I tested that vision with? (Leader ELE 1.0)",
+    "Whose feedback in our last rollout did we treat as a complaint instead of as evidence?",
+    "When a tool includes an AI feature, what do families and students need to know about what happens to their work?",
+    "What will we look at in six weeks to decide whether this change helped students learn?"
+  ],
+  "transfer": "Before your next technology rollout meeting, send the five questions to the planning team in advance and ask one student and one family to review the plan. Bring their feedback to the meeting as evidence, and record the decision and its conditions where staff can see them.",
+  "connections": [
+    { "title": "Generative AI Adoption Checklist", "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/", "note": "Use alongside Handout C when the initiative includes an AI feature." },
+    { "title": "Digital Accessibility Readiness Assessment", "url": "https://mglearn.github.io/tcea/a11y/", "note": "A follow-up for the accessibility gaps Dani's report surfaces." },
+    { "title": "TCEA ELEs (PDF)", "url": "https://tinyurl.com/tceaeles1", "note": "The School Leader ELEs, including the five areas this tabletop draws on." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The Rollout Memo",
+      "type": "reading",
+      "instructions": "This memo and everyone in it are fictional. Read it as though it arrived in your inbox this morning.",
+      "paragraphs": [
+        "**To:** All Cedar Ridge Middle School staff · **From:** Principal Marcus Delgado · **Re:** LumaLearn Studio: campus-wide launch",
+        "Team, I'm excited to share that Pecan Creek ISD has approved Cedar Ridge as the first campus to adopt LumaLearn Studio, an all-in-one platform for assignments, discussion, and quizzes. Beginning the Monday after fall break (six weeks from today), every department will post all assignments in LumaLearn, and paper packets will be phased out by the end of the semester.",
+        "The feature I'm most excited about is **LumaCoach**, a built-in generative AI assistant that gives students instant feedback on their writing in every subject. Students paste in a draft and LumaCoach suggests revisions for organization, evidence, and grammar. The vendor says it saves teachers hours of grading each week.",
+        "Training will be a two-hour session during the October staff development day. Every student already has a district device, so access is covered. Students will log in with their district accounts; the vendor has told us the platform is secure.",
+        "Department chairs: please have each teacher build at least three assignments in LumaLearn before launch. I'll check usage reports weekly so we can celebrate our early adopters.",
+        "Families will receive an announcement in the November newsletter. Let's show the district what Cedar Ridge can do!"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Role and Inject Cards",
+      "type": "cards",
+      "instructions": "Cut apart. Deal Cards 1–9 to participants. The facilitator keeps Cards 10–12 (injects) and reads them aloud on schedule. Backs are facilitator notes; print them separately.",
+      "cards": [
+        { "label": "Role 1 · Principal", "front": "**Marcus Delgado, Principal.** You wrote the memo and you believe in it. The district is watching. You want a smooth, fast launch, but you also want to be the kind of leader who listens. You run this meeting and must leave it with a decision.", "back": "Coach the Principal to ask each role, \"What would make this work for you?\" A strong Principal changes the timeline without losing face by naming the new evidence." },
+        { "label": "Role 2 · Assistant Principal for Curriculum", "front": "**Joy Nakamura, AP.** You support the platform, but you notice the memo never says what instructional problem it solves. Your walkthroughs show students already complete plenty of digital assignments. What you don't see is students revising their thinking.", "back": "This role carries question 1 (vision) and question 3 (instruction). Prompt: \"What would students do differently in LumaLearn than they do now?\"" },
+        { "label": "Role 3 · 8th Grade ELA Teacher", "front": "**Tomás Rivera, ELA.** You've tried AI writing feedback tools. Sometimes the suggestions are useful; sometimes they flatten students' voices or confidently fix things that weren't wrong. You want students to evaluate AI feedback, not just accept it.", "back": "This role brings AI literacy. Prompt: \"How would you know whether LumaCoach improved student writing, and not just grammar?\"" },
+        { "label": "Role 4 · Math Department Chair", "front": "**Priya Shah, Math Chair.** Your department does a lot of handwritten problem solving and whiteboard work. Three assignments per teacher in six weeks feels like busywork. You worry the usage reports will be used to judge teachers.", "back": "This role surfaces the difference between usage and learning. Prompt: \"What would evidence of learning in math look like on this platform, if any?\"" },
+        { "label": "Role 5 · Campus Technology Specialist", "front": "**Andre Wallace, Tech Specialist.** You're the one who'll field every login problem. About one in five student devices is in the repair queue at any given time, and loaners are limited. You haven't seen an accessibility review of LumaLearn.", "back": "Surfaces the gap between \"every student has a device\" and \"every student has a working device.\" Prompt: \"What happens on a day a student's device is in repair?\"" },
+        { "label": "Role 6 · Special Education Coordinator", "front": "**Dr. Lena Brooks, SPED Coordinator.** Several students on your caseload use screen readers, speech-to-text, or extended time. Accommodations in students' plans must be honored in any required platform. Nobody has asked you to test LumaLearn.", "back": "Pair this role with Dani's email when it arrives. Prompt: \"Who should test a platform before it becomes required?\"" },
+        { "label": "Role 7 · District Privacy Officer", "front": "**Sam Okonkwo, Data Privacy.** You have not seen a signed data privacy agreement for LumaCoach. You want to know what happens to student writing pasted into it: is it stored, for how long, and is it used to train the vendor's AI? FERPA and COPPA obligations apply to student data.", "back": "This role carries the digital citizenship and genai privacy thread. Prompt: \"What would you tell a parent who asks where their child's essay goes?\"" },
+        { "label": "Role 8 · Student", "front": "**Dani Morales, 8th grader.** You're blind and use a screen reader. You were in the small student test group last week. Most of LumaLearn worked, but the LumaCoach feedback panel pops up in a way your screen reader skips entirely, so you never hear the feedback. You're not sure anyone will care.", "back": "The central role. If the table rushes past Dani, pause the table and ask the Principal to respond to Dani directly, in character." },
+        { "label": "Role 9 · Family Representative", "front": "**Graciela Herrera, parent of a 7th grader.** Spanish is your family's first language. Your home internet is a phone hotspot shared by three kids. You learn about school changes from the newsletter, which arrives in English, or from other parents online.", "back": "Carries question 5 (families). Prompt: \"When and how would you want to hear about this, and in what language?\"" },
+        { "label": "Inject 1 · Minute 5", "front": "**Email from Dani Morales to the Principal:** \"Hi Mr. Delgado. I tested LumaLearn last week. Most of it works with my screen reader but the LumaCoach feedback box doesn't read at all, so I can't use it. If everyone has to use it I won't get the feedback other kids get. Is someone going to fix that? — Dani\"", "back": "Look-for: does the table treat this as implementation evidence (a reason to pause, test, or require a fix) or as a one-off? Does anyone suggest replying to Dani?" },
+        { "label": "Inject 2 · Minute 10", "front": "**Post in the Cedar Ridge Parents community group (412 members):** \"Heard from my kid that the school is making ALL students use AI to write their essays starting next month?? Nobody asked parents. Is my kid's writing going to some tech company?\" (37 comments and counting)", "back": "A small media literacy moment: the post is partly wrong (it's feedback, not writing) and partly a fair question (data use). Look for tables that correct the misinformation *and* answer the real concern." },
+        { "label": "Inject 3 · Minute 15", "front": "**Reply from the LumaLearn account manager:** \"Thanks for flagging! Accessibility improvements for LumaCoach are on our roadmap for next year. In the meantime, students can ask a teacher to read the feedback aloud. Also, to clarify, student submissions may be used in de-identified form to improve our models, per our standard terms.\"", "back": "Two new facts: no fix this year, and student writing may train the vendor's models. Look for tables that connect this to the Privacy Officer's concerns and to whether the workaround is an equal experience for Dani." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Five-Question Check Organizer",
+      "type": "table",
+      "instructions": "Step out of role. For each question, record what the memo already answers, what evidence is missing, and one next step with an owner. Write your decision in the last row.",
+      "columns": ["Question", "What the memo already answers", "Evidence still missing", "Next step + owner"],
+      "rows": [
+        ["1. What is the vision? (What instructional problem does this solve?)", "", "", ""],
+        ["2. What evidence will guide us? (Evidence of learning, not just usage)", "", "", ""],
+        ["3. What changes in instruction? (What will students and teachers do differently?)", "", "", ""],
+        ["4. Who might be left out? (Access, accessibility, language, devices, data privacy)", "", "", ""],
+        ["5. How will families understand the change? (When, how, in what languages, with what chance to ask questions?)", "", "", ""],
+        ["Our decision: Go · Go with conditions · Pause. Conditions:", "", "", ""]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "what-do-my-apps-know",
+  "title": "What Do My Apps Know?",
+  "tagline": "Teachers read a mock app privacy policy the way a 12-year-old would, then audit the real tools in their own classroom and decide what to keep, change, or replace.",
+  "audience": "pl",
+  "roles": ["teachers", "librarians"],
+  "grades": ["K-12"],
+  "strands": ["digcit"],
+  "mode": "digital",
+  "minutes": 60,
+  "groupSize": "Individuals working in pairs; any number",
+  "eles": ["T2.2", "S2.1", "AI2.1", "AI2.3"],
+  "overview": "Every app, extension, and AI tool we put in front of students collects something: names, voices, writing, clicks, sometimes location. Teachers are often the first, and last, person to decide whether a tool is used, yet few of us have read the policies. In this session, participants first experience a mock privacy policy for a fictional AI story app from a student's point of view, then use a 12-item audit to review two real tools they use, and leave with a plan to teach students the same habit of asking \"What does this app know about me?\"",
+  "objectives": [
+    "Participants will identify common privacy red flags in an education app's policy (unclear data sharing, indefinite retention, use of student input to train AI, advertising, missing parental consent for young children).",
+    "Participants will audit at least two tools they use with students against district approval status and a 12-item checklist, and decide on an action for each.",
+    "Participants will plan a short student lesson that teaches students to ask what an app collects and how to protect their own personal information."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: StoryBuddy AI Privacy Policy, mock (1 per person)",
+      "Handout B: Tool Privacy Audit (2 per person, one per tool)",
+      "Handout C: My Classroom Tool Inventory (1 per person)",
+      "Highlighters in two colors; sticky notes"
+    ],
+    "digital": [
+      "One device per participant (laptop preferred) to open the real tools, their privacy policies, and their settings",
+      "Access to your district's approved-app list or data privacy agreement list, if one exists (share the link before the session)"
+    ]
+  },
+  "prep": [
+    "Find out where your district publishes its approved-app list or signed data privacy agreements, and who to contact with questions (often the technology or instructional technology department). Have that information on a slide.",
+    "Ask participants to bring a list of every app, site, extension, and AI tool students used in their class in the past two weeks.",
+    "Read Handout A and mark the red flags yourself: the \"improve our services\" training clause, sharing with \"partners,\" indefinite retention, voice recordings, and the age language. You'll model with it."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Count the data trail",
+      "body": "Each person writes every tool students used in the last two weeks on sticky notes, one per note, and stacks them. Ask the room to call out their counts. Then say: \"Each note is a place your students' information may live. Today we find out what those places know, and whether we'd be comfortable if our own child's name were in each one.\"",
+      "note": "Counts vary widely. Don't shame anyone with a tall stack; the goal is awareness, not guilt."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Read it like a 12-year-old",
+      "body": "Participants read Handout A as a sixth grader who just wants to make a story. First pass (2 minutes): \"Would you click 'I agree'?\" Everyone would. Second pass, as teachers: highlight in one color **what the app collects**, in another **where it goes** (sharing, training, retention). In pairs, list the three things they'd most want a parent to know.",
+      "note": "Look-for: pairs catch that stories and voice recordings may be used to train AI models (paragraph 4), that \"partners\" is undefined (paragraph 5), and that data is kept \"as long as necessary\" with no clear end (paragraph 6)."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Think aloud with the audit",
+      "body": "Project Handout B and walk through it for StoryBuddy AI, narrating each decision. \"Item 1: is it on our district's approved list? I'd check that first, because the district may already have a data privacy agreement that changes what the vendor may do. Item 5: can I turn off using student content to train AI? The policy says 'you may contact us to opt out.' That's a *No* for an easy setting.\" Briefly name the relevant federal laws: **FERPA** protects the privacy of student education records, and **COPPA** governs how online services collect personal information from children under 13. Then say: \"You don't need to be a lawyer. You need to know when to ask your tech department.\"",
+      "note": "Keep the legal part short and accurate. Participants should leave knowing who in the district answers these questions, not trying to interpret law themselves."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 20,
+      "title": "Audit your own tools",
+      "body": "Each person chooses two tools from their sticky-note stack: one they use often and one AI tool or free app they're unsure about. On devices, they check the district list, open each tool's privacy policy (often linked at the bottom of the home page), and look in account or admin settings for data, sharing, and AI options. They complete Handout B for each tool, then log the result on Handout C with an action: **keep**, **change settings**, **replace**, or **ask the tech department**. Partners check each other's highest-risk tool together.",
+      "note": "Many people find a tool they love has a setting they never knew about, such as whether student work is visible publicly. That discovery is the win. If a policy is impossible to understand, that's a finding: record it as a question for the tech department."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "What we found, what we'll change",
+      "body": "Go around quickly: each person names one tool and one action. Chart the actions in four columns. Ask: \"What surprised you? What would students need to know to protect themselves in these same tools?\" Close by connecting to students: \"Our students will spend their lives clicking 'I agree.' The habit we want them to have is the one you just practiced: ask what it collects, where it goes, and whether you can say no.\"",
+      "note": "If a tool turns out to be unapproved and collecting student data, remind people to follow district procedures rather than posting about it publicly."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 7,
+      "title": "Plan the student version",
+      "body": "Each person sketches a 15-minute student lesson on the back of Handout C: students look at one tool the class uses and answer three questions in their own words: \"What does this app know about me? Who else might see it? What can I choose not to share?\" Younger students do it with the teacher reading the policy aloud; older students read it themselves.",
+      "note": "For students, center actions they control: using a nickname where allowed, not typing personal details into AI tools, checking what is public, and asking a trusted adult before signing up for anything."
+    }
+  ],
+  "unplugged": "Run Hook, Explore, and Model entirely on paper with Handout A. For the audit, participants complete Handout B from memory and mark every item they can't answer as \"Don't know.\" Those unknowns become a written question list to send to the district technology department, which is itself a useful product. The student lesson can also run unplugged with a printed, read-aloud policy excerpt.",
+  "digital": "Participants audit live: the district approved-app list, each tool's actual privacy policy, and its account and AI settings. Handout C can be a shared spreadsheet so a campus sees its whole tool inventory in one place, which helps the technology department prioritize. In a virtual session, use breakout pairs and share screens during the audit.",
+  "whyTech": "Reading the real policy and clicking through real settings is the only way to find what your own tools actually do. The mock policy teaches the questions, but the live audit is where teachers find the setting they didn't know existed. That discovery produces changed practice.",
+  "adaptations": [
+    { "label": "K–2 teachers", "text": "Focus the audit on tools young children use through class accounts and on what appears publicly (names, photos, voices). The student version becomes a picture sort: \"OK to share with the app\" vs. \"Ask a grown-up first.\"" },
+    { "label": "Librarians", "text": "Audit the library's databases, e-book platforms, and makerspace apps, and offer to be the campus point person who collects teachers' questions for the technology department." },
+    { "label": "Higher Ed faculty", "text": "Audit tools required in a course, including AI tools, and draft a syllabus statement explaining what each collects and what alternatives students have if they decline." },
+    { "label": "Short on time", "text": "Do the Explore and Model steps (20 minutes) in a PLC meeting and assign the two-tool audit as homework with a partner." }
+  ],
+  "lookFors": [
+    "Handout A annotations distinguish what is collected from where it goes, and flag the AI-training clause.",
+    "Each completed Handout B leads to a specific action on Handout C, with \"ask the tech department\" used for real unknowns rather than guesses.",
+    "At least one participant changes a setting or replaces a tool during or right after the session.",
+    "Student lesson sketches focus on actions students control (what they type, what's public, when to ask an adult)."
+  ],
+  "reflection": [
+    "How do I guide students in safe and responsible internet use when I'm the one choosing their tools? (Teacher ELE 2.2)",
+    "Which tool in my classroom would I be least comfortable explaining to a parent? What will I do about it?",
+    "What would transparency from an AI tool look like, and how will I teach students to look for it?"
+  ],
+  "transfer": "Complete audits for your remaining tools over the next month and share your inventory with your campus technology contact. Teach the three-question student lesson with one tool your class already uses, and collect students' answers as evidence of what they understand about their own data.",
+  "connections": [
+    { "title": "Family App Privacy Audit", "url": "https://mglearn.github.io/tcea/privacy-audit/", "note": "A family-facing version of the same habit. Share with parents after teaching the student lesson." },
+    { "title": "PROTECT Rubric v2.0", "url": "https://mglearn.github.io/tcea/protect_rubric_v2/", "note": "A fuller rubric for evaluating digital tools." },
+    { "title": "Generative AI Adoption Checklist", "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/", "note": "Use it when the tool you're auditing is an AI tool." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "StoryBuddy AI Privacy Policy (mock)",
+      "type": "reading",
+      "instructions": "This is a fictional policy for a fictional app. Read it once as a student, then again as a teacher with two highlighters: what it collects, and where it goes.",
+      "paragraphs": [
+        "**Welcome to StoryBuddy AI!** StoryBuddy helps young writers create amazing stories with the help of our friendly AI writing buddy, Sparky. By creating an account or using StoryBuddy, you agree to this Privacy Policy. Last updated: this month. We may update this policy at any time; continuing to use StoryBuddy means you accept the changes.",
+        "**Who can use StoryBuddy.** StoryBuddy is designed for writers of all ages. Users under 13 should use StoryBuddy with the permission of a parent or school. If you are a school, you confirm that you have obtained any consent required to let students use StoryBuddy.",
+        "**Information we collect.** When you create an account, we collect your name, email address, school name, grade, and birthday. When you use StoryBuddy, we collect the stories you write, the prompts you give Sparky, any voice recordings made with our Read-Aloud feature, and pictures you upload. We also automatically collect device information, general location based on IP address, and how you use the app (such as which buttons you click and how long you stay).",
+        "**How we use your information.** We use your information to provide and improve our services, including to develop and train the artificial intelligence models that power Sparky and other products. We may use stories, prompts, and recordings in anonymized or aggregated form for these purposes.",
+        "**Sharing.** We do not sell your personal information. We may share information with our trusted partners who help us operate, analyze, and market StoryBuddy, and with other companies in our corporate family. If StoryBuddy is sold or merged, your information may be transferred to the new owner.",
+        "**Advertising.** StoryBuddy is free because of our partners. Users may see age-appropriate promotional content for StoryBuddy Plus and partner products. Teachers with a Classroom Pro account see no advertising.",
+        "**How long we keep information.** We keep your information for as long as necessary to provide our services and for our legitimate business purposes. Stories you delete may remain in our backups.",
+        "**Your choices.** You can update your profile at any time. To request that we delete your account or stop using your stories to improve our AI, contact our privacy team by email. Requests are processed within a reasonable time.",
+        "**Security.** We use industry-standard measures to protect your information. No system is 100% secure.",
+        "**Sharing your stories.** Stories set to \"Public\" appear in the StoryBuddy Gallery with the author's first name, grade, and school. New stories are Public by default so writers can inspire each other!"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Tool Privacy Audit",
+      "type": "checklist",
+      "instructions": "One sheet per tool. Tool name: ____________________. Mark \"Don't know\" honestly; those become your questions for the district.",
+      "scale": ["Yes", "No", "Don't know"],
+      "items": [
+        "The tool is on my district's approved list, or covered by a district data privacy agreement.",
+        "I know exactly what student information the tool collects (names, work, voice, photos, location, activity).",
+        "Students can use it without entering more personal information than the task needs.",
+        "The policy says clearly who the data is shared with, not just \"partners.\"",
+        "Student work and prompts are NOT used to train AI models, or there is an easy setting to turn that off.",
+        "There is no advertising to students.",
+        "The policy says how long data is kept and how it is deleted.",
+        "Student work is private by default; nothing is public unless I choose.",
+        "For students under 13, I know how parental or school consent is handled.",
+        "I can explain in plain language to a parent what this tool knows about their child.",
+        "My students know what not to type or upload into this tool.",
+        "If I stopped using this tool tomorrow, I know how to get students' data deleted."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Classroom Tool Inventory",
+      "type": "table",
+      "instructions": "Log every tool you audit. Actions: keep · change settings · replace · ask the tech department.",
+      "columns": ["Tool", "What students enter or create in it", "On district approved list?", "Red flags or unknowns", "My action + date"],
+      "rows": [
+        ["StoryBuddy AI (practice example)", "Stories, prompts, voice recordings, photos, birthday", "Unknown", "Trains AI on student work by default; undefined partners; public by default; unclear retention", "Don't use until the tech department reviews it"]
+      ],
+      "blankRows": 7
+    }
+  ]
+}

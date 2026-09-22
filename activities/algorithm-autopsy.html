@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Algorithm Autopsy | ELE Activity Bank</title>
+<meta name="description" content="Students dissect the design features of a fictional social app, trace how each one shapes attention and belief, and redesign the feed for people instead of engagement.">
+<meta property="og:title" content="Algorithm Autopsy | ELE Activity Bank">
+<meta property="og:description" content="Students dissect the design features of a fictional social app, trace how each one shapes attention and belief, and redesign the feed for people instead of engagement.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Activity Bank</span></a>
+  <nav aria-label="Main">
+    <a href="../index.html#catalog">Activities</a>
+    <a href="../framework.html">The ELEs</a>
+    <a href="../guide.html">Facilitator guide</a>
+  </nav>
+</header>
+
+<main id="main" class="act">
+  <div class="act-head">
+    
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">All activities</a> <span aria-hidden="true">/</span> Student learning</p>
+    <h1>Algorithm Autopsy</h1>
+    <p class="lede">Students dissect the design features of a fictional social app, trace how each one shapes attention and belief, and redesign the feed for people instead of engagement.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/algorithm-autopsy.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Print handouts</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">Print this guide</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="At a glance">
+      <dl>
+        <div><dt>Time</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>75 minutes</dd></div>
+        <div><dt>Mode</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</dd></div>
+        <div><dt>Grades</dt><dd>Grades 9–12</dd></div>
+        
+        <div><dt>Group</dt><dd>Teams of 3–4 for the autopsy; whole class in two circles for the seminar</dd></div>
+        <div><dt>Strands</dt><dd class="chips"><span class="strand s-medialit">Media literacy</span><span class="strand s-genai">Gen AI</span><span class="strand s-digcit">Digital citizenship</span></dd></div>
+      </dl>
+      <h2 class="glance-h">ELE indicators</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI1.1">AI1.1</a><div><span class="ind-area">AI in Education · AI Literacy</span>I know how AI systems work and their capabilities in educational contexts.</div></li><li><a class="ele" href="../framework.html#S5.2">S5.2</a><div><span class="ind-area">Students · Creative Problem Solver</span>I can use creativity and logic to find innovative solutions.</div></li><li><a class="ele" href="../framework.html#S5.1">S5.1</a><div><span class="ind-area">Students · Creative Problem Solver</span>I know how to approach complex problems systematically.</div></li><li><a class="ele" href="../framework.html#AI1.3">AI1.3</a><div><span class="ind-area">AI in Education · AI Literacy</span>I am aware of the current limitations and potential biases in AI systems.</div></li><li><a class="ele" href="../framework.html#S2.2">S2.2</a><div><span class="ind-area">Students · Online Safety</span>I can identify trustworthy sources of information on the internet.</div></li></ul>
+      <h2 class="glance-h">Handouts</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Loop Feature Autopsy <span class="muted">(card sort)</span></li><li><span class="hl">B</span> The Loop Memo (Seminar Text) <span class="muted">(reading)</span></li><li><span class="hl">C</span> Healthier Feed Design Spec <span class="muted">(worksheet)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Overview</h2><p class="overview">Recommendation systems are a form of AI most students use every day without choosing to. They predict what will keep a person watching and rank content accordingly, and the app around them is designed with features like autoplay, streaks, and infinite scroll that keep people on the app longer. In this autopsy, teams examine the features of a fictional app called Loop, sort each one by what it is optimized to do, and discuss in a Socratic seminar whether a feed can shape what people believe. They finish by designing a healthier feed with specific rules, trade-offs, and a way to measure whether it works.</p>
+        <h3 class="sub">Objectives</h3><ul><li>Students will explain how a recommendation system uses predictions from past behavior to rank content, and name what it is optimized for.</li><li>Students will analyze specific engagement design features and connect each one to its likely effect on attention, emotion, or belief.</li><li>Students will design a feed with explicit ranking rules and user controls, and justify the trade-offs using evidence from the seminar.</li></ul></section>
+      <section class="two">
+        <div><h2>Materials</h2>
+          <h3 class="sub">On paper</h3><ul><li>Handout A: Loop Feature Autopsy sort (1 set per team, cut apart, with sorting mat)</li><li>Handout B: The Loop Memo, seminar text (1 per student)</li><li>Handout C: Healthier Feed Design Spec (1 per team)</li><li>Chart paper, markers, sticky notes</li></ul>
+          <h3 class="sub">On screen</h3><ul><li>No devices required</li><li>Optional: students may privately look at their own app's settings page (feed controls, time limits, &quot;why am I seeing this&quot; features) at home</li></ul></div>
+        <div><h2>Before you start</h2><ol class="prep"><li>Print and cut Handout A for each team; print Handout B for every student.</li><li>Arrange the room for a fishbowl seminar: an inner circle of 6–8 chairs and an outer circle.</li><li>Read the &quot;why&quot; lines on the sort key so you can explain each feature's design purpose without citing outside statistics.</li><li>Decide whether students will present their designs to another class, a digital-media class, or your campus technology staff.</li></ol></div>
+      </section>
+      <section><h2>Step by step</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Hook</p>
+        <h3>Why did it show me that?</h3>
+        <p>Ask students to recall the last video or post that surprised them in a feed. <strong>&quot;Why do you think it was chosen for you?&quot;</strong> Collect guesses on the board (&quot;I watched something similar,&quot; &quot;my friends liked it,&quot; &quot;it was popular&quot;). Say: &quot;Every one of these guesses describes a prediction. Today we do an autopsy on a feed to see how the predictions work and what they are trying to achieve.&quot;</p>
+        
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–13 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Model</p>
+        <h3>How a recommender works</h3>
+        <p>Draw a simple loop on the board: <strong>You act</strong> (watch, pause, like, share, skip) → <strong>the system records it</strong> → <strong>it predicts</strong> what you're likely to engage with next, based on your history and people with similar histories → <strong>it ranks</strong> content by those predictions → <strong>you act again</strong>. Explain that this is a kind of AI: it learns patterns from huge amounts of behavior data. The key question is <strong>what it is optimized for</strong>. A system rewarded for watch time will learn to favor whatever keeps people watching, which isn't necessarily what's true, useful, or good for them.</p>
+        <p class="step-note"><span>Facilitator note</span>Avoid claiming specific platforms work in specific ways. Say &quot;many feeds&quot; and &quot;can,&quot; and keep the focus on the fictional app Loop.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">13–27 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Explore</p>
+        <h3>The feature autopsy</h3>
+        <p>Teams sort the Handout A feature strips into three categories: <strong>Keeps you on the app</strong>, <strong>Shapes what you see and believe</strong>, and <strong>Gives you control</strong>. For each strip, teams must say what the feature is optimized for and who benefits. Then each team picks the one feature they think has the biggest effect on what users believe, and writes it on a sticky note for the seminar.</p>
+        <p class="step-note"><span>Facilitator note</span>Some features fit more than one category. Accept a reasoned choice, and ask the team to note the second category too. Autoplay, for example, keeps you on the app <em>and</em> decides what you see next.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">27–47 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Debrief</p>
+        <h3>Socratic seminar: Can a feed change your mind?</h3>
+        <p>Students read Handout B, a fictional internal memo from Loop's product team, and annotate it. Run a fishbowl: the inner circle discusses for 8 minutes while the outer circle tracks evidence and listens for strong moves, then swap. Opening question: <strong>&quot;The memo says Loop only shows people what they want. Is that true?&quot;</strong> Follow-ups: &quot;If a feed shows you more of what you react to, and outrage gets reactions, what happens to what you think is normal?&quot; &quot;Who is responsible for what you see: you, the company, the creators, or the algorithm?&quot; &quot;Would you trust a feed more if you could see why it chose each post?&quot;</p>
+        <p class="step-note"><span>Facilitator note</span>Listen for students who distinguish <em>showing people what they want</em> from <em>showing people what they react to</em>. That distinction is the core insight. Avoid presenting &quot;filter bubbles&quot; as proven fact for everyone; research on how much feeds shape beliefs is ongoing, and the seminar should explore the question, not settle it.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">47–67 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Create</p>
+        <h3>Design a healthier feed</h3>
+        <p>Teams complete Handout C: they choose who the feed is for, what it is optimized for instead of pure engagement, three ranking rules, two user controls, one feature they would remove, and <strong>how they would measure whether it works</strong>. They must also name one trade-off: what the company or users would lose. Teams sketch the feed screen in the box.</p>
+        <p class="step-note"><span>Facilitator note</span>Push on measurement. &quot;Users feel better&quot; is a goal; &quot;users report whether they learned something new after a session&quot; is a measure.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">67–75 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Reflect</p>
+        <h3>Pitch and pledge</h3>
+        <p>Each team gives a 60-second pitch. The class votes with sticky notes on the design they'd actually use. Each student writes one sentence: <strong>&quot;One thing I'll do differently with my own feed this week is ___.&quot;</strong></p>
+        <p class="step-note"><span>Facilitator note</span>Examples: using a &quot;not interested&quot; button, turning off autoplay, following a source that disagrees with them, or switching to a chronological view where available.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Paper or screen</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</h3><p>Designed unplugged. The feature sort, the seminar text, and the design spec all run on paper, and the discussion does the heavy lifting. Students check their own app settings privately at home, if they choose.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Digital</h3><p>Run the sort in a shared slide deck with draggable strips and the seminar as a threaded discussion in your LMS, requiring each student to quote the memo and reply to a classmate. Teams can prototype their healthier feed in any slide or design tool. Students 13+ may explore the feed-control and &quot;why am I seeing this&quot; settings on apps they already use, on their own devices, without sharing screenshots of personal feeds.</p></div>
+        <p class="why"><strong>Does it need a screen?</strong> Better unplugged: the evidence of learning is reasoning about design choices and their effects, which discussion and sorting surface well without adding more screen time to a lesson about screen time. A digital prototype is optional polish.</p>
+      </section>
+      <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Teams name what each feature is optimized for and who benefits, not just whether it is good or bad.</li><li>Seminar contributions quote the memo and distinguish what users want from what users react to.</li><li>Design specs include ranking rules, user controls, a named trade-off, and a concrete way to measure success.</li><li>Personal pledges name a specific action, not a general intention.</li></ul></section>
+      <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grade 9</dt><dd>Use eight feature strips (1, 2, 3, 5, 7, 9, 11, 13) and run the seminar as a whole-class discussion instead of a fishbowl.</dd></div><div><dt>Computer science classes</dt><dd>Have teams write their three ranking rules as pseudocode, including how the feed would score and sort a list of sample posts.</dd></div><div><dt>Emergent bilinguals</dt><dd>Provide seminar sentence stems (&quot;I agree with ___ because ___,&quot; &quot;The memo says ___, but ___&quot;) and pre-teach <em>optimize</em>, <em>engagement</em>, and <em>recommendation</em>.</dd></div><div><dt>Psychology or health classes</dt><dd>Connect the &quot;Keeps you on the app&quot; features to course content on habits and rewards, and add a wellbeing measure to the design spec.</dd></div></dl></section>
+      <section class="two">
+        <div><h2>Reflect</h2><ul><li>How does a recommendation system work, and what is it trying to do? (AI1.1)</li><li>What limitations or biases can come from a system that learns from what people react to? (AI1.3)</li><li>How did my team use creativity and logic to design something better? (S5.2)</li></ul></div>
+        <div><h2>What comes next</h2><p>For one week, students keep a short &quot;feed log&quot; at home noting one post a day and their best guess about why it was chosen for them, then bring the log to class to test their guesses against the model from Step 2. The next media literacy lesson can use their examples.</p></div>
+      </section>
+      <section><h2>Pairs well with</h2><ul class="connections"><li><a href="https://newslit.org/">News Literacy Project</a><span>Resources on algorithms, news feeds, and how information spreads online.</span></li><li><a href="https://mglearn.github.io/activities/">Learning Activities Hub</a><span>More media and AI literacy activities, including breakouts on viral claims.</span></li></ul></section>
+      <section class="related noprint"><h2>Related activities</h2><div class="cards"><article class="card" data-id="photo-detective">
+    
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Student learning<span>Grades 3–5</span></p>
+    <h3><a href="../activities/photo-detective.html">Photo Detective</a></h3>
+    <p class="card-tag">Students investigate described photos that were cropped, edited, or made with AI, and learn two fact-checker moves that work better than staring: Stop, and Find better coverage.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Hybrid</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Media literacy</span><span class="strand s-genai">Gen AI</span></span><span class="eles"><a class="ele" href="../framework.html#S2.2" title="Students 2.2: I can identify trustworthy sources of information on the internet.">S2.2</a><a class="ele" href="../framework.html#AI4.1" title="AI in Education 4.1: I know how to promote critical thinking skills in relation to AI-generated information.">AI4.1</a><a class="ele" href="../framework.html#AI1.3" title="AI in Education 1.3: I am aware of the current limitations and potential biases in AI systems.">AI1.3</a></span></div>
+  </article><article class="card" data-id="the-feed-game">
+    
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Student learning<span>Grades 6–8, Grades 9–12</span></p>
+    <h3><a href="../activities/the-feed-game.html">The Feed Game</a></h3>
+    <p class="card-tag">Students play a card-based recommendation engine by hand and watch their feed shrink to a few topics, then design ways to take it back.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Media literacy</span><span class="strand s-genai">Gen AI</span></span><span class="eles"><a class="ele" href="../framework.html#S2.3" title="Students 2.3: I am aware of the potential risks of sharing content online.">S2.3</a><a class="ele" href="../framework.html#AI1.1" title="AI in Education 1.1: I know how AI systems work and their capabilities in educational contexts.">AI1.1</a><a class="ele" href="../framework.html#S5.3" title="Students 5.3: I am aware of how to apply computational thinking in various subjects.">S5.3</a></span></div>
+  </article><article class="card" data-id="real-fake-or-generated">
+    
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Student learning<span>Grades 6–8, Grades 9–12</span></p>
+    <h3><a href="../activities/real-fake-or-generated.html">Real, Fake, or Generated?</a></h3>
+    <p class="card-tag">Students hunt for the classic clues of AI-made images and cloned voices, discover how often those clues mislead, and learn to check the source instead.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Hybrid</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Media literacy</span><span class="strand s-genai">Gen AI</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.3" title="AI in Education 1.3: I am aware of the current limitations and potential biases in AI systems.">AI1.3</a><a class="ele" href="../framework.html#S2.2" title="Students 2.2: I can identify trustworthy sources of information on the internet.">S2.2</a><a class="ele" href="../framework.html#AI4.1" title="AI in Education 4.1: I know how to promote critical thinking skills in relation to AI-generated information.">AI4.1</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>TCEA Essential Learning Expectations Activity Bank.</strong> Professional learning and K–16 student activities for Gen AI literacy, digital citizenship, and media literacy, on paper or on screen.</p>
+    <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
+    
+  </div>
+  <nav aria-label="Related">
+    <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
+    <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
+  </nav>
+</footer>
+
+</body>
+</html>

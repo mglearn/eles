@@ -1,0 +1,164 @@
+{
+  "id": "co-creation-not-substitution",
+  "title": "Co-Creation, Not Substitution",
+  "tagline": "Educators sort real classroom and faculty tasks along a human-to-AI spectrum, co-create something with AI while keeping their own thinking visible, and write the disclosure and syllabus statements that make the line clear to students.",
+  "audience": "pl",
+  "roles": ["teachers", "faculty", "coaches", "librarians"],
+  "grades": ["6-8", "9-12", "Higher Ed"],
+  "strands": ["genai", "digcit"],
+  "mode": "hybrid",
+  "minutes": 75,
+  "groupSize": "Tables of 4–5; works for 8–60 people",
+  "eles": ["AI5.1", "AI5.3", "AI5.2", "AI2.3"],
+  "overview": "The useful question isn't \"AI or no AI?\" It's \"who does which part of the thinking, and does that serve the learning goal?\" In this session participants sort classroom and faculty tasks along a spectrum from human-only to AI-assisted to AI-generated with human review, then experience a creative co-creation round where AI widens the options and the human chooses, transforms, and owns the result. They finish by writing a student disclosure statement and a course AI-use statement, with a higher education syllabus variant, so students know exactly where AI belongs in each assignment, if it belongs at all.",
+  "objectives": [
+    "Participants will place tasks on a human-only, AI-assisted, or AI-generated-with-review spectrum and justify each placement by the learning goal.",
+    "Participants will co-create a product with AI in which their own choices and transformations are documented and visible.",
+    "Participants will write a student-facing disclosure statement and an assignment-level AI-use statement for their course or syllabus."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Collaboration Spectrum Sort (1 set per table, cut apart, with sorting mat)",
+      "Handout B: Co-Creation Log and Disclosure Builder (1 per person)",
+      "Handout C: Model AI-Use Statements, K–12 and Higher Ed (1 per person)",
+      "A long strip of masking tape on the floor or wall labeled HUMAN ONLY at one end and AI-GENERATED at the other"
+    ],
+    "digital": [
+      "A generative AI chatbot your district or institution approves, on participants' devices if they have approved accounts, otherwise projected by the facilitator",
+      "Optional: a shared document where participants post their AI-use statements for feedback"
+    ]
+  },
+  "prep": [
+    "Print Handouts B and C; print and cut Handout A. Lay the masking-tape spectrum on the floor or a wall.",
+    "Write a short welcome paragraph for the session with help from your approved AI tool, revise it yourself, and add a one-sentence disclosure of exactly what the AI did. You'll read it in the Hook.",
+    "Look up any existing district or institution guidance on AI use and academic integrity so participants' statements can align with it.",
+    "For the co-creation round, pick a creative task that fits your audience (a writing prompt, a lab scenario, a discussion question, a project hook). A default is provided in the Create step."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Who wrote this?",
+      "body": "Read your welcome paragraph aloud. Ask: \"Human or AI?\" Take a quick vote. Then read your disclosure: e.g., **\"I asked an AI tool for three possible openings, combined two of them, rewrote every sentence in my own voice, and added the story about my first classroom myself.\"** Ask: \"Did knowing *what* the AI did change how you feel about it?\"",
+      "note": "Most people are more comfortable once they know the specific division of labor. That's the argument for specific disclosure over a yes/no \"AI used\" checkbox."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 15,
+      "title": "Walk the spectrum",
+      "body": "Tables sort the Handout A task strips into three zones: **Human only**, **AI-assisted (human leads, AI supports)**, and **AI-generated (human reviews and decides)**. Then each table picks its two most-debated strips and physically places them on the masking-tape spectrum, defending the spot aloud. Ask the room: **\"What would move this strip toward the other end?\"** (Usually: a different learning goal.)",
+      "note": "Hold the line on the core principle: placement depends on the learning goal. If the goal is to develop a student's own voice, the writing stays human. If the goal is to analyze feedback, AI-drafted feedback may be fine."
+    },
+    {
+      "phase": "Create",
+      "minutes": 15,
+      "title": "Co-creation round",
+      "body": "Each person uses the approved AI tool (or the facilitator's projected tool) on a creative task. Default task: **design an opening scenario for a unit you teach.** Step 1: ask the AI for ten unusual \"what if\" hooks. Step 2: *cross out* at least six, and note why on Handout B. Step 3: combine, twist, or localize one of the survivors into something that's yours: add your students' community, a real constraint, your own question. Step 4: log what the AI contributed and what you contributed.",
+      "note": "Unplugged version: use the printed mock list in the Unplugged section. The point isn't the AI's ideas. It's the human choosing, rejecting, and transforming, which is where creativity shows."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 7,
+      "title": "Whose idea is it?",
+      "body": "Pairs trade their final hook and Handout B log. Ask: **\"Point to the part that's unmistakably yours.\"** Share a few aloud. Then ask: \"When did the AI widen your thinking, and when did it pull you toward something generic?\" Chart answers under \"Augmented\" and \"Flattened.\"",
+      "note": "Generic, middle-of-the-road output is a predictable result of how these models work: they tend toward likely text. Rejecting the obvious is a human creative skill worth teaching explicitly."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Anatomy of a good disclosure",
+      "body": "Walk through Handout C. A useful student disclosure names (1) **the tool** in general terms, (2) **what I asked it to do**, (3) **what I kept, changed, or rejected**, and (4) **how I checked it**. A useful course statement is assignment-level, not one rule for the whole year, and explains *why* each level fits the learning goal. Point out the higher ed syllabus variant and its three levels.",
+      "note": "Be honest about enforcement: AI-writing detectors are unreliable and can falsely flag students, including non-native English writers. Clear expectations, disclosure, and process evidence (drafts, logs, conversations) work better than detection."
+    },
+    {
+      "phase": "Create",
+      "minutes": 18,
+      "title": "Write your statements",
+      "body": "Each person drafts two things on Handout B. (1) A **student disclosure template** for one upcoming assignment. (2) An **AI-use statement** for that assignment or course, adapting the K–12 or Higher Ed model on Handout C: which level applies, why it fits the learning goal, what students must disclose, and what happens if they're unsure. Tables swap drafts and check: \"Could a student tell exactly what's allowed?\"",
+      "note": "Faculty often write statements that are clear about prohibitions and silent about permitted uses. Push for at least one sentence on how AI *may* help."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 7,
+      "title": "Try it with students",
+      "body": "Each person names the assignment where they'll introduce their statement and disclosure template, and one way they'll ask students for feedback on it. Optional: students place the same Handout A strips (student tasks only) on the spectrum before seeing your statement, and you compare their thinking with yours.",
+      "note": "Students may place tasks differently than you expect. Their reasoning makes a great opening for a class norms conversation."
+    }
+  ],
+  "unplugged": "The sort, spectrum walk, and statement writing are all unplugged. For the co-creation round, give each person this printed list, a mock AI brainstorm (fictional output) for \"ten 'what if' hooks for a unit on water\": What if your town's water came from a single well? What if a drop of water could keep a diary? What if every school had to pay for the water it used? What if a river sued a factory? What if you had to design a city on a floating island? What if ice sank instead of floated? What if your school garden had only one bucket a day? What if rain fell only once a year? What if you traced your breakfast's water footprint? What if the town water tower could tell its own history? They cross out, combine, and transform just as they would with a live tool, and log their choices on Handout B.",
+  "digital": "Participants with approved accounts run the co-creation round on their own devices; otherwise the facilitator projects the tool and takes table requests. Statements can be drafted in a shared document so colleagues comment in the margins, and faculty can paste their final syllabus statement straight into their LMS course shell. Students under 13 never need their own AI account; the teacher drives the tool on a projector.",
+  "whyTech": "The live co-creation round lets participants feel the difference between AI widening their options and AI replacing their judgment, which a printed list can only approximate. The evidence of learning isn't the AI's output; it's the Handout B log showing what the human chose, rejected, and transformed.",
+  "adaptations": [
+    { "label": "Higher Ed faculty", "text": "Use only the faculty and college-level strips in the sort, adapt the Higher Ed syllabus model on Handout C, and add a discussion of discipline-specific norms for AI in research and publication." },
+    { "label": "Grades 6–8 teachers", "text": "Simplify the disclosure to three sentence frames (\"I used AI to…\", \"I changed…\", \"I checked by…\") and model them on the projector with a teacher-driven tool." },
+    { "label": "Librarians", "text": "Connect disclosure to citation: co-teach how students credit AI assistance alongside traditional sources, following whatever citation style your campus uses." }
+  ],
+  "lookFors": [
+    "Sort justifications cite the learning goal, not a blanket rule about AI.",
+    "Co-creation logs show specific rejections and transformations, and the final product includes something unmistakably the participant's own.",
+    "Disclosure templates ask students what they asked, what they changed or rejected, and how they checked.",
+    "Course or syllabus statements are assignment-level, explain why, and include at least one permitted use and a \"when in doubt, ask\" path."
+  ],
+  "reflection": [
+    "How am I fostering collaboration between humans and AI systems in educational projects and research?",
+    "Where in my course does AI risk replacing the thinking the assignment is meant to build?",
+    "How will I know whether students' use of AI augmented their creativity or flattened it?"
+  ],
+  "transfer": "Introduce your assignment-level AI-use statement and disclosure template with your next major assignment. Collect the disclosures with the work, and bring three to your PLC or department to discuss what they reveal about how students actually used AI.",
+  "connections": [
+    { "title": "Augmented K–16 AI Learning Framework", "url": "https://mglearn.github.io/tcea/alf/", "note": "A K–16 frame for where human-AI collaboration fits as learners grow." },
+    { "title": "AI Custom Instructions Library", "url": "https://mglearn.github.io/tcea/custom-instructions-library/", "note": "Examples of setting up an AI tool to support, not substitute for, student thinking." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Collaboration Spectrum Sort",
+      "type": "sort",
+      "instructions": "Sort each task by who should do the thinking, given the learning goal in parentheses. The key shows one defensible placement; a different goal can move a strip.",
+      "categories": ["Human only", "AI-assisted (human leads)", "AI-generated (human reviews)"],
+      "items": [
+        { "text": "A 9th grader's personal narrative about a family tradition (goal: develop the student's own voice).", "answer": "Human only", "why": "The voice is the learning; AI drafting would replace it." },
+        { "text": "A 7th grader brainstorms 15 possible science fair questions with AI, then picks one and explains why it's testable (goal: formulate a testable question).", "answer": "AI-assisted (human leads)", "why": "AI widens options; the student does the judging and justifying." },
+        { "text": "A teacher generates 30 practice problems on two-step equations, then checks every answer before use (goal: more practice for students).", "answer": "AI-generated (human reviews)", "why": "The learning is students solving, not the teacher writing items; review catches errors." },
+        { "text": "A final grade on a student's research paper (goal: fair, accountable evaluation).", "answer": "Human only", "why": "A consequential judgment about a student needs a human decision-maker." },
+        { "text": "A teacher asks AI to draft rubric-based feedback on a de-identified essay, then rewrites it before a student sees it (goal: faster, specific feedback).", "answer": "AI-assisted (human leads)", "why": "AI drafts; the teacher's knowledge of the student shapes the final feedback." },
+        { "text": "An 11th grader uses AI to argue against her own thesis so she can strengthen her rebuttal (goal: anticipate counterarguments).", "answer": "AI-assisted (human leads)", "why": "AI as sparring partner; the student still builds the argument." },
+        { "text": "A student in grade 8 writes a poem, then asks AI to suggest three places where the rhythm stumbles, and decides which to change (goal: revise for sound).", "answer": "AI-assisted (human leads)", "why": "The poem and the decisions stay the student's." },
+        { "text": "A professor drafts alt text for 40 lecture slide images with AI and corrects each description (goal: accessible course materials).", "answer": "AI-generated (human reviews)", "why": "Access is the goal; expert review ensures accuracy." },
+        { "text": "A professor writes the central argument and methods of a grant proposal (goal: the scholar's original contribution).", "answer": "Human only", "why": "The intellectual contribution is the point and carries the author's accountability." },
+        { "text": "A graduate student asks AI to suggest search terms for a literature review, then runs searches in library databases and reads the sources (goal: thorough search).", "answer": "AI-assisted (human leads)", "why": "AI suggests; the student verifies and reads real sources." },
+        { "text": "A department drafts a first version of a family newsletter translation with AI, then a fluent staff member revises it (goal: timely family communication).", "answer": "AI-generated (human reviews)", "why": "Useful speed, but a fluent human must check meaning and tone." },
+        { "text": "First-year college students write an in-class reflection on how their thinking changed this semester (goal: metacognition).", "answer": "Human only", "why": "Reflection on one's own thinking can't be outsourced." },
+        { "text": "A teacher asks AI for five scenarios for an ethics discussion, keeps two, and rewrites them for her community (goal: engaging discussion prompts).", "answer": "AI-generated (human reviews)", "why": "AI generates options; the teacher selects and localizes." },
+        { "text": "A student uses AI to write a lab report conclusion and submits it unchanged (goal: reason from evidence).", "answer": "Human only", "why": "The reasoning is the learning; as described, this is substitution, not collaboration." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Co-Creation Log and Disclosure Builder",
+      "type": "worksheet",
+      "instructions": "Part 1 logs your co-creation round. Part 2 drafts the statements you'll use with students.",
+      "sections": [
+        { "prompt": "Part 1. What I asked the AI to do (my exact prompt):", "lines": 2 },
+        { "prompt": "Ideas I rejected, and why (at least six):", "lines": 4 },
+        { "prompt": "How I combined, twisted, or localized an idea. The part that is unmistakably mine:", "lines": 4 },
+        { "prompt": "Part 2. Student disclosure template for one assignment (what students will fill in: tool, what I asked, what I kept/changed/rejected, how I checked):", "lines": 5 },
+        { "prompt": "My AI-use statement for this assignment or course: the level, why it fits the learning goal, what students must disclose, and what to do when unsure.", "lines": 6 },
+        { "prompt": "Colleague check: \"A student reading this would know that…\" and \"One thing still unclear is…\"", "lines": 3 }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Model AI-Use Statements: K–12 and Higher Ed",
+      "type": "reading",
+      "instructions": "Adapt, don't adopt. Align with your district's or institution's policy, and fill the blanks for your own course.",
+      "paragraphs": [
+        "**Student disclosure (grades 6–12).** \"For this assignment I used an AI chatbot approved by my school to ______. I kept ______. I changed or rejected ______ because ______. I checked the AI's information by ______. Everything else in this work is my own thinking and writing.\"",
+        "**Classroom AI-use statement (K–12 teacher, assignment level).** \"In this class, AI use is decided assignment by assignment, based on what you're learning. Every assignment is marked with one of three levels. Level 0, No AI: the thinking and writing are the skill we're practicing, so they must be yours. Level 1, AI as helper: you may use the school's approved AI tool to brainstorm, get feedback, or check understanding, but the final work must be written by you, and you'll complete a disclosure. Level 2, AI as partner: using AI is part of the task, and you'll show what you asked, what you changed, and how you checked it. If you're not sure what's allowed, ask me before you start. Asking is always okay.\"",
+        "**Higher Ed syllabus AI-use statement (course level).** \"Generative AI in ______ (course number and title). This course treats generative AI as a tool that can support learning in some tasks and undermine it in others. Each assignment in the syllabus is labeled with one of three levels. No AI: assignments that assess your independent reasoning, writing, or recall; using generative AI in any part of these assignments is not permitted. Limited AI: you may use institution-approved AI tools for brainstorming, outlining, or feedback on your own draft, but not to generate text you submit; include a brief disclosure statement. Integrated AI: AI use is part of the assignment design; document your prompts, what you accepted and rejected, and how you verified outputs.\"",
+        "**Higher Ed syllabus, continued.** \"In all cases, you are responsible for the accuracy of everything you submit, including any AI-assisted content; AI tools can produce plausible but false information and citations. Do not enter other people's personal information, or unpublished work that isn't yours, into AI tools. Undisclosed use where AI is not permitted will be handled under the institution's academic integrity policy, based on evidence from your work and process, not AI-detection software alone. If you're unsure whether a use is permitted, ask before you submit; that question will never count against you.\"",
+        "**Why these statements work.** They tie AI use to learning goals rather than a single blanket rule; they name permitted uses, not only prohibitions; they ask for specific disclosure (what, how, what changed, how checked); they place responsibility for accuracy on the author; and they offer a safe way to ask."
+      ]
+    }
+  ]
+}

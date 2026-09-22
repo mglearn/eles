@@ -1,0 +1,142 @@
+{
+  "id": "bias-detectives",
+  "title": "Bias Detectives",
+  "tagline": "Teams compare paired AI outputs where only a name, a language, or a pronoun changed, then run their own fair tests and propose fixes before AI output reaches students.",
+  "audience": "pl",
+  "roles": ["teachers", "librarians", "coaches"],
+  "grades": ["6-8", "9-12", "Higher Ed"],
+  "strands": ["genai", "medialit", "digcit"],
+  "mode": "hybrid",
+  "minutes": 60,
+  "groupSize": "Teams of 3–4; works for 8–40 people",
+  "eles": ["AI1.3", "AI2.2", "AI4.1", "AI2.1"],
+  "overview": "AI models learn from human-made text and images, so they can absorb the stereotypes, gaps, and defaults in that data. Bias rarely announces itself; it shows up when you change one small thing and the output shifts. In this session teams act as detectives on printed, clearly fictional mock output pairs (a recommendation letter, a translation, career advice, writing feedback), then design and run their own paired-prompt test on a district-approved tool. They leave with a fair-test protocol and a mitigation plan for one real classroom use.",
+  "objectives": [
+    "Participants will identify what changed between paired AI outputs and describe a plausible source of the difference (training data patterns, defaults, design choices).",
+    "Participants will design a fair paired-prompt test that changes only one variable and repeats each prompt to account for randomness.",
+    "Participants will propose at least one practical mitigation before using AI output with students, and explain who could be harmed without it."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Mock Output Case Files (1 set per team, cut apart)",
+      "Handout B: Detective Log (1 per team)",
+      "Handout C: Fair Test Planner (1 per team)",
+      "Highlighters in two colors; chart paper titled \"Patterns we found\" and \"Fixes we'd use\""
+    ],
+    "digital": [
+      "A generative AI chatbot your district approves: projected by the facilitator, or on one device per team if staff have approved accounts",
+      "Optional: a translation tool your district approves, for the translation test"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Each team gets all six case files face down. Print the card backs as a facilitator key.",
+    "Run two or three paired prompts on your district's approved tool ahead of time so you know what it currently does. Results change as tools update, and some tools may not show the patterns in the mock files. That is a finding too.",
+    "Remind yourself of the framing: mock outputs are written to illustrate *kinds* of bias that researchers and educators have raised concerns about. They are not evidence about any specific product."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Spot the difference",
+      "body": "Project Case File 1 (two mock recommendation letters that differ only by the student's name). Give 60 seconds of silent reading, then ask: **\"Same prompt, same grades, one change. What else changed?\"** Have people call out words. Highlight \"brilliant, analytical\" versus \"hardworking, respectful.\"",
+      "note": "Say plainly: \"These are fictional outputs written for training. They illustrate a pattern worth testing, not a claim about any product. Later you'll test a real tool yourselves.\""
+    },
+    {
+      "phase": "Explore",
+      "minutes": 13,
+      "title": "Work the case files",
+      "body": "Teams work through Case Files 2–6. For each, highlight in one color **what changed in the prompt** and in the other **what changed in the output**, then complete a row of Handout B: the pattern, a possible source (training data, a default assumption, design), who could be harmed in a classroom, and a first idea for a fix.",
+      "note": "Push teams past \"the AI is racist/sexist\" toward mechanism: \"If most text it learned from paired 'nurse' with 'she,' what would a next-word predictor do?\" Mechanism leads to mitigation."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "What makes a fair test",
+      "body": "Walk through Handout C's rules using Case File 4 (career advice). A fair test **changes one variable only** (name, pronoun, or language), keeps everything else word-for-word identical, **runs each version at least three times in fresh conversations** because outputs vary by chance, and records exact wording. Model one live pair on the projected approved tool and log it together.",
+      "note": "The biggest error in amateur bias testing is concluding from a single run. One odd output is an anecdote; a repeated pattern across fresh runs is evidence."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 15,
+      "title": "Run your own test",
+      "body": "Each team designs a paired prompt that matters for their students on Handout C: writing feedback on the same paragraph under two names, translating a sentence with a gender-neutral pronoun, suggesting books for \"a boy\" vs. \"a girl,\" describing \"a family\" or \"a scientist.\" Teams run it on the approved tool (or ask the facilitator to run it on the projector) three times per version and log what happened. **No real student names or work.** Use invented names and a paragraph you write yourselves.",
+      "note": "If a team finds no difference, celebrate it and ask them to report it. A tool that treats both versions the same on this test is useful to know, and it doesn't prove the tool is bias-free."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 12,
+      "title": "Patterns and fixes",
+      "body": "Each team reports one test in 60 seconds: what they changed, what they saw across runs, and one fix. Post findings on \"Patterns we found\" and fixes on \"Fixes we'd use.\" Then ask: **\"Which of these fixes is a prompt trick, and which is a human-judgment step?\"** Circle the human-judgment fixes (review before sharing, remove names before asking for feedback, compare with a second source, let students critique the output).",
+      "note": "Prompting (\"avoid stereotypes\") can reduce some issues but isn't a guarantee. The strongest mitigations keep a person deciding and make bias-checking part of student work."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 8,
+      "title": "One use, one guardrail",
+      "body": "Each person names one way AI output could reach their students in the next month (generated reading passages, feedback, images for slides, translated family letters) and writes the guardrail they'll use on the back of Handout C. Pairs ask each other: **\"Who might be left out or misrepresented, and how would you find out?\"**",
+      "note": "Translated family letters are a common blind spot. Suggest having a fluent speaker review any AI-translated letter before it goes home."
+    }
+  ],
+  "unplugged": "Run the case files, detective log, and fair-test design entirely on paper. For the Practice step, teams write their paired prompts and predicted outcomes; the facilitator runs a few of them later on the approved tool and shares results at the next meeting, or teams swap test designs and critique them for fairness (one variable, repeated runs, exact wording).",
+  "digital": "Teams with approved staff access run their paired prompts on their own device; otherwise the facilitator runs them on the projector. Log results in a shared spreadsheet using Handout B's columns so the whole staff can see patterns across many tests. In an LMS, post Case Files as a discussion and have teams reply with their log rows.",
+  "whyTech": "The live test is where participants stop treating bias as a headline and start treating it as something they can check. Running the same prompt three times also shows randomness directly, which keeps people from overclaiming from a single output. That's evidence paper can't provide.",
+  "adaptations": [
+    { "label": "Librarians and media specialists", "text": "Focus the live test on book and resource recommendations: ask for \"books a 12-year-old boy would like\" vs. \"a 12-year-old girl,\" and compare against your own collection's diversity audit." },
+    { "label": "Higher Ed faculty", "text": "Add a round on AI-generated reading lists and citations for a research topic: whose scholarship appears by default, and which regions or languages are missing?" },
+    { "label": "Bilingual and ESL teachers", "text": "Lead the translation tests. Compare how the tool handles regional Spanish (such as Tejano vocabulary) and code-switching, and write a family-communication guardrail for your campus." }
+  ],
+  "lookFors": [
+    "Detective Log entries name a mechanism (training data pattern, default assumption) rather than only a judgment.",
+    "Fair-test designs change exactly one variable, use invented names, and repeat each version at least three times.",
+    "Teams report results honestly, including \"no difference found,\" without overgeneralizing from one run.",
+    "Each participant writes a specific guardrail tied to a real way AI output could reach their students."
+  ],
+  "reflection": [
+    "In what ways am I addressing ethical considerations when using AI in learning and teaching?",
+    "Which of my students could be misrepresented or left out by AI defaults, and how would I notice?",
+    "How can students themselves become bias detectives, rather than me filtering everything for them?"
+  ],
+  "transfer": "With students in grades 6 and up, project one mock case file and one paired prompt you ran yourself, then have students design their own fair test on paper. Collect their test designs as evidence that they can question an AI output, not just consume it.",
+  "connections": [
+    { "title": "Augmented K–16 AI Learning Framework", "url": "https://mglearn.github.io/tcea/alf/", "note": "Frames where bias awareness fits in a K–16 AI literacy progression." },
+    { "title": "Generative AI Adoption Checklist", "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/", "note": "Add your fair-test protocol to a campus or district tool review." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Mock Output Case Files",
+      "type": "cards",
+      "instructions": "ALL OUTPUTS BELOW ARE MOCK AND FICTIONAL, written for training to illustrate patterns worth testing. They are not from any real product. Backs are the facilitator key.",
+      "cards": [
+        { "label": "Case File 1 · Recommendation letter (mock)", "front": "Prompt: \"Write two sentences recommending ___ for an advanced math program. She/he has straight A's.\" Version A (Emily): \"Emily is a brilliant, analytical thinker who consistently leads her peers. She will thrive in advanced mathematics.\" Version B (Jamal): \"Jamal is a hardworking, respectful student who always completes his assignments. He is a positive presence in class.\"", "back": "Look-for: identical grades, but A gets ability words (brilliant, leads) and B gets effort and behavior words (hardworking, respectful). Harm: letters shape opportunities. Fix: remove names before drafting, then compare language against a list of the student's actual accomplishments." },
+        { "label": "Case File 2 · Translation (mock)", "front": "Input in a language whose third-person pronoun has no gender (for example, Turkish \"o\"): \"O bir doktor. O bir hemşire.\" Mock translation: \"He is a doctor. She is a nurse.\"", "back": "Look-for: the source sentence gave no gender; the output assigned one based on job stereotypes. This is a widely discussed kind of translation bias. Fix: flag gender-neutral source text, offer both translations, and have a fluent human review family-facing translations." },
+        { "label": "Case File 3 · Writing feedback (mock)", "front": "A student wrote: \"My tío picked us up in his troca and we drove to the pulga on Sunday.\" Mock AI feedback: \"Error: replace 'tío,' 'troca,' and 'pulga' with standard English words. Your writing should be in correct English.\"", "back": "Look-for: purposeful code-switching and regional Texas vocabulary treated as errors, with a judgment (\"correct English\") that dismisses the student's voice. Fix: prompt for feedback on the assignment's actual criteria, and teach students when code-switching is a strong craft choice." },
+        { "label": "Case File 4 · Career advice (mock)", "front": "Prompt: \"Suggest three careers for a 14-year-old ___ who loves science and helping people.\" Version A (girl): \"Nurse, elementary science teacher, veterinary assistant.\" Version B (boy): \"Surgeon, biomedical engineer, research scientist.\"", "back": "Look-for: same interests, different ceilings; A's suggestions skew toward lower-paid and assistant roles. Fix: remove gender from the prompt, ask for a range of education levels, and have students compare suggestions against a careers database." },
+        { "label": "Case File 5 · Image description (mock)", "front": "A mock image tool was asked for \"a school principal\" four times and \"a school cafeteria worker\" four times. Mock result summary: all four principals are older men in suits; all four cafeteria workers are women, and three have darker skin tones.", "back": "Look-for: default representations of roles by gender, age, and race. Harm: images on slides quietly teach students who belongs where. Fix: specify diverse representation deliberately, review every generated image before use, and discuss defaults with students." },
+        { "label": "Case File 6 · Default assumptions (mock)", "front": "Prompt: \"Write a short word problem about a family getting ready for a holiday dinner.\" Mock output: \"The Johnsons are baking 3 pies for Christmas dinner. If each pie serves 8 people…\" Five more runs: all Christmas or Thanksgiving, all with a two-parent family.", "back": "Look-for: not an error in any single output, but a narrow default across runs. Harm: some students rarely see their families in examples. Fix: ask for varied family structures and celebrations, or have students write the context themselves and use AI only to check the math." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Detective Log",
+      "type": "table",
+      "instructions": "One row per case file. Name a mechanism, not just a verdict.",
+      "columns": ["Case file", "What changed in the prompt?", "What changed in the output?", "Possible source of the pattern", "Who could be harmed? First fix idea"],
+      "rows": [["1", "", "", "", ""], ["2", "", "", "", ""], ["3", "", "", "", ""], ["4", "", "", "", ""], ["5", "", "", "", ""], ["6", "", "", "", ""], ["Our live test", "", "", "", ""]]
+    },
+    {
+      "id": "C",
+      "title": "Fair Test Planner",
+      "type": "worksheet",
+      "instructions": "Change ONE thing. Keep everything else word-for-word identical. Use invented names only; never real student names or work.",
+      "sections": [
+        { "prompt": "The classroom use we're testing (feedback, recommendations, images, translation, examples):", "lines": 2 },
+        { "prompt": "Version A prompt, word for word:", "lines": 3 },
+        { "prompt": "Version B prompt, word for word. Circle the ONE thing that changed.", "lines": 3 },
+        { "prompt": "Results: run each version three times in fresh conversations. What stayed the same? What differed?", "lines": 5 },
+        { "prompt": "What can we honestly conclude, and what can't we conclude from this test?", "lines": 3 },
+        { "prompt": "Our mitigation: what will a human do before this output reaches students?", "lines": 3 }
+      ]
+    }
+  ]
+}

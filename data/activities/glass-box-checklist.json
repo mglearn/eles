@@ -1,0 +1,166 @@
+{
+  "id": "glass-box-checklist",
+  "title": "The Glass Box Checklist",
+  "tagline": "Teams interrogate a fictional AI vendor's glossy fact sheet, sort the questions that actually matter, and build a transparency and accountability checklist they can use on real tools.",
+  "audience": "pl",
+  "roles": ["leaders", "librarians", "coaches", "teachers"],
+  "grades": ["K-12"],
+  "strands": ["genai", "digcit"],
+  "mode": "hybrid",
+  "minutes": 60,
+  "groupSize": "Teams of 3–4; works for 6–40 people",
+  "eles": ["AI2.3", "AI2.1", "AI1.3"],
+  "overview": "AI tools arrive in schools with confident marketing: \"safe,\" \"unbiased,\" \"research-based,\" \"personalized.\" Transparency means being able to see behind those words: what the tool does, what data it uses, where it fails, and who answers for it when it's wrong. In this session teams read a fictional vendor fact sheet, sort a bank of evaluation questions, and build a short checklist that turns vague reassurance into answerable questions. Then they test the checklist on the published documentation of a tool their district already uses or is considering.",
+  "objectives": [
+    "Participants will distinguish transparent, checkable vendor claims from vague or marketing-only claims.",
+    "Participants will build a transparency and accountability checklist covering how a tool works, its data practices, its limits, and recourse when it's wrong.",
+    "Participants will apply their checklist to a real tool's published documentation and identify what questions remain unanswered."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Mock Vendor Fact Sheet, BrightPath Writing Coach (1 per person)",
+      "Handout B: Question Sort (1 set per team, cut apart, with a sorting mat)",
+      "Handout C: Glass Box Starter Checklist (2 per team)",
+      "Highlighters in two colors; chart paper titled \"Still unanswered\""
+    ],
+    "digital": [
+      "One device per team with a browser, to find a real tool's privacy policy, terms of service, and any published documentation on how it uses AI",
+      "Optional: the district's approved-tool list or data privacy agreement registry, if one exists"
+    ]
+  },
+  "prep": [
+    "Print Handouts A and C; print and cut Handout B.",
+    "Choose two or three real AI-powered tools your district uses or is considering. Locate their privacy policies and any published information on how they use AI so teams can find them quickly.",
+    "Check with your technology or privacy lead about whether the district has a data privacy agreement process, so you can point teams to it."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Glass box or black box?",
+      "body": "Hold up a clear glass jar and an opaque box (or show two pictures). Ask: **\"If an AI tool made a recommendation about a student, which of these would you want it to be?\"** Then: \"Most AI tools are at least partly black boxes; even their makers can't fully explain every output. Transparency doesn't mean seeing every gear. It means knowing enough to decide whether to trust it, and knowing who answers when it's wrong.\"",
+      "note": "This is an honest technical point: large models can't give a complete step-by-step reason for each output. Vendors can still be transparent about purpose, data, testing, limits, and accountability."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Read the fact sheet",
+      "body": "Everyone reads Handout A, the mock BrightPath Writing Coach fact sheet. Highlight in one color **claims you could check** (specific, verifiable) and in another **claims you couldn't** (vague or marketing). Then list, in the margin, the three questions you'd most want answered before 30 students use this tool. Teams compare.",
+      "note": "Look for teams catching \"bias-free,\" \"research-based\" with no research named, \"may share with trusted partners,\" and the missing information about what happens when the feedback is wrong."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Sort the questions",
+      "body": "Teams sort the Handout B question strips into four categories: **How it works and its limits**, **Data and privacy**, **Accountability and recourse**, and **Evidence of learning**. Then each team stars the five questions they consider non-negotiable before classroom use and checks whether Handout A answers them.",
+      "note": "Expect debate about where some questions belong. That's healthy. The facilitator key gives one defensible placement, not the only one."
+    },
+    {
+      "phase": "Create",
+      "minutes": 8,
+      "title": "Build your checklist",
+      "body": "Using Handout C as a starter, teams cross out items they don't need, add their own starred questions, and rewrite any item so it can be answered **yes, partly, or no** from documentation or a vendor reply. The goal is 8–12 items that someone else on campus could use without the team present.",
+      "note": "Push for plain language. \"Does the tool describe known limitations?\" is checkable. \"Is the tool ethical?\" is not."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 15,
+      "title": "Test it on a real tool",
+      "body": "Each team picks a real tool from your list and uses its public privacy policy, terms, and AI documentation to complete their checklist. Mark Yes, Partly, or No and note where each answer was found. Anything you can't find goes on the \"Still unanswered\" chart. Unanswered questions are findings, not failures.",
+      "note": "Remind teams to judge only what the documents say, not rumors or reputation. If a question needs a vendor reply, write it as an email question the district could send."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "What's still unanswered?",
+      "body": "Review the \"Still unanswered\" chart. Ask: **\"Which unanswered question would stop you from using this tool with students? Which is a 'use with caution'?\"** Then ask leaders: \"Who in our district should own sending these questions, and how will teachers see the answers?\" Close by agreeing on where the finished checklists will live.",
+      "note": "Transparency goes both ways: if the district adopts a tool, families and students deserve a plain-language summary of what it does with their data."
+    }
+  ],
+  "unplugged": "Run the fact sheet, sort, and checklist build on paper. For the Apply step, print excerpts of one real tool's privacy policy and terms (or a second, facilitator-written mock fact sheet), and have teams evaluate those. The skill, turning marketing into answerable questions, doesn't need a screen.",
+  "digital": "Teams search for and read real vendor documentation on their devices, then enter checklist results into a shared spreadsheet with a column for \"where we found it\" (with the page or section name). In an LMS, post the mock fact sheet as a reading and the checklist as a form so results aggregate across campuses.",
+  "whyTech": "The real-tool test is the point. Finding, or failing to find, answers in actual vendor documentation shows participants how much transparency varies, and produces a concrete list of questions the district can send. The printed mock teaches the skill; the live search shows why it's needed.",
+  "adaptations": [
+    { "label": "District leaders and technology directors", "text": "Merge team checklists into one draft for the district's procurement or tool-approval process. Add a column for who reviewed each item and when it should be rechecked." },
+    { "label": "Librarians", "text": "Take the checklist to the library's database and research-tool subscriptions, many of which now include AI summaries or search features, and add a family-facing summary for each." },
+    { "label": "Classroom teachers", "text": "Pare the checklist to five items a teacher can check in 15 minutes before trying a new AI feature, and share it with your PLC." }
+  ],
+  "lookFors": [
+    "Highlighted fact sheets distinguish specific, checkable claims from vague marketing claims.",
+    "Finished checklists include items on limits, data use, accountability or recourse, and evidence of learning, each answerable yes, partly, or no.",
+    "Applied checklists cite where each answer was found, and the team lists at least one unanswered question as a finding.",
+    "Participants name who will send unanswered questions to vendors and how teachers will see the answers."
+  ],
+  "reflection": [
+    "In what ways am I addressing ethical considerations when using AI in learning and teaching?",
+    "What do I currently accept on trust about the AI tools my students use?",
+    "How would a student or family find out what a tool we use does with their information?"
+  ],
+  "transfer": "Before your next use of an AI-powered feature with students, run your team's checklist on it. Share the one-page result with your campus leader or librarian, and teach students in grades 6 and up to ask three of the same questions about apps they use at home.",
+  "connections": [
+    { "title": "Generative AI Adoption Checklist", "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/", "note": "A fuller adoption review to compare with the checklist your team built." },
+    { "title": "PROTECT Rubric v2.0", "url": "https://mglearn.github.io/tcea/protect_rubric_v2/", "note": "Deepens the data and privacy portion of your checklist." },
+    { "title": "Family App Privacy Audit", "url": "https://mglearn.github.io/tcea/privacy-audit/", "note": "A family-facing version of the same questions for apps used at home." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Mock Vendor Fact Sheet: BrightPath Writing Coach",
+      "type": "reading",
+      "instructions": "FICTIONAL PRODUCT AND COMPANY, written for training. Highlight checkable claims in one color and vague claims in another.",
+      "paragraphs": [
+        "**BrightPath Writing Coach: Every student, a confident writer.** BrightPath uses advanced artificial intelligence to give every student instant, personalized feedback on their writing, 24 hours a day. Teachers save hours every week.",
+        "**How it works.** Students paste or type their writing. Our proprietary AI engine analyzes it and returns feedback on organization, evidence, grammar, and style, plus a predicted rubric score. The feedback is generated by a large language model licensed from a third-party AI provider and customized with BrightPath's writing expertise.",
+        "**Research-based.** BrightPath is grounded in the science of writing instruction and has been proven to accelerate student growth.",
+        "**Safe and fair.** BrightPath is bias-free and appropriate for all learners, including English learners and students with disabilities. Our AI never makes mistakes that a teacher would not catch.",
+        "**Your data.** Student writing is stored securely in the cloud. We may use de-identified student writing to improve our services and may share data with trusted partners. Accounts can be deleted by contacting support.",
+        "**Teacher control.** Teachers can view all student feedback in the dashboard. Predicted scores can be synced automatically to your gradebook.",
+        "**Ages.** Designed for grades 3–12. Setup takes under 5 minutes; students sign in with their school account."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Question Sort",
+      "type": "sort",
+      "instructions": "Cut apart the strips. Sort each question into the category where it fits best, then star your five non-negotiables.",
+      "categories": ["How it works and its limits", "Data and privacy", "Accountability and recourse", "Evidence of learning"],
+      "items": [
+        { "text": "What kind of AI produces the output, and does the vendor say which parts are generated versus rule-based?", "answer": "How it works and its limits", "why": "Knowing it's a large language model tells you to expect fluent but sometimes wrong feedback." },
+        { "text": "What known limitations or failure cases does the vendor publish?", "answer": "How it works and its limits", "why": "A vendor that names limits is more trustworthy than one claiming none." },
+        { "text": "Has the tool been tested for how well it works for English learners, students with disabilities, and different dialects?", "answer": "How it works and its limits", "why": "\"Bias-free\" is not a testable claim; results by student group are." },
+        { "text": "Does the tool tell students when content is AI-generated?", "answer": "How it works and its limits", "why": "Users can't apply judgment to AI output they don't know is AI output." },
+        { "text": "Is student work used to train or improve AI models, and can the district opt out?", "answer": "Data and privacy", "why": "\"Improve our services\" can include model training." },
+        { "text": "Who are the \"trusted partners,\" and what do they receive?", "answer": "Data and privacy", "why": "Unnamed sharing is a transparency gap." },
+        { "text": "How long is student data kept, and is it deleted automatically when the contract ends?", "answer": "Data and privacy", "why": "\"Contact support\" is not a retention policy." },
+        { "text": "Does the tool meet the district's data privacy agreement requirements for student records?", "answer": "Data and privacy", "why": "District agreements set enforceable rules consumer terms don't." },
+        { "text": "Who is responsible when the feedback or predicted score is wrong: the teacher, the district, or the vendor?", "answer": "Accountability and recourse", "why": "Accountability must be named before something goes wrong." },
+        { "text": "Can a teacher review and override every score before it reaches the gradebook?", "answer": "Accountability and recourse", "why": "Automatic sync removes the human decision point." },
+        { "text": "How can a student or family question or appeal an AI-influenced decision?", "answer": "Accountability and recourse", "why": "Recourse is what makes transparency meaningful to the person affected." },
+        { "text": "How does the vendor notify schools of changes to the AI model or data practices?", "answer": "Accountability and recourse", "why": "Models get updated; a tool approved last year may behave differently now." },
+        { "text": "What independent evidence shows students' writing improves, not just that they used the tool?", "answer": "Evidence of learning", "why": "Usage minutes are not evidence of learning." },
+        { "text": "What evidence will our own teachers collect to decide whether it's helping?", "answer": "Evidence of learning", "why": "Local evidence matters more than marketing claims." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Glass Box Starter Checklist",
+      "type": "checklist",
+      "instructions": "Cross out, add, and rewrite items so every one can be answered from documentation or a vendor reply. Note where you found each answer.",
+      "scale": ["Yes", "Partly", "No / Not found"],
+      "items": [
+        "The vendor states plainly what the AI does and does not do.",
+        "The vendor publishes known limitations and failure cases.",
+        "Performance has been checked across student groups (language, disability, dialect), with results shared.",
+        "Students can tell when content is AI-generated.",
+        "Student data is not used to train AI models, or the district can opt out.",
+        "All third parties that receive student data are named.",
+        "Data retention and deletion timelines are stated.",
+        "The tool is covered by a district data privacy agreement.",
+        "A teacher reviews and can override AI outputs before they affect grades or placement.",
+        "Responsibility for errors is stated, and students or families have a way to question outputs.",
+        "The vendor notifies schools of model or data-practice changes.",
+        "There is evidence, beyond usage data, that the tool improves learning, and we have a plan to collect our own."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": "data-trail-audit",
+  "title": "Data Trail Audit",
+  "tagline": "Teams read an AI study app's privacy policy like investigators, map where their data could travel, and choose settings and habits that shrink their trail.",
+  "audience": "student",
+  "grades": ["9-12", "Higher Ed"],
+  "strands": ["digcit", "genai"],
+  "mode": "hybrid",
+  "minutes": 65,
+  "groupSize": "Teams of 3–4",
+  "eles": ["S2.1", "S2.3", "AI2.3", "AI2.2"],
+  "overview": "Every app and AI tool students use collects something: what they type, where they are, how long they look, who they talk to. Privacy policies explain much of it, but they are long and written for lawyers. In this audit, teams decode a realistic mock privacy policy for a fictional AI study app, trace how a single data point can travel from the app to partners and data brokers, and then audit a tool they actually use. They leave with a short, evidence-based plan for what to share, what to change in settings, and what to stop typing into chatbots.",
+  "objectives": [
+    "Students will identify what data an app or AI tool collects, why, who it is shared with, and what controls users have, citing specific policy language.",
+    "Students will explain in their own words what a data broker is and how data from one app can end up with companies the user never dealt with.",
+    "Students will create a personal data plan with specific settings changes and a rule for what they will not share with AI tools."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: StudyNest AI Privacy Policy, excerpt (1 per student)",
+      "Handout B: Data Trail Cards (1 set per team, cut apart)",
+      "Handout C: Policy Audit Organizer (1 per team)",
+      "Three colors of sticky dots or highlighters (green, yellow, red)"
+    ],
+    "digital": [
+      "One device per team with a browser to open the privacy policy of an app or AI tool the class already uses (school-approved tools first)",
+      "Optional: students' own phones, only for checking their own settings privately; never required"
+    ]
+  },
+  "prep": [
+    "Print Handouts A and C for each team and cut apart Handout B.",
+    "Choose two or three real tools your students use that your district or institution has approved (the LMS, a school-approved AI tool, a study app) and bookmark their privacy policies for the digital round.",
+    "Read the Data Trail Card backs so you can explain each hop without relying on outside statistics.",
+    "Remind students that they will never need to share their own data, screenshots, or settings with anyone in class."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "What did you tell the internet today?",
+      "body": "Ask students to list silently, on scrap paper they will keep, everything they've typed, searched, clicked, or asked an AI tool since waking up. Give 90 seconds. Then ask: **\"Which of those would you be uncomfortable seeing on a billboard? Which of those did an app keep?\"** Say: \"Most of us don't know the answer to the second question. Today we find out how to check.\"",
+      "note": "Keep the lists private. The point is noticing volume and sensitivity, not sharing."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Reading a policy like an investigator",
+      "body": "Project Handout A. Model the four investigator questions on the first section: **What do they collect? Why? Who else gets it? What can I control?** Highlight in **green** what seems fine and expected, **yellow** what you'd want to know more about, and **red** what worries you. Think aloud about vague words: \"*may* share,\" \"*trusted partners*,\" \"*improve our services*.\" Ask: \"What does 'improve our services' mean for a chat you had with an AI study tool?\"",
+      "note": "Point out that \"improve our services\" in an AI tool can include using conversations to train or evaluate models. Some policies allow users to opt out, some don't, and some don't say. Not saying is itself a finding."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 15,
+      "title": "Audit StudyNest",
+      "body": "Teams finish highlighting Handout A and complete the StudyNest row of Handout C, quoting the exact words that answer each investigator question. Then each team gives StudyNest a **trust rating (green, yellow, red)** and one sentence of reasoning. Circulate and push for quotes: \"Show me the words that tell you that.\"",
+      "note": "Section 5 (\"de-identified data\") and Section 7 (\"business transfers\") are the most commonly missed. Point teams to them if they finish early."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Follow the trail",
+      "body": "Teams lay out the Data Trail Cards in order to tell the story of one piece of data, from a student typing a question into StudyNest to an ad that follows them on another site. They read each card, arrange the hops, and then flip them to check the explanation on the back. Explain **data brokers** plainly: companies that collect information about people from many sources, combine it into profiles, and sell or license those profiles, often without the people ever knowing the broker exists.",
+      "note": "Avoid claims about how many brokers exist or how much data they hold. The mechanism, not a number, is what students need."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 15,
+      "title": "Audit a real tool",
+      "body": "Each team opens the privacy policy for a tool the class uses (from your bookmarked list) and completes the second row of Handout C with quoted language. Teams also look for any settings page for data use, chat history, or model training, and note what options exist. **Unplugged option:** print the first two pages of a real policy for a school-approved tool, or have teams audit the policy sections on Handout A they didn't finish.",
+      "note": "If a team finds a school-approved tool has a clause they rate red, treat it as useful feedback. Collect those findings to share with your technology department."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 12,
+      "title": "My data plan",
+      "body": "Each student writes a three-part plan on the back of Handout C: **one setting I will check or change** (on my own device, privately), **one thing I will never type into an AI tool** (for example, full name plus school, health details, passwords, a friend's personal information, or photos of other people), and **one question I'd ask a company** about its policy. Invite volunteers to share their \"never type\" rule, and build a class list on the board.",
+      "note": "Look for specific rules (\"I won't paste my college essay with my name and address into a chatbot\") rather than general ones (\"be careful online\")."
+    }
+  ],
+  "unplugged": "Run the StudyNest audit and the Data Trail Cards entirely on paper. For the \"real tool\" round, print the first pages of a school-approved tool's privacy policy in advance. Students write their data plans on paper and check their own settings at home.",
+  "digital": "Teams open real privacy policies in a browser and use search-in-page for words like \"share,\" \"partners,\" \"train,\" \"retain,\" and \"delete\" to jump to key clauses, then paste quotes into a shared version of Handout C. Students may check settings on their own devices privately; never ask them to show or screenshot personal settings. If an approved AI tool is available to students 13+, teams can ask it to summarize a policy and then check the summary against the actual text, which often reveals what summaries leave out.",
+  "whyTech": "Searching a real policy for key words and finding the actual settings page turns an abstract warning into a skill students can repeat on any app. The evidence is a quote they found and a setting they located, not a slogan about being careful.",
+  "adaptations": [
+    { "label": "Higher Ed", "text": "Audit the privacy policy of a campus-licensed AI tool and the institution's own guidance on student data, and discuss where student education records fit into the picture." },
+    { "label": "Grade 9", "text": "Use Sections 1, 2, 4, and 6 of Handout A only and give teams a glossary for \"third party,\" \"retain,\" \"de-identified,\" and \"opt out.\"" },
+    { "label": "Emergent bilinguals", "text": "Pair teams with bilingual glossaries and let them check whether a real tool's policy is available in their home language, a useful access finding in itself." },
+    { "label": "Families", "text": "Send the investigator questions home and invite students to audit one app with a parent or guardian." }
+  ],
+  "lookFors": [
+    "Handout C cites exact policy wording for each investigator question rather than paraphrasing loosely.",
+    "Teams notice vague or missing information (\"doesn't say whether chats train the model\") and count it as a finding.",
+    "Students explain a data broker's role in their own words using the trail cards.",
+    "Data plans name a specific setting, a specific \"never type\" rule, and a specific question for a company."
+  ],
+  "reflection": [
+    "How do I protect my personal information when I use apps and AI tools? (S2.1)",
+    "What are the risks of sharing content or data online that I hadn't considered before? (S2.3)",
+    "Why should AI companies be transparent about what they do with what I type? (AI2.3)"
+  ],
+  "transfer": "Before using any new app or AI tool this semester, students run the four investigator questions and jot the answers in their notes. At home, students can use the same questions with family on one app everyone uses.",
+  "connections": [
+    { "title": "Family App Privacy Audit", "url": "https://mglearn.github.io/tcea/privacy-audit/", "note": "A take-home companion for auditing apps with family." },
+    { "title": "PROTECT Rubric v2.0", "url": "https://mglearn.github.io/tcea/protect_rubric_v2/", "note": "A rubric for evaluating tools' privacy and security practices, useful for extending the real-tool audit." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "StudyNest AI Privacy Policy (Excerpt)",
+      "type": "reading",
+      "instructions": "StudyNest is a fictional AI study app. Highlight green (fine), yellow (want to know more), red (worried). Circle vague words.",
+      "paragraphs": [
+        "**1. Information you give us.** When you create an account, we collect your name, email address, date of birth, and school name. When you use StudyNest's AI tutor, we collect the questions you type, files you upload (such as notes, essays, or photos of homework), and the tutor's responses.",
+        "**2. Information we collect automatically.** We collect your device type, IP address, approximate location, the pages and features you use, how long you use them, and the times you are active. We use cookies and similar technologies to remember you across sessions and across other websites that use our advertising partners.",
+        "**3. How we use your information.** We use your information to provide and personalize the service, to improve our services, including developing and training our AI models, to send you updates and offers, and to keep StudyNest safe.",
+        "**4. Your conversations.** Conversations with the AI tutor are stored for as long as your account is active. Authorized staff and contractors may review a sample of conversations to improve quality and safety. You can delete individual conversations in Settings; deleted conversations may remain in backups for a period of time.",
+        "**5. Sharing.** We may share information with trusted partners who provide services on our behalf, such as hosting and analytics. We may share de-identified or aggregated information with partners for research, marketing, and other business purposes. We do not sell your name or email address.",
+        "**6. Your choices.** You may opt out of marketing emails at any time. You may request deletion of your account by contacting support. Users in some locations may have additional rights under local law.",
+        "**7. Business transfers.** If StudyNest is involved in a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction.",
+        "**8. Age.** StudyNest is intended for users 13 and older. Users under 18 should have permission from a parent or guardian.",
+        "**9. Changes.** We may update this policy from time to time. Continued use of StudyNest after changes means you accept the updated policy."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Data Trail Cards",
+      "type": "cards",
+      "instructions": "Arrange the cards to tell how one question typed into StudyNest could lead to an ad on a different website. Then flip to check. Print backs separately.",
+      "cards": [
+        { "label": "Hop 1", "front": "At 11:40 p.m., Riley types into StudyNest: \"How do I study for the SAT when I have anxiety and can't sleep?\"", "back": "The question itself holds sensitive clues: a test, a health concern, and a late-night habit. Section 1 says StudyNest collects what you type." },
+        { "label": "Hop 2", "front": "StudyNest stores the conversation along with Riley's device, approximate location, and the time.", "back": "Sections 2 and 4. The time and location data are collected automatically; Riley never typed them." },
+        { "label": "Hop 3", "front": "StudyNest's systems tag Riley's account with interests: \"test prep,\" \"sleep,\" \"stress.\"", "back": "Apps commonly label users with interest categories to personalize content and ads. Section 3's \"personalize\" covers this." },
+        { "label": "Hop 4", "front": "A cookie from one of StudyNest's advertising partners records that this browser visited a test-prep study page.", "back": "Section 2 mentions cookies used \"across other websites that use our advertising partners.\" This is how activity in one place follows you to another." },
+        { "label": "Hop 5", "front": "StudyNest shares \"de-identified\" interest data with a marketing partner. Riley's name is removed, but the device ID and approximate location remain.", "back": "Section 5. Removing a name doesn't always make data anonymous. Combined with other details, a device and location can point back to one person." },
+        { "label": "Hop 6", "front": "A data broker, a company Riley has never heard of, buys data from many apps and websites and combines them into a profile for this device: age range, location, interests.", "back": "Data brokers collect information about people from many sources, combine it into profiles, and sell or license those profiles. People often don't know a broker holds information about them." },
+        { "label": "Hop 7", "front": "A company selling sleep supplements buys an audience from the broker: \"teens near this area interested in stress and test prep.\"", "back": "Profiles are sold as audiences for targeted advertising. Riley's late-night question has become part of a marketing category." },
+        { "label": "Hop 8", "front": "The next day, on a gaming website, Riley sees an ad for sleep supplements \"for stressed students.\"", "back": "The trail is complete. Riley never gave permission directly to the broker or the advertiser. Ask: which hop could Riley have interrupted, and how?" }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Policy Audit Organizer",
+      "type": "table",
+      "instructions": "Quote exact words from each policy. Write \"doesn't say\" when the policy is silent; that counts as a finding. Write your data plan on the back.",
+      "columns": ["Tool", "What do they collect? (quote)", "Why, and who else gets it? (quote)", "What can I control? (quote or setting)", "Trust rating + reason"],
+      "rows": [
+        ["StudyNest AI (Handout A)", "", "", "", ""],
+        ["Real tool:", "", "", "", ""]
+      ],
+      "blankRows": 1
+    }
+  ]
+}

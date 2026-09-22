@@ -1,0 +1,267 @@
+{
+  "id": "community-problem-pitch",
+  "title": "Community Problem Pitch",
+  "tagline": "Teams use the engineering design process to solve a real school or community problem, invite AI to critique their ideas, reject what doesn't hold up, and pitch a solution with a record of what changed.",
+  "audience": "student",
+  "grades": [
+    "6-8",
+    "9-12"
+  ],
+  "strands": [
+    "genai",
+    "medialit"
+  ],
+  "mode": "hybrid",
+  "minutes": 110,
+  "groupSize": "Teams of 3–4 with rotating roles; runs over 2–3 class periods",
+  "eles": [
+    "S5.1",
+    "S5.2",
+    "S3.1",
+    "S3.2",
+    "AI5.3"
+  ],
+  "overview": "Students pick a real problem they can observe at school or in their community, gather evidence, and generate their own ideas before any AI is involved. Then AI joins as a brainstorm critic: the teacher projects a district-approved chatbot (or uses a printed mock critique) that suggests ideas and pokes holes in the team's plan. Some of its suggestions are useful, some are unrealistic, and some include claims no one can verify. Teams must decide what to keep, verify, or reject, build a simple prototype, and pitch it. The grade rests on their reasoning and their record of what changed, not on the AI's ideas.",
+  "objectives": [
+    "Students will define a real problem, break it into smaller parts, and gather evidence from observation or interviews before generating solutions.",
+    "Students will evaluate AI-generated suggestions and critiques by keeping, verifying, or rejecting each one with a stated reason.",
+    "Students will work as a team to build a simple prototype and pitch a solution that explains what changed from their first idea and why."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Sample AI Critic Response (1 per team, for the model and the unplugged path)",
+      "Handout B: Design Log (1 per team; it travels with the team across all days)",
+      "Handout C: Pitch Rubric (1 per student, shared at the start)",
+      "Chart paper, markers, sticky notes, and prototype supplies (cardboard, tape, paper, scissors)"
+    ],
+    "digital": [
+      "Teacher device and projector with a generative AI chatbot your district approves (teacher-driven for students under 13)",
+      "Optional: a shared slide deck or document per team for the pitch",
+      "Optional: a simple survey form for teams to collect evidence from classmates (no names collected)"
+    ]
+  },
+  "prep": [
+    "Choose the problem scope: school-only (safer and easier to observe) or the wider community. Brainstorm a few starter problems in case teams get stuck, such as lunch food waste, crowded hallways between classes, or a playground area no one uses.",
+    "Get permission for any observation or interviews (for example, standing in the cafeteria for five minutes or asking the custodian two questions).",
+    "Test the critic prompt in your district-approved chatbot: \"You are a friendly but tough critic for a middle school design team. Here is our problem and our idea. Give us three suggestions and three weaknesses in our plan. Don't make up facts or numbers; say when something needs checking.\" Even with that instruction, check outputs for invented claims.",
+    "Print Handouts A, B, and C. Decide how many days you'll use (two 55-minute periods or three shorter ones)."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 10,
+      "title": "Problem hunt (Day 1)",
+      "body": "Ask: **\"What is one thing at our school that bugs you, wastes something, or leaves someone out?\"** Students write one per sticky note and post them. The class clusters similar notes, and teams of 3–4 choose one cluster. Share the rubric (Handout C) right away and say: \"You won't be graded on whether AI gives you a good idea. You'll be graded on how well *you* decide.\"",
+      "note": "Steer teams toward problems they can actually observe and test this week. \"World hunger\" becomes \"food thrown away at our lunch.\""
+    },
+    {
+      "phase": "Explore",
+      "minutes": 20,
+      "title": "Define it and gather evidence",
+      "body": "Teams fill in the first sections of Handout B. They write the problem as a question (\"How might we reduce the food thrown away at Ridgeview's lunch?\"), name who it affects, and **break it into smaller parts** (for example: what gets thrown away, when, why, who decides portions). Then they gather quick evidence: five minutes of observation, two short interviews with staff or students, or a tally. Roles: **Lead Designer, Evidence Keeper, AI Skeptic, Pitch Captain.**",
+      "note": "Breaking a big problem into parts is computational thinking (decomposition). Name it when you see it."
+    },
+    {
+      "phase": "Create",
+      "minutes": 15,
+      "title": "Our ideas first",
+      "body": "Before any AI, teams brainstorm as many ideas as they can in five minutes (quantity first, no judging), then pick their top idea using their evidence. They record the top idea and **why** in Handout B. Say: \"We think first so the AI critiques *our* thinking instead of replacing it.\"",
+      "note": "Protect this step. Teams who start with AI tend to adopt its first idea and stop thinking."
+    },
+    {
+      "phase": "Model",
+      "minutes": 10,
+      "title": "Meet the critic (Day 2)",
+      "body": "Project your district-approved chatbot, or read Handout A aloud. Show how you use the critic prompt with one team's problem and idea, **leaving out any names or personal details.** Then model the three decisions on one suggestion. **Keep:** it fits our evidence and we can do it. **Verify:** it might be true but we need to check it (ask the cafeteria manager, look up the district rule). **Reject:** it's unrealistic, unfair, invents facts, or creates a new problem. Point out the \"studies show 90%\" line in Handout A: \"No source, a very precise number. What do we do with that?\"",
+      "note": "Model rejecting an AI idea respectfully and confidently. Students need permission to disagree with a fluent tool."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 20,
+      "title": "Keep, verify, or reject",
+      "body": "Each team gets a critique of its own idea: the teacher runs the critic prompt on the projector for each team in turn (about two minutes each) and prints or copies the output, or teams use Handout A if their problem is food waste. The **AI Skeptic** leads the team through every suggestion and weakness, marking Keep, Verify, or Reject in Handout B with a reason. Teams verify at least one claim by asking a real person or checking a trusted source, then revise their idea.",
+      "note": "Key for Handout A: Share table: Verify. It's a promising idea, but \"allowed in every school\" is an overconfident claim; rules vary, so ask the cafeteria manager about local and district health rules. Portion sizes: Keep, then verify with the cafeteria staff. Composting \"90%\": Reject the statistic (no source, suspiciously exact) and verify the idea; composting may reduce what goes to the landfill but not how much food is wasted. Ban packed lunches: Reject; it's unfair to families and doesn't address why food is wasted. AI cameras: Reject; it's expensive, raises privacy concerns, and could shame students. Weaknesses 1–3: Keep; all three are fair and useful critiques. Weakness 2 should send the team back to gather more evidence. Look for at least one rejected suggestion with a clear reason, and one changed idea that credits the critique it came from."
+    },
+    {
+      "phase": "Create",
+      "minutes": 15,
+      "title": "Prototype it",
+      "body": "Teams build a quick prototype: a sketch, a cardboard model, a poster mock-up, a sign, or a step-by-step plan. If time allows, they test it with one other team and note one piece of feedback. They complete the \"What changed\" section of Handout B: **our first idea, what the AI critique and our testing showed, and our final idea.**",
+      "note": "Prototypes should be rough. The point is to test thinking, not to make something beautiful."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 15,
+      "title": "The pitch (Day 2 or 3)",
+      "body": "Each team gives a two-minute pitch: **the problem and our evidence, our solution and prototype, one AI idea we kept and one we rejected (and why), and what changed.** Classmates give feedback using two sticky notes: \"One strength\" and \"One question.\" If possible, invite a staff member connected to a problem (such as the cafeteria manager) to listen.",
+      "note": "Hold teams to the \"what changed\" part. It's the strongest evidence that they, not the AI, owned the thinking."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "Who did the thinking?",
+      "body": "Students individually self-score on Handout C and answer on the back: **\"What did the AI help us see that we missed? What did we know that the AI didn't?\"** Collect Handout B and C.",
+      "note": "Students usually realize their local evidence (what they saw and heard at school) was something no AI had."
+    }
+  ],
+  "unplugged": "Run the whole project with Handout A as the AI critic. It's a printed mock critique of a food-waste idea with useful suggestions, weak ideas, and an unverifiable statistic. For other problems, you (or a classmate acting as the \"critic\") can read the critic prompt's three questions aloud: What else could you try? What's weak about your plan? What needs checking? Evidence comes from observation and interviews, and prototypes are cardboard and paper.",
+  "digital": "The teacher runs the critic prompt for each team in a district-approved chatbot on the projector and pastes each output into the team's shared document. Students under 13 never use personal AI accounts. Students 13 and older with district-approved access may run the critic prompt themselves, but they must still complete Keep/Verify/Reject for every suggestion. Teams may build pitch slides and collect anonymous survey evidence with a school form tool.",
+  "whyTech": "A live critic responds to each team's actual idea, so students practice evaluating AI on their own work rather than a canned example, and the Keep/Verify/Reject log becomes visible evidence of human judgment. The printed mock critique teaches the same decisions when devices aren't available.",
+  "adaptations": [
+    {
+      "label": "Grades 3–5",
+      "text": "Use one class-wide problem, have the teacher run the critic, and reduce the decisions to thumbs up (keep) or thumbs down (reject) with a spoken reason."
+    },
+    {
+      "label": "Grades 9–12",
+      "text": "Expand to a community problem, require at least two verified sources or interviews, and include a cost or feasibility estimate. Teams present to a panel of adults."
+    },
+    {
+      "label": "Students who need structure",
+      "text": "Provide sentence frames for Handout B (\"We rejected this because…\", \"We changed our idea when…\") and let teams choose a sketch or model instead of a spoken pitch."
+    }
+  ],
+  "lookFors": [
+    "Handout B shows the team's own ideas recorded before the AI critique.",
+    "Every AI suggestion is marked Keep, Verify, or Reject with a reason, and at least one claim was checked with a person or trusted source.",
+    "The pitch names what changed from the first idea to the final one and credits the evidence or critique that caused the change.",
+    "Team roles rotate or are used, and each member can explain part of the solution."
+  ],
+  "reflection": [
+    "Do I use what I learn to fix problems in real life? What problem at school could I keep working on?",
+    "How well did our team work together? What did each person bring that the AI couldn't?",
+    "When should I trust an AI suggestion, and how do I check it?"
+  ],
+  "transfer": "Share the strongest pitches with your principal or the relevant staff member, and let one team try its solution for a week and report back with evidence. Students can use Handout B's steps at home to tackle a family problem, such as a messy shared space or a morning routine.",
+  "connections": [
+    {
+      "title": "Augmented K–16 AI Learning Framework",
+      "url": "https://mglearn.github.io/tcea/alf/",
+      "note": "Teacher reference for keeping student thinking at the center when AI joins a project."
+    },
+    {
+      "title": "AI Custom Instructions Library",
+      "url": "https://mglearn.github.io/tcea/custom-instructions-library/",
+      "note": "Ideas for setting up the critic prompt so the AI questions rather than answers."
+    },
+    {
+      "title": "High-Effect Strategy Coach",
+      "url": "https://mglearn.github.io/tcea/coach-tool/",
+      "note": "Teacher support for planning feedback and reflection during the design cycle."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Sample AI Critic Response",
+      "type": "reading",
+      "instructions": "This mock AI response was written for this lesson. Ridgeview Middle School is fictional. For each suggestion or weakness, decide: Keep, Verify, or Reject, and say why.",
+      "paragraphs": [
+        "**The team's prompt:** \"You are a friendly but tough critic for a middle school design team. Our problem: a lot of food gets thrown away at lunch at our school. We counted 23 full or half-full trays thrown away in five minutes. Our idea: make posters asking students not to waste food. Give us three suggestions and three weaknesses in our plan.\"",
+        "**AI response, part 1 (Suggestions):** Great problem to tackle! Here are three ideas. **1. Start a share table.** Students could place unopened items, like packaged snacks or whole fruit, on a table for others to take. Share tables are allowed in every school, so you can start right away. **2. Let students choose portion sizes.** Some students may throw food away because they get more than they want. A \"small or regular\" choice at the serving line could help. **3. Start a composting program.** Studies show that composting reduces cafeteria waste by 90%, so this is the most effective solution.",
+        "**AI response, part 2 (Bonus ideas):** You could also **ban packed lunches** so every student eats the same food and the cafeteria can plan exact amounts. Or you could **install AI cameras** above the trash cans that scan every tray and send students a weekly report of how much they wasted.",
+        "**AI response, part 3 (Weaknesses in your plan):** **1.** Posters alone may not change what people do, because students might ignore them after the first few days. **2.** You counted trays, but you don't know *why* the food was thrown away. Was it taste, time, or portion size? Interviewing students could help you find out. **3.** You haven't planned how you'll know whether your solution worked. Consider counting the trays again after you try something and comparing the results."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Design Log",
+      "type": "worksheet",
+      "instructions": "Keep this log across all days. It's your evidence of how your team thought, decided, and changed.",
+      "sections": [
+        {
+          "prompt": "DEFINE · Our problem as a question (\"How might we…?\"), who it affects, and the smaller parts we broke it into:",
+          "lines": 4
+        },
+        {
+          "prompt": "EVIDENCE · What we observed, counted, or heard in interviews (no names):",
+          "lines": 4
+        },
+        {
+          "prompt": "OUR IDEAS FIRST (before AI) · Our list, our top idea, and why we chose it:",
+          "lines": 4
+        },
+        {
+          "prompt": "AI CRITIC · For each suggestion or weakness write K (Keep), V (Verify), or R (Reject) and a reason:",
+          "lines": 6
+        },
+        {
+          "prompt": "VERIFY · One claim we checked, who or what we checked with, and what we found:",
+          "lines": 3
+        },
+        {
+          "prompt": "PROTOTYPE · Sketch or describe what we built:",
+          "lines": 6,
+          "boxes": true
+        },
+        {
+          "prompt": "WHAT CHANGED · Our first idea → what the critique and testing showed → our final idea:",
+          "lines": 4
+        },
+        {
+          "prompt": "PITCH PLAN · Our two-minute outline (problem + evidence, solution, one AI idea kept and one rejected, what changed):",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Pitch Rubric",
+      "type": "rubric",
+      "instructions": "Read this before you start. Self-score in the Reflect step; your teacher scores the pitch and Design Log.",
+      "levels": [
+        "Beginning",
+        "Developing",
+        "Proficient",
+        "Exemplary"
+      ],
+      "criteria": [
+        {
+          "name": "Defining the problem with evidence",
+          "descriptors": [
+            "Problem is vague or too big; no evidence gathered.",
+            "Problem is named, with a little evidence or parts listed.",
+            "Problem is a clear question, broken into parts, with observed or interview evidence.",
+            "Problem is sharply defined, broken into parts, and supported by several kinds of evidence that shaped the solution."
+          ]
+        },
+        {
+          "name": "Creative, logical solution",
+          "descriptors": [
+            "Solution doesn't connect to the problem.",
+            "Solution connects to the problem but isn't realistic or tested.",
+            "Solution is realistic, logical, and shown with a prototype.",
+            "Solution is original, realistic, tested with feedback, and improved from the first version."
+          ]
+        },
+        {
+          "name": "Using AI as a critic, not a crutch",
+          "descriptors": [
+            "AI ideas were accepted without question, or the team's own ideas are missing.",
+            "Some AI suggestions were judged, with few reasons.",
+            "Every AI suggestion is marked Keep, Verify, or Reject with a reason; one claim was checked.",
+            "Decisions are well reasoned; the team rejected weak or unverifiable claims, verified with a real source, and explained what the AI couldn't know."
+          ]
+        },
+        {
+          "name": "Teamwork",
+          "descriptors": [
+            "One or two members did most of the work.",
+            "Roles were assigned but not consistently used.",
+            "Roles were used and every member contributed to the log and pitch.",
+            "Roles were used well; members built on each other's ideas and can each explain the whole solution."
+          ]
+        },
+        {
+          "name": "Pitch and communication",
+          "descriptors": [
+            "Pitch is unclear or missing key parts.",
+            "Pitch covers some parts; \"what changed\" is unclear.",
+            "Pitch clearly covers the problem, evidence, solution, AI decisions, and what changed.",
+            "Pitch is clear, persuasive, and within time, and answers audience questions with evidence."
+          ]
+        }
+      ]
+    }
+  ]
+}

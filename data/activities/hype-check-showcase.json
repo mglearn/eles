@@ -1,0 +1,147 @@
+{
+  "id": "hype-check-showcase",
+  "title": "Hype Check Showcase",
+  "tagline": "A tech showcase remix: teachers rotate through emerging-tech stations, including AI and synthetic media, and have to separate the vendor's claim from the learning evidence before they give a verdict.",
+  "audience": "pl",
+  "roles": ["coaches", "teachers", "librarians"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["medialit", "genai"],
+  "mode": "digital",
+  "minutes": 75,
+  "groupSize": "Groups of 3–5 rotating through 5–7 stations; 15–60 people",
+  "eles": ["C2.3", "C2.1", "T1.3", "AI1.3"],
+  "overview": "Traditional tech showcases are tool petting zoos: people leave excited about a gadget and unsure what students would do with it. This remix keeps the energy and adds a hype check at every station. Groups read a claim, try the technology (or examine a printed stand-in), and must record what learning evidence it could produce, what could go wrong, and who might be left out. Two stations involve synthetic media, so teachers practice the detection-and-context moves their students need.",
+  "objectives": [
+    "Participants will distinguish a technology's marketing claim from the evidence that it improves learning.",
+    "Participants will identify limitations, bias, or misuse risks in at least two AI or synthetic media tools.",
+    "Participants will give each station a Pilot, Watch, or Pass verdict and justify it with a specific classroom use and a piece of student evidence."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Station Cards (print one card per station, large, and tape it to the table)",
+      "Handout B: Hype Check Log (1 per person)",
+      "Handout C: Showcase Remix Planner (1 per coach or team)",
+      "Chart paper titled \"Room verdicts\" with columns Pilot, Watch, Pass; dot stickers in three colors"
+    ],
+    "digital": [
+      "One device per station running the technology (district-approved tools or accounts only)",
+      "A short synthetic voice clip made from the facilitator's own voice, with the facilitator's consent, for Station 1",
+      "A projector for the opening demo"
+    ]
+  },
+  "prep": [
+    "Choose 5–7 stations from Handout A that match what your district can legally and safely demo. Swap in real tools you already have approved; keep the claim and questions on each card.",
+    "Set up each device logged in with a facilitator or demo account. No participant should need a personal account on a consumer AI tool.",
+    "For Station 1, make a 15-second synthetic clip of your own voice saying a harmless line and record the same line yourself. Never clone anyone else's voice.",
+    "For any station without a working device, print the card's back text as the stand-in artifact so the station still runs."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 6,
+      "title": "Which one is really me?",
+      "body": "Play the two clips of you saying the same sentence: one recorded, one synthetic. Everyone votes. Reveal. Ask: **\"If a student got a voicemail in the principal's voice asking them to share a password, what would you want them to do?\"** Say: \"Today every exciting tool comes with a hype check. The question isn't 'Is it cool?' It's 'What evidence would show it helps students learn, and what could go wrong?'\"",
+      "note": "Many rooms guess wrong or split. The honest takeaway is that listening harder is not a reliable detection strategy. Checking the context and the source is."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "One hype check, out loud",
+      "body": "Model the four questions on the Handout B header using Station 3 (the AI writing detector): **Claim:** \"Detects AI writing with near-perfect accuracy.\" Who says so? The vendor. **Learning:** What would students do differently? Nothing: it is a policing tool. **Evidence:** What would show it works? Independent testing on your own students' writing, including multilingual writers. **Risk:** A false accusation lands on a real student. Verdict: Pass, or Watch at most, and never as the only evidence.",
+      "note": "Detectors make a strong model because the gap between claim and classroom reality is easy to see. Don't claim a specific accuracy figure; the point is that a vendor's own figure is a claim to verify."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 35,
+      "title": "Station rotation",
+      "body": "Groups rotate every seven minutes through five stations. At each: read the claim, do the \"Try it\" task on the card, then complete one row of Handout B. Before leaving, each group places a dot on the station's card for Pilot, Watch, or Pass. Groups may not give a Pilot verdict unless they can name one student task and one piece of evidence the task would produce.",
+      "note": "Circulate with one question: \"What would a student turn in that shows the learning?\" If a group can't answer, the verdict should be Watch."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 10,
+      "title": "Room verdicts",
+      "body": "Tally the dots onto the \"Room verdicts\" chart. Ask the group with the most confident Pilot to make its case in 60 seconds, and the group with the strongest Pass to respond. Then ask: **\"At the two synthetic media stations, what did we learn about teaching students to question what they see and hear?\"**",
+      "note": "Look for the shift from \"Can we spot fakes?\" to \"How do we check the source and context?\" That's the media literacy move that lasts as the technology gets better."
+    },
+    {
+      "phase": "Create",
+      "minutes": 13,
+      "title": "Remix your own showcase",
+      "body": "Coaches, alone or with campus partners, use Handout C to plan their own campus showcase with a hype check built in. They pick three stations their teachers are asking about, write the claim and the \"Try it\" task for each, and decide what they'll collect afterward to see whether any teacher actually changed practice.",
+      "note": "Encourage one station that is unplugged or low-tech. It signals that the showcase is about learning, not screens."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 4,
+      "title": "One follow-up",
+      "body": "Each person names one station they'd explore further with a single class and writes the student evidence they'd bring back to a coach or PLC in two weeks.",
+      "note": "Collect Handout C from coaches if you want to support their showcases."
+    }
+  ],
+  "unplugged": "Each station card's back doubles as a printed stand-in: a transcript of the synthetic voicemail, a written description of what the image generator produced, a sample of the AI tutor's dialogue, the dashboard's printed risk list. Groups run the same hype check on those artifacts. It works surprisingly well, because the four questions are about claims and evidence, not the experience of the device.",
+  "digital": "Run each station on a device using district-approved tools with facilitator accounts. Groups log their rows in a shared form so the room's verdicts update live on the projector. For a virtual showcase, each breakout room hosts one station with a screen-shared demo and groups rotate rooms.",
+  "whyTech": "Trying the tools is what shows teachers how convincing a synthetic voice is or how quickly an image generator reproduces stereotypes; paper descriptions can't match that. The hype check keeps the hands-on time focused on evidence rather than novelty.",
+  "adaptations": [
+    { "label": "Elementary campuses", "text": "Keep Stations 1, 2, and 5. Frame the questions for young students' safety: \"How would a 2nd grader know this isn't a real person?\"" },
+    { "label": "Higher Ed", "text": "Replace the smart glasses station with an AI research assistant that summarizes papers. Trace its citations to see whether they exist and say what it claims." },
+    { "label": "Short version (30 minutes)", "text": "Run three stations at five minutes each with no Create step. Coaches take Handout C home." }
+  ],
+  "lookFors": [
+    "Every Pilot verdict on Handout B names a student task and the evidence it would produce.",
+    "At the synthetic media stations, groups describe checking source and context rather than relying on spotting flaws.",
+    "Groups name at least one limitation or bias in an AI tool (for example, stereotyped images or confident wrong answers).",
+    "Remix plans on Handout C include a follow-up step to see whether any teacher changed practice."
+  ],
+  "reflection": [
+    "In what ways am I helping teachers meaningfully integrate technology into their teaching? (Coach ELE guiding question)",
+    "How do I stay current on emerging technology without passing the hype along to teachers?",
+    "What would convince me, six weeks after a showcase, that it changed anything in classrooms?"
+  ],
+  "transfer": "Teachers try one Pilot-verdict tool with one class and bring the student evidence to a PLC. Coaches run a campus showcase from Handout C and follow up two weeks later with one question: \"What did students produce?\"",
+  "connections": [
+    { "title": "Critical Thinking Breakouts: Signal Check, The Viral Claim", "url": "https://mglearn.github.io/activities/ctobs/clear/", "note": "A student follow-up on checking viral and manipulated media (grades 6–8)." },
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "Student activities on how AI tools work and where they go wrong." },
+    { "title": "Augmented K–16 AI Learning Framework", "url": "https://mglearn.github.io/tcea/alf/", "note": "A framework for deciding where AI belongs in a learning task." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Station Cards",
+      "type": "cards",
+      "instructions": "Print large and tape one card to each station. The back is the facilitator note and the unplugged stand-in artifact. All products and claims are fictional.",
+      "cards": [
+        { "label": "Station 1 · Synthetic voice", "front": "Claim: \"Clone your voice in 60 seconds and let it read every text aloud to your students, in any language!\" Try it: listen to both clips of the facilitator's voice. Which is synthetic? Then read the voicemail scenario and decide what a student should do.", "back": "Stand-in: \"Hi, it's Principal Reyes. I need you to text me your student login right now so I can fix your grade.\" Hype check: accessibility and multilingual read-alouds are real benefits; the same tech powers impersonation scams. Teach: verify through a second channel, never by voice alone. Consent: only clone your own voice." },
+        { "label": "Station 2 · AI image generator", "front": "Claim: \"Instant, custom illustrations for every lesson. No more clip art!\" Try it: generate images for \"a scientist,\" \"a nurse,\" and \"a family eating dinner.\" Look at who appears and who doesn't.", "back": "Stand-in: a printed description of what a typical generator produced for each prompt. Hype check: images reflect patterns in training data and can repeat stereotypes. A student task with evidence: students critique a generated image for whose story is missing, then revise the prompt and explain what changed." },
+        { "label": "Station 3 · AI writing detector", "front": "Claim: \"Detects AI-written student work with near-perfect accuracy. Protect academic integrity!\" Try it: write three sentences of your own about your weekend, have the station's approved chatbot write three more, run both through the detector, and compare with the stand-in results.", "back": "Stand-in (fictional results): the detector flags a student-written paragraph by a multilingual writer as \"likely AI\" and passes the AI paragraph after light editing. Hype check: a vendor's accuracy claim is not independent evidence, and a false accusation harms a real student. Better evidence of authorship: drafts, process notes, and a conversation." },
+        { "label": "Station 4 · AI math tutor", "front": "Claim: \"A patient tutor for every student, 24/7. Never gives away the answer.\" Try it: pose the tutor a two-step word problem, answer wrong on purpose, and see what it does.", "back": "Stand-in dialogue: the tutor asks a good guiding question, then after two wrong answers gives the full solution with a small arithmetic error. Hype check: the guiding questions help; the confident error shows students must still check. Evidence: students explain the error they caught." },
+        { "label": "Station 5 · Talking historical figure", "front": "Claim: \"Students interview history's greatest minds with our lifelike AI avatars!\" Try it: ask the avatar of a 19th-century inventor what he thought about something he never wrote about.", "back": "Stand-in: the avatar answers confidently, in first person, with an opinion no historical source records. Hype check: engaging, but it blurs primary sources and invention. Student task with evidence: students fact-check three avatar claims against primary sources and label each as documented, plausible, or invented." },
+        { "label": "Station 6 · Early warning dashboard", "front": "Claim: \"Our AI predicts which students are at risk of failing before teachers can see it.\" Try it: look at the demo dashboard's risk list and the factors it shows.", "back": "Stand-in: a list of fictional students labeled high risk, with factors including attendance, zip code, and free-lunch status. Hype check: whose data trained it, and could it label students by circumstance rather than learning? Who sees the label, and does it change how adults treat a child? Watch or Pass until those questions have answers." },
+        { "label": "Station 7 · Smart glasses field trip", "front": "Claim: \"Take your class anywhere in the world with immersive augmented reality!\" Try it: take a two-minute AR tour, then list what a student could observe, measure, or question during it.", "back": "Stand-in: a description of a coral reef AR tour with labels and narration. Hype check: can be powerful for observation and access; cost, motion sickness, and headset fit for younger or disabled students matter. Evidence: student observations and questions, compared with a video or photo-based version." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Hype Check Log",
+      "type": "table",
+      "instructions": "At each station, ask: What's the claim and who's making it? What would students do? What evidence would show it helped learning? What could go wrong, and who might be left out?",
+      "columns": ["Station and its claim", "What we tried or saw", "Student task and the evidence it would produce", "Risks, bias, or who might be left out", "Verdict: Pilot · Watch · Pass"],
+      "rows": [],
+      "blankRows": 7
+    },
+    {
+      "id": "C",
+      "title": "Showcase Remix Planner",
+      "type": "worksheet",
+      "instructions": "Plan a campus showcase where every station carries a hype check.",
+      "sections": [
+        { "prompt": "Who is the audience, and what are they already asking about or already using?", "lines": 2 },
+        { "prompt": "Station 1: the tool, its claim, and the \"Try it\" task:", "lines": 3 },
+        { "prompt": "Station 2: the tool, its claim, and the \"Try it\" task:", "lines": 3 },
+        { "prompt": "Station 3 (unplugged or low-tech): the practice, and the \"Try it\" task:", "lines": 3 },
+        { "prompt": "What must be true before a tool can appear at a station (approval, privacy, accounts, consent)?", "lines": 2 },
+        { "prompt": "Two weeks later, how will you find out whether any teacher changed practice or any student evidence changed?", "lines": 3 }
+      ]
+    }
+  ]
+}

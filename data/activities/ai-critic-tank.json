@@ -1,0 +1,164 @@
+{
+  "id": "ai-critic-tank",
+  "title": "The AI Critic Tank",
+  "tagline": "Teams design a solution to a local community problem by hand, invite an AI chatbot to tear it apart (as critic, never author), decide which critiques to accept, disclose the AI's role, and pitch to a panel.",
+  "audience": "pl",
+  "roles": ["teachers", "librarians"],
+  "grades": ["6-8", "9-12", "Higher Ed"],
+  "strands": ["genai", "digcit"],
+  "mode": "digital",
+  "minutes": 90,
+  "groupSize": "Teams of 3–4; 4–10 teams, plus a panel of 3 (rotating teams or invited guests)",
+  "eles": ["T5.3", "T5.1", "AI2.1", "AI5.1", "AI2.3"],
+  "overview": "When students use AI on a project, it too often writes the idea and the student decorates it. This session flips the roles. Teams of teachers, working as students, choose a problem in the fictional town of Cedar Bend, understand it, and design a solution entirely on their own. Only then do they ask an approved chatbot to act as a skeptical critic. They log every critique, accept, reject, or modify each one with a reason, revise, write an honest disclosure of how AI was used, and pitch to a \"Tank\" panel. The debrief turns the structure into a problem-solving project teachers can run with students.",
+  "objectives": [
+    "Participants will work through a problem-solving process (understand the problem, identify causes and stakeholders, design, test, revise) before using any AI tool.",
+    "Participants will use AI as a critic rather than an author, and justify accepting, rejecting, or modifying each AI critique.",
+    "Participants will write a clear AI-use disclosure statement and explain why transparency matters for academic integrity.",
+    "Participants will plan a student project that uses the same human-first, AI-as-critic structure and names the evidence of student problem solving."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Cedar Bend Problem Cards (1 set, one card per team; backs printed as a facilitator key)",
+      "Handout B: AI Critique Log (1 per team)",
+      "Handout C: Tank Panel Rubric (1 per panelist, 1 per team)",
+      "Chart paper and markers for solution sketches; a timer"
+    ],
+    "digital": [
+      "One device per team with access to a generative AI chatbot your district approves for adult use",
+      "Projector for the facilitator's critic-prompt demonstration",
+      "Optional: a shared document per team for the log and disclosure statement"
+    ]
+  },
+  "prep": [
+    "Confirm that participants can reach a district-approved chatbot, and remind them not to enter any real student or personal information.",
+    "Print Handout A and cut apart the cards. Teams choose one; two teams may take the same problem if you have more than eight.",
+    "Test the critic prompt (in the Apply step) in your approved tool so you can show a sample critique. If the tool starts writing the solution instead, practice the follow-up: \"Don't propose solutions. Only question ours.\"",
+    "Recruit a panel of three (for example, a coach, a librarian, and an administrator), or plan for teams to take turns as panelists."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Author or critic?",
+      "body": "Ask: \"If a student uses AI to write the project idea and then does all the slides, who solved the problem?\" Take two answers. Then say: \"Today AI gets one job: critic. You're the authors. It can question you, but it can't write for you. And at the end, you'll tell the panel exactly what it did.\"",
+      "note": "Set the rule clearly: no AI until the Apply step. Some teams will want to jump ahead. The waiting is part of the lesson."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 15,
+      "title": "Understand the problem",
+      "body": "Each team picks a problem card. On chart paper, they map it: **Who is affected?** (at least four stakeholders, including someone easy to overlook). **What are the likely causes?** (ask \"why?\" at least three times). **What do we not know yet, and who would we ask?** Teams end by writing a one-sentence problem statement: \"___ need a way to ___ because ___.\"",
+      "note": "The facilitator key on each card lists stakeholders teams often miss. Offer one as a hint only if a team is stuck."
+    },
+    {
+      "phase": "Create",
+      "minutes": 20,
+      "title": "Design it by hand",
+      "body": "Teams brainstorm at least five possible solutions, choose one using two criteria they set themselves (for example, cost and who benefits), and sketch it on chart paper: what it is, how it works, who does what, and how they'll know it worked. **No devices.** The facilitator circulates and asks, \"What would the person most affected by this problem say about your idea?\"",
+      "note": "This is the evidence of problem solving: the brainstorm list, the criteria, and the reasoning behind the choice. Have teams photograph or keep the chart; it becomes the baseline for comparing their revision."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 15,
+      "title": "Call in the critic",
+      "body": "Project and model the critic prompt: \"*You are a skeptical review panel for a community project. Here is our problem statement and our solution. Do not propose your own solution or rewrite ours. Ask us the five hardest questions a panel would ask, point out the three biggest weaknesses or risks, and name one group of people we may have overlooked.*\" Teams type their problem statement and solution (no real names or personal information) and log each critique on Handout B: **accept**, **reject**, or **modify**, with a reason. If the chatbot starts writing solutions, teams redirect it and note that in the log.",
+      "note": "Look for teams that reject a critique with a good reason, for example \"it assumes families have cars; our stakeholder map shows many don't.\" Rejecting an AI critique thoughtfully is strong evidence of human judgment."
+    },
+    {
+      "phase": "Create",
+      "minutes": 10,
+      "title": "Revise and disclose",
+      "body": "Teams revise the solution on the chart in a second color so changes are visible. Then they write an **AI disclosure statement** at the bottom of Handout B, for example: \"*We designed this solution ourselves. We used a district-approved AI chatbot as a critic: it asked us five questions and named three weaknesses. We accepted two critiques (added a Spanish-language sign-up and a rainy-day plan), rejected one (it assumed families drive), and modified one. The AI did not write any part of our solution or pitch.*\"",
+      "note": "Mention that major style guides, such as MLA and APA, have published guidance on citing generative AI; students should follow whichever your school uses. A disclosure statement explains the role AI played, which a citation alone may not."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "The Tank",
+      "body": "Each team gets 2 minutes to pitch and 1 minute for panel questions. Pitches must include the problem statement, the solution, **one change made because of the AI critic and one critique they rejected**, and the disclosure statement. The panel scores with Handout C. For more than six teams, run two panels at once.",
+      "note": "Panelists should ask at least one question about the rejected critique. That is where teams show their reasoning most clearly."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "As teachers: where was the thinking?",
+      "body": "Step out of role. Ask: \"Where in the last hour did the real problem solving happen? What did the AI add that you wouldn't have gotten from a peer team? What did it get wrong? How would your students' work change if AI were the critic instead of the author?\" Chart two columns: \"Evidence of student thinking\" and \"Where AI helped or got in the way.\"",
+      "note": "Honest answers help here. Some teams will say a peer critic would have been just as good. That's a legitimate finding: use AI only where it adds something."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 5,
+      "title": "Plan the student version",
+      "body": "Each person writes a project plan for their students on the back of Handout C: the problem (from the school or community), when AI enters and in what role, what students log, and how they'll disclose. They name the one piece of evidence they'll grade most heavily. Suggestion: the critique log.",
+      "note": "For students under 13, the teacher runs the critic prompt on a projector with the class, and the class decides together which critiques to accept. No student accounts are needed."
+    }
+  ],
+  "unplugged": "Replace the AI critic with a peer critic: each team passes its chart to another team, which answers the same critic prompt on paper (five hard questions, three weaknesses, one overlooked group). Teams log, accept, or reject those critiques on Handout B exactly as they would AI critiques, and the disclosure statement becomes a \"feedback credit\" naming the peer team. Everything else runs on chart paper.",
+  "digital": "Each team uses a district-approved chatbot in the Apply step only. Teams can keep the log and disclosure in a shared document so the facilitator sees every team's critiques side by side, and pitches can be recorded for teams to review. In a virtual session, run the Create steps on a shared whiteboard per team and the Tank in the main room. Participants never enter personal or student information into the chatbot.",
+  "whyTech": "The AI critic offers a fast, tireless outside perspective that often names risks and overlooked groups a team hadn't considered, and the critique log turns each accept or reject decision into visible evidence of judgment. The unplugged peer-critic version teaches the same structure; the AI version shows teachers how to keep AI in a supporting role when students have access to it.",
+  "adaptations": [
+    { "label": "Grades 6–8 teachers", "text": "Use school-based problems (the lunch line, lost-and-found, hallway crowding) and have the teacher run the critic prompt on the projector for each team. The class votes on which critiques to accept, with reasons." },
+    { "label": "Higher Ed faculty", "text": "Use the structure for a capstone or design project and require a methods note describing the AI critique process, with the log as an appendix, alongside the citation style your discipline uses." },
+    { "label": "Librarians", "text": "Add a research step between Explore and Create in which teams find one reliable local source (city data, a news story, an interview) about their problem. Teams often find it changes their solution more than the AI critic does." },
+    { "label": "Shorter session (60 minutes)", "text": "Give each team a pre-written solution to critique instead of designing one, and skip to the Apply step. You lose some of the authorship, so note that in the debrief." }
+  ],
+  "lookFors": [
+    "Chart paper shows a human-made brainstorm, criteria, and solution before any AI use, and a revision in a second color after it.",
+    "Handout B includes at least one rejected or modified critique with a reason grounded in the team's stakeholder map or local knowledge.",
+    "Disclosure statements say specifically what the AI did and didn't do, not just \"we used AI.\"",
+    "Student project plans name when AI enters, what role it plays, and which piece of evidence will be graded."
+  ],
+  "reflection": [
+    "How do I design lessons where students do the problem solving and AI supports, not replaces, their thinking? (Teacher ELE 5.3)",
+    "What would I accept as evidence that a student, not an AI, solved the problem?",
+    "How will I teach students to disclose AI use honestly, and make it safe for them to do so?"
+  ],
+  "transfer": "Launch a short community or school problem-solving project with students using the same sequence: understand, design by hand, AI or peer critic, revise, disclose, pitch. Grade the critique log and revision, not just the final pitch, and bring three logs to your PLC to compare the quality of students' accept/reject reasoning.",
+  "connections": [
+    { "title": "Generative AI Adoption Checklist", "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/", "note": "Check your chatbot and classroom routines before running this with students." },
+    { "title": "AI Custom Instructions Library", "url": "https://mglearn.github.io/tcea/custom-instructions-library/", "note": "Ideas for setting up a chatbot to act as a critic rather than an author." },
+    { "title": "Augmented K–16 AI Learning Framework", "url": "https://mglearn.github.io/tcea/alf/", "note": "Where human-AI collaboration fits in a K–16 progression." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Cedar Bend Problem Cards",
+      "type": "cards",
+      "instructions": "Each team chooses one problem. Cedar Bend and everyone in it are fictional. Card backs are facilitator hints: print them separately.",
+      "cards": [
+        { "label": "Problem 1 · Transportation", "front": "Many Cedar Bend High students can't stay for after-school tutoring or clubs because the late bus was cut and their families work until 6 p.m.", "back": "Often-missed stakeholders: students who care for younger siblings, bus drivers, club sponsors, students with part-time jobs." },
+        { "label": "Problem 2 · Food waste", "front": "The Cedar Bend Elementary cafeteria throws away large amounts of untouched fruit and milk each day, while the town food pantry runs low by midweek.", "back": "Often-missed stakeholders: cafeteria staff, the health inspector, pantry volunteers, families who use the pantry and may not want to be identified." },
+        { "label": "Problem 3 · Park safety", "front": "Families avoid Riverside Park after dark because the lights along the walking trail are broken, and the city says repairs are months away.", "back": "Often-missed stakeholders: older adults who walk in the evening, people who work late shifts, neighbors near the trail, city maintenance staff." },
+        { "label": "Problem 4 · Library access", "front": "The Cedar Bend Public Library closes at 5 p.m. on weekdays, and many students without home internet have nowhere to finish online assignments.", "back": "Often-missed stakeholders: library staff and budget, students without devices, teachers who assign online work, local businesses with Wi-Fi." },
+        { "label": "Problem 5 · Newcomer families", "front": "Newly arrived families say school messages are confusing, arrive in English only, and use terms like \"STAAR\" and \"early release\" without explanation.", "back": "Often-missed stakeholders: students who translate for their parents, front-office staff, community interpreters, families who speak languages other than Spanish." },
+        { "label": "Problem 6 · Heat", "front": "The Cedar Bend Middle School playground has almost no shade, and recess is regularly moved indoors during the hottest months.", "back": "Often-missed stakeholders: students with health conditions, PE teachers, custodial staff, the PTA, the district facilities department." },
+        { "label": "Problem 7 · Online conflict", "front": "Arguments in a popular Cedar Bend students' group chat keep spilling into school, and many students say they don't know how to step away or get help.", "back": "Often-missed stakeholders: bystanders in the chat, students who are targeted, counselors, families, students who run the chat." },
+        { "label": "Problem 8 · Senior isolation", "front": "Many older residents at the Maple Court apartments rarely leave home and say they feel lonely and unsure how to use video calls to reach family.", "back": "Often-missed stakeholders: apartment staff, residents' families, residents with hearing or vision loss, student volunteers and their schedules." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "AI Critique Log",
+      "type": "table",
+      "instructions": "Log every critique the AI (or peer critic) gives. Decide as a team: Accept · Reject · Modify. Write your AI disclosure statement at the bottom.",
+      "columns": ["Critique or question from the critic", "Accept / Reject / Modify", "Our reason", "What we changed (if anything)"],
+      "rows": [],
+      "blankRows": 9
+    },
+    {
+      "id": "C",
+      "title": "Tank Panel Rubric",
+      "type": "rubric",
+      "instructions": "Panelists: score each team, then ask at least one question about a critique they rejected.",
+      "levels": ["Beginning", "Developing", "Proficient", "Exemplary"],
+      "criteria": [
+        { "name": "Understanding the problem", "descriptors": ["Problem restated from the card; no stakeholders or causes named.", "Some stakeholders or causes named; problem statement is vague.", "Clear problem statement; several stakeholders and at least one root cause.", "Sharp problem statement; includes an overlooked stakeholder and names what the team still needs to learn."] },
+        { "name": "Solution reasoning", "descriptors": ["One idea presented with no alternatives or criteria.", "Alternatives mentioned, but the choice isn't explained.", "Solution chosen from alternatives using stated criteria.", "Criteria are clearly tied to stakeholders' needs; team explains tradeoffs honestly."] },
+        { "name": "Human judgment with the critic", "descriptors": ["Critiques ignored or accepted without discussion.", "Some critiques addressed; reasons are thin.", "Each critique accepted, rejected, or modified with a reason; revision is visible.", "Team explains a thoughtful rejection and shows how critique made the solution better, not just longer."] },
+        { "name": "Transparency and disclosure", "descriptors": ["AI use not mentioned.", "AI use mentioned only in general (\"we used AI\").", "Disclosure states what the AI did and did not do.", "Disclosure is specific and honest, including where the AI was unhelpful or had to be redirected."] },
+        { "name": "Pitch", "descriptors": ["Hard to follow; runs over time.", "Main idea clear; key parts missing.", "Clear, on time, includes all required parts.", "Compelling and clear; would persuade the people most affected by the problem."] }
+      ]
+    }
+  ]
+}

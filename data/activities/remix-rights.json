@@ -1,0 +1,159 @@
+{
+  "id": "remix-rights",
+  "title": "Remix Rights",
+  "tagline": "Students sort real-world remix decisions using copyright, Creative Commons, and fair use, then write credit lines that include honest notes about AI help.",
+  "audience": "student",
+  "grades": ["6-8", "9-12"],
+  "strands": ["digcit", "genai"],
+  "mode": "hybrid",
+  "minutes": 50,
+  "groupSize": "Pairs or trios",
+  "eles": ["S1.3", "AI2.1", "AI2.3", "S1.1", "S2.3"],
+  "overview": "\"It was on the internet, so it's free\" is one of the most common student beliefs, and it's wrong. Almost everything people create is protected by copyright automatically, but creators can choose to share through Creative Commons licenses, and fair use allows some limited uses for things like commentary, criticism, and teaching. In this activity, students sort fourteen remix decisions, learn what the Creative Commons license symbols mean, and write credit lines for a project, including an honest note when AI helped. The goal is not fear of using anything; it's knowing how to remix responsibly.",
+  "objectives": [
+    "Students will explain the difference between copyright, Creative Commons licenses, public domain, and fair use in their own words.",
+    "Students will decide whether a remix is allowed with credit, needs permission, or might be fair use, and justify the decision.",
+    "Students will write a complete credit line (Title, Author, Source, License) and a clear AI-assistance note for a project."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Remix Decisions Sort (1 per team, cut apart, with sorting mat)",
+      "Handout B: License Cards (1 set per team, cut apart)",
+      "Handout C: Credit Line Builder (1 per student)"
+    ],
+    "digital": [
+      "Teacher projector for the model",
+      "Optional: student devices and an openly licensed image or music collection your librarian recommends",
+      "Optional: a generative AI tool your district approves, teacher-driven, to create one image for the class to credit"
+    ]
+  },
+  "prep": [
+    "Print and cut Handouts A and B. Print Handout C.",
+    "Ask your librarian which openly licensed media collections and search filters your district recommends for the digital path.",
+    "Check your class or district guidance on disclosing AI-assisted work so your model credit line matches it.",
+    "Remind yourself: this lesson teaches general principles, not legal advice. When a case is unclear, the right student answer is often \"ask or choose something else.\""
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Free because it's online?",
+      "body": "Read three statements and have students stand for true, sit for false: **\"If it's online, I can use it.\"** (False.) **\"If I give credit, I can use anything.\"** (False: credit isn't permission.) **\"Some creators *want* you to remix their work.\"** (True.) Say: \"Today you'll learn to tell those situations apart, including what to do when AI helped make something.\"",
+      "note": "The credit-equals-permission myth is the one to watch. Name it explicitly."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Four big ideas",
+      "body": "Teach briefly: **Copyright** protects original work automatically as soon as it's created, so \"no copyright symbol\" doesn't mean free. **Creative Commons** licenses let creators say ahead of time how you may reuse their work (show one license card). **Public domain** works have no copyright restrictions, such as very old works whose copyright expired or works whose creators dedicated them to the public. **Fair use** allows limited use without permission for purposes like commentary, criticism, news, and teaching. It weighs four things: *why* you're using it, *what kind* of work it is, *how much* you use, and whether your use *hurts the market* for the original. Then add: \"If AI helped make your work, be honest about what it did. Rules about AI and copyright are still being worked out, so transparency protects you.\"",
+      "note": "Stress that fair use is decided case by case. It's a reason you might be allowed, not a guarantee."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 7,
+      "title": "License match-up",
+      "body": "Teams spread out Handout B's license cards, front side up. Read short situations aloud and teams race to hold up the license that fits: \"I want people to remix my art, but not sell it\" (BY-NC). \"I want people to share my song exactly as it is\" (BY-ND). \"I don't care what people do, not even credit\" (CC0). \"Remix it, but share your version the same way\" (BY-SA). Teams flip cards to check.",
+      "note": "Every Creative Commons license except CC0 requires credit (BY = attribution). Students often miss that."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 15,
+      "title": "Remix decisions",
+      "body": "Teams sort the 14 strips from Handout A into **Go ahead, with credit**, **Get permission or choose something else**, and **Might be fair use: explain**. For every fair-use placement, they must name which of the four factors supports it. Then two teams compare and defend their three most different placements before you reveal the key.",
+      "note": "Strip 11 (the AI-made background) sparks good discussion. The issue is less copyright than honesty: saying \"I made this all myself\" when AI did part of it."
+    },
+    {
+      "phase": "Create",
+      "minutes": 10,
+      "title": "Credit it right",
+      "body": "Model one credit line using **TASL**: Title, Author, Source, License. Example: \"*Sunrise over Clear Lake* by R. Delgado, from the Riverbend Photo Commons, licensed CC BY 4.0.\" Then model an AI note: \"Background image generated with an AI image tool my teacher approved, from my prompt 'watercolor desert at sunset'; I chose the colors, added all text, and arranged the layout.\" Students complete Handout C for a project they're working on now or one of the practice items.",
+      "note": "If you run the teacher-driven AI demo, create one image live and have the class write its AI note together."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "My remix rule",
+      "body": "Students finish the last section of Handout C: **\"Before I use someone else's work, I will… When AI helps me, I will…\"** Share two or three aloud.",
+      "note": "Look for rules that include checking the license, crediting, and disclosing AI, not just \"I won't copy.\""
+    }
+  ],
+  "unplugged": "Everything runs on paper: the license cards, the sort, and the credit line builder. For practice crediting, give students a printed page of fictional openly licensed images with title, creator, source, and license listed underneath each.",
+  "digital": "Students use an openly licensed media collection or a search tool's license filter (as recommended by your librarian) to find one image or sound for a current project, then write its TASL credit line on Handout C or in their project file. The teacher alone runs any AI image demo for students under 13; students 13 and older may use a district-approved tool and practice the AI note on their own creations.",
+  "whyTech": "Searching a real openly licensed collection shows students how easy it is to find media they're allowed to use, which makes responsible remixing the easy choice. The decisions and credit lines themselves work just as well on paper.",
+  "adaptations": [
+    { "label": "Grades 3–5", "text": "Use strips 1, 5, 7, 11, and 12, and reduce the rules to three questions: Who made it? Did they say I can use it? Did I say who made it?" },
+    { "label": "Grades 9–12", "text": "Add a case on training data: \"Should creators be asked before their work is used to train AI?\" Students argue from the creator's and the user's perspectives." },
+    { "label": "Emergent bilinguals", "text": "Pre-teach *copyright, license, permission, credit, remix* with icons. The license cards' symbols make the ideas visual." }
+  ],
+  "lookFors": [
+    "Students reject \"credit equals permission\" and explain the difference.",
+    "Fair-use placements name at least one of the four factors as a reason.",
+    "Handout C includes a complete TASL credit line and an AI note that says what the AI did and what the student did."
+  ],
+  "reflection": [
+    "Am I good at using different tools to help me learn? How do I use other people's work, and AI's help, honestly?",
+    "How would I want people to credit something I made?",
+    "Why does being open about AI help matter, even when no rule says I have to?"
+  ],
+  "transfer": "In the next multimedia project, every image, sound, or clip needs a TASL credit line, and any AI help needs a note. Students can check with family about photos of them posted online: did anyone ask permission?",
+  "connections": [
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "Game-based practice on digital citizenship, including respecting others' work." },
+    { "title": "AI Custom Instructions Library", "url": "https://mglearn.github.io/tcea/custom-instructions-library/", "note": "Teacher reference for setting up a class AI tool that reminds students to disclose AI assistance." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Remix Decisions Sort",
+      "type": "sort",
+      "instructions": "All creators, songs, and collections are made up. Place each strip in a category. For fair use, name the factor: why, what kind, how much, or market harm.",
+      "categories": ["Go ahead, with credit", "Get permission or choose something else", "Might be fair use: explain"],
+      "items": [
+        { "text": "1 · Using a CC BY photo of a canyon in your class slideshow, with a credit line.", "answer": "Go ahead, with credit", "why": "CC BY allows any reuse as long as you credit the creator." },
+        { "text": "2 · Using a CC BY-NC song in a video you plan to sell online.", "answer": "Get permission or choose something else", "why": "NC means noncommercial only. Selling is commercial." },
+        { "text": "3 · Quoting two sentences from a novel in your book review for English class, with the page number.", "answer": "Might be fair use: explain", "why": "Commentary (why), a small amount (how much), and it won't replace the book (market)." },
+        { "text": "4 · Copying a whole article from a news site onto your class blog.", "answer": "Get permission or choose something else", "why": "The whole work, reposted publicly, could replace the original. Link to it and summarize instead." },
+        { "text": "5 · Using a CC0 illustration of a sunflower on your science poster.", "answer": "Go ahead, with credit", "why": "CC0 requires no credit, but giving it anyway is good practice." },
+        { "text": "6 · Showing a 10-second clip from a movie in a class presentation analyzing its camera angles.", "answer": "Might be fair use: explain", "why": "Teaching and criticism (why), a short clip (how much)." },
+        { "text": "7 · Taking a classmate's drawing from the shared class folder and using it as your profile picture.", "answer": "Get permission or choose something else", "why": "Your classmate owns their art. Ask first." },
+        { "text": "8 · Adding text to a CC BY-SA photo for a poster and sharing the poster under CC BY-SA.", "answer": "Go ahead, with credit", "why": "BY-SA allows changes if you credit and share your version under the same license." },
+        { "text": "9 · Adding captions to a CC BY-ND photo and posting the edited version.", "answer": "Get permission or choose something else", "why": "ND means no derivatives: you may share it only unchanged." },
+        { "text": "10 · Using a popular band's entire hit song as background music for a school video posted publicly.", "answer": "Get permission or choose something else", "why": "The whole song, used for background, not commentary. Choose openly licensed music." },
+        { "text": "11 · Using an AI tool your teacher approved to make a poster background, then writing \"All artwork by me.\"", "answer": "Go ahead, with credit", "why": "Using it is fine if class rules allow it, but be honest: add a note that says what AI made and what you made." },
+        { "text": "12 · Using a photo from image search results that shows no license information.", "answer": "Get permission or choose something else", "why": "No license shown means assume all rights reserved. Use a license filter or an openly licensed collection." },
+        { "text": "13 · Making a short parody of a TV cartoon's theme song for a class project that pokes fun at the show.", "answer": "Might be fair use: explain", "why": "Parody that comments on the original (why) can be fair use, especially if it borrows only what it needs." },
+        { "text": "14 · Posting an AI response that repeats several pages of a copyrighted novel word for word.", "answer": "Get permission or choose something else", "why": "Copying long passages is still copying, even if an AI produced it." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "License Cards",
+      "type": "cards",
+      "instructions": "Cut apart. The front shows the license name; the back explains what it lets you do. Every CC license except CC0 requires credit.",
+      "cards": [
+        { "label": "Creative Commons", "front": "CC BY (Attribution)", "back": "Share, remix, even sell, as long as you credit the creator." },
+        { "label": "Creative Commons", "front": "CC BY-SA (Attribution-ShareAlike)", "back": "Share and remix with credit, and share your new version under the same license." },
+        { "label": "Creative Commons", "front": "CC BY-NC (Attribution-NonCommercial)", "back": "Share and remix with credit, but not to make money." },
+        { "label": "Creative Commons", "front": "CC BY-ND (Attribution-NoDerivatives)", "back": "Share it with credit, but only exactly as it is. Don't share changed versions." },
+        { "label": "Creative Commons", "front": "CC BY-NC-SA (Attribution-NonCommercial-ShareAlike)", "back": "Remix with credit, not for money, and share your version under the same license." },
+        { "label": "Creative Commons", "front": "CC BY-NC-ND (Attribution-NonCommercial-NoDerivatives)", "back": "The most limited CC license: share unchanged, with credit, not for money." },
+        { "label": "Creative Commons", "front": "CC0 (No Rights Reserved)", "back": "The creator gave up their rights as far as the law allows. Use it freely; credit is optional but kind." },
+        { "label": "No restrictions", "front": "Public Domain", "back": "No copyright applies, often because it expired long ago. Use it freely, and credit it anyway so others can find the source." },
+        { "label": "Default", "front": "All Rights Reserved (standard copyright)", "back": "The creator keeps all rights. Ask permission, unless your use might be fair use." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Credit Line Builder",
+      "type": "worksheet",
+      "instructions": "TASL = Title, Author, Source, License. Example: \"Sunrise over Clear Lake\" by R. Delgado, from the Riverbend Photo Commons, licensed CC BY 4.0.",
+      "sections": [
+        { "prompt": "Media I'm using (image, song, clip, text) and what project it's for:", "lines": 2 },
+        { "prompt": "T · Title:   A · Author/creator:   S · Source (where I found it):   L · License:", "lines": 4 },
+        { "prompt": "My full credit line:", "lines": 2 },
+        { "prompt": "Did AI help with any part of this project? If yes, my AI note: what tool type, what I asked, what the AI made, and what I made or changed:", "lines": 4 },
+        { "prompt": "One decision from the sort our team disagreed about, and what we decided:", "lines": 3 },
+        { "prompt": "My remix rule: Before I use someone else's work, I will… When AI helps me, I will…", "lines": 3 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "personalization-with-guardrails",
+  "title": "Personalization with Guardrails",
+  "tagline": "Teachers design AI-supported versions of one reading task for different learners, then judge every version against the same learning target, a fact check, and a privacy line.",
+  "audience": "pl",
+  "roles": ["teachers", "coaches", "librarians"],
+  "grades": ["3-5", "6-8", "9-12"],
+  "strands": ["genai", "digcit"],
+  "mode": "hybrid",
+  "minutes": 70,
+  "groupSize": "Teams of 3–4, ideally mixing general education, special education, and ESL/bilingual teachers",
+  "eles": ["AI3.1", "AI3.3", "AI4.1", "AI2.1"],
+  "overview": "AI tools can quickly produce leveled texts, bilingual glossaries, chunked questions, and read-aloud audio, and paired with long-standing assistive technology like text-to-speech and speech-to-text, they can open grade-level content to more students. They can also quietly lower expectations, introduce factual errors, or expose student information. In this session teams first catch an error in a mock AI-leveled passage, then design supported versions of one science reading for fictional learner profiles and judge every design against four guardrails: same learning target, verified accuracy, protected privacy, and evidence of learning.",
+  "objectives": [
+    "Participants will design AI-supported versions of a reading task that keep the same grade-level learning target for different learners.",
+    "Participants will verify an AI-modified text against its original and correct any meaning or factual changes.",
+    "Participants will match supports (text-to-speech, speech-to-text, glossaries, chunking, extension) to specific learner needs rather than labels or \"learning styles.\"",
+    "Participants will protect student privacy by keeping names and disability or IEP details out of AI prompts."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The Monarch Waystation, original passage and a mock AI-leveled version (1 per person)",
+      "Handout B: Learner Profile Cards (1 set per team, cut apart)",
+      "Handout C: Guardrails Rubric (2 per team)",
+      "Chart paper for design posters, markers, sticky notes for gallery feedback"
+    ],
+    "digital": [
+      "A generative AI chatbot your district approves, projected by the facilitator or used by teams with approved staff accounts",
+      "Any text-to-speech tool available on district devices (many operating systems and browsers include one), plus speech-to-text dictation",
+      "Optional: headphones for trying text-to-speech"
+    ]
+  },
+  "prep": [
+    "Print Handouts A and C; print and cut Handout B. Each team needs all eight profile cards.",
+    "Test the text-to-speech and dictation features on your district's devices so you can demo them in under two minutes.",
+    "Run one leveling prompt on your approved AI tool with the Handout A original so you know what it currently produces. Check its output against the original yourself first.",
+    "If your campus has a special education or dyslexia specialist, invite them to co-facilitate the Model step."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Easier, or different?",
+      "body": "Project the two versions on Handout A side by side. Ask: **\"The simplified version is easier to read. Is it teaching the same thing?\"** Give 90 seconds of silent reading, then collect first reactions without confirming anything yet.",
+      "note": "Most people notice the shorter sentences first. Fewer notice the content changes. That gap is the session."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Verify the leveled text",
+      "body": "Individually, compare the mock AI-leveled version line by line with the original. Mark (1) any **factual error**, (2) any **key idea dropped**, and (3) any **vocabulary the learning target needs** that was removed. Teams compare and agree. Then reveal: the mock version says monarchs lay eggs on \"many kinds of plants\" (false: only milkweed), drops the reason the waystation matters, and removes the word *migration*, which is the lesson's target vocabulary.",
+      "note": "Key message: an AI-leveled text is a draft, not a finished material. Simplifying can change meaning, and a student reading the easier version would learn something false."
+    },
+    {
+      "phase": "Model",
+      "minutes": 10,
+      "title": "Supports that keep the target",
+      "body": "Demonstrate three moves on the projector. (1) **Text-to-speech** on the original passage: a student with dyslexia can access the grade-level text itself. (2) A **privacy-safe prompt** to the approved AI tool: \"Create a glossary of five key terms from this passage with student-friendly definitions and a Spanish translation. Keep the terms migration, milkweed, and waystation.\" No student names, no diagnosis. (3) **Checking the output** against the original before it goes to anyone. Name the principle: change the *access*, keep the *thinking*.",
+      "note": "Address \"learning styles\" directly and kindly: research doesn't support matching instruction to a preferred style like \"visual learner.\" Design for specific needs (decoding, language, attention, vision) and offer choices to everyone."
+    },
+    {
+      "phase": "Create",
+      "minutes": 20,
+      "title": "Design for two learners",
+      "body": "Each team draws two Learner Profile Cards and designs a supported version of the Monarch Waystation task for each: the supports, whether AI is involved (and the exact prompt, written without identifying details), how they'll verify any AI output, and **what the student will produce** to show they met the target: \"Explain why a school garden with milkweed helps monarchs during migration.\" Put both designs on a chart poster. At least one support must be non-AI.",
+      "note": "Watch for designs that swap the task for an easier one (\"label the parts of a butterfly\"). Ask: \"Is this student still explaining why the waystation matters?\""
+    },
+    {
+      "phase": "Practice",
+      "minutes": 15,
+      "title": "Guardrail gallery",
+      "body": "Posters go on the wall. Teams rotate and score two other posters with Handout C, leaving sticky notes: one \"keeps the target because…\" and one \"guardrail to add…\". Back at home posters, teams revise one design based on the notes and mark the change in a different color.",
+      "note": "The privacy guardrail gets missed most often. Look for prompts that include phrases like \"a 7th grader with dyslexia named…\"."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 10,
+      "title": "Your real text",
+      "body": "Each person picks a reading they'll assign in the next two weeks and one student need in their class. They write the learning target, one support (AI or not), the verification step, and the evidence of learning they'll collect. Partners ask: **\"How will you know the support helped this student learn, not just finish?\"**",
+      "note": "Coaches: offer to co-plan the verification step and look at the student work together afterward. That's the measure-and-adjust part of the cycle."
+    }
+  ],
+  "unplugged": "All the core thinking works on paper: verifying the mock leveled passage, designing supports from profile cards, and scoring with the rubric. Teams can describe any AI or assistive-technology support in writing, and the facilitator can read the original passage aloud to simulate text-to-speech. Non-AI supports such as printed glossaries, chunked question strips, and partner reading make excellent unplugged designs.",
+  "digital": "Teams with approved staff access run their privacy-safe prompts on the district's AI tool, try text-to-speech and dictation on the original passage, and verify the outputs against Handout A before adding them to their posters. In an LMS, teams post their designs to a discussion board for asynchronous rubric scoring, with the AI prompt and the verification notes included.",
+  "whyTech": "Actually hearing text-to-speech read the grade-level passage, and seeing an AI tool generate a glossary in seconds, shows what these supports make possible. Verifying the live output shows why teacher judgment still has to sit between the tool and the student. The evidence is a student producing the same grade-level explanation through a different path.",
+  "adaptations": [
+    { "label": "Grades 3–5 teachers", "text": "Use only the first two paragraphs of the original, and have students show understanding with a labeled drawing plus one spoken or dictated sentence explaining why milkweed matters." },
+    { "label": "Special education and dyslexia specialists", "text": "Lead the Model step. Add how supports connect to students' documented accommodations, and how students can learn to choose and turn on their own tools." },
+    { "label": "Higher Ed faculty", "text": "Swap the passage for a dense course reading and discuss how AI summaries, text-to-speech, and glossaries can support access while students still engage with the primary text." }
+  ],
+  "lookFors": [
+    "Teams identify the factual error, the dropped key idea, and the removed target vocabulary in the mock leveled text.",
+    "Every design keeps the same learning target and names the student product that will show it.",
+    "AI prompts on posters contain no names, diagnoses, or other identifying details.",
+    "Each design includes a verification step for any AI output and at least one non-AI support."
+  ],
+  "reflection": [
+    "How am I leveraging AI to personalize and enhance learning experiences without lowering expectations?",
+    "When I simplify a text, how do I check that I haven't changed what students learn?",
+    "How can students learn to choose and use their own supports, so personalization isn't something done *to* them?"
+  ],
+  "transfer": "Use your Transfer plan with one real reading this week. Save the student work from students who used the support and from a few who didn't, and bring both to your PLC or coach to ask: did the support help students reach the target?",
+  "connections": [
+    { "title": "Digital Accessibility Readiness Assessment", "url": "https://mglearn.github.io/tcea/a11y/", "note": "Checks whether the materials and tools you use are accessible in the first place." },
+    { "title": "AI Essentials Prompt Library", "url": "https://mglearn.github.io/tcea/ai-essentials-prompt-library/", "note": "Starter prompts for differentiation. Apply today's privacy and verification guardrails to each one." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The Monarch Waystation: Original and Mock AI-Leveled Version",
+      "type": "reading",
+      "instructions": "Learning target: Explain why a school garden with milkweed helps monarchs during migration. Compare the two versions line by line. The school is fictional; the second version is a MOCK AI output written for training.",
+      "paragraphs": [
+        "**ORIGINAL (grade 5–7 science reading).** Every fall, monarch butterflies from much of eastern North America begin a long migration south to forests in the mountains of central Mexico, where they spend the winter. Many of them pass through Texas on the way. In spring, the journey north takes several generations of butterflies to complete.",
+        "Monarchs depend on one group of plants: milkweed. Female monarchs lay their eggs only on milkweed, and monarch caterpillars can eat only milkweed leaves. Adult monarchs drink nectar from many kinds of flowers, which gives them energy to fly.",
+        "Milkweed and nectar flowers have become harder to find in many places as land is cleared or mowed. That is why students at Maple Hollow Elementary planted a monarch waystation in their school garden. A waystation is a place with milkweed for laying eggs and nectar flowers for feeding, where migrating monarchs can stop, refuel, and reproduce.",
+        "The students keep a journal of what visits the garden. Last fall they recorded monarch caterpillars on the milkweed for the first time, and they now share their observations with a community science project that tracks monarch migration.",
+        "**MOCK AI-LEVELED VERSION (fictional output, contains errors on purpose).** Monarch butterflies fly to Mexico in the fall. Many fly through Texas. They like warm places.",
+        "Monarchs eat milkweed flowers. They lay their eggs on many kinds of plants. The caterpillars eat leaves.",
+        "Students at Maple Hollow Elementary made a butterfly garden at school. It is very pretty. Butterflies like to visit it.",
+        "The students write about the garden. They saw caterpillars last fall. Now they share what they see with scientists."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Learner Profile Cards",
+      "type": "cards",
+      "instructions": "All students are fictional. Design for the need described. Never put real student names or IEP details into an AI tool. Backs are design hints.",
+      "cards": [
+        { "label": "Profile 1 · Decoding", "front": "Seventh grader with dyslexia. Strong vocabulary and ideas when talking; reading grade-level text is slow and tiring. Writing is short because spelling takes so much effort.", "back": "Hint: text-to-speech on the ORIGINAL keeps full access to grade-level ideas. Speech-to-text lets the student dictate the explanation. Don't give a watered-down text to a student who needs access, not simplification." },
+        { "label": "Profile 2 · New to English", "front": "Sixth grader who arrived from Honduras four months ago. Reads well in Spanish, knows a lot about butterflies from home. Beginning English speaker.", "back": "Hint: a bilingual glossary of target terms, the original in Spanish (AI or human translated, then checked by a fluent reader), and a sentence frame in English. Let the student draw on home knowledge." },
+        { "label": "Profile 3 · Attention", "front": "Fifth grader who loses focus on long text blocks, but engages when tasks are short and active. Often knows the answer orally.", "back": "Hint: chunk the original into four parts with one question each; AI can draft the chunk questions, and you check that they build toward the target. Offer an oral or dictated final explanation." },
+        { "label": "Profile 4 · Ready for more", "front": "Sixth grader who finishes early, reads well above grade level, and asks \"but why?\" about everything.", "back": "Hint: extend thinking, not just add work. AI could draft three follow-up questions about why the trip north in spring takes several generations; the student verifies answers with a trusted science source." },
+        { "label": "Profile 5 · Vision", "front": "Seventh grader who is blind and uses a screen reader. Fluent reader with the right tools.", "back": "Hint: check that every material, including AI-generated ones, is accessible to a screen reader (real text, not images of text; described diagrams). The target doesn't change at all." },
+        { "label": "Profile 6 · Background knowledge", "front": "Fifth grader reading about two years below grade level who has never seen a monarch and doesn't know what migration means.", "back": "Hint: build background first (a photo or short video of monarchs, a map). An AI-leveled version can be a bridge, only after you correct it and keep target vocabulary like migration and milkweed; then return to the original with support." },
+        { "label": "Profile 7 · Anxiety", "front": "Sixth grader who reads fine but freezes on written responses and often turns in nothing.", "back": "Hint: offer response choices (talk it through, sketch, or write), and let the student rehearse the explanation with a partner first. AI isn't needed here; relationship and choice are the support." },
+        { "label": "Profile 8 · Limited home access", "front": "Seventh grader with no reliable device or internet at home; does homework in the school library before the bus.", "back": "Hint: any AI or audio support must work at school or on paper. A printed glossary and chunked questions travel home; don't build a design that only works online." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Guardrails Rubric",
+      "type": "rubric",
+      "instructions": "Score each design. The target is the same for every learner: Explain why a school garden with milkweed helps monarchs during migration.",
+      "levels": ["Beginning", "Developing", "Proficient", "Exemplary"],
+      "criteria": [
+        { "name": "Same learning target", "descriptors": ["Task has been swapped for an easier, different one.", "Target is present but the student product no longer requires the explanation.", "Student still explains why the waystation helps during migration.", "Same target, and the design lets the student show it through a chosen path."] },
+        { "name": "Support matched to need", "descriptors": ["Support is generic or based on a label or \"learning style.\"", "Support loosely fits the need.", "Support directly addresses the need on the profile card.", "Support addresses the need and builds the student's ability to choose tools independently."] },
+        { "name": "AI output verified", "descriptors": ["AI output used as-is.", "Verification mentioned but vague (\"look it over\").", "A specific check against the original or a trusted source is named.", "Specific check, plus how errors would be corrected and target vocabulary protected."] },
+        { "name": "Privacy protected", "descriptors": ["Prompt includes a name or disability details.", "No name, but identifying details remain.", "No names, diagnoses, or identifying details in any AI prompt.", "Privacy-safe prompt and the design uses only district-approved tools."] },
+        { "name": "Evidence of learning", "descriptors": ["No student product named.", "Product named but not tied to the target.", "Product clearly shows whether the target was met.", "Product plus a plan to compare with other students' work to judge whether the support helped."] }
+      ]
+    }
+  ]
+}

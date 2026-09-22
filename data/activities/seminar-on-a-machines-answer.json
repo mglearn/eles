@@ -1,0 +1,146 @@
+{
+  "id": "seminar-on-a-machines-answer",
+  "title": "Seminar on a Machine's Answer",
+  "tagline": "A fishbowl Socratic seminar where the \"text\" is a chatbot's confident, partly wrong answer, and the chatbot's second answer is worse, so teachers practice the questions that make students think instead of accept.",
+  "audience": "pl",
+  "roles": ["teachers", "librarians"],
+  "grades": ["3-5", "6-8", "9-12", "Higher Ed"],
+  "strands": ["genai", "medialit"],
+  "mode": "unplugged",
+  "minutes": 45,
+  "groupSize": "8–30 people in an inner and outer circle (run two fishbowls for larger groups)",
+  "eles": ["T5.2", "AI4.1", "AI4.2", "T5.1"],
+  "overview": "A Socratic seminar usually centers on a rich text: a poem, a primary source, a court opinion. What happens when the text is an AI chatbot's answer? This session uses a mock transcript in which a chatbot explains why Earth has seasons. It gets the main idea right, slips in a common misconception, and then, when the student pushes back with a wrong idea, apologizes and agrees. Teachers run the seminar as students, track which questions deepen the thinking, and then design a seminar around an AI output in their own subject.",
+  "objectives": [
+    "Participants will use clarifying, assumption, evidence, viewpoint, and implication questions to examine an AI-generated answer in a seminar.",
+    "Participants will separate accurate, inaccurate, and unsupported claims in the AI answer, and explain why the chatbot's reversal is not evidence.",
+    "Participants will design a seminar question sequence around an AI output from their own content area."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The Seasons Transcript (1 per person)",
+      "Handout B: Question Stem Cards (1 set per inner-circle pair, cut apart; backs printed separately as a facilitator key)",
+      "Handout C: Design Your Own AI-Text Seminar (1 per person)",
+      "Pens in two colors; a simple tally sheet or blank paper for the outer circle"
+    ],
+    "digital": [
+      "Optional: a generative AI chatbot your district approves, projected by the facilitator only, for a short live pushback test after the seminar"
+    ]
+  },
+  "prep": [
+    "Arrange chairs in an inner circle (about half the group) and an outer circle behind it.",
+    "Print and cut Handout B. Read the facilitator key on the card backs; it applies each stem to the transcript.",
+    "Know the science cold so you can close the seminar accurately: seasons are caused by the tilt of Earth's axis (about 23.5 degrees), which changes how directly sunlight strikes each hemisphere and how long days are. Earth is actually closest to the Sun in early January, during Northern Hemisphere winter, and the hemispheres have opposite seasons."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "Would you accept this answer?",
+      "body": "Read only the chatbot's first answer on Handout A aloud, in a confident voice. Ask for a thumbs up, sideways, or down: \"If a student turned this in, would you accept it?\" Most thumbs go up or sideways. Say: \"Hold that vote. For the next 30 minutes, you're students in a seminar, and this is our text.\"",
+      "note": "Don't reveal errors. Some science teachers will spot the distance claim immediately; ask them to hold their fire and let the questioning surface it."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 8,
+      "title": "Read and annotate",
+      "body": "Everyone reads the full transcript and annotates each sentence of the chatbot's answers: **✓** for claims you'd bet on, **?** for claims you'd need to check, **!** for anything surprising. Then each person writes one open question they genuinely want the seminar to discuss at the bottom of the page.",
+      "note": "Look for people who mark the whole first answer with checkmarks and the second with question marks. That shift in trust is worth naming later."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 16,
+      "title": "The fishbowl",
+      "body": "**Round 1 (7 minutes):** the inner circle discusses the transcript, starting with someone's opening question. Each inner pair has a stack of Handout B cards and must use at least two stems during the round. The outer circle tallies which question types were asked (clarify, assumption, evidence, viewpoint, implication, the question itself) and stars any question that clearly changed the direction of the talk. **Switch (2 minutes)**: outer circle shares one observation. **Round 2 (7 minutes):** circles swap. The new inner circle must address the chatbot's second answer: \"Why did it change its mind, and should we?\"",
+      "note": "Your only job as facilitator is to hold back. If the talk stalls, hand one inner-circle member card 9 (\"If that were true, what else would have to be true?\"). It usually cracks the distance claim open."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "As teachers: which questions did the work?",
+      "body": "Step out of role. First, settle the science using the prep notes, so no one leaves with the misconception. Then look at the outer circle's tallies: \"Which question types did we ask most? Which starred questions changed the conversation?\" Usually, *implication* and *evidence* questions do the heavy lifting, and clarifying questions dominate by count. Finally: \"The chatbot reversed itself because the student pushed, not because of new evidence. Chatbots can tend to agree with the user. What does that mean for students who use AI to check their own ideas?\"",
+      "note": "Return to the Hook vote. Many people who gave a thumbs up now see that a confident, well-organized answer wasn't enough. That's the lesson for students too."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 9,
+      "title": "Design your own AI-text seminar",
+      "body": "Each person completes Handout C for their own content: a question a student might really ask a chatbot, the kinds of errors or gaps a chatbot answer on that topic might contain, and a sequence of five seminar questions moving from clarifying to implication. Pairs trade and try answering each other's first two questions.",
+      "note": "Encourage teachers to generate the AI text with an approved tool *and check it themselves* before class, or write a mock answer as done here. Either way, the teacher must know exactly what's right and wrong in the text."
+    }
+  ],
+  "unplugged": "This activity is fully unplugged. The transcript is printed, the question stems are cards, and the fishbowl is chairs and talk. With students, a printed AI answer works just as well as a live one, and it keeps every student reading the same text.",
+  "digital": "After the debrief, the facilitator can project a district-approved chatbot, ask why Earth has seasons, then push back with \"Isn't it mostly about distance from the Sun?\" to see whether the tool holds its ground or gives in. Results vary by tool and by day, which is a useful discussion point. For a virtual seminar, the inner circle keeps cameras on, the outer circle tallies in a shared document, and the transcript is shared on screen.",
+  "whyTech": "The seminar itself is better unplugged: a fixed, printed text keeps everyone examining the same words. The optional live pushback test earns a few minutes of screen time because it lets teachers check, rather than assume, whether a real tool gives in to a confident wrong claim.",
+  "adaptations": [
+    { "label": "Grades 3–5 teachers", "text": "Use only the first answer and the student's pushback, with four stems: \"What do you mean?\", \"How do we know?\", \"Is that always true?\", and \"What would someone in another place say?\" Run it as a whole-class circle instead of a fishbowl." },
+    { "label": "Secondary teachers", "text": "Swap in a chatbot answer from your subject (a historical cause, a literary interpretation, a math explanation with a subtle error) and have students write the corrected answer with a cited source as their exit ticket." },
+    { "label": "Higher Ed faculty", "text": "Use a chatbot's summary of a disciplinary debate. Add a round in which students trace every claim to a course reading and discuss what the summary flattened or left out." },
+    { "label": "Librarians", "text": "Co-teach with a content teacher and add a station afterward where students find two reliable sources that settle the seminar's disputed claim." }
+  ],
+  "lookFors": [
+    "Outer-circle tallies show at least four different question types, and participants can name which starred questions moved the discussion.",
+    "Participants identify the distance claim and the \"same seasons everywhere\" claim as false and the \"scientists agree\" line as unsupported, while keeping the accurate tilt explanation.",
+    "Participants explain that the chatbot's reversal reflects agreement with the user, not new evidence.",
+    "Handout C question sequences move from clarifying to implication questions and name a specific error or gap for students to find."
+  ],
+  "reflection": [
+    "How do I use questioning techniques to stimulate deep learning, especially about AI-generated information? (Teacher ELE 5.2)",
+    "When my students ask a chatbot to check their ideas, what could they do to guard against it simply agreeing with them?",
+    "Which question type do I ask least often, and where could it help most?"
+  ],
+  "transfer": "Run a 20-minute AI-text seminar with one class using your Handout C plan. Have one student in the outer circle tally question types, and compare the tally with a regular discussion from the same class to see which kinds of questioning grew.",
+  "connections": [
+    { "title": "AI Essentials Prompt Library", "url": "https://mglearn.github.io/tcea/ai-essentials-prompt-library/", "note": "Prompts for generating AI texts to examine; always check them yourself first." },
+    { "title": "CLEAR Crew Detective Thinking Game", "url": "https://mglearn.github.io/tcea/clear/", "note": "A student game for the same question-first habit." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The Seasons Transcript",
+      "type": "reading",
+      "instructions": "A fictional seventh grader asked a generative AI chatbot for help. Mark each sentence of the chatbot's answers: ✓ I'd bet on it · ? I'd need to check · ! surprising.",
+      "paragraphs": [
+        "**Student:** Why does Earth have seasons? I need to explain it for science tomorrow.",
+        "**Chatbot:** Great question! Earth has seasons mainly because its axis is tilted about 23.5 degrees. As Earth travels around the Sun during the year, the axis keeps pointing in the same direction in space. For part of the year, the Northern Hemisphere leans toward the Sun. Sunlight hits it more directly and the days are longer, so it's summer.",
+        "Six months later, the Northern Hemisphere leans away from the Sun. Sunlight hits at a lower angle and the days are shorter, so it's winter. Another reason summer is hotter is that Earth is closer to the Sun in the summer. Scientists agree that both factors work together to create the seasons. This is also why the seasons happen at the same time all over the world.",
+        "**Student:** Wait, my friend said it's actually mostly about how close we are to the Sun. Isn't distance the main reason?",
+        "**Chatbot:** You're absolutely right, and I apologize for the confusion! Distance from the Sun is the main reason for the seasons. When Earth is closer to the Sun, it's summer, and when Earth is farther away, it's winter. The tilt of Earth's axis plays a smaller role. Good luck on your science assignment!"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Question Stem Cards",
+      "type": "cards",
+      "instructions": "Cut apart. Inner-circle pairs use at least two stems per round. The backs show how each stem applies to the transcript: a facilitator key, printed separately.",
+      "cards": [
+        { "label": "Clarify", "front": "What do you mean by ___?", "back": "\"What does the chatbot mean by sunlight hitting 'more directly'? Can someone show it with a flashlight and a ball?\"" },
+        { "label": "Clarify", "front": "Can you say that in your own words?", "back": "Asking someone to restate the tilt explanation reveals whether the group actually understands it or is repeating the chatbot's fluent phrasing." },
+        { "label": "Assumption", "front": "What is this answer assuming?", "back": "It assumes the reader lives in the Northern Hemisphere: \"summer\" and \"winter\" are described only from that side of Earth." },
+        { "label": "Assumption", "front": "Is that always true? Everywhere?", "back": "Applied to \"the seasons happen at the same time all over the world\": false. When it's summer in the Northern Hemisphere, it's winter in the Southern Hemisphere." },
+        { "label": "Evidence", "front": "How do we know? What's the evidence?", "back": "The chatbot cites no sources. \"Scientists agree that both factors work together\" names no one and misstates the science." },
+        { "label": "Evidence", "front": "What would we need to check to be sure?", "back": "When is Earth closest to the Sun? A reliable science source shows early January, which is winter in the Northern Hemisphere. That single fact defeats the distance claim." },
+        { "label": "Viewpoint", "front": "How would someone in another place read this?", "back": "A student in Australia or Argentina would notice immediately that their summer includes December. The answer only works from one point of view." },
+        { "label": "Viewpoint", "front": "Who might disagree, and why?", "back": "The student's friend, many adults, and the chatbot's second answer all hold the distance idea. Why is that misconception so common? (Closer to a heater feels warmer.)" },
+        { "label": "Implication", "front": "If that were true, what else would have to be true?", "back": "If distance caused seasons, both hemispheres would have summer at the same time. They don't. This question usually cracks the seminar open." },
+        { "label": "Implication", "front": "What happens if a student believes this?", "back": "The student turns in the second answer as fact, and it's wrong. The student also learns that pushing a chatbot is a way to get the answer you want." },
+        { "label": "The question", "front": "Why did the answer change, and should we change our minds too?", "back": "The chatbot didn't get new evidence; it agreed with the user. A change caused by pressure is not a correction. Only evidence should change our minds." },
+        { "label": "The question", "front": "What should the student have asked instead?", "back": "For example: \"What evidence shows whether tilt or distance causes the seasons?\" or \"When is Earth closest to the Sun?\" Then check the answer in a reliable source." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Design Your Own AI-Text Seminar",
+      "type": "worksheet",
+      "instructions": "Plan a 20-minute seminar in your subject where the text is an AI answer.",
+      "sections": [
+        { "prompt": "A question a student in my class might really ask a chatbot:", "lines": 2 },
+        { "prompt": "What a strong answer would include (so I know exactly what's right):", "lines": 3 },
+        { "prompt": "Errors, gaps, or missing viewpoints a chatbot answer on this topic might contain, or that I'll build into a mock answer:", "lines": 3 },
+        { "prompt": "A pushback a student might give that the chatbot could wrongly agree with:", "lines": 2 },
+        { "prompt": "My five seminar questions, moving from clarifying to implication:", "lines": 6 },
+        { "prompt": "The evidence I'll collect afterward that shows students questioned rather than accepted (exit ticket, corrected answer, tally):", "lines": 2 }
+      ]
+    }
+  ]
+}

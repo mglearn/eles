@@ -1,0 +1,153 @@
+{
+  "id": "ai-study-buddy-contract",
+  "title": "AI Study Buddy Contract",
+  "tagline": "Students sort AI uses that build learning from ones that replace it, then write a SMART goal, a personal AI contract, and an honest-use log they keep for two weeks.",
+  "audience": "student",
+  "grades": ["6-8", "9-12"],
+  "strands": ["genai", "digcit"],
+  "mode": "hybrid",
+  "minutes": 55,
+  "groupSize": "Trios for the sort; individual contracts",
+  "eles": ["S4.1", "S4.2", "S4.3", "AI2.1", "S1.3"],
+  "overview": "AI can quiz you, explain a tricky idea a new way, or give feedback on a draft. It can also do the thinking for you, so the assignment gets done but nothing gets learned. In this activity, students sort realistic AI uses into \"builds my learning,\" \"replaces my learning,\" and \"depends, check the rules.\" Then they compare two teacher-projected AI responses to the same request, set a SMART learning goal, and write a personal AI Study Buddy Contract with an honest-use log. The question at the center: did the tool make *me* smarter, or just make the work *look* done?",
+  "objectives": [
+    "Students will distinguish AI uses that support learning from uses that replace it, and justify each choice.",
+    "Students will set a SMART learning goal based on an honest look at their own strengths and areas for growth.",
+    "Students will write a personal AI contract and keep an honest-use log that records what they asked, what they did with the answer, and what they learned."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Builds It or Replaces It? Sort (1 per trio, cut apart)",
+      "Handout B: My AI Study Buddy Contract (1 per student)",
+      "Handout C: Honest-Use Log (1 per student; print extra for the two-week follow-up)",
+      "Your class or district AI-use guidelines, posted or projected"
+    ],
+    "digital": [
+      "Teacher device and projector with a generative AI chatbot your district approves (teacher-driven)",
+      "Optional (students 13+ with district-approved access): the chatbot on student devices for the log follow-up",
+      "Optional: a digital copy of Handout C in the LMS so students can log over two weeks"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Print Handouts B and C.",
+    "Know your class and district AI rules so you can answer \"is that allowed?\" questions. Post them where students can see them.",
+    "Test two prompts in your district-approved chatbot on a topic your class is studying: one that asks the tool to **do** the work (\"Write my paragraph explaining photosynthesis\") and one that asks it to **coach** (\"Quiz me on photosynthesis one question at a time, and don't give me the answer until I try\"). If you have no tool, use the two printed responses in the Model step."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "The gym analogy",
+      "body": "Ask: **\"If a robot lifted weights for you every day, would you get stronger?\"** Let students laugh, then ask: \"So when is AI like a spotter who helps you lift more, and when is it like a robot lifting for you?\" Tell students today they'll decide for themselves and write it down as a contract.",
+      "note": "Avoid framing AI as cheating by default. The goal is judgment, not fear."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Builds it or replaces it?",
+      "body": "Trios sort the 12 strips from Handout A onto three categories: **Builds my learning**, **Replaces my learning**, and **Depends, check the rules**. For each, they must agree on a reason. Then two trios pair up and compare their three most different placements.",
+      "note": "The \"Depends\" pile starts the best arguments. For example, fixing grammar is fine in a science lab report but may not be in an assignment that grades grammar."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Same topic, two requests",
+      "body": "Project your two prompts in the district-approved chatbot, or read these printed versions. **Request 1:** \"Write my paragraph about why the water cycle matters.\" The response is a finished, polished paragraph. **Request 2:** \"I'm studying the water cycle. Ask me one question at a time, wait for my answer, and tell me what I got right and what to fix.\" The response is: \"Great! Question 1: In your own words, what happens to water during evaporation?\" Ask: **\"After ten minutes with each, who knows more about the water cycle: the student or the chatbot? What would you have to show your teacher to prove you learned it?\"**",
+      "note": "If students are under 13, you drive the tool and type any student answers yourself. Say aloud that you are leaving out names and personal details."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 8,
+      "title": "Know yourself",
+      "body": "Students start Handout B. They name **a strength, a subject or skill where they're stuck, and how they usually get unstuck**. Then they write one SMART goal (Specific, Measurable, Achievable, Relevant, Time-bound) for the next two weeks, such as \"I will explain the three types of rock to a partner without notes by next Friday by quizzing myself three times a week.\"",
+      "note": "Conference briefly with students who write goals like \"get better at math.\" Ask: \"How would you know you did it?\""
+    },
+    {
+      "phase": "Create",
+      "minutes": 14,
+      "title": "Write the contract",
+      "body": "Students finish Handout B: **three ways I will use AI to build my learning, two ways I won't, how I'll show my own thinking, and how I'll tell my teacher when AI helped.** They check their contract against the class AI rules. Pairs swap contracts and ask each other one question: \"How would your teacher know you learned it, not the AI?\" Students sign; the partner signs as a witness.",
+      "note": "This is where students become learning owners. Push for contract lines that name evidence: \"I'll turn in my first draft before I ask AI for feedback.\""
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 10,
+      "title": "Start the log",
+      "body": "Walk through Handout C with one example row filled in together (it's already on the handout). Students complete one row now for a study session they plan this week, even if they choose not to use AI. Close with the question: **\"What will you check on your log in two weeks to see if your contract is working?\"**",
+      "note": "A log entry of \"no AI used\" is fully valid. The log tracks learning decisions, not tool use."
+    }
+  ],
+  "unplugged": "The sort, SMART goal, contract, and log are all paper. For the Model step, read aloud the two printed responses in the step, or act them out: one student plays a chatbot that \"does the work\" and another plays one that \"coaches.\" The log works for any study method, including no AI at all.",
+  "digital": "The teacher runs both requests live in a district-approved chatbot on the projector. Students 13 and older with district-approved access may use the coaching-style prompt on their own devices during the two-week follow-up and paste short excerpts into a digital Handout C in the LMS. Students under 13 log only teacher-led AI sessions or non-AI study.",
+  "whyTech": "Seeing the same tool produce a finished answer in one case and a coaching question in the other shows that the learner's request, not the tool, decides whether learning happens. The log makes AI use visible as evidence rather than hidden.",
+  "adaptations": [
+    { "label": "Grades 3–5", "text": "Use six strips and replace the contract with three \"I will / I won't\" sentences. The teacher runs all AI and the class writes one shared log." },
+    { "label": "Grades 9–12", "text": "Add strips about college essays and citing AI, and ask students to align their contract with each course's syllabus AI policy, noting where policies differ." },
+    { "label": "Students with IEPs or 504s", "text": "Discuss how AI features like read-aloud or simplified explanations can be accommodations that build access to learning, and include them in the contract with the case manager's input." }
+  ],
+  "lookFors": [
+    "Sort justifications focus on who does the thinking (\"I still have to explain it myself\"), not just whether a tool was used.",
+    "SMART goals are measurable and tied to a named area for growth.",
+    "Contracts name evidence of the student's own thinking, and log entries record what the student changed or learned after using AI."
+  ],
+  "reflection": [
+    "Am I trying my best to learn on my own? How do I know AI helped me learn and didn't just do the work?",
+    "What are my learning strengths, and where do I need a study buddy, human or AI?",
+    "When I use AI, how will I be honest with my teacher about it?"
+  ],
+  "transfer": "Students keep Handout C for two weeks, then bring it to a short conference or exit ticket: Did I meet my SMART goal? Which AI uses actually helped? What will I change in my contract? Invite students to share the contract with a family member.",
+  "connections": [
+    { "title": "Augmented K–16 AI Learning Framework", "url": "https://mglearn.github.io/tcea/alf/", "note": "Teacher reference for where AI supports learning at different levels." },
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "Student practice on responsible AI use." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Builds It or Replaces It? Sort",
+      "type": "sort",
+      "instructions": "Place each strip in a category and agree on one reason. Check your class AI rules for the \"Depends\" pile.",
+      "categories": ["Builds my learning", "Replaces my learning", "Depends, check the rules"],
+      "items": [
+        { "text": "Asking AI to quiz me on vocabulary one word at a time before a test.", "answer": "Builds my learning", "why": "I do the remembering; the tool just asks the questions." },
+        { "text": "Asking AI to write my book report, then turning it in as mine.", "answer": "Replaces my learning", "why": "The AI did the reading and thinking, and it isn't honest." },
+        { "text": "Asking AI to explain fractions a different way after I didn't understand the lesson, then trying practice problems on my own.", "answer": "Builds my learning", "why": "A new explanation plus my own practice builds understanding." },
+        { "text": "Asking AI to solve all 20 math homework problems and copying the answers.", "answer": "Replaces my learning", "why": "I skip the practice the homework is for." },
+        { "text": "Asking AI to fix the grammar in my science lab report.", "answer": "Depends, check the rules", "why": "Fine if grammar isn't what's being assessed and I disclose it. Not fine if it is." },
+        { "text": "Writing my own essay draft first, then asking AI which paragraph has the weakest evidence.", "answer": "Builds my learning", "why": "My thinking comes first; I decide what to do with the feedback." },
+        { "text": "Asking AI to summarize a chapter so I don't have to read it.", "answer": "Replaces my learning", "why": "I miss the reading, and summaries can leave out or change things." },
+        { "text": "Using AI to brainstorm ten topic ideas for a project, then choosing and researching one myself.", "answer": "Depends, check the rules", "why": "Often allowed, but some projects grade idea generation. I should disclose it either way." },
+        { "text": "Asking AI to check my answer after I finish a problem, then figuring out where I went wrong.", "answer": "Builds my learning", "why": "I do the work first and learn from the mistake." },
+        { "text": "Asking AI to translate a reading into my home language so I can understand it, then answering questions in English.", "answer": "Depends, check the rules", "why": "Often a helpful support. Check with the teacher, and remember translations can have errors." },
+        { "text": "Having AI write my reflection about what I learned this week.", "answer": "Replaces my learning", "why": "A reflection is only useful if it's my own thinking." },
+        { "text": "Asking AI to make a practice test from my class notes and then taking it without looking.", "answer": "Builds my learning", "why": "Retrieval practice from my own notes. I still check that the questions match what we learned." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "My AI Study Buddy Contract",
+      "type": "worksheet",
+      "instructions": "Be honest. This contract is for you. It should match your class AI rules.",
+      "sections": [
+        { "prompt": "Know myself: one learning strength I have, one area where I get stuck, and what I usually do when I'm stuck:", "lines": 3 },
+        { "prompt": "My SMART goal for the next two weeks (Specific, Measurable, Achievable, Relevant, Time-bound):", "lines": 3 },
+        { "prompt": "Three ways I WILL use AI (or another study buddy) to build my learning toward this goal:", "lines": 3 },
+        { "prompt": "Two ways I WON'T use AI, and why:", "lines": 2 },
+        { "prompt": "How I'll show my own thinking (drafts, notes, explanations in my own words):", "lines": 2 },
+        { "prompt": "How I'll tell my teacher when AI helped (what I'll write or say):", "lines": 2 },
+        { "prompt": "Partner's question for me, and my answer:", "lines": 2 },
+        { "prompt": "Signed (me): ______________  Witness (partner): ______________  Date: ________", "lines": 1 }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Honest-Use Log",
+      "type": "table",
+      "instructions": "Fill in one row every time you study toward your goal, with or without AI. \"No AI\" is a perfectly good entry.",
+      "columns": ["Date + task", "What I asked (or \"no AI\")", "What I did with the answer", "What I learned or changed", "Did it build or replace my learning?"],
+      "rows": [
+        ["Example: Mon, rocks review", "\"Quiz me on igneous, sedimentary, and metamorphic rocks, one question at a time.\"", "Answered 6 questions; got 2 wrong and reread my notes on those.", "I mixed up sedimentary and metamorphic. Now I remember: heat and pressure = metamorphic.", "Built it: I did the thinking."]
+      ],
+      "blankRows": 8
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": "never-paste-this",
+  "title": "Never Paste This",
+  "tagline": "A fast sort and a de-identification drill so data teams know exactly what student information must never go into an AI tool, and how to ask the question they need without it.",
+  "audience": "pl",
+  "roles": ["coaches", "teachers", "leaders", "staff"],
+  "grades": ["K-12"],
+  "strands": ["digcit", "genai"],
+  "mode": "unplugged",
+  "minutes": 25,
+  "groupSize": "Pairs within a data team or PLC; 4–40 people",
+  "eles": ["C3.3", "AI2.1", "C3.1"],
+  "overview": "Data teams are the place where the temptation is strongest: a spreadsheet of scores, a chatbot that can \"find the patterns,\" and fifteen minutes left in the meeting. This short opener, sized for the start of a PLC or data meeting, has teams sort realistic data items into three categories, then rewrite a set of raw data-team notes so the instructional question survives and the students become unrecognizable. Teams leave with a one-page \"before you paste\" check they can tape to the wall.",
+  "objectives": [
+    "Participants will classify types of student data by whether they may go into an AI tool, and under what conditions.",
+    "Participants will de-identify a set of notes by removing both direct identifiers and indirect details that could single out a student.",
+    "Participants will rewrite a data question so an AI tool can help with instruction without receiving student information."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: What Goes In? Sort (1 set per pair, cut apart, with a three-column mat)",
+      "Handout B: Raw Data-Team Notes (1 per pair)",
+      "Handout C: Before You Paste Checklist (1 per person, plus one enlarged for the wall)",
+      "Red pens or markers"
+    ],
+    "digital": [
+      "Optional: your district's approved AI tool list and data privacy guidance, projected",
+      "Optional: a facilitator-run demo in an approved chatbot using only the de-identified version"
+    ]
+  },
+  "prep": [
+    "Cut Handout A into strips and clip one set per pair with a mat that shows the three headings.",
+    "Find your district's list of approved AI tools and its guidance on student data. The facilitator key reflects common practice; your district's policy wins wherever they differ.",
+    "Print one copy of Handout C large enough to post in the data room."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 3,
+      "title": "The fifteen-minute temptation",
+      "body": "Say: **\"It's the end of a data meeting. Someone says, 'Let's just drop the spreadsheet into the chatbot and ask which kids need intervention.' What's your first reaction?\"** Take two quick answers. Then: \"Most of us know the answer is 'not like that.' Today we get specific about what's never okay, what's okay with conditions, and how to still get the help.\"",
+      "note": "Don't shame anyone who has done this. Many tools make it easy, and many districts' guidance is new."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 8,
+      "title": "Sort: what goes in?",
+      "body": "Pairs sort the Handout A strips into **Never into an AI tool**, **Only de-identified, in a district-approved tool**, and **Fine in an approved tool**. Each pair must agree before a strip is placed. Any strip they argue about goes face down in the middle for the debrief.",
+      "note": "The strips that cause the most debate are usually the \"anonymous\" ones: a class list with only first names, or a description of \"the only student who…\" Those are exactly where re-identification happens."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 4,
+      "title": "Check the key, argue the middle",
+      "body": "Read the key for the face-down strips first. Name the principle: **a student can be identified by a combination of details, not just a name.** Grade, campus, program, and one unusual detail is often enough. Then show your district's approved tool list and point out any differences from the key.",
+      "note": "Mention in passing that federal student privacy law (FERPA) and state law apply whether or not a tool uses AI. The AI part mostly raises the stakes: data may be stored, reviewed, or used for training."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 7,
+      "title": "De-identify the notes",
+      "body": "Pairs take Handout B and use red pens to strike every **direct identifier** (names, ID numbers, birthdates) and every **indirect identifier** (unique family details, rare programs in small groups, \"the only one who…\"). Then they rewrite the team's actual question at the bottom so it asks for instructional help, such as \"Suggest three small-group activities for 3rd graders who decode single-syllable words but struggle with multisyllabic words,\" with no student data at all.",
+      "note": "Look-for: pairs realize the question rarely needs the student data. The AI is useful for strategies; the team is the one that knows the students."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 3,
+      "title": "Tape it to the wall",
+      "body": "Post the enlarged Handout C in the data room. Ask each person to read it once and circle the item they are most likely to forget under time pressure. Close: **\"Next data meeting, whoever touches the keyboard reads this aloud first.\"**",
+      "note": "Coaches: this checklist also makes a good opening for a one-on-one with a teacher who is excited about AI and data."
+    }
+  ],
+  "unplugged": "The activity is designed as a paper activity: the sort, the red-pen de-identification, and the wall checklist need no devices. It fits in the opening 25 minutes of a data meeting.",
+  "digital": "Run the sort as a three-column drag-and-drop board and the de-identification in a shared document with suggesting mode, so edits are visible. If you demo AI, the facilitator uses only the rewritten, data-free question in a district-approved chatbot on the projector and shows that the strategies it returns are just as useful without any student information.",
+  "whyTech": "The optional demo proves the most persuasive point: the tool gives the same instructional help without student data. Everything else is better on paper, where red-pen strikes make the invisible identifiers visible.",
+  "adaptations": [
+    { "label": "Campus leaders", "text": "Add strips about staff data (evaluation notes, medical leave) and discuss who approves AI tools for administrative use." },
+    { "label": "Special education teams", "text": "Add strips from IEP and 504 paperwork and practice rewriting accommodation questions without disability details." },
+    { "label": "Higher Ed", "text": "Swap in course roster, grade, and accommodation-letter examples, and name your institution's data classification levels as the categories." }
+  ],
+  "lookFors": [
+    "Pairs place the \"only student who…\" and small-group strips in the Never or de-identified columns, not in Fine.",
+    "Red-pen edits on Handout B remove indirect identifiers as well as names and ID numbers.",
+    "Rewritten questions ask for instructional strategies and contain no student information.",
+    "Participants can name the district's approved AI tools, or name who to ask."
+  ],
+  "reflection": [
+    "How am I using data to inform and guide my coaching practices? (Coach ELE guiding question)",
+    "In our data meetings, where is student information most likely to leave the room without anyone noticing?",
+    "What instructional question could I ask an AI tool this week that needs no student data at all?"
+  ],
+  "transfer": "At your next data meeting, read Handout C aloud before anyone opens an AI tool, and bring one rewritten, data-free question to test. Teach the same idea to students with the question: \"Would you want this detail about you pasted somewhere you can't see?\"",
+  "connections": [
+    { "title": "Generative AI Adoption Checklist", "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/", "note": "For leaders deciding which AI tools are approved for data work." },
+    { "title": "CYBERSMART Ready: Educator Cybersecurity Tabletop", "url": "https://mglearn.github.io/tcea/cybersmart/", "note": "A follow-up on protecting student data more broadly." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "What Goes In? Sort",
+      "type": "sort",
+      "instructions": "Cut apart. Sort each strip. If your pair disagrees, place it face down in the middle for the debrief. Your district's policy takes priority over this key.",
+      "categories": ["Never into an AI tool", "Only de-identified, in a district-approved tool", "Fine in an approved tool"],
+      "items": [
+        { "text": "A spreadsheet of student names, ID numbers, and reading screener scores.", "answer": "Never into an AI tool", "why": "Direct identifiers plus academic records." },
+        { "text": "An IEP goal page, with the student's name blacked out but the disability category and campus visible.", "answer": "Never into an AI tool", "why": "Disability information with campus details can identify a child; special education records need the strictest handling." },
+        { "text": "A note that says, \"The only 4th grader at our campus who uses a wheelchair is falling behind in math.\"", "answer": "Never into an AI tool", "why": "No name, but the details identify the student to anyone who knows the campus." },
+        { "text": "A counselor's note about a student's family situation that explains recent absences.", "answer": "Never into an AI tool", "why": "Sensitive personal and family information; it has no place in a tool." },
+        { "text": "Student essays with names removed, to get suggestions for common writing weaknesses across the class.", "answer": "Only de-identified, in a district-approved tool", "why": "Student work can contain personal details; strip them, check each essay, and use only an approved tool." },
+        { "text": "A class list with first names only and each student's score on a unit test.", "answer": "Only de-identified, in a district-approved tool", "why": "First names plus a class are identifying; replace names with numbers, and prefer summarized results." },
+        { "text": "The percentage of the class that scored below 70 on each question of a unit test.", "answer": "Fine in an approved tool", "why": "Aggregated item data with no individual students; still use an approved tool." },
+        { "text": "The text of a unit test you wrote, to get ideas for reteaching the questions students missed most.", "answer": "Fine in an approved tool", "why": "Your own materials and no student data." },
+        { "text": "\"Suggest small-group activities for 3rd graders who can decode single-syllable words but struggle with multisyllabic words.\"", "answer": "Fine in an approved tool", "why": "A purely instructional question; no student data needed." },
+        { "text": "A photo of a whiteboard from a data meeting that lists students by name in intervention tiers.", "answer": "Never into an AI tool", "why": "Images carry names just like text does." },
+        { "text": "Anonymous survey comments from students about the school climate, some mentioning specific teachers and incidents.", "answer": "Only de-identified, in a district-approved tool", "why": "Free-text comments often contain names and events; scrub them first and follow district survey rules." },
+        { "text": "The state's published description of a reading standard, to generate practice question ideas.", "answer": "Fine in an approved tool", "why": "Public information; the output still needs a teacher's review." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Raw Data-Team Notes",
+      "type": "reading",
+      "instructions": "Fictional notes from a 3rd grade data meeting at Oak Ridge Elementary in Cypress Bend ISD. Strike every direct and indirect identifier in red. Then rewrite the team's question at the bottom so it needs no student data.",
+      "paragraphs": [
+        "**Beginning-of-year reading screener review, 3rd grade, Ms. Tran's and Mr. Oyelaran's classes.**",
+        "Jaylen Brooks (student ID 4471902, born March 3) is below benchmark on the fall screener. Decodes single-syllable words well, but struggles with multisyllabic words. Receives dyslexia services with Ms. Hale on Tuesdays and Thursdays. His mom mentioned at the conference that the family is going through a divorce.",
+        "Priya S. is below benchmark, but she moved here from Brazil in August and is the only 3rd grader in the newcomer program this year. Her oral retell in Portuguese was strong. Same multisyllabic pattern as Jaylen.",
+        "Marcus and Dani (Mr. Oyelaran's class, table 3) are both just below benchmark with the same multisyllabic pattern. Marcus was absent 9 days last spring for medical reasons.",
+        "Team question as written in the notes: \"Paste all of this into the chatbot and ask what intervention each of these four kids needs and whether Jaylen's home situation is affecting his reading.\"",
+        "Your rewrite of the question, with no student data:"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Before You Paste Checklist",
+      "type": "checklist",
+      "instructions": "Read this aloud before anyone opens an AI tool in a data meeting. Every answer should be Yes.",
+      "scale": ["Yes", "No"],
+      "items": [
+        "The tool is on our district's approved list for this kind of use.",
+        "We've asked ourselves whether this question needs any student data at all.",
+        "No names, ID numbers, birthdates, photos, or initials are included.",
+        "No detail could single out a student to someone who knows our campus (\"the only one who…\").",
+        "No disability, health, family, discipline, or counseling information is included.",
+        "Any student work has been checked line by line for personal details.",
+        "We're sharing aggregated results, not individual rows, wherever possible.",
+        "A person on the team will verify every suggestion before it affects a student.",
+        "We could explain exactly what we pasted to a family and feel fine about it."
+      ]
+    }
+  ]
+}

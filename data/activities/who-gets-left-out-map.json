@@ -1,0 +1,156 @@
+{
+  "id": "who-gets-left-out-map",
+  "title": "Who Gets Left Out? Mapping the Digital Divide",
+  "tagline": "Leaders walk a proposed homework-and-AI-tutor initiative through the lives of ten fictional families, map every barrier they hit, and turn the map into policy.",
+  "audience": "pl",
+  "roles": ["leaders", "staff", "faculty"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["digcit"],
+  "mode": "unplugged",
+  "minutes": 75,
+  "groupSize": "Teams of 4–6; any number of teams",
+  "eles": ["L4.2", "L4.3", "L1.2", "AI2.2"],
+  "overview": "\"Every student has a device\" is where most equity conversations end, and where the real digital divide begins. It runs through home connectivity, shared devices, accessibility, home languages, caregivers' schedules, trust, and now the cost of AI tools, where free and paid tiers can give different students very different help. In this session, teams take a fictional district's plan to move homework online and add an AI tutor, then walk it through ten family profiles. Every barrier goes on a wall map, and the map becomes the draft of an equitable-access policy with evidence to watch.",
+  "objectives": [
+    "Participants will identify barriers to digital learning across at least five dimensions: connectivity, devices, accessibility, language, cost, time, and trust.",
+    "Participants will distinguish barriers that a policy can remove from those that require individual outreach.",
+    "Participants will draft policy language and strategies that support equitable access to technology and AI tools, each with a measure the team will monitor."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The Initiative and the District (1 per person)",
+      "Handout B: Family Profile Cards (1 set per team, cut apart)",
+      "Handout C: Barrier-to-Policy Map (1 per team, enlarged to 11×17 or copied onto chart paper)",
+      "Sticky notes in three colors, markers, a long wall space or butcher paper"
+    ],
+    "digital": [
+      "Optional: a shared digital whiteboard for the barrier map in virtual sessions",
+      "Optional: your district's own technology access survey results, if you have them, for the Transfer step"
+    ]
+  },
+  "prep": [
+    "Print Handouts A and C and cut Handout B. Each team gets all ten profile cards.",
+    "Label a long wall with seven columns: Connectivity, Devices, Accessibility, Language, Cost, Time and Schedules, Trust and Privacy.",
+    "Give each team three sticky-note colors: yellow for barriers, green for a policy fix, pink for barriers that need individual outreach rather than policy.",
+    "If you'll use real local data in Transfer, gather it and remove any identifying information."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 7,
+      "title": "The confident plan",
+      "body": "Everyone reads Handout A. Ask: **\"On a scale of one to five, how equitable is this plan?\"** People hold up fingers. Ask a few people at each end to explain. Say: \"Let's test it the only way that matters: through the lives of the families who'll live with it.\"",
+      "note": "The plan is written to sound thoughtful. It includes devices for all and a free AI tier. Early scores are usually 3 or 4."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 20,
+      "title": "Walk the plan through ten families",
+      "body": "Teams divide the ten family cards. For each family, a team member reads the card aloud and the team asks: **\"Tuesday night, 7 p.m., homework is due at 11:59. What happens?\"** Every barrier goes on a yellow sticky note in the right column of the wall map, with the family's card number. One family can hit several barriers.",
+      "note": "Keep teams from solving too early. The goal of this step is to see the barriers clearly. Solutions come next."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 10,
+      "title": "Read the wall",
+      "body": "Everyone steps back and reads the whole wall. Ask: **\"Which column is fullest? Which barrier did the plan's device promise not touch at all? Which families hit the most barriers, and what do they have in common?\"** Then ask about the AI tutor's free and paid tiers: \"If the paid tier gives better help, who gets better help?\"",
+      "note": "A common realization: the families with the most barriers are also the least likely to show up in an online survey about the plan. The data you'd normally use would hide them."
+    },
+    {
+      "phase": "Create",
+      "minutes": 20,
+      "title": "From barriers to policy",
+      "body": "Each team takes two or three columns. For each barrier, the team decides: can a **policy or systemic strategy** remove it (green sticky), or does it need **individual outreach** (pink sticky)? Then teams complete Handout C: the barrier, who it affects, current practice, a policy or strategy, and **the evidence we'll watch** to know whether it worked.",
+      "note": "Push for evidence beyond usage. \"Homework completion rates by whether the student has home internet\" tells you more than \"number of hotspots distributed.\""
+    },
+    {
+      "phase": "Apply",
+      "minutes": 12,
+      "title": "Revise the plan",
+      "body": "Each team rewrites the plan's three most important sentences on chart paper. Teams share in a quick round: **read the old sentence, read the new one, name the family card that changed it.** Include at least one change about the AI tutor: cost, data privacy, language, or whether it is required.",
+      "note": "Watch for revisions that add alternatives rather than exceptions. \"Assignments can be completed on paper or offline\" is stronger than \"students may request an exception.\""
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 6,
+      "title": "Your own map",
+      "body": "Each person names one real initiative on their campus and the one family profile from today that it might leave out. On an index card, they write one question to add to their next planning meeting, such as \"How will this work for a student sharing a phone with two siblings?\"",
+      "note": "This is question 4 of the leaders' five-question check: Who might be left out? Encourage people to add it to every agenda."
+    }
+  ],
+  "unplugged": "Designed to run entirely on paper: the plan, the family cards, sticky notes on a wall map, and a printed organizer. The physical wall map is the point. Seeing a column fill with sticky notes makes the scale of a barrier visible in a way a list doesn't.",
+  "digital": "In a virtual session, build the seven-column wall on a shared digital whiteboard and give each team a color. Share family cards as a slide deck, one family per slide. Teams complete Handout C in a shared document. If you have your district's own access survey data, display it after the Debrief and ask which families from today would likely be missing from it.",
+  "whyTech": "This one is better unplugged. The empathy work of walking a plan through a family's evening, and the visual impact of a crowded wall map, both land more strongly in the room. A digital whiteboard is a good substitute for remote groups, not an improvement.",
+  "adaptations": [
+    { "label": "Higher Ed", "text": "Replace family cards with student profiles: a commuter who studies on the bus, a student parent, a veteran using disability services, an international student with limited data, a student who can't afford paid AI tools a course recommends." },
+    { "label": "Campus staff (front office, counselors)", "text": "Add a step where staff role-play the phone call or front-desk conversation with two of the families, practicing how to offer help without making families explain their circumstances publicly." },
+    { "label": "Short on time (45 min)", "text": "Use five family cards (1, 3, 5, 7, 9), skip the Apply step, and have teams complete only three rows of Handout C." }
+  ],
+  "lookFors": [
+    "The wall map has barriers in at least five of the seven columns, each tagged with a family card number.",
+    "Teams distinguish policy fixes from individual outreach rather than treating every barrier the same way.",
+    "Handout C lists a specific evidence measure for each strategy, not just the number of devices or hotspots distributed.",
+    "The revised plan addresses the cost gap between free and paid AI tiers and offers non-digital alternatives."
+  ],
+  "reflection": [
+    "What steps am I taking to create an inclusive and positive digital learning culture? (Leader ELE 4.0)",
+    "Which families in our community would be least likely to tell us a plan isn't working for them, and how would we find out?",
+    "When an AI tool has free and paid tiers, what is our responsibility to students whose families can't pay?",
+    "Which of our current policies assume every student has the same evening, device, and connection?"
+  ],
+  "transfer": "Before your next technology decision, bring three family profiles from today to the planning meeting and walk the plan through them. Add \"Who might be left out?\" as a standing agenda item, and choose one measure from Handout C to begin tracking this semester.",
+  "connections": [
+    { "title": "Digital Accessibility Readiness Assessment", "url": "https://mglearn.github.io/tcea/a11y/", "note": "A deeper look at the Accessibility column of the map." },
+    { "title": "Family App Privacy Audit", "url": "https://mglearn.github.io/tcea/privacy-audit/", "note": "A family-facing tool for the Trust and Privacy barriers." },
+    { "title": "TCEA ELEs (PDF)", "url": "https://tinyurl.com/tceaeles1", "note": "School Leader ELE 4.0: Fostering a Digital Learning Culture." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The Initiative and the District",
+      "type": "reading",
+      "instructions": "Mesquite Flats ISD and its plan are fictional. Read the plan as the board would receive it.",
+      "paragraphs": [
+        "**Mesquite Flats ISD** serves a mix of neighborhoods: a growing suburban area, an older town center with many apartment complexes, and rural ranch roads where some homes are several miles from the nearest neighbor. Families speak English, Spanish, Vietnamese, and Arabic at home. Every student in grades 3–12 is issued a district laptop.",
+        "**The proposal: \"Homework Without Walls.\"** Starting in January, all homework in grades 3–12 will be assigned and submitted through the district's online learning platform. Paper homework packets will be discontinued to reduce printing costs and so teachers can give faster feedback.",
+        "**The AI tutor.** Each student will have access to a generative AI homework tutor inside the platform, available 24 hours a day. The free tier offers hints and step-by-step explanations for up to 20 questions per day. A premium tier, which families may purchase for a monthly fee, offers unlimited questions, voice explanations, and translation into additional languages.",
+        "**Support.** Families without home internet may request a hotspot; the district has a limited supply, distributed first come, first served, through an online request form. A help desk is available by email on weekdays from 8 a.m. to 4 p.m. The plan will be announced in the district newsletter and on the district website.",
+        "**Measures of success.** The district will track platform login rates, homework submission rates, and AI tutor usage, and will survey families online at the end of the semester."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Family Profile Cards",
+      "type": "cards",
+      "instructions": "All families are fictional. For each card, ask: Tuesday, 7 p.m., homework due at 11:59. What happens? Backs are facilitator prompts.",
+      "cards": [
+        { "label": "Family 1", "front": "**The Nguyens.** Three children in grades 4, 7, and 10. Home internet is the father's phone hotspot, which slows to a crawl after the monthly data limit. Grandmother, who watches the children after school, reads Vietnamese but not English.", "back": "Connectivity, language. Who helps with homework when the only adult at home can't read the platform or the AI tutor's English?" },
+        { "label": "Family 2", "front": "**Marcus, grade 11.** Lives with his aunt on a ranch road with no broadband service. A hotspot gets one bar near the kitchen window. Works at a feed store until 8 p.m. three nights a week.", "back": "Connectivity, time. A hotspot doesn't fix a coverage gap. Offline access and flexible deadlines matter more here." },
+        { "label": "Family 3", "front": "**Aisha, grade 6.** Has low vision and uses screen magnification. Her family speaks Arabic at home. She loves the idea of a tutor that explains things out loud, but voice explanations are premium-only.", "back": "Accessibility, cost, language. A feature that works as an accommodation is behind a paywall. Is that equitable access?" },
+        { "label": "Family 4", "front": "**The Garzas.** Four children, one district laptop each, but the 3rd grader's laptop is in repair for two weeks. Mom works nights and sleeps during the day; Dad works days. No one is home during help desk hours.", "back": "Devices, time. Loaners, repair timelines, and help desk hours all assume a daytime schedule." },
+        { "label": "Family 5", "front": "**Jordan, grade 9.** Lives between two households on alternating weeks. One has fast internet; the other has none. Jordan often leaves the charger at the other house.", "back": "Connectivity, devices. Barriers can change week to week for the same student." },
+        { "label": "Family 6", "front": "**The Parks.** Two parents who work in tech. They've already bought the premium AI tier for their 8th grader and hired a tutor. Their child finishes homework in half the time of classmates.", "back": "Cost. This family faces no barriers, and the plan widens the gap between them and everyone else. Good policy notices advantage too." },
+        { "label": "Family 7", "front": "**Rosa, grade 5.** Her parents are cautious about technology after a data breach at a previous employer. They've asked whether the AI tutor stores Rosa's questions and are unsure they want her using it. The newsletter didn't say.", "back": "Trust and privacy. Families who opt out for privacy reasons need an equal alternative, and a clear answer about data use." },
+        { "label": "Family 8", "front": "**Eli, grade 7.** Has ADHD and a plan that includes chunked assignments and check-ins. At home, the laptop's notifications, games, and the chatbot make it hard to stay on one task. His mother asks for paper homework.", "back": "Accessibility, wellbeing. Removing paper eliminates an accommodation some families rely on. Balance and screen time are part of access." },
+        { "label": "Family 9", "front": "**The Haddads.** Recently arrived. The family has one smartphone and no computer skills. They haven't created a family account on the platform and don't know the hotspot form exists, because it's online and in English.", "back": "Language, trust, connectivity. A support that must be requested online, in English, doesn't reach families who need it most." },
+        { "label": "Family 10", "front": "**Tyler, grade 12.** Lives in a shelter with his mother this semester. Wi-Fi is shared, slow, and shut off at 10 p.m. He hasn't told anyone at school.", "back": "Connectivity, time, trust. Policy must work without students disclosing hardship publicly. Who at school would notice?" }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Barrier-to-Policy Map",
+      "type": "table",
+      "instructions": "One row per barrier. Mark whether the fix is a policy or systemic strategy (P) or individual outreach (O). Name the evidence you'll watch.",
+      "columns": ["Barrier (family card #)", "Who else it likely affects", "Current practice in the plan", "Policy / strategy (P) or outreach (O)", "Evidence we'll watch"],
+      "rows": [
+        ["Premium AI tier needed for voice and translation (3, 1)", "Students needing audio support, multilingual families", "Paid tier offered for purchase", "", ""],
+        ["Help desk only 8 a.m.–4 p.m. weekdays (4)", "", "", "", ""],
+        ["", "", "", "", ""],
+        ["", "", "", "", ""],
+        ["", "", "", "", ""],
+        ["", "", "", "", ""]
+      ],
+      "blankRows": 2
+    }
+  ]
+}

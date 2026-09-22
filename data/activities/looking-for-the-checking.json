@@ -1,0 +1,150 @@
+{
+  "id": "looking-for-the-checking",
+  "title": "Looking for the Checking",
+  "tagline": "A looking-at-student-work protocol that asks one question of a class set: did students actually verify what the AI told them, and how can we tell?",
+  "audience": "pl",
+  "roles": ["coaches", "teachers", "librarians"],
+  "grades": ["6-8", "9-12"],
+  "strands": ["genai", "medialit"],
+  "mode": "unplugged",
+  "minutes": 45,
+  "groupSize": "PLC teams of 3–6 with one facilitator (coach or teacher leader)",
+  "eles": ["C3.1", "C3.2", "AI4.2", "T2.3"],
+  "overview": "Teachers now ask students to \"check what the AI says,\" and most students write \"I checked it.\" This protocol treats that assignment as data. A PLC reads a fictional set of eighth-grade research notes, describes what is actually on the page, places each sample on a verification evidence continuum, and plans the instruction the pattern calls for. The move for coaches: shift the conversation from \"Are students cheating with AI?\" to \"What does our students' work show about how they verify, and what do we teach next?\"",
+  "objectives": [
+    "Participants will separate low-inference description of student work from interpretation and judgment.",
+    "Participants will place student samples on a verification evidence continuum and describe the pattern across a class set.",
+    "Participants will plan one instructional move, and the evidence it should produce, for each level of the pattern."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Student Work Set, Dust Bowl research notes (1 per person)",
+      "Handout B: Verification Evidence Continuum (1 per person)",
+      "Handout C: Protocol Record (1 per team, for the note-taker)",
+      "Sticky notes in two colors (one for \"I notice\", one for \"I wonder\")"
+    ],
+    "digital": [
+      "Optional: the team's own de-identified student work, scanned into a shared folder",
+      "Optional: a shared copy of Handout C for virtual PLCs"
+    ]
+  },
+  "prep": [
+    "Read Handout A and the facilitator notes in Step 3 so you can steer the team back to evidence.",
+    "Choose a timekeeper and a note-taker in advance, or assign them at the start.",
+    "If the team will bring its own student work next time, tell them now: remove names and anything that identifies a student before it's shared."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "\"I checked it.\"",
+      "body": "Write on the board: **\"I checked it and it's right.\"** Ask: **\"If a student wrote this, what do you actually know?\"** Take two or three answers. Say: \"Today we look for the checking itself. Not the answer, not the effort. The evidence of the move.\"",
+      "note": "The honest answer is: you know the student knows they were supposed to check. That's all."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Describe only",
+      "body": "Everyone reads Handout A silently. On one color of sticky note, write only what is **on the page**: \"Student C quotes a page number,\" not \"Student C is careful.\" After six minutes, go around the table once; each person reads one note. The facilitator redirects any judgment: **\"What in the work makes you say that?\"** The note-taker records descriptions on Handout C.",
+      "note": "This step feels slow. It is where the team stops seeing \"good kids\" and \"lazy kids\" and starts seeing moves."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 10,
+      "title": "Place each sample on the continuum",
+      "body": "Using Handout B, pairs place each of the seven samples at a level for each criterion, then compare with the table. Tally how many samples reached **Checked a claim** or higher. Discuss the tricky ones: Student E checked a site that repeated the AI's exact wording; Student F didn't use AI at all; Student G found a mismatch and kept the AI version anyway.",
+      "note": "Look-for: the team treats E as a *media literacy* gap (circular sourcing) and G as a *disposition* gap (trusting the machine over a source). They need different instruction."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 7,
+      "title": "What does the pattern say about our teaching?",
+      "body": "Ask the coaching question in its data form: **\"If this were our class, what does this pattern say about what we taught, and what we assumed?\"** Push the team from student labels to instructional causes: \"Did we ever model what a check looks like? Did the assignment ask for evidence of the check, or just the answer?\"",
+      "note": "In this set, the assignment said \"verify two claims\" but never showed how or asked students to write down what they compared. Most gaps trace back there."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 11,
+      "title": "Plan the next move for each group",
+      "body": "In the last column of Handout C, the team plans one move for each level: for students with **no check**, a teacher think-aloud verifying one AI claim; for **claimed checks**, a required verification log (claim · where I checked · match or mismatch · what I changed); for **circular sources**, a mini-lesson on finding a source that didn't copy the first one; for **mismatch but kept the AI**, a discussion of why a documented source outranks a fluent answer. For each move, write what student work will look different next time.",
+      "note": "Keep the plan small enough to try within a week. The measure is the next class set, not a survey."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 3,
+      "title": "Next data date",
+      "body": "The team sets a date to bring the next set of student work and agrees on which criterion on Handout B they will tally. Each person writes one sentence: \"Next time, I'll know my move worked if…\"",
+      "note": "This is the Measure and Adjust part of the coaching cycle. Put the date on the PLC calendar before people leave."
+    }
+  ],
+  "unplugged": "The protocol is designed for paper: printed work, sticky notes, and a shared record. Looking at student work at a table, with everyone holding the same page, keeps the conversation grounded in evidence and makes it easy to point to a line.",
+  "digital": "Put de-identified scans of student work in a shared folder and use a shared copy of Handout C. In a virtual PLC, participants add \"I notice\" comments directly on the scanned work, then the facilitator groups them. If students did their verification in a digital log or document with version history, the team can look at when and how the check happened.",
+  "whyTech": "Paper is the better choice for the protocol itself. A digital verification log earns its place in the classroom afterward because it timestamps each check and preserves the claim, the source, and the revision together, which is richer evidence than a finished paragraph.",
+  "adaptations": [
+    { "label": "Grades 3–5 teams", "text": "Simplify the continuum to three levels: \"Didn't check,\" \"Checked one thing,\" \"Found something to fix.\" Use a teacher-projected AI answer rather than student AI use." },
+    { "label": "Higher Ed", "text": "Use annotated bibliographies from a course that permits AI-assisted searching. Add a criterion for whether cited sources exist and say what the student claims." },
+    { "label": "Librarians", "text": "Co-facilitate with the PLC and lead the circular-sourcing mini-lesson that the Apply step usually calls for." }
+  ],
+  "lookFors": [
+    "Descriptions on Handout C stay low-inference (what is on the page) before any interpretation.",
+    "The team distinguishes a claimed check from a documented check and names circular sourcing as its own problem.",
+    "Planned moves are tied to the assignment design and each names the student evidence expected next time.",
+    "A date and a criterion for the next look at student work are set before the meeting ends."
+  ],
+  "reflection": [
+    "How am I using data to inform and guide my coaching practices? (Coach ELE guiding question)",
+    "What counts as data in our PLC, and where is student reasoning missing from what we look at?",
+    "How would I know if students' verification improved, without relying on what they tell me?"
+  ],
+  "transfer": "Revise one upcoming assignment so students must record each check (claim, source, match or mismatch, change). Bring the next class set to the PLC and tally the same criterion to see what changed.",
+  "connections": [
+    { "title": "Digital Inquiry Group: Civic Online Reasoning", "url": "https://cor.inquirygroup.org/", "note": "Lessons for the circular-sourcing and lateral reading gaps this protocol often surfaces." },
+    { "title": "Data Display Patterns field guide", "url": "https://mglearn.github.io/tcea/ddp/", "note": "Ideas for showing the before-and-after tally to a PLC or leadership team." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Student Work Set: Dust Bowl Research Notes",
+      "type": "reading",
+      "instructions": "Fictional work from an 8th grade class at Harlan Creek Middle School. Assignment: \"Ask the class AI chatbot why the Dust Bowl happened. Verify two of its claims using our textbook or another reliable source.\" The chatbot's answer is printed first.",
+      "paragraphs": [
+        "**The chatbot's answer (projected by the teacher and copied by students):** \"The Dust Bowl was a period of severe dust storms on the southern Great Plains during the 1930s. It was caused by a single year of drought in 1934, made worse because farmers had plowed up the native grasses that held the soil in place. The federal government did nothing to help farmers recover.\"",
+        "**Student A:** Pasted the chatbot's answer word for word. Under it: \"Source: AI.\" No other notes.",
+        "**Student B:** Rewrote the answer in their own words. At the bottom: \"I checked it and it's right.\"",
+        "**Student C:** \"Claim 1: farmers plowed up grasses that held the soil. Checked in our textbook, chapter 14, page 402. It says the same thing. MATCH. Claim 2: dust storms in the 1930s. Textbook page 401 says the same. MATCH.\"",
+        "**Student D:** \"The AI said it was one year of drought in 1934. The textbook says there were droughts across most of the decade, not one year. MISMATCH. I changed my notes to 'several years of drought' and wrote down the page (401). Claim 2: the grasses. MATCH.\"",
+        "**Student E:** \"I searched the first sentence and found a website that says the exact same thing, so it's verified.\" (The site's text is word-for-word the same as the chatbot's answer. No author or organization is listed.)",
+        "**Student F:** Did not use the chatbot. Wrote a paragraph from the textbook with two page numbers. Note to teacher: \"I didn't want to use the AI.\"",
+        "**Student G:** \"The AI said the government did nothing. My textbook says the government started soil conservation programs to teach farmers new methods. MISMATCH. But I kept the AI version because the AI has more information than our book.\""
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Verification Evidence Continuum",
+      "type": "rubric",
+      "instructions": "Place each sample at a level for each criterion. Describe what you see before you decide.",
+      "levels": ["No check", "Claimed check", "Checked a claim", "Checked, corrected, explained"],
+      "criteria": [
+        { "name": "Identifies the claims to check", "descriptors": ["Treats the AI answer as one block.", "Mentions checking without naming a claim.", "Names specific claims from the AI answer.", "Names claims and chooses the ones most likely to be wrong or most important."] },
+        { "name": "Uses an independent source", "descriptors": ["No source other than the AI.", "Says a source was used but doesn't name it.", "Names a source, but it may repeat the AI (circular) or be unvetted.", "Names a reliable source that is independent of the AI answer, with a page or location."] },
+        { "name": "Acts on what the check shows", "descriptors": ["No comparison made.", "States a conclusion (\"it's right\") without showing the comparison.", "Records match or mismatch for each claim.", "Records a mismatch and revises the claim, choosing the documented source over the fluent one."] },
+        { "name": "Documents what changed", "descriptors": ["Final notes are the AI's words.", "Final notes are reworded but unchanged in substance.", "Notes show which claims were confirmed.", "Notes show what changed and why, so a reader could retrace the check."] }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Protocol Record",
+      "type": "table",
+      "instructions": "The note-taker fills this in. Keep the first column to what is on the page.",
+      "columns": ["Level on the continuum", "Samples here (A–G)", "What we see on the page (describe only)", "What it suggests about our teaching", "Next move and the evidence we expect"],
+      "rows": [
+        ["No check", "", "", "", ""],
+        ["Claimed check", "", "", "", ""],
+        ["Checked a claim (including circular sources)", "", "", "", ""],
+        ["Checked, corrected, explained", "", "", "", ""],
+        ["Mismatch found but AI kept", "", "", "", ""],
+        ["Didn't use AI", "", "", "", ""]
+      ]
+    }
+  ]
+}

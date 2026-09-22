@@ -1,0 +1,143 @@
+{
+  "id": "lateral-reading-relay",
+  "title": "Lateral Reading Relay",
+  "tagline": "Teams race to verify viral claims and an AI-written summary by leaving the page, not staring harder at it.",
+  "audience": "pl",
+  "roles": ["teachers", "librarians", "coaches"],
+  "grades": ["6-8", "9-12", "Higher Ed"],
+  "strands": ["medialit", "genai"],
+  "mode": "hybrid",
+  "minutes": 50,
+  "groupSize": "Teams of 3–4; works for 8–60 people",
+  "eles": ["T2.1", "T2.3", "AI4.2", "AI4.1"],
+  "overview": "Most of us were taught to judge a source by reading it closely: the About page, the spelling, the look of the site. Professional fact-checkers do the opposite. They leave the page and read *laterally*, checking what others say about the source before trusting it. In this relay, educators experience both approaches on a set of claims, including one confident AI-generated summary, and then redesign a lesson so students practice the move that works.",
+  "objectives": [
+    "Participants will contrast vertical reading (judging a source from itself) with lateral reading (checking what others say about it).",
+    "Participants will use the four SIFT moves to verify or debunk at least three claims, including one produced by generative AI.",
+    "Participants will revise one of their own upcoming lessons so students must show verification evidence, not just a final answer."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Claim Cards (1 set per team, cut apart, face down)",
+      "Handout B: SIFT Relay Log (1 per team)",
+      "Handout C: Lesson Retrofit Planner (1 per person)",
+      "A stopwatch or visible timer; chart paper titled \"Moves that worked\""
+    ],
+    "digital": [
+      "One device with a browser per team (for the lateral-reading round)",
+      "Optional: a generative AI chatbot your district approves, projected by the facilitator only"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A so each team has the eight cards face down in a stack.",
+    "Read the facilitator key on the card backs so you can coach teams toward the right moves, not the right answers.",
+    "If you have no devices or internet, print the \"Other sources\" text on each card's key and hand it over when a team asks what others say. That is the unplugged lateral read."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Gut check in 60 seconds",
+      "body": "Flip Card 1 on the screen. Ask: **\"Trust it, doubt it, or need more?\"** Everyone holds up one, two, or three fingers. Don't reveal anything. Say: \"Hold on to that gut feeling. By the end, you'll know what a fact-checker does in the next 60 seconds that most of us never do.\"",
+      "note": "Most rooms split. That split is the point: gut feelings about credible-looking content are unreliable."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Round 1: read vertically",
+      "body": "Teams draw Cards 2–4 and may use **only what is on the card**: tone, formatting, the source's own description of itself. They record a verdict and a confidence level (1–5) on Handout B. No devices yet.",
+      "note": "Listen for reasons like \"it looks official\" or \"it has a .org address.\" Write a few on the chart paper, untouched. You'll return to them."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Think aloud: the four moves",
+      "body": "Model SIFT on Card 1 out loud. **Stop**: notice your reaction. **Investigate the source**: open a new tab and search the organization's name plus words like \"funding\" or \"who runs\". **Find better coverage**: search the claim itself and see whether reliable outlets report it. **Trace**: follow the quote or number back to its original context. Narrate every click, including dead ends.",
+      "note": "Unplugged: read the \"Other sources\" key text aloud as though it were your search results. The thinking move is identical."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Round 2: the relay",
+      "body": "Teams re-verify Cards 2–4 and take on Cards 5–8. Roles rotate every card: **Searcher** (drives the device or asks for the key), **Skeptic** (asks \"who's behind this?\"), **Scribe** (logs moves on Handout B). Card 7 is an AI chatbot's summary. Teams must trace each of its three factual claims before calling it trustworthy.",
+      "note": "Teams usually find that Card 7 is fluent, confident, and two-thirds right. The invented statistic is the teaching moment: a polished tone is not evidence."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 7,
+      "title": "What changed your mind?",
+      "body": "Compare Round 1 and Round 2 confidence scores. Ask: \"Which cards flipped? What *move* flipped them?\" Add the moves to the \"Moves that worked\" chart beside the Round 1 reasons. Then ask about Card 7: \"How is checking an AI summary like checking a website, and how is it different?\"",
+      "note": "Key difference: an AI summary has no author page to investigate, so tracing claims is the only move available. Students need that habit."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 8,
+      "title": "Retrofit one lesson",
+      "body": "Each person uses Handout C to pick an upcoming lesson where students use online or AI-generated information, and rewrites the task so students must turn in **verification evidence** (a move, a source, a change they made), not just the final answer. Pairs swap and ask: \"What evidence will show that students verified?\"",
+      "note": "This is the 2026 ELE question in action. The technology matters only if it makes students' verification visible."
+    }
+  ],
+  "unplugged": "Run both rounds on paper. Each card's facilitator key includes an \"Other sources\" note: what a lateral search would turn up. When a team asks \"what do others say about this source?\", hand them that slip. The cognitive move of leaving the page and checking elsewhere is preserved, and asking for the slip becomes a visible habit.",
+  "digital": "Give each team one device for Round 2 only, so Round 1 stays a pure vertical read. In an LMS or virtual session, post the cards as a slide deck, run the relay in breakout rooms, and have scribes log moves in a shared document using Handout B's columns. The facilitator projects any AI chatbot demonstration; participants don't need accounts.",
+  "whyTech": "The live search is where people discover how fast the lateral move is: often 30 seconds to learn who funds a site. That speed is what convinces them it is worth teaching. The paper version teaches the same move but can't show how cheap it is.",
+  "adaptations": [
+    { "label": "Grades 3–5 teachers", "text": "Use Cards 1, 3, and 7 only and shrink SIFT to two moves: \"Who made this?\" and \"Does anyone else say so?\"" },
+    { "label": "Higher Ed faculty", "text": "Swap Card 5 for a preprint-style claim and add a Trace discussion on the difference between a preprint, a peer-reviewed article, and a press release about either." },
+    { "label": "Librarians", "text": "Extend the Model step with advanced search operators and a database comparison, then co-plan with a content teacher using Handout C." }
+  ],
+  "lookFors": [
+    "Handout B shows at least one change of verdict that names the move responsible (e.g., \"Investigated source: advocacy group funded by a product maker\").",
+    "Participants trace the AI summary's claims individually rather than accepting or rejecting it as a whole.",
+    "Each retrofitted lesson on Handout C names a specific piece of student verification evidence to collect."
+  ],
+  "reflection": [
+    "How am I fostering critical thinking about online and AI-generated information in my lessons? (Teacher ELE 5.0)",
+    "Where do my students currently turn in answers without the evidence of how they checked them?",
+    "What would I accept as proof that a student verified an AI output?"
+  ],
+  "transfer": "Run Round 2 with students using the grade-appropriate cards, then collect Handout B as an exit ticket. Bring three samples to your coach or PLC and compare how many students named a verification move.",
+  "connections": [
+    { "title": "Critical Thinking Breakouts: Signal Check, The Viral Claim", "url": "https://mglearn.github.io/activities/ctobs/clear/", "note": "A grades 6–8 digital breakout on the same skills. A good student follow-up." },
+    { "title": "Digital Inquiry Group: Civic Online Reasoning", "url": "https://cor.inquirygroup.org/", "note": "Free, research-based lateral reading lessons and assessments." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Claim Cards",
+      "type": "cards",
+      "instructions": "Cut apart. Teams keep the stack face down and flip one card at a time. The backs are the facilitator key: print them on a separate sheet.",
+      "cards": [
+        { "label": "Card 1 · Social post", "front": "\"BREAKING: Maple Hollow ISD will ban all phones starting Monday, even at lunch. Share before they delete this!\" — posted by @HollowParentsUnite, 14K shares", "back": "Other sources: the district's news page and the local paper show a board *proposal* for a middle-school pilot, with a vote next month. Verdict: misleading. The urgency (\"before they delete this\") is a manipulation cue." },
+        { "label": "Card 2 · Website", "front": "The Institute for Healthy Screens (healthyscreens.org) reports that blue-light glasses \"eliminate eye strain in 97% of students.\" The site is clean, cites \"clinical research,\" and has a .org address.", "back": "Other sources: a lateral search shows the Institute is funded by a blue-light eyewear company, and the \"clinical research\" is the company's own survey. Verdict: don't trust. Note that .org says nothing about neutrality." },
+        { "label": "Card 3 · Photo", "front": "A dramatic photo of a flooded school gym with the caption \"Riverside Elementary this morning after the storm.\"", "back": "Other sources: a reverse image search finds the same photo in a news story from a different state, four years earlier. Verdict: real photo, false context. Trace moves catch this; staring at the image does not." },
+        { "label": "Card 4 · News article", "front": "A regional newspaper reports the state education agency released new graduation requirements, quoting the agency's press release and linking to it.", "back": "Other sources: the linked press release exists on the agency's site and several outlets report the same details. Verdict: trustworthy. Lateral reading also confirms good sources, quickly." },
+        { "label": "Card 5 · Study claim", "front": "\"A new study proves students who use AI tutors score two grade levels higher.\" — headline on an education blog", "back": "Other sources: tracing leads to a vendor white paper, not a peer-reviewed study, with a small sample and no comparison group. Verdict: overstated. Ask: who ran the study, and who benefits?" },
+        { "label": "Card 6 · Video", "front": "A 20-second clip appears to show a well-known scientist saying homework \"has zero benefit at any age.\"", "back": "Other sources: the full lecture shows the clip was cut mid-sentence; the speaker was describing a claim she then disputes. Verdict: manipulated by editing. Find the original context." },
+        { "label": "Card 7 · AI summary", "front": "An AI chatbot's answer: \"Lateral reading was developed by researchers studying fact-checkers. In their study, fact-checkers outperformed historians and students at judging websites. 87% of teachers now teach it.\"", "back": "Trace each claim. The first two match published research on professional fact-checkers. The \"87% of teachers\" figure has no traceable source: the model generated a plausible number. Verdict: partly accurate, one fabricated statistic. Fluency is not evidence." },
+        { "label": "Card 8 · Infographic", "front": "An infographic titled \"Reading scores have collapsed since tablets arrived\" shows a steep line graph with no labeled y-axis and no source.", "back": "Other sources: no original dataset can be found, and the y-axis may start near the top of the scale to exaggerate the drop. Verdict: unverifiable, likely misleading. Missing sources are a finding." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "SIFT Relay Log",
+      "type": "table",
+      "instructions": "Log both rounds. In Round 2, name the move that changed or confirmed your verdict.",
+      "columns": ["Card", "Round 1 verdict + confidence (1–5)", "Move used (S · I · F · T)", "What we found", "Round 2 verdict + confidence"],
+      "rows": [["1", "", "", "", ""], ["2", "", "", "", ""], ["3", "", "", "", ""], ["4", "", "", "", ""], ["5", "", "", "", ""], ["6", "", "", "", ""], ["7 (AI)", "", "", "", ""], ["8", "", "", "", ""]]
+    },
+    {
+      "id": "C",
+      "title": "Lesson Retrofit Planner",
+      "type": "worksheet",
+      "instructions": "Pick one lesson in the next two weeks where students use online or AI-generated information.",
+      "sections": [
+        { "prompt": "The lesson and the information source students use (website, video, AI chatbot, textbook, database):", "lines": 2 },
+        { "prompt": "Right now, what do students turn in? What is missing about *how* they checked it?", "lines": 3 },
+        { "prompt": "Which SIFT move will students practice, and when in the lesson?", "lines": 3 },
+        { "prompt": "What verification evidence will students turn in? (a logged move, a second source, a claim they corrected, a note on what changed)", "lines": 3 },
+        { "prompt": "Does this lesson need a device or an AI tool at all? What does it add to the evidence of learning?", "lines": 3 },
+        { "prompt": "Partner feedback: \"The evidence I'd look for is…\"", "lines": 2 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "deepfake-election-desk",
+  "title": "Deepfake Election Desk",
+  "tagline": "Student newsroom teams race a deadline to decide which election-week tips are real, which are synthetic, and which they simply can't confirm yet.",
+  "audience": "student",
+  "grades": ["9-12"],
+  "strands": ["medialit", "genai", "digcit"],
+  "mode": "hybrid",
+  "minutes": 70,
+  "groupSize": "Newsroom teams of 4 (editor, verification lead, source reporter, standards editor); 3–8 teams",
+  "eles": ["AI2.2", "S3.1", "S2.2", "AI4.1", "S3.2"],
+  "overview": "It is three days before the mayoral election in the fictional city of Port Alder, and tips are flooding the newsroom of the *Port Alder Ledger*: an audio clip, a rally photo, a video, a screenshot. Some are authentic, some are AI-generated or edited, and some cannot be confirmed before deadline. Student teams work as a verification desk, using provenance questions, lateral reading, and source contact rather than gut feel or a single detector, and they must write a publish, hold, or debunk decision they can defend. The big idea: with synthetic media, the most responsible answer is sometimes \"we don't know yet,\" and saying so is part of the job.",
+  "objectives": [
+    "Students will apply provenance and lateral-reading questions to decide whether a piece of election media is authentic, synthetic or manipulated, or unconfirmed.",
+    "Students will identify the ethical risks of publishing, or ignoring, synthetic media during an election and propose a responsible newsroom response.",
+    "Students will work in defined newsroom roles to reach and communicate a team decision under time pressure."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Incoming Tips (1 set per team, cut apart, face down; card backs are the \"Reporting Results\" printed separately)",
+      "Handout B: Verification Desk Log (1 per team)",
+      "Handout C: Editor's Decision Memo rubric (1 per team)",
+      "Role tents for each team: Editor, Verification Lead, Source Reporter, Standards Editor; a visible countdown timer"
+    ],
+    "digital": [
+      "One device per team with a browser, for reverse image search and lateral reading on the practice round",
+      "Optional: a generative AI image tool your district approves, used by the teacher on a projector to show how quickly a fake rally photo can be made"
+    ]
+  },
+  "prep": [
+    "Print Handout A. Cut the tip cards apart; print the backs (Reporting Results) as separate slips you hand out only when a team asks the right verification question.",
+    "Set up a \"sources desk\" where you play the people teams call. Read the Reporting Results so you can answer in character.",
+    "Make role tents. Assign roles so each team has one student comfortable leading discussion as Editor.",
+    "Optional digital warm-up: generate a harmless synthetic image (for example, a crowd at a fictional park festival) with an approved tool so students see how realistic it looks. Never generate images of real people."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Real or made?",
+      "body": "If you prepared a synthetic image, project it next to an ordinary photo from your school's own event. Ask: **\"Which one was made by AI? How sure are you?\"** Take a vote. Reveal. Say: \"Spotting fakes by looking is getting harder, and looking was never the best method anyway. Today you're journalists. Journalists don't decide by staring. They decide by checking where something came from.\"",
+      "note": "Without a synthetic image, read Tip 1 aloud and ask whether the team would air it. The point is the same: appearance is weak evidence."
+    },
+    {
+      "phase": "Model",
+      "minutes": 10,
+      "title": "The verification desk's four questions",
+      "body": "Teach four questions and write them on the board: **1. Origin:** Who first posted it, and when? **2. Corroboration:** Does any other independent source confirm it (other recordings, witnesses, official records)? **3. Context:** Is it real but from a different time, place, or event? **4. Contact:** Can we reach the people shown or the original source? Explain that visual \"tells\" (strange hands, warped text) can help but are unreliable, and AI detection tools can be wrong in both directions, so **a detector result is one clue, never a verdict.** Assign roles and review them: the Editor runs the clock and makes the final call; the Verification Lead works origin and context; the Source Reporter makes calls at the sources desk; the Standards Editor asks \"What harm happens if we're wrong?\""
+    },
+    {
+      "phase": "Practice",
+      "minutes": 25,
+      "title": "Deadline round",
+      "body": "Start a 25-minute countdown. Teams flip tips one at a time. For each, they decide which question to pursue first and **request Reporting Results by asking a specific question** at the sources desk (\"Who first posted the audio?\" \"Can we reach the candidate's campaign?\"). Vague requests (\"Is it fake?\") get \"Our newsroom doesn't know that yet. What would you check?\" Teams log every step on Handout B and assign each tip a status: **Publish as authentic, Publish a debunk, Hold (unconfirmed),** or **Don't amplify.**",
+      "note": "Give Reporting Results only for the question asked. A team that never asks about context will not learn that the flood photo is old. That is realistic, and it makes a great debrief."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 12,
+      "title": "The morning meeting",
+      "body": "Each Editor reports one decision and the evidence that decided it. Compare decisions across teams on Tips 2 and 6, the two most contested. Ask: \"Who held a tip that another team published? Who was right, and how would you know?\" Then ask the Standards Editors: **\"What's the harm if we publish a fake? What's the harm if we ignore a real one?\"** Discuss how a debunk can accidentally spread a fake (repeating the claim in the headline) and how newsrooms reduce that risk.",
+      "note": "Tip 5 (the authentic but embarrassing clip) is the lesson students often miss: the \"liar's dividend,\" where real evidence gets dismissed as fake. Verification protects true stories, too."
+    },
+    {
+      "phase": "Create",
+      "minutes": 13,
+      "title": "The editor's memo",
+      "body": "Each team writes a short Editor's Decision Memo for one tip they held or debunked: what they checked, what they found, what they still don't know, what they will publish (or why they won't), and what they'll tell readers about how they verified it. Teams self-score with Handout C and trade with another team for one piece of feedback.",
+      "note": "Push teams to include a sentence for readers, such as \"Here's how we checked,\" which models transparency."
+    }
+  ],
+  "unplugged": "Run the whole simulation on paper. The tip cards describe each piece of media in detail, and the Reporting Results slips stand in for reverse image searches, lateral reading, and phone calls. Students still practice choosing which question to ask first, which is the real skill.",
+  "digital": "Give each team one device and add a practice tip using an image you know the origin of (for example, a photo from your school's public website) so they practice a real reverse image search and lateral read before the deadline round. Teams can keep Handout B as a shared document and publish their memo to a class \"newsroom\" page in your LMS. Any AI image generation stays on the teacher's projector, and no one creates synthetic media of real people.",
+  "whyTech": "A live reverse image search shows students how quickly an old photo's original context can surface, which makes the Context question feel worth asking. The paper round teaches the same judgment; the digital warm-up proves the checks are fast enough to actually do.",
+  "adaptations": [
+    { "label": "Grade 9 or first time", "text": "Use Tips 1, 3, 4, and 5 only and extend the round to 25 minutes with fewer decisions." },
+    { "label": "Journalism or broadcast class", "text": "Add a second deadline round where teams write the actual headline and first two sentences for their debunk without repeating the false claim in the headline." },
+    { "label": "Emergent bilinguals", "text": "Include Tip 7 (the translated post) and invite multilingual students to lead it; provide a bank of question stems for the sources desk." },
+    { "label": "Government or civics", "text": "Connect to election procedures: how voters can confirm official election information directly with the county elections office." }
+  ],
+  "lookFors": [
+    "Teams ask specific origin, context, or contact questions before assigning a status rather than judging from the description alone.",
+    "At least one tip is marked Hold with a clear statement of what is still unknown.",
+    "Standards Editors name a concrete harm of publishing a fake and a concrete harm of dismissing authentic media.",
+    "Decision memos separate what was checked from what was concluded and include a transparency note for readers."
+  ],
+  "reflection": [
+    "How can I identify ethical issues when AI-generated media enters public life, and what solution would I propose? (AI2.2)",
+    "How did my role help, or slow down, my team's decision? (S3.1)",
+    "How do I decide whether a source of information is trustworthy when I can't tell by looking? (S2.2)"
+  ],
+  "transfer": "For the next week, students bring in one image, clip, or screenshot they saw online about any current topic, and the class runs the four desk questions on it in five minutes as a warm-up. At home, students can share the four questions with family before the next local election.",
+  "connections": [
+    { "title": "News Literacy Project", "url": "https://newslit.org/", "note": "Resources on verifying images and video and on how newsrooms make publishing decisions." },
+    { "title": "Digital Inquiry Group: Civic Online Reasoning", "url": "https://cor.inquirygroup.org/", "note": "Lateral reading and evidence-evaluation lessons that build the Origin and Corroboration moves." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Incoming Tips (Port Alder Mayoral Election)",
+      "type": "cards",
+      "instructions": "Port Alder, the Ledger, both candidates, and every account are fictional. Flip one tip at a time. Print the backs (Reporting Results) separately; the teacher hands out a result only when a team asks the matching question.",
+      "cards": [
+        { "label": "Tip 1 · Audio clip", "front": "A 30-second audio clip is circulating in a messaging app. It sounds like candidate Dana Whitcomb saying, \"Once I'm mayor, the east side bus routes are finished. Nobody out there votes for me anyway.\" It was forwarded to the newsroom by a reader who got it from a group chat.", "back": "Origin: the earliest copy found was posted by a brand-new account with no other posts. Contact: the Whitcomb campaign says she never said it and provides her full schedule for the claimed date. Corroboration: no event, recording, or witness matches. The voice's pacing is unusually even. Status: **Don't amplify / Hold**; if it spreads widely, publish a debunk that doesn't replay the audio." },
+        { "label": "Tip 2 · Rally photo", "front": "A photo shows an enormous crowd filling Harborview Park for candidate Luis Ortega's rally last night, with the caption \"Port Alder has decided!\" posted by @OrtegaForAlder, the campaign's official account.", "back": "Context: people who attended describe a crowd of roughly two hundred. A reporter's own photos show the park's front lawn only. Origin: the campaign's image has repeating faces in the back rows and a banner with warped lettering. Contact: the campaign says a volunteer \"enhanced\" the image. Status: **Publish a story** on the campaign's altered image, using your reporter's authentic photo." },
+        { "label": "Tip 3 · Flood photo", "front": "A photo of a flooded underpass with the caption \"Whitcomb's failed drainage plan: Pier Street underpass this morning.\" It's been shared widely.", "back": "Context: a reverse image search finds the same photo in a news story from a different city six years ago. Contact: Port Alder Public Works says Pier Street had no flooding this week. Status: **Real photo, false context. Publish a debunk.**" },
+        { "label": "Tip 4 · Official notice", "front": "A screenshot of what looks like a text from the \"Port Alder County Elections Office\": \"Due to high demand, Ortega voters vote Wednesday and Whitcomb voters vote Tuesday.\"", "back": "Contact: the county elections office confirms election day is the same for every voter and it sends no texts about voting days. Origin: the sending number is not the county's. Status: **Publish a debunk immediately with the correct information.** This is voter suppression, the highest-harm tip on the desk." },
+        { "label": "Tip 5 · Debate video", "front": "A video clip from last week's televised debate shows Luis Ortega misstating the city budget by a large amount. His supporters are calling it \"an AI fake.\"", "back": "Origin: the full debate broadcast is available from the local station, and the moment appears at the same spot. Corroboration: two reporters in the room took notes on the same statement. Contact: the Ortega campaign later issued a correction. Status: **Authentic. Publish** with the correction included. Claiming real evidence is fake is its own form of misinformation." },
+        { "label": "Tip 6 · Endorsement video", "front": "A video appears to show Port Alder's popular retired fire chief endorsing Whitcomb, standing in front of Station 3. It was posted by a local community page, not by either campaign.", "back": "Contact: the retired chief's family says he is traveling and unreachable until after the election. The community page admin says a follower sent it. Corroboration: Station 3 confirms the background matches its building, but the uniform shown was retired years ago. Status: **Hold.** Too many unknowns. Report only that you're working to verify it." },
+        { "label": "Tip 7 · Translated post", "front": "A post in Spanish shared in a neighborhood group says Whitcomb promised to close the Linden Avenue community center. An auto-translated English version is spreading faster than the original.", "back": "Origin: a bilingual reporter reads the original. It says Whitcomb wants to *review* the center's hours, not close it; the auto-translation turned \"revisar\" into \"shut down.\" Contact: the campaign confirms \"review.\" Status: **Publish a correction in both languages.** Translation errors, human or machine, can create false claims." },
+        { "label": "Tip 8 · AI chatbot answer", "front": "A reader emails a screenshot: they asked an AI chatbot \"When is the Port Alder mayoral election and where do I vote?\" The answer gives a date one week late and an old polling location.", "back": "Corroboration: the county elections website lists the correct date and current polling places. The chatbot's answer matches an older election. Status: **Publish a service note** telling readers to confirm voting information directly with the county elections office, not with a chatbot." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Verification Desk Log",
+      "type": "table",
+      "instructions": "Log each question you ask and what you learned. Status: Publish as authentic · Publish a debunk · Hold (unconfirmed) · Don't amplify.",
+      "columns": ["Tip", "Question(s) we asked (Origin · Corroboration · Context · Contact)", "What we learned", "Harm if we're wrong", "Status + who decided"],
+      "rows": [
+        ["1 · Audio", "", "", "", ""],
+        ["2 · Rally photo", "", "", "", ""],
+        ["3 · Flood photo", "", "", "", ""],
+        ["4 · Official notice", "", "", "", ""],
+        ["5 · Debate video", "", "", "", ""],
+        ["6 · Endorsement video", "", "", "", ""],
+        ["7 · Translated post", "", "", "", ""],
+        ["8 · Chatbot answer", "", "", "", ""]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Editor's Decision Memo Rubric",
+      "type": "rubric",
+      "instructions": "Use this to score your team's memo, then trade with another team for one piece of feedback.",
+      "levels": ["Beginning", "Developing", "Proficient", "Exemplary"],
+      "criteria": [
+        { "name": "Verification evidence", "descriptors": ["Decision based on how the media looks or feels.", "Names one check but not what it found.", "Names the checks made and what each one found.", "Names checks and findings, and explains why each check was chosen first."] },
+        { "name": "Honesty about uncertainty", "descriptors": ["Treats the tip as certainly real or certainly fake without support.", "Mentions uncertainty but doesn't say what is unknown.", "States clearly what is still unknown and how that affects the decision.", "States unknowns and describes the next steps that would resolve them."] },
+        { "name": "Ethics and harm", "descriptors": ["Doesn't consider harm.", "Names a harm in general terms.", "Names specific harms of publishing a fake and of dismissing authentic media.", "Weighs harms and explains how the published story avoids spreading the false claim further."] },
+        { "name": "Communication to readers", "descriptors": ["No plan for what readers are told.", "Tells readers the conclusion only.", "Tells readers the conclusion and briefly how it was checked.", "Clear, calm, and transparent; readers could repeat the checks themselves."] },
+        { "name": "Teamwork", "descriptors": ["One person decided alone.", "Roles were assigned but not all were used.", "Each role contributed and the Editor's decision reflects the team's evidence.", "Team disagreed productively and the memo shows how the disagreement was resolved."] }
+      ]
+    }
+  ]
+}

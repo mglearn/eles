@@ -1,0 +1,149 @@
+{
+  "id": "the-feed-game",
+  "title": "The Feed Game",
+  "tagline": "Students play a card-based recommendation engine by hand and watch their feed shrink to a few topics, then design ways to take it back.",
+  "audience": "student",
+  "grades": ["6-8", "9-12"],
+  "strands": ["medialit", "genai"],
+  "mode": "unplugged",
+  "minutes": 45,
+  "groupSize": "Teams of 3 (Viewer, Algorithm, Recorder); any number of teams",
+  "eles": ["S2.3", "AI1.1", "S5.3", "S2.2"],
+  "overview": "Recommendation systems don't know what is true, kind, or good for you. They predict what will keep you watching, based on patterns in what you did before. In this game, one student plays the Algorithm and follows a printed rule card to choose posts for a Viewer, scoring every reaction. In five rounds, most feeds narrow to one or two topics, and posts designed to spark strong feelings rise to the top. Students then change one rule and discover what they can and can't control.",
+  "objectives": [
+    "Students will simulate a recommendation algorithm by following written rules and explain, in their own words, how it predicts what to show next.",
+    "Students will use their round-by-round data to describe how a feed narrows and why strong-feeling posts get boosted.",
+    "Students will propose and test one change (to the rules or to their own behavior) that widens a feed, and explain the trade-off."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Feed Cards (1 set of 16 per team, cut apart: 14 post cards and 2 rule cards)",
+      "Handout B: Feed Tracker (1 per team)",
+      "Handout C: Take Back Your Feed (1 per student)",
+      "Tokens or paper clips for scoring (about 30 per team), or tally marks"
+    ],
+    "digital": [
+      "Optional: a teacher-projected slide showing the rule card and a timer",
+      "Optional: a shared spreadsheet where Recorders enter topic counts to make a class chart"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Keep the two rule cards separate so each team's Algorithm gets them first.",
+    "Draw a class tally on the board with columns for the five topics (Gaming, Animals, Sports, Science, Cooking) and rows for Round 1 and Round 5.",
+    "Decide how teams form. Mix students so Viewers aren't all friends who share interests; varied feeds make a better debrief."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Why did that show up?",
+      "body": "Ask: **\"Have you ever watched one video and then your whole feed changed?\"** Take quick stories. Then say: \"Today one of you gets to *be* the algorithm. You don't get to use your opinion. You follow the rules, exactly like a computer does.\"",
+      "note": "Keep it light. Students don't need to name apps or admit screen time."
+    },
+    {
+      "phase": "Model",
+      "minutes": 5,
+      "title": "How to play",
+      "body": "Read Rule Card 1 aloud and play one round with a volunteer Viewer in front of the class. The Algorithm deals 4 random post cards. The Viewer reacts honestly to each: **Skip (0), Watch (1), Like (2), or Comment/Share (3)**. Posts marked **Spark** earn +1 because people linger on things that make them feel strongly. The Recorder writes the topics and points on Handout B. Then show Rule Card 2: next round, the Algorithm deals 3 cards from the top-scoring topic and 1 from the second-highest.",
+      "note": "Stress that Viewers should react as themselves. The simulation only works with honest reactions."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Five rounds",
+      "body": "Teams play five rounds with roles fixed, so one Viewer builds one feed. After each round the Recorder totals points by topic and writes which topics are still showing up. When a topic runs out, the Algorithm reshuffles its already-seen cards back in (\"feeds repeat\"). After Round 5, Recorders report on the class tally: **how many topics appeared in Round 1, and how many in Round 5?**",
+      "note": "Circulate and ask Algorithms: \"Did you check whether that post was true?\" The answer is no. The rules never ask."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "What the Algorithm knew",
+      "body": "Look at the class tally together. Ask: **\"What did the Algorithm know about the Viewer?\"** (Only their reactions.) **\"What did it not know?\"** (Whether a post was true, kind, or good for them; their mood; what they wanted to learn.) **\"Why did Spark posts keep winning?\"** Connect to AI: \"Real recommendation systems are far more complex, but the core idea is the same: they learn patterns from past behavior and predict what will keep you engaged. That's prediction, not understanding.\"",
+      "note": "Watch for the misconception that the algorithm is \"trying to trick you.\" It's optimizing a goal someone chose. The fair question is: whose goal?"
+    },
+    {
+      "phase": "Apply",
+      "minutes": 10,
+      "title": "Change one rule",
+      "body": "Teams choose one change and play two more rounds with it. **Option A (you change):** the Viewer deliberately watches and likes a topic they'd never pick. **Option B (the designers change):** rewrite Rule Card 2 (for example, \"1 card from each topic\" or \"Spark posts earn no bonus\"). Teams record whether the feed widened and one trade-off (\"more variety, but more stuff I skipped\").",
+      "note": "Option B is computational thinking in action: students modify an algorithm and test the output. Ask them to predict before they play."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "Take back your feed",
+      "body": "Students complete Handout C individually. Close by asking two or three students to share the one habit they'll try this week.",
+      "note": "Collect Handout C. Look for answers that link a specific behavior (liking, rewatching, sharing) to what the feed shows next."
+    }
+  ],
+  "unplugged": "This is designed as an unplugged activity: cards, tokens, and a tally on the board simulate the whole system. The physical rule cards make the algorithm's logic visible in a way an app never does.",
+  "digital": "Recorders enter Round 1 and Round 5 topic counts into a shared spreadsheet so the class sees a live bar chart of narrowing feeds. For a follow-up, students (with family permission, at home) look at why an app says it recommended a post, if it offers that option, and compare the app's explanation to their rule cards. No student accounts are needed in class.",
+  "whyTech": "The core learning is better unplugged: students can see and hold every rule, which a real app hides. A shared class chart adds a clear picture of the narrowing pattern across many feeds at once.",
+  "adaptations": [
+    { "label": "Grades 3–5", "text": "Use three topics (Animals, Gaming, Cooking), play three rounds, and skip Spark scoring. Focus on one question: \"Why did you keep seeing the same kind of post?\"" },
+    { "label": "Grades 9–12", "text": "Add a third rule card that a \"company\" writes: sponsored posts are inserted every other round. Debate who the algorithm serves: the viewer, the creators, or the advertisers." },
+    { "label": "Students with IEPs or 504s", "text": "Give the Algorithm role a printed step-by-step checklist version of the rule cards, and let the Viewer point to reaction cards (Skip, Watch, Like, Share) instead of saying them." }
+  ],
+  "lookFors": [
+    "Handout B shows fewer topics in Round 5 than in Round 1, and students can explain why using the rule card.",
+    "Students distinguish what the algorithm \"knows\" (reactions) from what it doesn't (truth, kindness, the viewer's goals).",
+    "Teams predict the effect of their rule change before testing it and compare the prediction to their results."
+  ],
+  "reflection": [
+    "Do I stay safe and make good choices online? How do my likes and shares shape what I, and other people, see next?",
+    "Why might a feed that shows only one kind of post make it harder to find trustworthy information?",
+    "If I could rewrite one rule for the apps I use, what would it be, and who would object?"
+  ],
+  "transfer": "For homework, students notice one thing their feed (or a family member's, with permission) keeps showing and write one sentence guessing which past action caused it. That observation opens the next lesson on persuasion and sponsored content.",
+  "connections": [
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "Follow-up breakouts on how AI systems learn from patterns." },
+    { "title": "Critical Thinking Breakouts: Signal Check, The Viral Claim", "url": "https://mglearn.github.io/activities/ctobs/clear/", "note": "Pairs well: why viral posts spread, and how to check them." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Feed Cards",
+      "type": "cards",
+      "instructions": "Cut apart. Give the two Rule Cards to the Algorithm. Shuffle the 14 post cards face down. Posts marked Spark earn +1 point when a Viewer watches, likes, or shares them.",
+      "cards": [
+        { "label": "Rule Card 1 · Scoring", "front": "For every post the Viewer sees, score the reaction: Skip = 0, Watch all the way = 1, Like = 2, Comment or Share = 3. Spark post (and not skipped) = +1 bonus. Add the points to that post's topic. You never check if a post is true, kind, or helpful. You only count reactions." },
+        { "label": "Rule Card 2 · Next round", "front": "Round 1: deal 4 random posts. Every round after: deal 3 posts from the topic with the most total points and 1 post from the topic in second place. Tie? Pick the topic with more Spark points. Topic out of cards? Reshuffle its seen cards back in. Feeds repeat." },
+        { "label": "Gaming · Spark", "front": "\"This update RUINED the game!!\" A creator yells for ten minutes about a change to Pixel Quest." },
+        { "label": "Gaming", "front": "A calm walkthrough: how to beat the hardest level in Pixel Quest without spending any coins." },
+        { "label": "Gaming · Spark", "front": "\"Only 1% of players can solve this puzzle. Can YOU?\" (The comments are full of people arguing.)" },
+        { "label": "Animals", "front": "A cat tries to fit into a box that is clearly too small. It takes four tries." },
+        { "label": "Animals · Spark", "front": "\"You won't BELIEVE what this dog did next\" with a crying emoji thumbnail. The video is 40 seconds of a dog finding a toy." },
+        { "label": "Animals", "front": "A wildlife rescue volunteer explains how to tell if a baby bird on the ground actually needs help." },
+        { "label": "Sports · Spark", "front": "\"The WORST call in league history!\" A fan slows down a referee's call frame by frame and gets angrier each time." },
+        { "label": "Sports", "front": "A 60-second drill a middle-school soccer coach uses to improve passing." },
+        { "label": "Sports", "front": "Highlights from the Riverside Rockets' comeback win in the last two minutes." },
+        { "label": "Science · Spark", "front": "\"Scientists are HIDING this about the ocean!\" A video with dramatic music and no sources." },
+        { "label": "Science", "front": "A student shows how to build a working model volcano and explains the chemical reaction." },
+        { "label": "Science", "front": "Time-lapse of a bean seed sprouting over ten days, with the day number in the corner." },
+        { "label": "Cooking", "front": "Three after-school snacks you can make in five minutes without a stove." },
+        { "label": "Cooking · Spark", "front": "\"I tried the viral 100-layer pancake and it was a DISASTER.\" A creator reacts loudly to a kitchen fail." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Feed Tracker",
+      "type": "table",
+      "instructions": "The Recorder fills in one row per round. Rounds 6–7 are for your rule change in the Apply step.",
+      "columns": ["Round", "Topics dealt (write each post's topic)", "Points by topic this round", "Running total: top topic and second topic", "How many different topics showed up?"],
+      "rows": [["1", "", "", "", ""], ["2", "", "", "", ""], ["3", "", "", "", ""], ["4", "", "", "", ""], ["5", "", "", "", ""], ["6 (rule change)", "", "", "", ""], ["7 (rule change)", "", "", "", ""]]
+    },
+    {
+      "id": "C",
+      "title": "Take Back Your Feed",
+      "type": "worksheet",
+      "instructions": "Answer on your own using your team's Feed Tracker.",
+      "sections": [
+        { "prompt": "In Round 1, our feed showed ___ topics. In Round 5, it showed ___ topics. Explain why, using the rule cards.", "lines": 3 },
+        { "prompt": "Why did Spark posts keep getting boosted? What does that mean for posts that are angry, shocking, or untrue?", "lines": 3 },
+        { "prompt": "The Algorithm knew only our reactions. List two things it did NOT know about the Viewer.", "lines": 2 },
+        { "prompt": "Our rule change was… Did the feed widen? What was the trade-off?", "lines": 3 },
+        { "prompt": "One habit I'll try this week to shape my feed on purpose (for example: skip posts that only exist to make me mad, look up a topic I want to learn about, stop sharing before I check):", "lines": 2 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "four-lens-app-review",
+  "title": "Four-Lens App Review",
+  "tagline": "Teams vet three fictional classroom apps through four lenses (learning value, privacy, accessibility, AI transparency) and turn the verdict into a pilot a teacher can actually run.",
+  "audience": "pl",
+  "roles": ["coaches", "librarians", "leaders"],
+  "grades": ["K-12"],
+  "strands": ["digcit", "genai"],
+  "mode": "hybrid",
+  "minutes": 60,
+  "groupSize": "Teams of 3–4; three or more teams",
+  "eles": ["C2.2", "AI2.3", "C2.1", "T3.2"],
+  "overview": "Teachers forward coaches a steady stream of \"Can we use this?\" messages, and more of the tools now include AI features that write, grade, or talk to students. In this protocol, teams review fictional app profiles and policy excerpts through four lenses, cite the exact line behind every score, and practice reading vendor claims laterally rather than taking them at face value. The session ends with a decision and a pilot plan built around the 2026 ELE question: what student evidence will show the tool improved the learning?",
+  "objectives": [
+    "Participants will score an app on learning value, privacy and data, accessibility, and AI transparency, citing specific evidence from the vendor's own materials.",
+    "Participants will identify at least two vendor claims that need independent verification and name how they would check them.",
+    "Participants will write a recommendation (approve, pilot with conditions, or decline) that names the student evidence a pilot must produce."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: App Profiles, three fictional tools (1 per team)",
+      "Handout B: Four-Lens Rubric (2 per team)",
+      "Handout C: Recommendation and Pilot Plan (1 per team)",
+      "Chart paper with a 3 × 4 grid (apps × lenses) for the room summary"
+    ],
+    "digital": [
+      "One device per team for the lateral-reading model, if you have internet access",
+      "Optional: a shared spreadsheet with the 3 × 4 grid so teams can post scores"
+    ]
+  },
+  "prep": [
+    "Print Handout A and assign each team a first app (QuizNova, StoryBloom, or PeerLoop) so all three are covered.",
+    "Draw the 3 × 4 grid on chart paper or set up the shared spreadsheet.",
+    "Find out which apps your district has already approved and what your district's data privacy agreement process is, so you can connect the protocol to real policy in the debrief."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "The email in your inbox",
+      "body": "Read aloud: *\"Hi! I saw QuizNova at a conference and it writes a whole quiz from any article in ten seconds. Kids love it. Can I start Monday? My whole team wants it too.\"* Ask: **\"What's your gut reply, and what would you need to know before you hit send?\"** Collect questions on a sticky-note wall. Say: \"Today we turn those questions into a protocol you can use for the next hundred emails.\"",
+      "note": "Most questions will be about privacy. Notice whether anyone asks what students will learn. That's the lens most often skipped."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 15,
+      "title": "First review: one app, four lenses",
+      "body": "Each team reads its assigned profile on Handout A and scores it with Handout B. The rule: **every score needs a quoted line** from the profile, written in the margin. If the profile is silent on a criterion, that silence is scored as Beginning. Teams also star any vendor claim they would want to verify independently.",
+      "note": "Watch for teams that score on reputation (\"everyone uses it\") or design (\"it looks clean\"). Ask: \"Which line in the profile tells you that?\""
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "Reading a vendor claim laterally",
+      "body": "Take one starred claim, such as QuizNova's \"100% accurate, curriculum-aligned questions\" or StoryBloom's \"Student Privacy Certified\" badge. Think aloud: \"Who says so? The vendor. So I leave the page.\" Show the moves: search the badge's name to learn who issues it and what it requires; look for the vendor's name on your state's or district's list of signed data privacy agreements; ask for sample output and check five questions yourself. With devices, do the searches live on a real certification program you know. Unplugged, narrate what you would search and why.",
+      "note": "The lesson for teachers transfers straight to students: a claim on the product's own site is advertising until someone else confirms it."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 13,
+      "title": "Second review and the room grid",
+      "body": "Teams swap to a second app and score it more quickly using the same rule. Then each team posts its scores on the room's 3 × 4 grid. Where two teams scored the same app differently, they meet for two minutes and reconcile using quoted lines.",
+      "note": "The disagreements are useful: they usually reveal a criterion that needs a sharper definition in your own district's version of the rubric."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 12,
+      "title": "Decide and design the pilot",
+      "body": "Each team chooses one app and completes Handout C: **approve, pilot with conditions, or decline**. For a pilot, they name the conditions (for example, \"district opts out of AI training on student content\"), the teacher and class, and, most importantly, the **student evidence** that would show the tool improved learning compared with what the teacher does now.",
+      "note": "Push on the evidence box. \"Students liked it\" and \"usage minutes\" are not learning evidence. \"Students' quiz explanations cite the article\" is."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "What we'd tell the teacher",
+      "body": "Teams read their one-sentence reply to the Hook email. Ask: **\"Which lens changed your mind the most? Which lens does our district's current approval process skip?\"** Close by naming the real approval process in your district and where this protocol could feed into it.",
+      "note": "Coaches are not usually the final approver. The goal is to arrive at the approval conversation with evidence, not opinion."
+    }
+  ],
+  "unplugged": "The protocol runs fully on paper: the profiles contain everything needed to score, and the Model step works as a narrated think-aloud of the searches you would run. Teams add a \"Questions for the vendor\" list for anything the profile can't answer, which becomes their next step.",
+  "digital": "Teams score in a shared spreadsheet with the four lenses as columns and a comment for each quoted line. Run the lateral-reading model live on a real privacy certification or state data privacy agreement list. In a virtual session, assign one app per breakout room and reconcile scores in the main room.",
+  "whyTech": "A live lateral search shows how quickly a badge or a \"compliant\" claim can be checked, or found to be unverifiable, and that speed is what makes the habit stick. A shared scoring sheet also becomes the district's record of why a tool was approved or declined.",
+  "adaptations": [
+    { "label": "Librarians", "text": "Add a fifth column for content licensing and copyright: who owns what students create in the tool?" },
+    { "label": "Teacher PLCs", "text": "Give each teacher the rubric to review a tool they already use. Many discover the privacy lens for the first time." },
+    { "label": "Students (grades 6–12)", "text": "Hand students the StoryBloom or PeerLoop profile and the privacy lens only. Ask: \"What would you want your family to know before you sign up?\"" }
+  ],
+  "lookFors": [
+    "Every rubric score is backed by a quoted line or an explicit note that the profile is silent.",
+    "Teams star vendor claims and name a specific, independent way to verify each one.",
+    "Pilot plans on Handout C name student learning evidence, not usage or enjoyment.",
+    "Teams notice at least one of the planted red flags: training AI on student content, an under-13 restriction on a K–2 app, or missing screen reader support."
+  ],
+  "reflection": [
+    "In what ways am I helping teachers meaningfully integrate technology into their teaching? (Coach ELE guiding question)",
+    "Which of the four lenses do I tend to skip when a teacher is excited about a tool?",
+    "What would count as evidence that a tool I recommended last year actually improved learning?"
+  ],
+  "transfer": "Use Handout B on the next \"Can we use this?\" request you receive and reply with your quoted evidence and a pilot proposal. Share one completed review with your campus technology or library team.",
+  "connections": [
+    { "title": "PROTECT Rubric v2.0", "url": "https://mglearn.github.io/tcea/protect_rubric_v2/", "note": "A fuller rubric for vetting tools; compare its criteria with the four lenses." },
+    { "title": "Digital Accessibility Readiness Assessment", "url": "https://mglearn.github.io/tcea/a11y/", "note": "Goes deeper on the accessibility lens." },
+    { "title": "Family App Privacy Audit", "url": "https://mglearn.github.io/tcea/privacy-audit/", "note": "A family-facing version of the privacy lens." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "App Profiles: Three Fictional Tools",
+      "type": "reading",
+      "instructions": "All apps, companies, and quotes are fictional. Read your assigned profile. Quote the exact line behind every rubric score and star any claim you would verify elsewhere.",
+      "paragraphs": [
+        "**QuizNova (grades 6–12), from Nova Learning Labs.** Marketing page: \"Paste any article, video link, or document and our proprietary AI builds a 20-question quiz in seconds. 100% accurate, curriculum-aligned questions. Teachers save hours every week!\" Features: multiple-choice and short answer; automatic grading of short answers with AI-written feedback to students.",
+        "QuizNova privacy excerpt: \"Content uploaded by teachers and responses submitted by students may be used to improve our AI models. Districts may request an opt-out by contacting support. We retain student responses for as long as the account is active.\" Accessibility page: \"QuizNova works with most screen readers.\" No information on how the AI grades short answers or how teachers can review AI feedback before students see it.",
+        "**StoryBloom (grades K–2), from Bloomfield Kids Inc.** Marketing page: \"An AI reading buddy that listens to your child read aloud and responds in a friendly voice! Builds fluency and confidence. Student Privacy Certified.\" Features: children read stories aloud; the app records their voice and an AI character gives spoken encouragement and corrections.",
+        "StoryBloom terms excerpt: \"StoryBloom is not intended for children under 13 without verified consent from a parent or school. Voice recordings are stored to improve speech recognition and may be reviewed by our quality team.\" Accessibility: all stories include audio and text highlighting; no information on support for students who use speech devices or who speak languages other than English at home. The \"Student Privacy Certified\" badge does not link anywhere.",
+        "**PeerLoop (grades 6–12 and Higher Ed), from Loopwise Education.** Marketing page: \"Students give each other feedback on drafts using structured sentence stems. Optional AI Assist suggests a kinder or more specific way to phrase a comment. Teachers see every comment and every AI suggestion.\" Features: teacher-built rubrics; students must accept, edit, or reject AI Assist suggestions, and the history is saved.",
+        "PeerLoop privacy excerpt: \"We do not use student content to train AI models. AI Assist is provided by a third-party model provider under a contract that prohibits retention of student data. Districts can turn AI Assist off. Data is deleted within 60 days of contract end.\" Accessibility: \"Tested with keyboard-only navigation and major screen readers; captions on all videos. Our most recent accessibility conformance report is available on request.\"",
+        "**What every profile leaves out.** None of the three vendors offers evidence about student learning beyond their own marketing. Your pilot plan will have to generate that evidence."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Four-Lens Rubric",
+      "type": "rubric",
+      "instructions": "Score one app per sheet. Quote the line behind every score. If the profile is silent, score Beginning and add a question for the vendor.",
+      "levels": ["Beginning", "Developing", "Proficient", "Exemplary"],
+      "criteria": [
+        { "name": "Learning value", "descriptors": ["No clear link to a learning goal; the selling point is speed, novelty, or fun.", "Supports a learning goal but mostly automates tasks students or teachers already do.", "Makes student thinking more visible than the current practice does (drafts, reasoning, revision).", "Makes student thinking visible and gives the teacher evidence to act on that paper could not easily produce."] },
+        { "name": "Privacy and data", "descriptors": ["Student data or content may be used to train AI or shared; retention is open-ended; no age or consent terms fit the grade level.", "Some limits exist but depend on the district asking (opt-out) rather than defaults.", "Student data is not used for training by default; retention and deletion are stated; district can turn features off.", "All of Proficient plus a signed district data privacy agreement and independent verification of any certification claims."] },
+        { "name": "Accessibility and inclusion", "descriptors": ["No accessibility information, or only \"works with most\" claims.", "Some features (audio, captions) but gaps for specific learners are unaddressed.", "Keyboard and screen reader tested; captions; multilingual or alternative-input support stated.", "All of Proficient plus a current conformance report and a way to report barriers that the vendor responds to."] },
+        { "name": "AI transparency", "descriptors": ["AI features grade, respond to, or talk with students with no explanation and no teacher review.", "The AI is disclosed but its limits and the teacher's control are unclear.", "Teachers can see and override AI output before students rely on it; AI use is labeled for students.", "All of Proficient plus students must accept, edit, or reject AI suggestions, leaving a visible record of their judgment."] }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Recommendation and Pilot Plan",
+      "type": "worksheet",
+      "instructions": "Choose one app. Write the recommendation a teacher and a principal could both act on.",
+      "sections": [
+        { "prompt": "App and decision (circle one): Approve · Pilot with conditions · Decline. One-sentence reason:", "lines": 2 },
+        { "prompt": "The two quoted lines that most shaped our decision:", "lines": 3 },
+        { "prompt": "Claims we still need to verify, and how we will verify each (who we'll ask, what we'll search, what sample we'll request):", "lines": 3 },
+        { "prompt": "Conditions for a pilot (settings, opt-outs, consent, accessibility checks):", "lines": 3 },
+        { "prompt": "The student evidence that would show this tool improved learning compared with current practice:", "lines": 3 },
+        { "prompt": "Our reply to the teacher's email, in three sentences or fewer:", "lines": 3 }
+      ]
+    }
+  ]
+}

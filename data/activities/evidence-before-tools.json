@@ -1,0 +1,152 @@
+{
+  "id": "evidence-before-tools",
+  "title": "Evidence Before Tools",
+  "tagline": "Teachers take apart a tech-heavy lesson, name the evidence of learning first, and rebuild it so every tool, or no tool, has to earn its place.",
+  "audience": "pl",
+  "roles": ["teachers", "librarians"],
+  "grades": ["K-12"],
+  "strands": ["medialit", "genai"],
+  "mode": "hybrid",
+  "minutes": 60,
+  "groupSize": "Teams of 3–4; works for 6–60 people",
+  "eles": ["T1.1", "T1.2", "T5.1", "AI3.2"],
+  "overview": "A lesson can be full of devices, apps, and AI and still produce almost no evidence that anyone learned. Participants first *do* a busy, tech-heavy research lesson as students, then audit it tool by tool and ask what thinking each step makes visible or hides. Borrowing the Ms. Ramirez scenario from the 2026 ELE update, they rebuild the lesson backward from the evidence they want, then apply the same move to a lesson of their own. The big idea: technology use by itself is not evidence of learning.",
+  "objectives": [
+    "Participants will distinguish between evidence of tool use (a finished slide, a completed quiz game) and evidence of learning (a claim, a comparison, a justified choice, a revision).",
+    "Participants will audit a lesson step by step and decide to keep, cut, or swap each tool based on the thinking it makes visible.",
+    "Participants will redesign one of their own upcoming lessons starting from the evidence of learning, then justify every tool, including any AI tool, against that evidence."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The \"Before\" Lesson (1 per person)",
+      "Handout B: Tool-to-Evidence Audit (1 per team)",
+      "Handout C: Evidence-First Redesign Planner (1 per person)",
+      "Blank paper cut into slide-sized rectangles (2 per person) for the student-experience round",
+      "Chart paper and markers (1 per team); sticky notes"
+    ],
+    "digital": [
+      "Optional: a device per team to rebuild the redesigned lesson in the district's LMS or annotation tool",
+      "Optional: a generative AI chatbot your district approves, projected by the facilitator only, to show where AI might fit in the redesign"
+    ]
+  },
+  "prep": [
+    "Print Handouts A–C. Read Handout A closely: paragraph 3 contains a mock chatbot answer with one unsupported claim (\"bees pollinate exactly half of all the plants on Earth\") that the student samples copied word for word. Don't point it out early.",
+    "Cut blank paper into slide-sized rectangles for the Explore round.",
+    "Ask participants in advance to bring one lesson plan they will teach in the next month that uses a device, an app, or AI."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Two rooms, one question",
+      "body": "Describe two rooms. \"In **Room A**, every student is on a device, heads down, building a slideshow. In **Room B**, there are no screens; pairs are arguing over two printed articles with sticky notes. Which room has more learning?\" Let a few people answer, then say: \"Honest answer: you can't tell yet. Neither the devices nor the lack of them tell you anything. The only way to know is to look at the evidence students produce. That's our work today.\"",
+      "note": "People will defend both rooms. Resist settling it. The point is that the question can't be answered from tool use."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Be the students: the Before lesson",
+      "body": "Hand out Handout A. Participants read the lesson plan (paragraphs 1–2) and then *do* Step 2 as seventh graders: using only the mock chatbot answer in paragraph 3, they have **4 minutes** to fill two slide-sized rectangles for the Pollinator Power slideshow. Call time. Then pick three people and ask each: \"Choose one claim on your slide. Where did it come from, and how do you know it's true?\" Finally, have everyone read the two student samples in paragraphs 4–5.",
+      "note": "Most adults copy or lightly paraphrase the chatbot, including the \"exactly half of all plants\" line. That's not a failure; it's exactly what the task invited. Name it gently: \"The lesson asked for a slide, so we made a slide.\""
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Think aloud: audit the first two steps",
+      "body": "Project Handout B. Think aloud through rows 1 and 2. \"Step 1 is a chatbot. What do students produce? A copied answer. What thinking does that make visible? None. It actually *hides* whether they understand. Keep, cut, or swap? Swap: students could get two short sources and compare them, and the chatbot could come back later as something to check.\" Then introduce the ELE scenario: **Ms. Ramirez** plans a seventh-grade research lesson by starting with the evidence she wants (students compare sources, explain which is more trustworthy, and cite evidence), and only then chooses a digital annotation tool *because it shows that thinking*.",
+      "note": "Reveal the unsupported \"exactly half of all plants\" claim here. Ask: \"Would the Before lesson ever have caught it?\" No step asked anyone to check."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Teams finish the audit and rebuild the lesson",
+      "body": "Teams complete Handout B for rows 3–5, then rebuild the Pollinator Power lesson on chart paper in this order: **1. The evidence** (what students will say, write, or decide that proves they learned). **2. The task** that forces that evidence. **3. The tools**, one per step, each labeled with the thinking it makes visible, or \"no tool\". Every team must decide explicitly where the chatbot belongs, *if it belongs at all*, and what students do with its output.",
+      "note": "Look for teams that keep the chatbot but change its job: an answer students must fact-check against two sources is a very different learning task from an answer they paste."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 13,
+      "title": "Your own lesson, evidence first",
+      "body": "Each person takes the lesson they brought and works through Handout C. Push on section 2: \"What would you **see or hear** on Friday that proves the learning happened?\" If someone writes \"they complete the project,\" ask, \"What in the project shows the thinking?\" In the last 4 minutes, partners swap planners and complete section 7 for each other.",
+      "note": "If someone didn't bring a lesson, have them redesign a lesson they taught last week from memory. Recent lessons work best because people remember what students actually turned in."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 10,
+      "title": "What earned its screen time?",
+      "body": "Teams post their Pollinator redesigns. Everyone does a 3-minute walk with two sticky notes: one on a tool choice that clearly earns its place (\"This annotation tool shows which sentences they used as evidence\") and one on a step where you'd ask \"Why a screen here?\" Close by asking the room: \"What did you cut? What did you keep, and what's the evidence it will improve the learning?\"",
+      "note": "Listen for the shift from \"students will use X\" to \"students will show Y, and X makes Y visible.\" That sentence frame is the takeaway."
+    }
+  ],
+  "unplugged": "The whole session runs on paper. Participants do the Before lesson on slide-sized paper rectangles, audit it on Handout B, and rebuild on chart paper. When a redesign calls for a digital tool, teams sketch what students would see and produce in it; that sketch is enough to judge whether the tool shows thinking. Many teams discover their strongest redesign needs no device at all.",
+  "digital": "After the Apply step, give teams 10–15 extra minutes to build the first student-facing step of their redesigned lesson in the district's LMS or annotation tool, so they test whether it really captures the evidence they named. In a virtual session, share Handout A as a document, run the audit in breakout rooms with Handout B as a shared table, and use a shared slide per team for the rebuild. If you demo an approved AI chatbot, project it yourself and show one prompt that makes students *check* output rather than copy it.",
+  "whyTech": "The digital build step shows participants whether a tool actually captures the evidence they named (for example, an annotation layer that preserves which sentence a student flagged and why), which a paper sketch can only promise. The rest of the session is deliberately unplugged, because the design decision comes before the tool.",
+  "adaptations": [
+    { "label": "K–2 teachers", "text": "Swap the Before lesson for a \"digital storybook\" task and focus the evidence on oral retelling: what would a child say that shows they understood the story? Tools are judged by whether they capture that talk (for example, an audio recording) or get in the way." },
+    { "label": "Librarians", "text": "Co-plan the Practice step with a content teacher. Librarians often see the Before lesson from the research-skills angle: where did students get information, and did anything ask them to judge it?" },
+    { "label": "Higher Ed faculty", "text": "Use a course assignment, such as a discussion-board post or a lab report, as the Before lesson. Ask what a post shows beyond participation and where generative AI could complete the task without any learning." },
+    { "label": "Short on time", "text": "Run Hook, Explore, and Model (25 minutes) as a PLC meeting, and assign Handout C for the next meeting with a partner check." }
+  ],
+  "lookFors": [
+    "Handout B marks at least one tool as \"cut\" or \"swap\" with a reason tied to thinking (\"hides whether they understand\"), not preference (\"kids find it boring\").",
+    "Rebuilt lessons state the evidence first, in observable terms (\"students write which source they trust more and quote two reasons\"), before any tool is named.",
+    "Each Handout C names what AI will do, what students will do with its output, or why AI doesn't belong in that lesson.",
+    "Partner feedback in section 7 names a specific piece of student work to collect, not a general impression."
+  ],
+  "reflection": [
+    "How do I seamlessly integrate technology so it strengthens, not replaces, the thinking in my lessons? (Teacher ELE 1.0)",
+    "In my last three lessons that used technology, what evidence did students produce that I couldn't have gotten without it?",
+    "Where does AI belong in my lessons, if it belongs at all, and what will students do with its output?"
+  ],
+  "transfer": "Teach the redesigned lesson within two weeks. Collect the evidence you named in section 2 of Handout C from five students, and bring it to your PLC or coach with one question: \"Did the tool make this thinking visible, or would paper have shown the same thing?\"",
+  "connections": [
+    { "title": "TCEA ELEs Alignment Assistant", "url": "https://mglearn.github.io/tcea/eles/", "note": "Check which Teacher ELE indicators your redesigned lesson addresses." },
+    { "title": "High-Effect Strategy Coach", "url": "https://mglearn.github.io/tcea/coach-tool/", "note": "Useful when choosing the instructional strategy before the tool." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The \"Before\" Lesson: Pollinator Power",
+      "type": "reading",
+      "instructions": "Read the lesson plan, then do Step 2 as a seventh grader would. Read the student samples last.",
+      "paragraphs": [
+        "**Lesson plan: Pollinator Power (Grade 7 Science, Cedar Bend Middle School, Mr. Okafor).** Objective: Students will research the importance of pollinators and present their findings. Technology: AI chatbot, slideshow app, video recorder, class discussion wall, quiz game.",
+        "**Step 1:** Students ask the classroom AI chatbot, \"Why are pollinators important?\" **Step 2:** Students build a 5-slide slideshow using the chatbot's answer and images from the slideshow app's image library. **Step 3:** Students record a 60-second video reading their slides aloud. **Step 4:** Students post the video to the class discussion wall and comment \"Great job!\" on two classmates' videos. **Step 5:** The class plays a 10-question quiz game on pollinator vocabulary. Grade: completion of all five steps.",
+        "**Mock chatbot answer:** \"Pollinators are animals that move pollen from one flower to another, which helps plants make fruit and seeds. Bees are the most famous pollinators, but butterflies, moths, beetles, some birds, and bats also pollinate plants. Many of the fruits, vegetables, and nuts people eat come from plants that depend on pollinators. In fact, bees pollinate exactly half of all the plants on Earth. Pollinators face challenges such as habitat loss, pesticides, and disease. You can help by planting native flowers.\"",
+        "**Student sample 1 (Slide 2 of 5):** \"POLLINATORS ARE IMPORTANT! Bees pollinate exactly half of all the plants on Earth. Many of the fruits, vegetables, and nuts people eat come from plants that depend on pollinators.\" (Image: cartoon bee from the image library.)",
+        "**Student sample 2 (Slide 2 of 5):** \"Why Pollinators Matter: Pollinators move pollen so plants can make fruit and seeds. Bees pollinate half the plants on Earth!!! We should plant native flowers.\" (Image: a sunflower. Video comment from a classmate: \"Great job!\")",
+        "**Mr. Okafor's reflection after the lesson:** \"Every student finished. The slideshows looked great and the quiz average was high. But when I asked a few students in the hall why pollinators matter, most of them said 'because bees are important' and couldn't tell me much more. I'm not sure what they actually learned.\""
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Tool-to-Evidence Audit",
+      "type": "table",
+      "instructions": "For each step, ask: what does the student produce, and what thinking does that make visible (or hide)? Then decide: keep, cut, or swap.",
+      "columns": ["Lesson step and tool", "What students produce", "Thinking this makes visible (or hides)", "Keep, cut, or swap? Why?"],
+      "rows": [
+        ["1. AI chatbot answers \"Why are pollinators important?\"", "", "", ""],
+        ["2. Slideshow from the chatbot's answer", "", "", ""],
+        ["3. 60-second video reading slides aloud", "", "", ""],
+        ["4. Post to discussion wall + two \"Great job!\" comments", "", "", ""],
+        ["5. 10-question vocabulary quiz game", "", "", ""]
+      ],
+      "blankRows": 2
+    },
+    {
+      "id": "C",
+      "title": "Evidence-First Redesign Planner",
+      "type": "worksheet",
+      "instructions": "Work in this order. Don't name a tool until you've finished sections 1–3.",
+      "sections": [
+        { "prompt": "1. The lesson, and the learning goal written the way a student would say it (\"I can…\"):", "lines": 2 },
+        { "prompt": "2. The evidence: what will I **see or hear** by the end that proves the learning happened? (a claim, a comparison, a decision with reasons, a revision)", "lines": 3 },
+        { "prompt": "3. The task: what will students do that forces that evidence to appear?", "lines": 3 },
+        { "prompt": "4. Tools, step by step: for each step, write the tool (or \"no tool\") and the thinking it makes visible.", "lines": 4 },
+        { "prompt": "5. Where does AI belong in this lesson, if at all? What will students do with its output (check it, compare it, reject it, revise it)?", "lines": 3 },
+        { "prompt": "6. What I cut from my original plan, and why:", "lines": 2 },
+        { "prompt": "7. Partner check: \"The evidence I'd collect on Friday is… The tool that has to prove itself most is…\"", "lines": 3 }
+      ]
+    }
+  ]
+}

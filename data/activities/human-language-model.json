@@ -1,0 +1,173 @@
+{
+  "id": "human-language-model",
+  "title": "The Human Language Model",
+  "tagline": "Educators become a tiny language model with paper slips and a cup, and discover firsthand why fluent AI text can be confidently wrong.",
+  "audience": "pl",
+  "roles": ["teachers", "librarians", "coaches", "faculty"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["genai", "medialit"],
+  "mode": "unplugged",
+  "minutes": 50,
+  "groupSize": "Teams of 3–4; works for 6–60 people",
+  "eles": ["AI1.1", "AI1.2", "AI1.3", "AI4.1"],
+  "overview": "Generative AI chatbots don't look facts up the way a search engine or a database does. They generate text by repeatedly predicting a likely next piece of text based on patterns learned from enormous amounts of training data. In this unplugged session, teams \"train\" a ten-sentence language model by hand, generate new sentences by drawing slips from a cup, and then ask their model a factual question. The fluent, plausible, wrong answers that come out are the most memorable explanation of hallucination most educators will ever get, and one they can run with students the next day.",
+  "objectives": [
+    "Participants will build a next-word frequency table from a small training text and use it to generate new sentences by chance draws.",
+    "Participants will explain in their own words why a system that predicts likely next words can produce fluent text that is false (a \"hallucination\").",
+    "Participants will distinguish accurately between what the paper model shows and how real large language models differ (tokens, longer context, learned weights, scale).",
+    "Participants will draft a one-minute explanation of hallucination for their own students or colleagues."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The Tiny Training Library (1 per team)",
+      "Handout B: Next-Word Tally Sheet (1 per team)",
+      "Handout C: Model Run Cards (1 set per team, cut apart)",
+      "Blank paper slips or sticky notes (about 60 per team), one paper cup per team",
+      "Chart paper titled \"Our model said…\" and markers"
+    ],
+    "digital": [
+      "Optional: a generative AI chatbot your district approves, projected by the facilitator only, for the closing comparison",
+      "Optional: a shared slide where teams post their strangest generated sentence"
+    ]
+  },
+  "prep": [
+    "Print Handouts A and B for each team; print and cut Handout C so each team has a face-down stack.",
+    "Pre-cut slips (or use small sticky notes) and put a cup at each table. Teams will write one slip per tally mark.",
+    "Read the facilitator key on the Handout C backs, especially the \"how real models differ\" notes. Accuracy matters: the paper model is a simplification, and you'll say so.",
+    "Optional: decide on one factual question to ask your district's approved chatbot at the end, about a small or local topic where training data is thin."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Finish my sentence",
+      "body": "Say slowly: \"Once upon a…\" and let the room finish it (\"time\"). Then: \"Peanut butter and…\" (\"jelly\"). Then: \"The capital of France is…\" (\"Paris\"). Ask: **\"Did you look any of those up, or did you predict them?\"** Tell them: \"Today you're going to become a language model. A very small one. By the end you'll be able to explain to anyone why AI sometimes makes things up.\"",
+      "note": "The third sentence is deliberate. Prediction and knowing a fact can feel identical from the inside. That's the whole session in one moment."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Train your model",
+      "body": "Teams read Handout A, the ten-sentence \"training library.\" On Handout B they tally, for each listed word, **which word came right after it** every time it appeared (ignore capital letters; count a period as the word END). Then they write one slip per tally mark, e.g., the word \"the\" is followed by \"teacher\" four times, so they write four \"teacher\" slips and file them under \"the.\" Group slips by starting word in small piles or envelopes.",
+      "note": "This is \"training\": turning text into statistics about what tends to follow what. Teams that ask \"what about meaning?\" are asking exactly the right question. The model never gets meaning, only patterns."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 10,
+      "title": "Generate: draw the next word",
+      "body": "Teams draw Card 1 from Handout C. Start with \"The.\" Put all the slips that follow \"the\" into the cup, shake, draw one, write it down. Now empty the cup and load the slips that follow *that* word. Keep going until you draw END. Generate at least four sentences. Read the best (and worst) aloud and post them on the \"Our model said…\" chart. Expect gems like \"The principal opened the award in May.\"",
+      "note": "Point out that the draw is random but weighted: \"teacher\" comes up more often after \"the\" because it appeared more often in training. That's why the same prompt can give different answers on different tries."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 8,
+      "title": "Ask your model a fact",
+      "body": "Teams draw Cards 4–6, the fact questions. For \"Who won the spelling bee in June?\" they generate an answer by starting \"The\" and drawing until END, re-drawing only if the sentence doesn't mention the spelling bee. Record answers. Most teams get something fluent and specific, e.g., \"The teacher won the spelling bee in June,\" that appears nowhere in the training text. Ask: **\"Is your model lying?\"**",
+      "note": "Land the key idea: the model isn't lying or \"confused.\" It has no mechanism for checking truth. It produced a likely-sounding continuation, which is exactly what it was built to do. That's a hallucination."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "Honest differences: paper vs. real models",
+      "body": "Walk through Cards 7–9 aloud. Real models (1) work with **tokens**, often word pieces, not whole words; (2) weigh a long stretch of prior context, not just one previous word; (3) learn billions of numerical **weights** in a neural network rather than keeping literal tally piles; and (4) are further tuned with human feedback to be helpful and follow instructions. Some tools also search the web or a document and feed what they find into the prompt, which helps but does not guarantee accuracy. Then ask: **\"What stays the same?\"** (Output is generated by predicting likely text from learned patterns. Fluency is not evidence of truth.)",
+      "note": "Resist the urge to say \"it's just autocomplete.\" It's far more capable than that, and people who later see a strong answer will feel misled. Say instead: \"It is prediction at enormous scale, which is why it is both impressive and unreliable in specific ways.\""
+    },
+    {
+      "phase": "Create",
+      "minutes": 6,
+      "title": "Your one-minute explanation",
+      "body": "Each participant draws Card 10 and writes a one-minute explanation of hallucination for their own audience: second graders, high school seniors, a parent, or a faculty senate. It must include (1) prediction from patterns, (2) why that can produce false statements, and (3) one thing to do about it (check a trusted source). Partners read each other's aloud and give one \"clear\" and one \"accurate?\" note.",
+      "note": "Listen for explanations that slip into \"it looks things up\" or \"it thinks.\" Gently redirect to \"it predicts likely words.\""
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 4,
+      "title": "Where does AI belong?",
+      "body": "Close with: **\"Knowing how this works, where in your subject would an AI chatbot's answer be most likely to sound right and be wrong?\"** Collect answers on the chart. Optional: project your district-approved chatbot and ask your pre-planned local or obscure question. Compare its fluency with the paper model's.",
+      "note": "Typical answers: local history, recent events, specific citations and page numbers, niche statistics, names of small-town people. These are thin-data zones where plausible invention is most likely."
+    }
+  ],
+  "unplugged": "The whole session is unplugged by design. The cups, slips, and tally sheet make the invisible machinery physical: participants literally hold the probabilities in their hands. Skip the optional chatbot comparison or replace it with Card 11, a printed mock chatbot answer, to discuss the same pattern.",
+  "digital": "For a virtual session, share Handout A in a shared document, have teams tally in a shared table, and use any random-picker tool loaded with the slip words (entered as many times as they were tallied) in place of the cup. The facilitator can close by projecting a district-approved chatbot and asking the same prompt three times to show variation from sampling. Participants don't need accounts.",
+  "whyTech": "This one is better unplugged. Drawing weighted slips from a cup makes prediction and randomness tangible in a way no screen demo does, and it keeps the focus on the concept rather than on any one product. The optional live chatbot comparison adds only one thing: seeing that a real system shows the same fluency-without-verification pattern.",
+  "adaptations": [
+    { "label": "K–2 and 3–5 teachers", "text": "With young students, use only sentences 1–5, tally just \"the\" and one other word as a class on the board, and have the teacher draw from the cup. Keep the takeaway to one line: \"AI guesses the next word. Guesses can be wrong, so we check.\"" },
+    { "label": "Higher Ed faculty", "text": "Add a round where teams remove sentence 8 from the library and retrain, then discuss what happens to facts that appear once, or never, in training data. Connect to why AI-generated citations and references must be checked individually." },
+    { "label": "Emergent bilinguals", "text": "Build a second library of five sentences in a student's home language. Compare how word order changes the tally, and discuss why a model trained mostly on English text may perform less reliably in other languages." }
+  ],
+  "lookFors": [
+    "Handout B tallies are correct and teams can explain that the cup draw is weighted by frequency.",
+    "At least one generated \"fact\" answer is identified by the team as fluent, specific, and absent from the training text, and named as a hallucination.",
+    "Written one-minute explanations use prediction language (\"predicts likely next words\") rather than retrieval language (\"looks it up\") and include a verification move.",
+    "In the Reflect step, participants name a specific thin-data zone in their own subject."
+  ],
+  "reflection": [
+    "How am I developing and applying AI literacy in educational contexts? What do my students currently believe AI is doing when it answers?",
+    "Where in my subject is fluent-but-false AI output most likely, and how will students catch it?",
+    "Which part of today's model is a simplification I need to be honest about when I teach it?"
+  ],
+  "transfer": "Run the Tiny Training Library with your students this week (Cards 1–6 are classroom-ready), then have each student write a two-sentence explanation of hallucination as an exit ticket. Bring five tickets to your PLC and sort them: prediction language or look-it-up language?",
+  "connections": [
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "Student-facing follow-up games on how generative AI works and why we verify." },
+    { "title": "Augmented K–16 AI Learning Framework", "url": "https://mglearn.github.io/tcea/alf/", "note": "Helps place this concept lesson within a K–16 AI literacy progression." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The Tiny Training Library",
+      "type": "reading",
+      "instructions": "This is ALL your model will ever read. Treat capitals as lowercase. Treat each period as the word END.",
+      "paragraphs": [
+        "1. The teacher opened the book.",
+        "2. The student opened the door.",
+        "3. The teacher read the book to the class.",
+        "4. The class read the story.",
+        "5. The student read the story to the teacher.",
+        "6. The principal opened the meeting.",
+        "7. The class won the award.",
+        "8. The student won the spelling bee in May.",
+        "9. The teacher won the award in May.",
+        "10. The book won the award in June."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Next-Word Tally Sheet",
+      "type": "table",
+      "instructions": "For each word, make a tally for every word that came right after it in the library. Then write one slip per tally mark and file it under that word.",
+      "columns": ["Word", "Words that came next (tally each one)", "Total slips", "Most likely next word"],
+      "rows": [
+        ["the", "", "", ""],
+        ["teacher", "", "", ""],
+        ["student", "", "", ""],
+        ["class", "", "", ""],
+        ["book", "", "", ""],
+        ["opened / read / won", "", "", ""],
+        ["story", "", "", ""],
+        ["award", "", "", ""],
+        ["spelling → bee → in", "", "", ""],
+        ["in", "", "", ""],
+        ["principal / door / meeting / may / june / to", "", "", ""]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Model Run Cards",
+      "type": "cards",
+      "instructions": "Cut apart and stack face down. Draw in order. Backs are the facilitator key; print them on a separate sheet.",
+      "cards": [
+        { "label": "Card 1 · Generate", "front": "Start with \"The.\" Load the cup with every slip filed under \"the.\" Draw one. Then load the slips for that word and draw again. Stop at END. Make four sentences.", "back": "Key tallies: after \"the\": teacher 4, book 3, student 3, class 3, award 3, story 2, door 1, principal 1, meeting 1, spelling 1 (22 slips). After \"opened,\" \"read,\" and \"won\": always \"the.\" After \"in\": May 2, June 1." },
+        { "label": "Card 2 · Notice", "front": "Circle any generated sentence that does NOT appear in the library. Is it grammatical? Is it true? Is it sensible?", "back": "Most generated sentences are new combinations: grammatical, often sensible-sounding, sometimes absurd (\"The door won the award in June\"). New text from old patterns is what \"generative\" means." },
+        { "label": "Card 3 · Same prompt, twice", "front": "Start from \"The student\" twice. Do you get the same sentence both times? Why or why not?", "back": "Usually not. Each draw is random, weighted by frequency. Real chatbots also sample, which is why the same prompt can produce different answers on different tries." },
+        { "label": "Card 4 · Fact question", "front": "Ask your model: \"Who won the spelling bee in June?\" Generate from \"The\" until you get a sentence that mentions the spelling bee.", "back": "The library says a student won in MAY. Nobody won in June. Yet the model can easily produce \"The teacher won the spelling bee in June.\" Fluent, specific, false: a hallucination." },
+        { "label": "Card 5 · Fact question", "front": "Ask your model: \"What did the principal win?\" Generate from \"The principal.\"", "back": "The only pattern after \"principal\" is \"opened,\" so the model says \"The principal opened the…\" It cannot say \"I don't know\" because nothing in its design checks for knowing. Real chatbots are tuned to sometimes admit uncertainty, but that tuning is imperfect." },
+        { "label": "Card 6 · Fact question", "front": "Ask your model: \"Who read the book?\" Generate from \"The.\" Compare three runs.", "back": "The library says the teacher read the book, but runs may produce \"The class read the book\" or \"The student read the book to the teacher,\" neither of which the library says. The more often a pattern appears in training, the more likely the right answer. Rare facts are fragile." },
+        { "label": "Card 7 · Real models differ", "front": "Our model predicts from ONE previous word. How would the output change if it looked at the whole sentence so far?", "back": "Far more coherent. Real large language models weigh long stretches of context (many pages of text), which is why their writing flows. Better context reduces nonsense but does not add a truth check." },
+        { "label": "Card 8 · Real models differ", "front": "Our model stores literal slips. What would change if it trained on a huge share of the public internet and books?", "back": "Real models learn billions of numerical weights in a neural network instead of keeping tally piles, and they work with tokens (often word pieces). They can generalize in powerful ways. Their patterns also carry the gaps and biases of their training text." },
+        { "label": "Card 9 · Real models differ", "front": "Some AI tools search the web or read an uploaded document before answering. Does that solve hallucination?", "back": "It helps, because the prompt now contains relevant text to draw on. It doesn't guarantee accuracy: the tool can misread a source, blend sources, or cite a page that doesn't say what it claims. Verification is still the user's job." },
+        { "label": "Card 10 · Explain it", "front": "Write a one-minute explanation of AI hallucination for your students, a parent, or colleagues. Include: prediction from patterns, why it can be false, and one thing to do about it.", "back": "Strong example: \"AI chatbots write by predicting what words usually come next, based on patterns in lots of text. That makes answers sound right even when there's no fact behind them. So we treat AI answers as a first draft and check the important parts with a trusted source.\"" },
+        { "label": "Card 11 · Mock chatbot answer (fictional)", "front": "MOCK OUTPUT, FICTIONAL TOWN: \"The Maple Hollow Spelling Bee was founded in 1962 by librarian Ruth Calloway, and the 1988 champion, Daniel Ortiz, went on to win the state title.\"", "back": "Maple Hollow is fictional, so every name and date here is invented, but notice how real it sounds. Specific names, dates, and titles are exactly what a model produces when it has a pattern (\"founded in [year] by [person]\") but no fact." }
+      ]
+    }
+  ]
+}

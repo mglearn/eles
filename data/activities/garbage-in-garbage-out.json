@@ -1,0 +1,154 @@
+{
+  "id": "garbage-in-garbage-out",
+  "title": "Garbage In, Garbage Out",
+  "tagline": "Students write instructions for a classmate \"robot\" who follows them exactly, discover why vague prompts get surprising results, and build a recipe for clear prompts they can use with AI and with people.",
+  "audience": "student",
+  "grades": ["3-5"],
+  "strands": ["genai"],
+  "mode": "unplugged",
+  "minutes": 40,
+  "groupSize": "Pairs (Director and Robot), switching roles; any class size",
+  "eles": ["AI1.1", "S5.1", "S3.2", "S5.3", "AI4.3"],
+  "overview": "Computer scientists have an old saying: **garbage in, garbage out.** If the instructions are unclear, the result will be too. In this game, a Director secretly draws a picture from a shape challenge and writes instructions, and a classmate Robot follows those words exactly, with no peeking and no questions. Round 1 results are often wildly off. Round 2, after the class builds a \"prompt recipe,\" gets much closer. Students then upgrade vague AI prompts and learn the other half of the truth: even a great prompt can get a wrong answer, so people still check.",
+  "objectives": [
+    "Students will write step-by-step instructions that another person can follow exactly, and revise them after seeing the result.",
+    "Students will explain that a generative AI tool fills in missing details with likely guesses from patterns, so vague prompts get unpredictable results.",
+    "Students will identify missing ingredients in a vague prompt (who it's for, what, how many or how long, details, style) and rewrite it.",
+    "Students will explain why a clear prompt still doesn't guarantee a correct answer."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Shape Challenge Cards (1 set per 4 pairs, cut apart)",
+      "Handout B: Robot Instruction Sheet (1 per pair per round, printed double-sided)",
+      "Handout C: Prompt Upgrade Lab (1 per pair)",
+      "Pencils, a folder or book per pair to use as a privacy screen",
+      "Chart paper titled \"Our Prompt Recipe\""
+    ],
+    "digital": [
+      "Optional: a generative AI chatbot your district approves, on the teacher's device, projected for the class",
+      "Optional: a document camera to compare Director and Robot drawings side by side"
+    ]
+  },
+  "prep": [
+    "Cut apart the Shape Challenge Cards. Pairs need one card per round.",
+    "Prepare your own hook: decide on a simple drawing (a cat face, a house) you'll let the class \"program\" you to draw.",
+    "Write \"Our Prompt Recipe\" on chart paper with room for five ingredients.",
+    "If you'll run the projected demo, try the vague and upgraded prompts from Handout C Row 1 in your district-approved chatbot so you know roughly what to expect."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Program the teacher",
+      "body": "Stand at the board and say: **\"I am a robot. I do exactly what you say, nothing more.\"** Ask the class to tell you how to draw a cat. When a student says \"Draw a cat,\" draw a tiny circle in the corner and stop. \"Draw ears\" gets two ears floating far away from the head. Keep following the words literally. After a minute, ask: \"Why doesn't my cat look like the cat in your head?\" Take answers, then write **Garbage in, garbage out** on the board.",
+      "note": "Stay deadpan. The laughter is the hook, but the point is that the robot can't read minds; it only has the words."
+    },
+    {
+      "phase": "Model",
+      "minutes": 5,
+      "title": "How AI fills in the gaps",
+      "body": "Explain simply: \"A generative AI chatbot learned from huge amounts of writing. When you type a prompt, it predicts the words that are most likely to come next, one after another. It doesn't know what's in your head. When your prompt leaves something out, it fills the gap with a likely guess.\" Then read the **Robot Rules** aloud: the Robot does only what the words say; no peeking; no questions; the Director can't point or gesture. Show a Shape Challenge Card and model writing two precise instructions: \"Draw a big square in the middle of the page, about as wide as your hand.\"",
+      "note": "Students often ask whether AI \"understands.\" A fair answer for this age: \"It's very good at predicting what words usually come next. That can look like understanding, but it can also be confidently wrong.\""
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Round 1 and Round 2",
+      "body": "**Round 1 (5 min):** Directors take a Shape Challenge Card, hide their paper behind a folder, draw their picture, and write instructions in the Round 1 box of Handout B. Robots read and draw in the Round 1 drawing box, following exactly. Reveal and compare. **Quick huddle (2 min):** Ask pairs what went wrong and build the first version of the Prompt Recipe on chart paper. **Round 2 (5 min):** Switch roles with a new card. Directors write using the recipe. Robots draw. Compare again.",
+      "note": "Look for Round 2 instructions that name size, position (\"top left corner\"), count, and order. Those are the details AI prompts need, too: specifics instead of assumptions."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 6,
+      "title": "Build the Prompt Recipe",
+      "body": "Put two pairs' Round 1 and Round 2 drawings under the document camera. Ask: **\"What changed between rounds? Which words made the biggest difference?\"** Finalize five ingredients on the chart: **Who is it for? What exactly? How many or how long? Which details matter? What style or format?** Then ask: \"When your Robot still drew something wrong in Round 2, whose job was it to notice?\" (The Director's, by checking the result.)",
+      "note": "Connect to S3.2: clear instructions are clear communication. The same recipe helps when you ask a classmate for help or explain your idea."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 8,
+      "title": "Prompt Upgrade Lab",
+      "body": "Pairs complete Handout C: for each vague prompt, name what's missing using the recipe, then write an upgraded prompt. Share a few aloud. If you have the projected demo, type one vague prompt and the class's upgraded version into the chatbot and compare the answers. Then point out any mistakes or made-up details in either answer and ask: **\"Did a better prompt make it automatically correct?\"**",
+      "note": "Row 5 on Handout C adds wrong information to the prompt (\"garbage in\"). Students should notice that a tool may repeat the mistake instead of fixing it."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 4,
+      "title": "Exit ticket",
+      "body": "On the back of Handout B, students answer: \"One thing I changed in Round 2 was ___. It helped because ___.\" and \"Even with a clear prompt, I still need to ___.\" Collect as evidence.",
+      "note": "Strong answers name a specific revision (\"I said where on the page\") and a checking move (\"check if the answer is right\")."
+    }
+  ],
+  "unplugged": "Everything runs on paper. The classmate Robot is the \"AI,\" and the Prompt Upgrade Lab needs no device: pairs can swap upgraded prompts and act as each other's chatbot, writing a short answer and marking any detail they had to guess.",
+  "digital": "Project a district-approved generative AI chatbot from the teacher's device during the Apply step. Type a vague prompt from Handout C and the class's upgraded version, one after the other, and compare the answers against the Prompt Recipe. Ask students to point out anything the tool assumed or invented. Students under 13 do not use their own AI accounts; if your district provides a supervised, approved tool for older students, pairs can test their own upgraded prompts and log what changed.",
+  "whyTech": "The unplugged Robot game teaches the core idea (unclear input, unpredictable output) better than any screen. A short projected comparison adds proof: students see a real AI tool respond differently to vague and specific prompts, and still make mistakes, which paper can only describe.",
+  "adaptations": [
+    { "label": "Grade 3", "text": "Use Shape Challenge Cards 1–4 (three shapes each) and limit instructions to five sentences. Do Handout C Rows 1–3 as a class." },
+    { "label": "Grade 5 / advanced", "text": "Add a Round 3 with a \"picky Robot\" who misreads any word that could mean two things. Directors hunt for ambiguous words like \"next to\" or \"big.\"" },
+    { "label": "Emergent bilinguals", "text": "Post a word bank of position and size words with sketches (top, bottom, left, right, center, above, below, inside, big, small), and let pairs write in either language." },
+    { "label": "Students with fine-motor needs", "text": "Robots build with cut paper shapes instead of drawing." }
+  ],
+  "lookFors": [
+    "Round 2 instructions include more size, position, count, and order words than Round 1, and the Robot's drawing is closer to the Director's.",
+    "Upgraded prompts on Handout C add at least three recipe ingredients.",
+    "Students explain that an AI tool guesses to fill missing details, and that a clear prompt still needs checking.",
+    "In Row 5, students notice that wrong information in the prompt can lead to a wrong answer."
+  ],
+  "reflection": [
+    "Do I use what I learn to fix problems in real life? Where else do clear instructions matter? (Student ELE guiding question)",
+    "What did you change between Round 1 and Round 2, and why?",
+    "If an AI tool gave you a great-sounding answer, how would you know if it was right?"
+  ],
+  "transfer": "At home, students play \"Robot Chef\" with a family member: write instructions for making a simple snack (a sandwich, a bowl of cereal) and have the family member follow them exactly, then revise together. In class, post the Prompt Recipe and use it when students write directions in math, science procedures, or requests to classmates.",
+  "connections": [
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "A teacher-led digital breakout follow-up on how generative AI works." },
+    { "title": "AI Essentials Prompt Library", "url": "https://mglearn.github.io/tcea/ai-essentials-prompt-library/", "note": "For teachers: model prompts that show the same ingredients students list in the Prompt Recipe." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Shape Challenge Cards",
+      "type": "cards",
+      "instructions": "Directors: draw your own picture using ONLY the shapes on the card. Keep it hidden. Then write instructions so your Robot can draw the same picture.",
+      "cards": [
+        { "label": "Challenge 1", "front": "Use exactly: 1 big square, 1 triangle, 1 small circle.", "back": "Common Round 1 problem: the Robot doesn't know where the triangle goes or how big anything is." },
+        { "label": "Challenge 2", "front": "Use exactly: 2 circles, 1 rectangle, 1 straight line.", "back": "Common problem: \"put a circle next to it\" (next to which side?)." },
+        { "label": "Challenge 3", "front": "Use exactly: 3 triangles and 1 square.", "back": "Common problem: triangles pointing different directions. Say which way the point faces." },
+        { "label": "Challenge 4", "front": "Use exactly: 1 big circle, 2 small circles, 1 curved line.", "back": "Common problem: \"small\" means different sizes to different people. Compare to something (\"as big as a coin\")." },
+        { "label": "Challenge 5", "front": "Use exactly: 4 squares of different sizes. At least one must touch another.", "back": "Common problem: order. Tell the Robot which square to draw first." },
+        { "label": "Challenge 6", "front": "Use exactly: 1 rectangle, 2 triangles, 3 dots.", "back": "Common problem: counting and spacing of the dots." },
+        { "label": "Challenge 7", "front": "Use exactly: 1 circle inside 1 square inside 1 triangle.", "back": "Common problem: the Robot draws the shapes side by side. Use the word \"inside.\"" },
+        { "label": "Challenge 8", "front": "Use exactly: 5 straight lines. They must make a letter of the alphabet, but you can't say which letter!", "back": "Common problem: without the letter name, position and length words matter most." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Robot Instruction Sheet",
+      "type": "worksheet",
+      "instructions": "Director writes. Robot draws EXACTLY what the words say. No peeking, no questions, no pointing.",
+      "sections": [
+        { "prompt": "Round 1 · Director: write your instructions.", "lines": 6 },
+        { "prompt": "Round 1 · Robot: draw exactly what the words say.", "boxes": true },
+        { "prompt": "Round 2 · Director: write your instructions using the Prompt Recipe.", "lines": 7 },
+        { "prompt": "Round 2 · Robot: draw exactly what the words say.", "boxes": true },
+        { "prompt": "One thing I changed in Round 2 was ___. It helped because ___.", "lines": 2 },
+        { "prompt": "Even with a clear prompt, I still need to ___.", "lines": 2 }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Prompt Upgrade Lab",
+      "type": "table",
+      "instructions": "Use the Prompt Recipe: Who is it for? What exactly? How many or how long? Which details? What style? Write what's missing, then upgrade the prompt.",
+      "columns": ["Garbage prompt", "What's missing?", "Upgraded prompt"],
+      "rows": [
+        ["Write a story.", "", ""],
+        ["Tell me about animals.", "", ""],
+        ["Make a poster.", "", ""],
+        ["Help me with math.", "", ""],
+        ["Explain why the sun goes around the Earth.", "(Hint: check the facts in this prompt!)", ""]
+      ],
+      "blankRows": 1
+    }
+  ]
+}

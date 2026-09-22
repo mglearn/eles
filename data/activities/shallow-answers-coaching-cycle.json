@@ -1,0 +1,160 @@
+{
+  "id": "shallow-answers-coaching-cycle",
+  "title": "The Shallow Answers Coaching Cycle",
+  "tagline": "Coaches role-play a full listen, co-plan, model, measure, adjust cycle on one familiar problem: students finish the digital work but say very little.",
+  "audience": "pl",
+  "roles": ["coaches", "teachers"],
+  "grades": ["K-12"],
+  "strands": ["genai", "medialit"],
+  "mode": "unplugged",
+  "minutes": 60,
+  "groupSize": "Triads (coach, teacher, observer); 6–36 people",
+  "eles": ["C1.1", "C1.2", "C3.2", "AI4.1"],
+  "overview": "A teacher tells you students are completing every digital activity but their answers are shallow, and some read as if a chatbot wrote them. This simulation walks coaches through a whole coaching cycle on that one case: listening before fixing, co-planning a lesson with fewer questions and more reasoning, modeling a move, and measuring the change in real student work. The cycle ends where the 2026 ELEs say coaching should: \"What changed in teacher practice or student evidence?\"",
+  "objectives": [
+    "Participants will use listening stems to surface the teacher's goal and evidence before offering any solution.",
+    "Participants will co-plan a lesson revision that trades question volume for claims supported by evidence and reasoning.",
+    "Participants will compare before-and-after student work and name a specific change in student evidence and one next adjustment."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Role-Play Cards (1 set per triad, cut apart)",
+      "Handout B: Student Evidence Samples, Week 1 and Week 3 (1 per person)",
+      "Handout C: Coaching Cycle Planner (1 per triad)",
+      "Chart paper with five columns: Listen, Co-plan, Model, Measure, Adjust; sticky notes"
+    ],
+    "digital": [
+      "Optional: a shared document with Handout C's columns for a virtual session",
+      "Optional: a timer on the projector"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Keep the Teacher Persona cards separate from the Coach Move and Observer cards so each triad can deal them out.",
+    "Read Handout B yourself and decide which Week 1 sample you will think aloud about in the Model step.",
+    "Post the five-column chart where every triad can reach it with sticky notes."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Same question, two answers",
+      "body": "Read two answers from Handout B aloud: Week 1 Sample 2 (\"Plants need sunlight to grow so the plant with more light grew more\") and Week 3 Sample 2. Ask: **\"Both students finished the task. Which one gives you evidence of learning, and how do you know?\"** Take three responses. Say: \"Completion was never the problem. Today we coach toward the second answer, one cycle at a time.\"",
+      "note": "Listen for people who reach straight for a new tool or a new rubric. Name that pull gently: it is the urge we practice resisting in the Listen phase."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Listen first (round 1 role-play)",
+      "body": "Triads deal the cards: one person takes a **Teacher Persona** card, one takes the **Coach Move: Listen** card, one takes the **Observer** card. The teacher opens with the line on the persona card. The coach may only use the listening stems for six minutes: no suggestions, no tools, no \"have you tried.\" The observer tallies questions vs. suggestions and writes down the teacher's goal in the teacher's own words. Then the observer reports for two minutes and the triad posts one sticky note in the Listen column: **\"The teacher's real goal is…\"**",
+      "note": "The persona cards hide a detail (for example, the teacher suspects students paste chatbot answers but hasn't said so). Good listening surfaces it. If a coach gives advice in the first two minutes, the observer should flag it with a raised hand."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Think aloud: co-planning fewer, better questions",
+      "body": "Using Week 1 Sample 4 from Handout B, think aloud as the coach co-planning with the teacher. Say what you notice (\"The answer is fluent but never mentions *our* plant data\"), then co-plan out loud: cut the 12-question digital activity to **three questions**, each requiring a claim, a piece of the class's own data, and a \"because\" sentence that links them. Add one AI check: students may ask an approved chatbot for an explanation only after they write their own, then must mark one thing the chatbot said that their data supports and one thing it did not. Record the plan on the chart under Co-plan and Model.",
+      "note": "Point out that the revised lesson keeps the device. It changes what the device is used to produce: a visible chain from data to claim."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 13,
+      "title": "Co-plan and model (round 2 role-play)",
+      "body": "Rotate roles. The new coach draws a **Coach Move: Co-plan** card and a **Coach Move: Model** card. Using Handout C, the triad co-plans a revision for their persona's lesson (not the science lesson you modeled). The coach then models one move for two minutes as if in front of students: a think-aloud, a sentence frame, or a verification check. The teacher decides what to keep. The observer checks that the plan names **what student evidence will look different** next week.",
+      "note": "If a triad writes \"students will be more engaged,\" ask: \"What would you see on paper?\" Engagement is not the evidence. Claims, reasons, and data references are."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 10,
+      "title": "Measure and adjust",
+      "body": "Everyone reads the Week 3 samples on Handout B, which come from the same class after a revision like the one you modeled. Triads count, for each sample, whether it has a **claim**, **class data**, and **reasoning that links them**, then tally the Week 1 samples the same way. Rotate roles once more: the final coach draws **Coach Move: Measure and Adjust** and leads a four-minute conversation with the teacher on what changed and what to try next. Post one sticky under Measure and one under Adjust.",
+      "note": "Week 3 is better, not perfect: Sample 5 still leans on the chatbot's wording, and Sample 3 has data but no reasoning. Strong triads adjust for those two students, not the whole class."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "What changed in teacher practice or student evidence?",
+      "body": "Walk the five-column chart from left to right. Ask: **\"Where did we feel the most pull to skip ahead? What did the listening phase surface that the plan needed?\"** Then ask the coaching question directly: \"What changed in teacher practice, and what changed in student evidence?\" Have each triad answer both halves in one sentence each.",
+      "note": "Most rooms discover that the Listen phase is where the AI concern came out. That's worth naming: teachers often raise the problem they are comfortable naming first."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 4,
+      "title": "Pick your real teacher",
+      "body": "Each coach writes the name of one teacher they will start a cycle with in the next two weeks on the back of Handout C, plus the first listening stem they'll use. Teachers in the room write one lesson where they'll trade question volume for reasoning.",
+      "note": "Keep it private. The commitment matters more than sharing it."
+    }
+  ],
+  "unplugged": "This activity is designed to run with no devices. The role-play cards, printed student samples, and the planner carry the whole cycle. The measurement step uses a hand tally on Handout B, which is exactly what a coach and teacher can do at a table with a stack of exit tickets.",
+  "digital": "In a virtual session, put triads in breakout rooms, share the role-play cards as a slide deck with one card per slide, and give each triad a shared copy of Handout C. Paste the student samples into a document triads can highlight in three colors (claim, data, reasoning). A shared board with the five cycle columns replaces the chart paper.",
+  "whyTech": "Unplugged is the better default here: the skill is a conversation, and screens pull attention away from the partner. A shared digital planner earns its place only when the real cycle continues over weeks and the coach and teacher need one record of what they tried and what student work showed.",
+  "adaptations": [
+    { "label": "K–2 teachers", "text": "Swap Handout B for oral responses you transcribe: \"I think ___ because I saw ___.\" Measure whether students name something they observed." },
+    { "label": "Higher Ed faculty", "text": "Use the same protocol with discussion-board posts. The revision cuts required posts from three to one, with a claim tied to a course reading and a reply that tests a peer's evidence." },
+    { "label": "New coaches", "text": "Run only the Listen round twice with different persona cards before moving on. It is the hardest phase to do well." }
+  ],
+  "lookFors": [
+    "In the Listen round, observers' tallies show more questions than suggestions, and the teacher's goal is recorded in the teacher's words.",
+    "Each co-planned revision on Handout C names what student evidence will look different, not just what the teacher will do.",
+    "Triads tally claim, data, and reasoning across Week 1 and Week 3 and name at least one student who needs a different adjustment than the class."
+  ],
+  "reflection": [
+    "How effectively am I supporting teachers in improving their instructional practices? (Coach ELE guiding question)",
+    "In my last coaching conversation, how much of the time was I listening versus suggesting?",
+    "What student evidence would convince me that a co-planned change worked, and when will I look at it with the teacher?"
+  ],
+  "transfer": "Start a real cycle with the teacher you named: one listening conversation this week, a co-planned lesson next week, and a 15-minute look at the student work together afterward. Bring the before-and-after tally to your coaching team.",
+  "connections": [
+    { "title": "High-Effect Strategy Coach", "url": "https://mglearn.github.io/tcea/coach-tool/", "note": "Useful in the Co-plan phase when choosing a strategy that makes reasoning visible." },
+    { "title": "TCEA ELEs (PDF)", "url": "https://tinyurl.com/tceaeles1", "note": "The full Instructional Coach indicators and guiding questions." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Role-Play Cards",
+      "type": "cards",
+      "instructions": "Cut apart. Each triad gets all four Teacher Persona cards and one of each Coach Move and Observer card. Backs are for the facilitator.",
+      "cards": [
+        { "label": "Teacher Persona 1 · Grade 7 science", "front": "Opening line: \"My kids finish every digital activity. The dashboard is all green. But when I read the answers, there's nothing there.\" Hidden detail (share only if asked a good question): you think a few students paste chatbot answers, but you're worried about accusing anyone.", "back": "Stems that tend to surface the hidden detail: \"What do you notice when you read the answers?\" and \"What worries you most about this?\"" },
+        { "label": "Teacher Persona 2 · Grade 4 reading", "front": "Opening line: \"We do the reading app every day and their levels are going up, but when I ask why a character did something, I get one word.\" Hidden detail: you would like to try discussion but are afraid of losing control of the room.", "back": "Good listening names the tension: the teacher trusts the app's level data more than her own read of their talk. Co-plan toward one short, structured discussion, not a new app." },
+        { "label": "Teacher Persona 3 · Grade 10 history", "front": "Opening line: \"They copy from the first website they find and their document analysis is two sentences.\" Hidden detail: your department requires 15 questions per packet, and you think it is too many.", "back": "The constraint is structural. A good co-plan might pilot fewer questions in one unit and bring the student evidence to the department." },
+        { "label": "Teacher Persona 4 · Higher Ed intro course", "front": "Opening line: \"The discussion board posts all sound the same, polished and empty.\" Hidden detail: you suspect AI use but have no course policy about it yet.", "back": "Surfaces an AI transparency need. Co-plan a disclosure line on posts and a prompt that requires a course-specific example no chatbot would have." },
+        { "label": "Coach Move · Listen", "front": "For six minutes you may only use these stems: \"Tell me more about…\" · \"What did you hope students would do?\" · \"What do you notice when you read their work?\" · \"What have you already tried?\" · \"What worries you most?\" · \"So what I'm hearing is… Did I get that right?\" No suggestions.", "back": "Look-for: a paraphrase the teacher agrees with before any planning begins." },
+        { "label": "Coach Move · Co-plan", "front": "Ask: \"What should a strong answer contain?\" Then cut the task: fewer questions, each needing a claim, evidence from the class's own work or text, and a \"because.\" Ask: \"Where, if anywhere, does AI belong in this lesson?\" The teacher makes the final call.", "back": "Look-for: the plan names what student work will look different, in writing." },
+        { "label": "Coach Move · Model", "front": "Model one move for two minutes as if the teacher's students were in front of you: a think-aloud of your own claim and evidence, a sentence frame, or a check of a chatbot's answer against the class's data. Then ask the teacher: \"What would you keep? What would you change for your kids?\"", "back": "Look-for: the model is short and specific, and the teacher adapts it rather than copies it." },
+        { "label": "Coach Move · Measure and Adjust", "front": "Lay the Week 1 and Week 3 tallies side by side. Ask: \"What changed in the student evidence? Who didn't move? What's one thing we adjust for them?\" Close with: \"What changed in your practice?\"", "back": "Look-for: an adjustment aimed at specific students, plus a date to look at work again." },
+        { "label": "Observer", "front": "Tally every coach question and every coach suggestion. Write the teacher's goal in the teacher's words. Raise a hand if the coach suggests a fix in the Listen round. Report: \"The teacher's goal was… The coach asked __ questions and made __ suggestions.\"", "back": "The observer role is the coach's future self-reflection habit. Encourage specific, kind reporting." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Student Evidence Samples: Week 1 and Week 3",
+      "type": "reading",
+      "instructions": "Fictional samples from Ms. Okafor's 7th grade science class at Pecan Grove Middle School. Question: \"Which light condition helped our bean plants grow most, and why?\" Mark each sample: C = claim, D = class data, R = reasoning that links them.",
+      "paragraphs": [
+        "**Week 1 (before the cycle). The digital activity had 12 short-answer questions. This was question 9.**",
+        "Sample 1: \"The sun one.\"",
+        "Sample 2: \"Plants need sunlight to grow so the plant with more light grew more.\"",
+        "Sample 3: \"Group 3 plant was 14 cm.\"",
+        "Sample 4: \"Photosynthesis is the process by which plants convert light energy into chemical energy, which fuels growth. Therefore, plants exposed to greater light intensity typically exhibit increased growth rates, although excessive light can cause stress.\" (Ms. Okafor's note: \"Sounds like a chatbot. Nothing about our plants.\")",
+        "**Week 3 (after the co-planned revision). The activity had 3 questions, each needing a claim, our data, and a \"because.\" Students could check their answer with the approved chatbot only after writing it, and had to mark what the chatbot got right or wrong about our experiment.**",
+        "Sample 2 (same student): \"The windowsill plants grew most. Our windowsill plant grew 14 cm and the closet plant grew 3 cm, and it was yellow. I think that's because the windowsill plant got light to make food and the closet one didn't. The chatbot said too much light can hurt plants, but our windowsill plants were fine, so that part didn't match our data.\"",
+        "Sample 3 (same student): \"Windowsill. 14 cm, 12 cm, 13 cm for the three windowsill groups. Closet was 3 cm and 4 cm.\"",
+        "Sample 5: \"Plants exposed to greater light intensity exhibit increased growth, as our windowsill plant demonstrated. I checked the chatbot and it agreed.\" (Ms. Okafor's note: \"Better, but the wording is still mostly the chatbot's, and 'it agreed' isn't a check.\")"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Coaching Cycle Planner",
+      "type": "table",
+      "instructions": "Fill in one row per phase for your persona's lesson. The last column is the one that matters most.",
+      "columns": ["Phase", "Coach move", "Teacher move", "Evidence we will collect"],
+      "rows": [
+        ["Listen", "", "", "The teacher's goal, in the teacher's words:"],
+        ["Co-plan", "", "", "What a strong student answer will contain:"],
+        ["Model", "", "", "What the teacher chose to keep or change:"],
+        ["Measure", "", "", "Before-and-after tally (claim · data · reasoning):"],
+        ["Adjust", "", "", "Which students, which next step, and what date we look again:"]
+      ]
+    }
+  ]
+}

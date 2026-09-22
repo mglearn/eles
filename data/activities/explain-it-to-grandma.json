@@ -1,0 +1,156 @@
+{
+  "id": "explain-it-to-grandma",
+  "title": "Explain It to Grandma",
+  "tagline": "Educators draft 90-second, jargon-free explanations of AI concepts and test them live on colleagues playing a skeptical grandparent, a second grader, or a school board trustee.",
+  "audience": "pl",
+  "roles": ["teachers", "librarians", "coaches", "leaders"],
+  "grades": ["K-12"],
+  "strands": ["genai", "digcit"],
+  "mode": "unplugged",
+  "minutes": 45,
+  "groupSize": "Trios; any number of trios",
+  "eles": ["AI1.2", "AI1.1", "AI1.3"],
+  "overview": "Families, students, and board members are forming opinions about AI in schools right now, often from headlines. The educators who can explain it plainly and honestly, without hype or fear, shape that conversation. In this session participants pair an audience card with a concept card, draft a 90-second explanation, and then test it on a colleague who plays that audience and pushes back with the audience's real questions. Explanations get scored for plain language and for accuracy, because simple is only useful if it's also true.",
+  "objectives": [
+    "Participants will explain one AI concept (such as how chatbots generate text, hallucination, bias, or data privacy) in plain language suited to a specific audience.",
+    "Participants will keep their explanation technically accurate while simplifying it, including at least one honest limitation.",
+    "Participants will revise their explanation based on role-play pushback and name what they changed."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Audience and Concept Cards (1 set per trio, cut apart, two face-down piles)",
+      "Handout B: 90-Second Explanation Planner (1 per person)",
+      "Handout C: Plain and Accurate Rubric (1 per trio)",
+      "A visible 90-second timer; chart paper titled \"Words that worked\" and \"Words that confused\""
+    ],
+    "digital": [
+      "Optional: a phone or laptop per trio to audio-record the final explanation",
+      "Optional: a generative AI chatbot your district approves, projected by the facilitator, for the \"Can AI explain AI?\" extension"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Keep Audience cards (A1–A8) and Concept cards (C1–C7) in separate piles.",
+    "Read the Concept card backs. They are the accuracy key: short, correct explanations your evaluators can check against.",
+    "Draft your own 90-second model explanation of Concept C1 for a grandparent so you can perform it in the Model step."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "The jargon wall",
+      "body": "Read this aloud in your most serious voice: **\"Large language models use transformer architectures to perform next-token prediction over high-dimensional embeddings trained on web-scale corpora.\"** Ask: \"Hands up if a parent at pickup would find that reassuring.\" Then: \"It's accurate. It's also useless to most people. Today we aim for explanations that are both plain *and* true.\"",
+      "note": "Start a \"Words that confused\" list right away: model, token, algorithm, training, prompt."
+    },
+    {
+      "phase": "Model",
+      "minutes": 5,
+      "title": "Watch one, then critique it",
+      "body": "Perform your 90-second explanation of Concept C1 (\"What is a generative AI chatbot?\") to a volunteer holding Audience card A1 (the grandparent). Ask the room to score it with Handout C. Then name your moves: an everyday comparison (\"like a friend who's read a huge library and is very good at guessing what comes next\"), one honest limit (\"it can sound sure and be wrong\"), and one action (\"so we check important answers\").",
+      "note": "Invite critique of your comparison. Every analogy breaks somewhere. The library friend doesn't actually remember books word for word. Naming where your analogy breaks is a mark of accuracy."
+    },
+    {
+      "phase": "Create",
+      "minutes": 10,
+      "title": "Draw, draft, trim",
+      "body": "Each person draws one Audience card and one Concept card, then drafts on Handout B: the one sentence the audience must remember, an everyday comparison, one honest limit, one thing the audience can do, and a jargon swap list. Trim to 90 seconds when spoken. Trio partners can help, but each person owns their own draft.",
+      "note": "If someone draws a mismatch that feels impossible (bias for a second grader), that's the challenge. Offer: \"If the AI mostly learned from pictures of one kind of family, what might it think a family looks like?\""
+    },
+    {
+      "phase": "Practice",
+      "minutes": 15,
+      "title": "Role-play rounds",
+      "body": "In each trio, rotate three roles for three five-minute rounds: **Explainer** (delivers the 90 seconds), **Audience** (reads the Audience card, stays in character, and asks at least one of the card's pushback questions), and **Checker** (holds the Concept card back and Handout C, and scores plain language and accuracy separately). After each round the Checker gives one \"keep\" and one \"fix.\" Explainers mark changes on Handout B.",
+      "note": "Watch for the most common trade-off: simplifying into something false (\"AI searches the internet for the answer\"). The Checker's job is to catch that without killing the plain language."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 7,
+      "title": "Words that worked",
+      "body": "Each trio adds two phrases to \"Words that worked\" and one to \"Words that confused.\" Ask the room: **\"Which audience was hardest, and why?\"** and **\"Where did someone simplify so much it became untrue?\"** Highlight explanations that included an honest limit. Those tend to build more trust than ones that only reassure.",
+      "note": "Leaders often find the school board card hardest because trustees want a decision, not a concept. Point them to the leader five questions: vision, evidence, instruction, who is left out, how families will understand."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 4,
+      "title": "Where will you use it?",
+      "body": "Each person writes on the back of Handout B the real moment they'll use this explanation in the next month (a family newsletter, open house, a board update, the first day of a unit) and the one sentence they'll keep. Collect the \"Words that worked\" chart photo for a campus-wide plain-language glossary.",
+      "note": "Librarians and coaches can turn the best explanations into a short family FAQ; offer to co-edit it."
+    }
+  ],
+  "unplugged": "The session is fully unplugged: cards, a timer, and role-play. The pushback questions on each Audience card do the work that a live audience would. For a family night version, invite real parents or students to hold the Audience cards.",
+  "digital": "Participants can audio-record their final 90-second version and post it to a shared folder or LMS discussion for peer scoring with Handout C. As an extension, the facilitator projects a district-approved chatbot and prompts it to \"explain hallucination to a grandparent in 90 seconds,\" then the room scores it with the same rubric, checking especially for accuracy slips and missing limitations.",
+  "whyTech": "The core skill, explaining clearly to a live human, is best practiced unplugged. Recording adds evidence: a before-and-after audio pair shows exactly what changed after feedback, which a coach or PLC can review later.",
+  "adaptations": [
+    { "label": "Campus and district leaders", "text": "Use only Audience cards A3 (board trustee), A5 (reporter), and A6 (privacy-worried parent). Add a requirement that each explanation ends with what the district is doing and how families can ask questions." },
+    { "label": "K–2 and 3–5 teachers", "text": "Replace the planner with a three-box version: \"AI is like…\", \"But it can…\", \"So we always…\" and practice on Audience card A2 (the second grader)." },
+    { "label": "Families who speak languages other than English", "text": "Have explainers practice with an interpreter role (Audience card A7). Plain language translates better; idioms and jargon don't. Note which comparisons fall apart in translation." }
+  ],
+  "lookFors": [
+    "Revised explanations on Handout B show a specific change after role-play feedback (a swapped jargon word, an added limit, a better comparison).",
+    "Checkers score accuracy and plain language separately, and at least one round catches an oversimplification that became untrue.",
+    "Final explanations include one honest limitation and one action the audience can take.",
+    "Each participant names a real upcoming moment where they'll use the explanation."
+  ],
+  "reflection": [
+    "How am I developing and applying AI literacy in educational contexts, including with families and community members?",
+    "When I simplify AI concepts, what do I risk getting wrong, and how will I check?",
+    "Which audience in my community currently hears the least accurate explanations of AI, and who could reach them?"
+  ],
+  "transfer": "Have students do the same activity: they explain one AI concept to a younger student or a family member and bring back one question they couldn't answer. Their questions become next week's mini-lesson.",
+  "connections": [
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "Student-facing activities that pair well with the explanations teachers draft here." },
+    { "title": "TCEA ELEs (PDF)", "url": "https://tinyurl.com/tceaeles1", "note": "The full AI in Education indicators, including AI1.2 on explaining AI to stakeholders." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Audience and Concept Cards",
+      "type": "cards",
+      "instructions": "Cut apart. Keep Audience (A) and Concept (C) cards in separate face-down piles. Concept card backs are the accuracy key; print them on a separate sheet.",
+      "cards": [
+        { "label": "A1 · Audience", "front": "GRANDPARENT, 74. Raised three kids, uses a smartphone for photos and video calls. Pushback: \"So is it a robot? Does it know things like a person does?\" and \"Why would you let a child use something that makes things up?\"" },
+        { "label": "A2 · Audience", "front": "SECOND GRADER, 7. Loves dinosaurs, asks \"why\" five times in a row. Pushback: \"Is it alive?\" \"Does it have feelings?\" \"Why did it say a T. rex had feathers AND didn't?\"" },
+        { "label": "A3 · Audience", "front": "SCHOOL BOARD TRUSTEE. Busy, practical, answers to voters. Pushback: \"What problem does this solve for our students?\" and \"What happens when it goes wrong, and who is responsible?\"" },
+        { "label": "A4 · Audience", "front": "HIGH SCHOOL SENIOR. Uses AI apps daily, thinks they know more than you. Pushback: \"Everybody uses it. Why does it matter how it works?\" and \"If it's usually right, why check?\"" },
+        { "label": "A5 · Audience", "front": "LOCAL NEWS REPORTER. Looking for a clear quote. Pushback: \"In one sentence, is AI good or bad for kids?\" and \"Are teachers using it to grade?\"" },
+        { "label": "A6 · Audience", "front": "PARENT WORRIED ABOUT PRIVACY. Read a scary article last week. Pushback: \"Where does what my kid types go?\" and \"Can it be used to profile my child?\"" },
+        { "label": "A7 · Audience", "front": "PARENT WHO SPEAKS SPANISH, WITH A SCHOOL INTERPRETER. Warm and interested, new to the district. Pushback (through the interpreter): \"Will this help my child learn English, or do the work for her?\"" },
+        { "label": "A8 · Audience", "front": "CAMPUS STAFF MEMBER (front office). Keeps the school running and hears everything from families. Pushback: \"What should I tell parents who call about AI?\" and \"Should I be using it for emails?\"" },
+        { "label": "C1 · Concept", "front": "What is a generative AI chatbot, and how does it write an answer?", "back": "Accuracy key: it generates text by repeatedly predicting a likely next piece of text (a token), based on patterns learned from very large amounts of training text. It doesn't look answers up the way a search engine does, unless the tool is also connected to search or documents. Not accurate: \"it thinks,\" \"it understands like a person,\" \"it searches the internet for every answer.\"" },
+        { "label": "C2 · Concept", "front": "Why does AI sometimes make things up (\"hallucinate\")?", "back": "Accuracy key: because it produces likely-sounding text, not verified facts. When it lacks a strong pattern for a specific fact, it can generate a plausible but false name, date, number, or citation, in the same confident tone. Remedy: verify important claims with trusted sources." },
+        { "label": "C3 · Concept", "front": "How can AI be biased?", "back": "Accuracy key: models learn from human-made data, which contains gaps, stereotypes, and over- or under-representation of some groups and languages. Outputs can reflect those patterns. Bias can also come from design choices and how a tool is used. Remedy: compare outputs, question defaults, and keep humans deciding." },
+        { "label": "C4 · Concept", "front": "What happens to the information students type into an AI tool?", "back": "Accuracy key: it depends on the tool's terms and settings. Some tools store conversations or may use them to improve the product; others, often those under district agreements, limit that. Families should know which tools the district has reviewed, and students should never enter personal information into any AI tool." },
+        { "label": "C5 · Concept", "front": "Why might two students get different answers to the same question?", "back": "Accuracy key: chatbots usually add controlled randomness when choosing each next word, so the same prompt can produce different wording or even different claims. Tools, versions, and earlier messages in the conversation also change answers. Different answers are a reason to check, not a sign someone cheated." },
+        { "label": "C6 · Concept", "front": "Can the school tell if a student used AI to write something?", "back": "Accuracy key: not reliably from the text alone. AI-writing detectors are known to be unreliable, including false positives, and concerns have been raised that they flag non-native English writers unfairly. Better evidence comes from the learning process: drafts, notes, conversations, and in-class work." },
+        { "label": "C7 · Concept", "front": "Will AI replace teachers?", "back": "Accuracy key: honest answer, no one knows the future, but AI can't do the relational, judgment-heavy parts of teaching: knowing a child, noticing when something's wrong, deciding what's worth learning. It can help with some tasks, and teachers decide where it belongs, if it belongs at all." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "90-Second Explanation Planner",
+      "type": "worksheet",
+      "instructions": "Write for the person on your Audience card, not for yourself. Aim for 90 seconds spoken aloud.",
+      "sections": [
+        { "prompt": "My audience and my concept. The ONE sentence I want them to remember:", "lines": 2 },
+        { "prompt": "An everyday comparison they'd recognize. Where does my comparison break down?", "lines": 3 },
+        { "prompt": "One honest limitation or risk I will name:", "lines": 2 },
+        { "prompt": "One thing my audience can do (a question to ask, a habit, a place to learn more):", "lines": 2 },
+        { "prompt": "Jargon swap list: the technical words I'll avoid and what I'll say instead.", "lines": 3 },
+        { "prompt": "After role-play: what I changed, and why.", "lines": 3 }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Plain and Accurate Rubric",
+      "type": "rubric",
+      "instructions": "Checker: score plain language and accuracy separately. A simple explanation that's untrue is not a win.",
+      "levels": ["Beginning", "Developing", "Proficient", "Exemplary"],
+      "criteria": [
+        { "name": "Plain language", "descriptors": ["Relies on jargon; audience would be lost.", "Some jargon explained, some left in.", "Everyday words throughout; one clear comparison.", "Vivid, audience-specific comparison; no jargon; easy to repeat to someone else."] },
+        { "name": "Technical accuracy", "descriptors": ["Contains a false claim (e.g., \"it searches the internet for every answer,\" \"it thinks\").", "Mostly accurate, with one misleading simplification.", "Accurate at the level of detail given; matches the concept key.", "Accurate and names where the simplification stops being true."] },
+        { "name": "Honest about limits", "descriptors": ["All hype or all fear.", "Mentions a limit vaguely (\"it's not perfect\").", "Names one specific limitation or risk.", "Names a specific limit and why it happens, without alarm."] },
+        { "name": "Actionable", "descriptors": ["Audience left with nothing to do.", "A general suggestion (\"be careful\").", "One concrete action or question for the audience.", "A concrete action tailored to this audience's pushback question."] }
+      ]
+    }
+  ]
+}

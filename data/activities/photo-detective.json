@@ -1,0 +1,325 @@
+{
+  "id": "photo-detective",
+  "title": "Photo Detective",
+  "tagline": "Students investigate described photos that were cropped, edited, or made with AI, and learn two fact-checker moves that work better than staring: Stop, and Find better coverage.",
+  "audience": "student",
+  "grades": [
+    "3-5"
+  ],
+  "strands": [
+    "medialit",
+    "genai"
+  ],
+  "mode": "hybrid",
+  "minutes": 45,
+  "groupSize": "Teams of 3–4; any number of teams",
+  "eles": [
+    "S2.2",
+    "AI4.1",
+    "AI1.3",
+    "S2.3",
+    "S5.1"
+  ],
+  "overview": "A photo can be real and still tell a false story. It can be **cropped** so you only see part of what happened, **edited** so something is added, removed, or changed, or **made with AI** so it shows something that never happened at all. Staring harder at a picture often doesn't help, and AI-made images keep getting harder to spot by looking. In this lesson, teams investigate ten photo cards (described in words, so no real photos are needed). They practice two moves fact-checkers use, in kid language: **STOP** (notice your feelings before you believe or share) and **FIND BETTER COVERAGE** (do other trusted sources show the same thing?). Then they crop a picture themselves to see how easily a story can change.",
+  "objectives": [
+    "Students will describe the difference between a cropped photo, an edited photo, an AI-made image, and a real photo with a wrong caption.",
+    "Students will use STOP to name the feeling a photo is designed to cause and pause before believing or sharing it.",
+    "Students will use FIND BETTER COVERAGE to check a photo against other trusted sources and change or confirm their first guess.",
+    "Students will explain why looking for clues alone is not enough to tell whether an image is real."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Photo Cards (1 set per team, cut apart; print the backs separately as the Better Coverage slips)",
+      "Handout B: Photo Detective Log (1 per team)",
+      "Handout C: Crop It! (1 per student)",
+      "Cut the Better Coverage slips (the card backs) apart and keep them at the teacher's table",
+      "Chart paper with two columns: STOP and FIND BETTER COVERAGE"
+    ],
+    "digital": [
+      "Optional: a photo you took yourself (a classroom shelf, the playground) to crop live on the teacher's device, projected",
+      "Optional: a generative AI image tool your district approves, on the teacher's device only, projected (no student accounts)"
+    ]
+  },
+  "prep": [
+    "Print Handout A for each team. Print the card backs on a separate sheet, cut them into Better Coverage slips, and sort them by card number at your table.",
+    "Read the whole key. Several cards are real photos with a false story; one is a real photo with an honest story. You want teams to find both.",
+    "Set up the STOP / FIND BETTER COVERAGE chart. Under STOP, write \"How does this make me feel?\" Under FIND BETTER COVERAGE, write \"Do other trusted sources show the same thing?\"",
+    "If you plan the digital demo, take a photo of a classroom scene with lots going on (for example, a shelf with a mess on one end) so you can crop it two ways."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "What's outside the frame?",
+      "body": "Make a frame with your hands and hold it up to one small part of the room, for example the one messy corner of a bookshelf. Describe only what's in your frame: \"This classroom is a total mess!\" Then drop your hands so students see the whole, tidy shelf. Ask: **\"Was what I showed you real? Was the story true?\"** Say: \"That's called **cropping**: showing only part of a picture. Today you're photo detectives. You'll learn how pictures can tell a false story, and what to do about it.\"",
+      "note": "Students usually say, \"It was real but it wasn't fair.\" Hold onto that phrase; it's the heart of the lesson."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "Four ways a picture can fool you, two moves that help",
+      "body": "Write four words on the board and give one kid-friendly example each: **Cropped** (only part is shown), **Edited** (something added, removed, or changed), **AI-made** (a computer made it from patterns; it never happened), and **Wrong caption** (a real photo with words that tell the wrong story). Then teach the two moves with gestures. **STOP** (hand up like a crossing guard): \"How does this make me feel? Surprised, scared, angry, amazed? Big feelings are a signal to slow down.\" **FIND BETTER COVERAGE** (hand over eyes, looking far): \"Do other trusted sources, like a news site a grown-up trusts, the library, or the people who were there, show the same thing?\" Model Card 1 aloud: STOP (\"Whoa, a giant fish! I feel amazed\"), make a first guess, then walk to your table and pick up the Better Coverage slip, read it, and change your answer.",
+      "note": "Name the limit honestly: \"Sometimes you can spot clues, like weird hands or blurry edges in AI pictures. But clues don't always work, and AI pictures keep getting better. Checking other sources works even when your eyes can't tell.\""
+    },
+    {
+      "phase": "Practice",
+      "minutes": 13,
+      "title": "Detective rounds",
+      "body": "Teams work through Cards 2–10. For each card: the **Reader** reads it aloud; everyone does STOP and names the feeling; the **Recorder** logs a first guess (Real, Cropped, Edited, AI-made, or Wrong caption) on Handout B. Then the **Runner** comes to your table and asks for that card's Better Coverage slip, which is their \"search.\" The team reads it and logs the final call and whether their guess changed. Rotate roles every card.",
+      "note": "Watch for Card 7, the real and honest photo. Some teams will call it fake because they're now suspicious of everything. That's a great teaching moment: \"Checking also tells us when something IS true.\""
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 6,
+      "title": "Which guesses changed?",
+      "body": "Ask teams: **\"Which card fooled you at first? Which move changed your mind?\"** Record answers on the chart under STOP or FIND BETTER COVERAGE. Then ask about Cards 4 and 9 (the AI-made ones): \"Could you tell by looking? What did tell you?\" (Better coverage: no one who was there saw it; the maker said it was AI.) Finally: \"Card 5 was a real photo. What made it untrue?\" (The caption.)",
+      "note": "Push past \"it looked fake.\" You want \"no other trusted source showed it\" or \"the full picture showed something different.\""
+    },
+    {
+      "phase": "Create",
+      "minutes": 10,
+      "title": "Crop It!",
+      "body": "Students complete Handout C. They draw a whole scene in the big box (for example, a birthday party where one kid is crying because they dropped their cake, while everyone else is laughing at a clown). Then they draw a cropped version showing only one part, and write the false caption someone could put on it and the true caption. Pairs trade and try to guess the whole scene from the crop before flipping to see it.",
+      "note": "Look-for: students choose a crop that changes the feeling of the story. That shows they understand cropping as a choice someone makes, not an accident."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "Before I share",
+      "body": "Each student finishes the last two rows of Handout B on their own: \"The move I'll use next time a picture gives me a big feeling is ___ because ___.\" and \"One person or place I can go for better coverage is ___.\" Collect as evidence.",
+      "note": "Good answers name a real, reachable source: a family member, the school librarian, a news site a grown-up trusts."
+    }
+  ],
+  "unplugged": "The whole lesson runs on paper. The Better Coverage slips are the unplugged version of searching: asking for one is the same habit as leaving a picture to see what other trusted sources say. Students have to walk to the teacher's table to get it, which makes the move visible. The hand-frame hook and Crop It! need nothing but hands and pencils.",
+  "digital": "Project a photo you took yourself on the teacher's device and crop it two ways as students watch, writing a different caption for each. Then, if your district approves an AI image tool, project it and type a prompt for a scene that never happened in your town, such as \"a moose walking through the Maple Hollow Elementary cafeteria.\" Ask: \"If this showed up online, how would you find out it's not real?\" (Better coverage: the school, local news, people who were there.) Students never use their own AI accounts. Older students can also practice finding better coverage on a teacher-chosen news site with a grown-up.",
+  "whyTech": "The live crop and the AI image make the lesson's claim concrete: students watch a real photo change its story in seconds, and watch a convincing picture of something that never happened appear on demand. That is evidence paper descriptions cannot give. The checking move itself works fully on paper.",
+  "adaptations": [
+    {
+      "label": "Grade 3",
+      "text": "Use Cards 1, 3, 4, 5, 7, and 9 and three categories only: Real, Changed (cropped or edited), and AI-made. Read each card aloud to the whole class."
+    },
+    {
+      "label": "Grade 5",
+      "text": "Add a third move from SIFT, **Trace**: for Card 5, ask \"Where did this photo first appear, and what did it say there?\" Students write the original caption."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Pre-teach crop, edit, and caption with the hand-frame gesture and a picture example of each. Let teams use a home-language word bank on Handout B."
+    },
+    {
+      "label": "Students with visual impairments",
+      "text": "The photo cards are already descriptions, so they work read aloud. For Crop It!, students can describe a whole scene and a cropped scene in words or with a partner as scribe."
+    }
+  ],
+  "lookFors": [
+    "Handout B shows at least two first guesses that changed after better coverage, with the reason named.",
+    "Teams correctly keep Card 7 as real and honest after checking, showing that checking confirms as well as debunks.",
+    "Students explain that the AI-made cards were caught by checking sources, not by looking harder.",
+    "Crop It! drawings show a crop that changes the story and a false caption that matches it."
+  ],
+  "reflection": [
+    "When a picture gives you a big feeling, what should you do before you believe it or share it? (Student ELE 2.2: I can identify trustworthy sources of information on the internet.)",
+    "Why is \"it looks real\" not enough to know a picture is true?",
+    "Who can you go to for better coverage when you're not sure?"
+  ],
+  "transfer": "At home, students show a family member the hand-frame trick and explain STOP and FIND BETTER COVERAGE, then look at a picture in a newspaper, magazine, or ad together and ask, \"What might be outside the frame?\" In the next lesson, connect to *Ad or Info?*, where students ask why someone made a picture.",
+  "connections": [
+    {
+      "title": "News Literacy Project",
+      "url": "https://newslit.org/",
+      "note": "Free resources for teaching students how to evaluate news and images."
+    },
+    {
+      "title": "Gen AI Literacy Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/genailit/",
+      "note": "Teacher-projected breakouts that extend AI-made media and checking."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Photo Cards",
+      "type": "cards",
+      "instructions": "Each card describes a photo someone shared. Read it, do STOP, and make a first guess. Then ask your teacher for the Better Coverage slip. The backs are the Better Coverage slips.",
+      "cards": [
+        {
+          "label": "Card 1 · Model",
+          "front": "A photo shows a boy holding a fish almost as big as he is. Caption: \"Local kid catches RECORD fish in Cedar Pond!\"",
+          "back": "Better coverage: the Cedar Pond fishing club's page shows the uncropped photo. A grown-up is holding the fish out close to the camera while the boy stands farther back, which makes the fish look giant. The club's record list shows no new record this year. Final call: CROPPED (and a trick angle). Real fish, false \"record\" story."
+        },
+        {
+          "label": "Card 2",
+          "front": "A photo shows a park full of trash. Caption: \"Maple Hollow Park is DISGUSTING. Nobody cleans it!\"",
+          "back": "Better coverage: the town newsletter shows the full photo. The trash is in a pile next to a sign that says \"Clean-Up Day: Bags go here!\" Volunteers had just collected it. Final call: CROPPED. The picture is real; the story is false."
+        },
+        {
+          "label": "Card 3",
+          "front": "A photo of the sky shows a double rainbow over Birch Street School. Caption: \"Look what we saw after the storm today!\"",
+          "back": "Better coverage: the school's newsletter, two families' posts, and the weather page for that day all mention the storm and the rainbow. Final call: REAL, with an honest caption."
+        },
+        {
+          "label": "Card 4",
+          "front": "A photo shows a cat wearing an astronaut helmet floating inside a space station. Caption: \"First cat in space!\"",
+          "back": "Better coverage: no space agency or news source reports a cat in space. The person who posted it says in the comments that they made it with an AI image tool. Final call: AI-MADE. Fun, but not real, and the caption makes it sound true."
+        },
+        {
+          "label": "Card 5",
+          "front": "A photo shows a street under water with cars floating. Caption: \"Downtown Pinecrest RIGHT NOW. Stay home!\"",
+          "back": "Better coverage: the same photo appeared in a news story from another town, three years ago. Pinecrest's weather service reports no flooding today. Final call: WRONG CAPTION. Real photo, wrong place and time."
+        },
+        {
+          "label": "Card 6",
+          "front": "A class photo where every student is smiling, and the sky behind them is bright purple. Caption: \"Our field trip to the lake!\"",
+          "back": "Better coverage: the teacher who took it says she added a purple filter for fun. Other photos from the trip show a blue sky. Final call: EDITED, in a harmless way. Ask: \"Is every edit a lie?\" (No; this one changed the color, not the story.)"
+        },
+        {
+          "label": "Card 7",
+          "front": "A photo shows the mayor of Maple Hollow cutting a ribbon at the new library. Caption: \"New library opens on Oak Street this Saturday.\"",
+          "back": "Better coverage: the library's website, the local newspaper, and the town calendar all show the opening on Oak Street on Saturday. Final call: REAL and honest. Checking also tells us when something IS true."
+        },
+        {
+          "label": "Card 8",
+          "front": "A photo shows a famous singer standing next to a fourth grader named Lily at a grocery store. Caption: \"Guess who I met!!\"",
+          "back": "Better coverage: the singer's tour calendar shows she was performing in another country that day. Lily's cousin admits he pasted the singer in with a photo app. Final call: EDITED. Something was added that wasn't there."
+        },
+        {
+          "label": "Card 9",
+          "front": "A photo shows a giant sinkhole in the middle of the Pinecrest Elementary playground. Caption: \"Recess canceled forever!!\"",
+          "back": "Better coverage: the principal and the school's website say the playground is fine. No news source reports a sinkhole. The account that posted it has shared other AI-made pictures. Final call: AI-MADE. It never happened."
+        },
+        {
+          "label": "Card 10",
+          "front": "A photo shows a crowd cheering. Caption: \"Everyone in Birchwood loves the new skate park!\"",
+          "back": "Better coverage: the town paper shows the full photo. Next to the cheering crowd is a second group holding signs asking for the skate park to be moved because of noise. Final call: CROPPED. Real, but it hides the people who disagree."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Photo Detective Log",
+      "type": "table",
+      "instructions": "For each card: STOP and write the feeling. Make a first guess: Real, Cropped, Edited, AI-made, or Wrong caption. Then get the Better Coverage slip and make your final call.",
+      "columns": [
+        "Card",
+        "STOP: How does it make me feel?",
+        "My first guess",
+        "Better coverage said…",
+        "Final call (did it change?)"
+      ],
+      "rows": [
+        [
+          "1",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "7",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "8",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "9",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "10",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "On my own: The move I'll use next time a picture gives me a big feeling is ___ because ___.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "On my own: One person or place I can go for better coverage is ___.",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Crop It!",
+      "type": "worksheet",
+      "instructions": "Show how cropping can change a story. Draw big and clear.",
+      "sections": [
+        {
+          "prompt": "Draw the WHOLE scene. Put at least two things happening in it. (Idea: a birthday party where one kid dropped their cake and is sad, but everyone else is laughing at a clown.)",
+          "boxes": true
+        },
+        {
+          "prompt": "Now draw a CROPPED version that shows only one part.",
+          "boxes": true
+        },
+        {
+          "prompt": "A false caption someone could write for the cropped picture:",
+          "lines": 2
+        },
+        {
+          "prompt": "The true caption for the whole scene:",
+          "lines": 2
+        },
+        {
+          "prompt": "If you saw only the cropped picture online, how could you find better coverage?",
+          "lines": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "phish-tank-irl",
+  "title": "Phish Tank IRL",
+  "tagline": "Teams sort fourteen texts, emails, and game-chat messages into safe, scam, or check-another-way, and learn why AI-polished scams make spelling mistakes a useless clue.",
+  "audience": "student",
+  "grades": ["3-5", "6-8"],
+  "strands": ["digcit", "genai"],
+  "mode": "unplugged",
+  "minutes": 40,
+  "groupSize": "Teams of 3–4; 6–10 teams works well for the gallery walk",
+  "eles": ["S2.1", "S2.3", "AI2.2", "T2.2"],
+  "overview": "Many of us were taught that scams are easy to spot because they're full of typos. Now anyone can use AI to write a polished, friendly, perfectly spelled scam in seconds. In this gallery-walk sort, teams visit a \"tank\" of fourteen realistic messages, decide which are safe, which are scams, and which need to be checked another way, and name the red flags that still work. They leave with a SLOW DOWN routine they can use on any message.",
+  "objectives": [
+    "Students will sort realistic messages into Safe, Scam, or Check another way, and justify each choice with at least one red flag or green flag.",
+    "Students will explain why spelling and grammar are no longer reliable scam clues and name flags that still work (urgency, secrecy, requests for codes or passwords, unexpected links).",
+    "Students will practice a safe response: not clicking, checking through a trusted route, and telling a trusted adult."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Message Tank (1 set of 14 strips; enlarge and post around the room, or give each team a set)",
+      "Handout A sorting mat (1 per team)",
+      "Handout B: SLOW DOWN Check (1 per student)",
+      "Handout C: Scam Reply Lab (1 per team)",
+      "Painter's tape; sticky notes in three colors (green = Safe, red = Scam, yellow = Check another way)"
+    ],
+    "digital": [
+      "Optional: teacher projector to show messages as slides",
+      "Optional: a generative AI chatbot your district approves, driven by the teacher only, for the \"polished scam\" demo"
+    ]
+  },
+  "prep": [
+    "Print Handout A. For a gallery walk, enlarge each message strip and tape it around the room, numbered 1–14. For desk work, cut one set per team.",
+    "Put a stack of green, red, and yellow sticky notes at each station, or give each team a set.",
+    "Review the key. Several messages are safe (Messages 3, 7, 11) or need checking (Messages 5, 9, 13). Don't let the lesson become \"everything is a scam.\"",
+    "If you plan the AI demo, prepare a harmless prompt such as \"Rewrite this message so it sounds friendly and professional\" and paste in Message 1's typo version."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Spot the scam in two seconds",
+      "body": "Show or read two versions of the same message side by side. **Version 1:** \"URGENT!! you acount is lockd. click hear to fix now\". **Version 2:** \"Hi! We noticed unusual activity on your PixelPlay account. To keep your progress safe, please confirm your login within 24 hours using the secure link below.\" Ask: **\"Which one is the scam?\"** Reveal: both are. Say: \"Scammers can now use AI to fix the spelling and make it sound friendly. So we need better clues.\"",
+      "note": "If you have a district-approved chatbot, paste Version 1 and ask it to \"make this sound professional\" live on the projector. Don't send anything anywhere; the point is how fast the polish appears."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 13,
+      "title": "The gallery walk",
+      "body": "Teams rotate through the 14 messages (about one minute per station, or work through the strips at their desks). At each one, they place a colored sticky note: **green = Safe, red = Scam, yellow = Check another way**, and write one flag that convinced them. Teams may not click, call, or reply to anything; they may only notice.",
+      "note": "Listen for \"It has no typos, so it's fine.\" Bring that reasoning to the debrief."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "Which flags still work?",
+      "body": "Go to the three messages with the most split votes. Ask teams to defend their color. Reveal the key and build a class list titled **\"Flags that still work\"**: urgency, secrecy (\"don't tell anyone\"), a request for passwords, codes, or money, a link or sender that doesn't match the real company, an offer that's too good to be true, and a message you didn't expect. Then ask: **\"Why is 'check another way' sometimes the smartest answer?\"**",
+      "note": "Stress that asking for a verification code is a major flag. A login code is meant only for you; a real friend or company will not ask you to send it to them in a message."
+    },
+    {
+      "phase": "Model",
+      "minutes": 4,
+      "title": "The SLOW DOWN check",
+      "body": "Hand out Handout B and model it on Message 5 (the \"friend\" asking for a code in game chat). Think aloud: \"**S**top. I feel rushed. **L**ook at the sender... it's a new account using my friend's name. **O**pen nothing. **W**ho can I check with? I'll ask my friend in person or through our usual chat. **D**on't share codes or passwords, ever. **O**wn it: tell an adult. **W**arn others. **N**ote what happened so I recognize it next time.\"",
+      "note": "Students under 13 may not have accounts of their own; frame it as protecting a family phone, a game console, or a school account."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 7,
+      "title": "Scam Reply Lab",
+      "body": "Teams complete Handout C. They choose one scam from the tank and write **the safe action** they'd take, **the trusted route** they'd use to check, and **what they'd say** to a younger sibling or friend who got the same message. Then each team writes one new flag the class didn't list.",
+      "note": "Look for trusted routes that don't use the message itself: the official app, a number from the back of a card, a teacher or parent, the real website typed in by hand."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 3,
+      "title": "One flag I'll remember",
+      "body": "On an exit sticky note, each student writes the one flag they'll remember and one person they'd tell if something felt off. Collect them at the door.",
+      "note": "If a student shares a real scam they or their family experienced, thank them and follow your school's reporting process if there's any ongoing risk."
+    }
+  ],
+  "unplugged": "Designed for paper: the message tank is taped to the walls, sticky notes record votes, and the SLOW DOWN card goes home. Read Version 1 and Version 2 of the hook aloud if you have no projector.",
+  "digital": "Post the messages as slides or a form so students vote Safe, Scam, or Check another way and see the class results as a chart. The teacher alone may demonstrate how a district-approved chatbot polishes a clumsy message; students never paste real messages or personal information into an AI tool. Grades 6–8 can review their school account's security settings with the teacher afterward.",
+  "whyTech": "A live AI polish demo proves in seconds that good spelling means nothing, which shifts students to flags that still work. The core sorting and reasoning is stronger on paper, where every vote and flag is visible on the wall.",
+  "adaptations": [
+    { "label": "Grades 3–5", "text": "Use Messages 1, 3, 5, 7, 8, and 12, and shorten SLOW DOWN to three moves: Stop, Don't click, Tell a grown-up." },
+    { "label": "Grades 9–12", "text": "Add job-offer and scholarship scams, and discuss how AI helps scammers personalize messages using information people post publicly." },
+    { "label": "Emergent bilinguals", "text": "Provide the messages in students' home languages where possible; scams often target families in more than one language. Let teams discuss the flags in any language." }
+  ],
+  "lookFors": [
+    "Students justify a color with a specific flag (\"asks for a code,\" \"link doesn't match the company\"), not \"it looks fake.\"",
+    "Students reject spelling as a reliable clue and explain why, citing the AI-polished example.",
+    "Handout C names a trusted route that doesn't use the suspicious message's own link, number, or reply button."
+  ],
+  "reflection": [
+    "Do I stay safe and make good choices when I use the internet? What will I do the next time a message makes me feel rushed?",
+    "Which personal information would a scammer most want from me or my family, and how will I protect it?",
+    "Who is my trusted adult or trusted route for checking a message?"
+  ],
+  "transfer": "Students take the SLOW DOWN card home and walk a family member through one message from the tank. Next class, invite volunteers to share one scam flag their family recognized.",
+  "connections": [
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "Follow-up breakouts on online safety and privacy." },
+    { "title": "Family App Privacy Audit", "url": "https://mglearn.github.io/tcea/privacy-audit/", "note": "A family-facing tool to continue the conversation at home." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Message Tank",
+      "type": "sort",
+      "instructions": "All names, companies, and numbers are made up for this lesson. Sort each message and write one flag that convinced you.",
+      "categories": ["Safe", "Scam", "Check another way"],
+      "items": [
+        { "text": "1 · Text: \"Hi! We noticed unusual activity on your PixelPlay account. To keep your progress safe, please confirm your login within 24 hours: pixelplay-secure-login.help\"", "answer": "Scam", "why": "Polished and friendly, but it's urgent, unexpected, and the link isn't PixelPlay's real site. Open the app yourself instead." },
+        { "text": "2 · Email: \"Congratulations! You've been selected for a FREE SkyStream tablet. Just pay $4.99 shipping with your parent's card in the next 10 minutes.\"", "answer": "Scam", "why": "Too good to be true, a countdown, and a request for a payment card." },
+        { "text": "3 · Text from the number saved as \"Mom\": \"Running 10 min late for pickup. Wait inside by the office.\"", "answer": "Safe", "why": "Expected, from a saved contact, and asks for nothing: no link, no money, no codes." },
+        { "text": "4 · Game chat: \"I'm a mod. Your account will be banned unless you send me your password so I can verify it.\"", "answer": "Scam", "why": "Real moderators never need your password. A threat plus a password request is a major flag." },
+        { "text": "5 · Game chat from a new account using your friend Leo's name: \"Hey it's Leo, new account! I just sent a code to your phone by accident, can you send it to me?\"", "answer": "Check another way", "why": "Never share the code. Check with Leo through a route you already use, like in person. This is a common account-takeover trick." },
+        { "text": "6 · Email: \"Your QuickShip package could not be delivered. Pay a $1.25 redelivery fee here.\" (You aren't expecting a package.)", "answer": "Scam", "why": "Unexpected, a small fee to lower your guard, and a payment link. Check the real delivery app or site yourself." },
+        { "text": "7 · A message inside your school's learning platform from your teacher: \"Reminder: science lab report due Friday. Rubric is in the Week 6 folder.\"", "answer": "Safe", "why": "Inside a platform you already use, from a known teacher, expected, and asks for nothing private." },
+        { "text": "8 · DM: \"OMG is this you in this video?? lol look: vid-share.click/you\"", "answer": "Scam", "why": "Curiosity bait plus an odd link. It's designed to make you click before you think." },
+        { "text": "9 · Email that appears to be from Maple Hollow ISD: \"Update your student portal password by Friday. Use this link.\"", "answer": "Check another way", "why": "It may be real or a copy. Don't use the link; ask your teacher or go to the portal the way you normally do." },
+        { "text": "10 · Text: \"Northwind Bank ALERT: your card is frozen. Reply with your card number and PIN to unlock.\"", "answer": "Scam", "why": "Banks don't ask for PINs by text. Tell an adult, who can call the number on the back of the real card." },
+        { "text": "11 · An app you just downloaded shows: \"Allow this app to send you notifications?\" with Allow and Don't Allow buttons.", "answer": "Safe", "why": "A normal permission prompt you caused. It's safe to answer, but you can choose Don't Allow." },
+        { "text": "12 · Social post: \"Share this post and tag 5 friends to win 10,000 free coins in Pixel Quest! Enter your username and password below.\"", "answer": "Scam", "why": "Free-coin offers that ask for your login are classic account-stealing scams." },
+        { "text": "13 · Voicemail from \"Grandpa\": \"It's me. Something happened and I need money right away. Don't tell your mom.\"", "answer": "Check another way", "why": "Voices can be faked with AI. Hang up and call Grandpa or a parent on a number you already know. Secrecy is a big flag." },
+        { "text": "14 · Email: \"Dear student, I am writing on behalf of the BrightPath Scholarship Fund. You have won $2,000. Kindly reply with your full name, address, birthday, and school.\"", "answer": "Scam", "why": "You can't win something you didn't enter. It's a request for personal information that could be used to impersonate you." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "SLOW DOWN Check",
+      "type": "checklist",
+      "instructions": "Use this card any time a message makes you feel rushed, excited, scared, or curious. Keep it by your family's computer or phone.",
+      "items": [
+        "S · Stop. Am I being rushed, scared, or promised a prize?",
+        "L · Look at the sender. Is it someone I know, from an account or number I already have saved?",
+        "O · Open nothing yet: no links, no attachments, no replies.",
+        "W · Who can I check with? Use a trusted route: the real app, a saved number, a teacher, or a parent.",
+        "D · Don't share passwords, codes, PINs, birthdays, addresses, or money, ever, through a message.",
+        "O · Own it: tell a trusted adult, even if I already clicked. It's fixable, and fast help matters.",
+        "W · Warn others: report or block the sender and tell friends who might get the same message.",
+        "N · Note the flag, so I recognize the trick next time.",
+        "Remember: perfect spelling is NOT a safe sign. AI can make any scam sound polished."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Scam Reply Lab",
+      "type": "worksheet",
+      "instructions": "Pick one scam from the tank. Plan the safe response as a team.",
+      "sections": [
+        { "prompt": "Message number and the flags we noticed:", "lines": 2 },
+        { "prompt": "What should you NOT do? (Be specific.)", "lines": 2 },
+        { "prompt": "The trusted route we'd use to check (not the message's own link, number, or reply):", "lines": 2 },
+        { "prompt": "What we'd say to a younger sibling or friend who got this message:", "lines": 3 },
+        { "prompt": "A new flag our class didn't list yet:", "lines": 2 },
+        { "prompt": "Why can't we rely on spelling mistakes to spot scams anymore?", "lines": 2 }
+      ]
+    }
+  ]
+}

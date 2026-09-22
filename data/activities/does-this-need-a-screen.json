@@ -1,0 +1,126 @@
+{
+  "id": "does-this-need-a-screen",
+  "title": "Does This Need a Screen?",
+  "tagline": "A fast, argument-starting card sort where teachers decide which classroom tasks are best unplugged, which earn their screen time, and where AI adds value, and have to say why.",
+  "audience": "pl",
+  "roles": ["teachers", "librarians"],
+  "grades": ["K-12"],
+  "strands": ["digcit"],
+  "mode": "unplugged",
+  "minutes": 20,
+  "groupSize": "Groups of 3–4; any number of groups",
+  "eles": ["T1.1", "T4.3", "T1.3"],
+  "overview": "The screen-time debate usually gets stuck at \"more\" or \"less.\" This quick sort replaces that with a better question: for *this* task and *these* students, what does a screen add to the evidence of learning, and what does it cost in attention, connection, and wellbeing? Groups sort 14 real-feeling classroom tasks into four piles, argue the close calls, and leave with a five-question check they can use while planning tomorrow. It works well as a staff-meeting opener or the first 20 minutes of a longer session.",
+  "objectives": [
+    "Participants will classify classroom tasks as best unplugged, digital, AI-supported, or \"it depends,\" and justify each choice by the evidence of learning it produces.",
+    "Participants will name at least one wellbeing or relationship cost of screen use (attention, face-to-face connection, sleep, emotional safety) and weigh it against the learning gain.",
+    "Participants will apply a five-question screen-time check to one task they plan to teach this week."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Screen or No Screen? Sort (sorting mat + item strips, 1 set per group, cut apart)",
+      "Handout B: Five-Question Screen Check (1 per person)",
+      "Sticky notes"
+    ],
+    "digital": [
+      "Optional: a shared digital whiteboard with the four categories as columns for virtual groups"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A: one sorting mat and one set of 14 strips per group, shuffled.",
+    "Skim the facilitator key. Several items are designed to be contested (especially the oral-history interview, the cell model, and the anonymous poll). The key's answer matters less than the reason given."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 3,
+      "title": "Stand on the line",
+      "body": "Mark an imaginary line across the room: one end is \"Schools should cut screen time as far as possible,\" the other is \"Screens are how students will live and work; use them freely.\" Everyone stands where they are. Ask two people from opposite ends for one sentence each. Then say: \"Both ends are arguing about *amount*. For the next 15 minutes, we'll argue about *purpose* instead.\"",
+      "note": "If standing isn't possible, use a 1–5 finger vote. Don't let this become the debate; it's the warm-up."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 9,
+      "title": "Sort and argue",
+      "body": "Groups sort the 14 strips onto the four-column mat: **Unplugged is best**, **Digital earns its place**, **AI adds value (with guardrails)**, **It depends: say on what**. Rule: before a strip goes down, someone must finish the sentence \"The evidence of learning here is ___, and a screen (helps / hurts / doesn't matter) because ___.\" Anything the group can't agree on goes in \"It depends\" with a sticky note naming what it depends on.",
+      "note": "Circulate and ask about wellbeing, not just learning: \"What does the screen do to how students feel or connect in this task?\" That is Teacher ELE 4.3 in action."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 5,
+      "title": "The contested strips",
+      "body": "Read the key aloud only for the strips groups fought over. For each, ask one group to argue the key's answer and one to argue against it. Close with: \"Notice that the AI column is small, and one AI item belongs in 'unplugged' because AI would do the learning for the student. Where AI belongs, *if it belongs at all*, is a design decision, not a default.\"",
+      "note": "Common misconception: \"digital\" means engaging and \"unplugged\" means rigorous, or vice versa. Neither follows. Keep bringing it back to what students produce."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 3,
+      "title": "Check one real task",
+      "body": "Each person picks one task from this week's plans and runs it through Handout B. Share with one neighbor: \"I'm keeping / dropping / changing the screen in this task because…\"",
+      "note": "If time is short, have people write their sentence on a sticky note and post it on the way out. Those notes are a quick read of where the staff is."
+    }
+  ],
+  "unplugged": "The sort is fully unplugged: strips, a mat, and talk. The line-up hook needs only open floor space. Handout B works as a paper planning check teachers can keep in their plan book.",
+  "digital": "For virtual or hybrid groups, place the 14 items as sticky notes on a shared digital whiteboard with four columns, and require each note to carry a one-line justification before it moves. The facilitator can then screenshot every group's board and compare where the same item landed, which makes the disagreements visible across the whole room.",
+  "whyTech": "This one is better unplugged. The learning is in the argument, and physically moving a strip while justifying it keeps attention on the reasoning. The digital whiteboard only earns its place when groups are remote, or when you want to compare every group's sort side by side.",
+  "adaptations": [
+    { "label": "K–5 teachers", "text": "Swap in items from your grade band (read-alouds, math manipulatives, phonics practice apps, class video calls) and add a fifth question to Handout B: \"How will I know young students are still getting enough talk, movement, and hands-on time?\"" },
+    { "label": "Secondary teachers", "text": "Add items from your content area and a column for \"Students choose,\" with the condition that students must explain their choice. That builds the learning-owner habit the ELEs describe." },
+    { "label": "Student version (grades 6–12)", "text": "Students sort the same strips and then write a class agreement about when devices come out. Their reasons are often sharper than adults'." }
+  ],
+  "lookFors": [
+    "Groups justify placements by naming the evidence of learning (\"they have to explain the pattern in the graph\"), not the tool's appeal.",
+    "At least one placement names a wellbeing or relationship factor (eye contact, belonging, attention, anxiety) as part of the reason.",
+    "Participants leave with one real task changed, kept, or dropped, with a stated reason on Handout B or a sticky note."
+  ],
+  "reflection": [
+    "How do I decide when technology truly belongs in a lesson? (Teacher ELE 1.1)",
+    "Which of my routines build emotional connection, and would a screen help or get in the way? (Teacher ELE 4.3)",
+    "Which newer tools, including AI, am I using because they're available rather than because they improve the evidence of learning?"
+  ],
+  "transfer": "For one week, before any device comes out, say the reason aloud to students (\"We're using the spreadsheet today because it lets us spend our time explaining the pattern, not drawing the graph\"). Notice whether students start asking \"Why a screen?\" themselves.",
+  "connections": [
+    { "title": "Learning Activities Hub", "url": "https://mglearn.github.io/activities/", "note": "Unplugged and digital activities you can compare against the five questions." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Screen or No Screen? Sort",
+      "type": "sort",
+      "instructions": "Cut apart the strips. Before placing a strip, finish this sentence aloud: \"The evidence of learning here is ___, and a screen helps / hurts / doesn't matter because ___.\"",
+      "categories": ["Unplugged is best", "Digital earns its place", "AI adds value (with guardrails)", "It depends: say on what"],
+      "items": [
+        { "text": "Kindergartners practice forming the letters in their names.", "answer": "Unplugged is best", "why": "Letter formation is a fine-motor skill; pencils, crayons, and tracing in sand build it better than tapping a screen." },
+        { "text": "A morning circle where students share how they're feeling today.", "answer": "Unplugged is best", "why": "Eye contact, tone, and being heard in person are the point. A screen would thin out the connection." },
+        { "text": "A 3rd-grade class plays a paper \"guess the next word\" game to learn how a chatbot writes answers.", "answer": "Unplugged is best", "why": "Handling the cards makes an invisible process visible; the concept, not the tool, is what's being learned." },
+        { "text": "High school students write the first draft of a personal narrative about a moment that changed them.", "answer": "Unplugged is best", "why": "The drafting is the learning. An AI draft would do the remembering, choosing, and shaping for them. (Typing on a device is fine; AI generation is not.)" },
+        { "text": "Two teams rehearse a formal debate before a class tournament.", "answer": "Unplugged is best", "why": "Listening, rebuttal, and reading the room are live, face-to-face skills." },
+        { "text": "4th graders compare a month of daily temperatures from two cities and explain the difference.", "answer": "Digital earns its place", "why": "A spreadsheet graphs 60 numbers in seconds, so class time goes to interpreting the pattern instead of plotting points." },
+        { "text": "A middle school class interviews a partner class in another state about local landforms.", "answer": "Digital earns its place", "why": "A video call is the only practical way to talk live with that class. The screen creates the learning opportunity." },
+        { "text": "A student whose handwriting is slow and painful because of a motor disability writes a story.", "answer": "Digital earns its place", "why": "Typing or speech-to-text removes a barrier so the evidence shows the student's storytelling, not their handwriting. (Follow the student's plan.)" },
+        { "text": "8th graders practice solving two-step equations and need to know right away whether each answer is correct.", "answer": "Digital earns its place", "why": "Immediate feedback on each problem helps students catch errors before they practice them 20 times. A worked-out answer key can also do this." },
+        { "text": "11th graders strengthen an argumentative essay by answering the strongest counterarguments to their claim.", "answer": "AI adds value (with guardrails)", "why": "An approved chatbot can act as a sparring partner that generates counterarguments. Students must verify and rebut them, and disclose the use." },
+        { "text": "A teacher needs a science article rewritten at two reading levels for newcomers learning English.", "answer": "AI adds value (with guardrails)", "why": "AI can produce leveled drafts quickly. The teacher must check every fact and term against the original before students see it." },
+        { "text": "6th graders record a grandparent's memories for a family oral-history project.", "answer": "It depends: say on what", "why": "Depends on purpose and consent. Recording preserves the voice, but the interview itself is human; notes on paper may be enough." },
+        { "text": "7th graders build a model of an animal cell.", "answer": "It depends: say on what", "why": "Depends on the goal. A clay model shows structure you can hold; a simulation shows processes over time." },
+        { "text": "Before a sensitive discussion, the teacher wants every student's honest opinion, anonymously.", "answer": "It depends: say on what", "why": "An anonymous digital poll or folded paper slips can both work. Choose based on class size, trust, and whether results need to be shown instantly." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Five-Question Screen Check",
+      "type": "checklist",
+      "instructions": "Run one task from this week's plans through these questions before deciding.",
+      "scale": ["Yes", "Not sure", "No"],
+      "items": [
+        "I can name the evidence of learning this task should produce.",
+        "The screen (or AI tool) makes that evidence easier to produce, see, or give feedback on.",
+        "The same evidence would be weaker or slower to get without the screen.",
+        "I've considered what the screen costs here: attention, face-to-face talk, movement, or emotional connection.",
+        "If AI is involved, students must question, verify, or decide something about its output, not just accept it.",
+        "Students' personal information is protected in any tool this task uses.",
+        "I can explain my choice to students in one sentence."
+      ]
+    }
+  ]
+}

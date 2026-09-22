@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garbage In, Garbage Out | ELE Activity Bank</title>
+<meta name="description" content="Students write instructions for a classmate &quot;robot&quot; who follows them exactly, discover why vague prompts get surprising results, and build a recipe for clear prompts they can use with AI and with people.">
+<meta property="og:title" content="Garbage In, Garbage Out | ELE Activity Bank">
+<meta property="og:description" content="Students write instructions for a classmate &quot;robot&quot; who follows them exactly, discover why vague prompts get surprising results, and build a recipe for clear prompts they can use with AI and with people.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Activity Bank</span></a>
+  <nav aria-label="Main">
+    <a href="../index.html#catalog">Activities</a>
+    <a href="../framework.html">The ELEs</a>
+    <a href="../guide.html">Facilitator guide</a>
+  </nav>
+</header>
+
+<main id="main" class="act">
+  <div class="act-head">
+    
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">All activities</a> <span aria-hidden="true">/</span> Student learning</p>
+    <h1>Garbage In, Garbage Out</h1>
+    <p class="lede">Students write instructions for a classmate &quot;robot&quot; who follows them exactly, discover why vague prompts get surprising results, and build a recipe for clear prompts they can use with AI and with people.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/garbage-in-garbage-out.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Print handouts</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">Print this guide</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="At a glance">
+      <dl>
+        <div><dt>Time</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>40 minutes</dd></div>
+        <div><dt>Mode</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</dd></div>
+        <div><dt>Grades</dt><dd>Grades 3–5</dd></div>
+        
+        <div><dt>Group</dt><dd>Pairs (Director and Robot), switching roles; any class size</dd></div>
+        <div><dt>Strands</dt><dd class="chips"><span class="strand s-genai">Gen AI</span></dd></div>
+      </dl>
+      <h2 class="glance-h">ELE indicators</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI1.1">AI1.1</a><div><span class="ind-area">AI in Education · AI Literacy</span>I know how AI systems work and their capabilities in educational contexts.</div></li><li><a class="ele" href="../framework.html#S5.1">S5.1</a><div><span class="ind-area">Students · Creative Problem Solver</span>I know how to approach complex problems systematically.</div></li><li><a class="ele" href="../framework.html#S3.2">S3.2</a><div><span class="ind-area">Students · Collaborative Learner</span>I can communicate my ideas clearly to others.</div></li><li><a class="ele" href="../framework.html#S5.3">S5.3</a><div><span class="ind-area">Students · Creative Problem Solver</span>I am aware of how to apply computational thinking in various subjects.</div></li><li><a class="ele" href="../framework.html#AI4.3">AI4.3</a><div><span class="ind-area">AI in Education · AI and Critical Thinking</span>I am aware of strategies to develop AI-related problem-solving skills.</div></li></ul>
+      <h2 class="glance-h">Handouts</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Shape Challenge Cards <span class="muted">(cut-apart cards)</span></li><li><span class="hl">B</span> Robot Instruction Sheet <span class="muted">(worksheet)</span></li><li><span class="hl">C</span> Prompt Upgrade Lab <span class="muted">(organizer)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Overview</h2><p class="overview">Computer scientists have an old saying: <strong>garbage in, garbage out.</strong> If the instructions are unclear, the result will be too. In this game, a Director secretly draws a picture from a shape challenge and writes instructions, and a classmate Robot follows those words exactly, with no peeking and no questions. Round 1 results are often wildly off. Round 2, after the class builds a &quot;prompt recipe,&quot; gets much closer. Students then upgrade vague AI prompts and learn the other half of the truth: even a great prompt can get a wrong answer, so people still check.</p>
+        <h3 class="sub">Objectives</h3><ul><li>Students will write step-by-step instructions that another person can follow exactly, and revise them after seeing the result.</li><li>Students will explain that a generative AI tool fills in missing details with likely guesses from patterns, so vague prompts get unpredictable results.</li><li>Students will identify missing ingredients in a vague prompt (who it's for, what, how many or how long, details, style) and rewrite it.</li><li>Students will explain why a clear prompt still doesn't guarantee a correct answer.</li></ul></section>
+      <section class="two">
+        <div><h2>Materials</h2>
+          <h3 class="sub">On paper</h3><ul><li>Handout A: Shape Challenge Cards (1 set per 4 pairs, cut apart)</li><li>Handout B: Robot Instruction Sheet (1 per pair per round, printed double-sided)</li><li>Handout C: Prompt Upgrade Lab (1 per pair)</li><li>Pencils, a folder or book per pair to use as a privacy screen</li><li>Chart paper titled &quot;Our Prompt Recipe&quot;</li></ul>
+          <h3 class="sub">On screen</h3><ul><li>Optional: a generative AI chatbot your district approves, on the teacher's device, projected for the class</li><li>Optional: a document camera to compare Director and Robot drawings side by side</li></ul></div>
+        <div><h2>Before you start</h2><ol class="prep"><li>Cut apart the Shape Challenge Cards. Pairs need one card per round.</li><li>Prepare your own hook: decide on a simple drawing (a cat face, a house) you'll let the class &quot;program&quot; you to draw.</li><li>Write &quot;Our Prompt Recipe&quot; on chart paper with room for five ingredients.</li><li>If you'll run the projected demo, try the vague and upgraded prompts from Handout C Row 1 in your district-approved chatbot so you know roughly what to expect.</li></ol></div>
+      </section>
+      <section><h2>Step by step</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Hook</p>
+        <h3>Program the teacher</h3>
+        <p>Stand at the board and say: <strong>&quot;I am a robot. I do exactly what you say, nothing more.&quot;</strong> Ask the class to tell you how to draw a cat. When a student says &quot;Draw a cat,&quot; draw a tiny circle in the corner and stop. &quot;Draw ears&quot; gets two ears floating far away from the head. Keep following the words literally. After a minute, ask: &quot;Why doesn't my cat look like the cat in your head?&quot; Take answers, then write <strong>Garbage in, garbage out</strong> on the board.</p>
+        <p class="step-note"><span>Facilitator note</span>Stay deadpan. The laughter is the hook, but the point is that the robot can't read minds; it only has the words.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–10 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Model</p>
+        <h3>How AI fills in the gaps</h3>
+        <p>Explain simply: &quot;A generative AI chatbot learned from huge amounts of writing. When you type a prompt, it predicts the words that are most likely to come next, one after another. It doesn't know what's in your head. When your prompt leaves something out, it fills the gap with a likely guess.&quot; Then read the <strong>Robot Rules</strong> aloud: the Robot does only what the words say; no peeking; no questions; the Director can't point or gesture. Show a Shape Challenge Card and model writing two precise instructions: &quot;Draw a big square in the middle of the page, about as wide as your hand.&quot;</p>
+        <p class="step-note"><span>Facilitator note</span>Students often ask whether AI &quot;understands.&quot; A fair answer for this age: &quot;It's very good at predicting what words usually come next. That can look like understanding, but it can also be confidently wrong.&quot;</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">10–22 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Practice</p>
+        <h3>Round 1 and Round 2</h3>
+        <p><strong>Round 1 (5 min):</strong> Directors take a Shape Challenge Card, hide their paper behind a folder, draw their picture, and write instructions in the Round 1 box of Handout B. Robots read and draw in the Round 1 drawing box, following exactly. Reveal and compare. <strong>Quick huddle (2 min):</strong> Ask pairs what went wrong and build the first version of the Prompt Recipe on chart paper. <strong>Round 2 (5 min):</strong> Switch roles with a new card. Directors write using the recipe. Robots draw. Compare again.</p>
+        <p class="step-note"><span>Facilitator note</span>Look for Round 2 instructions that name size, position (&quot;top left corner&quot;), count, and order. Those are the details AI prompts need, too: specifics instead of assumptions.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">22–28 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Debrief</p>
+        <h3>Build the Prompt Recipe</h3>
+        <p>Put two pairs' Round 1 and Round 2 drawings under the document camera. Ask: <strong>&quot;What changed between rounds? Which words made the biggest difference?&quot;</strong> Finalize five ingredients on the chart: <strong>Who is it for? What exactly? How many or how long? Which details matter? What style or format?</strong> Then ask: &quot;When your Robot still drew something wrong in Round 2, whose job was it to notice?&quot; (The Director's, by checking the result.)</p>
+        <p class="step-note"><span>Facilitator note</span>Connect to S3.2: clear instructions are clear communication. The same recipe helps when you ask a classmate for help or explain your idea.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">28–36 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Apply</p>
+        <h3>Prompt Upgrade Lab</h3>
+        <p>Pairs complete Handout C: for each vague prompt, name what's missing using the recipe, then write an upgraded prompt. Share a few aloud. If you have the projected demo, type one vague prompt and the class's upgraded version into the chatbot and compare the answers. Then point out any mistakes or made-up details in either answer and ask: <strong>&quot;Did a better prompt make it automatically correct?&quot;</strong></p>
+        <p class="step-note"><span>Facilitator note</span>Row 5 on Handout C adds wrong information to the prompt (&quot;garbage in&quot;). Students should notice that a tool may repeat the mistake instead of fixing it.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">36–40 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Reflect</p>
+        <h3>Exit ticket</h3>
+        <p>On the back of Handout B, students answer: &quot;One thing I changed in Round 2 was ___. It helped because ___.&quot; and &quot;Even with a clear prompt, I still need to ___.&quot; Collect as evidence.</p>
+        <p class="step-note"><span>Facilitator note</span>Strong answers name a specific revision (&quot;I said where on the page&quot;) and a checking move (&quot;check if the answer is right&quot;).</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Paper or screen</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</h3><p>Everything runs on paper. The classmate Robot is the &quot;AI,&quot; and the Prompt Upgrade Lab needs no device: pairs can swap upgraded prompts and act as each other's chatbot, writing a short answer and marking any detail they had to guess.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Digital</h3><p>Project a district-approved generative AI chatbot from the teacher's device during the Apply step. Type a vague prompt from Handout C and the class's upgraded version, one after the other, and compare the answers against the Prompt Recipe. Ask students to point out anything the tool assumed or invented. Students under 13 do not use their own AI accounts; if your district provides a supervised, approved tool for older students, pairs can test their own upgraded prompts and log what changed.</p></div>
+        <p class="why"><strong>Does it need a screen?</strong> The unplugged Robot game teaches the core idea (unclear input, unpredictable output) better than any screen. A short projected comparison adds proof: students see a real AI tool respond differently to vague and specific prompts, and still make mistakes, which paper can only describe.</p>
+      </section>
+      <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Round 2 instructions include more size, position, count, and order words than Round 1, and the Robot's drawing is closer to the Director's.</li><li>Upgraded prompts on Handout C add at least three recipe ingredients.</li><li>Students explain that an AI tool guesses to fill missing details, and that a clear prompt still needs checking.</li><li>In Row 5, students notice that wrong information in the prompt can lead to a wrong answer.</li></ul></section>
+      <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grade 3</dt><dd>Use Shape Challenge Cards 1–4 (three shapes each) and limit instructions to five sentences. Do Handout C Rows 1–3 as a class.</dd></div><div><dt>Grade 5 / advanced</dt><dd>Add a Round 3 with a &quot;picky Robot&quot; who misreads any word that could mean two things. Directors hunt for ambiguous words like &quot;next to&quot; or &quot;big.&quot;</dd></div><div><dt>Emergent bilinguals</dt><dd>Post a word bank of position and size words with sketches (top, bottom, left, right, center, above, below, inside, big, small), and let pairs write in either language.</dd></div><div><dt>Students with fine-motor needs</dt><dd>Robots build with cut paper shapes instead of drawing.</dd></div></dl></section>
+      <section class="two">
+        <div><h2>Reflect</h2><ul><li>Do I use what I learn to fix problems in real life? Where else do clear instructions matter? (Student ELE guiding question)</li><li>What did you change between Round 1 and Round 2, and why?</li><li>If an AI tool gave you a great-sounding answer, how would you know if it was right?</li></ul></div>
+        <div><h2>What comes next</h2><p>At home, students play &quot;Robot Chef&quot; with a family member: write instructions for making a simple snack (a sandwich, a bowl of cereal) and have the family member follow them exactly, then revise together. In class, post the Prompt Recipe and use it when students write directions in math, science procedures, or requests to classmates.</p></div>
+      </section>
+      <section><h2>Pairs well with</h2><ul class="connections"><li><a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts (K–8)</a><span>A teacher-led digital breakout follow-up on how generative AI works.</span></li><li><a href="https://mglearn.github.io/tcea/ai-essentials-prompt-library/">AI Essentials Prompt Library</a><span>For teachers: model prompts that show the same ingredients students list in the Prompt Recipe.</span></li></ul></section>
+      <section class="related noprint"><h2>Related activities</h2><div class="cards"><article class="card" data-id="algorithm-autopsy">
+    
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Student learning<span>Grades 9–12</span></p>
+    <h3><a href="../activities/algorithm-autopsy.html">Algorithm Autopsy</a></h3>
+    <p class="card-tag">Students dissect the design features of a fictional social app, trace how each one shapes attention and belief, and redesign the feed for people instead of engagement.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>75 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Media literacy</span><span class="strand s-genai">Gen AI</span><span class="strand s-digcit">Digital citizenship</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI in Education 1.1: I know how AI systems work and their capabilities in educational contexts.">AI1.1</a><a class="ele" href="../framework.html#S5.2" title="Students 5.2: I can use creativity and logic to find innovative solutions.">S5.2</a><a class="ele" href="../framework.html#S5.1" title="Students 5.1: I know how to approach complex problems systematically.">S5.1</a></span></div>
+  </article><article class="card" data-id="community-problem-pitch">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Student learning<span>Grades 6–8, Grades 9–12</span></p>
+    <h3><a href="../activities/community-problem-pitch.html">Community Problem Pitch</a></h3>
+    <p class="card-tag">Teams use the engineering design process to solve a real school or community problem, invite AI to critique their ideas, reject what doesn't hold up, and pitch a solution with a record of what changed.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>110 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Hybrid</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">Gen AI</span><span class="strand s-medialit">Media literacy</span></span><span class="eles"><a class="ele" href="../framework.html#S5.1" title="Students 5.1: I know how to approach complex problems systematically.">S5.1</a><a class="ele" href="../framework.html#S5.2" title="Students 5.2: I can use creativity and logic to find innovative solutions.">S5.2</a><a class="ele" href="../framework.html#S3.1" title="Students 3.1: I know how to work effectively in a team.">S3.1</a></span></div>
+  </article><article class="card" data-id="next-word-by-hand">
+    
+    <div class="card-edge"><span class="e-genai"></span></div>
+    <p class="card-kind">Student learning<span>Grades 3–5, Grades 6–8</span></p>
+    <h3><a href="../activities/next-word-by-hand.html">Next Word, By Hand</a></h3>
+    <p class="card-tag">Students build a paper &quot;word-guessing machine&quot; from sentence cards, watch it invent a confident false fact about a lake, and find out why a longer prompt helps but never makes a chatbot know things.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">Gen AI</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI in Education 1.1: I know how AI systems work and their capabilities in educational contexts.">AI1.1</a><a class="ele" href="../framework.html#AI1.3" title="AI in Education 1.3: I am aware of the current limitations and potential biases in AI systems.">AI1.3</a><a class="ele" href="../framework.html#S5.3" title="Students 5.3: I am aware of how to apply computational thinking in various subjects.">S5.3</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>TCEA Essential Learning Expectations Activity Bank.</strong> Professional learning and K–16 student activities for Gen AI literacy, digital citizenship, and media literacy, on paper or on screen.</p>
+    <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
+    
+  </div>
+  <nav aria-label="Related">
+    <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
+    <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
+  </nav>
+</footer>
+
+</body>
+</html>

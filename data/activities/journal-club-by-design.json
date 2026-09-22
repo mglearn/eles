@@ -1,0 +1,164 @@
+{
+  "id": "journal-club-by-design",
+  "title": "Journal Club by Design",
+  "tagline": "Coaches experience a research journal club as learners, reading a practice article with a skeptic's eye, then design their own PD series around real teacher needs and adult learning principles.",
+  "audience": "pl",
+  "roles": ["coaches", "librarians", "leaders"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["medialit", "digcit"],
+  "mode": "hybrid",
+  "minutes": 90,
+  "groupSize": "Tables of 4 (journal club roles); 8–40 people",
+  "eles": ["C4.1", "C4.2", "C4.3", "C1.3"],
+  "overview": "A journal club is one of the simplest ways to keep a staff connected to research, and one of the easiest to run badly: an article nobody chose, a summary nobody needed, and no change on Monday. Coaches first take part in a journal club on a fictional practice article about teaching students to pause before sharing online, practicing the same claim-checking they want teachers to teach. Then they step back, name the adult learning principles that made it work or fail, read a set of teacher needs profiles, and design a journal club series built on what their teachers actually need.",
+  "objectives": [
+    "Participants will analyze an education article for its claims, its evidence, its funding or sponsorship, and its limits before deciding what to try.",
+    "Participants will connect specific design choices in a PD session to adult learning principles (Knowles's assumptions about adult learners).",
+    "Participants will use needs evidence, not only self-report, to design a differentiated journal club series with a classroom follow-up and a measure of change."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Practice Article, \"Pause Before You Post\" (fictional; 1 per person)",
+      "Handout B: Principle and Teacher Profile Cards (1 set per table, cut apart)",
+      "Handout C: Journal Club Series Planner (1 per person)",
+      "Chart paper and markers for the tuning protocol"
+    ],
+    "digital": [
+      "One device per table for a lateral search on the article's sponsor claim (optional)",
+      "Optional: a shared folder for coaches to post their planners and the articles they choose"
+    ]
+  },
+  "prep": [
+    "Print Handout A and cut Handout B; separate the six Principle cards from the six Teacher Profile cards.",
+    "Choose two or three real, freely available articles or practitioner pieces your coaches could use for their own series (for example, the lateral reading lessons and research summaries from the Civic Online Reasoning site), so they leave with options.",
+    "Make a table tent for each journal club role: Summarizer, Skeptic, Lateral Reader, Classroom Connector."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 6,
+      "title": "The best and worst PD you've sat through",
+      "body": "Each person writes two words for the best PD they've experienced and two for the worst. Tables lay the six **Principle** cards from Handout B face up and place their words next to the principle each one honored or ignored. Ask a few tables: **\"Which principle shows up most in your worst PD?\"**",
+      "note": "\"Need to know\" and \"Experience\" are usually the most violated: PD that never said why, and PD that treated a room of veterans as blank slates."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 25,
+      "title": "Journal club, as learners",
+      "body": "Assign roles at each table. Everyone reads Handout A (8 minutes). Then run the four-question protocol, with each role leading one: **Summarizer**: \"What does it claim?\" **Skeptic**: \"How do they know? What's missing: comparison, sample, who measured?\" **Lateral Reader**: \"Who is behind this, and what would we check outside the article?\" (with a device, search the sponsor claim; unplugged, list the searches). **Classroom Connector**: \"What's one thing worth trying, and what would we need to see to believe it worked?\" Each table writes a one-line verdict: *try it, try a piece of it, or skip it,* and why.",
+      "note": "Strong tables notice three things: the results come from a student self-report survey with no comparison group, the author's school also adopted the sponsor's AI fact-check app during the same period, and \"the chatbot confirmed it\" is not verification. They still find a routine worth trying."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "Step out of the learner seat",
+      "body": "Ask: **\"Which adult learning principles did that journal club honor? Where did it fall short?\"** Tables move Principle cards into two piles: honored and missed. Point out what was deliberate: roles gave everyone a job (self-concept), the Classroom Connector made it problem-centered (orientation), and the verdict left room for professional judgment. Then name what was missing: nobody chose the article, and nobody asked what they already knew.",
+      "note": "This is the \"do it as learners, debrief as designers\" move. Name it so coaches can reuse it."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Read the needs, not just the requests",
+      "body": "Tables read the six **Teacher Profile** cards. Each profile gives what the teacher *says* they need and one piece of *evidence* from their classroom. Tables group the profiles into two or three journal club tracks and note where the stated need and the evidence disagree. Then they write the three questions they'd put on a short needs survey, plus one non-survey source of evidence they'd look at (student work, walkthrough notes, a PLC agenda).",
+      "note": "Push on the gap between request and evidence: the teacher who asks for \"AI tools\" may need help with how students check sources. Self-report is a starting point, not the needs assessment."
+    },
+    {
+      "phase": "Create",
+      "minutes": 25,
+      "title": "Design your series",
+      "body": "Each coach, or campus pair, completes Handout C for a three-session journal club on media literacy, digital citizenship, or AI for their own teachers. Required: how teachers will help choose the articles, a role structure, at least one article vetted with the same four questions, a classroom try-it between sessions, and **what teacher practice or student evidence will show the series changed something.**",
+      "note": "Circulate and ask, \"How will you know by session 3 whether anything changed in classrooms?\" A completion count or a satisfaction survey doesn't count."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 9,
+      "title": "Tuning protocol",
+      "body": "Pairs swap planners. Presenter: two minutes to explain. Partner: one \"I like…\" and one \"I wonder…\" tied to a Principle card. Presenter responds, then they switch. Each coach revises one line of their planner before leaving the pair.",
+      "note": "Keep the \"I wonder\" genuinely a question. It models the feedback culture you want in the journal club itself."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 5,
+      "title": "The first message",
+      "body": "Each coach drafts the two-sentence invitation they'll send teachers for session 1, and it must answer the \"need to know\" question: *why this, why now, and what's in it for your students.*",
+      "note": "Coaches who want to can read theirs aloud. It's a quick check on whether the invitation honors the principles or just announces a meeting."
+    }
+  ],
+  "unplugged": "Everything runs on paper: the article, the role protocol, the cards, and the planner. The Lateral Reader lists the searches they would run and the facilitator reads the answer from the step note, just as the unplugged lateral read works for students.",
+  "digital": "Share the article in a collaborative annotation tool so each role annotates in a different color, and put the planner in a shared folder so coaches can borrow each other's designs. In a virtual session, run journal club tables in breakout rooms and the tuning protocol in pairs. Coaches can later run their own journal clubs asynchronously with the same roles in a discussion thread.",
+  "whyTech": "Shared annotation leaves a visible record of each role's thinking, which the coach can use to see who's questioning evidence and who's only summarizing, and that becomes needs data for the next session. The live lateral search makes the sponsor question concrete.",
+  "adaptations": [
+    { "label": "Campus leaders", "text": "Run the journal club on an article about a program the campus is considering, and add the leader five-question check to the Classroom Connector's role." },
+    { "label": "Higher Ed", "text": "Swap the practice article for a fictional conference abstract and add a Skeptic question about peer review versus a press release." },
+    { "label": "Short version (45 minutes)", "text": "Keep the Hook and the journal club, cut the profile cards, and assign Handout C as a follow-up." }
+  ],
+  "lookFors": [
+    "Journal club verdicts cite the article's evidence limits (self-report, no comparison group, sponsor overlap) and still name something worth trying.",
+    "Coaches connect each design choice in their planner to a named adult learning principle.",
+    "Needs assessments include at least one source of evidence beyond a survey.",
+    "Every planner names what teacher practice or student evidence will show the series worked."
+  ],
+  "reflection": [
+    "How effective are my professional development initiatives in addressing teachers' needs? (Coach ELE guiding question)",
+    "When did I last let teachers choose what we would learn together?",
+    "How do I model the same claim-checking with research that we ask students to use with online information?"
+  ],
+  "transfer": "Send your invitation this week and run session 1 within a month. Between sessions, visit or co-teach the classroom try-it with at least two teachers and bring what students produced to session 2.",
+  "connections": [
+    { "title": "Digital Inquiry Group: Civic Online Reasoning", "url": "https://cor.inquirygroup.org/", "note": "Free lessons and research summaries that make good journal club readings." },
+    { "title": "News Literacy Project", "url": "https://newslit.org/", "note": "Educator resources on news literacy for a media literacy journal club track." },
+    { "title": "Flip the Script: Better Campus Meetings", "url": "https://mglearn.github.io/tcea/cesm/", "note": "Ideas for making the journal club meeting itself worth attending." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Practice Article: \"Pause Before You Post\"",
+      "type": "reading",
+      "instructions": "This article is fictional and was written for this activity. The school, the author, the company, and all numbers are invented. Read it the way you'd want teachers to read any education article.",
+      "paragraphs": [
+        "**Pause Before You Post: How Our Middle School Cut Misinformation Sharing in Half.** By a fictional instructional coach at Juniper Ridge Middle School, Alder Springs ISD. Published in *The Riverbend Educator*, a fictional regional newsletter. Sponsored sidebar: \"Stop misinformation before it spreads with VeriCheck AI.\"",
+        "Last fall, our 7th grade team noticed students forwarding rumors in class group chats: a fake snow day, a made-up celebrity visit, a doctored photo of the cafeteria. We decided to teach one routine for six weeks: **Pause, Ask, Check.** Before sharing anything, students pause, ask \"Who made this and why?\", and check whether a reliable source reports the same thing.",
+        "Every Monday, teachers modeled the routine for ten minutes using a real post from the week, with names removed. Students practiced in pairs and kept a small card in their planners with the three steps. Teachers reported that students began saying \"pause\" to each other in class, which was our favorite moment of the whole project.",
+        "At the start and end of the six weeks, we asked students one survey question: \"In the last week, how many times did you share something online before checking whether it was true?\" The average answer fell from about 4 times to about 2 times. We are confident that Pause, Ask, Check cut misinformation sharing in half.",
+        "During the same six weeks, our campus also adopted VeriCheck AI, which lets students paste a claim and receive an instant \"true\" or \"false\" rating. Many students told us they used it as their Check step. As one student put it, \"If VeriCheck says it's true, I know I can share it.\"",
+        "We recommend that every middle school adopt Pause, Ask, Check, ideally alongside VeriCheck AI. Our results speak for themselves.",
+        "**Questions for your journal club.** What does the article claim? How do the authors know? What would you check outside the article? What's one thing worth trying, and what would you need to see to believe it worked in your classroom?"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Principle and Teacher Profile Cards",
+      "type": "cards",
+      "instructions": "Cut apart. The six Principle cards summarize Malcolm Knowles's assumptions about adult learners. The six Teacher Profile cards are fictional teachers at one campus.",
+      "cards": [
+        { "label": "Principle · Need to know", "front": "Adults want to know why they are learning something before they invest in it.", "back": "Design move: open with the classroom problem the session solves, not the agenda." },
+        { "label": "Principle · Self-concept", "front": "Adults see themselves as responsible for their own decisions and resist being told what to do.", "back": "Design move: let teachers choose articles, roles, or tracks." },
+        { "label": "Principle · Experience", "front": "Adults bring rich experience that is a resource for learning and part of their identity.", "back": "Design move: ask what teachers already do before introducing anything new." },
+        { "label": "Principle · Readiness", "front": "Adults are ready to learn what helps them handle real situations they face now.", "back": "Design move: time sessions to when the problem shows up (for example, before a research unit)." },
+        { "label": "Principle · Problem-centered", "front": "Adults learn best when learning is organized around problems rather than subjects.", "back": "Design move: frame each session as a problem of practice with a classroom try-it." },
+        { "label": "Principle · Internal motivation", "front": "Adults respond most to internal motivators: satisfaction, growth, and seeing students succeed.", "back": "Design move: bring student work back to the group so teachers see the impact." },
+        { "label": "Teacher Profile · Ms. Albright, 8th grade science, 20 years", "front": "Says: \"I don't need another AI session. I need time.\" Evidence: her students' lab reports cite sources carefully, but none of them question a source's funding or purpose.", "back": "Possible track: lateral reading about who funds science claims. Honor experience; make it short." },
+        { "label": "Teacher Profile · Mr. Ngata, 6th grade ELA, first year", "front": "Says: \"I want to learn every AI tool.\" Evidence: walkthrough notes show students copying chatbot answers into reading responses with no revision.", "back": "Need differs from request: verification routines, not more tools." },
+        { "label": "Teacher Profile · Ms. Ferreira, 7th grade social studies, 8 years", "front": "Says: \"Our kids believe anything they see on video.\" Evidence: she has already built a lesson on doctored photos and wants to share it.", "back": "Possible co-facilitator for a synthetic media track. Her experience is the resource." },
+        { "label": "Teacher Profile · Coach Dunn, PE and health, 12 years", "front": "Says: \"This doesn't really apply to me.\" Evidence: students in health class research nutrition claims from influencer videos for a project.", "back": "Readiness hook: health misinformation is his problem of practice." },
+        { "label": "Teacher Profile · Mrs. Okoye, 6th grade math, 4 years", "front": "Says: \"I'd love to talk about student privacy.\" Evidence: her class uses three apps with separate logins, and she isn't sure what data any of them collect.", "back": "Possible digital citizenship track: app privacy, with a Family App Privacy Audit follow-up." },
+        { "label": "Teacher Profile · Mr. Ibarra, 8th grade ELA, 15 years", "front": "Says: \"Just tell me the AI policy.\" Evidence: his students' essays show no disclosure of AI use, and he has no way to ask about process.", "back": "Need: disclosure and process evidence routines. Self-concept matters: invite him to help write the classroom norm." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Journal Club Series Planner",
+      "type": "worksheet",
+      "instructions": "Plan three sessions for your own teachers on media literacy, digital citizenship, or AI.",
+      "sections": [
+        { "prompt": "Needs evidence: what teachers said they need, and what you've seen in classrooms or student work:", "lines": 3 },
+        { "prompt": "Tracks or groupings, and how teachers will help choose the articles:", "lines": 3 },
+        { "prompt": "Session 1 article, and how you vetted it (claim, evidence, sponsor, limits):", "lines": 3 },
+        { "prompt": "Roles and discussion protocol you'll use:", "lines": 2 },
+        { "prompt": "The classroom try-it between sessions, and what teachers will bring back:", "lines": 3 },
+        { "prompt": "Which adult learning principles each design choice honors:", "lines": 3 },
+        { "prompt": "By session 3, what teacher practice or student evidence will show the series changed something?", "lines": 3 }
+      ]
+    }
+  ]
+}

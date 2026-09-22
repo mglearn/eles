@@ -1,0 +1,165 @@
+{
+  "id": "did-the-ai-help",
+  "title": "Did the AI Help?",
+  "tagline": "Educators pick apart a fictional \"it worked!\" report, then design a small, honest classroom inquiry that could actually show whether an AI-supported task improved learning.",
+  "audience": "pl",
+  "roles": ["coaches", "teachers", "faculty", "leaders"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["genai", "medialit"],
+  "mode": "hybrid",
+  "minutes": 75,
+  "groupSize": "Pairs or trios, ideally a teacher or faculty member paired with a coach or colleague",
+  "eles": ["AI3.2", "AI4.3", "AI5.2", "AI3.1"],
+  "overview": "\"The kids loved it\" and \"scores went up\" are the most common evidence offered for AI in classrooms, and neither shows the AI caused the learning. You don't need a research grant to do better. In this session participants sort study designs by what they can honestly conclude, critique a fictional teacher's inquiry report, and then plan a small, fair comparison for their own classroom or course: one learning target, a comparison that's as fair as practical, student work scored without knowing which condition produced it, and a plan to act on whatever they find, including \"it didn't help.\"",
+  "objectives": [
+    "Participants will distinguish evidence of learning from evidence of use or enjoyment.",
+    "Participants will identify common confounds in classroom comparisons (different groups, extra time, novelty, scorer expectations).",
+    "Participants will design a small inquiry comparing an AI-supported and a non-AI version of one task, with a fair comparison and blind scoring of student work.",
+    "Participants will state in advance what result would lead them to keep, change, or drop the AI-supported approach."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Can We Tell? sort (1 set per pair, cut apart, with sorting mat)",
+      "Handout B: Mock Inquiry Report from Ms. Delgado's biology classes (1 per person)",
+      "Handout C: Small Honest Inquiry Planner (1 per person)",
+      "Sticky notes; chart paper titled \"Evidence that would convince me\""
+    ],
+    "digital": [
+      "Optional: a shared spreadsheet template with columns for student code, condition, rubric score, and scorer, to model blind scoring",
+      "Optional: a generative AI chatbot your district approves, which participants can use to brainstorm possible confounds in their own plan and then judge those suggestions"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A; print Handouts B and C.",
+    "Read the sort key and the Handout B facilitator notes in the Explore step so you can steer toward the design flaws, not the teacher.",
+    "Optional: set up a spreadsheet template for blind scoring (student codes instead of names; a hidden condition column) to show in the Model step."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "It worked! Or did it?",
+      "body": "Read aloud: **\"I let my second-period class use an AI tutor for the unit, and their test average was 9 points higher than sixth period's. It works!\"** (Tell the room it's a made-up quote.) Ask pairs: \"Name one other reason second period might have scored higher.\" Collect answers fast: stronger class, morning vs. afternoon, the teacher was more excited, second period had more time, different students.",
+      "note": "Every reason the room names is a confound. Name the word and keep a running list."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Can we tell?",
+      "body": "Pairs sort the Handout A strips into three categories: **Could show the AI helped learning**, **Can't tell: something else could explain it**, and **Measures use or enjoyment, not learning**. Then reveal the key and discuss the two or three strips pairs disagreed on most.",
+      "note": "Stress that \"measures enjoyment\" isn't worthless. Engagement matters. It just answers a different question than \"did they learn more?\""
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Critique the mock report",
+      "body": "Everyone reads Handout B, Ms. Delgado's fictional inquiry report. In pairs, list (1) what she did well, (2) what else could explain her results, and (3) one change that would make her conclusion stronger. Share out. Strong critiques notice: different sections, the AI group had an extra revision day, she scored reports herself knowing which group each came from, one assignment only, and she reported the average but not what the student work actually showed.",
+      "note": "Model generosity: Ms. Delgado did more than most of us do. She named a target, used a rubric, and compared. The goal is a better next inquiry, not a takedown."
+    },
+    {
+      "phase": "Model",
+      "minutes": 10,
+      "title": "Four moves for a fairer comparison",
+      "body": "Walk through four practical moves. (1) **Crossover**: both classes do Unit 1 one way and Unit 2 the other way, so every student gets both and class differences balance out. (2) **Equal time**: both conditions get the same minutes and the same number of revisions. (3) **Blind scoring**: replace names with codes, mix the stack, and have a colleague score some (or all) of the work without knowing the condition. (4) **Decide in advance**: write down what result would make you keep, adjust, or drop the approach *before* you look.",
+      "note": "Be honest about limits: a classroom inquiry won't prove anything universally, and that's fine. The question is whether it's good enough evidence to guide *your* next decision. If faculty plan to publish or present results beyond their institution, they should check with their institutional review board first."
+    },
+    {
+      "phase": "Create",
+      "minutes": 22,
+      "title": "Plan your inquiry",
+      "body": "Each person completes Handout C for a real task in the next month where they're considering AI support: AI feedback on drafts, an AI tutor for practice problems, AI-generated practice questions, AI brainstorming for a project. Partners act as critical friends: after 12 minutes, swap planners and each writes one **\"What else could explain it?\"** question on the other's plan. Revise.",
+      "note": "Ethical check: never withhold a support a student is entitled to (accommodations, IEP or 504 supports) for the sake of a comparison. A crossover design helps because everyone gets both versions."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "Evidence that would convince me",
+      "body": "Each pair posts one sticky note on \"Evidence that would convince me\": the specific student work or result that would convince them the AI-supported version was better. Read a few aloud. Ask: **\"What will you do if the answer is 'no difference' or 'worse'?\"** Collect commitments to share results with a PLC, department, or coach in six weeks.",
+      "note": "Coaches: this is the measure-and-adjust stage of the coaching cycle. Offer to be the blind scorer; it's one of the most useful things a coach can do."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 6,
+      "title": "Calendar it",
+      "body": "Each person writes the start date, the scoring date, and the name of their blind scorer at the top of Handout C, then takes a photo of it. Leaders: identify one campus-level decision about an AI tool that should wait for this kind of evidence.",
+      "note": "Leaders can connect this to the five-question check: \"What evidence will guide us?\" becomes concrete when teachers bring small inquiries."
+    }
+  ],
+  "unplugged": "The full session runs on paper: the sort, the mock report, and the planner. The inquiries themselves can compare an AI-supported task with an unplugged version, and blind scoring works with paper student work: fold over names, write a code, shuffle, and hand the stack to a colleague.",
+  "digital": "Use a shared spreadsheet with student codes, a hidden condition column, and rubric scores so blind scoring and before-and-after comparisons are easy and names stay private. Optionally, participants paste their de-identified plan into a district-approved chatbot and ask \"What else could explain a difference in these results?\", then judge which suggested confounds are real for their classroom. In an LMS, post plans to a discussion so critical friends can comment across campuses.",
+  "whyTech": "A simple spreadsheet makes blind scoring and comparison across two units practical and keeps student names out of the analysis. Using AI to brainstorm confounds is optional; the participant still decides which ones matter, which is itself practice in judging AI output.",
+  "adaptations": [
+    { "label": "Higher Ed faculty", "text": "Use two sections or two assignments within one course as a crossover. Add a student reflection prompt about how the AI support changed their process, and consult your IRB before publishing or presenting results externally." },
+    { "label": "Instructional coaches", "text": "Run this as a coaching cycle with one teacher: listen (what problem is AI meant to solve?), co-plan the inquiry, model blind scoring, measure together, and adjust." },
+    { "label": "K–2 and 3–5 teachers", "text": "Keep the measure concrete and small, such as a short oral retell scored with a four-point checklist, and compare two read-aloud practice routines, one with teacher-driven AI support on the projector and one without." }
+  ],
+  "lookFors": [
+    "Sort results show participants separating learning evidence from use and enjoyment evidence.",
+    "Critiques of the mock report name specific confounds (extra time, different sections, unblinded scoring) and suggest a concrete fix.",
+    "Planners specify one learning target, a comparison with equal time, blind or partner scoring of student work, and a pre-decided rule for keep, adjust, or drop.",
+    "Participants name a scorer, dates, and who they'll share results with."
+  ],
+  "reflection": [
+    "How am I leveraging AI to personalize and enhance learning experiences, and how do I know it's working?",
+    "What evidence have I accepted in the past that couldn't actually tell me whether a tool helped?",
+    "What will I do if my inquiry shows the AI-supported version didn't help?"
+  ],
+  "transfer": "Run your inquiry over the next four to six weeks and bring the blind-scored student work, not just the averages, to your PLC, department, or coach. Share one example of student work from each condition and your keep, adjust, or drop decision.",
+  "connections": [
+    { "title": "Data Display Patterns field guide", "url": "https://mglearn.github.io/tcea/ddp/", "note": "Helps you present small inquiry results honestly to colleagues." },
+    { "title": "High-Effect Strategy Coach", "url": "https://mglearn.github.io/tcea/coach-tool/", "note": "Compare an AI-supported approach with strategies that have strong evidence behind them." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Can We Tell? Sort",
+      "type": "sort",
+      "instructions": "All scenarios are fictional. Sort each by what it can honestly tell us about whether AI improved learning.",
+      "categories": ["Could show the AI helped learning", "Can't tell: something else could explain it", "Measures use or enjoyment, not learning"],
+      "items": [
+        { "text": "Students logged 400 total minutes in the AI tutor this month.", "answer": "Measures use or enjoyment, not learning", "why": "Time in a tool is use, not learning." },
+        { "text": "87 students clicked a thumbs-up for the AI feedback feature.", "answer": "Measures use or enjoyment, not learning", "why": "Satisfaction matters but doesn't show learning." },
+        { "text": "The teacher said the AI-supported unit \"felt like it went better.\"", "answer": "Measures use or enjoyment, not learning", "why": "An impression, not evidence of student learning." },
+        { "text": "Period 2 used AI feedback and Period 6 didn't; Period 2 scored higher on the essay.", "answer": "Can't tell: something else could explain it", "why": "Different groups of students, different times of day." },
+        { "text": "Students scored higher after using the AI tutor than before, but the post-test came after three more weeks of instruction.", "answer": "Can't tell: something else could explain it", "why": "The instruction alone could explain the growth." },
+        { "text": "The AI group got an extra class day for revision; the other group didn't.", "answer": "Can't tell: something else could explain it", "why": "Extra time is a confound." },
+        { "text": "The teacher scored all the essays herself and knew which ones used AI feedback.", "answer": "Can't tell: something else could explain it", "why": "Scorer expectations can shift scores without anyone intending it." },
+        { "text": "Volunteers who chose to try the AI tool outscored those who didn't.", "answer": "Can't tell: something else could explain it", "why": "Students who volunteer may differ in motivation or skill." },
+        { "text": "Both classes did Unit 1 with AI feedback and Unit 2 with peer feedback (then switched for Units 3 and 4); a colleague scored coded essays without knowing which was which.", "answer": "Could show the AI helped learning", "why": "Crossover plus blind scoring handles the biggest confounds." },
+        { "text": "Within one class, students were randomly assigned by coin flip to AI or teacher-written practice questions for a week, with equal time, then took the same quiz.", "answer": "Could show the AI helped learning", "why": "Random assignment and equal time make the comparison fairer; one week is a small but honest test." },
+        { "text": "Students' second drafts after AI feedback fixed more of the specific rubric issues named in their first drafts than drafts revised with a checklist only, scored blind by two teachers.", "answer": "Could show the AI helped learning", "why": "Specific, work-based evidence with blind scoring." },
+        { "text": "The vendor's website says the tool improves scores in partner schools.", "answer": "Can't tell: something else could explain it", "why": "Unknown design, selected schools, and a vendor with a stake in the result." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Mock Inquiry Report: Ms. Delgado's Biology Classes",
+      "type": "reading",
+      "instructions": "FICTIONAL teacher, school, and data, written for training. Read as a critical friend: what's strong, what else could explain the results, what would you change?",
+      "paragraphs": [
+        "**Question.** Does AI feedback on lab report drafts help my 9th grade biology students write stronger conclusions? (Ms. Delgado, Cedar Ridge High School, fictional)",
+        "**What I did.** My 3rd period class (26 students) got AI feedback on their draft conclusions from a district-approved chatbot, using a prompt I wrote with our rubric's four criteria. My 5th period class (24 students) did a peer review with a checklist instead. The AI group had an extra class day to revise because 5th period lost a day to an assembly.",
+        "**How I measured.** I scored every final conclusion with our four-point rubric (claim, evidence, reasoning, and limitations). I scored them myself over one weekend.",
+        "**Results (fictional data).** 3rd period (AI feedback): average draft score 2.1, average final score 2.9. 5th period (peer checklist): average draft score 2.0, average final score 2.4.",
+        "**My conclusion.** AI feedback works better than peer review for lab conclusions. I'm going to use it with all my classes next semester and recommend it to the science department.",
+        "**What I noticed but didn't measure.** Several 3rd period students copied the AI's suggested sentences into their conclusions almost word for word. A few 5th period students said the peer conversation helped them understand what \"reasoning\" meant for the first time."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Small Honest Inquiry Planner",
+      "type": "worksheet",
+      "instructions": "Plan one fair comparison you can run in 4–6 weeks. Keep it small. Write your decision rule BEFORE you see any results.",
+      "sections": [
+        { "prompt": "My question: Does ______ (AI-supported task) help my students ______ (one specific learning target) better than ______ (the non-AI version)?", "lines": 3 },
+        { "prompt": "The comparison: who gets which version, and when? (crossover, random assignment within a class, or two assignments). How will time and number of revisions stay equal?", "lines": 4 },
+        { "prompt": "The evidence: what student work will I collect, and which rubric or checklist criteria will I score?", "lines": 3 },
+        { "prompt": "Blind scoring: how will I hide names and conditions? Who will score some or all of the work with me?", "lines": 2 },
+        { "prompt": "What else could explain a difference? (list at least three, and what I'll do about each)", "lines": 4 },
+        { "prompt": "Ethics and privacy: how will I make sure no student loses a support they're entitled to, and that no identifying data goes into an AI tool?", "lines": 2 },
+        { "prompt": "Decision rule, written now: I will KEEP it if… ADJUST it if… DROP it if…", "lines": 3 },
+        { "prompt": "Critical friend's question: \"What else could explain it?\"", "lines": 2 }
+      ]
+    }
+  ]
+}

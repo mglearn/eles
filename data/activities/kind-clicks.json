@@ -1,0 +1,149 @@
+{
+  "id": "kind-clicks",
+  "title": "Kind Clicks",
+  "tagline": "Children sort online messages into kind clicks and stop-and-tell moments, turn unkind words into kind ones, and practice asking a trusted grown-up for help.",
+  "audience": "student",
+  "grades": ["K-2"],
+  "strands": ["digcit"],
+  "mode": "unplugged",
+  "minutes": 30,
+  "groupSize": "Whole class, then pairs; any class size",
+  "eles": ["S3.2", "S2.3", "S3.3", "S4.1"],
+  "overview": "Many young children already send hearts, stickers, and messages in games, class apps, and video chats with family. Words on a screen still land on a real person. In this lesson children watch a paper heart get crumpled by unkind words, sort messages into **Kind Click** (a heart made with their hands) and **Stop and Tell** (a stop hand), rewrite unkind messages into kind ones, and rehearse the exact words to use with a trusted grown-up. Messages that celebrate differences are part of the kind set, so children also practice welcoming friends who like different things.",
+  "objectives": [
+    "Students will sort online messages into kind and unkind or unsafe, and explain one choice.",
+    "Students will change an unkind message into a kind one, out loud or in writing.",
+    "Students will practice telling a trusted grown-up, using the sentence \"I saw something online that made me feel ___. Can you help?\"",
+    "Students will give a kind response to a friend who likes something different from them."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Kind Click or Stop and Tell? sort strips (1 teacher set, cut apart)",
+      "Handout B: Fix-It Cards (1 set per 2–3 pairs, cut apart)",
+      "Handout C: My Kind Click (1 per student)",
+      "A large paper heart cut from construction paper; two signs: KIND CLICK (heart hands) and STOP AND TELL (stop hand); crayons"
+    ],
+    "digital": [
+      "Optional: the class's own approved messaging, comment, or learning app, shown by the teacher on the projector",
+      "Optional: a slide with a mock chat window so the sort items look like real messages"
+    ]
+  },
+  "prep": [
+    "Cut out a large paper heart and practice the crumple-and-smooth demonstration.",
+    "Cut apart the 12 strips from Handout A and the 8 Fix-It Cards from Handout B.",
+    "Post the two signs on opposite sides of the room.",
+    "Decide who children should name as trusted grown-ups at school (you, the counselor, the principal) so you can say their names."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "The wrinkled heart",
+      "body": "Hold up the paper heart and name it after a pretend child, \"Remy.\" Read three unkind online messages sent to Remy (\"Your drawing is ugly.\" \"Nobody wants to play with you.\" \"Everyone laugh at Remy's video.\"). Crumple the heart a little with each one. Then say \"Sorry, Remy\" and try to smooth it. Ask: **\"Is the heart the same as before?\"** Say: \"Words on a screen still go to a real person. Today we practice kind clicks.\"",
+      "note": "Name Remy as pretend so no child in class feels singled out. Keep the heart posted for the rest of the week."
+    },
+    {
+      "phase": "Model",
+      "minutes": 4,
+      "title": "Two signals",
+      "body": "Teach the two hand signals. **KIND CLICK**: make a heart with your hands. **STOP AND TELL**: hold up a flat hand like a stop sign, then point to a trusted grown-up. Explain: \"STOP AND TELL means: don't send a mean message back, don't keep it a secret, tell a grown-up.\" Model one strip from Handout A out loud: \"'Can I help you with that level?' That's helpful and kind. Heart hands!\"",
+      "note": "Stress the \"don't send a mean one back\" part. Young children often think fighting back is fair."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 8,
+      "title": "Sort the messages",
+      "body": "Read each strip in a normal voice (not a mean voice). Children show heart hands or the stop hand. Hand the strip to a child who walks it to the matching sign. Ask one child per strip: **\"How would that message make someone feel?\"** For strips about liking different things, ask: \"Is it OK that your friend likes something different? What could you say?\"",
+      "note": "The strip about sharing a funny photo of a friend without asking often surprises children. It may feel fun, but it isn't kind if the friend didn't say yes."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 8,
+      "title": "Fix-it and tell-a-grown-up",
+      "body": "Give each pair a Fix-It Card. Partners read (or you read) the unkind message and together say a kind message instead. Share three or four aloud. Then role-play telling: one partner is the child, one is the trusted grown-up. The child says: **\"I saw something online that made me feel ___. Can you help?\"** The grown-up answers: \"Thank you for telling me. Let's look at it together.\" Switch roles.",
+      "note": "The Fix-It Card backs give a sample kind message. Accept any kind version the pair invents; their own words stick better."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 6,
+      "title": "My Kind Click",
+      "body": "Children complete Handout C: draw or write a kind message for a friend, draw a friend who likes something different and a kind thing to say to them, draw their trusted grown-up, and finish \"When I see something mean online, I will…\" Invite a few children to read their kind message to the wrinkled heart.",
+      "note": "Collect Handout C as evidence. The key sentence is the \"I will\" line: look for \"stop and tell a grown-up.\""
+    }
+  ],
+  "unplugged": "The lesson is fully unplugged: the paper heart, printed strips, hand signals, and role-play need no devices. You can write the sort messages in speech bubbles on the board to make them look like a chat.",
+  "digital": "Project the messaging or comment feature of an app your class already uses (or a mock chat on a slide) and type two or three sort messages into it so children see how they look on a screen. As a class, compose one kind comment together on a classmate's shared work, with the classmate's permission, and let the class decide if it passes the kind-click test before you post. Children do not need their own accounts; you type.",
+  "whyTech": "Kindness and help-seeking are best practiced face to face, so this lesson is unplugged at its core. Seeing and composing a real message on the projector adds a bridge: children connect the kind words they practiced to the screen where they'll use them.",
+  "adaptations": [
+    { "label": "Kindergarten", "text": "Use 8 strips and focus on the two signals; skip writing on Handout C and let children dictate their kind message." },
+    { "label": "Grade 2", "text": "Pairs write their own Fix-It Card (an unkind message on the front, a kind fix on the back) and trade with another pair." },
+    { "label": "Emergent bilinguals", "text": "Hand signals carry the meaning. Offer the kind-message sentence frames in both languages and let children say the fix in either one." },
+    { "label": "Social-emotional support", "text": "Let the school counselor co-teach the tell-a-grown-up role-play, and name the counselor as a trusted grown-up." }
+  ],
+  "lookFors": [
+    "Children choose STOP AND TELL for messages that are mean, share others' photos without asking, or ask for passwords, and explain how the message would make someone feel.",
+    "Pairs turn unkind messages into kind ones in their own words.",
+    "Children use the full tell-a-grown-up sentence in the role-play and on Handout C.",
+    "Children give kind responses to classmates who like different games, foods, or activities."
+  ],
+  "reflection": [
+    "How would you feel if you got that message? How can we make someone's heart feel better?",
+    "How well do I work with others when we learn together? (Student ELE guiding question)",
+    "Who will you tell if you see something mean online?"
+  ],
+  "transfer": "Send home the tell-a-grown-up sentence so families can practice it, and invite families to write one kind message together to a relative, on paper or on screen. Next lesson, use the kind-click signals during classroom partner work, not only online.",
+  "connections": [
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "A teacher-led digital breakout follow-up on digital citizenship." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Kind Click or Stop and Tell?",
+      "type": "sort",
+      "instructions": "Teacher: read each message aloud. Children show heart hands or a stop hand. Tape it under the sign.",
+      "categories": ["KIND CLICK", "STOP AND TELL"],
+      "items": [
+        { "text": "\"Great job on your drawing!\"", "answer": "KIND CLICK", "why": "It makes a friend feel proud." },
+        { "text": "\"Can I help you with that level?\"", "answer": "KIND CLICK", "why": "Offering help is kind." },
+        { "text": "\"Happy birthday, Lena!\"", "answer": "KIND CLICK", "why": "It celebrates a friend." },
+        { "text": "\"You like a different game than me. Cool! Show me yours.\"", "answer": "KIND CLICK", "why": "It welcomes a friend who likes something different." },
+        { "text": "\"Thanks for sharing your story!\"", "answer": "KIND CLICK", "why": "It thanks someone for sharing." },
+        { "text": "\"Want to play again tomorrow?\"", "answer": "KIND CLICK", "why": "It includes a friend." },
+        { "text": "\"Your picture is ugly.\"", "answer": "STOP AND TELL", "why": "It hurts feelings. Don't answer back; tell a grown-up." },
+        { "text": "\"You can't play with us.\"", "answer": "STOP AND TELL", "why": "Leaving someone out on purpose hurts." },
+        { "text": "\"Everyone laugh at Sam's video!\"", "answer": "STOP AND TELL", "why": "It gets others to be unkind too." },
+        { "text": "\"Send me your password or you're not my friend.\"", "answer": "STOP AND TELL", "why": "Unkind and unsafe. Passwords stay private." },
+        { "text": "\"Let's share the silly photo of Theo sleeping. Don't tell him!\"", "answer": "STOP AND TELL", "why": "Theo didn't say yes. Sharing it could hurt him." },
+        { "text": "\"Your way of doing it is weird. Do it my way.\"", "answer": "STOP AND TELL", "why": "Different ways are OK. This message makes someone feel bad." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Fix-It Cards",
+      "type": "cards",
+      "instructions": "Read the unkind message. With your partner, say a KIND message instead. The back shows one idea.",
+      "cards": [
+        { "label": "Fix it", "front": "\"Your picture is ugly.\"", "back": "Try: \"I like the colors you used!\"" },
+        { "label": "Fix it", "front": "\"You can't play with us.\"", "back": "Try: \"Do you want to play with us?\"" },
+        { "label": "Fix it", "front": "\"That game is for babies.\"", "back": "Try: \"I haven't played that. How does it work?\"" },
+        { "label": "Fix it", "front": "\"You lost. You're so bad at this.\"", "back": "Try: \"Good game! Want to play again?\"" },
+        { "label": "Fix it", "front": "\"Your story is boring.\"", "back": "Try: \"My favorite part was the ending!\"" },
+        { "label": "Fix it", "front": "\"Why do you eat that weird food?\"", "back": "Try: \"What does it taste like? Can you tell me about it?\"" },
+        { "label": "Fix it", "front": "\"Nobody likes your video.\"", "back": "Try: \"Thanks for making a video. I liked the funny part.\"" },
+        { "label": "Fix it", "front": "\"Go away, this chat is only for us.\"", "back": "Try: \"Come join our chat!\"" }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Kind Click",
+      "type": "worksheet",
+      "instructions": "Draw or write. Your teacher can help with words.",
+      "sections": [
+        { "prompt": "Draw or write a KIND message I could send to a friend.", "boxes": true },
+        { "prompt": "Draw a friend who likes something different from me. What kind thing could I say?", "boxes": true },
+        { "prompt": "Draw my trusted grown-up. Write their name.", "boxes": true },
+        { "prompt": "When I see something mean online, I will ___.", "lines": 2 }
+      ]
+    }
+  ]
+}

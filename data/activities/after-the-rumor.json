@@ -1,0 +1,155 @@
+{
+  "id": "after-the-rumor",
+  "title": "After the Rumor",
+  "tagline": "A campus team digs past blame to the root causes of a fictional viral rumor and AI-edited image incident, then writes the trust and AI-use norms it will hold itself to next time.",
+  "audience": "pl",
+  "roles": ["coaches", "teachers", "leaders", "staff"],
+  "grades": ["6-8", "9-12"],
+  "strands": ["digcit", "medialit", "genai"],
+  "mode": "unplugged",
+  "minutes": 60,
+  "groupSize": "PLC or campus teams of 4–6; one facilitator per room",
+  "eles": ["C5.2", "C5.3", "C5.1", "AI2.1", "T2.2"],
+  "overview": "When an online rumor tears through a campus, adults tend to respond on their own: some address it in class, some ignore it, someone forwards the image to ask \"is this real?\", and a well-meaning email makes things worse. This protocol uses a fictional incident, an AI-edited photo of a student and a rumor about who made it, to practice a structured, no-blame root-cause analysis. Teams trace the problem to causes they can act on, then write two sets of norms: how they'll respond together next time, and how they'll use AI inside their own PLC.",
+  "objectives": [
+    "Participants will use a structured root-cause protocol (five whys across four categories) to move a team discussion from blame to causes within its control.",
+    "Participants will identify media literacy, digital citizenship, and AI-related gaps in both student and adult responses to a viral incident.",
+    "Participants will draft and agree on specific, observable team norms for incident response and for AI use in their PLC."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Case File, \"The Photo at Mesquite Hills\" (1 per person)",
+      "Handout B: Root-Cause Organizer (1 per team, enlarged to chart size if possible)",
+      "Handout C: Team Norms Drafting Sheet (1 per team)",
+      "Sticky notes, dot stickers (3 per person), a visible timer"
+    ],
+    "digital": [
+      "Optional: a shared whiteboard with the four root-cause categories for virtual teams",
+      "Optional: an anonymous poll for the opening trust check"
+    ]
+  },
+  "prep": [
+    "Read the case and decide whether it is too close to a recent real event on your campus. If it is, wait, or change details further. This protocol works best on a case that feels realistic but belongs to no one in the room.",
+    "Enlarge Handout B to chart size or draw its four rows on chart paper for each team.",
+    "Plan your opening agreement: \"We're analyzing a system, not judging people. No names of real colleagues or students.\""
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Trust check",
+      "body": "Ask everyone to answer privately on a sticky note, then fold it: **\"On a scale of 1–5, how confident are you that our team would respond to a viral incident the same way, on the same day?\"** Collect and read the spread aloud without comment. Say: \"That spread is today's problem. We're going to look at a fictional campus, figure out why things went sideways, and leave with agreements we'd actually keep.\"",
+      "note": "Anonymous first, then public. Trust grows when people see their private worries named without anyone being singled out."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 8,
+      "title": "Read the case file",
+      "body": "Everyone reads Handout A silently and marks each moment with **S** (a student decision), **A** (an adult decision), or **X** (a system or policy gap). Then a quick round-robin: each person names one moment and its letter, with no discussion yet.",
+      "note": "Hold the round-robin tightly. The protocol structure is what keeps a heated topic productive: everyone speaks once before anyone speaks twice."
+    },
+    {
+      "phase": "Model",
+      "minutes": 6,
+      "title": "Five whys, out loud",
+      "body": "Model one chain on the board, starting with **\"Students shared the photo more than a hundred times before lunch.\"** Why? They believed it was real. Why? Nothing about it looked edited, and friends they trusted were sharing it. Why did that settle it? Students have practiced spotting fakes, not checking a source before sharing. Why? Our media literacy lessons focus on spotting visual errors. Why? We haven't updated them since image-editing tools got this good. **Root cause we can act on:** our lessons teach looking harder instead of checking the source and context.",
+      "note": "Stop when you reach something the team can change. \"Kids are on their phones too much\" is a symptom and outside the room's control."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 15,
+      "title": "Team root-cause analysis",
+      "body": "Teams fill Handout B, running a five-whys chain in each of the four rows: **Student knowledge and skills**, **Adult response and communication**, **Systems and policies**, and **Culture and trust**. Roles: a facilitator who keeps asking \"why?\", a recorder, a timekeeper (about four minutes per row), and a **norms checker** who calls out blame language (\"If Mr. Pratt had just…\") and redirects it to the system (\"What made that choice likely?\").",
+      "note": "Look-for: teams find that the adult chain includes an AI misstep (a draft email with a student's name pasted into a chatbot) and a media literacy misstep (forwarding the image to ask whether it was real). Both are adult practice problems, not just student ones."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 7,
+      "title": "Circle of control",
+      "body": "Each person gets three dots to vote on the root causes most within the team's control. The facilitator asks the team with the top-voted cause: **\"If we fixed only this, what would have gone differently at Mesquite Hills?\"** Then: \"What would have to be true about trust on our team for us to raise a concern like this in the moment?\"",
+      "note": "This is the collaborative leadership move: the team, not the coach, names what to work on. Your job is to keep asking about evidence and control."
+    },
+    {
+      "phase": "Create",
+      "minutes": 14,
+      "title": "Write the norms",
+      "body": "Teams use Handout C to draft two short sets of norms. **Incident response norms** (3–4): for example, \"Within one school day, every advisory uses the same short script, and no adult forwards the content, even to ask about it.\" **AI-use norms for our PLC** (3–4): for example, \"We say when AI helped draft something we share,\" \"No student names or details go into an AI tool,\" \"We don't record or transcribe meetings with AI without everyone's agreement.\" Each norm must be **observable**: someone could see whether the team kept it.",
+      "note": "Push vague norms such as \"be respectful\" and \"use AI responsibly\" toward behavior: \"What would we see or hear?\""
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "Agree and schedule the check",
+      "body": "Teams read their norms aloud and do a fist-to-five on each; anything below three gets revised or dropped. Set a date, four to six weeks out, to review: **\"Did we keep them? What evidence shows it?\"** Revisit the opening trust question and ask whether anyone would now answer it differently.",
+      "note": "Norms without a review date are decoration. The review is where trust gets built."
+    }
+  ],
+  "unplugged": "The protocol is designed for paper and conversation: printed case, chart-sized organizer, sticky notes, and dots. A structured, device-free discussion helps a sensitive topic stay focused on the system rather than on screens or side conversations.",
+  "digital": "For virtual or hybrid teams, use a shared whiteboard with the four root-cause rows and digital sticky notes, an anonymous poll for the trust check, and a shared document for the norms that becomes the team's living agreement. Link the finished norms at the top of every PLC agenda.",
+  "whyTech": "The unplugged path is the better choice for the analysis itself because it keeps the conversation human and focused. A shared norms document earns its place afterward: it keeps the agreement visible at every meeting and gives the team a record to check at the review date.",
+  "adaptations": [
+    { "label": "Student leadership groups (grades 9–12)", "text": "Students run the student and culture rows and write norms for how their group chats handle rumors. Adults run the adult row separately." },
+    { "label": "Elementary campuses", "text": "Change the case to a rumor spreading through a class messaging app among 5th graders and a doctored image of a classroom pet. Keep the adult rows the same." },
+    { "label": "Leadership teams", "text": "Add the leader five-question check to the systems row, especially \"How will families understand the change?\"" }
+  ],
+  "lookFors": [
+    "Each row of Handout B reaches a root cause the team can act on, not a character judgment or a factor outside its control.",
+    "Teams identify at least one adult media literacy or AI-use misstep, not only student ones.",
+    "Every norm on Handout C describes an observable behavior, and a review date is on the calendar.",
+    "The norms checker redirects blame language at least once, and the team's language shifts toward systems."
+  ],
+  "reflection": [
+    "To what extent am I fostering a collaborative culture among the educators I work with? (Coach ELE guiding question)",
+    "What would make it safe for a colleague on my team to say, \"Wait, don't forward that\"?",
+    "Where does AI already show up in our team's work without anyone having agreed to it?"
+  ],
+  "transfer": "Post your norms at the top of your next PLC agenda and open that meeting by reading them. Teachers: teach the \"check the source and context, don't just stare at the image\" move in advisory or class within two weeks and bring one piece of student evidence to the norms review.",
+  "connections": [
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "Student activities on respectful communication and sharing responsibly." },
+    { "title": "Critical Thinking Breakouts: Signal Check, The Viral Claim", "url": "https://mglearn.github.io/activities/ctobs/clear/", "note": "A 6–8 student follow-up on checking viral claims before sharing." },
+    { "title": "News Literacy Project", "url": "https://newslit.org/", "note": "Educator resources on viral rumors and manipulated images." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Case File: \"The Photo at Mesquite Hills\"",
+      "type": "reading",
+      "instructions": "Fictional. Mesquite Hills Middle School and everyone named here are invented. Mark each moment S (student decision), A (adult decision), or X (system or policy gap).",
+      "paragraphs": [
+        "**Monday, 7:40 a.m.** An anonymous account posts a photo that appears to show 8th grader Tomás asleep in the library with a humiliating caption. The image has been edited with an AI tool: the original photo was Tomás reading, taken from his public sports team page. The account's post tags a classmate, Rylee, implying she made it.",
+        "**By lunch.** The photo has been shared well over a hundred times across several group chats. Students tell each other Rylee made it. Rylee, who did not, is confronted in the hallway. Tomás goes to the nurse and then home.",
+        "**12:30 p.m.** A 7th grade teacher, Mr. Pratt, receives the image from a student and forwards it to three colleagues asking, \"Is this real? Did anyone else see this?\" One colleague forwards it to her team chat. Another says nothing because she isn't sure whose job it is.",
+        "**1:15 p.m.** Two advisory teachers discuss the incident with their classes; one tells students, \"Rylee needs to own this.\" Four other advisories don't mention it. No one tells students the image was edited, because no adult has checked.",
+        "**3:30 p.m.** The assistant principal, working fast, pastes the student report, including both students' full names, into a free chatbot to help draft a family email. The email that goes out that evening says \"a student created an inappropriate image,\" which families take as confirming the rumor about Rylee.",
+        "**Tuesday.** The counselor learns from Tomás's parent that the original photo came from the team page. The campus has no shared guidance on AI-edited images, no script for advisory, and no rule about adults forwarding student images. The PLC meets Thursday; the incident isn't on the agenda.",
+        "**Two weeks later.** The account's creator turns out to be a student at a different school. Rylee's parent asks the campus why no adult corrected the rumor. Several teachers say privately that they didn't feel comfortable raising it with their team."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Root-Cause Organizer",
+      "type": "table",
+      "instructions": "For each row, start with what happened and ask \"why?\" until you reach something your team can change. Stop at causes within your control.",
+      "columns": ["Category", "What happened (from the case)", "Why? Why? Why?", "Root cause we can act on", "Who owns the fix"],
+      "rows": [
+        ["Student knowledge and skills", "", "", "", ""],
+        ["Adult response and communication", "", "", "", ""],
+        ["Systems and policies", "", "", "", ""],
+        ["Culture and trust", "", "", "", ""]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Team Norms Drafting Sheet",
+      "type": "worksheet",
+      "instructions": "Every norm must be observable: someone could see or hear whether the team kept it.",
+      "sections": [
+        { "prompt": "Our top root cause (from the dot vote), in one sentence:", "lines": 2 },
+        { "prompt": "Incident response norms (3–4). When something goes viral, we will…", "lines": 5 },
+        { "prompt": "AI-use norms for our PLC (3–4). Consider disclosure, student data, recording and transcription, and who makes the final decision.", "lines": 5 },
+        { "prompt": "What will make it safe for any of us to say \"wait\" or raise a concern in the moment?", "lines": 3 },
+        { "prompt": "Review date, and the evidence we'll look at to see whether we kept the norms:", "lines": 2 }
+      ]
+    }
+  ]
+}

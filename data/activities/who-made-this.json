@@ -1,0 +1,255 @@
+{
+  "id": "who-made-this",
+  "title": "Who Made This?",
+  "tagline": "Children discover that every picture, video, song, and game was made by someone for a reason, and practice asking \"Who made this, and why?\"",
+  "audience": "student",
+  "grades": [
+    "K-2"
+  ],
+  "strands": [
+    "medialit",
+    "genai"
+  ],
+  "mode": "unplugged",
+  "minutes": 30,
+  "groupSize": "Whole class on the rug, then pairs; any class size",
+  "eles": [
+    "S2.2",
+    "S1.3",
+    "AI2.3",
+    "S3.2"
+  ],
+  "overview": "Young children often experience media as something that just *appears* on a screen or a shelf. In this lesson they meet the makers behind it. You describe familiar kinds of media (a picture book, a cereal box, a cartoon, a game, a school poster, a picture made with an AI tool), and children answer two detective questions: **Who made this?** (a person, a company, or a person using AI) and **Why did they make it?** (to teach, to sell, to have fun, or to tell news). Children walk to \"why\" corners, then become makers themselves. The big idea they carry home: every piece of media was made by someone, on purpose, and good makers are honest about how they made it.",
+  "objectives": [
+    "Students will say that every picture, video, song, and game was made by someone, and name a maker for at least three examples.",
+    "Students will sort media by purpose: to teach, to sell, to have fun, or to tell news.",
+    "Students will explain that a person can use an AI tool to help make a picture or story, and that a person still chose to make it.",
+    "Students will make a simple piece of media and tell who made it, who it is for, and why."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Maker Cards (1 teacher set, printed large or shown under a document camera; the backs are your key)",
+      "Handout B: I Am a Maker (1 per student)",
+      "Handout C: Maker Hunt at Home (1 per student, sent home)",
+      "Four corner signs with a simple picture on each: TEACH (a book), SELL (a price tag), FUN (a smiley face), NEWS (a newspaper)",
+      "A drawing you made yourself, and a real picture book or cereal box from the classroom; crayons"
+    ],
+    "digital": [
+      "Optional: a document camera to show the Maker Cards and real objects",
+      "Optional: a generative AI image tool your district approves, on the teacher's device only, projected for the class"
+    ]
+  },
+  "prep": [
+    "Print Handout A and cut the 12 cards apart. Read the backs so you can prompt children toward a maker and a reason, not a single right answer.",
+    "Hang the four corner signs (TEACH, SELL, FUN, NEWS) in four corners of the room.",
+    "Make a quick drawing of your own on paper (a cat, your house, anything) and sign your name on it. Bring one real book and one box or package with a cartoon or logo on it.",
+    "If you plan the projected demo, test your approved AI image tool first with a prompt such as \"a friendly cartoon turtle reading a book in a library, for a kindergarten class.\""
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "Who made my picture?",
+      "body": "Hold up the drawing you made. Ask: **\"Who made this picture?\"** Children guess; point to your signature. \"I did! I made it to show you my cat.\" Then hold up the picture book: \"Who made this?\" Show the author's and illustrator's names on the cover. Then the cereal box or package: \"Who made the cartoon on this box?\" (A company: lots of people who work together.) Say: **\"Everything we read, watch, or play was made by someone. Today we're maker detectives.\"**",
+      "note": "Children may say \"the store\" or \"the TV\" made it. That's the misconception this lesson targets. Ask, \"Who made it before it got to the store?\""
+    },
+    {
+      "phase": "Model",
+      "minutes": 5,
+      "title": "Two detective questions",
+      "body": "Teach the two questions with gestures. **\"Who made this?\"** (point both thumbs at yourself). **\"Why did they make it?\"** (hands open, palms up). Introduce the four corners: **TEACH** (to help you learn), **SELL** (to get you to buy something), **FUN** (to make you laugh, play, or enjoy), **NEWS** (to tell what happened). Model Maker Card 1 aloud: \"A picture book about how frogs grow. Who made it? An author and an illustrator. Why? To teach, and it's fun too!\" Say: \"Sometimes there's more than one reason. Pick the biggest one.\"",
+      "note": "Keep \"company\" simple: \"a group of people who work together to make and sell things.\""
+    },
+    {
+      "phase": "Explore",
+      "minutes": 9,
+      "title": "Walk to the why",
+      "body": "Read Maker Cards 2–10 aloud one at a time. For each card, children first do the \"Who made this?\" gesture and a few children answer out loud (a person, a company, a news team, a person using an AI tool). Then everyone **walks to the corner** that shows why. Ask one child in each corner, \"Why did you pick this corner?\" Accept reasoned answers even when they differ from the key: the toy commercial is fun AND selling. The biggest reason is selling.",
+      "note": "Look-for: children who give a *because*. \"It's SELL because it tells you to ask for it\" is the thinking you want. If the room is small, use hand signs instead of corners."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 4,
+      "title": "Made with AI",
+      "body": "Read Maker Cards 11 and 12 slowly. Say: \"Some people use an **AI tool** to help make pictures or words. The person types what they want, and the computer makes a picture from patterns it learned. Who decided to make the turtle picture? (Mr. Okafor.) Why? (To make the reading corner fun.) Did the computer decide that? (No, a person did.)\" Then ask: \"Mr. Okafor put a little note on it: *Made with an AI tool.* Why is that a good idea?\" Guide children to: **good makers tell the truth about how they made things.**",
+      "note": "Keep this light and true. Avoid \"the computer thinks\" or \"the computer wanted.\" Use \"the person used a tool,\" the same way we say a person used crayons or a camera."
+    },
+    {
+      "phase": "Create",
+      "minutes": 6,
+      "title": "I Am a Maker",
+      "body": "Children complete Handout B: draw something they would make (a poster, a comic, a game, a card), then answer with a picture or words who it is for, why they made it, and what tools they used. Circulate and ask two or three children, **\"Who made this? Why? What did you use?\"** Write their words in the margin as evidence. Pairs then show each other their work and ask the two detective questions.",
+      "note": "Children who used \"crayons\" or \"my brain\" as tools are right. You're building the habit of naming how something was made."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 2,
+      "title": "Say it together",
+      "body": "Gather on the rug. Ask: \"What two questions can you ask about ANY picture, video, or game?\" Practice together: **\"Who made this? Why did they make it?\"** Hand out Handout C and explain the Maker Hunt: \"Tonight, find three things at home that someone made, and ask a grown-up to help you figure out who made them and why.\"",
+      "note": "Send Handout C home with a note that the family can do the hunt with books, boxes, shows, or games: no screen is required."
+    }
+  ],
+  "unplugged": "The whole lesson runs with printed cards, four corner signs, and a few real objects: a book, a package, and your own drawing. You can read the Maker Cards aloud rather than show them. For children who can't walk to corners, use four hand signs (book hands for TEACH, rubbing fingers for SELL, big smile for FUN, a pretend newspaper for NEWS).",
+  "digital": "After the \"Made with AI\" step, project a district-approved AI image tool from the teacher's device (children never use their own accounts). Let the class choose what the picture should show and who it's for, then type the prompt as they watch. Ask: \"Who is the maker now: me, you, or the tool?\" (We decided to make it; the tool helped.) Then write a label on the board together, such as \"Made by Room 12 with an AI tool,\" and talk about why the label matters. You can also show the title page of an e-book to find its author and illustrator.",
+  "whyTech": "The lesson is stronger unplugged: holding a real book and package makes \"someone made this\" concrete. A short projected demo adds one thing paper cannot: children watch a person decide what an AI picture should show, which makes clear that people, not tools, choose and are responsible for what gets made.",
+  "adaptations": [
+    {
+      "label": "Kindergarten",
+      "text": "Use only three corners (TEACH, SELL, FUN) and Maker Cards 1–6 plus 11. On Handout B, children draw and dictate one sentence."
+    },
+    {
+      "label": "Grade 2",
+      "text": "Add a third question: \"Who is it for?\" For each card, children name the audience (kids, grown-ups, everyone) and notice that SELL items for kids often use cartoons and bright colors."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Teach the corner words with their pictures and home-language labels. Let children answer \"who made it\" by pointing to a set of picture cards: a person, a group of people, a person at a computer."
+    },
+    {
+      "label": "Students with motor needs",
+      "text": "Replace walking with pointing to the corner signs on a single page, eye-gaze, or holding up a colored card for each corner."
+    }
+  ],
+  "lookFors": [
+    "Children name a maker (a person, a company, a news team, a person using AI) rather than \"the TV\" or \"the store.\"",
+    "Children choose a corner and give a *because* that points to what the media is trying to do (\"it wants you to buy it\").",
+    "Children say that a person decided to make the AI picture and that telling people AI helped is the honest thing to do.",
+    "On Handout B, children name who their creation is for, why they made it, and what they used."
+  ],
+  "reflection": [
+    "Who made the last video or game you saw? Why do you think they made it? (Student ELE 2.2: I can identify trustworthy sources of information on the internet.)",
+    "Why is it important to know if someone made something to sell or to teach?",
+    "When someone uses an AI tool to help make a picture, what should they tell us?"
+  ],
+  "transfer": "At home, children do the Maker Hunt on Handout C with a family member, finding three things someone made and asking who made them and why; bring it back to share. Next lesson, connect to *Real, Pretend, or Changed?*, where children ask whether a picture was made to look real.",
+  "connections": [
+    {
+      "title": "Gen AI Literacy Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/genailit/",
+      "note": "Teacher-projected AI literacy breakouts for elementary follow-up."
+    },
+    {
+      "title": "Digital Citizenship Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/digcit/",
+      "note": "More K–2 digital citizenship practice."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Maker Cards",
+      "type": "cards",
+      "instructions": "Teacher: read each card aloud in a big, clear voice. Children show who made it, then walk to the corner that shows why. The backs are your key.",
+      "cards": [
+        {
+          "label": "Card 1 · Book",
+          "front": "A picture book about how a tadpole turns into a frog.",
+          "back": "WHO: an author who wrote the words and an illustrator who drew the pictures. WHY: TEACH (and fun). Use this one to model."
+        },
+        {
+          "label": "Card 2 · Box",
+          "front": "A cereal box with a dancing cartoon tiger that says \"Crunchy Stars make mornings GREAT!\"",
+          "back": "WHO: a cereal company. WHY: SELL. The cartoon is there so kids notice the box and ask for it."
+        },
+        {
+          "label": "Card 3 · Cartoon",
+          "front": "A funny cartoon show about two squirrels who build a rocket.",
+          "back": "WHO: a team of writers, artists, and voice actors. WHY: FUN."
+        },
+        {
+          "label": "Card 4 · Poster",
+          "front": "A poster in the school hallway that shows how to wash your hands with soap and bubbles.",
+          "back": "WHO: the school nurse. WHY: TEACH. It helps keep everyone healthy."
+        },
+        {
+          "label": "Card 5 · Video",
+          "front": "A toy commercial where kids shout \"Get the new Zoom-Zoom Racer! Only at Pickett's Toy Barn!\"",
+          "back": "WHO: a toy company. WHY: SELL. It's fun to watch, but the biggest reason is to get you to want the toy."
+        },
+        {
+          "label": "Card 6 · Card",
+          "front": "A birthday card with a drawing of a pink cake, made by a big sister for her little brother.",
+          "back": "WHO: one person, the big sister. WHY: FUN (and to say \"I love you\"). Not every maker is a company."
+        },
+        {
+          "label": "Card 7 · News",
+          "front": "A TV weather reporter pointing at a map that shows rain coming to Maple Hollow tomorrow.",
+          "back": "WHO: a news team. WHY: NEWS. It tells people what's happening so they can bring an umbrella."
+        },
+        {
+          "label": "Card 8 · Game",
+          "front": "A tablet game where you feed a hungry dinosaur by counting apples.",
+          "back": "WHO: a game company with designers and artists. WHY: TEACH and FUN. Ask: \"Does it ask you to buy anything? Then it might be SELL too.\""
+        },
+        {
+          "label": "Card 9 · Song",
+          "front": "A song your teacher plays about the days of the week.",
+          "back": "WHO: a songwriter and singer. WHY: TEACH (and fun)."
+        },
+        {
+          "label": "Card 10 · News",
+          "front": "A school newsletter that says, \"Our class garden grew three pumpkins this week!\"",
+          "back": "WHO: teachers and students at the school. WHY: NEWS. It tells families what happened."
+        },
+        {
+          "label": "Card 11 · Made with AI",
+          "front": "A picture of a turtle wearing glasses and reading a book. Mr. Okafor, a teacher, typed words into an AI tool to make it for his reading corner.",
+          "back": "WHO: Mr. Okafor, using an AI tool. The tool made the picture from patterns it learned; Mr. Okafor decided to make it. WHY: FUN (to make reading cozy)."
+        },
+        {
+          "label": "Card 12 · Made with AI",
+          "front": "The same turtle picture, now with a small label at the bottom: \"Made by Mr. Okafor with an AI tool.\"",
+          "back": "Talk about the label. Good makers tell the truth about how they made something, just like writing your name on your drawing."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "I Am a Maker",
+      "type": "worksheet",
+      "instructions": "Draw and write. Your teacher can help you with words.",
+      "sections": [
+        {
+          "prompt": "Draw something YOU would make: a poster, a comic, a card, or a game.",
+          "boxes": true
+        },
+        {
+          "prompt": "Who is it for?",
+          "lines": 1
+        },
+        {
+          "prompt": "Why did I make it? Circle one: TEACH · SELL · FUN · NEWS",
+          "lines": 1
+        },
+        {
+          "prompt": "What did I use to make it? (crayons, a camera, a computer, my voice…)",
+          "lines": 1
+        },
+        {
+          "prompt": "Draw a maker you know: a person who makes books, songs, pictures, or games.",
+          "boxes": true
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Maker Hunt at Home",
+      "type": "checklist",
+      "instructions": "Family: find things at home that someone made, and ask the two detective questions together: \"Who made this?\" and \"Why did they make it?\" No screen needed. Check off what you find and bring this page back to school.",
+      "items": [
+        "A book. Who wrote it? Who drew the pictures?",
+        "A box or package with a picture or cartoon on it. Who made it? Is it trying to SELL?",
+        "A song, show, or game you like. Who made it? Why?",
+        "Something a family member made (a drawing, a meal, a card). Why did they make it?",
+        "Something that tells NEWS (a newspaper, a school note, the weather report).",
+        "Something that TEACHES (a recipe, a map, instructions for a toy).",
+        "Bonus: did anything say it was made with help from an AI tool?",
+        "I made something at home and wrote my name on it."
+      ],
+      "scale": [
+        "Found it!",
+        "Still looking"
+      ]
+    }
+  ]
+}

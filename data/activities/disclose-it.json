@@ -1,0 +1,160 @@
+{
+  "id": "disclose-it",
+  "title": "Disclose It",
+  "tagline": "Students sort real-feeling academic integrity dilemmas across courses, then write honest AI-use disclosures and process logs they would stand behind.",
+  "audience": "student",
+  "grades": ["9-12", "Higher Ed"],
+  "strands": ["genai", "digcit"],
+  "mode": "unplugged",
+  "minutes": 55,
+  "groupSize": "Pairs for the sort; groups of 4 for the scenario debate",
+  "eles": ["AI2.3", "AI2.1", "S4.1", "AI2.2"],
+  "overview": "Students increasingly take several courses at once with several different AI rules: brainstorming allowed in one, banned in another, required with a log in a third. The skill that transfers across all of them is not memorizing rules; it is being transparent about what you did and taking ownership of your process. In this activity, students sort fourteen scenarios by what the posted course policy requires, argue the gray areas, and then write a disclosure statement and process log for a piece of their own work. No devices are needed, because the thinking is about judgment and honesty, not tools.",
+  "objectives": [
+    "Students will apply a stated course AI policy to specific scenarios and justify whether a use needs disclosure, needs permission first, or crosses the line.",
+    "Students will write a specific AI-use disclosure statement that names the tool type, the task, what they kept, what they changed, and what they verified.",
+    "Students will keep a process log that shows their own thinking and decisions across the stages of an assignment."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Where Does It Land? scenario sort (1 set per pair, strips cut apart, with the sorting mat)",
+      "Handout B: Disclosure Statement and Process Log builder (1 per student)",
+      "Handout C: Disclosure Quality Check (1 per student)",
+      "Three signs for the room corners: \"Disclose it,\" \"Ask first,\" \"Crosses the line\"; a fourth for \"No disclosure needed\""
+    ],
+    "digital": [
+      "Optional: the class's LMS assignment page, where students can paste their disclosure into a submission comment",
+      "No AI tool is required for this activity"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A so each pair has fourteen scenario strips and one sorting mat.",
+    "Post the four category signs in the corners of the room.",
+    "Write your own course's AI policy on the board. If you don't have one yet, use this activity to draft it with students (see Transfer).",
+    "Ask each student to bring one recent assignment (any course) to use in Step 5. If they have none, they may use a hypothetical from Handout A."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Same move, different class",
+      "body": "Read aloud: **\"You ask an AI chatbot to suggest three thesis statements. You pick one and rewrite it.\"** Ask students to walk to the corner that fits: Disclose it, Ask first, Crosses the line, or No disclosure needed. Then say: \"Now it's for a history class whose policy says *AI may not be used for any writing task.*\" Let students move again. Then: \"Now it's for a biology lab where the syllabus says *AI brainstorming is welcome; note it in your submission.*\" Move again. Ask: \"What changed? The action didn't. The context did.\"",
+      "note": "This shows quickly why a single school-wide rule rarely covers every course, and why disclosure is the habit that travels."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "The scenario sort",
+      "body": "Pairs sort the fourteen strips on Handout A onto the mat. Each strip names the course policy in parentheses; students must decide based on **that policy**, not on their personal opinion of it. For each strip, one partner states the category and the other must give the reason before it is placed. Circulate and ask: \"Which words in the policy decided it?\"",
+      "note": "The \"Ask first\" category is the most important one. Students often think the only options are \"fine\" and \"cheating.\" Ask when the policy is silent or ambiguous."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 10,
+      "title": "Argue the gray areas",
+      "body": "Combine pairs into groups of four. Groups compare mats and flag strips where they disagree. Take the three most-disputed strips to the whole class. For each, one student argues for each category. Then reveal the key's reasoning and ask: **\"If you're not sure, what's the honest move?\"** Land on two principles: *when in doubt, ask before*, and *when you've used it, say so specifically.*",
+      "note": "Strips 9 (translation), 11 (grammar tools), and 13 (AI-generated study guide) usually spark the best debates. Accept reasoned disagreement where a policy is truly ambiguous."
+    },
+    {
+      "phase": "Model",
+      "minutes": 6,
+      "title": "Vague vs. specific disclosure",
+      "body": "Write two disclosures on the board. **Vague:** \"I used AI on this.\" **Specific:** \"I used a chatbot approved by our school to generate a list of possible counterarguments for my essay. I kept one (about cost), rewrote it in my own words, and checked it against our class reading. I rejected the other four because they didn't fit my thesis. All drafting and revision are my own.\" Ask: \"What can a teacher learn from the second one that the first hides?\" Highlight the five parts: **tool type, task, what I kept, what I changed, what I verified.**"
+    },
+    {
+      "phase": "Create",
+      "minutes": 15,
+      "title": "Write your own disclosure and log",
+      "body": "Students complete Handout B for a real assignment they brought. If they did not use AI on it, they write the log anyway and end the disclosure with \"No generative AI was used.\" That is a disclosure too. The process log asks for dates, stages, what they did, what tools (any tools, including search and grammar checkers) they used, and one decision they made at each stage.",
+      "note": "Students who used AI in a way that crossed a policy line may freeze here. Tell the class plainly: \"This is practice. No one will be penalized for what they write on this sheet today.\" Honesty needs a safe first rep."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 7,
+      "title": "Partner check",
+      "body": "Partners swap Handout B and score each other's disclosure with Handout C. The reviewer circles one criterion to strengthen and writes a question the teacher might ask about the work. Students revise one sentence based on the feedback. Close by asking: \"Why might being transparent about AI use matter even more to you than to your teacher?\"",
+      "note": "Look for answers about trust, credit for their own thinking, and being able to explain their work later."
+    }
+  ],
+  "unplugged": "This activity is designed unplugged. The sort, the corner moves, and the disclosure writing all work on paper. The only thing that changes with devices is where the disclosure gets submitted.",
+  "digital": "Post the scenarios as a drag-and-drop sort in your LMS or a shared slide deck. Students type their disclosure and process log into the assignment's submission comment or a document template, and peer reviewers leave comments using Handout C's criteria. Over a unit, a shared process-log document with dated entries gives you a far richer picture of student thinking than the final product alone.",
+  "whyTech": "Better unplugged: the learning is judgment and honesty, which need discussion rather than screens. The digital path earns its place later, when dated process logs attached to real submissions become ongoing evidence of how students work.",
+  "adaptations": [
+    { "label": "Higher Ed", "text": "Replace the course names on the strips with courses from a first-year schedule (composition, statistics, studio art, nursing lab) and have students compare the actual AI statements from two of their own syllabi." },
+    { "label": "Dual credit", "text": "Add a scenario where the high school and college policies for the same course differ, and discuss which one governs and whom to ask." },
+    { "label": "Emergent bilinguals", "text": "Provide Handout B's five disclosure parts as sentence frames (\"I used ___ to ___. I kept ___. I changed ___. I checked ___.\") and allow a first draft in any language." },
+    { "label": "Students with IEPs or 504 plans", "text": "Discuss how an accommodation (such as text-to-speech or a speech-to-text tool) fits into disclosure, and that approved accommodations are not an integrity issue." }
+  ],
+  "lookFors": [
+    "Students justify sort placements by quoting the policy wording, not by personal opinion (\"it says *any writing task*, so…\").",
+    "Students choose \"Ask first\" for genuinely ambiguous cases rather than defaulting to allowed or banned.",
+    "Disclosures on Handout B include at least four of the five parts: tool type, task, kept, changed, verified.",
+    "Process logs record a decision at each stage, showing the student's own thinking."
+  ],
+  "reflection": [
+    "How do I take responsibility for my own learning when I use AI tools? (S4.1)",
+    "Why do transparency and accountability matter when AI is part of my work? (AI2.3)",
+    "What ethical principle guides me when a course policy doesn't answer my question? (AI2.1)"
+  ],
+  "transfer": "Attach a disclosure statement (even \"No generative AI was used\") to the next major assignment in any course. As a class, use the most-disputed scenario strips to co-write or revise your own course AI policy, then share it with families so the expectations are clear at home too.",
+  "connections": [
+    { "title": "Augmented K–16 AI Learning Framework", "url": "https://mglearn.github.io/tcea/alf/", "note": "A framework for deciding how much AI assistance fits a task, useful when co-writing a course policy." },
+    { "title": "TCEA ELEs Alignment Assistant", "url": "https://mglearn.github.io/tcea/eles/", "note": "Map the disclosure habit to the AI and student ELE indicators." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Where Does It Land? (Scenario Sort)",
+      "type": "sort",
+      "instructions": "Decide using the course policy in parentheses, not your opinion of it. Say the reason aloud before placing each strip.",
+      "categories": ["No disclosure needed", "Disclose it", "Ask first", "Crosses the line"],
+      "items": [
+        { "text": "1. Anaya uses a chatbot to generate practice quiz questions to study for a chemistry test. Nothing is turned in. (Chemistry: \"AI may be used for personal study.\")", "answer": "No disclosure needed", "why": "Private study that produces no submitted work, and the policy explicitly allows it." },
+        { "text": "2. Marcus asks a chatbot for three possible essay topics, picks one, and writes the essay himself. (English: \"AI brainstorming is allowed; disclose it.\")", "answer": "Disclose it", "why": "Allowed use, and the policy asks for disclosure." },
+        { "text": "3. Priya pastes her whole lab report into a chatbot and asks it to \"make it sound more scientific,\" then submits the result. (Biology: \"AI may not be used to write or rewrite submitted work.\")", "answer": "Crosses the line", "why": "Rewriting submitted work is exactly what the policy prohibits." },
+        { "text": "4. Devin uses a chatbot to explain a statistics concept he missed while absent, then completes the problem set alone. (Statistics: \"AI tutoring is encouraged; note it if it shaped your work.\")", "answer": "Disclose it", "why": "The explanation shaped how he worked the problems, so the policy asks for a note." },
+        { "text": "5. Lena asks a chatbot to summarize a novel instead of reading the assigned chapters, then writes her response from the summary. (English: \"AI brainstorming is allowed; disclose it.\")", "answer": "Crosses the line", "why": "Summarizing to skip the reading is not brainstorming, and it replaces the learning the assignment requires." },
+        { "text": "6. Tomás uses an AI image tool to create the cover image for a history presentation. The policy doesn't mention images. (History: \"AI may not be used for any writing task.\")", "answer": "Ask first", "why": "The policy is silent on images. Ask before, not after." },
+        { "text": "7. Jada uses a search engine and the school library database to find sources for her research paper. (Government: \"AI may not be used for this project.\")", "answer": "No disclosure needed", "why": "Ordinary research tools; cite the sources as usual." },
+        { "text": "8. Kai asks a chatbot to check his computer code for bugs, and it rewrites two functions. He submits the rewritten code. (Computer Science: \"AI debugging help is allowed; comment any AI-written lines.\")", "answer": "Disclose it", "why": "Allowed, but the AI-written lines must be marked in comments." },
+        { "text": "9. Rosa writes her Spanish essay in English and uses an AI translator to convert it to Spanish. (Spanish III: \"Translation tools may not be used on graded writing.\")", "answer": "Crosses the line", "why": "The policy names translation tools directly; the assignment measures her Spanish writing." },
+        { "text": "10. Omar uses a chatbot to generate interview questions for a family-history project, then revises them with his grandmother. (Social Studies: no AI policy posted.)", "answer": "Ask first", "why": "No policy means ask. It's likely fine, but the teacher decides, and a disclosure would still help." },
+        { "text": "11. Bree runs her finished essay through the spell-and-grammar checker built into her word processor and accepts a few comma fixes. (English: \"AI brainstorming is allowed; disclose it.\")", "answer": "No disclosure needed", "why": "Routine proofreading tools most courses already expect; if the tool starts rewriting sentences, that changes." },
+        { "text": "12. Sam asks a chatbot to write his reflection paragraph about what he learned in a group project, then submits it as his own. (Any course: reflections are personal writing.)", "answer": "Crosses the line", "why": "A reflection's whole purpose is the student's own thinking. Submitting generated reflection misrepresents authorship." },
+        { "text": "13. Nia uses a chatbot to turn her class notes into a study guide, then shares the guide with her whole study group. (Psychology: \"AI may be used for personal study.\")", "answer": "Ask first", "why": "Personal study is allowed, but sharing generated material with others may go beyond the policy; also check it for errors first." },
+        { "text": "14. Eli uses an AI tool to generate data for a science fair project because his experiment failed, and presents it as his results. (Science Fair rules: \"All data must come from your own experiment.\")", "answer": "Crosses the line", "why": "Fabricating data is a serious integrity violation with or without AI." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Disclosure Statement and Process Log",
+      "type": "worksheet",
+      "instructions": "Use a real assignment. If you used no AI, complete the log anyway and write \"No generative AI was used.\"",
+      "sections": [
+        { "prompt": "Assignment, course, and the course's AI policy in your own words:", "lines": 2 },
+        { "prompt": "Process log. For each stage (getting started, research, drafting, revising, final check), write the date, what you did, any tools you used (search, AI, grammar checker, calculator), and one decision you made.", "lines": 8 },
+        { "prompt": "Disclosure statement. Include: the type of tool (not a brand), the task you used it for, what you kept, what you changed, and what you checked.", "lines": 5 },
+        { "prompt": "Which part of this work is most clearly *your* thinking? How could a teacher see that?", "lines": 3 },
+        { "prompt": "If you're unsure whether your use fit the policy, write the question you would ask your teacher before submitting:", "lines": 2 }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Disclosure Quality Check",
+      "type": "checklist",
+      "instructions": "Review your partner's Handout B. Circle one item to strengthen, then write a question a teacher might ask about the work.",
+      "scale": ["Yes", "Partly", "No"],
+      "items": [
+        "Names the type of tool used (or states that none was used)",
+        "Names the specific task the tool helped with",
+        "Says what was kept from the tool's output",
+        "Says what the student changed or rejected, and why",
+        "Says what the student checked or verified",
+        "Matches the course policy, or includes a question to ask first",
+        "Process log shows a decision at each stage",
+        "A teacher could tell which thinking belongs to the student",
+        "Written plainly enough that a family member would understand it"
+      ]
+    }
+  ]
+}

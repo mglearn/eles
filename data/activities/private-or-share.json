@@ -1,0 +1,151 @@
+{
+  "id": "private-or-share",
+  "title": "Private or Share?",
+  "tagline": "Children walk to a red, yellow, or green \"traffic light\" to sort personal information, then practice what to say when a game or talking computer asks for it.",
+  "audience": "student",
+  "grades": ["K-2"],
+  "strands": ["digcit", "genai"],
+  "mode": "unplugged",
+  "minutes": 25,
+  "groupSize": "Whole class, then pairs for role-play; any class size",
+  "eles": ["S2.1", "S2.3", "S4.1", "AI2.1"],
+  "overview": "Young children are asked for information all the time: by games, by video apps, by talking speakers, and sometimes by friendly-sounding chatbots. In this lesson the classroom becomes a traffic light. Children carry information strips to **Red (keep it private)**, **Yellow (ask a grown-up first)**, or **Green (OK to share)**, explain their choice, and then role-play what to do when \"Chatty,\" a pretend game robot, asks for their address. They leave with a shield of private things and one sentence they can say out loud.",
+  "objectives": [
+    "Students will sort examples of information into keep private, ask a grown-up first, and OK to share, and give a reason for one choice.",
+    "Students will name at least three things they keep private, such as a password, home address, and phone number.",
+    "Students will act out the Stop, Don't Type, Tell a Grown-Up response when an app, game, or talking computer asks for private information.",
+    "Students will name their own trusted grown-up."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Traffic Light Sort (1 set of item strips, cut apart; the mat can be enlarged for the board)",
+      "Handout B: Chatty Says… role-play cards (1 teacher set)",
+      "Handout C: My Private Shield (1 per student)",
+      "Three large paper circles taped in three spots in the room: RED, YELLOW, GREEN",
+      "Crayons; a small box or envelope labeled \"Treasure Box\""
+    ],
+    "digital": [
+      "Optional: a tablet or laptop with a kid game or app sign-up screen, shown by the teacher only",
+      "Optional: a generative AI chatbot your district approves, projected by the teacher"
+    ]
+  },
+  "prep": [
+    "Tape the three colored circles far enough apart that children must walk between them.",
+    "Cut apart the 13 item strips from Handout A. Put a folded slip that says \"my password\" inside the Treasure Box for the hook.",
+    "Read the key (the \"why\" line on each strip) so you can coach reasons rather than just answers.",
+    "Decide who children should name as trusted grown-ups at school (you, the counselor, the librarian) so you can say their names."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 3,
+      "title": "The Treasure Box",
+      "body": "Hold up the Treasure Box. Say: \"Some things are like treasure. We keep them safe and only share them with people we trust.\" Open it and read the slip: **\"my password.\"** Ask: \"Would you tell your password to someone you just met online?\" Children shake heads. \"Today we find out which things go in the treasure box and which things are fine to share.\"",
+      "note": "Keep it calm and matter-of-fact. The goal is confident children, not scared ones."
+    },
+    {
+      "phase": "Model",
+      "minutes": 4,
+      "title": "The traffic light",
+      "body": "Walk to each circle and teach its meaning with a motion. **RED: Keep it private** (hands cross in an X). **YELLOW: Ask a grown-up first** (hand on ear like listening). **GREEN: OK to share** (thumbs up). Think aloud with two strips: \"My favorite color. Could that hurt me if everyone knew? No. GREEN.\" Then: \"My home address. That tells someone where I live. That goes in the treasure box. RED.\"",
+      "note": "Use the words \"personal information\" and \"private\" and define them: private means only you and your family or trusted grown-ups know it."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 8,
+      "title": "Walk the traffic light",
+      "body": "Hand out strips to pairs. Read each strip aloud as the pair holds it up. The pair walks to a circle and the class checks with the motion (X, hand to ear, or thumbs up). Ask the pair: **\"Why did you choose that color?\"** For yellow items, ask: \"Which grown-up would you ask?\" Tape each strip on the matching mat on the board as you go.",
+      "note": "\"My full name\" and \"a photo of my face\" often spark debate between red and yellow. Either can be right if the child's reason is about safety; the key lists yellow because a grown-up helps decide."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 5,
+      "title": "Chatty Says…",
+      "body": "Now you become **Chatty**, a pretend game robot, in a sing-song voice. Read the front of a Chatty card. The class answers together with the three-step response: **\"STOP. Don't type. Tell a grown-up!\"** (hand up, hands behind back, point to a trusted grown-up). For two or three cards, let a child play the child in the game and a partner play the trusted grown-up who says, \"Thank you for telling me.\" Include the card where Chatty is a talking computer helper to show that even friendly AI helpers do not need private information.",
+      "note": "Some Chatty cards are harmless (\"What's your favorite animal?\"). Children must think, not just shout the script. That is the self-directed habit: pause and decide."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "My Private Shield",
+      "body": "Children complete Handout C: draw or write three private things inside the shield, draw their trusted grown-up, and finish the sentence \"If a game asks for my address, I will…\" Invite two children to share their shield and name their grown-up.",
+      "note": "Collect shields as evidence. A child who lists \"password, address, phone\" and names a real person has met the core objectives."
+    }
+  ],
+  "unplugged": "Everything runs on paper and movement: the traffic-light circles, the item strips, and teacher-voiced role-play. If you cannot move around the room, children hold up red, yellow, or green crayons instead of walking.",
+  "digital": "After the role-play, show a sign-up screen from a kid game or app on your own device (projected, children do not touch it). Point to each box it asks for and let the class call out the color. Optionally, project a district-approved AI chatbot and type as the class watches: \"I'm a first grader. Do you need my home address to help me with a story?\" Read the answer aloud and discuss: \"Would you ever type your address here? No. Private stays private, even with a friendly helper.\" Children under 13 never type into AI tools themselves; you drive the demo.",
+  "whyTech": "Children learn the sort best with their bodies and voices, so this lesson is strongest unplugged. A projected, real sign-up screen adds one thing paper cannot: children see that the boxes asking for private information look ordinary and friendly, which is exactly when the habit matters.",
+  "adaptations": [
+    { "label": "Kindergarten", "text": "Use two colors only (RED and GREEN) and 8 strips; say \"ask a grown-up\" for anything they're unsure about." },
+    { "label": "Grade 2", "text": "Add a \"Why?\" round: pairs choose one red strip and explain to the class what someone could do with that information." },
+    { "label": "Emergent bilinguals", "text": "Teach the three motions first; they carry the meaning. Label the circles in English and the home language and let children answer with motions." },
+    { "label": "Children who feel anxious", "text": "Frame red items as treasure, not danger, and let a child stand with a buddy at the circle." }
+  ],
+  "lookFors": [
+    "Children place password, home address, and phone number on RED without prompting and give a safety reason.",
+    "During Chatty Says, children tell harmless questions apart from private ones instead of shouting the script at every card.",
+    "Each shield on Handout C shows at least three private items and a named trusted grown-up."
+  ],
+  "reflection": [
+    "What goes in your treasure box? Why do we keep it private?",
+    "Do I stay safe and make good choices when I use the internet? (Student ELE guiding question)",
+    "Who is your trusted grown-up, and what will you say to them?"
+  ],
+  "transfer": "Send the shield home with a note inviting families to play \"Traffic Light\" at dinner (a grown-up names a piece of information and the child says red, yellow, or green) and to agree together on who the child's trusted grown-ups are online. Next lesson, *Kind Clicks* builds on the \"tell a grown-up\" habit.",
+  "connections": [
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "A teacher-led digital breakout follow-up on digital citizenship." },
+    { "title": "Family App Privacy Audit", "url": "https://mglearn.github.io/tcea/privacy-audit/", "note": "Share with families who want to check the privacy settings on apps their children use." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Traffic Light Sort",
+      "type": "sort",
+      "instructions": "Cut apart the strips. Read each one aloud. Walk it to RED, YELLOW, or GREEN.",
+      "categories": ["RED: Keep it private", "YELLOW: Ask a grown-up first", "GREEN: OK to share"],
+      "items": [
+        { "text": "My password", "answer": "RED: Keep it private", "why": "Passwords are only for you and your family grown-ups." },
+        { "text": "My home address", "answer": "RED: Keep it private", "why": "It tells someone where you live." },
+        { "text": "My phone number", "answer": "RED: Keep it private", "why": "A stranger could call or text you." },
+        { "text": "Where I am right now", "answer": "RED: Keep it private", "why": "Only your family needs to know where you are." },
+        { "text": "My full name (first and last)", "answer": "YELLOW: Ask a grown-up first", "why": "A grown-up helps decide; often your first name is enough." },
+        { "text": "A photo of my face", "answer": "YELLOW: Ask a grown-up first", "why": "Photos can be copied and shared, so ask first." },
+        { "text": "The name of my school", "answer": "YELLOW: Ask a grown-up first", "why": "It tells people where to find you during the day." },
+        { "text": "My birthday", "answer": "YELLOW: Ask a grown-up first", "why": "It can be used with other information to find out who you are." },
+        { "text": "A photo of my friend", "answer": "YELLOW: Ask a grown-up first", "why": "It's your friend's picture too. Ask them and a grown-up." },
+        { "text": "My favorite color", "answer": "GREEN: OK to share", "why": "It can't tell anyone who or where you are." },
+        { "text": "My favorite animal", "answer": "GREEN: OK to share", "why": "Fun to share and safe." },
+        { "text": "That I like soccer", "answer": "GREEN: OK to share", "why": "A hobby is safe to share when it has no names or places." },
+        { "text": "A dragon I drew (no name on it)", "answer": "GREEN: OK to share", "why": "Your art is great to share when your private information isn't on it." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Chatty Says…",
+      "type": "cards",
+      "instructions": "Teacher: read the front in a sing-song robot voice. Children decide: answer, or \"STOP. Don't type. Tell a grown-up!\" The back is your key.",
+      "cards": [
+        { "label": "Chatty · Game", "front": "\"Type your home address so I can mail you a prize!\"", "back": "STOP. Don't type. Tell a grown-up. Real prizes don't need a child to type an address." },
+        { "label": "Chatty · Game", "front": "\"What's your favorite animal? I like pandas!\"", "back": "OK to answer. A favorite animal is safe. Praise the child who thought before shouting \"STOP.\"" },
+        { "label": "Chatty · Game", "front": "\"Tell me your password and I'll give you 100 free coins!\"", "back": "STOP. Don't type. Tell a grown-up. Nobody needs your password to give you anything." },
+        { "label": "Chatty · Video app", "front": "\"Send a picture of your face to be in our video!\"", "back": "STOP and ask a grown-up first. Photos of you are yellow: a grown-up decides." },
+        { "label": "Chatty · Talking helper", "front": "\"I'm a friendly computer helper. What school do you go to, and what's your last name?\"", "back": "STOP. Don't type. Tell a grown-up. Even a friendly AI helper does not need your private information to help you." },
+        { "label": "Chatty · Game", "front": "\"Which color car do you want in the race: red or blue?\"", "back": "OK to answer. Picking a color is part of the game and shares nothing private." },
+        { "label": "Chatty · Chat", "front": "\"I'm your new friend. Where are you right now? Are your parents home?\"", "back": "STOP. Don't type. Tell a grown-up right away. This is a question only family should ask." },
+        { "label": "Chatty · Game", "front": "\"Great job! Do you want to play level 2?\"", "back": "OK to answer. Nothing private is being asked." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Private Shield",
+      "type": "worksheet",
+      "instructions": "Draw or write. Your teacher can help with words.",
+      "sections": [
+        { "prompt": "Inside my shield: draw or write 3 things I keep PRIVATE.", "boxes": true },
+        { "prompt": "Draw one thing that is OK to share.", "boxes": true },
+        { "prompt": "Draw my trusted grown-up. Write their name.", "boxes": true },
+        { "prompt": "If a game asks for my address, I will say: \"STOP. Don't type. Tell a ___!\"", "lines": 1 }
+      ]
+    }
+  ]
+}

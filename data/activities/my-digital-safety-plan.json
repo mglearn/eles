@@ -1,0 +1,159 @@
+{
+  "id": "my-digital-safety-plan",
+  "title": "My Digital Safety Plan",
+  "tagline": "Students work through real-world sharing dilemmas, audit account security and privacy habits, and write a personal safety plan they explain to a family member.",
+  "audience": "student",
+  "grades": ["6-8", "9-12"],
+  "strands": ["digcit", "genai"],
+  "mode": "hybrid",
+  "minutes": 50,
+  "groupSize": "Pairs for the scenarios; individual plans",
+  "eles": ["S2.1", "S2.3", "S1.2", "S4.1", "T2.2"],
+  "overview": "Staying safe online isn't one rule; it's a set of habits: strong, unique passphrases, two-step login, careful privacy settings, thinking before posting, and knowing what not to type into an AI chatbot. Students discuss eight \"What would you do?\" scenarios, audit their own habits with a checklist (no one has to reveal any account details), and write a personal Digital Safety Plan. Students who don't have accounts yet plan for a family device, a school account, or their first account.",
+  "objectives": [
+    "Students will explain the difference between private, personal, and public information and give an example of each.",
+    "Students will evaluate their own account security and privacy habits using a checklist and identify at least two habits to change.",
+    "Students will write a Digital Safety Plan that includes a passphrase strategy, two-step login, privacy settings to check on any new app, and rules for sharing information with AI tools."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: What Would You Do? Scenario Cards (1 set per pair, cut apart)",
+      "Handout B: Safety Habits Audit (1 per student)",
+      "Handout C: My Digital Safety Plan (1 per student)",
+      "Three signs for a quick four-corners warm-up: Private · Personal · Public"
+    ],
+    "digital": [
+      "Teacher projector to demonstrate privacy settings on a school account or a demo account",
+      "Optional: student devices to explore privacy and security settings on their school account only, with the teacher",
+      "Optional (at home): a family device and a trusted adult to complete the plan's settings check together"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Print Handouts B and C.",
+    "Post the Private, Personal, and Public signs in three parts of the room.",
+    "If you'll demo settings, open your school account's (or a demo account's) security and privacy pages ahead of time. Never display a real student's account.",
+    "Remind students up front: they will never write a real password, username, or address on any handout."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 6,
+      "title": "Private, personal, or public?",
+      "body": "Read items aloud and have students walk to a sign: **your favorite color, your home address, your password, your school's name, your birthday, a photo of your house, your first pet's name, the town you live in.** After each, ask one student to defend their spot. Define together: **Private** = never share online (passwords, address, codes). **Personal** = share only with people you know and trust. **Public** = fine to share, but still a choice.",
+      "note": "\"First pet's name\" and \"birthday\" surprise students: they're common answers to security questions, so treat them as more private than they feel."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "What would you do?",
+      "body": "Pairs draw scenario cards from Handout A, discuss for about 90 seconds each, and agree on an action. Then they flip to the back (or you read the key) and compare. Each pair marks one card where they disagreed at first or changed their minds.",
+      "note": "Card 7 (the AI chatbot) is often the most eye-opening. Many students assume chats with AI tools are private. Tell them to treat anything they type as something that could be stored or seen by others."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "Settings tour",
+      "body": "On the projector, walk through the security and privacy pages of your school or demo account. Show **where to turn on two-step login, how to see which devices are signed in, where location and profile visibility live, and how to review app permissions.** Then model a passphrase strategy: several unrelated words strung together, different for every account, stored in a password manager or a written list kept safe at home with an adult. Say: \"Every app puts these in a different place. The skill isn't memorizing one app; it's knowing what to look for in any new one.\"",
+      "note": "Never type a real password on the projector. Use an obviously fake example passphrase such as \"cactus-lantern-orbit-pickle\" and say you'd never use a published one."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 8,
+      "title": "Safety Habits Audit",
+      "body": "Students complete Handout B privately, marking Yes, Partly, No, or Not sure. **They write no account names or passwords.** Students without accounts answer for a family device, a game console, or their school account. Then they circle the two habits that would make the biggest difference for them.",
+      "note": "Keep this private. Don't collect Handout B; it's for the student. Collect Handout C instead."
+    },
+    {
+      "phase": "Create",
+      "minutes": 12,
+      "title": "Write the plan",
+      "body": "Students write their Digital Safety Plan on Handout C: their passphrase strategy (without the actual passphrase), two-step login, three settings to check on any new app, a sharing rule, an AI-chatbot rule, and who they'd tell if something went wrong. Pairs trade plans and give one \"I'd add…\" suggestion. Students revise one line based on the feedback.",
+      "note": "Look for plans that are specific and doable (\"I'll turn off location on my camera app\") instead of vague (\"I'll be careful\")."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "Explain it to someone",
+      "body": "Ask: **\"Which part of your plan would be hardest to keep up, and why?\"** Take a few answers. Then assign the home step: students explain their plan to a family member and, with that adult, check the privacy settings on one app or device together. They bring back a one-sentence note on what they changed.",
+      "note": "The explanation to a family member is the evidence of ownership. Students who can explain a habit are more likely to keep it."
+    }
+  ],
+  "unplugged": "Run the four corners, scenario cards, audit, and plan on paper. In place of the settings tour, draw a generic settings menu on the board (Security, Privacy, Location, Apps, Devices) and talk through what students would look for under each heading.",
+  "digital": "The teacher demonstrates settings on a school or demo account. Grades 6–8 students may explore the security and privacy pages of their own school account with the teacher; students 13 and older can check personal accounts at home with a family member. Students can also keep the plan as a document in their school account or portfolio and update it when they join a new app. No AI accounts are needed.",
+  "whyTech": "The settings tour turns abstract advice into a concrete skill: finding two-step login and privacy settings on an unfamiliar platform. That's what students will need every time they adopt a new tool. The plan itself works just as well on paper.",
+  "adaptations": [
+    { "label": "Grades 3–5", "text": "Use Cards 1, 3, 5, and 7, focus on the four corners and \"tell a trusted adult,\" and replace the audit with a family-device checklist completed at home." },
+    { "label": "Grades 9–12", "text": "Add cards on location-sharing with friends, college application profiles, and data brokers, and have students compare the privacy settings of two apps they use." },
+    { "label": "Students with limited home access", "text": "Let students complete the home step with a school counselor, librarian, or older sibling, or plan for a future account. No student should be penalized for not having devices or accounts." }
+  ],
+  "lookFors": [
+    "Students correctly sort examples as private, personal, or public and can explain the security-question risk of \"harmless\" facts.",
+    "Handout C includes specific, doable actions (a passphrase strategy, two-step login, named settings to check) rather than general promises.",
+    "Students revise at least one line of their plan after peer feedback and report one setting they changed at home."
+  ],
+  "reflection": [
+    "Do I stay safe and make good choices when I use the internet? Which habit in my plan will protect me most?",
+    "What information about me would I not want a stranger, or an AI tool, to have? Why?",
+    "When I try a new app, what three things will I check first?"
+  ],
+  "transfer": "Students update their Digital Safety Plan the next time they join a new app or platform, including new school tools. Revisit the plans at the start of the next grading period and ask which habit students actually kept.",
+  "connections": [
+    { "title": "Family App Privacy Audit", "url": "https://mglearn.github.io/tcea/privacy-audit/", "note": "A family-facing tool for the at-home settings check." },
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "Game-based practice on privacy and online safety." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "What Would You Do? Scenario Cards",
+      "type": "cards",
+      "instructions": "Cut apart. Pairs discuss each card and agree on an action before reading the back. Print the backs separately as a key.",
+      "cards": [
+        { "label": "Card 1 · The team photo", "front": "Your soccer team won the tournament! You want to post a photo of everyone in uniform in front of your school sign, with the caption \"Home after practice every day at 4!\"", "back": "Celebrate, but think about what the photo reveals: the school name, your schedule, and teammates' faces. Ask teammates before posting them, crop out the sign, and drop the schedule. Public pride, private details." },
+        { "label": "Card 2 · The quiz", "front": "A fun quiz goes around: \"Your superhero name = your first pet's name + the street you grew up on!\" Everyone is posting their answers in the comments.", "back": "Those are common security-question answers. Posting them publicly can help someone break into accounts. Enjoy the joke without posting real answers." },
+        { "label": "Card 3 · Shared password", "front": "Your best friend asks for your game password so they can level up your character while you're on vacation. \"I'd never do anything bad, I promise!\"", "back": "Friendships change, and a shared password can be passed on or used by accident. Keep passwords private (a parent or guardian is the exception). If you already shared, change it." },
+        { "label": "Card 4 · Same password everywhere", "front": "You use the same password for your game, your email, and your school account because it's easy to remember.", "back": "If one site is breached, attackers try that password everywhere. Use a different passphrase for each account, stored in a password manager or a list kept safe at home with an adult." },
+        { "label": "Card 5 · Location on", "front": "You notice your photo app has been tagging your location on every picture, including ones taken in your bedroom.", "back": "Location data can reveal where you live and spend time. Turn off location for the camera or strip it before sharing, and check which apps can see your location." },
+        { "label": "Card 6 · The login code", "front": "You get a text with a six-digit login code you didn't request. A minute later, someone messages: \"Oops, I sent my code to your number. Can you forward it?\"", "back": "Someone is trying to get into your account. Never forward a code. Change your password, make sure two-step login is on, and tell an adult." },
+        { "label": "Card 7 · The AI chatbot", "front": "Your class is allowed to use an AI chatbot for brainstorming. You want better help on a personal essay, so you think about pasting in your full name, address, and a story about a family conflict.", "back": "Treat anything you type into an AI tool as something that could be stored or seen by others. Leave out names, addresses, and private family details. Describe the situation in general terms instead. Under 13? Your teacher runs the tool for you." },
+        { "label": "Card 8 · The screenshot", "front": "Someone in a group chat shares a screenshot of a private message a classmate sent them, and people start making fun of it.", "back": "Anything you send can be screenshotted and shared. Don't add to it; support the classmate and report it to a trusted adult. Before you send something, ask: would I be okay if this were shared?" }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Safety Habits Audit",
+      "type": "checklist",
+      "instructions": "This is private and for you. Don't write any usernames or passwords. No accounts yet? Answer for a family device or your school account.",
+      "scale": ["Yes", "Partly", "No", "Not sure"],
+      "items": [
+        "I use a different password or passphrase for each account.",
+        "My passwords are long (several words), not a name, birthday, or pet.",
+        "Two-step login is turned on wherever it's offered.",
+        "I've checked who can see my profile and posts.",
+        "Location sharing is off for apps that don't need it.",
+        "I've reviewed which apps can use my camera, microphone, and contacts.",
+        "I log out of shared or school computers when I'm done.",
+        "I don't share login codes, even with friends.",
+        "I ask before posting photos of other people.",
+        "I leave personal details out of anything I type into an AI tool.",
+        "I know which adult I'd tell if an account got hacked or something online upset me.",
+        "I think \"would I be okay if this were shared?\" before sending."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Digital Safety Plan",
+      "type": "worksheet",
+      "instructions": "Write a plan you'll actually follow. Never write a real password here.",
+      "sections": [
+        { "prompt": "My passphrase strategy (how I'll make and store strong, different passwords, without writing any of them):", "lines": 3 },
+        { "prompt": "Where I'll turn on two-step login first, and why:", "lines": 2 },
+        { "prompt": "Three settings I'll check on any new app or platform:", "lines": 3 },
+        { "prompt": "My sharing rule for posts, photos, and messages (including photos of other people):", "lines": 3 },
+        { "prompt": "My rule for what I will and won't type into an AI tool:", "lines": 2 },
+        { "prompt": "If something goes wrong (a hacked account, a scary message, a post I regret), I will…", "lines": 3 },
+        { "prompt": "Partner's \"I'd add…\" suggestion, and the line I revised:", "lines": 2 },
+        { "prompt": "Home step: I explained my plan to ___. Together we checked ___ and changed ___.", "lines": 2 }
+      ]
+    }
+  ]
+}

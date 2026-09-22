@@ -1,0 +1,170 @@
+{
+  "id": "student-voice-policy-makers",
+  "title": "Policy Makers",
+  "tagline": "Student teams research, draft, and pitch an AI and technology-use policy proposal to a mock board, and must pass the same five-question check real leaders use.",
+  "audience": "student",
+  "grades": ["9-12", "Higher Ed"],
+  "strands": ["genai", "digcit"],
+  "mode": "hybrid",
+  "minutes": 180,
+  "groupSize": "Policy teams of 4–5; a rotating mock board of 3–5 (students, invited staff, or administrators)",
+  "eles": ["AI2.1", "S3.2", "S5.1", "S3.3", "AI2.2"],
+  "overview": "Rules about AI and technology use are often written for students without students in the room. In this three-session project, students become policy makers. They analyze an outdated fictional acceptable-use policy, gather perspectives from classmates and staff, and draft a focused proposal on one issue (AI in coursework, phones, data privacy, or accessibility). Every proposal must pass the five-question check that school leaders use: *What is the vision? What evidence will guide us? What changes in instruction? Who might be left out? How will families understand the change?* Teams then present to a mock board that asks hard questions. The strongest proposals can go to the real one.",
+  "objectives": [
+    "Students will break a complex policy problem into parts and gather evidence from multiple stakeholders before proposing a solution.",
+    "Students will draft a specific, ethical policy proposal that addresses the five-question check, including who might be left out.",
+    "Students will present and defend their proposal clearly to a mock board, responding to questions with evidence."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Harmon Creek High School Technology Policy (2019 excerpt) and stakeholder voices (1 per student)",
+      "Handout B: Policy Proposal Builder with the five-question check (1 per team)",
+      "Handout C: Mock Board Scoring Rubric (1 per board member, plus 1 per team for self-assessment)",
+      "Chart paper and sticky notes for the issue map; name tents for the mock board"
+    ],
+    "digital": [
+      "Devices for researching your school's or college's actual policies and for building a short presentation",
+      "Optional: a shared survey form for collecting classmate perspectives (no names or personal data collected)",
+      "Optional: a generative AI chatbot your district or institution approves for students 13+, used to generate counterarguments the team must answer"
+    ]
+  },
+  "prep": [
+    "Locate your school's or college's current technology, acceptable-use, and AI policies so teams can compare them to the fictional one. If none exist, that becomes a finding.",
+    "Invite two or three adults (an administrator, a librarian, a counselor, or a technology staff member) to sit on the mock board in Session 3, or plan a student board.",
+    "Print Handout A for everyone and Handouts B and C per team. Decide whether teams choose their issue or you assign issues to avoid duplicates.",
+    "Tell students and families in advance whether strong proposals will be shared with real decision makers, and follow through if you promise it."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 12,
+      "title": "Session 1: Read the old rules",
+      "body": "Students read the Harmon Creek policy on Handout A individually and mark each rule with a check (still works), a question mark (unclear today), or an X (outdated or unfair). Ask: **\"What does this policy assume about technology, about students, and about learning? What's missing entirely?\"** Collect answers on chart paper. Students almost always notice the policy never mentions AI and treats all devices as distractions.",
+      "note": "Point out the policy's one strength (it names privacy). Good policy work starts by keeping what works."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 25,
+      "title": "Session 1: Map the issue and the stakeholders",
+      "body": "Teams choose one issue (AI in coursework, phones and personal devices, student data privacy, or accessibility of digital tools) and build an **issue map** on chart paper: the problem in one sentence, its parts, who is affected, and what they'd need to know. Then teams read the six stakeholder voices on Handout A and add each stakeholder's concern to their map. Finally, teams write three questions to ask real stakeholders before Session 2, such as a classmate survey, a quick interview with a teacher, or a family member's view.",
+      "note": "This is systematic problem-solving (S5.1): break it down before solving it. Teams that jump to rules now will write weaker proposals."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 23,
+      "title": "Session 1: Compare with the real policy",
+      "body": "Teams find what their own school's or college's current policy says about their issue and note gaps. If teams have devices, they look up the actual policy documents; otherwise, hand out the printed copies you gathered. Teams record: what the real policy says, what it doesn't say, and what their stakeholders are worried about that no policy addresses. Assign stakeholder interviews or surveys as homework, collecting no names or personal information.",
+      "note": "Remind teams to report perspectives accurately and anonymously: \"a ninth grader said…\" rather than names."
+    },
+    {
+      "phase": "Create",
+      "minutes": 35,
+      "title": "Session 2: Draft the proposal",
+      "body": "Teams share what they learned from stakeholders, then draft their proposal on Handout B: a one-sentence vision, three to five specific policy statements written so a student could follow them, and the reason for each. Every statement must be something a person could actually do or check. Replace \"Students should use AI responsibly\" with \"Students may use approved AI tools for brainstorming and feedback in any course unless the teacher's syllabus says otherwise, and must attach a disclosure when they do.\"",
+      "note": "Teams tend to write bans. Ask: \"What problem does this ban solve? What learning does it block? Is there a narrower rule that solves the same problem?\""
+    },
+    {
+      "phase": "Apply",
+      "minutes": 25,
+      "title": "Session 2: The five-question check and red team",
+      "body": "Teams answer the five-question check on Handout B for their draft. Then pairs of teams **red team** each other: each team reads the other's proposal and plays the toughest board member, raising the strongest objection they can think of, especially on **\"Who might be left out?\"** (students without home internet, students with disabilities, emergent bilinguals, families who don't use email). Teams revise. Optional: students 13+ may ask an approved AI chatbot, \"What are the three strongest objections to this policy?\", then decide which objections are valid and which aren't, logging their reasoning.",
+      "note": "If a team uses AI for objections, ask them to name one objection the AI missed that a real stakeholder raised. Human voices remain the main evidence."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 15,
+      "title": "Session 3: Rehearse",
+      "body": "Teams prepare a 4-minute presentation (with or without slides) that states the problem, their evidence from stakeholders, the proposal, and how it passes the five-question check. Each member speaks. Teams rehearse once for another team, which gives one piece of feedback using Handout C's \"Clear communication\" row.",
+      "note": "A printed one-page proposal the board can hold is often more persuasive than slides."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 35,
+      "title": "Session 3: The mock board hearing",
+      "body": "Seat the board. Each team presents for 4 minutes and then takes 3 minutes of board questions. Board members score with Handout C. Suggested board questions: \"How will you know if this policy works?\" \"What would a teacher who disagrees say?\" \"How will a family who doesn't speak English learn about this?\" \"What happens the first time someone breaks this rule?\" Teams not presenting fill in a quick note: one idea from this team they'd borrow.",
+      "note": "Ask adult board members in advance to question respectfully and to praise specific evidence. Their questions model real leadership thinking."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 10,
+      "title": "Session 3: Board feedback and next steps",
+      "body": "The board shares one strength from each proposal and names the two it would forward to real decision makers, with reasons. Each student writes a short reflection: **\"What did I learn about how rules get made, and whose voices are usually missing? What would I change in our proposal now?\"**",
+      "note": "If you promised to forward proposals, tell students exactly where they're going and when they'll hear back."
+    }
+  ],
+  "unplugged": "The whole project runs on paper: the fictional policy and stakeholder voices are printed, the issue map is on chart paper, stakeholder perspectives come from in-person interviews, and the board hearing is a live presentation with a printed one-page proposal. Provide printed copies of your real school or college policy for the comparison step.",
+  "digital": "Teams research their actual school's or college's policies online, collect anonymous classmate perspectives with a short survey form (no names or identifying data), draft in a shared document with comments from the red-team partner, and present with slides. The hearing can run as a video meeting with the board scoring on a shared form. An approved AI tool is optional and used only to generate objections that the team evaluates; it never writes the proposal.",
+  "whyTech": "A short anonymous survey reaches more student voices than a few interviews, and a shared draft keeps a visible record of how feedback changed the proposal. Both give the board better evidence. An AI objection generator adds value only if the team shows which objections they judged valid and why.",
+  "adaptations": [
+    { "label": "Higher Ed", "text": "In a first-year seminar, teams draft a student-voice proposal for the college's AI guidance and compare it with policies at two other institutions. Education-prep students draft a classroom AI policy for a grade level they plan to teach and present to practicing teachers." },
+    { "label": "Dual credit", "text": "Teams address the specific problem of courses where high school and college rules differ, and propose how students should be told which rule applies." },
+    { "label": "Shorter version (90 min)", "text": "Skip the stakeholder homework (use Handout A's voices only), combine drafting and the five-question check, and hold a short gallery-walk board hearing." },
+    { "label": "Emergent bilinguals", "text": "Invite teams to translate their one-page proposal into a family's home language, which directly addresses the fifth question on the check." }
+  ],
+  "lookFors": [
+    "Issue maps break the problem into parts and name specific affected groups before any rules are written.",
+    "Proposals contain specific, followable statements rather than general values, each with a reason.",
+    "The five-question check answers \"Who might be left out?\" with named groups and a concrete accommodation.",
+    "Teams answer board questions with evidence from stakeholders, not only opinion, and revise at least one statement based on feedback."
+  ],
+  "reflection": [
+    "What ethical principles did our team apply when deciding how AI and technology should be used? (AI2.1)",
+    "How clearly did I communicate our ideas to people with power to act on them? (S3.2)",
+    "How did we approach a complex problem systematically, and whose perspective changed our thinking? (S5.1, S3.3)"
+  ],
+  "transfer": "Forward the board's top proposals to your campus or college leadership, student council, or site-based decision-making committee, and report back to students on what happened. Students take their one-page proposal home to discuss with family and bring back one family question for the team to answer.",
+  "connections": [
+    { "title": "Generative AI Adoption Checklist", "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/", "note": "The questions leaders consider before adopting AI, useful for teams to anticipate board questions." },
+    { "title": "TCEA ELEs (PDF)", "url": "https://tinyurl.com/tceaeles1", "note": "The student and leader ELEs, including the ideas behind the five-question check." },
+    { "title": "Digital Accessibility Readiness Assessment", "url": "https://mglearn.github.io/tcea/a11y/", "note": "Helps teams answer \"Who might be left out?\" for digital tools." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Harmon Creek High School Technology Policy (2019 Excerpt) and Stakeholder Voices",
+      "type": "reading",
+      "instructions": "Harmon Creek and everyone quoted are fictional. Mark each policy rule: ✓ still works · ? unclear today · ✗ outdated or unfair. Then read the voices.",
+      "paragraphs": [
+        "**Rule 1.** Personal electronic devices, including phones, tablets, and laptops, must be turned off and stored in lockers during the school day. Devices seen during class will be confiscated until the end of the day.",
+        "**Rule 2.** Students may use school computers only for assignments directed by the teacher. Any other use is prohibited.",
+        "**Rule 3.** Students may not access websites that are not related to schoolwork. The school filter will block inappropriate sites.",
+        "**Rule 4.** Plagiarism, defined as copying another person's words or ideas without credit, will result in a zero on the assignment and a referral to the assistant principal.",
+        "**Rule 5.** Students must protect their passwords and may not share personal information about themselves or others online.",
+        "**Rule 6.** Violations of this policy will result in loss of technology privileges.",
+        "**Voice · Ninth-grade student:** \"My math teacher lets us use AI to check our steps, but my English teacher says any AI is cheating. I honestly don't know what's allowed in which class, and I'm scared to ask.\"",
+        "**Voice · English teacher:** \"I want students to struggle through their own writing. I'm not against technology, but I need to be able to see their thinking, and right now I can't tell what's theirs.\" **Voice · Parent:** \"We don't have reliable internet at home. If assignments start requiring AI tools, my kids will fall behind.\"",
+        "**Voice · Student with a reading disability:** \"I use text-to-speech on my phone to read long assignments. Under Rule 1 it has to stay in my locker, so I have to ask for a special pass every time.\" **Voice · Librarian:** \"Students need to learn to evaluate information, including AI answers. Blocking everything doesn't teach them how.\"",
+        "**Voice · Assistant principal:** \"Whatever we adopt has to be clear enough that a substitute teacher could enforce it fairly and that a family could understand it the first time they read it.\""
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Policy Proposal Builder",
+      "type": "worksheet",
+      "instructions": "One per team. Each policy statement should be specific enough that a student could follow it and a teacher could check it.",
+      "sections": [
+        { "prompt": "Our issue, the problem in one sentence, and the stakeholder evidence that shows it's a problem:", "lines": 3 },
+        { "prompt": "Our proposal: three to five specific policy statements, each followed by \"because…\"", "lines": 8 },
+        { "prompt": "Five-question check 1 and 2. What is the vision (one sentence)? What evidence will guide us, both now and to measure whether it works later?", "lines": 4 },
+        { "prompt": "Five-question check 3. What changes in instruction? What would teachers and students do differently in class?", "lines": 3 },
+        { "prompt": "Five-question check 4. Who might be left out (students without home internet, students with disabilities, emergent bilinguals, others)? What does our proposal do about it?", "lines": 4 },
+        { "prompt": "Five-question check 5. How will families understand the change? (format, languages, where they'll hear about it)", "lines": 3 },
+        { "prompt": "Red team: the strongest objection we heard, and how we revised (or why we didn't):", "lines": 3 }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Mock Board Scoring Rubric",
+      "type": "rubric",
+      "instructions": "Board members score each team; teams also self-assess before the hearing.",
+      "levels": ["Beginning", "Developing", "Proficient", "Exemplary"],
+      "criteria": [
+        { "name": "Understanding the problem", "descriptors": ["Problem is unclear or assumed.", "Problem is stated but not broken into parts.", "Problem is broken into parts with specific affected groups.", "Problem analysis reveals a cause or group others had missed."] },
+        { "name": "Use of evidence", "descriptors": ["Opinion only.", "One source of evidence, loosely connected.", "Multiple stakeholder perspectives directly support the proposal.", "Evidence includes conflicting perspectives, and the proposal explains how it weighs them."] },
+        { "name": "Specific, ethical policy", "descriptors": ["Vague values or blanket bans.", "Some specific statements; reasons are thin.", "Specific, followable statements with reasons, balancing learning, fairness, and privacy.", "Statements anticipate edge cases (substitutes, accommodations, first violations) and remain fair."] },
+        { "name": "Five-question check", "descriptors": ["Addresses one or two questions.", "Addresses all five briefly.", "Addresses all five, with concrete plans for who might be left out and for families.", "Includes a way to measure whether the policy worked and a plan to revise it."] },
+        { "name": "Clear communication", "descriptors": ["Hard to follow; one speaker.", "Understandable, but answers to questions are unclear.", "Clear, organized presentation; every member contributes; answers questions with evidence.", "Persuasive and concise; answers hard questions calmly and adjusts the proposal in response."] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "algorithm-autopsy",
+  "title": "Algorithm Autopsy",
+  "tagline": "Students dissect the design features of a fictional social app, trace how each one shapes attention and belief, and redesign the feed for people instead of engagement.",
+  "audience": "student",
+  "grades": ["9-12"],
+  "strands": ["medialit", "genai", "digcit"],
+  "mode": "unplugged",
+  "minutes": 75,
+  "groupSize": "Teams of 3–4 for the autopsy; whole class in two circles for the seminar",
+  "eles": ["AI1.1", "S5.2", "S5.1", "AI1.3", "S2.2"],
+  "overview": "Recommendation systems are a form of AI most students use every day without choosing to. They predict what will keep a person watching and rank content accordingly, and the app around them is designed with features like autoplay, streaks, and infinite scroll that keep people on the app longer. In this autopsy, teams examine the features of a fictional app called Loop, sort each one by what it is optimized to do, and discuss in a Socratic seminar whether a feed can shape what people believe. They finish by designing a healthier feed with specific rules, trade-offs, and a way to measure whether it works.",
+  "objectives": [
+    "Students will explain how a recommendation system uses predictions from past behavior to rank content, and name what it is optimized for.",
+    "Students will analyze specific engagement design features and connect each one to its likely effect on attention, emotion, or belief.",
+    "Students will design a feed with explicit ranking rules and user controls, and justify the trade-offs using evidence from the seminar."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Loop Feature Autopsy sort (1 set per team, cut apart, with sorting mat)",
+      "Handout B: The Loop Memo, seminar text (1 per student)",
+      "Handout C: Healthier Feed Design Spec (1 per team)",
+      "Chart paper, markers, sticky notes"
+    ],
+    "digital": [
+      "No devices required",
+      "Optional: students may privately look at their own app's settings page (feed controls, time limits, \"why am I seeing this\" features) at home"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A for each team; print Handout B for every student.",
+    "Arrange the room for a fishbowl seminar: an inner circle of 6–8 chairs and an outer circle.",
+    "Read the \"why\" lines on the sort key so you can explain each feature's design purpose without citing outside statistics.",
+    "Decide whether students will present their designs to another class, a digital-media class, or your campus technology staff."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Why did it show me that?",
+      "body": "Ask students to recall the last video or post that surprised them in a feed. **\"Why do you think it was chosen for you?\"** Collect guesses on the board (\"I watched something similar,\" \"my friends liked it,\" \"it was popular\"). Say: \"Every one of these guesses describes a prediction. Today we do an autopsy on a feed to see how the predictions work and what they are trying to achieve.\""
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "How a recommender works",
+      "body": "Draw a simple loop on the board: **You act** (watch, pause, like, share, skip) → **the system records it** → **it predicts** what you're likely to engage with next, based on your history and people with similar histories → **it ranks** content by those predictions → **you act again**. Explain that this is a kind of AI: it learns patterns from huge amounts of behavior data. The key question is **what it is optimized for**. A system rewarded for watch time will learn to favor whatever keeps people watching, which isn't necessarily what's true, useful, or good for them.",
+      "note": "Avoid claiming specific platforms work in specific ways. Say \"many feeds\" and \"can,\" and keep the focus on the fictional app Loop."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 14,
+      "title": "The feature autopsy",
+      "body": "Teams sort the Handout A feature strips into three categories: **Keeps you on the app**, **Shapes what you see and believe**, and **Gives you control**. For each strip, teams must say what the feature is optimized for and who benefits. Then each team picks the one feature they think has the biggest effect on what users believe, and writes it on a sticky note for the seminar.",
+      "note": "Some features fit more than one category. Accept a reasoned choice, and ask the team to note the second category too. Autoplay, for example, keeps you on the app *and* decides what you see next."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 20,
+      "title": "Socratic seminar: Can a feed change your mind?",
+      "body": "Students read Handout B, a fictional internal memo from Loop's product team, and annotate it. Run a fishbowl: the inner circle discusses for 8 minutes while the outer circle tracks evidence and listens for strong moves, then swap. Opening question: **\"The memo says Loop only shows people what they want. Is that true?\"** Follow-ups: \"If a feed shows you more of what you react to, and outrage gets reactions, what happens to what you think is normal?\" \"Who is responsible for what you see: you, the company, the creators, or the algorithm?\" \"Would you trust a feed more if you could see why it chose each post?\"",
+      "note": "Listen for students who distinguish *showing people what they want* from *showing people what they react to*. That distinction is the core insight. Avoid presenting \"filter bubbles\" as proven fact for everyone; research on how much feeds shape beliefs is ongoing, and the seminar should explore the question, not settle it."
+    },
+    {
+      "phase": "Create",
+      "minutes": 20,
+      "title": "Design a healthier feed",
+      "body": "Teams complete Handout C: they choose who the feed is for, what it is optimized for instead of pure engagement, three ranking rules, two user controls, one feature they would remove, and **how they would measure whether it works**. They must also name one trade-off: what the company or users would lose. Teams sketch the feed screen in the box.",
+      "note": "Push on measurement. \"Users feel better\" is a goal; \"users report whether they learned something new after a session\" is a measure."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 8,
+      "title": "Pitch and pledge",
+      "body": "Each team gives a 60-second pitch. The class votes with sticky notes on the design they'd actually use. Each student writes one sentence: **\"One thing I'll do differently with my own feed this week is ___.\"**",
+      "note": "Examples: using a \"not interested\" button, turning off autoplay, following a source that disagrees with them, or switching to a chronological view where available."
+    }
+  ],
+  "unplugged": "Designed unplugged. The feature sort, the seminar text, and the design spec all run on paper, and the discussion does the heavy lifting. Students check their own app settings privately at home, if they choose.",
+  "digital": "Run the sort in a shared slide deck with draggable strips and the seminar as a threaded discussion in your LMS, requiring each student to quote the memo and reply to a classmate. Teams can prototype their healthier feed in any slide or design tool. Students 13+ may explore the feed-control and \"why am I seeing this\" settings on apps they already use, on their own devices, without sharing screenshots of personal feeds.",
+  "whyTech": "Better unplugged: the evidence of learning is reasoning about design choices and their effects, which discussion and sorting surface well without adding more screen time to a lesson about screen time. A digital prototype is optional polish.",
+  "adaptations": [
+    { "label": "Grade 9", "text": "Use eight feature strips (1, 2, 3, 5, 7, 9, 11, 13) and run the seminar as a whole-class discussion instead of a fishbowl." },
+    { "label": "Computer science classes", "text": "Have teams write their three ranking rules as pseudocode, including how the feed would score and sort a list of sample posts." },
+    { "label": "Emergent bilinguals", "text": "Provide seminar sentence stems (\"I agree with ___ because ___,\" \"The memo says ___, but ___\") and pre-teach *optimize*, *engagement*, and *recommendation*." },
+    { "label": "Psychology or health classes", "text": "Connect the \"Keeps you on the app\" features to course content on habits and rewards, and add a wellbeing measure to the design spec." }
+  ],
+  "lookFors": [
+    "Teams name what each feature is optimized for and who benefits, not just whether it is good or bad.",
+    "Seminar contributions quote the memo and distinguish what users want from what users react to.",
+    "Design specs include ranking rules, user controls, a named trade-off, and a concrete way to measure success.",
+    "Personal pledges name a specific action, not a general intention."
+  ],
+  "reflection": [
+    "How does a recommendation system work, and what is it trying to do? (AI1.1)",
+    "What limitations or biases can come from a system that learns from what people react to? (AI1.3)",
+    "How did my team use creativity and logic to design something better? (S5.2)"
+  ],
+  "transfer": "For one week, students keep a short \"feed log\" at home noting one post a day and their best guess about why it was chosen for them, then bring the log to class to test their guesses against the model from Step 2. The next media literacy lesson can use their examples.",
+  "connections": [
+    { "title": "News Literacy Project", "url": "https://newslit.org/", "note": "Resources on algorithms, news feeds, and how information spreads online." },
+    { "title": "Learning Activities Hub", "url": "https://mglearn.github.io/activities/", "note": "More media and AI literacy activities, including breakouts on viral claims." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Loop Feature Autopsy",
+      "type": "sort",
+      "instructions": "Loop is a fictional video app. For each feature, decide what it mostly does, and say aloud what it is optimized for and who benefits.",
+      "categories": ["Keeps you on the app", "Shapes what you see and believe", "Gives you control"],
+      "items": [
+        { "text": "1. **Infinite scroll:** the feed never ends; there's no bottom of the page.", "answer": "Keeps you on the app", "why": "Removes natural stopping points, so leaving requires a deliberate decision." },
+        { "text": "2. **Autoplay:** the next video starts automatically after three seconds.", "answer": "Keeps you on the app", "why": "Makes continuing the default; also decides what you see next without your choice." },
+        { "text": "3. **\"For You\" ranking:** the main feed is ranked by predicted watch time, not by who you follow or when it was posted.", "answer": "Shapes what you see and believe", "why": "The system, not you, decides what appears, optimized for keeping your attention." },
+        { "text": "4. **Streaks:** a counter shows how many days in a row you've posted or messaged a friend.", "answer": "Keeps you on the app", "why": "Turns daily use into an obligation and makes missing a day feel like a loss." },
+        { "text": "5. **Trending topics:** a sidebar lists the topics getting the most reactions right now.", "answer": "Shapes what you see and believe", "why": "Signals what's important based on reaction volume, which can reward outrage or surprise." },
+        { "text": "6. **\"Not interested\" button:** tap it and the feed shows less of that kind of content.", "answer": "Gives you control", "why": "Lets users push back on the system's predictions, though users must know it exists." },
+        { "text": "7. **Push notifications:** \"3 friends posted while you were away!\"", "answer": "Keeps you on the app", "why": "Pulls you back in at moments the app chooses." },
+        { "text": "8. **Following-only view:** a setting to see only accounts you follow, in time order.", "answer": "Gives you control", "why": "Replaces predicted ranking with your own choices; often not the default." },
+        { "text": "9. **Engagement boost:** posts with many comments and shares get shown to more people, whether the reactions are positive or angry.", "answer": "Shapes what you see and believe", "why": "Reactions, including anger, become a signal of value, so provocative content spreads further." },
+        { "text": "10. **Like counts:** every post shows its number of likes.", "answer": "Shapes what you see and believe", "why": "Popularity can be mistaken for accuracy or quality." },
+        { "text": "11. **Daily time limit:** users can set a reminder after a chosen number of minutes.", "answer": "Gives you control", "why": "Supports balance, but only if users turn it on and don't dismiss it." },
+        { "text": "12. **\"Why am I seeing this?\" panel:** explains that a post appeared because you watched similar videos.", "answer": "Gives you control", "why": "Adds transparency so users can understand, and question, the prediction." },
+        { "text": "13. **Similar-account suggestions:** after you follow an account, Loop suggests five more like it.", "answer": "Shapes what you see and believe", "why": "Can narrow your feed toward one viewpoint over time." },
+        { "text": "14. **Variable rewards:** new likes and comments are delivered in bursts when you open the app, not as they arrive.", "answer": "Keeps you on the app", "why": "Unpredictable rewards encourage checking again and again." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "The Loop Memo (Seminar Text)",
+      "type": "reading",
+      "instructions": "This memo is fictional. Annotate: underline claims, circle words that sound neutral but aren't, and write one question in the margin for the seminar.",
+      "paragraphs": [
+        "**LOOP INTERNAL MEMO · Product Team · Subject: Q3 Feed Update**",
+        "Team, great news. Our new ranking model, which predicts how long each user will watch each video, has increased average daily time on Loop. Users are clearly finding more of what they love.",
+        "The model learns from every signal: watch time, rewatches, pauses, comments, shares, and how fast someone scrolls past. We've found that videos generating strong emotional reactions, whether excitement, surprise, or anger, keep people watching longest, so the model naturally shows more of them.",
+        "Some team members raised a concern that users who watch one conspiracy-style video are now seeing many more. We want to be clear: Loop doesn't choose what people believe. We simply show people what they want. If someone watches it, they must want it.",
+        "We also tested a \"Following-only\" default. Time on the app went down, so we've kept it as an optional setting, available three menus deep.",
+        "Next quarter, we'll add streaks to direct messages and move the daily time limit reminder to after 90 minutes instead of 30, since users told us it was annoying.",
+        "Our mission remains the same: connect people with the content that matters to them."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Healthier Feed Design Spec",
+      "type": "worksheet",
+      "instructions": "Design a feed for real people. Be specific enough that an engineer could build it.",
+      "sections": [
+        { "prompt": "Who is this feed for, and what is it optimized for instead of pure engagement? (for example: learning something new, connection with friends, accurate news)", "lines": 3 },
+        { "prompt": "Three ranking rules: how the feed decides what comes first.", "lines": 4 },
+        { "prompt": "Two user controls, and whether each is on or off by default (and why):", "lines": 3 },
+        { "prompt": "One Loop feature we would remove, and the evidence from the autopsy or seminar that convinced us:", "lines": 3 },
+        { "prompt": "The trade-off: what would the company or users lose with our design?", "lines": 2 },
+        { "prompt": "How we'd measure whether it works (something you could actually count or ask users):", "lines": 3 },
+        { "prompt": "Sketch the feed screen, showing where the controls live:", "boxes": true, "lines": 6 }
+      ]
+    }
+  ]
+}

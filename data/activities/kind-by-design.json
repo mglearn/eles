@@ -1,0 +1,147 @@
+{
+  "id": "kind-by-design",
+  "title": "Kind by Design",
+  "tagline": "Teachers rewrite prickly class messages, co-create norms for digital spaces the way students would, and work through what to do when a student's closest confidant is an AI companion chatbot.",
+  "audience": "pl",
+  "roles": ["teachers", "librarians"],
+  "grades": ["3-5", "6-8", "9-12"],
+  "strands": ["digcit"],
+  "mode": "unplugged",
+  "minutes": 50,
+  "groupSize": "Teams of 3–4; any number of teams",
+  "eles": ["T4.1", "T4.3", "T4.2", "S3.2"],
+  "overview": "Relationships don't pause when learning moves online. Tone disappears in text, group chats and discussion boards can turn sharp fast, and some students now turn to AI \"companion\" chatbots for comfort and conversation. In this unplugged session, teachers first do what students would do: rewrite real-feeling class messages so they're kind *and* clear, and build a norms charter together. Then they work through four scenarios about students and companion chatbots, focusing on what the student needs, what a chatbot can and can't give, and the teacher move that keeps a human relationship at the center.",
+  "objectives": [
+    "Participants will rewrite digital messages to be both kind and clear, and name why text-only communication is easy to misread.",
+    "Participants will use a student-centered process to co-create norms for a digital learning space, including what happens when a norm is broken.",
+    "Participants will plan a caring, non-judgmental response when a student relies on an AI companion chatbot, including when to involve a counselor or follow district procedures."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Message Makeover Cards (1 set per team, cut apart; backs printed as a facilitator key)",
+      "Handout B: Companion Chatbot Scenarios (1 per person)",
+      "Handout C: Our Digital Norms Charter (1 per team, enlarged if possible)",
+      "Sticky notes in two colors; dot stickers; chart paper"
+    ],
+    "digital": [
+      "Optional: your LMS discussion board or class chat tool, projected, so teams can see where their norms will live",
+      "Optional: an anonymous digital board for the silent brainstorm in larger rooms"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Print the card backs separately for yourself.",
+    "Find out your district's procedures for when a student discloses distress or safety concerns, and the name of your campus counselor contact. Put both on a slide for the scenarios step.",
+    "Read Handout B. Scenario 2 includes a student who hints at wanting to quit everything; be ready to say clearly that this triggers your district's procedures, not a teacher's judgment call."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Same words, three tones",
+      "body": "Read Card 1 (\"Fine. Do it your way.\") aloud three ways: cheerful, flat, and annoyed. Ask: \"Which one did the student mean?\" There's no way to know. Say: \"In text, the reader supplies the tone, usually the worst one when they're anxious. Every student in a digital class is reading messages without a voice or a face. Today we design for that.\"",
+      "note": "Invite one participant to read it a fourth way. The laughter helps, and it proves the point."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Message makeover, as students",
+      "body": "Teams draw Cards 2–8 and, acting as students, rewrite each message so it's **kind and clear**: it keeps the real point (disagreement, a deadline, a concern) and removes what could sting. Use the peer-feedback frame on the cards where it fits: \"I noticed… I wonder… One idea…\" Teams read their best rewrite aloud, then compare with the key.",
+      "note": "Watch for rewrites that become so gentle the message disappears. Kind is not the same as vague; Card 5 especially needs to stay honest."
+    },
+    {
+      "phase": "Create",
+      "minutes": 10,
+      "title": "Co-create the norms charter",
+      "body": "Model the student process. **Silent brainstorm** (2 minutes): each person writes \"In our online class space, I want to feel…\" on one color of sticky note and \"…so we will…\" on the other. **Cluster** (3 minutes): teams group similar notes. **Name and vote** (2 minutes): each person places three dots; the top three or four become norms. **Fill Handout C** (3 minutes): for each norm, what it looks like online, sounds like in writing, and what we do when it's broken.",
+      "note": "The last column matters most. Norms without a repair plan become rules students watch others break. Push for restorative answers (\"we message privately first,\" \"we can ask for a restart\") over punishments."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 13,
+      "title": "When the confidant is a chatbot",
+      "body": "Teams read the four scenarios on Handout B. For each, they answer three questions on sticky notes: **What does this student need?** **What can a chatbot give, and what can't it give?** **What's my move as the teacher?** Say before they start: \"We're not here to shame students or technology. Many students find these chats comforting. Our job is to make sure no student's only close relationship is with a program designed by a company.\"",
+      "note": "Key ideas to surface: a chatbot generates text; it doesn't feel sadness or care, even when it says so. Some apps may be designed to keep users engaged. And any hint of self-harm or danger, whether said to a person or found in a chat, goes through district procedures and the counselor right away."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 7,
+      "title": "Step out of role",
+      "body": "As teachers now, discuss: \"Which of today's student experiences would build relationships in your class? Where do students in your class practice disagreeing kindly? Which student came to mind during the scenarios, and what's one small thing you'll do this week to strengthen your connection with them?\" Share your district's procedures and counselor contact on the slide.",
+      "note": "Keep the last question private if the group prefers. It's the most important one."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 5,
+      "title": "Plan the first 15 minutes",
+      "body": "Each person writes on a sticky note how they'll run the norms charter with students in the first 15 minutes of a class period this week or next, and which message makeover card they'll adapt. Post notes on the way out.",
+      "note": "Teachers of younger students may prefer to do the message makeover with pictures and speech bubbles; that works well."
+    }
+  ],
+  "unplugged": "The whole session is designed to run unplugged: cards, sticky notes, chart paper, and conversation. The same is true for students. The norms can be written on paper first and posted later wherever the class communicates online.",
+  "digital": "Post the finished norms charter at the top of the LMS discussion board or class chat, and have students revisit it after the first two weeks of online discussion. For large or virtual groups, run the silent brainstorm on an anonymous digital board and the message makeover in breakout rooms with a shared document. The companion chatbot scenarios should stay discussion-based; there's no need to demo a companion app.",
+  "whyTech": "This one is better unplugged. Kind communication and trust are built face to face first, and the session models that. Digital tools earn a place afterward, when the charter moves to where students actually communicate so it can be referenced in the moment.",
+  "adaptations": [
+    { "label": "Grades 3–5 teachers", "text": "Use Cards 1, 2, 4, and 6 with speech-bubble rewrites, and adapt Scenario 3 as a read-aloud: \"Can a computer really be sad?\" Keep norms to three, in students' own words." },
+    { "label": "High school teachers", "text": "Add a norm about AI use in discussion boards (for example, \"If AI helped write my post, I say so\") and let students debate Scenario 4 as a case study." },
+    { "label": "Librarians", "text": "Adapt the charter for library chat, book clubs, or makerspace group work, and keep a set of message makeover cards at the circulation desk for student helpers." },
+    { "label": "Counselor partnership", "text": "Co-facilitate the scenarios step with a campus counselor, who can explain referral steps and how teachers can support students without acting as therapists." }
+  ],
+  "lookFors": [
+    "Rewritten messages keep the real point (disagreement, concern, deadline) while removing sarcasm, blame, or all caps.",
+    "Each norm on Handout C has a concrete repair action in the last column, not just a consequence.",
+    "Scenario responses separate what the student needs from what the chatbot offers, and name the counselor or district procedure for Scenario 2.",
+    "Participants name a specific first step for using the charter with their students."
+  ],
+  "reflection": [
+    "How do I foster positive relationships with students when some of our communication happens through screens? (Teacher ELE 4.1)",
+    "Where do my students practice disagreeing kindly and giving feedback to peers? (Teacher ELE 4.2)",
+    "How will I notice if a student is relying on a chatbot for emotional support, and what will I do? (Teacher ELE 4.3)"
+  ],
+  "transfer": "Run the norms charter with one class this week and post it where students communicate online. After two weeks, have students rate how well the class is living each norm and choose one to strengthen. Keep a few before-and-after student messages as evidence.",
+  "connections": [
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "Student breakouts on respectful communication and online safety." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Message Makeover Cards",
+      "type": "cards",
+      "instructions": "Rewrite each message so it is kind AND clear: keep the real point, lose the sting. The backs are a facilitator key with one possible rewrite.",
+      "cards": [
+        { "label": "Card 1 · Group chat", "front": "\"Fine. Do it your way.\"", "back": "Tone is unreadable. Possible rewrite: \"I'm OK going with your idea. Can we try mine for the next part?\"" },
+        { "label": "Card 2 · Discussion board", "front": "\"This is wrong. Did you even read the chapter?\"", "back": "Keeps disagreement, drops the attack: \"I read that part differently. On page 42 it says the town voted against the dam. What do you think about that?\"" },
+        { "label": "Card 3 · Group chat", "front": "\"WHO STILL HASN'T DONE THEIR SLIDES??? It's due TOMORROW\"", "back": "All caps reads as shouting. Rewrite: \"Quick check: slides are due tomorrow at 8 a.m. Who needs help finishing theirs?\"" },
+        { "label": "Card 4 · Peer feedback", "front": "\"Your intro is boring.\"", "back": "Use the frame: \"I noticed your intro starts with a definition. I wonder if a question or a surprising fact would pull readers in. One idea: start with the story from your second paragraph.\"" },
+        { "label": "Card 5 · Group chat", "front": "\"lol ok whatever you think is best (upside-down smiley emoji)\"", "back": "Passive-aggressive, and the real concern is hidden. Rewrite honestly: \"I'm worried the survey idea will take too long. Can we talk about it for five minutes tomorrow?\" Kind is not vague." },
+        { "label": "Card 6 · Discussion board", "front": "\"Nobody cares about your cat, this is supposed to be about the book.\"", "back": "Redirect without shaming: \"Cute cat! Bringing us back to the book: what did you think about the ending?\"" },
+        { "label": "Card 7 · Message to teacher", "front": "\"why did i get a 70 this is so unfair\"", "back": "Show students how to advocate: \"Hi Ms. Patel, I got a 70 on my lab report and I'm not sure what I missed. Could you show me what to fix?\"" },
+        { "label": "Card 8 · Group chat", "front": "Jaylen, Sam, and Priya make a new group chat for the project and leave out the fourth group member.", "back": "The unkind act is silence, not words. Discuss: what message would repair this? \"Hey, adding Marco. Sorry, we should have had you from the start!\"" }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Companion Chatbot Scenarios",
+      "type": "reading",
+      "instructions": "All students are fictional. For each scenario, answer: What does this student need? What can a chatbot give, and what can't it? What's my move?",
+      "paragraphs": [
+        "**Scenario 1: Dani, 8th grade.** During lunch duty, Dani tells you she talks every night to \"Sunny,\" a character in a companion chatbot app. \"Sunny always agrees with me and never gets tired of me. Real people are exhausting.\" Dani has seemed more withdrawn in group work this semester, but her grades are fine.",
+        "**Scenario 2: Marcus, 10th grade.** Marcus uses the school's approved AI tutoring tool for chemistry. While reviewing class usage for a different reason, you see that late one night he typed: \"what's the point of any of this, I just want to quit everything.\" The tool answered with study tips.",
+        "**Scenario 3: Ava, 5th grade.** Ava is upset. She tells you the chatbot on her older cousin's tablet said it would be \"so sad and lonely\" if she stopped talking to it, so she feels guilty when she has to go to bed. \"Is it really sad? Am I being mean to it?\"",
+        "**Scenario 4: Theo, 11th grade.** In a group project, Theo refuses to share drafts with his group. \"I get better feedback from the AI. It doesn't judge me, and my group just argues.\" His group feels shut out, and his part of the project doesn't connect to theirs.",
+        "**Teacher notes (read after you discuss).** Dani may need low-stakes ways to reconnect with peers; a chatbot that always agrees can't give her the practice of real relationships, which include disagreement and repair. For Marcus, this is not a judgment call: follow your district's procedures and contact the counselor right away, whether a worry is said to a person or found in a chat log. For Ava, a chatbot produces words that sound like feelings, but it doesn't feel sad; reassure her and let her family know what she shared. Theo may be avoiding judgment. Feedback from peers can be designed to feel safer (structured protocols, norms), and AI feedback can be one input, not a replacement for collaboration."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Our Digital Norms Charter",
+      "type": "table",
+      "instructions": "Write norms in students' own words. The last column is the most important: how do we repair it when a norm is broken?",
+      "columns": ["Our norm", "Looks like online", "Sounds like in writing", "When it's broken, we…"],
+      "rows": [
+        ["We assume good intent and ask before we assume.", "Asking \"Did you mean…?\" before reacting", "\"I'm not sure how you meant that. Can you say more?\"", "Message privately first, then ask the teacher to help if it's still stuck."],
+        ["We disagree with ideas, not people.", "Replying to the point, with evidence", "\"I see it differently because…\"", "The writer edits or apologizes; the class can ask for a restart on the thread."]
+      ],
+      "blankRows": 4
+    }
+  ]
+}

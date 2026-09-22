@@ -1,0 +1,165 @@
+{
+  "id": "family-ai-night-design",
+  "title": "Designing a Family AI & Digital Citizenship Night",
+  "tagline": "Campus teams design a family event where parents and kids try things together, check what AI tells them, and go home with conversations to have, not just rules to follow.",
+  "audience": "pl",
+  "roles": ["leaders", "staff", "librarians"],
+  "grades": ["K-12"],
+  "strands": ["digcit", "genai", "medialit"],
+  "mode": "hybrid",
+  "minutes": 90,
+  "groupSize": "Campus teams of 3–6 (a leader plus librarian, counselor, teachers, family liaison)",
+  "eles": ["L5.1", "L5.3", "L4.1", "AI1.2"],
+  "overview": "Families are hearing about AI, deepfakes, and screen time from every direction, often in alarming headlines. A family night can replace fear with practice, if it's designed for participation rather than a slideshow in the cafeteria. In this session, campus teams first experience two sample stations as families would, then choose and adapt stations from a menu, plan for the families least likely to attend, line up community partners, and customize a printable take-home that works even for families who never come. The measure of success is what families do at home the following week.",
+  "objectives": [
+    "Participants will experience and critique two hands-on family stations on generative AI and media literacy.",
+    "Participants will design a family event plan that includes stations, partners, language access, and barriers to attendance.",
+    "Participants will explain a generative AI concept in plain language suitable for families with no technical background.",
+    "Participants will adapt a take-home resource and name how they'll gather evidence of what families did afterward."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Station Menu Cards (1 set per team, cut apart)",
+      "Handout B: Family Night Planning Canvas (1 per team, enlarged if possible)",
+      "Handout C: Take-Home: Five Conversations About AI and Life Online (1 per person; this is the sample families would receive)",
+      "Materials for two sample stations: 10 printed photos (some real, some AI-generated, labeled on the back) and a printed chatbot answer for station 3"
+    ],
+    "digital": [
+      "Facilitator device and projector for the chatbot demonstration station, using a generative AI chatbot your district approves",
+      "Optional: a translation tool your district approves for drafting the take-home in home languages, with review by a fluent human speaker"
+    ]
+  },
+  "prep": [
+    "Set up two sample stations from Handout A before participants arrive: Station 1 (Real or Generated?) and Station 3 (Ask It, Then Check It).",
+    "For Station 3, ask your approved chatbot a local question it's likely to get partly wrong, such as the history of your town or your school's mascot, and print the answer. Prepare the correct facts.",
+    "Find out which community partners already serve your families: the public library, community centers, faith-based organizations, adult education programs, and local nonprofits.",
+    "Bring your campus's family demographics, home languages, and past event attendance if available."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 8,
+      "title": "What families are asking",
+      "body": "Ask each person to write on a sticky note **one question a family has actually asked them** about AI, phones, social media, or screen time. Post them on the wall and cluster them quickly. Say: \"This is our real agenda. The event we design should help families answer these questions themselves.\"",
+      "note": "Typical clusters: Is my child cheating with AI? Is this app safe? How much screen time is okay? How do I know what's real? Keep the wall up for the Create step."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 15,
+      "title": "Be the family",
+      "body": "Participants rotate through the two sample stations as families would. At **Station 1**, they sort ten printed photos into \"real\" or \"AI-generated\" and then check the answers on the back. At **Station 3**, they read the chatbot's answer to a local question, circle anything they'd want to check, and compare it to the facts you provide. Ask everyone to notice: **\"What did you learn by doing that you wouldn't have learned from a presentation?\"**",
+      "note": "Most people miss several photos at Station 1. That's the lesson for families too: looking harder isn't enough; checking the source and context is the reliable move."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "Explain it to a family",
+      "body": "Model a 60-second, jargon-free explanation of how a chatbot works: **\"It has read an enormous amount of text and learned which words tend to follow which. When you ask a question, it predicts a likely-sounding answer, word by word. That's why it can sound confident and still be wrong, and why we check.\"** Then pairs practice explaining it to each other as though to a grandparent, and the listener says what was still confusing.",
+      "note": "Avoid words like \"algorithm,\" \"model,\" or \"training data\" unless you explain them. Families appreciate being treated as capable learners, not as people to be warned."
+    },
+    {
+      "phase": "Create",
+      "minutes": 30,
+      "title": "Design your night",
+      "body": "Using Handout A's station menu and the family questions on the wall, each campus team fills in Handout B. They choose **three or four stations**, adapt them to their families and grade levels, name the community partners who could host or support a station, and plan for **the families least likely to attend**: time, place, childcare, food, transportation, languages, and a way to participate without coming at all.",
+      "note": "Push teams to hold the event where families already are, or partner with a community organization. And every station should have something for kids and adults to do together. Families learn more side by side than in separate rooms."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 15,
+      "title": "Customize the take-home",
+      "body": "Teams read Handout C, the sample take-home, and mark it up for their community: which conversation matters most, what local resources to add (library, community programs, the school's contact), and which languages it needs. Discuss: **\"If a family only ever sees this page, what should they do differently next week?\"**",
+      "note": "If you use AI or a translation tool to draft other language versions, have a fluent speaker from the community review them before printing. That's the same verify-first habit the event teaches."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 10,
+      "title": "Share and measure",
+      "body": "Each team shares its plan in 90 seconds: one station, one partner, and **one way they'll know what families did afterward**, such as a returned tear-off slip, a follow-up text poll, a question students bring back from home, or a family-created tech agreement. Close by asking which families' questions from the wall their plan answers.",
+      "note": "Attendance counts are easy to collect and tell you little. Evidence of a conversation at home is harder to collect and tells you far more."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 5,
+      "title": "First phone call",
+      "body": "Each team names the first community partner they'll contact and who will make the call this week. Write it at the bottom of Handout B.",
+      "note": "Public libraries often already run digital literacy programs for adults and may co-host. Ask what they offer before designing everything from scratch."
+    }
+  ],
+  "unplugged": "The session and most stations run on paper: printed photos for the real-or-generated sort, a printed chatbot answer to fact-check, card-based privacy and agreement activities, and a printed take-home. The event itself can run without any devices, which is important for families wary of screens or without their own devices.",
+  "digital": "The facilitator runs the chatbot live at Station 3, projected, so families see the tool answering and then check it together; no one needs an account. Teams can build the planning canvas in a shared document and draft take-home translations with an approved tool, reviewed by a fluent speaker. For families who can't attend, record a short video of each station or post the take-home on the school's family channels.",
+  "whyTech": "Seeing a chatbot answer a local question live, then checking it together, is more convincing than any printed example because families see how fluent and fast the mistakes are. Beyond that demonstration, this event works best as hands-on, device-optional practice.",
+  "adaptations": [
+    { "label": "Elementary campuses", "text": "Center stations on shared family routines: where devices sleep at night, asking a grown-up before sharing a photo, and a picture-sort of real and made-up images. Keep any AI demonstration adult-led." },
+    { "label": "Secondary campuses", "text": "Have students run stations and teach their families, including a station where teens explain how their feeds decide what they see." },
+    { "label": "Multilingual communities", "text": "Organize stations by language with bilingual staff or community volunteers, rather than translating one large presentation." }
+  ],
+  "lookFors": [
+    "Planning canvases name specific strategies for families least likely to attend, beyond \"send a flyer.\"",
+    "Each chosen station includes something families do together, not just information to receive.",
+    "Participants' 60-second chatbot explanations avoid jargon and include why verification matters.",
+    "Each team names at least one community partner and one way to gather evidence of what families did afterward."
+  ],
+  "reflection": [
+    "How effectively am I leveraging technology and partnerships to engage with our school community? (Leader ELE 5.0)",
+    "Which families have never attended a school technology event, and what would make it possible for them?",
+    "How can I explain AI to families in a way that builds confidence instead of fear? (AI ELE 1.2)",
+    "What online and community resources could support families long after the event?"
+  ],
+  "transfer": "Contact your first community partner this week and set a date. Send Handout C, customized for your campus and translated, home with every student before the event, so families who can't attend still get the conversations.",
+  "connections": [
+    { "title": "Family App Privacy Audit", "url": "https://mglearn.github.io/tcea/privacy-audit/", "note": "Ready-made for a \"What does this app know about you?\" station." },
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "Student activities families could try together at a station." },
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "Station ideas for younger students and their families." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Station Menu Cards",
+      "type": "cards",
+      "instructions": "Choose three or four stations for your night. Backs list materials and tips for making each station accessible.",
+      "cards": [
+        { "label": "Station 1 · Media literacy", "front": "**Real or Generated?** Families sort 10 printed photos into \"real\" and \"AI-generated,\" then flip them to check. Discussion: \"What would you do before sharing a surprising photo?\" Takeaway: check who posted it and whether trusted sources show the same thing.", "back": "Materials: 10 printed photos, answers on the back. Tip: include real photos that look strange and generated ones that look ordinary. Works with no reading, so it's great for multilingual and young families." },
+        { "label": "Station 2 · Privacy", "front": "**What Does This App Know?** Families look at a printed permissions screen for a fictional game app (location, contacts, microphone, camera) and decide which permissions it really needs. Then they check one app on their own phone, if they choose.", "back": "Materials: printed permissions screen, a volunteer who can help with phone settings. Tip: never ask families to hand over their phones. Offer help only if they want it." },
+        { "label": "Station 3 · Generative AI", "front": "**Ask It, Then Check It.** A staff member asks a chatbot a question about your town or school, projected on screen. Families circle anything that might be wrong on a printout, then compare with the real facts. Takeaway: chatbots predict likely words; they can sound sure and still be wrong.", "back": "Materials: projector, approved chatbot, printed answer, correct facts. Tip: staff drives the tool; families don't need accounts. Choose a question the tool is likely to get partly wrong." },
+        { "label": "Station 4 · Homework and AI", "front": "**Helper or Ghostwriter?** Families sort cards describing ways a student might use AI on homework (brainstorming, checking spelling, writing the whole essay, explaining a math step) into \"helps learning,\" \"depends on the teacher,\" and \"replaces learning.\"", "back": "Materials: 12 use-case cards, a sorting mat, and your campus's AI guidance in plain language. Tip: invite a teacher to explain how assignments tell students what's allowed." },
+        { "label": "Station 5 · Balance", "front": "**Our Family Tech Agreement.** Families draft a short agreement together: where devices sleep at night, device-free times, and what to do if something online feels wrong. Parents agree to rules too.", "back": "Materials: agreement template, markers. Tip: frame it as a family choice, not a school rule. Families take the agreement home." },
+        { "label": "Station 6 · Safety", "front": "**Is This Message Real?** Families look at printed text messages and emails (a fake package delivery, a fake school alert, a real reminder from the school) and decide which to trust. Takeaway: check the official channel before clicking.", "back": "Materials: printed messages with fictional senders. Tip: include a real example of how your school actually communicates, so families learn what genuine messages look like." },
+        { "label": "Station 7 · Feeds", "front": "**Why Did I See That?** Students show their family how a video feed chooses what to show next, using a card game where each \"like\" changes the next card. Families discuss what feeds reward.", "back": "Materials: a deck of video-topic cards. Tip: best run by secondary students teaching adults." },
+        { "label": "Station 8 · Community resources", "front": "**Help Beyond Tonight.** A table staffed by community partners: the public library's free device and internet programs, adult computer classes, low-cost internet information, and the school's family liaison.", "back": "Materials: partner handouts in home languages. Tip: invite partners to bring sign-up forms so families leave with a next step, not just a brochure." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Family Night Planning Canvas",
+      "type": "worksheet",
+      "instructions": "Plan for the families least likely to come, not only those who always do.",
+      "sections": [
+        { "prompt": "Our goal: what should families do differently the week after this event?", "lines": 2 },
+        { "prompt": "Family questions from the wall that our event will answer:", "lines": 3 },
+        { "prompt": "Our stations (3–4), what families and kids do together at each, and who runs it:", "lines": 5 },
+        { "prompt": "Who might be left out, and how we'll reach them (time, place, childcare, food, transportation, languages, accessibility, participation without attending):", "lines": 5 },
+        { "prompt": "Community partners and online resources we'll connect families to:", "lines": 3 },
+        { "prompt": "How families will hear about it (channels, languages, who invites them personally):", "lines": 3 },
+        { "prompt": "How we'll know what families did afterward (evidence beyond attendance):", "lines": 3 },
+        { "prompt": "First partner we'll contact, who will call, and by when:", "lines": 1 }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Take-Home: Five Conversations About AI and Life Online",
+      "type": "reading",
+      "instructions": "A sample for families. Add your school's contact information, local resources, and translations before sending it home.",
+      "paragraphs": [
+        "You don't need to be a technology expert to help your child make good choices online. The most powerful thing you can do is talk. Here are five conversations to try this week, at dinner, in the car, or before bed. Each one starts with a question you can ask, and none of them has a single right answer.",
+        "**1. \"How do you think a chatbot comes up with its answers?\"** AI chatbots have read huge amounts of text and learned which words usually come next. When you ask a question, they predict a likely-sounding answer. That's why they can sound very sure and still be wrong. Try asking one together about something you know well, like your family's hometown, and see what it gets right and wrong.",
+        "**2. \"When is it okay to use AI for homework?\"** Every teacher may have different rules for each assignment. Ask your child what their teachers say. A good rule of thumb: using AI to understand something or get ideas can help learning; using it to do the thinking for you usually doesn't. If your child used AI, they should be able to explain what they asked and what they changed.",
+        "**3. \"How can we tell if a photo or video is real?\"** Pictures, videos, and even voices can now be created or changed by AI, and they can look and sound very real. Before believing or sharing something surprising, stop and check: Who posted it first? Are trusted news sources or official accounts saying the same thing? If you can't tell, don't share it.",
+        "**4. \"What does this app know about you?\"** Many apps collect information like location, contacts, photos, and what you type. Look at the settings of one app your child uses, together. Ask: Does it need this? Who can see what I post? Remind your child never to share passwords, home address, or private photos, and never to type personal information about others into a chatbot.",
+        "**5. \"What should we do if something online feels wrong?\"** Agree on a plan before anything happens: your child can come to you, or another trusted adult, without fear of losing their device. Save what happened (a screenshot) instead of deleting it, don't respond to someone who is being cruel, and tell an adult. You can also contact your child's school counselor.",
+        "**Try this as a family:** Choose one device-free time each day, such as meals or the hour before bed, and one place where devices sleep at night. Grown-ups follow the rule too.",
+        "**Where to learn more:** Your public library offers free help with computers and the internet, and many libraries have devices and hotspots to borrow. Questions about how your child's school uses technology or AI? Contact your child's teacher or the front office. Official school news always comes through the school's own website, messaging app, and phone calls."
+      ]
+    }
+  ]
+}

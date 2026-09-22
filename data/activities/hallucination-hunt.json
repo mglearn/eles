@@ -1,0 +1,158 @@
+{
+  "id": "hallucination-hunt",
+  "title": "Hallucination Hunt",
+  "tagline": "Students trace every claim and citation in a polished AI research brief and discover which ones lead somewhere and which ones lead nowhere.",
+  "audience": "student",
+  "grades": ["9-12", "Higher Ed"],
+  "strands": ["genai", "medialit"],
+  "mode": "hybrid",
+  "minutes": 60,
+  "groupSize": "Teams of 3; any number of teams",
+  "eles": ["AI4.1", "AI4.2", "S2.2", "AI1.3"],
+  "overview": "Generative AI tools can produce research summaries that look finished: confident prose, tidy numbers, a reference list in perfect format. Some of those references are real, some are real but misrepresented, and some do not exist at all, because the model predicts what a citation *should look like* rather than retrieving one. In this hunt, students audit a mock AI brief about a fictional town's heat problem against a \"library shelf\" of source cards, sort each claim by what the evidence shows, and then repair the brief. Every source in the packet is fictional, so the only way to win is to trace, not to recognize.",
+  "objectives": [
+    "Students will explain why a generative AI tool can produce citations that look real but cannot be found (prediction from patterns, not retrieval).",
+    "Students will trace each claim in an AI-generated brief to its cited source and classify it as supported, distorted, unsupported, or fabricated.",
+    "Students will revise the brief so every remaining claim is backed by a source they checked, and document what they changed and why."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The AI Research Brief (1 per student, for annotating)",
+      "Handout B: The Library Shelf source cards (1 set per team, cut apart and kept at a \"reference desk\" at the front of the room)",
+      "Handout C: Claim Trace Log (1 per team)",
+      "Highlighters in three colors; sticky notes"
+    ],
+    "digital": [
+      "One device per team with access to your school or college library databases and a search engine (Round 2 only)",
+      "A generative AI chatbot your district or institution approves, for students 13+; otherwise the teacher projects it"
+    ]
+  },
+  "prep": [
+    "Print Handout B on card stock and cut it apart. Keep the full set at a reference desk; teams must come to the desk and ask for a specific source by its citation, the way they would at a library.",
+    "Read the card backs (facilitator key) so you know which of the brief's seven claims are supported, distorted, unsupported, or fabricated.",
+    "For the digital round, ask a generative AI tool your institution approves to write a short research summary with five citations on a topic your class is studying. Save the output so every team audits the same text.",
+    "Optional: invite your school or college librarian to co-teach the Round 2 database search."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Would you turn this in?",
+      "body": "Hand out Handout A and give students 90 seconds to skim it. Ask: **\"If a classmate turned this in, what grade would it get just on looks?\"** Take a quick show of fingers (1–5). Then ask: \"How many of these seven references did you check?\" Say: \"Today you're a research auditor. The brief was written by an AI chatbot. Your job is to find out which parts are true, which parts are twisted, and which parts were never true at all.\"",
+      "note": "Expect high scores. The format, the numbers, and the reference list all signal \"done.\" That reaction is the thing you are teaching students to notice."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Why AI invents citations",
+      "body": "Explain in plain terms: **a chatbot builds text by predicting likely next words from patterns in its training data.** It has seen thousands of reference lists, so it can produce one that *looks* correct: author, year, title, journal. Unless the tool is connected to a search or database and shows you the retrieved source, nothing guarantees the reference exists. Then model the trace on Claim 1: underline the claim, find its citation, walk to the reference desk, and ask for that source by author and year. Read the card aloud and think out loud: \"Does the source exist? Does it say what the brief says it says? Is the number the same?\"",
+      "note": "Name the four verdicts now and write them on the board: **Supported**, **Distorted** (source exists but says something different), **Unsupported** (no citation, or source doesn't address it), **Fabricated** (the source cannot be found)."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 15,
+      "title": "Round 1: the reference desk hunt",
+      "body": "Teams trace Claims 2–7. Roles rotate each claim: the **Tracer** requests the source card at the desk, the **Reader** reads the card aloud, the **Recorder** logs the verdict and the evidence on Handout C. Teams may request only one card at a time and must name the citation exactly as the brief gives it. If they ask for a source that isn't on the shelf, hand them the \"No record found\" card and have them log what they searched for.",
+      "note": "Listen for teams that mark a claim \"supported\" because the source exists. Push: \"The source is real, but does it say *that*?\" Claims 3 and 5 are built to catch that shortcut."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 7,
+      "title": "Score the brief",
+      "body": "Tally verdicts on the board. Ask: \"How many claims survived? Which kind of error was hardest to catch, and why?\" Most teams find fabricated citations easier to catch than distorted ones, because a missing source is obvious while a twisted one requires reading. Ask: \"What single habit would have caught every problem?\" Steer toward: **open the source and compare the exact wording and numbers.**"
+    },
+    {
+      "phase": "Apply",
+      "minutes": 15,
+      "title": "Round 2: hunt a live output",
+      "body": "Project the AI summary you generated during prep, on a topic your class is studying. Teams choose three of its citations and search for them in your library databases and a search engine. For each, they log: Did it exist? Did it say what the AI claimed? What better source did we find? Teams under a device limit share one device and rotate the Tracer role. **Unplugged option:** skip the live output and have teams repair Handout A instead: rewrite the brief's summary paragraph using only supported claims, with the citations corrected.",
+      "note": "Results vary by tool and topic, and some tools now retrieve real sources. That is fine. The finding \"this one checked out\" is as valuable as \"this one didn't,\" because the student verified it rather than assumed it."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 10,
+      "title": "The auditor's note",
+      "body": "Each student writes a short auditor's note at the bottom of Handout C: **\"The claim I would have believed without checking was ___, and here's what the source actually showed: ___.\"** Then: \"When is it reasonable to use an AI tool for research, and what must you do before anything it says goes into your work?\" Collect Handout C as the exit ticket.",
+      "note": "Look for students who separate *using* AI to find leads from *trusting* AI as a source. That distinction is the goal."
+    }
+  ],
+  "unplugged": "Run Round 1 exactly as written: the source cards at the reference desk are the unplugged version of opening a database. For Round 2, teams repair the brief on paper, keeping only supported claims, correcting distorted ones, and striking fabricated citations, then write one sentence per change explaining it. The trace-and-compare habit is fully preserved without a screen.",
+  "digital": "Post Handout A as a document students annotate with comments, one comment per claim with the verdict and the evidence. In Round 2, teams search library databases and the open web for the live AI output's citations and paste the direct link or database record into their log. For students 13+ at institutions that allow it, teams may ask an approved chatbot to \"provide the source for claim X\" and then check whether that answer holds up, which usually makes the lesson land harder. Students under 13 do not use this path; the teacher projects any AI tool.",
+  "whyTech": "The live round shows students what the paper round can only describe: a real tool, on their own topic, producing references they must actually find in a real database. The evidence of learning is the log of what they searched, what they found, and what they changed, which is something a finished essay never shows.",
+  "adaptations": [
+    { "label": "Higher Ed", "text": "Use a live AI output on a topic from your discipline and require teams to locate each source through the campus library, including checking whether a cited article is peer reviewed, a preprint, or a press release about either." },
+    { "label": "Grade 9 or emerging readers", "text": "Trace Claims 1–4 only and provide the verdict words on a strip so teams choose from them. Read the source cards aloud at the desk." },
+    { "label": "Emergent bilinguals", "text": "Pair the brief with a glossary of *claim, citation, source, fabricated,* and *distorted*, and let teams discuss verdicts in any language before logging in English." },
+    { "label": "Short on time (40 min)", "text": "Skip Round 2 and extend the debrief into the repaired-paragraph task." }
+  ],
+  "lookFors": [
+    "Handout C logs a specific piece of evidence for each verdict (a quoted phrase or number from the source card), not just a label.",
+    "Students distinguish a real-but-distorted source from a fabricated one and explain the difference.",
+    "In Round 2, teams record at least one citation they verified and one they could not, with what they searched for.",
+    "Auditor's notes name a claim the student would have believed and describe what changed after checking."
+  ],
+  "reflection": [
+    "How do I question and verify AI-generated information before I use it? (AI4.1, AI4.2)",
+    "How can I tell a trustworthy source from one that only looks trustworthy? (S2.2)",
+    "What limitation of AI tools did I see today, and how will it change the way I research? (AI1.3)"
+  ],
+  "transfer": "For the next research assignment, students attach a short trace log to any work where they used an AI tool: each AI-suggested source, whether they found it, and what they used instead. At home, students can run the three-question check (Does it exist? Does it say that? Is the number the same?) on one claim they see in their feeds this week.",
+  "connections": [
+    { "title": "Digital Inquiry Group: Civic Online Reasoning", "url": "https://cor.inquirygroup.org/", "note": "Free lateral reading lessons that extend the trace move to websites and social posts." },
+    { "title": "News Literacy Project", "url": "https://newslit.org/", "note": "Resources for evaluating evidence and sources in news coverage." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The AI Research Brief",
+      "type": "reading",
+      "instructions": "This brief was produced by an AI chatbot in response to the prompt \"Write a research brief with citations on whether green roofs could reduce summer heat in Harlow Valley.\" Harlow Valley and every source are fictional. Number and underline each claim.",
+      "paragraphs": [
+        "**Green Roofs and the Harlow Valley Heat Problem: A Research Brief**",
+        "**Claim 1.** Harlow Valley's downtown is measurably hotter than its surrounding farmland on summer afternoons, a pattern known as the urban heat island effect (Okafor & Lindqvist, 2021).",
+        "**Claim 2.** Green roofs, which are rooftops planted with vegetation over a waterproof layer, cool the air around a building by shading the roof surface and releasing moisture through their plants (Harlow Valley Department of Public Works, 2022).",
+        "**Claim 3.** A pilot green roof on the Harlow Valley Public Library reduced indoor cooling costs by 40 percent in its first year (Brennan, 2023).",
+        "**Claim 4.** Researchers at Northgate State University found that neighborhoods with green roofs on at least one-fifth of buildings reported fewer heat-related emergency calls (Vasquez-Hale et al., 2020, *Journal of Urban Climate Solutions*, 14(3), 211–229).",
+        "**Claim 5.** Green roofs require almost no maintenance once installed, making them a low-cost option for cities (Okafor & Lindqvist, 2021).",
+        "**Claim 6.** Most residents of Harlow Valley support spending city funds on green roofs.",
+        "**Claim 7.** The state environmental agency recommends green roofs as \"the single most effective heat-reduction strategy available to mid-sized cities\" (State Environmental Quality Board, 2019, *Cool Cities Guidance Report*).",
+        "**Summary.** The evidence strongly supports a citywide green roof program. With proven cost savings, broad public support, and state endorsement, Harlow Valley should adopt a green roof requirement for all new commercial buildings."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "The Library Shelf (Source Cards)",
+      "type": "cards",
+      "instructions": "Keep these at the reference desk. Teams request one source at a time by author and year. Print the backs as a separate facilitator key.",
+      "cards": [
+        { "label": "Okafor & Lindqvist, 2021", "front": "*Heat Across the Valley: Temperature Mapping in Harlow Valley*, a report by two environmental science faculty at a regional college. Findings: on summer afternoons, downtown surface and air temperatures were consistently higher than nearby farmland. Section 6, \"Limitations and Costs,\" notes that green roofs \"require regular inspection, irrigation during drought, and plant replacement, and maintenance costs should be budgeted for the life of the roof.\"", "back": "Claim 1: **Supported**. Claim 5: **Distorted**. The same real source says the opposite of \"almost no maintenance.\" Teams that stop at \"the source exists\" will miss this." },
+        { "label": "Harlow Valley Dept. of Public Works, 2022", "front": "*Understanding Green Roofs: A Resident's Guide*, a city fact sheet. Explains that a green roof is a layer of plants and growing material over a waterproof membrane, and that it can lower roof surface temperature through shade and cool nearby air as plants release water vapor.", "back": "Claim 2: **Supported**. The brief's wording matches the fact sheet closely." },
+        { "label": "Brennan, 2023", "front": "*Library Roof Garden: Year One Update*, a two-page newsletter from the Harlow Valley Public Library's facilities manager. States that the new roof garden \"is thriving\" and that staff \"noticed the top-floor reading room felt cooler on several hot days.\" It gives no cost figures and says energy data \"will be reviewed after a full year of monitoring.\"", "back": "Claim 3: **Distorted, with an invented number**. The source is real but reports an impression, not a measurement. The 40 percent figure appears nowhere. The model produced a plausible statistic." },
+        { "label": "Vasquez-Hale et al., 2020", "front": "NO RECORD FOUND. A search of the library catalog, the article databases, and the open web finds no *Journal of Urban Climate Solutions*, no article with this title, and no volume 14, issue 3. Northgate State University's faculty directory lists no researcher named Vasquez-Hale.", "back": "Claim 4: **Fabricated**. Every part of the citation is formatted correctly, which is exactly why it is convincing. A perfect format is not evidence the source exists." },
+        { "label": "No citation (Claim 6)", "front": "The brief offers no source for resident support. The Harlow Valley city website lists one public comment session on green roofs, with eleven speakers: six in favor, three opposed, two undecided. No survey of residents appears in any city or news record.", "back": "Claim 6: **Unsupported**. Eleven speakers at one meeting cannot tell you what \"most residents\" think. Teams should flag the missing citation first, then note that the available evidence doesn't answer the question." },
+        { "label": "State Environmental Quality Board, 2019", "front": "*Cool Cities Guidance Report*, a state agency report. Chapter 4 lists several heat-reduction strategies, including street trees, reflective \"cool roofs,\" green roofs, shade structures, and cooling centers. It says: \"No single strategy fits every city; local conditions, budgets, and building types should guide the choice.\" The quoted phrase in the brief does not appear.", "back": "Claim 7: **Distorted, with a fabricated quotation**. The report exists and mentions green roofs, but the quotation was invented and the report's actual message is the opposite of \"single most effective.\"" },
+        { "label": "No record found (general)", "front": "Hand this card to any team that requests a source not on the shelf. \"The librarian searched the catalog, the article databases, and the open web for the source you described and found no matching record. Log exactly what you searched for.\"", "back": "Use this whenever a team asks for a source with the wrong author, year, or title. Logging the search is part of the evidence." },
+        { "label": "Facilitator answer key", "front": "Claim 1: Supported · Claim 2: Supported · Claim 3: Distorted (invented statistic) · Claim 4: Fabricated (source does not exist) · Claim 5: Distorted (source says the opposite) · Claim 6: Unsupported (no citation) · Claim 7: Distorted (fabricated quotation). The Summary paragraph relies on Claims 3, 6, and 7, so its conclusion does not hold.", "back": "Keep this card at the desk. Two of seven claims survive intact. That ratio is specific to this mock brief; real outputs vary widely, which is why every claim gets checked." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Claim Trace Log",
+      "type": "table",
+      "instructions": "Verdicts: Supported · Distorted · Unsupported · Fabricated. Quote or name the evidence that decided it. Write your auditor's note on the back.",
+      "columns": ["Claim", "Source requested (exactly as cited)", "What the source actually says", "Verdict", "Fix: keep, correct, or cut?"],
+      "rows": [
+        ["1", "", "", "", ""],
+        ["2", "", "", "", ""],
+        ["3", "", "", "", ""],
+        ["4", "", "", "", ""],
+        ["5", "", "", "", ""],
+        ["6", "", "", "", ""],
+        ["7", "", "", "", ""],
+        ["Round 2, citation 1", "", "", "", ""],
+        ["Round 2, citation 2", "", "", "", ""],
+        ["Round 2, citation 3", "", "", "", ""]
+      ]
+    }
+  ]
+}

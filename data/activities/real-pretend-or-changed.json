@@ -1,0 +1,148 @@
+{
+  "id": "real-pretend-or-changed",
+  "title": "Real, Pretend, or Changed?",
+  "tagline": "Young detectives move, wiggle, or freeze to decide whether a picture or story is real, pretend on purpose, or changed to look real, and learn to ask a grown-up when they can't tell.",
+  "audience": "student",
+  "grades": ["K-2"],
+  "strands": ["medialit", "genai"],
+  "mode": "unplugged",
+  "minutes": 30,
+  "groupSize": "Whole class with movement, then pairs; any class size",
+  "eles": ["S2.2", "AI4.1", "S3.2", "AI1.3"],
+  "overview": "Pretend is wonderful. Stories, cartoons, and drawings are made up on purpose, and everyone knows it. The tricky kind is a picture that has been **changed**, or made by a computer, so it *looks* real. In this game, you describe pictures and stories aloud, and children stand tall for **Real**, wiggle for **Pretend**, or freeze like a statue for **Changed**. They practice three detective questions and learn the most important move of all: when you can't tell by looking, ask a grown-up and check.",
+  "objectives": [
+    "Students will sort described pictures and stories into real, pretend on purpose, and changed or computer-made, and give a clue for one choice.",
+    "Students will use detective questions (Could this really happen? Who made it? Does something look strange?) to explain their thinking to a partner.",
+    "Students will explain that computers can now make pictures that look like real photos, so looking alone is not always enough.",
+    "Students will name a grown-up they can ask to help check."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Real, Pretend, or Changed? sort strips (1 teacher set, cut apart)",
+      "Handout B: Clue Detective Checklist (1 per pair, or 1 enlarged for the board)",
+      "Handout C: My Detective Page (1 per student)",
+      "Three signs on the board or wall: REAL (stand tall), PRETEND (wiggle), CHANGED (freeze); crayons"
+    ],
+    "digital": [
+      "Optional: an AI image generator your district approves, run by the teacher on a projector",
+      "Optional: a real photo you took of your classroom or playground, shown on the projector"
+    ]
+  },
+  "prep": [
+    "Cut apart the 12 strips from Handout A. Put them in the order listed; the first four are the easiest.",
+    "Post the three signs with a stick-figure pose drawn next to each.",
+    "Print or enlarge Handout B so the three detective questions are visible to everyone.",
+    "If you'll do the projected demo, try your district-approved image generator ahead of time with the prompt in the Digital section, and take one real photo of your classroom."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "\"I saw a dog as tall as a house!\"",
+      "body": "Say with great excitement: **\"On my way to school I saw a dog as tall as a house!\"** Pause. Ask: \"Do you believe me? Thumbs up or thumbs down.\" Then: \"What if I showed you a picture of it? Would you believe it then?\" Let children talk. Say: \"Today you're detectives. Some things are real, some are pretend, and some are changed to trick our eyes.\"",
+      "note": "Many children will say a picture would prove it. Hold on to that; the lesson will show that pictures can be changed."
+    },
+    {
+      "phase": "Model",
+      "minutes": 5,
+      "title": "Three kinds, three poses, three questions",
+      "body": "Teach the poses: **REAL** means it really happened or really exists (stand tall). **PRETEND** means made up on purpose, like a story or a cartoon, and that's OK (wiggle). **CHANGED** means someone changed a real picture, or a computer made it, so it *looks* real but isn't (freeze like a statue). Then read the three detective questions on Handout B aloud: \"Could this really happen? Who made it? Does something look strange?\" Model one strip, thinking aloud with all three questions.",
+      "note": "The key difference between pretend and changed: pretend doesn't try to fool you. Changed does, or at least it looks real when it isn't."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 10,
+      "title": "Detective moves",
+      "body": "Read each strip aloud, slowly. Children show the pose. Pick one child: **\"What clue helped you?\"** Then tape the strip under the matching sign. Every third strip, have partners turn and tell each other their clue using the frame: \"I think it's ___ because ___.\" For strips like the lion in the kitchen, ask: \"If you really weren't sure, who could you ask?\"",
+      "note": "Expect disagreement on some strips. That's healthy. Ask both sides for their clue and remind them that detectives explain their thinking."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 5,
+      "title": "How does a picture get changed?",
+      "body": "Hold up a child's drawing (with permission) or a simple drawing you made of a house. Say: \"This is a real drawing of my house.\" Tape a paper cut-out of a giant cat on the roof. \"Now it's changed. If I took a photo of it, would it look real?\" Then explain simply: **\"Some computers use AI to make pictures. You type words, and the computer makes a picture that can look just like a real photo. So sometimes our eyes can't tell. That's why we ask a grown-up and check.\"**",
+      "note": "Avoid telling children they can always spot fakes by looking for extra fingers or blurry spots. Those clues sometimes help, but computer-made pictures keep getting better. Checking with a trusted grown-up and a trusted source is the lasting habit."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 6,
+      "title": "My Detective Page",
+      "body": "Children complete Handout C: draw something real, something pretend, and something that could be changed, then name a grown-up to ask. Pairs share one drawing with each other using the frame \"This is ___ because ___.\" Invite two pairs to share with the class.",
+      "note": "Listen for reasons, not just labels. \"It's changed because fish can't skateboard and it looks like a photo\" is strong evidence."
+    }
+  ],
+  "unplugged": "The entire lesson works with the printed strips, your voice, and the paper cut-out demonstration. The paper \"change a picture\" move in the Explore step shows children how editing works without a screen.",
+  "digital": "In the Explore step, project a real photo you took of your classroom and let children name what they recognize. Then, as the class watches, type into a district-approved AI image generator: \"A realistic photo of a dog as tall as a house, standing next to a car.\" Show the result beside your real photo and ask: \"Which one is real? How can we tell? Could we tell if we didn't know?\" Children never use the image tool themselves; you drive it on the projector.",
+  "whyTech": "The sort and poses work best unplugged. The projected demo earns its few minutes: seeing a computer make a realistic picture from words, right beside a real classroom photo, shows children why \"it has a picture\" is not proof, which a description alone cannot do.",
+  "adaptations": [
+    { "label": "Kindergarten", "text": "Start with only REAL and PRETEND for the first six strips, then add CHANGED with the paper cut-out demo." },
+    { "label": "Grade 2", "text": "Pairs write a short \"changed\" caption for a real classroom photo (for example, \"Our class pet is a baby dragon\") and explain how a reader could check it." },
+    { "label": "Emergent bilinguals", "text": "The poses carry meaning without words. Add simple sketches to the strips and teach \"real,\" \"pretend,\" and \"changed\" in both languages." },
+    { "label": "Children who can't move freely", "text": "Use three colored cards (green for real, yellow for pretend, blue for changed) instead of poses." }
+  ],
+  "lookFors": [
+    "Children give a clue for their choice (\"lions don't live in kitchens,\" \"it's a storybook\"), not just a label.",
+    "Children tell pretend apart from changed by asking whether it is trying to look real.",
+    "During the demo or reflection, children say that a picture can look real and still be made by a computer, and name a grown-up to ask."
+  ],
+  "reflection": [
+    "How can you tell if a picture is real? What if you can't tell by looking?",
+    "Do I stay safe and make good choices when I use the internet? (Student ELE guiding question)",
+    "Why is pretend OK in a storybook but tricky in a photo?"
+  ],
+  "transfer": "Invite families to play \"Real, Pretend, or Changed?\" with pictures they see together in books, on cereal boxes, or on a screen, asking the three detective questions. Next lesson, *Ask Two* adds the habit of checking what a computer tells us with a second source.",
+  "connections": [
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "A teacher-led digital follow-up on AI literacy for younger students." },
+    { "title": "News Literacy Project", "url": "https://newslit.org/", "note": "Background for teachers on manipulated and synthetic media." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Real, Pretend, or Changed?",
+      "type": "sort",
+      "instructions": "Teacher: read each strip aloud. Children show the pose. Tape the strip under the sign.",
+      "categories": ["REAL", "PRETEND", "CHANGED"],
+      "items": [
+        { "text": "A photo of a giraffe at the zoo, eating leaves from a tall tree.", "answer": "REAL", "why": "Giraffes really eat leaves from tall trees. Nothing looks strange." },
+        { "text": "A storybook page: a bear rides a bicycle to the library.", "answer": "PRETEND", "why": "A storybook is made up on purpose. That's OK!" },
+        { "text": "A photo of a dog as tall as a house, standing next to a car.", "answer": "CHANGED", "why": "Dogs can't be that big, but it looks like a real photo." },
+        { "text": "A photo of our school playground with snow on the slide. Our teacher took it last winter.", "answer": "REAL", "why": "We know who made it and it could really happen." },
+        { "text": "A cartoon about a pumpkin that tells jokes.", "answer": "PRETEND", "why": "Cartoons are pretend on purpose." },
+        { "text": "A photo of a family picnic, but the sky is purple and there are two suns.", "answer": "CHANGED", "why": "Our sky has one sun. Someone changed it or a computer made it." },
+        { "text": "A drawing a classmate made of a unicorn.", "answer": "PRETEND", "why": "Unicorns are pretend, and a drawing isn't trying to trick us." },
+        { "text": "A video of firefighters spraying water on a fire, from a TV news show.", "answer": "REAL", "why": "Firefighters really do this, and news shows tell us who made the video." },
+        { "text": "A picture that looks just like a real photo: a fish riding a skateboard.", "answer": "CHANGED", "why": "Fish can't skateboard. It looks real, so it was changed or computer-made." },
+        { "text": "A photo of the moon at night, taken from a backyard.", "answer": "REAL", "why": "You can see the moon from your backyard." },
+        { "text": "A photo of a boy standing next to a lion in his kitchen.", "answer": "CHANGED", "why": "Lions don't live in kitchens. If you're not sure, ask a grown-up." },
+        { "text": "A puppet show where a sock puppet sings a song.", "answer": "PRETEND", "why": "Everyone knows it's a puppet. It's pretend on purpose." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Clue Detective Checklist",
+      "type": "checklist",
+      "instructions": "Use these questions like a detective. Check each one you asked.",
+      "items": [
+        "I asked: Could this really happen?",
+        "I asked: Who made it?",
+        "I asked: Is it pretend on purpose, like a story or cartoon?",
+        "I looked: Does something look strange or not quite right?",
+        "I remembered: A computer can make pictures that look real.",
+        "I asked a grown-up to help me check."
+      ],
+      "scale": ["Yes", "Not yet"]
+    },
+    {
+      "id": "C",
+      "title": "My Detective Page",
+      "type": "worksheet",
+      "instructions": "Draw in each box. Your teacher can help with words.",
+      "sections": [
+        { "prompt": "Draw something REAL.", "boxes": true },
+        { "prompt": "Draw something PRETEND.", "boxes": true },
+        { "prompt": "Draw a picture that could be CHANGED to trick someone.", "boxes": true },
+        { "prompt": "If I can't tell, I will ask: ___", "lines": 1 }
+      ]
+    }
+  ]
+}

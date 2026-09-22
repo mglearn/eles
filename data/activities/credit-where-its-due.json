@@ -1,0 +1,159 @@
+{
+  "id": "credit-where-its-due",
+  "title": "Credit Where It's Due",
+  "tagline": "After their own doodles get \"borrowed\" without credit, students learn to credit creators, ask permission, and write an honest note whenever AI helped with their work.",
+  "audience": "student",
+  "grades": ["3-5"],
+  "strands": ["digcit", "genai"],
+  "mode": "hybrid",
+  "minutes": 45,
+  "groupSize": "Whole class, then teams of 3–4 for the sort, then individuals; any class size",
+  "eles": ["S1.3", "AI2.1", "AI2.3", "S4.1"],
+  "overview": "Everything students find online was made by someone: a photographer, a writer, a musician, a kid like them. And now some of what students make gets help from AI. In this lesson students feel what it's like when their work is taken without credit, sort situations into **Give credit**, **Ask permission first**, **Say AI helped**, and **My own work**, then practice writing credit lines and **AI Help Notes** for a fictional student's poster before writing them for their own project. The message is honest, not scary: AI can help you learn, and saying how it helped is part of owning your work.",
+  "objectives": [
+    "Students will explain why creators deserve credit and how it feels when work is used without it.",
+    "Students will decide whether a situation calls for giving credit, asking permission, saying AI helped, or none of these, and explain why.",
+    "Students will write a credit line (what, who made it, where it was found) for a work they used.",
+    "Students will write an AI Help Note that says what AI did, how they checked it, and what they did themselves."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Credit Sort (1 set per team, cut apart, with the sorting mat)",
+      "Handout B: Rosa's Volcano Poster (1 per team)",
+      "Handout C: My Credit Lines and AI Help Note (1 per student)",
+      "Scrap paper and markers for the doodle hook; a sign reading \"Art Gallery by Your Teacher\""
+    ],
+    "digital": [
+      "Optional: a generative AI chatbot your district approves, on the teacher's device, projected for the class",
+      "Optional: a digital project students are already making (slides, a document, a class blog post) to add credits to",
+      "Optional: an image library your district approves that shows each image's license or credit information"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A so each team has 12 strips and a sorting mat.",
+    "Write the two formulas on chart paper: **Credit Line:** \"'Title' by Creator, from Where I found it.\" and **AI Help Note:** \"I used AI to ___. I checked it by ___. I did ___ myself.\"",
+    "Choose an upcoming or current student project for the Create step so students write real credit lines for real work.",
+    "If you'll run the projected demo, test the prompt in the Digital section in your district-approved chatbot first."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 6,
+      "title": "The doodle heist",
+      "body": "Give students 2 minutes to draw a quick doodle of an animal doing a sport, **without writing their names**. Collect the doodles, tape them under a sign: **\"Art Gallery by Your Teacher,\"** and admire \"your\" work out loud: \"I'm so proud of my drawings.\" Pause and ask: **\"How does this feel? What's wrong here?\"** Take answers, then take the sign down and add student names. Say: \"Everything online was made by someone, too. Today we learn how to give them credit, and how to be honest when AI helps us.\"",
+      "note": "Keep it light and quick. The point is the feeling of \"that's mine,\" which students then transfer to other creators."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "Credit lines and AI Help Notes",
+      "body": "Show the two formulas on chart paper. Model a credit line: \"'Rainbow Over the Lake' by Dana Reyes, from our school library photo collection.\" Explain when to **ask permission**: when you want to use a friend's work, someone's photo of a person, or music or art you don't know you're allowed to use. Then model an **AI Help Note**: \"I used AI to suggest five title ideas. I checked it by picking one I liked and making it my own. I did all the writing and drawings myself.\" Ask: **\"Why would your teacher want to know what AI did?\"** (So they know what you learned and what the tool did, and so everyone is honest.)",
+      "note": "Students under 13 shouldn't have their own consumer AI accounts. Frame AI help as something that happens with a teacher or family member driving an approved tool."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 10,
+      "title": "Credit Sort",
+      "body": "Teams sort the 12 strips onto the four-part mat. For each strip, one teammate must say the reason out loud before it's placed. Then run a quick check: point to four corners labeled with the four categories, read three of the trickiest strips (the song, the teacher's AI poster, Kenji's fractions), and have students walk to the corner they chose and defend it.",
+      "note": "Teams often put the teacher's AI poster in \"My own work.\" Use it: adults should say AI helped, too. Honesty rules apply to everyone."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 10,
+      "title": "Fix Rosa's poster",
+      "body": "Teams read Handout B, the story of Rosa's volcano poster. They find every place Rosa used someone else's work or AI help, then write her credit lines and her AI Help Note on the back of the handout. Ask teams to underline the one thing Rosa should double-check (the AI's fact about the tallest volcano) and explain why.",
+      "note": "The key insight: Rosa's AI Help Note must include how she checked the AI's facts, because the chatbot stated one fact with no source."
+    },
+    {
+      "phase": "Create",
+      "minutes": 8,
+      "title": "My own credits",
+      "body": "Students complete Handout C for a current class project: list what they used that someone else made, write a credit line for each, and, if AI helped (for example, during a teacher-led brainstorm), write an AI Help Note. If no AI helped, they check \"No AI helped\" and explain what they did themselves. Partners swap and check each other's credit lines against the formula.",
+      "note": "Look for AI Help Notes that name a real checking move. \"I checked it\" alone isn't enough; ask \"How?\""
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 4,
+      "title": "Why credit matters",
+      "body": "Students answer the last two prompts on Handout C: how they'd feel if someone took credit for their work, and why saying AI helped is part of being a good learner. Share two or three answers aloud.",
+      "note": "Connect back to the doodle gallery. Many students will mention it on their own."
+    }
+  ],
+  "unplugged": "The whole lesson runs on paper: the doodle heist, the sort, the Rosa reading, and the credit worksheet. Students can practice credit lines using library books and posters in the room as the \"works\" they used.",
+  "digital": "During the Model step, project a district-approved chatbot and, as the class watches, type: \"Give me five fun title ideas for a fourth grader's poster about volcanoes.\" Pick one as a class, change it to make it your own, then write the AI Help Note together on the board. In the Create step, students add a \"Credits\" slide or section to a digital project they're already making, including any AI Help Note. If your district provides an image library that shows credit information, show students where to find it. Students under 13 don't use their own AI accounts; the teacher drives any AI tool.",
+  "whyTech": "The projected demo turns the AI Help Note from an abstract rule into a real move: students see exactly what the tool did and write an honest note about it together. Adding a credits slide to a real digital project makes the habit part of the work, which a separate worksheet can't guarantee.",
+  "adaptations": [
+    { "label": "Grade 3", "text": "Use three categories (Give credit, Ask permission first, My own work) for the first pass, then add \"Say AI helped\" with strips 3, 6, 9, and 12." },
+    { "label": "Grade 5", "text": "Introduce free-to-use and Creative Commons licenses in simple terms and have students find the license information for one image your district's library provides." },
+    { "label": "Emergent bilinguals", "text": "Provide the credit line and AI Help Note formulas as sentence frames in both languages." },
+    { "label": "Students who need support writing", "text": "Let students dictate their AI Help Note to a partner or use a fill-in frame with word choices (brainstorm, check spelling, explain an idea)." }
+  ],
+  "lookFors": [
+    "Teams give a reason for each sort decision, especially that adults and teachers should also say when AI helped.",
+    "Rosa's credit lines include what, who, and where, and her AI Help Note names how she checked the volcano fact.",
+    "Students' own AI Help Notes name what AI did, a specific checking move, and what they did themselves.",
+    "Students connect giving credit to how they felt when their doodles were taken."
+  ],
+  "reflection": [
+    "Am I trying my best to learn on my own? How does being honest about AI help show that? (Student ELE guiding question)",
+    "How did it feel to see your doodle in someone else's gallery?",
+    "When is AI help OK, and how do you show what you did yourself?"
+  ],
+  "transfer": "Students teach a family member the credit line formula and, if the family uses an AI tool together at home, write an AI Help Note for something they made together. In class, require a credit line and, when relevant, an AI Help Note on every project this year.",
+  "connections": [
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "A teacher-led digital follow-up on using AI responsibly." },
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "A digital breakout follow-up on digital citizenship, including respecting creators." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Credit Sort",
+      "type": "sort",
+      "instructions": "All people here are made up. Sort each strip. Say your reason out loud before you place it.",
+      "categories": ["Give credit", "Ask permission first", "Say AI helped", "My own work"],
+      "items": [
+        { "text": "Leo puts a photo of a tiger from a nature website in his slideshow.", "answer": "Give credit", "why": "The photographer made it. Credit them, and use images your teacher says are OK to use." },
+        { "text": "Amara copies three sentences from an online encyclopedia into her report.", "answer": "Give credit", "why": "Use quotation marks and name the source, or better, put it in her own words and still credit the source." },
+        { "text": "Theo, with his teacher driving, asks an AI chatbot for 5 story title ideas and picks one.", "answer": "Say AI helped", "why": "The idea started with AI, so an AI Help Note keeps it honest." },
+        { "text": "Nia draws her own map of her neighborhood for a project.", "answer": "My own work", "why": "She made it herself. No credit needed, though she can sign it!" },
+        { "text": "Ben wants to put his friend's drawing in the class newsletter.", "answer": "Ask permission first", "why": "It's his friend's work. Ask, then credit the friend." },
+        { "text": "The teacher uses an AI tool to make a picture of a robot chef for the class poster.", "answer": "Say AI helped", "why": "Adults follow the same honesty rules. A small note on the poster does it." },
+        { "text": "Sofia wants to use a song she found online in her class video.", "answer": "Ask permission first", "why": "Music belongs to its creators. Use music your teacher approves as free to use, and credit it." },
+        { "text": "Omar writes a poem with no help from anyone or anything.", "answer": "My own work", "why": "All his. He can proudly sign it." },
+        { "text": "Mia uses an AI spelling checker, and it fixes 4 words in her story.", "answer": "Say AI helped", "why": "A short note (\"AI helped check my spelling\") is honest and easy." },
+        { "text": "Diego puts a quote from a book character on his poster.", "answer": "Give credit", "why": "Name the book and the author." },
+        { "text": "Grace wants to post a photo she took of her classmates on the class blog.", "answer": "Ask permission first", "why": "Her classmates' faces are their private information. Ask them and the teacher first." },
+        { "text": "Kenji, with his mom driving, asks AI to explain fractions, then writes his own explanation in his own words.", "answer": "Say AI helped", "why": "AI helped him learn. He says so, and his own words show what he understands." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Rosa's Volcano Poster",
+      "type": "reading",
+      "instructions": "Rosa is a made-up fourth grader. Find every place she used someone else's work or AI help. On the back, write her credit lines and her AI Help Note.",
+      "paragraphs": [
+        "Rosa Delgado is making a poster about volcanoes for the Maple Hollow Elementary science fair. She wants it to be the best poster in the hallway.",
+        "First, Rosa finds a photo of a volcano erupting at night in the school library's online photo collection. Under the photo it says: \"Night Eruption, photo by Sam Okafor.\" She prints it and glues it in the middle of her poster.",
+        "Next, she reads a library book called *Mountains of Fire* by Lee Watanabe. She copies one sentence she loves onto her poster: \"A volcano is a door to the inside of the Earth.\"",
+        "Rosa is stuck on a title. At home, her dad opens an AI chatbot and types, \"Give me 5 catchy titles for a kid's volcano poster.\" Rosa likes \"Hot Stuff: Inside a Volcano\" and changes it to \"Hot Stuff: What's Inside a Volcano?\"",
+        "Her dad also asks the chatbot for a fun fact. It answers: \"The tallest volcano in our solar system is on Mars.\" It doesn't say where that fact comes from. Rosa writes it in a bright yellow box.",
+        "Rosa's best friend, Mei, drew a great diagram of the layers of a volcano for her own project. Rosa thinks it would look perfect in the corner of her poster.",
+        "Finally, Rosa draws the lava flow arrows and writes the three paragraphs about how volcanoes form, all by herself."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Credit Lines and AI Help Note",
+      "type": "worksheet",
+      "instructions": "Use this for a real class project. Credit Line: \"Title\" by Creator, from Where I found it. AI Help Note: I used AI to ___. I checked it by ___. I did ___ myself.",
+      "sections": [
+        { "prompt": "My project is:", "lines": 1 },
+        { "prompt": "Things I used that someone else made, with a credit line for each:", "lines": 5 },
+        { "prompt": "Did AI help? Circle one: YES · NO AI HELPED. If yes, write your AI Help Note: I used AI to ___. I checked it by ___. I did ___ myself.", "lines": 4 },
+        { "prompt": "The parts I made all by myself:", "lines": 2 },
+        { "prompt": "How would I feel if someone took credit for my work?", "lines": 2 },
+        { "prompt": "Why is saying \"AI helped\" part of being a good learner?", "lines": 2 }
+      ]
+    }
+  ]
+}

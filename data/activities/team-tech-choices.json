@@ -1,0 +1,280 @@
+{
+  "id": "team-tech-choices",
+  "title": "Team Tech Choices",
+  "tagline": "Teams plan a real group project by matching each job to the right tool, or no tool at all, defending their choices, and setting goals they can track together.",
+  "audience": "student",
+  "grades": [
+    "3-5"
+  ],
+  "strands": [
+    "digcit",
+    "genai"
+  ],
+  "mode": "hybrid",
+  "minutes": 45,
+  "groupSize": "Teams of 4 with rotating roles; any number of teams",
+  "eles": [
+    "S1.1",
+    "S3.1",
+    "S1.2",
+    "S3.3",
+    "S4.2"
+  ],
+  "overview": "\"We made a slideshow\" isn't evidence of learning. Choosing *why* a tool fits the job is. In this lesson teams plan a **School Garden Guide for first graders**. They draw Task Cards (find out what first graders want to know, count visiting birds, write in kid-friendly words, share with families) and Tool Cards (paper and pencil, a library book, a tally chart, a class tablet camera, a teacher-driven AI chatbot, talking to an expert, or no tool at all), and match them. Each match must answer three questions: What's the job? Which tool does it best? What will it show we learned? Teams defend choices in a gallery challenge, learn how they'd handle a brand-new tool, and set goals with checkpoints.",
+  "objectives": [
+    "Students will choose a tool, or no tool, for each project task and explain how it helps the learning, not just the product.",
+    "Students will work in assigned team roles and give every teammate's view a fair hearing before deciding.",
+    "Students will describe the steps they'd use to learn a tool they've never used before.",
+    "Students will set a team goal with checkpoints and a way to track progress."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Task and Tool Cards (1 set per team, cut apart; 7 Task Cards, 8 Tool Cards, and 1 Mystery Tool card)",
+      "Handout B: Tool Choice Planner (1 per team)",
+      "Handout C: Team Goal and Roles (1 per team, plus one copy per student for the reflection)",
+      "Role badges or sticky notes: Planner, Tool Scout, Checker, Reporter",
+      "Tape and chart paper for the gallery challenge"
+    ],
+    "digital": [
+      "Optional: a generative AI chatbot your district approves, on the teacher's device, projected for the class",
+      "Optional: the class tablets, slide tool, or shared document students already use, for carrying out one planned task",
+      "Optional: a shared digital checklist or slide where teams track checkpoints"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Keep Task Cards and Tool Cards in separate piles for each team. The card backs are your key; print them separately.",
+    "Make role badges. Plan teams so each has four roles; in teams of three, the Planner also reports.",
+    "Decide whether teams will actually build the garden guide over the next week or whether this is a planning-only lesson. Handout C works for both.",
+    "If you'll run the projected demo, test the brainstorm prompt from the Digital section with your district-approved chatbot."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Spoon, hammer, or banana?",
+      "body": "Ask: **\"Which tool would you use to hammer a nail: a spoon, a hammer, or a banana?\"** Everyone says hammer. \"Which tool would you use to find out what first graders want to learn about our school garden?\" Take answers (a survey, a video, AI…). Then say: \"What about just asking them? Sometimes the best tool is a person, or no tool at all. Today your team picks the right tool for each job, and explains *why*.\"",
+      "note": "Students often assume the most high-tech tool is best. Keep the question open; the lesson will test it."
+    },
+    {
+      "phase": "Model",
+      "minutes": 6,
+      "title": "Roles and the three questions",
+      "body": "Hand out role badges: **Planner** (keeps the team on track and watches time), **Tool Scout** (reads Tool Cards aloud and suggests matches), **Checker** (asks \"Is it safe? Is it true? Does everyone agree?\"), **Reporter** (writes on the planner and shares). Post the three questions: **What's the job? Which tool (or no tool) does it best? What will it show we learned?** Model with the Task Card \"Brainstorm a title for our guide\": \"We could use the teacher-driven AI chatbot. It can give us lots of ideas fast. But will it show *our* thinking? Maybe we brainstorm on paper first, then compare with the AI's list, and credit it if we use an idea.\"",
+      "note": "Point out the Checker's safety job for the AI Tool Card: the teacher drives, no personal information goes in, and the team checks anything it says."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Match the jobs to the tools",
+      "body": "Teams lay out the Task Cards and Tool Cards and match at least five tasks, recording each on Handout B with the reason and the evidence it will show. Before a match is written, **every teammate says one sentence** about it: agree, disagree, or add an idea. The Checker makes sure no voice is skipped. A tool can be used more than once, and \"No tool: just talk it out\" is a real choice.",
+      "note": "Look-for: teams that change a match after hearing a teammate's view. Ask them, \"What made you change your mind?\" That is S3.3 in action."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 8,
+      "title": "Gallery challenge and the mystery tool",
+      "body": "Teams tape their planners on the wall. Each team visits another team's planner, finds one match they'd do differently, and writes a sticky-note question (\"Why a tablet camera instead of a drawing?\"). Teams return and answer one question aloud. Then read the **Mystery Tool** card (the new Garden Map App no one has used before). Teams have 2 minutes to list how they'd learn it: watch the help video, try it on something small, ask a classmate who knows it, check what information it asks for. Share a few lists.",
+      "note": "Different teams often choose differently for the same task and both can be right. Celebrate that; the reasoning is what matters."
+    },
+    {
+      "phase": "Create",
+      "minutes": 8,
+      "title": "Set the team goal",
+      "body": "Teams complete the first part of Handout C: a team goal for the garden guide, three checkpoints with dates, who does what, and how they'll know they're on track. The Checker adds a **Who might be left out?** check: a teammate without a device at home, a family that speaks another language, a first grader who can't read yet. Teams adjust one plan to include them.",
+      "note": "This is S4.2: goals with checkpoints. Keep goals small and doable within a week or two."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 6,
+      "title": "Why this tool?",
+      "body": "Each student completes the reflection prompts on their own copy of Handout C: which tool choice they're proudest of and why, a time a teammate's idea changed the plan, and how they'd learn a new tool. The Reporter shares one team highlight with the class.",
+      "note": "Collect Handout B and C. The evidence you want is the reasoning column, not the list of tools."
+    }
+  ],
+  "unplugged": "The matching, gallery challenge, and goal setting run entirely on printed cards and planners. The tools on the cards are discussed, not used, so no devices are needed. If teams go on to build the garden guide, the whole thing can be made on paper, with a hand-drawn tally chart and a printed family letter.",
+  "digital": "During the Model or Apply step, project a district-approved AI chatbot and type the class's request: \"Give 8 title ideas for a school garden guide written for first graders.\" Compare the list to the class's own paper brainstorm, and have the Checker role decide as a class which ideas are useful, which are off, and how to credit AI if an idea is used. If teams carry out their plans, they use only tools the district already provides (class tablets, a slide tool, a shared document), and track checkpoints in a shared digital checklist. Students under 13 never use their own AI accounts; the teacher drives any AI tool.",
+  "whyTech": "The planning is best done on paper, where every match must be argued out loud. The digital path earns its time when teams carry out a plan: a tablet photo of the garden or a tally chart in a spreadsheet produces evidence (real observations, real counts) that shows what they learned, and the teacher-driven AI brainstorm shows students how to compare AI ideas with their own.",
+  "adaptations": [
+    {
+      "label": "Grade 3",
+      "text": "Use 5 Task Cards and 5 Tool Cards, and give teams sentence frames for the reason column: \"This tool fits because…\""
+    },
+    {
+      "label": "Grade 5",
+      "text": "Add a budget: each team has 3 \"screen tokens\" and must decide which tasks earn screen time, then defend the choice with the evidence it will produce."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Assign the Tool Scout role to a student who can read cards aloud in the home language, and for the \"Share the guide with families\" task, discuss a home-language version of the guide as a real option."
+    },
+    {
+      "label": "Students who use assistive technology",
+      "text": "Invite them to add their own tool as a Tool Card and teach the team what it does well."
+    }
+  ],
+  "lookFors": [
+    "Handout B's reason and evidence columns explain how each tool shows learning, and at least one task uses \"no tool\" or a person on purpose.",
+    "Every teammate speaks before a match is recorded, and at least one match changes after a teammate's view.",
+    "Mystery Tool lists include safe, practical steps (try it small, ask, check what information it asks for).",
+    "Team goals on Handout C have dated checkpoints and a \"who might be left out\" adjustment."
+  ],
+  "reflection": [
+    "Am I good at using different tools and computers to help me learn? How did I choose? (Student ELE guiding question)",
+    "How well do I work with others when we learn together? When did a teammate's idea change the plan?",
+    "How would you learn a tool you've never used before?"
+  ],
+  "transfer": "Teams carry out their plan over the next week and check in at each checkpoint on Handout C. At home, students interview a family member: \"What tool do you use for your work, and how did you learn it?\" and add the answer to their reflection.",
+  "connections": [
+    {
+      "title": "Digital Citizenship Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/digcit/",
+      "note": "A teacher-led digital breakout follow-up on digital citizenship."
+    },
+    {
+      "title": "Gen AI Literacy Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/genailit/",
+      "note": "Follow-up practice on when and how to use AI."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Task and Tool Cards",
+      "type": "cards",
+      "instructions": "Project: a School Garden Guide for first graders. Match each Task Card with a Tool Card (or no tool). A tool can be used more than once. Backs are the teacher key.",
+      "cards": [
+        {
+          "label": "Task",
+          "front": "Find out what first graders want to know about the garden.",
+          "back": "Strong choices: talk to an expert (the first graders themselves!) or paper and pencil for a quick survey. Evidence: their real questions."
+        },
+        {
+          "label": "Task",
+          "front": "Count how many birds visit the garden in one week.",
+          "back": "Strong choices: paper tally chart or spreadsheet. Evidence: real counts the team can graph."
+        },
+        {
+          "label": "Task",
+          "front": "Show what the garden looks like in each season.",
+          "back": "Strong choices: class tablet camera (with no faces) or drawings. Evidence: observations over time."
+        },
+        {
+          "label": "Task",
+          "front": "Brainstorm a title for our guide.",
+          "back": "Strong choices: talk it out first, then compare with the teacher-driven AI chatbot. Credit AI if you use its idea."
+        },
+        {
+          "label": "Task",
+          "front": "Learn which plants grow well in shade.",
+          "back": "Strong choices: library book, or ask the school gardener. Check any AI answer against a book."
+        },
+        {
+          "label": "Task",
+          "front": "Write the guide in words first graders can read.",
+          "back": "Strong choices: paper and pencil or slide tool, then test it by reading it to a first grader. Evidence: changes made after feedback."
+        },
+        {
+          "label": "Task",
+          "front": "Share the guide with families.",
+          "back": "Strong choices: printed copies and the class's family messaging tool. Check: will every family be able to read it?"
+        },
+        {
+          "label": "Tool",
+          "front": "PAPER AND PENCIL: quick to use, works anywhere, easy to draw and cross out.",
+          "back": "Good for: surveys, drafts, drawings. Watch out: harder to share widely or change many times."
+        },
+        {
+          "label": "Tool",
+          "front": "LIBRARY BOOK: written and checked by experts; you can find the author.",
+          "back": "Good for: reliable facts. Watch out: may not cover our exact garden."
+        },
+        {
+          "label": "Tool",
+          "front": "TALLY CHART OR SPREADSHEET: counts and organizes numbers.",
+          "back": "Good for: bird counts, graphs. Watch out: only as good as the counting."
+        },
+        {
+          "label": "Tool",
+          "front": "CLASS TABLET CAMERA: takes photos and short videos.",
+          "back": "Good for: showing real changes over time. Watch out: no faces without permission."
+        },
+        {
+          "label": "Tool",
+          "front": "SLIDE TOOL: combines words, pictures, and pages to share.",
+          "back": "Good for: the final guide. Watch out: making it pretty isn't the same as making it clear."
+        },
+        {
+          "label": "Tool",
+          "front": "AI CHATBOT (the teacher drives it): gives ideas and explanations fast.",
+          "back": "Good for: brainstorming, explaining. Watch out: can be wrong, no personal information, check it, and say AI helped."
+        },
+        {
+          "label": "Tool",
+          "front": "TALK TO AN EXPERT: a gardener, a first grader, a librarian, a family member.",
+          "back": "Good for: real answers and real questions. Watch out: plan your questions first."
+        },
+        {
+          "label": "Tool",
+          "front": "NO TOOL: JUST TALK IT OUT. Sit together, listen, and decide.",
+          "back": "Good for: deciding who does what, planning, solving disagreements. Watch out: write down what you decided so no one forgets."
+        },
+        {
+          "label": "Mystery Tool",
+          "front": "GARDEN MAP APP: a new app the school just got. Nobody in class has used it yet. It lets you draw a map of the garden and label plants.",
+          "back": "How to learn it: watch the help video, try it on something small, ask someone who knows it, and check what information it asks for before you sign in."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Tool Choice Planner",
+      "type": "table",
+      "instructions": "Every teammate speaks before you write a row. \"No tool\" is a real choice.",
+      "columns": [
+        "Task",
+        "Tool (or no tool)",
+        "Why this fits the job",
+        "What it will show we learned",
+        "Checker's OK (safe? true? all agree?)"
+      ],
+      "rows": [],
+      "blankRows": 6
+    },
+    {
+      "id": "C",
+      "title": "Team Goal and Roles",
+      "type": "worksheet",
+      "instructions": "Planner leads. Fill in the team part together. Then answer the last three prompts on your own copy.",
+      "sections": [
+        {
+          "prompt": "Team roles. Planner: ___ Tool Scout: ___ Checker: ___ Reporter: ___",
+          "lines": 2
+        },
+        {
+          "prompt": "Our team goal for the School Garden Guide:",
+          "lines": 2
+        },
+        {
+          "prompt": "Three checkpoints (what will be done, and by when):",
+          "lines": 3
+        },
+        {
+          "prompt": "Who might be left out, and how will we include them?",
+          "lines": 2
+        },
+        {
+          "prompt": "On my own: The tool choice I'm proudest of, and why:",
+          "lines": 3
+        },
+        {
+          "prompt": "On my own: A time a teammate's idea changed our plan:",
+          "lines": 2
+        },
+        {
+          "prompt": "On my own: If I had to learn a brand-new tool, my first three steps would be:",
+          "lines": 3
+        }
+      ]
+    }
+  ]
+}

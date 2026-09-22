@@ -1,0 +1,259 @@
+{
+  "id": "verify-the-bot-workshop",
+  "title": "Verify the Bot",
+  "tagline": "Science teachers split confident AI explanations into checkable claims, verify each with two independent sources, and leave with a 15-minute workshop to teach the routine to colleagues.",
+  "audience": "pl",
+  "roles": [
+    "teachers",
+    "librarians",
+    "coaches"
+  ],
+  "grades": [
+    "6-8",
+    "9-12"
+  ],
+  "strands": [
+    "genai",
+    "medialit"
+  ],
+  "mode": "digital",
+  "minutes": 60,
+  "groupSize": "Pairs within teams of 4; works for 8–40 people",
+  "eles": [
+    "AI4.2",
+    "AI4.1",
+    "AI4.3"
+  ],
+  "overview": "AI chatbots explain science fluently, and they can blend accurate explanations with classic misconceptions, invented citations, and numbers that sound right. The fix isn't \"don't trust AI\" or \"trust AI\"; it's a routine: split the answer into claims, check each claim against two independent sources, then keep, fix, or cut. Participants practice the routine on printed mock AI answers about seasons and plant growth, run it live on a district-approved chatbot, and then plan a 15-minute version they can lead for their department, because teaching colleagues to verify is how the habit spreads to students.",
+  "objectives": [
+    "Participants will split an AI-generated science explanation into individual, checkable claims (facts, numbers, citations, explanations).",
+    "Participants will verify claims with at least two independent, credible sources and label each claim keep, fix, or cut.",
+    "Participants will revise a prompt or follow-up question to make an AI output easier to verify, and explain why that doesn't replace verification.",
+    "Participants will plan a short workshop to teach the routine to colleagues or students."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Mock AI Science Answers (1 per person)",
+      "Handout B: Claim Ledger (2 per pair)",
+      "Handout C: 15-Minute Workshop Planner (1 per person)",
+      "Two or three current science textbooks or printed reference pages on seasons and photosynthesis, for the unplugged path"
+    ],
+    "digital": [
+      "One device with a browser per pair",
+      "A generative AI chatbot your district approves: on participants' devices if staff have approved accounts, otherwise projected by the facilitator",
+      "Access to credible science references: your adopted textbook's digital edition, library databases, and science agency and university education pages"
+    ]
+  },
+  "prep": [
+    "Print Handouts A, B, and C.",
+    "Verify the Handout A key yourself using two sources per claim. Answer 1: the tilt (about 23.4 degrees), more direct sunlight, longer days, and opposite seasons in the Southern Hemisphere are accurate; the claim that Earth is closer to the sun in Northern Hemisphere summer is false (Earth is closest to the sun in early January). Answer 2: most of a tree's dry mass comes from carbon dioxide taken from the air during photosynthesis, not from soil, which supplies water and small amounts of minerals; the study, researcher, university, and percentage are fictional, and the last sentence overgeneralizes.",
+    "Choose one current-unit science question for the live round and try it on your approved chatbot. Note any claims you'd want pairs to check.",
+    "Ask your campus librarian to co-facilitate the sources portion and share database access."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Sounds right to me",
+      "body": "Project Mock Answer 1 (seasons). Ask the room to rate it 1–5 for \"I'd let students use this.\" Most rate it high. Then ask: **\"How many separate facts did it just assert?\"** Nobody knows. Say: \"That's the problem. We judged the whole thing by its tone. Today we check it one claim at a time.\"",
+      "note": "Mock Answer 1 includes a common misconception: that Earth is closer to the sun in summer. In fact, Earth is closest to the sun in early January, during Northern Hemisphere winter."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "The routine: Split, Source, Compare, Decide",
+      "body": "Think aloud through the first three sentences of Mock Answer 1. **Split**: underline each separate claim and number it on Handout B. **Source**: for each, find a credible, independent source (a textbook, a science agency, a university education page), not another AI answer. **Compare**: find a second source that doesn't copy the first; do they agree? **Decide**: keep, fix (write the corrected claim), or cut. Narrate one dead end honestly.",
+      "note": "Two sources that both copied the same blog post aren't two sources. Model checking where the second source got its information."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 14,
+      "title": "Ledger race",
+      "body": "Pairs finish Mock Answer 1 and complete Mock Answer 2 (where plant mass comes from) on Handout B, using devices for sources. Pay special attention to the citation in Mock Answer 2: **trace it**. Can you find the study, the researcher, the university? Pairs compare ledgers with the other pair at their table.",
+      "note": "Key for Answer 2: plants gain most of their mass from carbon dioxide in the air, not from soil. The \"Dr. Helena Marsh, Maple Hollow University\" citation is fictional and untraceable. That's the lesson: AI can generate citations that look real. Absence of the source is a finding."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 12,
+      "title": "Live round: check a real answer",
+      "body": "Each pair asks the approved chatbot a science question from their current unit (or the facilitator's prepared question), then runs the routine on the answer. Next, they try **one prompt move** to make verification easier, such as: \"List each factual claim separately,\" \"Say which claims you are less certain about,\" or \"Name the type of source a student should use to check each claim.\" Discuss: did it help? Does it replace checking?",
+      "note": "Be accurate: asking a chatbot to check itself or to rate its own confidence can help surface weak spots, but the model's self-assessment can also be wrong, and any sources it names still need to be found and read. The routine still applies."
+    },
+    {
+      "phase": "Create",
+      "minutes": 13,
+      "title": "Plan your 15-minute workshop",
+      "body": "Each person uses Handout C to plan a 15-minute version of this session for their department, PLC, or students: the mock or real AI answer they'll use (from their own subject), the claims they expect people to catch, the two sources they'll point to, and the one habit they want colleagues to leave with. Pairs rehearse the opening two minutes for each other.",
+      "note": "Push for subject-specific examples. A biology teacher's misconception-laden AI answer will land better with the science department than any generic example."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "What will students turn in?",
+      "body": "Ask: **\"If students use AI in your class, what evidence will show they verified it?\"** Collect answers: a claim ledger, a keep/fix/cut annotation, a corrected paragraph, two cited sources per claim. Agree as a group on one common verification artifact the department could use across courses.",
+      "note": "This connects to the 2026 ELE question: technology use by itself isn't evidence of learning. A completed claim ledger is."
+    }
+  ],
+  "unplugged": "Run the Split, Source, Compare, Decide routine with Handout A and printed textbook or reference pages as the sources. For the live round, the facilitator reads aloud (or prints) an AI answer they generated ahead of time on a current-unit question, and pairs verify it with the printed references. The routine is identical; only the source search is slower.",
+  "digital": "Pairs use devices to search credible science sources and, if they have approved staff access, to query the district's chatbot directly; otherwise the facilitator projects the chatbot and takes each pair's question. Claim ledgers can live in a shared spreadsheet so the department builds a running bank of AI claims checked, with sources. In an LMS, the Handout C plan can become a short module colleagues complete asynchronously.",
+  "whyTech": "Verification is inherently a digital skill: the live search shows how quickly a claim can be confirmed or disconfirmed, and running the routine on a real chatbot answer from participants' own units makes it stick. The evidence is the completed claim ledger with independent sources, which a paper-only session can produce, but more slowly.",
+  "adaptations": [
+    {
+      "label": "Grades 6–8 science teachers",
+      "text": "Use Mock Answer 1 only and simplify to three moves: split it, check it twice, fix it. Let students verify with the textbook plus one teacher-selected website."
+    },
+    {
+      "label": "Librarians",
+      "text": "Lead the Source and Compare moves: teach how to tell whether two sources are independent, and how to search library databases for the original study behind a claim."
+    },
+    {
+      "label": "Other departments",
+      "text": "Swap the science answers for a history summary checked against primary sources, or a math explanation checked by working the problem. The routine carries over unchanged."
+    }
+  ],
+  "lookFors": [
+    "Claim ledgers split answers into individual claims and show two independent sources per checked claim.",
+    "Pairs correctly fix the seasons and plant-mass misconceptions and flag the fictional citation as untraceable.",
+    "In the live round, pairs explain what a prompt move helped with and why it didn't replace checking.",
+    "Workshop plans use a subject-specific example and name one verification artifact students will turn in."
+  ],
+  "reflection": [
+    "What strategies am I employing to promote critical thinking skills when interacting with AI-generated information?",
+    "When did I last accept an explanation because of how it sounded rather than what I checked?",
+    "Who on my team could I teach this routine to first, and what would make them want to use it?"
+  ],
+  "transfer": "Lead your 15-minute workshop with your department or PLC within two weeks, then have students complete a claim ledger on one AI answer in your current unit. Bring three student ledgers to your next meeting to compare what students caught and missed.",
+  "connections": [
+    {
+      "title": "Digital Inquiry Group: Civic Online Reasoning",
+      "url": "https://cor.inquirygroup.org/",
+      "note": "Lateral reading lessons that strengthen the Source and Compare moves."
+    },
+    {
+      "title": "AI Essentials Prompt Library",
+      "url": "https://mglearn.github.io/tcea/ai-essentials-prompt-library/",
+      "note": "Try prompts that make outputs easier to verify, then verify anyway."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Mock AI Science Answers",
+      "type": "reading",
+      "instructions": "MOCK OUTPUTS written for training. They mix accurate claims with errors on purpose. The researcher and university named are fictional. Split each answer into claims and check every one.",
+      "paragraphs": [
+        "**Question 1: \"Why does Earth have seasons?\"**",
+        "**Mock AI answer:** \"Earth has seasons because its axis is tilted about 23.4 degrees relative to its orbit. As Earth travels around the sun, the Northern Hemisphere tilts toward the sun in June and away from it in December. When a hemisphere tilts toward the sun, sunlight strikes it more directly and days are longer, so it warms up. Earth is also closer to the sun during the Northern Hemisphere's summer, which adds to the heat. That's why the Southern Hemisphere has winter in July.\"",
+        "**Question 2: \"Where does a tree get the material to grow so big?\"**",
+        "**Mock AI answer:** \"Trees build their mass mainly from nutrients and minerals they absorb from the soil through their roots. Water is also essential, and leaves use sunlight to power photosynthesis, which makes sugar. A 2019 study by Dr. Helena Marsh at Maple Hollow University found that about 70% of a tree's dry weight comes directly from soil. This is why fertile soil is the most important factor in how large a tree grows.\""
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Claim Ledger",
+      "type": "table",
+      "instructions": "One claim per row. Sources must be independent of each other and not another AI answer. Decide: KEEP, FIX (write the fix), or CUT.",
+      "columns": [
+        "#",
+        "Claim (in your own words)",
+        "Source 1 (what and where)",
+        "Source 2 (independent?)",
+        "Keep · Fix · Cut"
+      ],
+      "rows": [
+        [
+          "1",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "7",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "8",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "15-Minute Workshop Planner",
+      "type": "worksheet",
+      "instructions": "Plan a short version of Verify the Bot for your department, PLC, or students.",
+      "sections": [
+        {
+          "prompt": "My audience and when I'll lead this (date, meeting):",
+          "lines": 1
+        },
+        {
+          "prompt": "The AI answer I'll use from my own subject (mock or real), and the claims I expect people to catch:",
+          "lines": 4
+        },
+        {
+          "prompt": "The two independent sources I'll point people to, and why they're credible:",
+          "lines": 2
+        },
+        {
+          "prompt": "My 2-minute opening: how I'll show that fluent doesn't mean accurate.",
+          "lines": 3
+        },
+        {
+          "prompt": "The one prompt move I'll demonstrate, and what I'll say about its limits:",
+          "lines": 2
+        },
+        {
+          "prompt": "The verification evidence I'll ask colleagues (or students) to turn in:",
+          "lines": 2
+        },
+        {
+          "prompt": "Partner's feedback on my opening: \"The part that will convince them is…\"",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

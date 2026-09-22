@@ -1,0 +1,144 @@
+{
+  "id": "real-fake-or-generated",
+  "title": "Real, Fake, or Generated?",
+  "tagline": "Students hunt for the classic clues of AI-made images and cloned voices, discover how often those clues mislead, and learn to check the source instead.",
+  "audience": "student",
+  "grades": ["6-8", "9-12"],
+  "strands": ["medialit", "genai"],
+  "mode": "hybrid",
+  "minutes": 45,
+  "groupSize": "Teams of 3; any class size",
+  "eles": ["AI1.3", "S2.2", "AI4.1", "S2.3", "T2.3"],
+  "overview": "Students have heard the tips: look for extra fingers, garbled text, too-smooth skin, a flat robotic voice. In this activity they judge eight media cards using clues alone, then check where each item came from. Some \"obvious fakes\" turn out to be real, and some flawless images turn out to be generated. The big idea: clues are hints that expire as tools improve, but checking the source works on every kind of media, including things no one has invented yet.",
+  "objectives": [
+    "Students will name at least three common visual or audio clues of synthetic media and explain why each can fail.",
+    "Students will use source-checking moves (who posted it first, can I find the original, do trusted sources report it, can I contact the person another way) to revise a verdict on at least two media cards.",
+    "Students will write a personal \"before I believe or share\" plan that includes a safe response to a suspicious voice message."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Media Cards (1 set per team, cut apart, face down)",
+      "Handout A facilitator key (card backs), cut into \"source slips\" for the unplugged round",
+      "Handout B: Clue vs. Source Log (1 per team)",
+      "Handout C: My Before-I-Share Plan (1 per student)",
+      "Sticky notes in two colors"
+    ],
+    "digital": [
+      "Teacher device and projector",
+      "Optional: a district-approved image generator or AI chatbot, driven by the teacher only, to show how quickly a convincing image can be made",
+      "Optional (grades 9–12): one device per team for lateral searches on real, teacher-chosen examples"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A so each team has eight cards. Print the card backs separately and cut them into source slips, grouped by card number.",
+    "Read the key. Cards 3 and 8 are real despite \"fake\" clues; Card 2 is likely generated despite looking flawless. Those surprises carry the lesson, so don't pre-teach them.",
+    "Write four headings on the board: Real · Generated · Real but edited · Can't tell yet.",
+    "If you plan a live demo, test your district-approved tool beforehand and choose a harmless prompt (for example, \"a photo of a giant pumpkin at a small-town fair\")."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Which clue would you trust?",
+      "body": "Write five clues on the board: **extra or missing fingers, garbled writing in the background, skin that looks airbrushed, strange shadows or reflections, a voice that sounds flat or robotic.** Each student puts a sticky note on the clue they'd trust most to catch a fake. Then ask: **\"What happens to your favorite clue if the tools get better next month?\"** Let a few students answer and leave the question on the board.",
+      "note": "Students often trust the fingers clue most because it was widely shared. Don't correct it yet; the cards will."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Round 1: clues only",
+      "body": "Teams flip Cards 1–8 one at a time and may use **only what the card describes**: how it looks or sounds and where it appeared. For each card they choose Real, Generated, Real but edited, or Can't tell yet, rate confidence 1–5, and write the clue they relied on in Handout B. Rotate roles every card: **Reader**, **Clue Spotter**, **Recorder**.",
+      "note": "Listen for certainty (\"That's 100% AI, look at the hand\"). Jot two or three quotes to bring back in the debrief."
+    },
+    {
+      "phase": "Model",
+      "minutes": 5,
+      "title": "Think aloud: check the source",
+      "body": "Model on Card 4 (the mayor video). Say: \"I'm going to stop staring at her lips and ask four questions. **Who posted it first?** An account called CedarFallsNewsNow, not the city. **Can I find the original?** I'd look on the city's and the district's own pages. **Do trusted sources report it?** I'd check local news. **Can I confirm another way?** I'd ask the school office.\" Then read Card 4's source slip aloud as if it were your search results.",
+      "note": "Point out that the lip mismatch could also be a slow connection. The source check settles it; the clue never could."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Round 2: source slips",
+      "body": "Teams revisit every card. To get a card's source slip, a team must first tell you **which source question they want answered** (\"Who posted it first?\" \"Is there an original?\"). Hand over the slip and have them fill in the Source Check and Round 2 columns on Handout B. Early finishers answer: \"Which card fooled us most, and why?\"",
+      "note": "Unplugged, asking for a slip *is* the lateral move. In the digital path (grades 9–12), teams search real, teacher-chosen examples instead of using slips."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 7,
+      "title": "When clues lied",
+      "body": "Tally Round 1 and Round 2 verdicts on the board. Ask: **\"Which cards flipped? What flipped them, a clue or a source?\"** Return to the sticky-note clues and ask which ones failed today. Then focus on Card 1: \"A cloned voice can sound exactly right. What's the only reliable move?\" (Hang up and call back on a number you already know, or ask a family code word.) If you have a district-approved generator, make one harmless image live so students see how fast a flawless image appears.",
+      "note": "Name the big idea plainly: clues are hints, not proof. Source checks work on media that hasn't been invented yet."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 6,
+      "title": "My before-I-share plan",
+      "body": "Students complete Handout C on their own, including a short plan for what they'd do if a family member got a voice message that sounded like them asking for money. Collect it as an exit ticket.",
+      "note": "Look for a plan that names a specific action (call back on a saved number, use a code word) rather than \"I'd listen carefully.\""
+    }
+  ],
+  "unplugged": "Everything runs on paper. Cards describe the image or audio in words, and the source slips stand in for search results. Students must request a slip by naming a source question, which makes the lateral move visible and assessable. Skip the live-generator demo or describe it instead.",
+  "digital": "Project the cards as slides for Round 1. For Round 2 in grades 9–12, give each team a device and two or three teacher-chosen real examples (from a news-literacy organization's lessons, for instance) to trace with actual searches. For grades 6–8, the teacher drives all searches and any AI image demo on the projector; students do not need AI accounts. In an LMS, post Handout B as a shared document per team.",
+  "whyTech": "A live demo shows in seconds how easily a polished image or voice can be made, which convinces students that clue-spotting alone won't keep up. Paper teaches the same source-checking move, but the demo makes the stakes real.",
+  "adaptations": [
+    { "label": "Grades 3–5", "text": "Use Cards 2, 3, 5, and 8, and shrink the source questions to two: \"Who posted this?\" and \"Does anyone I trust say the same thing?\"" },
+    { "label": "Grades 9–12", "text": "Add a debate: \"Should AI tools be required to label or watermark what they make?\" Students discuss what labels can and can't solve, using Card 7 (the label that got lost when reshared)." },
+    { "label": "Emergent bilinguals", "text": "Pre-teach *generated, edited, original, source*, and pair each card with a quick sketch. Let teams discuss in any language and record the verdict in English." }
+  ],
+  "lookFors": [
+    "Handout B shows at least one verdict that changed in Round 2, with the source question that changed it.",
+    "Students explain why a specific clue failed (e.g., \"the sixth finger was another kid's hand\") instead of only listing clues.",
+    "Handout C names a concrete verification action for a suspicious voice message."
+  ],
+  "reflection": [
+    "Do I stay safe and make good choices when I use the internet? What will I do differently the next time something surprising shows up in my feed?",
+    "Which clue did I trust most at the start, and why was it not enough?",
+    "What would I say to a friend who shares something because it \"looked real\"?"
+  ],
+  "transfer": "Students take Handout C home and set up a family code word or call-back plan with an adult. Next lesson, ask two volunteers to share how the conversation went, and begin the next media-literacy lesson with one source question as a warm-up.",
+  "connections": [
+    { "title": "News Literacy Project", "url": "https://newslit.org/", "note": "Free lessons and real examples of manipulated and synthetic media for the digital path." },
+    { "title": "Critical Thinking Breakouts: Signal Check, The Viral Claim", "url": "https://mglearn.github.io/activities/ctobs/clear/", "note": "A grades 6–8 media-literacy breakout that reinforces checking before sharing." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Media Cards",
+      "type": "cards",
+      "instructions": "Cut apart and keep the stack face down. Round 1: judge each card using only what it describes. The backs are the source slips your teacher hands out in Round 2.",
+      "cards": [
+        { "label": "Card 1 · Voice message", "front": "Your grandmother gets a voicemail from an unknown number. It sounds exactly like you: \"Grandma, it's me. I lost my phone and I'm in trouble. Please buy two gift cards and text me the codes. Don't tell Mom.\" The voice is a little flat, but it's your voice.", "back": "Source check: you were at school all day and your phone was in your backpack. Voice-cloning tools can copy a voice from a short recording, like a video posted online. A flat voice could also be a bad connection, so the clue proves nothing. The real move: hang up and call back on a number you already know, or ask a family code word. Verdict: scam until verified." },
+        { "label": "Card 2 · Photo", "front": "A crisp photo shows a hailstone the size of a basketball in someone's hand, captioned \"Pine Ridge today!!\" The fingers, shadows, and background all look perfect. There is nothing weird to spot.", "back": "Source check: the account was created last week and posts a new \"amazing\" photo every hour. No weather service, local news outlet, or Pine Ridge resident reports giant hail. Verdict: can't confirm, very likely generated. No glitches is not proof of real." },
+        { "label": "Card 3 · Photo", "front": "A photo of the Lakeview Middle School band after a concert. One student's hand seems to have six fingers. Someone comments: \"AI fake, count the fingers lol.\"", "back": "Source check: the school's official page posted the photo with the photographer's name and more pictures from the same night. Zooming in shows the \"sixth finger\" belongs to the student standing behind. Verdict: real. Clues can raise false alarms, too." },
+        { "label": "Card 4 · Video", "front": "A 15-second video shows Cedar Falls Mayor Dana Ortiz saying, \"All schools are closed for the rest of the week.\" Her lips seem slightly out of sync. Posted by @CedarFallsNewsNow.", "back": "Source check: @CedarFallsNewsNow is not the city's account. The city website and the school district's page announce no closures, and local news has no such story. Verdict: fake (edited or AI-generated). The source settled it; the lips could have been a slow connection." },
+        { "label": "Card 5 · Ad image", "front": "An image with the FreshMart grocery logo: \"FreshMart turns 50! Free $500 gift card for the first 1,000 people. Click to claim.\" The words on the store signs in the background are jumbled nonsense.", "back": "Source check: FreshMart's own website and verified page mention no giveaway, and the link goes to a site with a different name. Jumbled background text is a common clue, but newer tools often write text cleanly, so it won't always be there. Verdict: scam, likely generated." },
+        { "label": "Card 6 · Historic photo", "front": "A bright, full-color photo labeled \"Downtown Pine Ridge, 1920.\" The faces look unusually sharp and smooth for such an old picture.", "back": "Source check: the Pine Ridge Historical Society posted the original black-and-white photo with its archive information. Someone ran it through an AI \"enhance and colorize\" tool, which sharpened faces and guessed at colors. Verdict: real but edited. The original is the trustworthy version." },
+        { "label": "Card 7 · Song clip", "front": "A clip called \"Kira Vale x Captain Comet - NEW SONG\" is spreading fast. It sounds just like the singer Kira Vale. The reshared version has no description.", "back": "Source check: tracing back to the first post shows the creator labeled it \"AI voice cover, fan-made, not the real artist.\" The label disappeared as people reshared it. Kira Vale's verified channel has no such song. Verdict: generated. Labels help only if they travel with the media, so trace back to the original post." },
+        { "label": "Card 8 · Photo", "front": "A photo of firefighters holding a rescued dog. The dog's fur looks smudgy and blurry, like a painting, and the background is strangely smooth.", "back": "Source check: the Maple Hollow Fire Department's verified page posted it, and the local paper ran the story with other photos from the scene. The smudging comes from a phone camera zoomed in at night. Verdict: real. \"Looks AI-ish\" is not evidence." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Clue vs. Source Log",
+      "type": "table",
+      "instructions": "Round 1: clues only. Round 2: name the source question you asked and what the slip told you. Verdicts: Real · Generated · Real but edited · Can't tell yet.",
+      "columns": ["Card", "Round 1: clue we used", "Round 1 verdict + confidence (1–5)", "Source question we asked + what we learned", "Round 2 verdict + confidence"],
+      "rows": [["1 · Voice", "", "", "", ""], ["2 · Hail", "", "", "", ""], ["3 · Band", "", "", "", ""], ["4 · Mayor", "", "", "", ""], ["5 · Ad", "", "", "", ""], ["6 · 1920", "", "", "", ""], ["7 · Song", "", "", "", ""], ["8 · Dog", "", "", "", ""]]
+    },
+    {
+      "id": "C",
+      "title": "My Before-I-Share Plan",
+      "type": "worksheet",
+      "instructions": "Work on your own. You will take this home and share part of it with an adult in your family.",
+      "sections": [
+        { "prompt": "One clue that fooled our team today, and why it failed:", "lines": 3 },
+        { "prompt": "Why do clues like \"extra fingers\" stop working over time?", "lines": 2 },
+        { "prompt": "My four source questions (write them in your own words):", "lines": 4 },
+        { "prompt": "If someone in my family got a voice message that sounded like me asking for money, here is exactly what we would do:", "lines": 4 },
+        { "prompt": "One thing I will do before I share a surprising image, video, or clip:", "lines": 2 }
+      ]
+    }
+  ]
+}

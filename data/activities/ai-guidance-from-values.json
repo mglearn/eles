@@ -1,0 +1,179 @@
+{
+  "id": "ai-guidance-from-values",
+  "title": "From Values to Guidance: Drafting a Campus AI Statement",
+  "tagline": "Leadership teams start with what they value, sort draft clauses, and write a one-page generative AI guidance statement that people can actually follow.",
+  "audience": "pl",
+  "roles": ["leaders", "faculty", "coaches"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["genai", "digcit"],
+  "mode": "hybrid",
+  "minutes": 75,
+  "groupSize": "Teams of 4–6; campus or department teams work best",
+  "eles": ["L1.1", "AI2.1", "AI2.3", "L4.1"],
+  "overview": "Many campuses have AI guidance that is either a ban nobody enforces or a list of tools nobody reads. This session builds guidance the other way around: teams choose the values that matter most for learning on their campus, sort a deck of draft clauses to find which ones are clear, fair, and enforceable, and then draft a one-page statement covering acceptable use, disclosure, privacy, and equity. Along the way they critique an AI-generated draft, which models the same judgment the guidance asks of students and staff.",
+  "objectives": [
+    "Participants will select and define three to four values that will anchor their campus's generative AI guidance.",
+    "Participants will distinguish clear, enforceable guidance clauses from vague or inequitable ones and explain the difference.",
+    "Participants will draft a one-page guidance statement with clauses for acceptable use, disclosure, privacy, and equity, each traceable to a stated value.",
+    "Participants will identify how students, staff, and families will learn about the guidance and how it will be reviewed."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Values Cards (1 set per team, cut apart)",
+      "Handout B: Clause Sort (1 sorting mat and 1 set of clause strips per team)",
+      "Handout C: Guidance Statement Drafting Frame (1 per team, plus 1 per person to take home)",
+      "Chart paper, markers, sticky dots (3 per person)"
+    ],
+    "digital": [
+      "Facilitator device and projector",
+      "A generative AI chatbot your district approves, used by the facilitator only for the AI-draft critique",
+      "Optional: a shared document per team for the final draft"
+    ]
+  },
+  "prep": [
+    "Print and cut Handouts A and B. Keep the clause strips for each team in an envelope.",
+    "Before the session, prompt your district-approved chatbot: \"Write a one-page generative AI guidance statement for a middle school.\" Save the output to project. If you have no approved tool, read aloud the AI-draft description in the Model step note instead.",
+    "Gather any existing district or campus AI guidance, acceptable use policy, and board policy language so teams can check that their draft doesn't conflict with it.",
+    "Post four sheets of chart paper labeled Acceptable Use, Disclosure, Privacy, and Equity."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 7,
+      "title": "Would anyone know what to do?",
+      "body": "Read three quick scenarios aloud: (1) a student uses AI to brainstorm essay topics and doesn't mention it; (2) a teacher pastes a student's IEP goals into a chatbot to draft accommodations; (3) a family can't afford the premium version of an AI tool a teacher recommended. For each, ask: **\"Does our current guidance tell this person what to do?\"** People answer with thumbs up, sideways, or down.",
+      "note": "Most rooms go sideways or down on all three. That tells you the need: guidance that answers real situations, not guidance that lists tools."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Values card sort",
+      "body": "Each team spreads out the twelve values cards. In silence, each person places a sticky dot on the three values that matter most for learning on their campus. Then the team talks: **keep four, set aside the rest.** For each kept value, the team writes one sentence on chart paper: \"On our campus, this means…\"",
+      "note": "Listen for values that pull in different directions, like Curiosity and Safety. Don't resolve the tension. Good guidance names it."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 14,
+      "title": "Sort the clauses",
+      "body": "Teams open the Handout B envelope and sort sixteen draft clauses onto the mat by the area each belongs to: **Acceptable Use, Disclosure, Privacy, or Equity and Access.** Then, within each area, they flip over (or mark with an X) any clause that is vague, unenforceable, or quietly unfair, and rewrite one of them on the back. Compare with the facilitator key.",
+      "note": "Watch for teams that keep \"AI detection software will be used to identify cheating.\" Ask: what happens to a student falsely flagged? Detection tools are not reliable enough to be the only evidence."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Critique an AI-written draft",
+      "body": "Project the AI-generated guidance statement you prepared. Ask teams: **\"Which of your four values does this draft honor? Which does it ignore? What would it tell the three people from our opening scenarios?\"** Mark up the projected draft together, highlighting generic language and missing pieces.",
+      "note": "Unplugged or no approved tool: describe a typical AI draft aloud. It is usually fluent and well organized, bans \"using AI to complete assignments\" without defining that, says nothing about staff use or student data, and never mentions cost or access. The lesson is the same: a polished draft is a starting point, not a decision."
+    },
+    {
+      "phase": "Create",
+      "minutes": 20,
+      "title": "Draft the statement",
+      "body": "Teams use Handout C to write a one-page guidance statement. Every clause must trace back to one of their four values, and the draft must answer the three opening scenarios. Teams also fill in how students, staff, and families will learn about the guidance and when it will be reviewed. Post drafts on the wall when finished.",
+      "note": "Encourage short, plain-language clauses. A good test: could a seventh grader and a parent both explain it back to you?"
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 9,
+      "title": "Gallery walk and stress test",
+      "body": "Teams rotate to another team's draft and test it against a new scenario you read aloud: **\"A student with dyslexia uses AI text-to-speech and an AI outline tool as supports. A classmate says that's cheating.\"** Visitors write one sticky note: what the draft says to do, or what it's missing. Teams return, read their notes, and name one revision.",
+      "note": "This scenario tests whether the equity and acceptable-use clauses talk to each other. Guidance that treats all AI use as a single thing fails here."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 5,
+      "title": "Who sees it next?",
+      "body": "Each team names the next three groups who must review the draft before it is adopted, including at least one student group and one family group, and a date. Each person writes one commitment on the back of Handout C.",
+      "note": "Remind teams to check their draft against existing board policy and district data privacy agreements before sharing widely."
+    }
+  ],
+  "unplugged": "Everything except the AI-draft critique runs on paper, and that step works by describing a typical AI draft aloud (see the Model step note) or by printing an AI draft you generated in advance. The values sort, clause sort, gallery walk, and sticky-note stress test are all physical and are the heart of the session.",
+  "digital": "Run the values sort with a digital sticky-note board and dot voting, and the clause sort as drag-and-drop cards in a shared slide. Teams draft in a shared document with comment access for the gallery walk. Only the facilitator uses the AI chatbot, projected, so no participant needs an account. In a virtual session, use breakout rooms for teams and have visiting teams leave comments instead of sticky notes.",
+  "whyTech": "Critiquing a live AI-generated draft makes the point that fluent is not the same as fit for purpose, and it models the verify-and-decide habit the guidance asks of everyone. Shared drafting documents also leave a revision history that shows how feedback changed the statement.",
+  "adaptations": [
+    { "label": "Higher Ed", "text": "Draft a course- or department-level statement instead, and add a clause area for instructor discretion: what faculty may decide per course and how they must communicate it in the syllabus." },
+    { "label": "Elementary campuses", "text": "Focus the acceptable-use clauses on teacher-driven, projected AI use and staff use, since young students should not hold accounts on consumer AI tools." },
+    { "label": "Include students", "text": "Invite three to five secondary students to join a team for the Create step. Their questions about disclosure are often sharper than the adults'." }
+  ],
+  "lookFors": [
+    "Each clause in the final draft names or clearly connects to one of the team's chosen values.",
+    "The draft addresses staff use of AI with student data, not only student use.",
+    "The disclosure clause tells a student what to disclose and how, rather than only prohibiting undisclosed use.",
+    "The equity clause addresses cost, access, and accommodations, and the draft names who reviews it and when."
+  ],
+  "reflection": [
+    "In what ways am I addressing ethical considerations when using AI in learning and teaching? (AI ELE 2.0)",
+    "How clearly have I communicated our campus's vision for AI, and would a student or parent describe it the same way I would? (Leader ELE 1.0)",
+    "Which of our values is hardest to honor in practice, and what would we need to change to honor it?",
+    "How will we know whether this guidance is changing what students and staff actually do?"
+  ],
+  "transfer": "Share the draft with one student group and one family group within two weeks and ask them to explain it back in their own words. Revise anything they misread, then bring the draft to your leadership team with the feedback attached.",
+  "connections": [
+    { "title": "Generative AI Adoption Checklist", "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/", "note": "A companion checklist for decisions about which AI tools the guidance will cover." },
+    { "title": "PROTECT Rubric v2.0", "url": "https://mglearn.github.io/tcea/protect_rubric_v2/", "note": "Useful for evaluating privacy and safety before a tool is approved under the guidance." },
+    { "title": "Augmented K–16 AI Learning Framework", "url": "https://mglearn.github.io/tcea/alf/", "note": "Helps teams describe levels of acceptable AI use by task." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Values Cards",
+      "type": "cards",
+      "instructions": "Cut apart. Each person dots three; each team keeps four. The backs suggest what each value might sound like in guidance.",
+      "cards": [
+        { "label": "Value", "front": "**Honesty.** We are open about how work was made, including when and how AI helped.", "back": "Sounds like: disclosure clauses, citation of AI assistance, clear expectations per assignment." },
+        { "label": "Value", "front": "**Curiosity.** We want students and staff to explore new tools and ask better questions.", "back": "Sounds like: permission to experiment in defined spaces, prompting as inquiry, sharing what didn't work." },
+        { "label": "Value", "front": "**Privacy.** Personal information belongs to the people it describes.", "back": "Sounds like: no student names, grades, health, or plan details in unapproved AI tools; approved-tool lists tied to data agreements." },
+        { "label": "Value", "front": "**Equity.** No student is advantaged or left behind because of what their family can afford or how they learn.", "back": "Sounds like: no required paid tools, school-provided access, accommodations honored, alternatives offered." },
+        { "label": "Value", "front": "**Human judgment.** People, not software, make decisions that affect students.", "back": "Sounds like: AI may inform but not decide grades, discipline, placement, or integrity findings." },
+        { "label": "Value", "front": "**Transparency.** People affected by a tool can find out how it's used and what it does with their data.", "back": "Sounds like: public list of approved tools, plain-language summaries for families, staff disclosure of AI use in communications." },
+        { "label": "Value", "front": "**Safety.** Students are protected from harmful content, contact, and manipulation.", "back": "Sounds like: age-appropriate access, reporting paths for harmful AI output, guidance on synthetic images of real people." },
+        { "label": "Value", "front": "**Creativity.** Students' own voices and ideas remain at the center of their work.", "back": "Sounds like: AI as brainstorming partner or critic, not ghostwriter; assignments that value process." },
+        { "label": "Value", "front": "**Belonging.** Everyone in our community is treated with respect online and off.", "back": "Sounds like: clauses on AI-generated images or audio of classmates and staff, and consequences for synthetic harassment." },
+        { "label": "Value", "front": "**Integrity.** Grades and credentials reflect what a learner actually knows and can do.", "back": "Sounds like: assessment redesign, process evidence, conversations rather than detector scores." },
+        { "label": "Value", "front": "**Stewardship.** We spend time, money, and attention on what improves learning.", "back": "Sounds like: pilots with evidence criteria before adoption, periodic review of tools in use." },
+        { "label": "Value", "front": "**Growth.** Guidance should help people learn, not only tell them what they can't do.", "back": "Sounds like: training commitments, teachable moments over punishment for first missteps, annual review." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Clause Sort",
+      "type": "sort",
+      "instructions": "Sort each draft clause into the area it belongs to. Then mark any clause that is vague, unenforceable, or unfair, and try rewriting one.",
+      "categories": ["Acceptable Use", "Disclosure", "Privacy", "Equity and Access"],
+      "items": [
+        { "text": "Students may use approved AI tools to brainstorm, get feedback, or practice, unless a teacher states otherwise for a specific assignment.", "answer": "Acceptable Use", "why": "Clear default plus teacher discretion. A strong clause." },
+        { "text": "AI may not be used for schoolwork.", "answer": "Acceptable Use", "why": "Weak: unenforceable, and it blocks accommodations and legitimate uses like text-to-speech." },
+        { "text": "Each assignment will state its AI expectation: no AI, AI for specific steps, or AI allowed with disclosure.", "answer": "Acceptable Use", "why": "Strong: moves the decision to the task, where it belongs." },
+        { "text": "AI tools may inform, but may not decide, grades, discipline, placement, or academic integrity findings.", "answer": "Acceptable Use", "why": "Strong: keeps human judgment in high-stakes decisions." },
+        { "text": "When AI helped with your work, add a short note saying which tool you used, what you asked it, and what you changed.", "answer": "Disclosure", "why": "Strong: specific and teachable; it also produces evidence of the student's thinking." },
+        { "text": "Students must be honest about AI use.", "answer": "Disclosure", "why": "Weak: a value, not guidance. It doesn't say what honest disclosure looks like." },
+        { "text": "Staff who use AI to draft family communications, feedback, or reports will review every word and remain responsible for the content.", "answer": "Disclosure", "why": "Strong: holds adults to the same standard as students." },
+        { "text": "AI detection software will be used to identify cheating.", "answer": "Disclosure", "why": "Weak and risky: detectors can falsely flag students, including multilingual writers. Use conversation and process evidence instead." },
+        { "text": "Do not enter student names, grades, health information, or plan details into any AI tool that is not on the district-approved list.", "answer": "Privacy", "why": "Strong: specific data types and a clear boundary." },
+        { "text": "Be careful with personal data.", "answer": "Privacy", "why": "Weak: no one can act on it. Which data? Careful how?" },
+        { "text": "Tools are approved only after the district confirms a data privacy agreement covering how student data is stored, used, and deleted.", "answer": "Privacy", "why": "Strong: ties approval to FERPA and COPPA obligations and a real review process." },
+        { "text": "Creating or sharing AI-generated images, audio, or video of a real student or staff member without consent is prohibited and will be handled under the student code of conduct.", "answer": "Privacy", "why": "Strong: addresses synthetic media harms directly and connects to existing consequences." },
+        { "text": "No assignment will require a paid AI tool or a personal account.", "answer": "Equity and Access", "why": "Strong: removes a cost barrier families shouldn't carry." },
+        { "text": "Students who need AI-based supports as accommodations (such as text-to-speech or speech-to-text) may always use them.", "answer": "Equity and Access", "why": "Strong: protects accommodations from blanket restrictions." },
+        { "text": "Students without home internet should find a way to complete AI-assisted work.", "answer": "Equity and Access", "why": "Weak and inequitable: puts the burden on the student. Offer in-school time or non-AI alternatives." },
+        { "text": "Families will receive this guidance in the languages spoken at home, with a chance to ask questions at a family event.", "answer": "Equity and Access", "why": "Strong: answers \"How will families understand the change?\"" }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Guidance Statement Drafting Frame",
+      "type": "worksheet",
+      "instructions": "Keep it to one page. Every clause should trace to one of your four values. Use plain language a student and a parent could explain back to you.",
+      "sections": [
+        { "prompt": "Our four values, and what each means on our campus:", "lines": 4 },
+        { "prompt": "Acceptable Use: when and how students and staff may use generative AI (and which value this protects):", "lines": 4 },
+        { "prompt": "Disclosure: what students and staff say about AI help, and how (value):", "lines": 3 },
+        { "prompt": "Privacy: what data never goes into AI tools, and how tools get approved (value):", "lines": 3 },
+        { "prompt": "Equity and Access: cost, access, accommodations, and language (value):", "lines": 3 },
+        { "prompt": "Test it: what does our draft tell each of the three people from the opening scenarios, and the student in the gallery-walk scenario?", "lines": 4 },
+        { "prompt": "How students, staff, and families will learn about this guidance (when, how, in what languages):", "lines": 2 },
+        { "prompt": "Who reviews this next, and when will we revisit it?", "lines": 2 }
+      ]
+    }
+  ]
+}

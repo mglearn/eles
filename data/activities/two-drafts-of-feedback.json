@@ -1,0 +1,158 @@
+{
+  "id": "two-drafts-of-feedback",
+  "title": "Two Drafts of Feedback",
+  "tagline": "Coaches score a human-written and an AI-drafted feedback note on the same lesson transcript, then set the ground rules for when AI belongs in observation, if it belongs at all.",
+  "audience": "pl",
+  "roles": ["coaches", "leaders"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["genai", "digcit"],
+  "mode": "hybrid",
+  "minutes": 50,
+  "groupSize": "Pairs within tables of 4–6; 8–40 people",
+  "eles": ["C1.2", "AI2.3", "C1.1", "AI2.1"],
+  "overview": "Generative AI can turn a lesson transcript into a tidy feedback note in seconds, and some coaching platforms now offer to do it automatically. Coaches in this session read a short fictional transcript, score two unlabeled feedback drafts against a quality checklist, and guess which one a chatbot wrote. The reveal sets up the harder conversation: consent, student privacy, transparency with the teacher, and the line between an AI draft and a coach's judgment.",
+  "objectives": [
+    "Participants will score feedback against criteria (specific, evidence-based, tied to the teacher's goal, one actionable next step) rather than by how polished it sounds.",
+    "Participants will identify at least one claim in AI-drafted feedback that the transcript does not support.",
+    "Participants will sort observation-related AI uses by the consent, privacy, and transparency conditions each requires and draft a disclosure statement for teachers."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Lesson Transcript and Two Feedback Drafts (1 per person)",
+      "Handout B: Feedback Quality Checklist (2 per person, one per draft)",
+      "Handout C: AI in Observation Sort (1 set per table, cut apart), plus a sorting mat",
+      "Highlighters in two colors"
+    ],
+    "digital": [
+      "Facilitator device and projector",
+      "Optional: a generative AI chatbot your district approves, used only by the facilitator on the projector with the fictional transcript"
+    ]
+  },
+  "prep": [
+    "Print Handout A double-sided so the transcript and both drafts stay together.",
+    "Cut Handout C into strips and clip one set per table with a mat showing the three category headings.",
+    "If you plan the live demo, test your prompt on the fictional transcript first and save the output in case the network fails. Never demo with a real teacher's or student's data."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "Which one did a person write?",
+      "body": "Project the first two sentences of Draft X and Draft Y side by side. Ask everyone to vote with a hand: **\"Which draft came from a chatbot?\"** Don't reveal. Say: \"Hold that guess. By the end, you'll see why the more important question is not who wrote it, but whether it's true and useful to this teacher.\"",
+      "note": "Rooms usually split or lean toward the more polished draft as the human one. Either way, the guess isn't the learning."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Read the lesson, then score both drafts",
+      "body": "Everyone reads the transcript on Handout A and highlights, in one color, every moment where a student explains their thinking. Then pairs score Draft X and Draft Y separately with Handout B. For every \"Yes,\" they must point to a line in the transcript that proves it. Pairs write their guess about authorship at the bottom of each checklist.",
+      "note": "Look-for: pairs who go back to the transcript to check a claim in the feedback. That is the same verification habit we want teachers to teach with AI outputs."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "The reveal and the trace",
+      "body": "Reveal that **Draft Y was AI-drafted** from the transcript and the teacher's goal. Model tracing its claims out loud: \"It praises the turn-and-talk at the start. Let me find it. There is no turn-and-talk in the transcript.\" Then trace Draft X the same way and name its flaw too: specific and accurate, but it offers three next steps when a teacher can act on one. Ask: **\"Which draft would help Mr. Delgado more on Monday, and what would you change in each?\"**",
+      "note": "Don't let this become \"AI bad, human good.\" Draft Y also caught the short wait time, which is real. The point is that the coach owns every sentence the teacher reads."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Sort the uses: consent, privacy, transparency",
+      "body": "Tables sort the Handout C strips onto three categories: **Reasonable with consent and disclosure**, **Only with added guardrails**, and **Don't do it**. For every strip in the middle column, the table must name the guardrail on a sticky note (for example, \"remove student names first\" or \"teacher sees the AI draft and the coach's edits\"). Then tables compare with the facilitator key.",
+      "note": "Expect debate on recording video for AI analysis. Surface who has to consent: the teacher, and, when students can be heard or seen, the district's policy on student recordings and families. When in doubt, it belongs in the middle or right column."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 9,
+      "title": "Write the feedback Mr. Delgado deserves",
+      "body": "Pairs write a new three-sentence note: one specific strength with evidence, one observation tied to his goal, and **one** next step. Digital path: the facilitator projects an approved chatbot, pastes the fictional transcript, and asks for a draft; pairs then mark which sentences they would keep, fix, or delete and why. Unplugged path: pairs revise Draft Y by hand into something they would sign.",
+      "note": "Ask a pair or two to read their note aloud. Listen for whether the next step is something he can try in one lesson."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "Our disclosure sentence",
+      "body": "Each person finishes this on the back of Handout B: **\"When I use AI in my coaching, I will tell teachers…\"** Invite three people to share. Close with the coaching question: \"If you used AI to draft feedback, what would change in teacher practice that wouldn't have changed otherwise?\"",
+      "note": "Strong disclosure sentences name what data goes in, who sees the draft, and who makes the final call."
+    }
+  ],
+  "unplugged": "Run the whole session on paper: the transcript, both drafts, the checklist, and the sort carry every step. In the Apply step, pairs revise Draft Y by hand instead of watching a live AI draft. Revising a machine draft on paper makes the coach's editorial judgment very visible.",
+  "digital": "Project the transcript and the drafts, and put the checklist in a shared form so you can show the room's scores for each draft live. For the Apply step, the facilitator runs an approved chatbot on the projector with the fictional transcript only. In a virtual session, run the sort as a drag-and-drop board with three columns.",
+  "whyTech": "The live AI draft shows coaches how fast and how confident the output is, including invented details, which is exactly what they need to see before any platform offers to automate it. The paper path teaches the scoring and ethics equally well.",
+  "adaptations": [
+    { "label": "Campus leaders", "text": "Add a strip on using AI summaries in formal appraisal and discuss why coaching feedback and evaluation records need different rules." },
+    { "label": "Higher Ed", "text": "Use the same structure for peer observation of teaching. Add a strip on sending lecture recordings with student voices to an external AI service." },
+    { "label": "Teacher PLCs", "text": "Teachers score the drafts as the recipient: \"Which would I want to receive?\" Then write what they would want a coach to disclose." }
+  ],
+  "lookFors": [
+    "Every \"Yes\" on Handout B is backed by a specific transcript line, and pairs flag Draft Y's invented turn-and-talk.",
+    "Middle-column strips on the sort each carry a named guardrail, not just \"be careful.\"",
+    "Revised feedback notes contain one next step tied to Mr. Delgado's stated goal.",
+    "Disclosure sentences name what data goes into the tool and who makes the final decision."
+  ],
+  "reflection": [
+    "How effectively am I supporting teachers in improving their instructional practices? (Coach ELE guiding question)",
+    "What would a teacher need to know before trusting feedback I drafted with AI?",
+    "Where in my observation process could student data end up in a tool it shouldn't?"
+  ],
+  "transfer": "Before your next observation, share your disclosure sentence with the teacher and agree on whether any AI tool will touch the notes. After the debrief, ask the teacher which single sentence of your feedback they acted on.",
+  "connections": [
+    { "title": "Generative AI Adoption Checklist", "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/", "note": "Use it with leaders when a coaching platform offers built-in AI feedback." },
+    { "title": "AI Custom Instructions Library", "url": "https://mglearn.github.io/tcea/custom-instructions-library/", "note": "Ideas for instructions that keep an AI drafting assistant tied to evidence." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Lesson Transcript and Two Feedback Drafts",
+      "type": "reading",
+      "instructions": "Fictional. Mr. Delgado teaches 5th grade math at Bluebonnet Elementary. His goal for this observation: \"More students explain their thinking out loud, not just give answers.\" Highlight each time a student explains their thinking.",
+      "paragraphs": [
+        "**Transcript excerpt (minutes 6–11).** Mr. Delgado: \"Which is bigger, three-fourths or five-eighths? Hands up.\" (Four hands.) \"Marcus?\" Marcus: \"Three-fourths.\" Mr. Delgado: \"Good. Why?\" (Two seconds.) \"Because three-fourths is the same as six-eighths, right? And six is more than five. Great.\"",
+        "Mr. Delgado: \"Next one. Two-thirds or three-fifths? Ana, you look like you've got it.\" Ana: \"Two-thirds, because I drew them both on the number line and two-thirds was farther from zero. It's a little farther.\" Mr. Delgado: \"Nice, Ana used a number line. Everyone, write that down.\"",
+        "Mr. Delgado: \"Last one before the worksheet. Four-sixths or two-thirds? Anyone?\" (One second.) \"They're equal! Four-sixths simplifies to two-thirds. Okay, worksheets out, pages 12 and 13.\" A student at the back table: \"Wait, how did you...\" (Students begin the worksheet; the question is not picked up.)",
+        "**Draft X.** \"Mr. Delgado, thank you for having me. Your goal was more students explaining their thinking. Ana's number-line explanation was a real example of that, and you named her strategy for the class. I also noticed that after you asked Marcus 'Why?' about two seconds passed before you gave the reasoning yourself, and on the last problem the question at the back table went unanswered. Three things to try: wait at least five seconds after 'Why?', have partners explain to each other before you call on anyone, and ask Ana to teach her number line to a small group.\"",
+        "**Draft Y.** \"Mr. Delgado demonstrated strong questioning techniques throughout the lesson. The turn-and-talk at the start of the lesson was highly effective in engaging all learners, and students were clearly comfortable sharing their reasoning. One area for growth is wait time; research suggests extending wait time improves the quality of student responses. Consider implementing think-pair-share, exit tickets, and differentiated grouping to further increase student discourse. Ana struggled initially but showed growth. Overall, this was an excellent lesson aligned to grade-level standards.\"",
+        "**Questions to consider.** Which sentences can you prove from the transcript? Which sentences could have been written about almost any lesson? Which draft respects Mr. Delgado's goal? Is there anything in either draft about a student that shouldn't be in a document others might see?"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Feedback Quality Checklist",
+      "type": "checklist",
+      "instructions": "Score one draft per checklist. For every \"Yes,\" write the transcript line that proves it in the margin.",
+      "scale": ["Yes", "Partly", "No"],
+      "items": [
+        "Names the teacher's own goal and stays focused on it.",
+        "Every strength it names actually happened in the transcript.",
+        "Quotes or describes a specific moment, not a general impression.",
+        "Notices what students did, not only what the teacher did.",
+        "Offers one next step the teacher could try in the very next lesson.",
+        "Avoids generic advice that could fit any lesson.",
+        "Describes students in a way that would be fine if the teacher or a family read it.",
+        "Sounds like it came from someone who was in the room.",
+        "Would help this teacher change something on Monday.",
+        "Our guess: written by a person / drafted by AI. What made us think so?"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "AI in Observation Sort",
+      "type": "sort",
+      "instructions": "Cut apart. Place each strip under a heading. For every strip in the middle, name the guardrail on a sticky note.",
+      "categories": ["Reasonable with consent and disclosure", "Only with added guardrails", "Don't do it"],
+      "items": [
+        { "text": "Using an approved chatbot to reword your own finished feedback so it is shorter, then checking every sentence before sending.", "answer": "Reasonable with consent and disclosure", "why": "The coach wrote and verified the content; tell the teacher you used a tool to edit." },
+        { "text": "Asking an approved chatbot to suggest five questioning strategies for a fractions lesson, with no lesson data included.", "answer": "Reasonable with consent and disclosure", "why": "No personal data; the coach still judges which strategy fits." },
+        { "text": "Pasting a de-identified transcript (no teacher, student, or school names) into a district-approved tool to draft first-pass feedback.", "answer": "Only with added guardrails", "why": "Needs the teacher's agreement, de-identification checked by a person, and the coach verifying every claim against the transcript." },
+        { "text": "Recording a lesson on video and running it through an AI tool that counts teacher talk time versus student talk time.", "answer": "Only with added guardrails", "why": "Needs teacher consent, district policy on recording students, a clear retention and deletion plan, and a check of how accurate the counts are." },
+        { "text": "Letting a coaching platform's AI automatically send feedback to the teacher after an observation, with no coach review.", "answer": "Don't do it", "why": "No human accountability; invented or generic claims reach the teacher unchecked." },
+        { "text": "Pasting raw observation notes that name students and describe their behavior into a free consumer chatbot.", "answer": "Don't do it", "why": "Student information shared with an unapproved service; a likely privacy violation." },
+        { "text": "Using AI-drafted feedback in a teacher's formal evaluation file without telling the teacher AI was involved.", "answer": "Don't do it", "why": "Fails transparency; evaluation decisions need human authorship the teacher can question." },
+        { "text": "Asking an approved chatbot to turn your handwritten observation notes (initials only, no student names) into a clean summary you then edit.", "answer": "Only with added guardrails", "why": "Check that nothing identifying remains, verify the summary against your notes, and disclose the use." },
+        { "text": "Telling teachers at the start of the year which AI tools you might use, what goes into them, and that they can opt out.", "answer": "Reasonable with consent and disclosure", "why": "This is the disclosure itself, and it builds trust." },
+        { "text": "Using an AI tool to compare one teacher's lesson transcript with another teacher's and rank them.", "answer": "Don't do it", "why": "Turns coaching into ranking; undermines trust and uses colleagues' data for a purpose they did not agree to." }
+      ]
+    }
+  ]
+}

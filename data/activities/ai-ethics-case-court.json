@@ -1,0 +1,152 @@
+{
+  "id": "ai-ethics-case-court",
+  "title": "AI Ethics Case Court",
+  "tagline": "Educators put fictional AI uses in grading, proctoring, detection, and monitoring on trial, then issue rulings with conditions that could become real policy.",
+  "audience": "pl",
+  "roles": ["leaders", "teachers", "faculty", "coaches"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["genai", "digcit"],
+  "mode": "unplugged",
+  "minutes": 70,
+  "groupSize": "Courts of 6–7 (2 prosecution, 2 defense, 2–3 judges); any number of courts",
+  "eles": ["AI2.2", "AI2.1", "AI2.3", "AI1.3"],
+  "overview": "Schools and colleges are already making consequential decisions with AI: scoring writing, flagging suspected cheating, monitoring student devices, predicting who might drop out. These uses can save time and catch real problems, and they can also harm the students with the least power to push back. In this mock-court session, small courts argue fictional cases using an ethical principles bench card, then rule \"allowed,\" \"allowed with conditions,\" or \"not allowed.\" The conditions they write become a draft of practical guidance for their own campus.",
+  "objectives": [
+    "Participants will identify ethical issues (privacy, fairness, transparency, accountability, human oversight, learning benefit) in realistic AI uses in education.",
+    "Participants will argue both sides of an AI use case using evidence from the scenario rather than general opinion.",
+    "Participants will propose specific, enforceable conditions that would make an AI use acceptable, or explain why no conditions would."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Case Files (1 set per court, cut apart)",
+      "Handout B: Ethics Bench Card (1 per person)",
+      "Handout C: Ruling and Remedy Form (1 per court)",
+      "A gavel or bell for fun, name tents labeled Prosecution, Defense, and Bench",
+      "Chart paper titled \"Conditions we'd adopt\""
+    ],
+    "digital": [
+      "Optional: a shared document where courts post rulings so the whole room can compare",
+      "Optional: a generative AI chatbot your district approves, projected by the facilitator, to generate a counter-argument the defense or prosecution missed"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Decide whether every court hears the same case (easier to compare rulings) or different cases (wider coverage). For mixed K–12 and higher ed rooms, assign Case 3 and Case 6 to courts with faculty.",
+    "Read the case backs. They list the issues a strong court should surface, including accurate notes on AI-writing detectors and proctoring tools.",
+    "Arrange tables in a U for each court: bench at the head, prosecution and defense facing each other."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Would you sign it?",
+      "body": "Read aloud: **\"Starting Monday, an AI system will flag any student essay it judges to be AI-written. Flagged essays receive a zero pending review.\"** Ask: \"Stand up if you'd sign this policy as written.\" Most stay seated. Ask one person why. Then: \"Today you'll figure out what it would take, if anything, to make a policy like this defensible.\"",
+      "note": "Someone usually mentions false accusations. Acknowledge it and hold it for Case 2."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "The bench card",
+      "body": "Walk through Handout B's seven principles with one quick example each. Emphasize two questions judges must always ask: **\"Who is accountable when it's wrong?\"** and **\"Can the person affected see, question, and appeal the decision?\"** Explain the three verdicts: *Allowed*, *Allowed with conditions* (conditions must be specific enough to check), or *Not allowed*.",
+      "note": "Stress that \"ethical\" doesn't mean \"never.\" Many strong rulings are \"allowed with conditions.\" Many weak ones are vague (\"use responsibly\")."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Prepare the case",
+      "body": "Courts receive a case file. Prosecution builds the strongest case that this use harms students or violates a principle. Defense builds the strongest case for the benefits and argues any harms can be managed. The bench studies the bench card and writes three questions they'll ask each side. Everyone must cite details from the case file, not general feelings about AI.",
+      "note": "Assign sides randomly. Arguing the side you disagree with is where the learning happens, especially for leaders who will face both arguments from their community."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 18,
+      "title": "Court is in session",
+      "body": "Run the trial: prosecution opens (2 min), defense opens (2 min), bench questions both sides (6 min), each side gives a 1-minute closing. The bench deliberates aloud for 4 minutes while others listen, using Handout B, and completes Handout C: the verdict, the principle that weighed most, and the conditions. Bang the gavel.",
+      "note": "Look for benches that separate the *tool's* reliability from the *decision rule* built around it. A flawed tool used only to start a conversation is very different from the same tool used to assign a zero."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 12,
+      "title": "Compare rulings",
+      "body": "Each court reads its verdict and top two conditions aloud. Post conditions on \"Conditions we'd adopt.\" Ask the room: **\"Which conditions showed up across different cases?\"** Common ones: a human makes the final decision, students and families are told, there's a real appeal process, data is minimized and deleted, the tool is checked for unequal error rates. Then: **\"Who might be left out or harmed by our own conditions?\"**",
+      "note": "On detectors, make sure the room hears the accurate note: AI-writing detectors are known to be unreliable, and there are published concerns about false positives for non-native English writers. Don't cite a specific error rate; none is universal."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 15,
+      "title": "From verdict to guidance",
+      "body": "Mixed groups (one person from each court) draft three sentences of guidance for their campus, department, or course using the posted conditions: one **\"We will…\"**, one **\"We will not…\"**, and one **\"If AI contributes to a decision about a student, the student can…\"**. Leaders take these to their next policy conversation; faculty adapt them for a syllabus or department handbook.",
+      "note": "Leaders can run the five-question check on the draft: vision, evidence, change in instruction, who might be left out, and how families will understand."
+    }
+  ],
+  "unplugged": "The session is designed to run fully unplugged: cases, bench cards, and structured argument. The physical courtroom arrangement and assigned sides do more for perspective-taking than any screen could.",
+  "digital": "In a virtual session, use breakout rooms as courts, share case files as slides, and have benches complete Handout C in a shared document so all rulings appear side by side. As an optional twist, the facilitator can project a district-approved chatbot and ask it to \"give the strongest argument the defense missed.\" Then the bench judges whether that argument holds up, which is itself practice in evaluating AI output.",
+  "whyTech": "Better unplugged. The learning is in live argument, perspective-taking, and deliberation. A shared ruling document adds one thing: a record of conditions across courts that leaders can carry directly into a policy draft.",
+  "adaptations": [
+    { "label": "Higher Ed faculty", "text": "Use Cases 3 (remote proctoring) and 6 (faculty use of AI in recommendation letters) and add accreditation and disability services considerations to the bench card." },
+    { "label": "District and campus leaders", "text": "Add a \"procurement\" witness who must answer what the vendor contract says about data use, retention, and deletion. Leaders rule on the contract, not just the practice." },
+    { "label": "Grades 9–12 students", "text": "Teachers can run Cases 2 and 4 with students, who argue about decisions that directly affect them. Their conditions make excellent input for a student AI-use agreement." }
+  ],
+  "lookFors": [
+    "Arguments cite specific details from the case file rather than general views about AI.",
+    "Handout C rulings name the principle that weighed most and include conditions specific enough to check (who, when, how).",
+    "Benches distinguish a tool's reliability from the decision rule built around it.",
+    "Guidance drafts include a student-facing right: to know, to question, or to appeal."
+  ],
+  "reflection": [
+    "In what ways am I addressing ethical considerations when using AI in learning and teaching?",
+    "Where in my practice does software already influence decisions about students, and could a student see and question those decisions?",
+    "Which of today's conditions could I apply in my own classroom or office by Friday?"
+  ],
+  "transfer": "Share your three-sentence guidance with your students and ask what they'd add. Then choose one AI use in your own work (feedback, grading support, monitoring, recommendations) and apply your court's conditions to it before using it again.",
+  "connections": [
+    { "title": "Generative AI Adoption Checklist", "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/", "note": "Turn your court's conditions into a campus or district adoption review." },
+    { "title": "PROTECT Rubric v2.0", "url": "https://mglearn.github.io/tcea/protect_rubric_v2/", "note": "Useful for rulings that hinge on privacy and data protection." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Case Files",
+      "type": "cards",
+      "instructions": "All people, schools, and products are fictional. Backs are the facilitator key: issues a strong court should surface.",
+      "cards": [
+        { "label": "Case 1 · AI-assisted essay scoring", "front": "At Maple Hollow High, an English teacher with 160 students uses an AI tool to score essays on a rubric and draft comments. She spot-checks about one in ten. Students aren't told AI was involved. Scores go straight into the gradebook.", "back": "Issues: transparency (students not told), accountability (whose score is it?), human oversight (90% unreviewed), fairness (does it score non-standard dialects or unusual structures lower?), learning benefit (faster feedback is real). Strong conditions: disclose use, teacher reviews every final score, AI comments are drafts only." },
+        { "label": "Case 2 · AI-writing detector", "front": "Cedar Ridge Middle School runs every essay through an AI-writing detector. Luisa, who moved from Guatemala two years ago, is flagged at \"high likelihood AI.\" Policy gives an automatic zero unless she can prove she wrote it. She has no drafts saved.", "back": "Issues: AI-writing detectors are known to be unreliable, and there are published concerns about false positives for non-native English writers. Burden of proof falls on the student. Strong rulings: detector output alone never triggers a penalty; evidence comes from process (drafts, conversation, in-class writing)." },
+        { "label": "Case 3 · Remote proctoring (higher ed)", "front": "Bluebonnet Community College requires webcam proctoring software for online exams. It flags \"suspicious behavior\" such as looking away or background noise. A student with a tic disorder is flagged on every exam; another student's face isn't consistently detected in dim lighting in a shared apartment.", "back": "Issues: privacy (video of home), fairness (disability, lighting, skin tone and camera concerns raised by students and advocates), accommodations, access (quiet private space isn't equally available). Conditions: flags reviewed by a human before any action, accommodation path, alternative assessment options." },
+        { "label": "Case 4 · Device monitoring", "front": "Pecan Valley ISD uses AI software that scans students' searches and messages on school accounts for signs of self-harm or violence, alerting campus staff 24/7. It flags a message: \"I'm going to shoot my shot at tryouts.\" A counselor and an officer visit the student's home at night.", "back": "Issues: student safety is a genuine and serious goal; also privacy, false positives, who receives alerts, the escalation path, and chilling effects on student expression. Conditions: trained human triage before any escalation, clear scope disclosed to families, data retention limits, review of false-alarm patterns." },
+        { "label": "Case 5 · Dropout prediction", "front": "Riverbend ISD adopts a model that predicts which ninth graders are \"at risk\" of not graduating, using attendance, grades, discipline, and zip code. Every teacher sees a red, yellow, or green label next to each student's name.", "back": "Issues: using zip code can encode inequities; labels can shape teacher expectations; can students or families see or contest the label? Benefit: earlier support. Conditions: remove proxy variables, show labels only to support staff, use the prediction to offer help, never to limit opportunities; review accuracy by student group." },
+        { "label": "Case 6 · Faculty letters (higher ed)", "front": "A professor at Bluebonnet Community College writes 40 recommendation letters a year. She pastes students' names, grades, and personal stories into a consumer AI chatbot to draft them, then edits lightly. Students don't know.", "back": "Issues: privacy (student records entered into a tool without an institutional agreement), transparency, authenticity (a letter carries the writer's personal judgment), bias in generated praise words. Conditions: use only institution-approved tools, no identifying details, disclose, the professor writes the substantive judgments herself." },
+        { "label": "Case 7 · AI tutor chatbot", "front": "Lone Oak Elementary pilots a fictional \"BrightPath Tutor\" chatbot for 4th grade math. It helps students who are stuck. The contract lets the vendor keep student conversations to \"improve the product.\" Families were sent a one-line notice in English only.", "back": "Issues: data use by the vendor, age of users, meaningful family notice (language access), whether the tutor gives answers instead of hints, evidence of learning. Conditions: contract limits on data use and deletion, notice in families' languages, a teacher monitors, measure learning, not minutes used." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Ethics Bench Card",
+      "type": "table",
+      "instructions": "Judges: use the questions to question both sides. Mark the principle that weighs most in your ruling.",
+      "columns": ["Principle", "Questions the bench asks", "What we heard (notes)"],
+      "rows": [
+        ["Learning benefit", "What does this do for students' learning or wellbeing? What evidence shows it?", ""],
+        ["Privacy", "What data is collected, who sees it, how long is it kept, and could it be used for something else?", ""],
+        ["Fairness", "Could it work less well, or cause more harm, for some groups (language, disability, race, income)?", ""],
+        ["Transparency", "Do students and families know AI is involved and roughly how it works?", ""],
+        ["Accountability", "Who is responsible when it's wrong? Is there a real appeal?", ""],
+        ["Human oversight", "Does a person make the final decision, with time and training to do it well?", ""],
+        ["Voice", "Were the people affected (students, families, faculty) consulted?", ""]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Ruling and Remedy Form",
+      "type": "worksheet",
+      "instructions": "The bench completes this aloud during deliberation. Conditions must be specific enough that someone could check whether they were followed.",
+      "sections": [
+        { "prompt": "Case and verdict (circle one): ALLOWED · ALLOWED WITH CONDITIONS · NOT ALLOWED", "lines": 1 },
+        { "prompt": "The principle that weighed most in our ruling, and the case detail that tipped it:", "lines": 3 },
+        { "prompt": "Strongest argument from the side that lost:", "lines": 2 },
+        { "prompt": "Conditions (who does what, when). At least three, or explain why no conditions would be enough:", "lines": 5 },
+        { "prompt": "What the affected student can do if they believe the AI got it wrong:", "lines": 2 },
+        { "prompt": "Who might still be left out or harmed under our ruling?", "lines": 2 }
+      ]
+    }
+  ]
+}

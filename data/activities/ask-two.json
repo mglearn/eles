@@ -1,0 +1,242 @@
+{
+  "id": "ask-two",
+  "title": "Ask Two",
+  "tagline": "A confident robot helper says things that are sometimes right and sometimes wrong, and children become learning owners by checking each answer in two places before they believe it.",
+  "audience": "student",
+  "grades": [
+    "K-2"
+  ],
+  "strands": [
+    "genai",
+    "medialit"
+  ],
+  "mode": "hybrid",
+  "minutes": 35,
+  "groupSize": "Pairs rotating through 3 checking stations; whole class for the demo",
+  "eles": [
+    "S4.1",
+    "AI4.1",
+    "S2.2",
+    "S4.3",
+    "AI4.2"
+  ],
+  "overview": "Talking speakers, apps, and AI chatbots answer children's questions in a friendly, sure-sounding voice. Sounding sure is not the same as being right. In this lesson, **Robo Helper** (you, reading answer cards, plus an optional projected AI chatbot) gives answers to simple science and everyday questions. Pairs pick up a card and **Ask Two**: they check it at two of three stations (Book Nook, Look and See, Grown-Up Desk) before deciding right, wrong, or not sure yet. Children practice owning their learning: asking, checking, and changing their minds when the evidence says so.",
+  "objectives": [
+    "Students will check a robot helper's answer in two places (a book, their own eyes, or a trusted grown-up) before deciding if it is right.",
+    "Students will say that a computer can sound sure and still be wrong.",
+    "Students will record their two checks and their decision by drawing or writing on an Ask Two card.",
+    "Students will name one way they are good at checking and one thing they want to get better at."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Robo Helper Says… cards (1 set per 5 pairs, cut apart)",
+      "Handout B: My Ask Two Card (2 per pair)",
+      "Handout C: I Am a Learning Owner checklist (1 per student)",
+      "Station signs: BOOK NOOK, LOOK AND SEE, GROWN-UP DESK",
+      "Book Nook: 4–6 simple nonfiction books about spiders, frogs, butterflies, penguins, whales, plants, and the sun and Earth",
+      "Look and See: a cup with an ice cube, a small potted plant (or a photo of a watered and a dried plant), a wall calendar, a picture of a spider",
+      "Grown-Up Desk: you, an aide, a volunteer, or an older reading buddy with the card key"
+    ],
+    "digital": [
+      "Optional: a generative AI chatbot your district approves, on the teacher's device only, projected for the class",
+      "Optional: a kid-friendly nonfiction website or e-book your library provides, as a fourth \"source\" projected by the teacher"
+    ]
+  },
+  "prep": [
+    "Cut apart the Robo Helper cards. Print the backs as a key for the Grown-Up Desk.",
+    "Pull nonfiction books from the library that answer the cards' questions and mark the right pages with sticky notes so young readers can find them.",
+    "Set up the Look and See station. Put an ice cube in a cup 10 minutes before the lesson so it has started to melt.",
+    "If you'll run the projected demo, test your district-approved chatbot first with the questions listed in the Digital section."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "Robo Helper sounds very sure",
+      "body": "In a proud robot voice, read: **\"Robo Helper says: A spider has 6 legs. I am 100 percent sure!\"** Ask: \"Robo sounds SO sure. Do we believe it?\" Let children react. Hold up the spider picture and count the legs together: 8. Say: \"Robo sounded sure, but it was wrong. Sounding sure is not the same as being right. Today you'll learn a superpower called **Ask Two**.\"",
+      "note": "If a child already knows spiders have 8 legs, great: ask \"How do you know? Where did you learn it?\" That's a source."
+    },
+    {
+      "phase": "Model",
+      "minutes": 6,
+      "title": "Ask Two: think aloud",
+      "body": "Hold up two fingers: **\"Before I believe it, I check it in TWO places.\"** Introduce the three stations: **Book Nook** (look in a book), **Look and See** (check with your own eyes), **Grown-Up Desk** (ask a trusted grown-up). Model with the card \"Ice melts when it gets warm\": go to Look and See (\"The ice cube in the cup is melting. Check one!\"), then Book Nook (show a page). Fill in a My Ask Two Card on the document camera: Robo said, check 1, check 2, circle RIGHT.",
+      "note": "Point out that you checked even though Robo was right. Checking isn't only for wrong answers; it's how learners own what they know."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 14,
+      "title": "Checking stations",
+      "body": "Each pair draws a Robo Helper card and gets a My Ask Two Card. Pairs choose two stations that fit their question, visit them, and draw or write what they found. Then they circle **RIGHT**, **WRONG**, or **NOT SURE YET**. When done, they draw a new card. Circulate and ask: **\"Which station helped most for your question? Why?\"** At the Grown-Up Desk, the adult doesn't give the answer right away but asks, \"Where could we look?\" and helps the pair find it.",
+      "note": "\"Not sure yet\" is a great answer when two checks disagree or can't be found. Praise it. It's honest and it means you keep checking."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 6,
+      "title": "What did Robo get wrong?",
+      "body": "Gather on the rug. Pairs share one card: \"Robo said ___. We checked ___ and ___. Robo was ___.\" Tally on the board how many Robo answers were right and how many were wrong. Ask: **\"Could you tell which ones were wrong just by listening to Robo's voice?\"** (No, Robo always sounded sure.) Then: \"Some computers use AI to answer questions. They can be helpful and they can be wrong. A learning owner does what?\" Children hold up two fingers: \"Ask Two!\"",
+      "note": "If you run the projected demo, do it here, before the tally, and add the real chatbot's answers to the checking."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "I am a learning owner",
+      "body": "Read the Handout C checklist aloud, one line at a time. Children color Yes or Not yet. Then each child finishes the last two lines of their My Ask Two Card with a drawing or a few words: \"I am good at checking by…\" and \"Next time I will…\" Ask two or three children to share their \"Next time\" goal.",
+      "note": "This is S4.3 in action: children notice a strength and a next step. Keep goals small (\"I will look in a book first\")."
+    }
+  ],
+  "unplugged": "Robo Helper can be entirely you, reading the cards in a robot voice. The books, real objects, and adults at the stations are the sources, so no device is needed. The lesson loses nothing essential without the projected demo.",
+  "digital": "During the Debrief, project a district-approved AI chatbot from your device. Let children pick two or three of the same questions (\"How many legs does a spider have?\" \"Can penguins fly?\" \"Where do pumpkins grow?\") and type them as the class watches, adding \"Answer for a first grader.\" Read each answer aloud, then Ask Two as a class using a book and a projected library e-book or kid-friendly site. Whether the chatbot is right or wrong, the move is the same: check in two places. Children never use their own AI accounts; you type every question.",
+  "whyTech": "The projected chatbot makes the lesson real: children see that an actual AI tool answers in a smooth, sure voice, and they practice checking it with books and adults. The evidence of learning is the Ask Two card with two checks recorded, not the chatbot's answer.",
+  "adaptations": [
+    {
+      "label": "Kindergarten",
+      "text": "Run the stations as a whole class, one card at a time, with you walking the class to each station. Children circle a thumbs-up or thumbs-down face instead of writing."
+    },
+    {
+      "label": "Grade 2",
+      "text": "Add a rule: at least one check must be a book or other printed source. Pairs write one sentence explaining which source they trusted most and why."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Provide nonfiction books in the home language when you can, and let the Grown-Up Desk adult speak the child's home language if available."
+    },
+    {
+      "label": "Early readers",
+      "text": "Put a sticky-note picture cue on each marked book page, and pair emergent readers with a stronger reader for the Book Nook."
+    }
+  ],
+  "lookFors": [
+    "My Ask Two Cards show two different checks (book, eyes, grown-up) and a circled decision that matches the evidence.",
+    "Children change their decision when a check disagrees with Robo, or choose \"not sure yet\" when their checks disagree.",
+    "In the Debrief, children say that a sure-sounding voice doesn't prove an answer is right.",
+    "On the Ask Two Card, children name a real checking strength and a small next-step goal."
+  ],
+  "reflection": [
+    "Am I trying my best to learn on my own? How did I check today? (Student ELE guiding question)",
+    "Which station helped you most? Why?",
+    "What will you do the next time a computer or speaker tells you something?"
+  ],
+  "transfer": "Send home a blank My Ask Two Card. Families pick something a speaker, app, or TV show told them this week and check it in two places together (a book, a grown-up, or looking with their own eyes). In class, post \"Ask Two\" by the classroom library and use the two-finger signal whenever a surprising fact comes up.",
+  "connections": [
+    {
+      "title": "Gen AI Literacy Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/genailit/",
+      "note": "A teacher-led digital follow-up on questioning AI answers."
+    },
+    {
+      "title": "CLEAR Crew Detective Thinking Game",
+      "url": "https://mglearn.github.io/tcea/clear/",
+      "note": "A detective thinking game that extends the checking habit."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Robo Helper Says…",
+      "type": "cards",
+      "instructions": "Pairs pick a card. Ask Two: check it in two places before you decide. The back is the key for the Grown-Up Desk.",
+      "cards": [
+        {
+          "label": "Robo says",
+          "front": "\"A spider has 6 legs.\"",
+          "back": "WRONG. Spiders have 8 legs. Insects, like ants, have 6. Check: count legs in a picture; look in an animal book."
+        },
+        {
+          "label": "Robo says",
+          "front": "\"Frogs start life as tadpoles.\"",
+          "back": "RIGHT. Frogs hatch from eggs as tadpoles that live in water. Check: a life-cycle book; ask a grown-up."
+        },
+        {
+          "label": "Robo says",
+          "front": "\"Penguins fly high in the sky.\"",
+          "back": "WRONG. Penguins are birds, but they can't fly. They swim. Check: a penguin book; ask a grown-up."
+        },
+        {
+          "label": "Robo says",
+          "front": "\"Ice melts when it gets warm.\"",
+          "back": "RIGHT. Check: look at the ice cube in the cup at Look and See; a weather or water book."
+        },
+        {
+          "label": "Robo says",
+          "front": "\"Plants don't need water to grow.\"",
+          "back": "WRONG. Plants need water. Check: look at the watered plant; a plant book."
+        },
+        {
+          "label": "Robo says",
+          "front": "\"A week has 7 days.\"",
+          "back": "RIGHT. Check: count the days across one row of the calendar; ask a grown-up."
+        },
+        {
+          "label": "Robo says",
+          "front": "\"Butterflies start as caterpillars.\"",
+          "back": "RIGHT. Check: a butterfly life-cycle book; ask a grown-up."
+        },
+        {
+          "label": "Robo says",
+          "front": "\"Whales are fish.\"",
+          "back": "WRONG. Whales live in the ocean, but they are mammals. They breathe air. Check: an ocean animal book; ask a grown-up."
+        },
+        {
+          "label": "Robo says",
+          "front": "\"Pumpkins grow on tall trees.\"",
+          "back": "WRONG. Pumpkins grow on vines along the ground. Check: a plant or farm book; ask a grown-up."
+        },
+        {
+          "label": "Robo says",
+          "front": "\"The Earth goes around the Sun.\"",
+          "back": "RIGHT. Check: a space book; ask a grown-up."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "My Ask Two Card",
+      "type": "worksheet",
+      "instructions": "Draw or write. Check in TWO places before you decide.",
+      "sections": [
+        {
+          "prompt": "Robo Helper said: ___",
+          "lines": 2
+        },
+        {
+          "prompt": "Check 1: I looked in a book / used my eyes / asked a grown-up. I found:",
+          "boxes": true
+        },
+        {
+          "prompt": "Check 2: I looked in a book / used my eyes / asked a grown-up. I found:",
+          "boxes": true
+        },
+        {
+          "prompt": "Circle one: Robo was RIGHT · WRONG · NOT SURE YET",
+          "lines": 1
+        },
+        {
+          "prompt": "I am good at checking by ___",
+          "lines": 1
+        },
+        {
+          "prompt": "Next time I will ___",
+          "lines": 1
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "I Am a Learning Owner",
+      "type": "checklist",
+      "instructions": "Listen as your teacher reads each line. Color Yes or Not yet. Then finish the last two boxes on your Ask Two Card.",
+      "items": [
+        "I asked a question.",
+        "I checked in two places.",
+        "I did not believe Robo just because it sounded sure.",
+        "I changed my mind when my checks said something different.",
+        "I said \"not sure yet\" when I couldn't tell."
+      ],
+      "scale": [
+        "Yes",
+        "Not yet"
+      ]
+    }
+  ]
+}

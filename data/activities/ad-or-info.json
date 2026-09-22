@@ -1,0 +1,164 @@
+{
+  "id": "ad-or-info",
+  "title": "Ad or Info?",
+  "tagline": "Students sort mock posts, videos, and headlines into ads, information, and clickbait, hunt for persuasion tricks, and then create an honest, clearly labeled ad of their own.",
+  "audience": "student",
+  "grades": ["3-5"],
+  "strands": ["medialit", "genai"],
+  "mode": "hybrid",
+  "minutes": 40,
+  "groupSize": "Teams of 3–4 for the sort; pairs for the ad; any class size",
+  "eles": ["S2.2", "S5.2", "S3.2", "AI4.1"],
+  "overview": "Kids see ads everywhere, and many don't look like ads: a favorite gamer's \"honest review,\" a sponsored search result, a cartoon inside a free game, a shocking headline built to get a click. In this lesson teams sort fourteen mock media items into **Ad** (wants you to buy), **Info** (wants you to know), and **Clickbait** (wants you to click), using a Persuasion Detective checklist. Then pairs flip roles and become media makers, creating an honest ad for a made-up product, labeled so no one is fooled. Along the way they see that AI can write persuasive text in seconds, which makes spotting persuasion a skill everyone needs.",
+  "objectives": [
+    "Students will classify media items as ads, information, or clickbait and cite the clue that shows the creator's purpose.",
+    "Students will name at least three persuasion techniques (hurry words, bandwagon, famous endorser, too-good-to-be-true, mystery headline) and find them in examples.",
+    "Students will create an honest, clearly labeled ad and explain how it differs from an information piece about the same product.",
+    "Students will explain that AI tools can produce persuasive text quickly, so readers need to ask who made something and why."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Ad, Info, or Clickbait? sort strips (1 set per team, cut apart, with the sorting mat)",
+      "Handout B: Persuasion Detective checklist (1 per team)",
+      "Handout C: Make an Honest Ad (1 per pair)",
+      "Colored pencils or markers; three corner signs: AD, INFO, CLICKBAIT"
+    ],
+    "digital": [
+      "Optional: a generative AI chatbot your district approves, on the teacher's device, projected for the class",
+      "Optional: screenshots you capture in advance of a kid-safe search results page that includes items labeled \"Sponsored\"",
+      "Optional: a slide or drawing tool students already use, for making the honest ad digitally"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A so each team has 14 strips and one sorting mat.",
+    "Post AD, INFO, and CLICKBAIT signs in three corners for the whole-class check.",
+    "Read the key (the \"why\" lines) and mark the three trickiest strips (the gamer's promo code, the homework app, and the sponsored search result) for discussion.",
+    "If you'll run the AI demo, test the prompt from the Digital section in your district-approved chatbot first."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "The cereal review",
+      "body": "Read aloud, with a big smile: **\"Hey friends! I just tried CloudCrunch cereal and it's honestly the best breakfast ever. It gives you SO much energy. Everybody at my school is eating it!\"** Ask: \"Would you try CloudCrunch?\" Then reveal the tiny line at the bottom: **#ad · Paid partnership with CloudCrunch.** Ask: \"Does that change what you think? Why?\"",
+      "note": "CloudCrunch is a made-up brand. Many students will say the review now feels less trustworthy. Ask why being paid might change what someone says."
+    },
+    {
+      "phase": "Model",
+      "minutes": 6,
+      "title": "Three questions and the detective checklist",
+      "body": "Write three questions on the board: **Who made this? What do they want me to do: buy, know, or click? What clues tell me?** Walk through Handout B, the Persuasion Detective checklist, giving a quick example of each technique. Then model one strip from Handout A: \"'You WON'T BELIEVE what this cat did next!!!' Who made it? I don't know. What do they want? A click. Clues: ALL CAPS, three exclamation points, a mystery with no answer. Clickbait.\"",
+      "note": "Clarify that ads aren't bad. People make and sell things. The problem is when you can't tell something is an ad."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Team sort",
+      "body": "Teams sort the 14 strips onto their mat, using Handout B to check clues. The team must agree on each strip, and anyone can say \"Prove it\" to ask for the clue. After 8 minutes, run a fast corner check: read five strips aloud and have one member of each team walk to the corner their team chose and name the clue.",
+      "note": "Strips 12 and 13 are designed to split the room: they are ads that don't say \"ad.\" Push teams to find the clue (a promo code, a product pitch inside an answer)."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 6,
+      "title": "The sneaky ones",
+      "body": "Ask: **\"Which strips were hardest? What made them sneaky?\"** Focus on the gamer's promo code (a clue he may be paid, even without #ad), the homework app's answer that ends with a product pitch, and the sponsored search result that sits at the top. Ask: \"How is an ad hiding inside a helpful answer different from a label that says 'Sponsored'?\" Then ask: \"If a computer can write a persuasive ad in five seconds, what does that mean for us as readers?\"",
+      "note": "If you do the AI demo, run it here. Students hunt for persuasion techniques in the AI-written ad using Handout B."
+    },
+    {
+      "phase": "Create",
+      "minutes": 9,
+      "title": "Make an honest ad",
+      "body": "Pairs complete Handout C for a made-up product (Pencil Pal, the eraser that never smudges; or a product they invent). They design an honest ad that uses at most two persuasion techniques, includes a clear \"AD\" label, and makes no promises that aren't true. Then they write a short **info** version about the same product: just the facts. Pairs swap with another pair, who checks it using Handout B and says which techniques they spotted.",
+      "note": "This is S5.2 creativity with limits: students must persuade honestly. Look for labels and facts they could actually back up."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 3,
+      "title": "Exit ticket",
+      "body": "On the back of Handout C, students finish: \"The next time I see a video or post about a product, I will ask ___.\" and \"The persuasion trick I'll watch out for most is ___ because ___.\"",
+      "note": "Strong answers name a specific question (\"Is this person being paid?\") rather than \"is it real?\""
+    }
+  ],
+  "unplugged": "The sort, checklist, and ad creation all run on paper. The corner check adds movement. For the AI part without a screen, read aloud the idea that computers can now write ads in seconds and have students write a 30-second ad themselves, timing it, to feel how fast persuasive text can be produced.",
+  "digital": "During the Debrief, project a district-approved AI chatbot and type as the class watches: \"Write a short, exciting ad for kids for a made-up eraser called Pencil Pal.\" Students use Handout B to find the persuasion techniques in the result and check whether it made any promises that couldn't be true. You can also show screenshots, captured in advance, of a kid-safe search results page with items labeled \"Sponsored.\" Students can build their honest ad in a slide or drawing tool the class already uses. Students under 13 never use their own AI accounts; the teacher drives the chatbot.",
+  "whyTech": "The sort works fully on paper. The projected AI demo adds evidence paper can't: students watch a tool produce a slick, persuasive ad in seconds and then pick it apart with the checklist, which shows why spotting persuasion matters more, not less, with AI in the world.",
+  "adaptations": [
+    { "label": "Grade 3", "text": "Use two categories (Ad and Info) with 10 strips, then introduce Clickbait as a bonus round with strips 3, 7, and 10." },
+    { "label": "Grade 5", "text": "Add a fourth category, \"Both,\" for items that mix info and selling, and have teams defend one item they placed there." },
+    { "label": "Emergent bilinguals", "text": "Pre-teach \"ad,\" \"sponsored,\" \"persuade,\" and \"clickbait\" with visuals; let students create their honest ad in either language." },
+    { "label": "Students who need fewer strips", "text": "Give a team 7 strips (one from each clear category plus the tricky ones) and a partner who reads aloud." }
+  ],
+  "lookFors": [
+    "Teams cite a specific clue (#ad, Sponsored label, promo code, hurry words, a pitch inside an answer) for each tricky strip.",
+    "Students find persuasion techniques in the AI-written ad and flag any claim that couldn't be true.",
+    "Honest ads on Handout C include a clear AD label and no false promises; the info version sticks to facts.",
+    "Exit tickets name a specific question to ask about product posts."
+  ],
+  "reflection": [
+    "Am I good at using different tools to help me learn? How do I know when a post is trying to sell me something? (Student ELE guiding question)",
+    "Which persuasion trick works best on you? Why?",
+    "How did it feel to try to persuade someone honestly?"
+  ],
+  "transfer": "Students go on an \"ad hunt\" at home with a family member, finding one ad that says it's an ad and one that doesn't, and noting the clue for each on the back of Handout C. Next lesson, *Credit Where It's Due* builds on being an honest media maker.",
+  "connections": [
+    { "title": "News Literacy Project", "url": "https://newslit.org/", "note": "Free resources for teachers on telling news, opinion, and advertising apart." },
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "A digital breakout follow-up on media and digital citizenship." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Ad, Info, or Clickbait?",
+      "type": "sort",
+      "instructions": "All brands and people here are made up. Sort each strip. Be ready to say the clue that proves it.",
+      "categories": ["Ad (wants you to buy)", "Info (wants you to know)", "Clickbait (wants you to click)"],
+      "items": [
+        { "text": "A kid unboxes ZoomBlaster sneakers on video: \"These make you run faster!\" Small text: #ad Paid partnership with ZoomBlaster.", "answer": "Ad (wants you to buy)", "why": "The #ad label shows he is paid. \"Run faster\" is a too-good-to-be-true promise." },
+        { "text": "A library web page: \"How to Care for a Pet Hamster,\" written by a veterinarian, with no products for sale.", "answer": "Info (wants you to know)", "why": "An expert explains; nothing is being sold." },
+        { "text": "\"You WON'T BELIEVE what this cat did next!!! Click NOW!\"", "answer": "Clickbait (wants you to click)", "why": "Mystery headline, ALL CAPS, and exclamation points to get a click." },
+        { "text": "In a free game: \"Get 500 gems now! Only $4.99! Offer ends in 10 minutes!\"", "answer": "Ad (wants you to buy)", "why": "Hurry words and a price. The timer pushes you to buy fast." },
+        { "text": "A kids' news article: \"Pinewood Opens New Public Pool This Summer,\" with the date and the reporter's name.", "answer": "Info (wants you to know)", "why": "It names who wrote it and when, and reports news." },
+        { "text": "The weather page says: \"Tomorrow: sunny, high of 85°F.\"", "answer": "Info (wants you to know)", "why": "Just facts you need; nothing to buy or click." },
+        { "text": "\"Kids HATE this one weird trick to never do homework again!\"", "answer": "Clickbait (wants you to click)", "why": "A \"weird trick\" and a promise that sounds too good to be true." },
+        { "text": "A cartoon character in a free app says: \"Ask your parents to buy Sparkle Slime Deluxe today!\"", "answer": "Ad (wants you to buy)", "why": "A favorite character is used to sell a product to kids." },
+        { "text": "A museum website explains how volcanoes erupt, with a labeled diagram.", "answer": "Info (wants you to know)", "why": "It teaches; nothing is for sale." },
+        { "text": "\"Top 10 Scariest Animals: Number 7 Will SHOCK You!\" with a blurry photo.", "answer": "Clickbait (wants you to click)", "why": "Built to make you click through a list to find out." },
+        { "text": "The school newsletter: \"Picture day is Thursday. Wear your best smile!\"", "answer": "Info (wants you to know)", "why": "The school is sharing a date you need." },
+        { "text": "A popular gamer posts: \"I only play with the TurboPad controller! Use my code TURBO10 for a discount.\" There is no #ad label.", "answer": "Ad (wants you to buy)", "why": "A personal discount code is a clue he may earn money from sales, even without a label." },
+        { "text": "A homework helper app answers a question about plants, then ends: \"For even better grades, upgrade to BrightPath Premium today!\"", "answer": "Ad (wants you to buy)", "why": "A sales pitch is hiding at the end of a helpful answer." },
+        { "text": "The top search result has a small \"Sponsored\" label: \"SnackStar Chips: The Crunch Everyone Loves!\"", "answer": "Ad (wants you to buy)", "why": "\"Sponsored\" means the company paid to be at the top. \"Everyone loves\" is bandwagon." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Persuasion Detective",
+      "type": "checklist",
+      "instructions": "Use this checklist on any strip, video, or AI-written ad. Mark each clue Found it or Not here.",
+      "items": [
+        "Someone is paid: #ad, Sponsored, Partner, or a special promo code",
+        "Hurry words: now, today only, ends soon, a countdown timer",
+        "Bandwagon: \"everyone has it,\" \"everyone loves it\"",
+        "A famous or favorite person or character is selling it",
+        "Too good to be true: run faster, never do homework, best ever",
+        "ALL CAPS and lots of !!! to grab attention",
+        "Mystery headline: \"You won't believe…,\" \"Number 7 will shock you\"",
+        "A sales pitch hiding inside something helpful",
+        "I can tell who made it and what they want me to do"
+      ],
+      "scale": ["Found it", "Not here"]
+    },
+    {
+      "id": "C",
+      "title": "Make an Honest Ad",
+      "type": "worksheet",
+      "instructions": "Pick a made-up product (Pencil Pal, the eraser that never smudges, or invent your own). Persuade honestly!",
+      "sections": [
+        { "prompt": "Our product and what it really does:", "lines": 2 },
+        { "prompt": "Draw our honest ad. Include a clear AD label.", "boxes": true },
+        { "prompt": "The persuasion techniques we used (no more than 2) and why they're honest:", "lines": 3 },
+        { "prompt": "Now write an INFO version about the same product. Just the facts:", "lines": 4 },
+        { "prompt": "What is the biggest difference between our ad and our info version?", "lines": 2 },
+        { "prompt": "Partner check: Which techniques did the other pair spot in our ad?", "lines": 2 }
+      ]
+    }
+  ]
+}

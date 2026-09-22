@@ -1,0 +1,155 @@
+{
+  "id": "robot-guesses",
+  "title": "Robot Guesses",
+  "tagline": "Children train a pretend robot with picture-word cards and discover that AI makes guesses from patterns, and that a guess can be wrong.",
+  "audience": "student",
+  "grades": ["K-2"],
+  "strands": ["genai"],
+  "mode": "unplugged",
+  "minutes": 30,
+  "groupSize": "Whole class on the rug, then pairs; any class size",
+  "eles": ["AI1.1", "AI1.3", "S1.3", "S5.3"],
+  "overview": "Young children already hear talking speakers and see apps that \"know\" things. In this game, the class becomes the teachers of **Robo**, a pretend robot that can only learn from the example cards it is shown and can only notice color. Robo makes confident guesses, gets some hilariously wrong, and gets better when the class gives it more kinds of examples. Children leave with a simple, true idea they can say out loud: \"AI looks for patterns and makes guesses. Guesses can be wrong, so we check.\"",
+  "objectives": [
+    "Students will finish a sound, movement, or picture pattern and tell how they knew what came next.",
+    "Students will explain in their own words that an AI tool learns from examples and makes guesses from patterns.",
+    "Students will spot a wrong robot guess and name one reason it happened (Robo did not see enough kinds of examples).",
+    "Students will name a person or place they can use to check a robot's guess."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Pattern Cards (1 teacher set, printed large or shown under a document camera)",
+      "Handout B: Robo's Training Cards (1 teacher set, cut apart; tape on the backs)",
+      "Handout C: My Robot Guess (1 per student)",
+      "Two signs on the board: \"FRUIT\" and \"NOT A FRUIT\"",
+      "Optional: a paper-bag or headband \"robot hat\" for whoever plays Robo; crayons"
+    ],
+    "digital": [
+      "Optional: a generative AI chatbot your district approves, on the teacher's device only, projected for the class",
+      "Optional: a document camera to show the cards"
+    ]
+  },
+  "prep": [
+    "Print Handout B and cut the 12 cards apart. Sort them into three piles: the 6 \"Training\" cards, the 4 \"Test\" cards, and the 2 \"Fix-it\" cards. Keep the key (card backs) at hand.",
+    "Write \"FRUIT\" and \"NOT A FRUIT\" on the board with space under each for taping cards.",
+    "Practice your Robo voice and Robo's one rule: \"I only notice COLOR. I only know what you show me.\"",
+    "If you plan the projected demo, test your district-approved chatbot first with the two prompts in the Digital section so you know what it tends to say."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "Clap, stomp, clap…",
+      "body": "Without talking, clap, stomp, clap, stomp, clap, then freeze. Children will jump in with a stomp. Ask: **\"How did you know what came next?\"** Take answers, then name it: \"You found a **pattern**. A pattern is something that repeats, so you can guess what comes next.\" Try one more: \"Pat head, pat head, touch nose, pat head, pat head, …\"",
+      "note": "Celebrate the word \"guess.\" You are setting up the big idea that a pattern lets you guess, not know for sure."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 6,
+      "title": "Pattern Cards",
+      "body": "Show Pattern Cards 1–5 one at a time. Read each aloud and have children show the answer with their bodies (arms up high for \"big,\" crouch for \"small,\" and so on) or call it out. After each, ask one child: \"How did you know?\" Then show **Card 6, the Trick Card**. Everyone guesses \"blue.\" Flip it: the next color is **green**. Say: \"Your guess was a smart guess. It was still wrong, because the pattern changed. Smart guesses can be wrong.\"",
+      "note": "Kindergartners may need you to point along the pattern and say it together before guessing."
+    },
+    {
+      "phase": "Model",
+      "minutes": 5,
+      "title": "Meet Robo and train it",
+      "body": "Put on the robot hat and use your robot voice: **\"I am Robo. I learn from examples. I only know what you show me. And I only notice COLOR.\"** Read each of the 6 Training Cards aloud and let children tell you which sign it goes under. Tape it there. When all 6 are up, Robo \"thinks\" out loud: \"Beep. Fruit is RED. Not-a-fruit is blue, green, or yellow. I have learned!\"",
+      "note": "Point out that Robo learned a pattern the class did not mean to teach. That is the heart of AI bias for this age: the examples shape the guesses."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 7,
+      "title": "Test Robo",
+      "body": "Hold up each Test Card. First, children predict with thumbs: \"Thumbs up if Robo will say FRUIT, thumbs down if Robo will say NOT A FRUIT.\" Then Robo guesses, using only color. Then the class checks: **\"Is Robo right?\"** A banana is yellow, so Robo says \"not a fruit\" (wrong). A red ball is red, so Robo says \"fruit\" (wrong). Let two or three children take turns wearing the hat and guessing \"as Robo,\" using only color.",
+      "note": "Children love catching Robo. Keep the tone kind: \"Robo isn't silly. Robo only saw red fruit. What could we do to help Robo?\""
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 4,
+      "title": "Fix Robo, then connect to real AI",
+      "body": "Ask: \"Why did Robo make mistakes?\" Guide children to: **Robo did not see enough kinds of fruit.** Add the two Fix-it Cards (a yellow banana and green grapes) under FRUIT and retest the banana. Robo gets it right. Then say plainly: \"Some computers use AI. AI tools learned from LOTS and LOTS of examples, way more than Robo. They make guesses from patterns, too. They can be very smart, and they can still be wrong. So what do we say? **'Let's check!'**\" Practice the phrase together.",
+      "note": "Avoid saying the AI \"thinks\" or \"knows.\" Use \"guesses\" and \"learned from examples.\" Children pick up our words."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 4,
+      "title": "My Robot Guess",
+      "body": "Children complete Handout C: draw the next thing in a pattern, draw a thing Robo might guess wrong, and draw a person who can help them check. Circulate and ask two or three children, **\"Why might Robo guess wrong about your picture?\"** Write their words in the margin as evidence.",
+      "note": "Look for answers like \"because it's a different color\" or \"Robo never saw one.\" Those show the child understands that examples drive the guess."
+    }
+  ],
+  "unplugged": "The whole lesson runs with the printed cards, the board, and your robot voice. The Pattern Cards can be read aloud instead of shown. For a movement version, tape FRUIT and NOT A FRUIT signs on opposite walls, give each Training Card to a child, and have them walk it to the right wall while \"Robo\" watches and learns.",
+  "digital": "After the Debrief, project a district-approved generative AI chatbot from the teacher's device. Type, as the class watches: \"Finish this pattern for a kindergarten class: red, blue, red, blue, red, …\" Read the answer aloud and have children check it with their own eyes. Then type a riddle the class writes together (\"I am yellow, long, and you peel me. What fruit am I?\") and ask children to predict before you press enter. Whatever the tool says, ask: **\"How do we know it's right? We checked.\"** Children never get their own AI accounts; you drive every click.",
+  "whyTech": "This lesson is stronger unplugged: children need a clear mental picture of \"examples in, guesses out,\" and Robo gives them one without a screen. A short projected demo adds one thing paper cannot: children see that a real AI tool also answers by guessing, and they practice checking it.",
+  "adaptations": [
+    { "label": "Kindergarten", "text": "Use Pattern Cards 1–3 and 6, and only 2 Test Cards (banana and red ball). Let children point to the sign instead of explaining." },
+    { "label": "Grade 2", "text": "Give pairs 6 blank index cards. One partner secretly trains the other as \"Robo\" with a different rule (only size, or only shape), then tests with a tricky card. Partners explain the mistake." },
+    { "label": "Emergent bilinguals", "text": "Add the home-language word under each card, use real fruit or toy objects where you can, and teach the gestures for \"guess\" (hand on chin) and \"check\" (magnifying-glass fingers)." },
+    { "label": "Students with motor needs", "text": "Replace movement answers with pointing, eye-gaze, or yes/no cards; any child can play Robo by pointing to a sign." }
+  ],
+  "lookFors": [
+    "Children explain a pattern answer with \"because it goes…\" or by pointing along the repeat.",
+    "Children say that Robo was wrong because it only saw red fruit or only looked at color, not because Robo is \"dumb.\"",
+    "On Handout C, the drawing of something Robo would get wrong is a different-color or unusual example, and the child names a person to check with.",
+    "Children spontaneously say \"Let's check\" during the projected demo or later in the week."
+  ],
+  "reflection": [
+    "How did Robo learn? What could make Robo a better guesser?",
+    "When a computer or a talking speaker tells you something, what can you do? (Student ELE 1.0: Am I good at using different tools to help me learn?)",
+    "What pattern can you find in our classroom today?"
+  ],
+  "transfer": "At home, children play \"Robo at dinner\": a family member makes a pattern with spoons, cups, or claps and the child guesses what comes next, then tells the family, \"AI guesses from patterns, so we check.\" Next lesson, connect to *Ask Two*, where children check a robot's answers with a book and a grown-up.",
+  "connections": [
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "A digital follow-up on AI literacy for elementary grades, driven by the teacher on a projector." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Pattern Cards",
+      "type": "cards",
+      "instructions": "Teacher: show or read one card at a time. Children answer with their voices or bodies. The backs are your answer key.",
+      "cards": [
+        { "label": "Card 1 · Sounds", "front": "clap, stomp, clap, stomp, clap, ___", "back": "stomp. Ask: \"How did you know?\"" },
+        { "label": "Card 2 · Sizes", "front": "BIG, small, BIG, small, BIG, ___", "back": "small. Children crouch down low." },
+        { "label": "Card 3 · Sky", "front": "sun, moon, sun, moon, sun, ___", "back": "moon. Children make a round moon with their arms." },
+        { "label": "Card 4 · Counting", "front": "1, 2, 3, 1, 2, 3, 1, ___", "back": "2. The pattern has three parts that repeat." },
+        { "label": "Card 5 · Animals", "front": "cat, cat, dog, cat, cat, dog, cat, ___", "back": "cat. Two cats, then a dog, over and over." },
+        { "label": "Card 6 · Trick Card", "front": "red, blue, red, blue, red, ___", "back": "Everyone guesses blue. Reveal: GREEN! The pattern changed. A smart guess can still be wrong." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Robo's Training Cards",
+      "type": "cards",
+      "instructions": "Teacher: read each card aloud in a big, clear voice. Tape Training Cards under FRUIT or NOT A FRUIT. Then test Robo. The backs tell you what Robo will guess.",
+      "cards": [
+        { "label": "Training · Fruit", "front": "APPLE: a round, RED fruit", "back": "Goes under FRUIT. Robo learns: red means fruit." },
+        { "label": "Training · Fruit", "front": "STRAWBERRY: a small, RED fruit with tiny seeds", "back": "Goes under FRUIT. Robo's pattern gets stronger: red, red." },
+        { "label": "Training · Fruit", "front": "CHERRY: a tiny, RED fruit with a stem", "back": "Goes under FRUIT. Every fruit Robo has seen is red." },
+        { "label": "Training · Not a fruit", "front": "CAR: a shiny BLUE car", "back": "Goes under NOT A FRUIT. Robo learns: blue means not a fruit." },
+        { "label": "Training · Not a fruit", "front": "FROG: a GREEN frog that hops", "back": "Goes under NOT A FRUIT. Robo learns: green means not a fruit." },
+        { "label": "Training · Not a fruit", "front": "SCHOOL BUS: a big YELLOW bus", "back": "Goes under NOT A FRUIT. Robo learns: yellow means not a fruit." },
+        { "label": "Test", "front": "BANANA: a long, YELLOW fruit you peel", "back": "Robo guesses NOT A FRUIT, because yellow things were never fruit in its examples. WRONG." },
+        { "label": "Test", "front": "BALL: a bouncy RED ball", "back": "Robo guesses FRUIT, because red things were always fruit. WRONG." },
+        { "label": "Test", "front": "RASPBERRY: a soft, RED berry", "back": "Robo guesses FRUIT. RIGHT, but only because it happens to be red." },
+        { "label": "Test", "front": "GRAPES: a bunch of small, GREEN grapes", "back": "Robo guesses NOT A FRUIT, because the frog was green. WRONG." },
+        { "label": "Fix-it · Fruit", "front": "BANANA: a long, YELLOW fruit (add this one to Robo's FRUIT examples)", "back": "Now Robo has seen a yellow fruit. Retest: Robo does better. More kinds of examples make better guesses." },
+        { "label": "Fix-it · Fruit", "front": "GRAPES: small, GREEN grapes (add this one to Robo's FRUIT examples)", "back": "Robo is still only looking at color, so it may now mix up the green frog. Ask: \"Is color a good way to tell what a fruit is?\"" }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Robot Guess",
+      "type": "worksheet",
+      "instructions": "Draw and write. Your teacher can help you with words.",
+      "sections": [
+        { "prompt": "Finish the pattern. Draw what comes next: star, circle, star, circle, star, ___", "boxes": true },
+        { "prompt": "Draw something Robo might guess WRONG.", "boxes": true },
+        { "prompt": "Robo guesses by looking for ___.", "lines": 1 },
+        { "prompt": "When a robot or computer guesses, I can say: \"Let's ___!\"", "lines": 1 },
+        { "prompt": "Draw a person who can help you check.", "boxes": true }
+      ]
+    }
+  ]
+}

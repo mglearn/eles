@@ -1,0 +1,162 @@
+{
+  "id": "digital-footprint-trail",
+  "title": "Digital Footprint Trail",
+  "tagline": "Teams follow a trail of paper footprints left online by a fictional fourth grader, piece together what a stranger could learn about him, and plan the footprints they want to leave.",
+  "audience": "student",
+  "grades": ["3-5"],
+  "strands": ["digcit", "genai"],
+  "mode": "unplugged",
+  "minutes": 40,
+  "groupSize": "Teams of 3–4 walking a trail of 12 stations; any class size",
+  "eles": ["S2.3", "S2.1", "S4.3", "AI2.1"],
+  "overview": "Every post, comment, photo, quiz answer, and chatbot message leaves a **digital footprint**, and footprints add up. In this walk-around mystery, teams follow twelve paper footprints left by **Kai Morales**, a fictional fourth grader. No single post seems like a big deal. Put together, they reveal Kai's school, street, house number, the hint to his password, and when he's home alone. The trail also includes footprints Kai can be proud of. Teams then give Kai a footprint makeover and plan their own trail, including what they will and won't type into AI tools.",
+  "objectives": [
+    "Students will identify what personal information a series of posts reveals when combined, and who might see it.",
+    "Students will classify footprints as helpful, risky, or hurtful and explain why.",
+    "Students will rewrite risky footprints into safer choices that still let a person share and create.",
+    "Students will name one online strength of their own and one habit to improve."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Kai's Footprint Cards (1 set, each card taped to a large paper footprint and posted around the room or hallway)",
+      "Handout B: Trail Log (1 per team)",
+      "Handout C: My Footprint Plan (1 per student)",
+      "A clipboard per team; chart paper titled \"What a stranger now knows about Kai\""
+    ],
+    "digital": [
+      "Optional: the teacher's device and projector to show a mock profile page built from Kai's footprints",
+      "Optional: a generative AI chatbot your district approves, projected by the teacher, for the privacy discussion"
+    ]
+  },
+  "prep": [
+    "Cut out 12 large paper footprints (trace a shoe), tape one Footprint Card to each, and post them in a numbered trail around the room or hallway.",
+    "Print the card backs as your key. Don't post them.",
+    "Plan team starting points so teams start at different footprints (Team 1 at #1, Team 2 at #4, and so on).",
+    "Prepare the chart paper with a simple outline of a person labeled \"Kai.\""
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "Who walked here?",
+      "body": "Show one big paper footprint with a muddy smear drawn on it. Ask: **\"What can you tell about who made this?\"** (Size, shoe type, direction, maybe where they'd been.) Say: \"Real footprints wash away. Online footprints are different. Every time you post, comment, or type into an app, you leave one, and people can follow the trail. Today you'll follow Kai's trail.\"",
+      "note": "Emphasize that Kai is made up. No one in class should be \"the Kai.\""
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Walk the trail",
+      "body": "Teams move from footprint to footprint (about 1 minute each; they won't finish all 12, and that's fine). At each footprint they fill a row of Handout B: **What could someone learn? Who might see it? Helpful, risky, or hurtful?** Roles: **Reader** reads the card aloud, **Detective** answers \"what could someone learn?\", **Recorder** writes, **Timekeeper** calls the move. Rotate roles every three footprints.",
+      "note": "Listen for teams connecting footprints (\"The dog's name is Biscuit, and he said his password is almost his dog's name!\"). That combining move is the key insight."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "What a stranger now knows",
+      "body": "Gather teams around the chart paper. Ask each team to add one thing a stranger now knows about Kai. Build the list: school name, street, house number, dog's name and password hint, home alone Tuesdays until 6. Pause and ask: **\"Which one post gave all that away?\"** (None did. Together they did.) Then ask about the other kinds of footprints: \"What would a new coach or a new friend think after seeing the mean comment? After seeing the marble-run video or the food drive?\"",
+      "note": "Students often feel strongly about card 11 (the deleted comment someone screenshotted). Use it to teach that deleting doesn't always make something disappear."
+    },
+    {
+      "phase": "Model",
+      "minutes": 4,
+      "title": "Three P's before you post",
+      "body": "Teach three moves and write them on the board: **Pause** (Should this be online at all?), **Picture your audience** (Who could see this now, and in five years?), **Protect** (Take out names, places, faces, and schedules). Model on Footprint 3: \"Kai can still share his new bike! Pause: sure. Picture: anyone could see it. Protect: crop out the house number, or take the photo in the park.\" Add: \"The same goes for chatbots and homework helpers. What you type can be saved, so leave out your full name, address, and other private details.\"",
+      "note": "Keep the message positive: the goal is not \"never post,\" it's \"post on purpose.\""
+    },
+    {
+      "phase": "Create",
+      "minutes": 8,
+      "title": "Kai's footprint makeover",
+      "body": "Each team chooses two risky or hurtful footprints and rewrites them on the back of Handout B as safer versions that still let Kai share what he wanted to share. Teams read one makeover aloud; the class checks it with the three P's. Example: \"Home alone every Tuesday!\" becomes \"Can't wait for our Tuesday game night!\" posted after the fact, with no times.",
+      "note": "For the mean comment, the best makeover is often a kind comment, or no comment. Accept \"don't post it\" when students explain why."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 4,
+      "title": "My Footprint Plan",
+      "body": "Students complete Handout C: draw a footprint they'd be proud to leave, list two things they won't post or type into an app or chatbot, write what they'll do if they leave a footprint they regret, and name one online strength and one habit to improve. Collect as evidence.",
+      "note": "Look for specific private items (house number, schedule, password hints) instead of a vague \"personal stuff.\""
+    }
+  ],
+  "unplugged": "The whole activity is a paper trail: footprint cards on the wall, a clipboard log, and a chart-paper profile. If you can't move around, hand each team the 12 cards in an envelope and have them lay the cards in a line on their desks as the \"trail.\"",
+  "digital": "After the Debrief, project a mock \"profile page\" you build on a slide from the clues the class found (name, school, street, pet, schedule) so students see how scattered footprints look when someone collects them in one place. Optionally, project a district-approved AI chatbot and ask it, as the class watches: \"What personal information should a 9-year-old never type into a chatbot?\" Compare its answer to the class's list and discuss any differences. Students don't use their own AI accounts; the teacher drives.",
+  "whyTech": "The core learning (footprints combine) is strongest when students physically walk the trail and build the profile themselves, so the lesson is unplugged. A projected mock profile adds a jolt paper can't: seeing the pieces in one tidy screen shows how easy it is for someone else to collect them.",
+  "adaptations": [
+    { "label": "Grade 3", "text": "Use Footprints 1–8 only and replace the Trail Log columns with a simple smiley, worried, or sad face for helpful, risky, or hurtful." },
+    { "label": "Grade 5", "text": "Add a \"Five Years Later\" round: teams decide which of Kai's footprints could matter when he applies for a team, club, or first job, and why." },
+    { "label": "Emergent bilinguals", "text": "Pair roles by language strength, pre-teach \"footprint,\" \"private,\" \"post,\" and \"screenshot\" with sketches, and allow logs in either language." },
+    { "label": "Students with mobility needs", "text": "Bring the trail to the team: pass the footprints around the table in order instead of walking." }
+  ],
+  "lookFors": [
+    "Trail Logs show teams combining footprints (linking the dog's name to the password hint, or the bike photo to the street).",
+    "Makeovers keep what Kai wanted to share while removing names, places, schedules, or hurtful words.",
+    "Handout C lists specific private details students won't post or type into a chatbot, and names a real strength and next step."
+  ],
+  "reflection": [
+    "Do I stay safe and make good choices when I use the internet? (Student ELE guiding question)",
+    "Which of Kai's footprints surprised you the most? Why?",
+    "What footprint do you want people to find when they look you up someday?"
+  ],
+  "transfer": "Students take Handout C home and walk a family member through the three P's. Families can check one app together using the Family App Privacy Audit. In class, add a \"three P's\" check to any lesson where students publish work online.",
+  "connections": [
+    { "title": "Digital Citizenship Breakouts (K–8)", "url": "https://mglearn.github.io/activities/digcit/", "note": "A digital breakout follow-up on privacy and digital footprints." },
+    { "title": "Family App Privacy Audit", "url": "https://mglearn.github.io/tcea/privacy-audit/", "note": "A family-friendly tool for reviewing the privacy settings on apps at home." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Kai's Footprint Cards",
+      "type": "cards",
+      "instructions": "Tape each card to a paper footprint and post them in order. Kai Morales is a made-up fourth grader. The backs are the teacher key.",
+      "cards": [
+        { "label": "Footprint 1 · Video", "front": "Kai posts a video: \"First day of 4th grade!\" The Cedar Ridge Elementary sign is right behind him.", "back": "Reveals: his school and grade. Who might see: anyone the video is shared with. Risky. Better: film somewhere without the sign." },
+        { "label": "Footprint 2 · Comment", "front": "On a game site Kai writes: \"My dog Biscuit is the best. LOL my password is almost his name.\"", "back": "Reveals: pet's name AND a password hint. Risky. Passwords shouldn't be based on anything people can find out about you." },
+        { "label": "Footprint 3 · Photo", "front": "Kai shares a photo of his new bike in his driveway. The house number, 418, shows on the mailbox.", "back": "Reveals: his house number. Combined with the street from Footprint 9, someone could find his home. Risky. Better: crop it or take the photo in a park." },
+        { "label": "Footprint 4 · Post", "front": "Kai posts: \"Home alone every Tuesday after school until 6!\"", "back": "Reveals: when he's alone. Risky. Schedules and \"home alone\" posts stay private." },
+        { "label": "Footprint 5 · Comment", "front": "Kai comments on a classmate's drawing: \"That's the worst drawing ever.\"", "back": "Hurtful. Everyone who sees the drawing sees the comment, and it tells people how Kai treats others." },
+        { "label": "Footprint 6 · Photo", "front": "Kai shares a funny photo of his friend Tomas asleep on the bus, without asking Tomas.", "back": "Hurtful and risky. It's Tomas's footprint too, and he didn't agree. Ask first." },
+        { "label": "Footprint 7 · Review", "front": "Kai writes a library book review: \"This book about sharks was awesome. Chapter 3 is the best part!\"", "back": "Helpful. It shares an opinion and helps other readers, with no private information." },
+        { "label": "Footprint 8 · Video", "front": "Kai uploads a video showing how he built a marble run from cardboard tubes. His face and name are not in it.", "back": "Helpful. It shows his creativity and teaches others, without private details." },
+        { "label": "Footprint 9 · Quiz", "front": "Kai takes a free online quiz, \"Which dinosaur are you?\" It asks for his full name, birthday, and street name, and he types them all.", "back": "Risky. Quizzes can collect information. Now his street is out there. A fun quiz doesn't need your real details." },
+        { "label": "Footprint 10 · Chatbot", "front": "In a homework helper app, Kai types: \"I'm Kai Morales, I'm 9, I live on Pecan Street, help me write about my family.\"", "back": "Risky. What you type into apps and chatbots may be saved. He could get the same help by leaving out his name and street." },
+        { "label": "Footprint 11 · Deleted", "front": "The next day Kai feels bad and deletes the mean comment from Footprint 5. But a classmate, Rosa, had already taken a screenshot and shared it.", "back": "Deleting doesn't always erase a footprint. Screenshots and shares can keep it around. Pause before you post." },
+        { "label": "Footprint 12 · Post", "front": "Kai posts on the class page: \"Thanks to everyone who brought cans to our food drive!\"", "back": "Helpful. It shows kindness and community, with no private information." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Trail Log",
+      "type": "table",
+      "instructions": "At each footprint, fill in one row. On the back, write your team's makeover of two risky or hurtful footprints.",
+      "columns": ["Footprint #", "What could someone learn?", "Who might see it?", "Helpful, risky, or hurtful?", "A better choice"],
+      "rows": [
+        ["1", "", "", "", ""],
+        ["2", "", "", "", ""],
+        ["3", "", "", "", ""],
+        ["4", "", "", "", ""],
+        ["5", "", "", "", ""],
+        ["6", "", "", "", ""],
+        ["7", "", "", "", ""],
+        ["8", "", "", "", ""],
+        ["9", "", "", "", ""],
+        ["10", "", "", "", ""],
+        ["11", "", "", "", ""],
+        ["12", "", "", "", ""]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Footprint Plan",
+      "type": "worksheet",
+      "instructions": "Plan the trail you want to leave. Remember the three P's: Pause, Picture your audience, Protect.",
+      "sections": [
+        { "prompt": "Draw a footprint I'd be proud to leave online (a project, a kind comment, a review, a video).", "boxes": true },
+        { "prompt": "Two things I will NOT post or type into an app or chatbot:", "lines": 2 },
+        { "prompt": "If I leave a footprint I regret, I will…", "lines": 2 },
+        { "prompt": "Something I'm already good at online:", "lines": 2 },
+        { "prompt": "One habit I want to improve:", "lines": 2 },
+        { "prompt": "Family talk: Ask a grown-up, \"What is one footprint you're proud of?\" Their answer:", "lines": 2 }
+      ]
+    }
+  ]
+}

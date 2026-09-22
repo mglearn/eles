@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Next Word, By Hand | ELE Activity Bank</title>
+<meta name="description" content="Students build a paper &quot;word-guessing machine&quot; from sentence cards, watch it invent a confident false fact about a lake, and find out why a longer prompt helps but never makes a chatbot know things.">
+<meta property="og:title" content="Next Word, By Hand | ELE Activity Bank">
+<meta property="og:description" content="Students build a paper &quot;word-guessing machine&quot; from sentence cards, watch it invent a confident false fact about a lake, and find out why a longer prompt helps but never makes a chatbot know things.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Activity Bank</span></a>
+  <nav aria-label="Main">
+    <a href="../index.html#catalog">Activities</a>
+    <a href="../framework.html">The ELEs</a>
+    <a href="../guide.html">Facilitator guide</a>
+  </nav>
+</header>
+
+<main id="main" class="act">
+  <div class="act-head">
+    
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">All activities</a> <span aria-hidden="true">/</span> Student learning</p>
+    <h1>Next Word, By Hand</h1>
+    <p class="lede">Students build a paper &quot;word-guessing machine&quot; from sentence cards, watch it invent a confident false fact about a lake, and find out why a longer prompt helps but never makes a chatbot know things.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/next-word-by-hand.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Print handouts</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">Print this guide</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="At a glance">
+      <dl>
+        <div><dt>Time</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 minutes</dd></div>
+        <div><dt>Mode</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</dd></div>
+        <div><dt>Grades</dt><dd>Grades 3–5, Grades 6–8</dd></div>
+        
+        <div><dt>Group</dt><dd>Teams of 3–4; any number of teams</dd></div>
+        <div><dt>Strands</dt><dd class="chips"><span class="strand s-genai">Gen AI</span></dd></div>
+      </dl>
+      <h2 class="glance-h">ELE indicators</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#AI1.1">AI1.1</a><div><span class="ind-area">AI in Education · AI Literacy</span>I know how AI systems work and their capabilities in educational contexts.</div></li><li><a class="ele" href="../framework.html#AI1.3">AI1.3</a><div><span class="ind-area">AI in Education · AI Literacy</span>I am aware of the current limitations and potential biases in AI systems.</div></li><li><a class="ele" href="../framework.html#S5.3">S5.3</a><div><span class="ind-area">Students · Creative Problem Solver</span>I am aware of how to apply computational thinking in various subjects.</div></li><li><a class="ele" href="../framework.html#S1.3">S1.3</a><div><span class="ind-area">Students · Tech Savvy</span>I am aware of how AI can assist me in my studies.</div></li><li><a class="ele" href="../framework.html#AI4.1">AI4.1</a><div><span class="ind-area">AI in Education · AI and Critical Thinking</span>I know how to promote critical thinking skills in relation to AI-generated information.</div></li></ul>
+      <h2 class="glance-h">Handouts</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Sentence Cards <span class="muted">(cut-apart cards)</span></li><li><span class="hl">B</span> Next-Word Tally Sheet <span class="muted">(organizer)</span></li><li><span class="hl">C</span> How Did Our Machine Write That? <span class="muted">(worksheet)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Overview</h2><p class="overview">A generative AI chatbot writes by guessing what word is likely to come next, based on patterns in the writing it learned from. In this game, teams become that machine. They tally which word follows which in eight short sentence cards, then &quot;write&quot; new sentences by drawing slips from cups. The sentences come out grammatical and often silly. Then, in the <strong>lake round</strong>, the machine produces a sentence that sounds like a fact and is false, even though every piece of it came from true cards. Students test whether a longer prompt fixes the problem and leave able to say, in their own words, why a chatbot can sound sure and still be wrong.</p>
+        <h3 class="sub">Objectives</h3><ul><li>Students will build a next-word model by tallying which word follows which in a set of sentence cards and use it to generate new sentences.</li><li>Students will explain, in their own words, that a chatbot writes by predicting likely next words from patterns, not by looking up facts.</li><li>Students will explain how their model produced a false &quot;fact&quot; out of true pieces, and name one way to check a chatbot's answer.</li><li>Students will compare output from a short and a longer prompt and describe what the longer prompt fixed and what it could not fix.</li></ul></section>
+      <section class="two">
+        <div><h2>Materials</h2>
+          <h3 class="sub">On paper</h3><ul><li>Handout A: Sentence Cards (1 set per team, cut apart; keep Lake Cards 9–12 in a separate envelope)</li><li>Handout B: Next-Word Tally Sheet (1 per team)</li><li>Handout C: How Did Our Machine Write That? (1 per student)</li><li>About 40 small paper slips per team (quarter sheets or sticky notes), 10 cups or envelopes per team, and 1 coin per team</li><li>Chart paper titled &quot;Our machine said…&quot; and markers</li></ul>
+          <h3 class="sub">On screen</h3><ul><li>Optional: a generative AI chatbot your district approves, on the teacher's device only, projected for the class (no student accounts)</li><li>Optional: a document camera to model the first tallies</li></ul></div>
+        <div><h2>Before you start</h2><ol class="prep"><li>Print and cut Handout A for each team. Put Story Cards 1–8 in one stack and Lake Cards 9–12 in an envelope marked &quot;Don't open yet.&quot;</li><li>Build the model yourself once (about 10 minutes) so you can coach. The &quot;the&quot; cup is the fullest and most mixed; that is where silly sentences come from. After &quot;is the,&quot; the lake cards have &quot;deepest&quot; once and &quot;largest&quot; once; that is where the false fact comes from.</li><li>Gather slips, cups, and coins. Don't label cups ahead of time: labeling them is part of building the machine.</li><li>If you plan the projected demo, try it first. Ask your approved chatbot, &quot;How deep is Wrenmere Lake?&quot; (Wrenmere is made up.) Note whether it invents an answer, says it doesn't know, or searches the web, so you can frame the demo honestly.</li></ol></div>
+      </section>
+      <section><h2>Step by step</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–4 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Hook</p>
+        <h3>Finish my sentence</h3>
+        <p>Pause before the last word each time: &quot;Peanut butter and…&quot; (the class says <em>jelly</em>). &quot;Once upon a…&quot; (<em>time</em>). &quot;Twinkle, twinkle, little…&quot; (<em>star</em>). Ask: <strong>&quot;Did anyone look that up? How did you know?&quot;</strong> Take answers, then say: &quot;You predicted. You've heard those words together so many times that your brain guessed what comes next. A generative AI chatbot does something like that, one word after another, with a huge amount of writing. Today your team is going to build a tiny one out of paper.&quot;</p>
+        <p class="step-note"><span>Facilitator note</span>Some students will shout silly endings (&quot;peanut butter and pickles!&quot;). Welcome them: they are proof that more than one next word is possible, which matters when the class starts drawing slips.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">4–9 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Model</p>
+        <h3>Tally one card together</h3>
+        <p>Show Story Card 1 under the document camera or write it on the board: <em>the dog ran to the park .</em> Point to each word and ask, &quot;What word came right after it?&quot; Put a tally on Handout B: after <strong>the</strong>, a mark for <em>dog</em>; after <strong>dog</strong>, a mark for <em>ran</em>; after <strong>ran</strong>, a mark for <em>to</em>; after <strong>to</strong>, a mark for <em>the</em>; after <strong>the</strong> again, a mark for <em>park</em>. Explain the one special rule: <strong>&quot;When you draw park, bone, door, mat, bus, bench, or apple, the sentence is over. Put a period.&quot;</strong></p>
+        <p class="step-note"><span>Facilitator note</span>Students often forget that &quot;the&quot; shows up twice in one card, so it gets two tallies. Catch it here, out loud, so every team starts right.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">9–18 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Explore</p>
+        <h3>Train the machine</h3>
+        <p>Teams split Story Cards 1–8 so each person tallies two cards on the shared Handout B. Then they make <strong>one slip for each tally mark</strong>, write the next word on it, and drop it in a cup labeled with the first word. For example, the <strong>ran</strong> cup gets three slips that all say <em>to</em>. Say: &quot;Your cups ARE your machine. This is what we call training: the machine only knows what was in these cards.&quot;</p>
+        <p class="step-note"><span>Facilitator note</span>Suggested jobs: Reader (reads each word pair aloud), Tallier, Slip Maker, Cup Keeper. Look-for: the &quot;the&quot; cup should have 16 slips with lots of different words. Ask a team, &quot;Why is this cup so much fuller and messier than the ran cup?&quot;</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">18–25 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Practice</p>
+        <h3>Generate!</h3>
+        <p>Every sentence starts with <strong>the</strong>. Draw a slip from the <strong>the</strong> cup, write the word down, put the slip back, then draw from that word's cup. Keep going until the sentence ends. Each team writes five sentences and copies their best and silliest onto the &quot;Our machine said…&quot; chart. Ask the room three questions: <strong>&quot;Do these sound like real sentences? Are they true? Did the machine ever see these exact sentences?&quot;</strong></p>
+        <p class="step-note"><span>Facilitator note</span>Expect &quot;the apple ran to the bench.&quot; Grammar is fine because the word patterns are real; the meaning is off because the machine keeps track of word order, not the real world. Faster option: close your eyes and tap a pencil on the tally marks in that word's row instead of drawing slips.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">25–33 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Apply</p>
+        <h3>The lake round</h3>
+        <p>Open the envelope. Read Lake Cards 9–12 aloud. They are the only facts the machine has about two made-up lakes. This time the machine looks at the <strong>last two words</strong> to guess the next one. Most two-word pairs have only one possible next word, so teams just follow the card. There are only three kinds of forks: after <strong>Wrenmere is</strong> or <strong>Mossmere is</strong> it could be <em>in</em> or <em>the</em>; after <strong>is in</strong> it could be <em>Harlow</em> or <em>Pike</em>; and after <strong>is the</strong> it could be <em>deepest</em> or <em>largest</em>. At each fork, flip the coin. Each team generates three sentences starting &quot;Mossmere is&quot; and three starting &quot;Wrenmere is.&quot; Before long a team gets <strong>&quot;Mossmere is the deepest lake in the state.&quot;</strong> Stop the class: &quot;No card says that. Card 11 says <em>Wrenmere</em> is the deepest. Where did this come from? Is the machine lying?&quot;</p>
+        <p class="step-note"><span>Facilitator note</span>This is the big idea. The false sentence is built entirely out of true pieces. The machine isn't lying or broken; it has no list of facts to check against, only patterns of which words go together. Name it: when an AI tool says something false in a confident voice, people call that a <strong>hallucination</strong>.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">33–38 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Practice</p>
+        <h3>Does a longer prompt fix it?</h3>
+        <p>Now give the machine <strong>three words</strong> to look at. After &quot;Wrenmere is in,&quot; the cards only ever have <em>Harlow</em>. After &quot;Mossmere is the,&quot; they only have <em>largest</em>. Teams regenerate and notice the false sentences disappear. Ask: <strong>&quot;So does a longer, clearer prompt make a chatbot always right?&quot;</strong> Guide students to two ideas: a clearer prompt usually helps, AND it can't fix what the machine never learned or learned wrong. If Card 11 had a mistake in it, no prompt could make the machine know better.</p>
+        <p class="step-note"><span>Facilitator note</span>Add the safety piece while prompts are on everyone's mind: &quot;A longer prompt means you're telling the machine more. Names, addresses, and private stuff about you or your friends never go in a prompt.&quot;</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">7</span><span class="step-time">38–45 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Reflect</p>
+        <h3>Paper vs. real chatbots, honestly</h3>
+        <p>Be honest about the difference: &quot;Real chatbots learned from far, far more writing than eight cards. They use pieces of words, not just whole words. They look back at much more than two or three words, and people trained them more so they answer helpfully. But the main move is the one you just did: guess what's likely to come next. That's why a chatbot can be helpful, sound sure, and still be wrong. So what do we do? <strong>We check</strong> with a trusted source: a book, a website a grown-up trusts, an expert.&quot; Students complete Handout C. Collect it as evidence.</p>
+        <p class="step-note"><span>Facilitator note</span>Listen for students who say the chatbot &quot;lied&quot; or &quot;is dumb.&quot; Push back gently: &quot;Did our paper machine lie? What was it actually doing?&quot; You want explanations built on patterns and guessing.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Paper or screen</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</h3><p>The whole lesson is built to run with no devices: cards, tally sheets, slips, cups, and a coin are the entire machine. If slips take too long, have teams generate by closing their eyes and tapping a pencil on the tally marks in each word's row. If you're short on time, build one class machine at the front with student helpers and let teams take turns drawing.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Digital</h3><p>After the lake round, project a district-approved chatbot from the teacher's device (students never use their own accounts). Ask it, &quot;How deep is Wrenmere Lake?&quot; Wrenmere is made up, so any specific answer is invented. If it makes up a depth or a location, connect it straight to the lake round: &quot;It did what our cups did.&quot; If it says it can't find that lake, praise that and ask, &quot;What would we do if it had given us a number?&quot; Then ask it the same question twice and compare the two answers: different wording each time shows the same draw-a-slip guessing at work. For older students, teams can tally in a shared spreadsheet the teacher projects.</p></div>
+        <p class="why"><strong>Does it need a screen?</strong> This one is better unplugged. Drawing slips makes the guessing machine something students can see and touch, which no chatbot screen shows. A short, teacher-driven demo at the end earns its screen time because students recognize the same behavior in a real tool and practice checking it.</p>
+      </section>
+      <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Handout C explains the false lake sentence as pieces stitched together (&quot;it saw 'is the deepest' on one card and 'Mossmere is' on another&quot;) rather than as the machine lying or being broken.</li><li>Students correctly predict that the &quot;the&quot; cup produces the most mixed-up sentences and say why (it has the most different next words).</li><li>Students can say what the longer prompt fixed and name that it could not fix what the machine never learned.</li><li>Each student names a specific way to check a chatbot's answer (a book, a trusted website, an adult expert).</li></ul></section>
+      <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grade 3</dt><dd>Build one class machine at the front with student helpers, and run the lake round as a whole class with you flipping the coin. Use the sentence frame: &quot;The machine said that because it saw ___ and ___.&quot;</dd></div><div><dt>Grades 6–8</dt><dd>After the three-word round, ask teams to write two new true lake cards that would make a hallucination more likely, then trade with another team to test them. Discuss why more varied training text makes more varied, and sometimes wrong, output.</dd></div><div><dt>Emergent bilinguals</dt><dd>Make a second set of Story Cards in a student's home language and compare which words follow which. Word order that differs between languages makes the &quot;next word&quot; idea vivid.</dd></div><div><dt>Students with fine-motor needs</dt><dd>Skip slips: generate by pointing to tally marks or rolling a die and counting along the row. A partner can write the sentence.</dd></div></dl></section>
+      <section class="two">
+        <div><h2>Reflect</h2><ul><li>How did our paper machine decide what word came next? How is a real chatbot like it, and how is it different?</li><li>Why could our machine say something false in a sure-sounding sentence? What should you do when a chatbot sounds sure? (Student ELE 1.3: I am aware of how AI can assist me in my studies.)</li><li>Where else do you see patterns being used to guess what comes next: in math, in music, in reading?</li></ul></div>
+        <div><h2>What comes next</h2><p>At home, students play &quot;finish my sentence&quot; with family members and then teach them the lake round in one sentence: &quot;A chatbot guesses the next word from patterns, so it can sound sure and still be wrong, and that's why we check.&quot; In the next AI lesson, have students use their Handout C explanation before any teacher-projected chatbot demo.</p></div>
+      </section>
+      <section><h2>Pairs well with</h2><ul class="connections"><li><a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts (K–8)</a><span>Teacher-projected breakouts that extend how AI works and when to double-check it.</span></li></ul></section>
+      <section class="related noprint"><h2>Related activities</h2><div class="cards"><article class="card" data-id="robot-guesses">
+    
+    <div class="card-edge"><span class="e-genai"></span></div>
+    <p class="card-kind">Student learning<span>Grades K–2</span></p>
+    <h3><a href="../activities/robot-guesses.html">Robot Guesses</a></h3>
+    <p class="card-tag">Children train a pretend robot with picture-word cards and discover that AI makes guesses from patterns, and that a guess can be wrong.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>30 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">Gen AI</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI in Education 1.1: I know how AI systems work and their capabilities in educational contexts.">AI1.1</a><a class="ele" href="../framework.html#AI1.3" title="AI in Education 1.3: I am aware of the current limitations and potential biases in AI systems.">AI1.3</a><a class="ele" href="../framework.html#S1.3" title="Students 1.3: I am aware of how AI can assist me in my studies.">S1.3</a></span></div>
+  </article><article class="card" data-id="human-language-model">
+    
+    <div class="card-edge"><span class="e-genai"></span><span class="e-medialit"></span></div>
+    <p class="card-kind">Professional learning<span>Teachers, Librarians, Coaches, Faculty</span></p>
+    <h3><a href="../activities/human-language-model.html">The Human Language Model</a></h3>
+    <p class="card-tag">Educators become a tiny language model with paper slips and a cup, and discover firsthand why fluent AI text can be confidently wrong.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>50 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-genai">Gen AI</span><span class="strand s-medialit">Media literacy</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI in Education 1.1: I know how AI systems work and their capabilities in educational contexts.">AI1.1</a><a class="ele" href="../framework.html#AI1.2" title="AI in Education 1.2: I can explain AI concepts in simple terms to various stakeholders.">AI1.2</a><a class="ele" href="../framework.html#AI1.3" title="AI in Education 1.3: I am aware of the current limitations and potential biases in AI systems.">AI1.3</a></span></div>
+  </article><article class="card" data-id="algorithm-autopsy">
+    
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Student learning<span>Grades 9–12</span></p>
+    <h3><a href="../activities/algorithm-autopsy.html">Algorithm Autopsy</a></h3>
+    <p class="card-tag">Students dissect the design features of a fictional social app, trace how each one shapes attention and belief, and redesign the feed for people instead of engagement.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>75 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Media literacy</span><span class="strand s-genai">Gen AI</span><span class="strand s-digcit">Digital citizenship</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI in Education 1.1: I know how AI systems work and their capabilities in educational contexts.">AI1.1</a><a class="ele" href="../framework.html#S5.2" title="Students 5.2: I can use creativity and logic to find innovative solutions.">S5.2</a><a class="ele" href="../framework.html#S5.1" title="Students 5.1: I know how to approach complex problems systematically.">S5.1</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>TCEA Essential Learning Expectations Activity Bank.</strong> Professional learning and K–16 student activities for Gen AI literacy, digital citizenship, and media literacy, on paper or on screen.</p>
+    <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
+    
+  </div>
+  <nav aria-label="Related">
+    <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
+    <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
+  </nav>
+</footer>
+
+</body>
+</html>

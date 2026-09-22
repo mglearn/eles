@@ -1,0 +1,148 @@
+{
+  "id": "human-ai-studio",
+  "title": "Human + AI Studio",
+  "tagline": "Students create a short piece with AI as a prompt partner, log every suggestion they keep, change, or reject, and defend their human choices in a studio critique.",
+  "audience": "student",
+  "grades": ["9-12", "Higher Ed"],
+  "strands": ["genai", "digcit"],
+  "mode": "hybrid",
+  "minutes": 90,
+  "groupSize": "Individual creators; critique circles of 4",
+  "eles": ["AI5.1", "AI5.3", "S5.2", "AI2.3"],
+  "overview": "Generative AI can produce a poem, a story opening, or a poster concept in seconds, which raises a real question for student creators: what part of the work is theirs? In this studio, students make a short creative piece (flash fiction of 150–250 words or a one-page design concept) using AI only as a prompt partner that offers ideas, never as the author. They keep a Human Choices Ledger of every AI suggestion and their decision about it, then defend their choices in a studio critique where peers ask, \"Why that?\" The evidence of learning is not the finished piece; it's the trail of decisions that made it.",
+  "objectives": [
+    "Students will use a generative AI tool, or a deck of AI-generated suggestions, to expand their creative options without handing over authorship.",
+    "Students will document each AI suggestion and their decision to keep, change, or reject it, with a reason grounded in their creative intent.",
+    "Students will explain and defend the human choices in their work during a peer critique and write an honest disclosure of AI's role."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: AI Suggestion Deck (1 set per student or pair, cut apart), used for the unplugged path and as a model",
+      "Handout B: Human Choices Ledger (1 per student)",
+      "Handout C: Studio Critique Rubric (1 per student)",
+      "Paper, colored pencils, and markers for design concepts"
+    ],
+    "digital": [
+      "A generative AI chatbot your district or institution approves for students 13+ (the teacher projects it for younger students)",
+      "A word processor or simple design tool for drafting"
+    ]
+  },
+  "prep": [
+    "Choose the studio prompt. The default is: **\"Write a 150–250 word flash fiction, or design a one-page poster concept, about a moment when something ordinary became strange.\"** Adjust it to your course content if you like.",
+    "Print and cut Handout A. Its suggestions were written to respond to the default prompt, so students on the unplugged path draw from them as if they came from an AI.",
+    "Confirm the AI tool is approved for your students' ages. Ask students not to prompt with the names of living artists or authors (see the \"Who Owns the Output?\" activity for why).",
+    "Set up critique circles of four with mixed genres (writers and designers together)."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 7,
+      "title": "Spot the choice",
+      "body": "Read aloud two versions of the same opening line: **A:** \"The kitchen was quiet.\" **B:** \"The refrigerator hummed a song my grandmother used to sing.\" Ask: \"Suppose an AI suggested line A and a student changed it into line B. Whose line is B?\" Take a few answers. Say: \"Today you'll create with an AI partner, and you'll track every choice. At the end, you'll show us exactly what's human in your work.\""
+    },
+    {
+      "phase": "Model",
+      "minutes": 10,
+      "title": "Prompt partner, not ghostwriter",
+      "body": "Project the approved AI tool. Model **partner prompts** that ask for options, not a finished piece: \"Give me five strange things that could happen in an ordinary kitchen.\" \"Suggest three different endings for a story where a refrigerator hums a song. Keep each to one sentence.\" \"What's a surprising color palette for a poster about an ordinary thing becoming strange?\" Contrast with a **ghostwriter prompt**: \"Write a 200-word story about a strange kitchen.\" Then model the ledger: log one suggestion and your decision (keep, change, reject) and the **reason tied to your intent.**",
+      "note": "Name the rule: AI may offer ideas, options, and questions. The words, images, and final arrangement are the student's."
+    },
+    {
+      "phase": "Create",
+      "minutes": 35,
+      "title": "Studio time",
+      "body": "Students draft their piece. At least **five times** during studio time, they request AI suggestions (from the approved tool or by drawing a card from Handout A) and log every suggestion on Handout B with a decision and a reason. Require at least one rejection and at least one change. Circulate and ask individual students: \"What did you want that the AI didn't give you?\"",
+      "note": "Watch for students pasting AI text straight in. Ask them to read the ledger row aloud and explain the reason. Usually that prompts a revision on its own."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 20,
+      "title": "Studio critique: \"Why that?\"",
+      "body": "In circles of four, each creator has 5 minutes: 1 minute to share the piece, then 4 minutes of peer questions. Peers must ask at least two \"Why that?\" questions about specific choices, and the creator answers using their ledger. Peers score using Handout C and write one warm (\"This choice works because…\") and one cool (\"I wondered about…\") comment.",
+      "note": "Strong critiques focus on decisions: \"Why did you reject the twist ending?\" Weak ones focus only on liking the piece."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 18,
+      "title": "Revise and disclose",
+      "body": "Students make one revision based on critique feedback and log it. Then they write a two-sentence disclosure to attach to their piece: **what the AI contributed and what they decided.** Close with a whole-class question: \"Did the AI make your work more creative, less creative, or just different? What's your evidence?\"",
+      "note": "Accept all three answers if they're backed by the ledger. Some students find AI options flatten their voice, and that's a legitimate finding."
+    }
+  ],
+  "unplugged": "Students draw from the Handout A AI Suggestion Deck instead of a live tool, treating each card as an AI suggestion. They draw at least five cards over studio time, log each one on Handout B, and decide whether to keep, change, or reject it. The ledger, critique, and disclosure work exactly the same, and students often notice that pre-written suggestions don't fit their piece, which is a good lesson about generic AI output.",
+  "digital": "Students 13+ use an approved chatbot for partner prompts and keep the ledger as a digital table, pasting each AI suggestion next to their decision. Drafts live in a document with version history turned on, so the teacher can see the piece evolve. Critique can run in small breakout rooms or as comment threads on a shared gallery page. Students under 13 use the unplugged deck, or the teacher runs the tool on a projector.",
+  "whyTech": "A live tool generates suggestions shaped by each student's own ideas, so the ledger captures real, responsive decisions, and version history shows how the work changed. That trail of choices is evidence of creative thinking that a finished piece alone can't show.",
+  "adaptations": [
+    { "label": "Higher Ed", "text": "In a first-year writing seminar or design foundations course, extend the studio to a two-page piece and have students connect their ledger to a reading on authorship and creative process." },
+    { "label": "Art and design classes", "text": "Replace flash fiction with a one-page visual concept sketched by hand, using AI only for words: concept options, color palettes described in words, and critique questions." },
+    { "label": "Emergent bilinguals", "text": "Students may write their piece in their home language or bilingually and use AI to suggest words in either language, logging those choices too." },
+    { "label": "Students who need more structure", "text": "Provide three required partner prompts and a ledger with the first two rows modeled." }
+  ],
+  "lookFors": [
+    "The ledger shows at least five AI suggestions with decisions and reasons tied to the student's intent, including at least one rejection and one change.",
+    "During critique, the creator answers \"Why that?\" questions with specific reasons, not \"the AI said so.\"",
+    "The final disclosure accurately separates AI contributions from human decisions.",
+    "Students support their answer about whether AI made their work more or less creative with evidence from the ledger."
+  ],
+  "reflection": [
+    "How did I collaborate with AI while keeping my own voice and decisions? (AI5.1)",
+    "Did AI augment my creativity, limit it, or just change it? What's my evidence? (AI5.3)",
+    "Why does being transparent about AI's role matter to me as a creator? (AI2.3)"
+  ],
+  "transfer": "Students attach a short ledger and disclosure to their next creative assignment in any course. At home, they can show a family member their ledger and explain one choice they made that the AI couldn't have made for them.",
+  "connections": [
+    { "title": "AI Essentials Prompt Library", "url": "https://mglearn.github.io/tcea/ai-essentials-prompt-library/", "note": "Prompt patterns for brainstorming and feedback that keep the human as author." },
+    { "title": "Augmented K–16 AI Learning Framework", "url": "https://mglearn.github.io/tcea/alf/", "note": "A framework for deciding how much AI assistance fits a creative task." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "AI Suggestion Deck",
+      "type": "cards",
+      "instructions": "These are mock AI suggestions for the prompt \"a moment when something ordinary became strange.\" Draw one when you want an idea. Log it on Handout B and decide: keep, change, or reject.",
+      "cards": [
+        { "label": "Idea", "front": "What if a person's shadow started arriving in rooms a few seconds before they did?" },
+        { "label": "Idea", "front": "A school bell rings at the usual time, but everyone in the building hears a different song." },
+        { "label": "Opening line", "front": "\"Every morning the bus stopped at Juniper Street, but today it stopped at a street that wasn't on any map.\"" },
+        { "label": "Character", "front": "A night-shift custodian who notices that the lost-and-found box is slowly filling with objects that haven't been lost yet." },
+        { "label": "Twist", "front": "The strange thing isn't happening to the world. It's happening to the narrator, and everyone else has noticed except them." },
+        { "label": "Ending", "front": "End on an ordinary action that now feels different: someone turning off a light, and the dark lasting a moment too long." },
+        { "label": "Design", "front": "Poster concept: an everyday object (a key, a spoon, a sneaker) shown very large, with one small detail that doesn't belong." },
+        { "label": "Design", "front": "Color idea: a calm, dull palette of grays and beiges, with one element in an unnatural bright color." },
+        { "label": "Question", "front": "What does your character want before the strange thing happens? How does the strangeness get in the way?" },
+        { "label": "Question", "front": "Which of your five senses would notice the change first? Start there." },
+        { "label": "Generic", "front": "\"Suddenly, everything changed, and nothing would ever be the same again.\"" },
+        { "label": "Title", "front": "Title options: \"Thursday, Slightly Wrong\" · \"The Humming\" · \"Lost and Not Yet Found\" · \"The Map Doesn't Know\"" }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Human Choices Ledger",
+      "type": "table",
+      "instructions": "Log every AI suggestion. Decision: Keep · Change · Reject. The reason must connect to what YOU want your piece to do. Write your two-sentence disclosure on the back.",
+      "columns": ["#", "What I asked (or card drawn)", "What the AI suggested", "My decision (Keep / Change / Reject)", "Why, based on my intent"],
+      "rows": [
+        ["1", "", "", "", ""],
+        ["2", "", "", "", ""],
+        ["3", "", "", "", ""],
+        ["4", "", "", "", ""],
+        ["5", "", "", "", ""],
+        ["6", "", "", "", ""],
+        ["Revision after critique", "", "", "", ""]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Studio Critique Rubric",
+      "type": "rubric",
+      "instructions": "Score a peer's piece and ledger. Add one warm and one cool comment on the back.",
+      "levels": ["Beginning", "Developing", "Proficient", "Exemplary"],
+      "criteria": [
+        { "name": "Human authorship", "descriptors": ["Most of the piece is AI text or imagery used as given.", "The creator made some changes, but AI suggestions drive the piece.", "The creator's intent shapes the piece; AI suggestions are clearly adapted or selected.", "A distinct personal voice or vision; AI suggestions are transformed or purposefully rejected."] },
+        { "name": "Decision log", "descriptors": ["Few entries, no reasons.", "Entries with general reasons (\"I liked it\").", "Five or more entries with reasons tied to intent, including a rejection and a change.", "Entries show a clear pattern of judgment, and the creator can name what they learned about their own preferences."] },
+        { "name": "Defending choices", "descriptors": ["Can't explain choices.", "Explains some choices but relies on \"the AI suggested it.\"", "Answers \"Why that?\" questions with specific reasons.", "Answers with reasons and connects choices to the effect on the reader or viewer."] },
+        { "name": "Transparency", "descriptors": ["No disclosure.", "Vague disclosure (\"I used AI\").", "Disclosure says what AI contributed and what the creator decided.", "Clear, specific disclosure a reader could use to understand exactly how the piece was made."] }
+      ]
+    }
+  ]
+}

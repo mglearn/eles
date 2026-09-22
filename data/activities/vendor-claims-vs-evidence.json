@@ -1,0 +1,164 @@
+{
+  "id": "vendor-claims-vs-evidence",
+  "title": "Two Grade Levels? Vendor Claims vs. Evidence",
+  "tagline": "Leaders trace an AI product's headline result back to the study behind it, read the terms of service line by line, and design the local pilot that would actually answer \"Does it work here?\"",
+  "audience": "pl",
+  "roles": ["leaders", "faculty", "coaches"],
+  "grades": ["K-12", "Higher Ed"],
+  "strands": ["medialit", "genai", "digcit"],
+  "mode": "digital",
+  "minutes": 75,
+  "groupSize": "Teams of 3–4; any number of teams",
+  "eles": ["L1.3", "AI3.2", "L3.3", "AI2.3"],
+  "overview": "\"Students improved two grade levels!\" is the kind of claim that moves budgets. It is also a claim leaders are rarely taught to trace. In this session, teams read a fictional AI tutoring product's marketing, the efficacy summary behind the headline, and excerpts from its terms of service. They sort statements into strong evidence, weak evidence, and privacy flags, then apply the same moves online to a real product their district is considering. The session ends with a design for a small local pilot, because the question that matters is not whether a product worked somewhere, but whether it improves learning for your students.",
+  "objectives": [
+    "Participants will trace a marketing claim to its source and evaluate the study's design: comparison group, sample, measure, duration, and independence.",
+    "Participants will identify data-use and privacy provisions in terms of service that affect students, including use of student work to train AI models.",
+    "Participants will evaluate a real product's published claims and terms using the same criteria.",
+    "Participants will design a small local pilot with a comparison and a learning measure that would evaluate an AI-enhanced intervention."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The StepUp AI Tutor Packet (1 per person)",
+      "Handout B: Evidence or Red Flag? Sort (1 set per team, cut apart)",
+      "Handout C: Claim-to-Evidence Ledger (1 per team)",
+      "Highlighters in three colors"
+    ],
+    "digital": [
+      "One device with a browser per team for researching a real product",
+      "The name of one AI or instructional product your district is considering or already uses (the facilitator can supply two or three options)"
+    ]
+  },
+  "prep": [
+    "Print Handout A for everyone and cut Handout B into strips.",
+    "Choose two or three real products your district is considering or using. Locate each vendor's efficacy or research page, privacy policy, and terms of service so teams don't spend the session searching.",
+    "If your district has a data privacy agreement process or an approved-tools list, bring a copy of the questions it asks vendors.",
+    "Do not present any real vendor as good or bad in advance. Let teams follow the evidence."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 6,
+      "title": "The headline",
+      "body": "Project only the headline from Handout A: **\"Students using StepUp AI Tutor gained two grade levels in reading in one semester!\"** Ask: **\"If a board member forwarded you this, what would you need to know before you believed it?\"** List questions on chart paper.",
+      "note": "Keep the list. By the end, teams will see how many of their own questions the vendor's materials actually answer."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 15,
+      "title": "Read the packet with three highlighters",
+      "body": "Each person reads Handout A. Highlight **claims** in yellow, **evidence** that supports a claim in green, and anything about **student data** in pink. Teams then compare: which yellow claims have green evidence behind them? What does the pink tell you about where student work goes?",
+      "note": "The efficacy summary is the heart of the packet. Look for teams that notice the 40 students, the lack of a comparison group, the vendor-written test, and the fact that the students were already in an intensive intervention."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Evidence or red flag?",
+      "body": "Teams sort the 14 statements in Handout B into **Strong evidence, Weak or missing evidence,** and **Privacy or data-use flag.** For each, they note the question they would ask the vendor. Compare with the facilitator key and discuss any disagreements.",
+      "note": "\"FERPA and COPPA compliant\" usually gets sorted as strong evidence. It is a claim the vendor makes about itself. Compliance depends on how the tool is used, the district's agreement, and the actual data practices, which your district's privacy review should confirm."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 20,
+      "title": "Now a real product",
+      "body": "Each team takes one real product from your list and, using their devices, finds its efficacy claims, any research it cites, its privacy policy, and its terms of service. They fill Handout C: **each claim, what evidence would convince us, what the vendor actually provides, the gap or question, and a local measure.** They should read laterally too: what do independent sources say about the product and its research?",
+      "note": "Coach teams to trace at least one claim all the way to its source. Many \"research-based\" labels lead to a white paper written by the vendor, a study of a different product, or research on a general practice the product claims to use."
+    },
+    {
+      "phase": "Create",
+      "minutes": 12,
+      "title": "Design the local pilot",
+      "body": "On the back of Handout C, each team sketches a small, honest pilot for their product: **which students and for how long, what the comparison is** (similar classes without it, or the same students before and after with a clear baseline), **what learning measure** you'll use that the vendor didn't create, **what you'll look for in student work**, and **what would make you stop.** Include who might be left out of the pilot and how families will be informed.",
+      "note": "A small pilot with a fair comparison and real student work beats a large rollout with only usage data. Usage data tells you students logged in; it can't tell you whether they learned."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 10,
+      "title": "Back to the headline",
+      "body": "Return to the Hook questions. Ask: **\"Which of our questions did the vendor answer? Which could only a local pilot answer?\"** Each team shares its product's biggest gap and one line from its terms of service that surprised them. Close by naming the moves: **trace the claim, check the design, read the terms, test it locally.**",
+      "note": "Connect to media literacy: this is lateral reading and claim-tracing applied to procurement. The same moves students use on a viral post work on a vendor's slide deck."
+    }
+  ],
+  "unplugged": "Run the session with Handouts A and B only, and replace the real-product research with printed copies of one real vendor's research page and privacy policy that you gather in advance. Teams highlight and fill Handout C on paper. The claim-tracing is identical; teams simply can't read laterally beyond what you've printed, so add a note of what independent sources say if you've found any.",
+  "digital": "Teams research real products on their devices, reading efficacy pages, cited studies, privacy policies, and terms of service, and searching laterally for independent reviews. Handout C can be a shared spreadsheet so all teams' ledgers are comparable, which makes a useful starting record for your district's review process. In a virtual session, use breakout rooms and a shared document per team.",
+  "whyTech": "Real vendor materials live online, spread across marketing pages, linked PDFs, and long legal documents, and following those links is the skill. Searching laterally for independent coverage of a product and its study is only possible with live access.",
+  "adaptations": [
+    { "label": "Higher Ed", "text": "Swap StepUp for an AI courseware or tutoring platform marketed to colleges with a claim about course pass rates, and involve institutional research staff in designing the pilot." },
+    { "label": "Curriculum and instruction teams", "text": "Extend the Create step into a full pilot proposal with timeline, training plan, and the student work samples teachers will collect." },
+    { "label": "Short on time (45 min)", "text": "Skip the real-product research; use Handouts A and B, then design the pilot for StepUp itself." }
+  ],
+  "lookFors": [
+    "Teams identify at least three weaknesses in the StepUp study design (no comparison group, small sample, vendor-created measure, confounding intervention).",
+    "Participants flag terms that allow student work to train AI models or allow terms to change without direct notice.",
+    "Handout C traces at least one real product claim to its source and names what the source actually shows.",
+    "Pilot designs include a comparison, a learning measure not created by the vendor, and a stop condition."
+  ],
+  "reflection": [
+    "How am I staying aware of emerging technologies and evaluating their real potential impact on teaching and learning? (Leader ELE 1.3)",
+    "How can we evaluate the effectiveness of an AI-enhanced intervention in our own context before scaling it? (AI ELE 3.2)",
+    "What does transparency and accountability look like from a vendor, and what should we require before student data leaves our district?",
+    "Which of our current tools would pass the test we used today?"
+  ],
+  "transfer": "Before your next purchase or renewal decision, send the vendor your team's questions from Handout C and require written answers. Propose one local pilot, with a comparison and a learning measure, instead of a full rollout.",
+  "connections": [
+    { "title": "Generative AI Adoption Checklist", "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/", "note": "A structured companion for AI procurement decisions." },
+    { "title": "PROTECT Rubric v2.0", "url": "https://mglearn.github.io/tcea/protect_rubric_v2/", "note": "Use to evaluate privacy and safety terms in depth." },
+    { "title": "Digital Inquiry Group: Civic Online Reasoning", "url": "https://cor.inquirygroup.org/", "note": "Lateral reading lessons; the same moves apply to vendor claims." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The StepUp AI Tutor Packet",
+      "type": "reading",
+      "instructions": "StepUp AI Tutor and NimbleNorth Learning are fictional, created for training. Highlight claims (yellow), evidence (green), and student data terms (pink).",
+      "paragraphs": [
+        "**From the marketing page:** \"StepUp AI Tutor: Students using StepUp gained TWO GRADE LEVELS in reading in one semester! Our research-based, bias-free AI adapts to every learner, so no student falls behind. Trusted by more than 1,000 schools. Fully FERPA and COPPA compliant. Your data is never sold.\"",
+        "**From the marketing page, continued:** \"StepUp's patented engine is built on the science of reading and personalizes every lesson in real time. Teachers love it: 'My students are so engaged, they ask to use StepUp at recess!' — a 5th grade teacher.\"",
+        "**From the Efficacy Summary (a four-page PDF linked at the bottom of the page, titled \"Research Brief\"):** \"In spring, 40 students in grades 4–6 at one partner school used StepUp for 30 minutes daily as part of the school's intensive reading intervention program. Students were selected for the intervention because they scored below grade level on the fall benchmark.\"",
+        "**Efficacy Summary, continued:** \"Students took the StepUp Reading Level Check at the start and end of the semester. The average student's StepUp Reading Level rose from 2.8 to 4.9, a gain of 2.1 grade levels. Of the 52 students who began, 40 completed the program. The study was conducted by NimbleNorth Learning's research team.\"",
+        "**Efficacy Summary, continued:** \"Teachers reported that students were more engaged. Future research will include additional schools.\" No comparison group is mentioned. The brief does not say whether it was peer reviewed.",
+        "**From the Terms of Service (section 7.2):** \"User Content, including student responses and writing, may be used by NimbleNorth and its affiliates to operate, improve, and develop our products and services, including training our AI models. Content used for improvement is de-identified.\"",
+        "**Terms of Service, section 7.5:** \"We do not sell personal information. We may share information with service providers and affiliates, and in connection with a merger, acquisition, or sale of assets.\"",
+        "**Terms of Service, section 11:** \"We may update these Terms at any time. Changes are effective when posted on this page. Continued use of the Service constitutes acceptance.\" **Section 9:** \"De-identified data may be retained indefinitely.\""
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Evidence or Red Flag? Sort",
+      "type": "sort",
+      "instructions": "Sort each statement. On the back of each strip, write the question you would ask the vendor.",
+      "categories": ["Strong evidence", "Weak or missing evidence", "Privacy or data-use flag"],
+      "items": [
+        { "text": "Students gained 2.1 grade levels on the StepUp Reading Level Check.", "answer": "Weak or missing evidence", "why": "The measure was created by the vendor. Ask: what did students score on an independent assessment?" },
+        { "text": "No comparison group is mentioned.", "answer": "Weak or missing evidence", "why": "Students in an intensive intervention might have grown anyway. Ask: how did similar students without StepUp do?" },
+        { "text": "Forty students at one school.", "answer": "Weak or missing evidence", "why": "A small sample from one setting may not generalize. Ask: are there results from schools like ours?" },
+        { "text": "Twelve of 52 students did not complete the program and were not counted.", "answer": "Weak or missing evidence", "why": "Dropping non-completers can inflate results. Ask: how did all 52 students do?" },
+        { "text": "The study was conducted by the vendor's own research team.", "answer": "Weak or missing evidence", "why": "Not automatically wrong, but not independent. Ask: has anyone outside the company evaluated it?" },
+        { "text": "\"Bias-free AI\"", "answer": "Weak or missing evidence", "why": "No AI system can promise this. Ask: how has performance been checked across student groups, including multilingual learners?" },
+        { "text": "\"Trusted by more than 1,000 schools.\"", "answer": "Weak or missing evidence", "why": "Popularity is not efficacy. Ask: what results have those schools seen?" },
+        { "text": "A teacher quote about engagement.", "answer": "Weak or missing evidence", "why": "An anonymous testimonial about engagement says nothing about learning." },
+        { "text": "\"Fully FERPA and COPPA compliant.\"", "answer": "Weak or missing evidence", "why": "A self-description. Ask: will you sign our district's data privacy agreement?" },
+        { "text": "An independent evaluation with a comparison group of similar students, published with its methods, showing gains on a state or nationally normed assessment.", "answer": "Strong evidence", "why": "This is what the packet does not contain. Use it as the standard." },
+        { "text": "Student responses and writing may be used to train AI models.", "answer": "Privacy or data-use flag", "why": "Student work becomes product-development material. Ask: can the district opt out in the contract?" },
+        { "text": "Information may be shared in a merger, acquisition, or sale of assets.", "answer": "Privacy or data-use flag", "why": "Student data could transfer to a new owner. Ask: what protections survive a sale?" },
+        { "text": "Terms may change when posted; continued use means acceptance.", "answer": "Privacy or data-use flag", "why": "The district might not notice changes. Ask for direct notice and a contract that overrides posted terms." },
+        { "text": "De-identified data may be retained indefinitely.", "answer": "Privacy or data-use flag", "why": "Ask: what is de-identified, can it be re-identified, and when is data deleted after the contract ends?" }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Claim-to-Evidence Ledger",
+      "type": "table",
+      "instructions": "Use for StepUp first, then for a real product. Trace at least one claim all the way to its source.",
+      "columns": ["Vendor claim", "Evidence that would convince us", "What the vendor actually provides", "Gap or question for the vendor", "Local pilot measure"],
+      "rows": [
+        ["\"Two grade levels in one semester\"", "Independent study, comparison group, independent assessment, similar students", "Vendor-run study, 40 students, vendor's own test, no comparison", "", ""],
+        ["\"Your data is never sold\"", "Contract terms covering use, sharing, training, retention, and deletion", "", "", ""],
+        ["", "", "", "", ""],
+        ["", "", "", "", ""],
+        ["", "", "", "", ""]
+      ],
+      "blankRows": 2
+    }
+  ]
+}

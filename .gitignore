@@ -1,0 +1,4 @@
+# Source decks and draft blog posts stay local (large, and not all published yet)
+source_materials/
+node_modules/
+.DS_Store

@@ -1,0 +1,162 @@
+{
+  "id": "deepfake-principal-tabletop",
+  "title": "Is That Really Our Principal? A Synthetic Media Crisis Tabletop",
+  "tagline": "A fake audio clip of the principal spreads through parent groups on a Friday night, and the leadership team has two hours of game time to verify, respond, and rebuild trust.",
+  "audience": "pl",
+  "roles": ["leaders", "staff"],
+  "grades": ["K-12"],
+  "strands": ["medialit", "genai"],
+  "mode": "unplugged",
+  "minutes": 70,
+  "groupSize": "Crisis teams of 5–7; any number of teams",
+  "eles": ["L5.2", "L4.1", "AI4.2", "AI1.2"],
+  "overview": "Voice-cloning and video tools make it possible to put convincing words in anyone's mouth, and school leaders are visible, recorded, and trusted, which makes them targets. In this tabletop, a crisis team works through a fictional Friday-night timeline in which a synthetic audio clip of the principal cancels a trip and insults a neighborhood. Teams must separate what they know from what they don't, verify without relying on a detector, communicate with families in the first hour, and plan how to help the whole community get better at spotting the next one. The deepest lesson is that verification is a practice you prepare before the crisis, not a tool you find during it.",
+  "objectives": [
+    "Participants will apply verification moves (provenance, original context, corroboration) to a suspected synthetic media rumor without relying on detection tools.",
+    "Participants will draft a first family message within a simulated 30-minute window that states what is known, what is not, and where updates will appear.",
+    "Participants will identify at least three readiness steps (verified channels, response roles, community media literacy) their campus can take before an incident occurs."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Incident Timeline Cards (1 set per team, cut apart, kept face down in numbered order)",
+      "Handout B: Verification and Response Log (1 per team, enlarged if possible)",
+      "Handout C: Synthetic Media Readiness Checklist (1 per person)",
+      "A visible clock or timer; index cards for drafting messages"
+    ],
+    "digital": [
+      "Optional: a projector to display the game clock and each inject",
+      "Optional: a shared document per team for drafting the family message"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. Stack each team's cards face down in order (Card 1 on top). Print the facilitator notes (card backs) for yourself.",
+    "Assign or let teams choose roles: Principal, Assistant Principal, Communications Lead, District Technology Director, Counselor, Band Director, and PTA President. With five people, combine AP with Counselor and Band Director with PTA President.",
+    "Find out, before the session, what your district's actual crisis communication protocol says about who sends messages and when law enforcement or legal counsel is involved. You'll reference it in the debrief.",
+    "Do not play or create a real synthetic clip of anyone in the room. The scenario works entirely from the written description."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 6,
+      "title": "Would you believe it?",
+      "body": "Ask the room: **\"If a recording of your voice saying something awful showed up in a parent group tonight, how long would it take you to find out? How would you prove it wasn't you?\"** Take a few answers. Then say: \"Tonight is Friday, 6:40 p.m., at Bluebonnet Springs High School. Everyone in this scenario is fictional. The problem is not.\"",
+      "note": "Some people will say \"I'd just tell everyone it's fake.\" Hold that thought. The scenario tests whether a denial alone is enough."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 25,
+      "title": "Play the timeline",
+      "body": "Teams flip Timeline Cards 1–8 one at a time on your signal, about every three minutes. Each card is a new development. After every card, the team updates Handout B: **What we know (verified), what we don't know, action and owner, message sent (if any).** After Card 3, teams must draft a first family message on an index card within the game's 30-minute window (about five real minutes) and hand it to you.",
+      "note": "Watch for teams that treat the clip's quality as evidence. Ask: \"What would make you sure it's fake, other than how it sounds?\" Push toward provenance: who posted first, where the principal actually was, whether the original account exists."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 12,
+      "title": "Read the first messages aloud",
+      "body": "Read two or three teams' first family messages aloud (without team names). Ask: **\"Does this message say what we know, what we don't, and where to look for updates? Does it repeat the harmful content? Would a family who speaks another language or doesn't use the parent group get it?\"** Then walk through the facilitator notes for Cards 4 and 6, where most teams make their biggest decisions.",
+      "note": "Strong first messages are short, calm, do not quote or link the clip, name the official channel, and promise a specific next update. Weak ones either wait for certainty or over-promise (\"This is 100% fake\") before verification."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Verification without a detector",
+      "body": "Model the SIFT moves on the scenario aloud. **Stop**: the clip is designed to trigger outrage. **Investigate the source**: the account that posted first was created that week. **Find better coverage**: the official district and school channels say nothing about cancellation. **Trace**: the principal was on camera at the football game at the time the clip says she recorded it; the \"security threat\" was never reported to anyone. Then say: \"Notice none of these moves required knowing whether the audio was synthetic.\"",
+      "note": "Be honest with the room: AI detection tools can help but are not reliable enough to be the deciding evidence, and they can be wrong in both directions. Verification of context is stronger than analysis of pixels or sound waves."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 12,
+      "title": "Readiness audit",
+      "body": "Each person completes Handout C for their own campus. Teams then choose the **three items with the most \"No\" marks** and write one concrete next step for each: who does it, by when. Include at least one step that builds media literacy for the community, such as a short family session, a student-produced explainer, or a routine for how the school confirms news.",
+      "note": "The most common gap is the absence of a well-known, always-used official channel. If families don't know where real news comes from, they can't recognize fake news about the school."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 7,
+      "title": "The pre-bunk",
+      "body": "Each team drafts a short, calm message for families that could go out **before** any incident: what the school's official channels are, how the school will always confirm cancellations and emergencies, and a tip for pausing before sharing surprising recordings. Share one aloud.",
+      "note": "This is prebunking: telling people in advance what manipulation might look like. It supports a positive digital climate because it gives everyone a shared habit rather than suspicion."
+    }
+  ],
+  "unplugged": "The whole tabletop runs on printed cards, a paper log, and index cards for messages. Read each card aloud or let teams flip their own on signal. The game clock can be written on a whiteboard and advanced by hand.",
+  "digital": "Project the game clock and each timeline card as a slide. Teams keep Handout B in a shared document and draft family messages in a shared space so you can display them side by side. In a virtual session, post cards into breakout rooms at timed intervals. If you want to show what synthetic audio can sound like, use a publicly available educational example rather than creating a clip of a real staff member, and never of someone in the room.",
+  "whyTech": "This one is stronger unplugged. The learning is in the team's decisions under time pressure, and a real synthetic clip would distract from the main point: verification of context works even when you cannot tell by listening. Digital tools help only to compare teams' messages side by side.",
+  "adaptations": [
+    { "label": "Higher Ed", "text": "Make the target a dean or university president, the clip an announcement about tuition or a campus closure, and the audience students and their families through social media and student messaging groups." },
+    { "label": "Elementary campuses", "text": "Change Card 2 to a fake video of the principal announcing an early release day, and add a role for the front office staff who field the phone calls." },
+    { "label": "Communications staff only", "text": "Extend the message-drafting step and have teams produce the first message in two languages and a short text-message version." }
+  ],
+  "lookFors": [
+    "Handout B separates verified facts from assumptions, and the verified column grows through provenance and corroboration rather than judgments about how the clip sounds.",
+    "First family messages state what is known, what is not, and where the next update will appear, without repeating or linking the harmful content.",
+    "Teams address the harmed neighborhood directly, not only the canceled trip.",
+    "Each readiness next step on Handout C has an owner and a date."
+  ],
+  "reflection": [
+    "How effectively am I using digital communication tools to share accurate information with our community, especially under pressure? (Leader ELE 5.0)",
+    "If families received a fake announcement tomorrow, would they know where to check?",
+    "What would it look like to teach our whole community, not just students, to question and verify AI-generated media? (AI ELE 4.0)",
+    "How do we repair trust with a group of families who heard something hurtful, even after it's shown to be fake?"
+  ],
+  "transfer": "Within two weeks, confirm and publicize your campus's official channels for cancellations and emergencies, and add one line to every family newsletter reminding families where real news comes from. Share the pre-bunk message with your communications lead for approval.",
+  "connections": [
+    { "title": "When Disaster Strikes: Cyber Incident Response Game", "url": "https://mglearn.github.io/tcea/wds/", "note": "Another tabletop format for incident response planning." },
+    { "title": "News Literacy Project", "url": "https://newslit.org/", "note": "Free resources for building community-wide news literacy." },
+    { "title": "Critical Thinking Breakouts: Signal Check, The Viral Claim", "url": "https://mglearn.github.io/activities/ctobs/clear/", "note": "Student-facing verification practice for grades 6–8." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Incident Timeline Cards",
+      "type": "cards",
+      "instructions": "Fictional scenario. Keep cards face down in order and flip one at a time on the facilitator's signal. Backs are facilitator notes; print separately.",
+      "cards": [
+        { "label": "Card 1 · Fri 6:40 p.m.", "front": "The AP gets a text from a parent: \"Is this real?? Everyone's sharing it.\" Attached is a 35-second audio clip posted in the Bluebonnet Springs Parents group. It sounds like Principal Dr. Renee Okafor saying Saturday's band trip to the regional competition is canceled due to \"a security threat,\" followed by a disparaging comment about families from the Riverbend apartments.", "back": "First decision: who needs to know right now, and who owns verification? Strong teams reach the principal immediately and start a log. Note: nobody should forward the clip further, even internally, more than necessary." },
+        { "label": "Card 2 · Fri 6:52 p.m.", "front": "Dr. Okafor answers from the football stadium, where she has been since 5:30 p.m. with dozens of staff and families. \"I never recorded that. I would never say that.\" The clip has now been shared in three parent groups and on a public social media account called @BSHSTruth, created four days ago.", "back": "Two strong verification facts: a public alibi at the time of posting and a brand-new account as the first poster. Teams should log these as verified facts. They still don't know who made the clip." },
+        { "label": "Card 3 · Fri 7:05 p.m.", "front": "The band director calls: 40 families have messaged asking if the trip is off. Buses leave at 6:00 a.m. The PTA president says the Riverbend families' group chat is angry and hurt. **Your team must draft a first family message within 30 minutes of game time.**", "back": "Time pressure. The message must go out before full certainty. Look for: the trip is on; the recording did not come from the principal or the school; do not share it; updates will appear on the official channel; a sentence addressing the harm to Riverbend families." },
+        { "label": "Card 4 · Fri 7:30 p.m.", "front": "A staff member suggests uploading the clip to a free online \"AI voice detector.\" It returns: \"87% likely human.\" Some staff now wonder whether Dr. Okafor really said it and forgot.", "back": "The key teaching card. Detection tools are unreliable, and uploading the clip may spread it further. The alibi and provenance are stronger evidence than a detector score. Watch whether teams let one tool's number override verified context." },
+        { "label": "Card 5 · Fri 7:50 p.m.", "front": "A local TV station's reporter emails the district: \"We're aware of a recording of the Bluebonnet Springs principal. Can you comment by 9 p.m.?\"", "back": "Tests whether the team knows its district protocol: who speaks to media? Strong teams route this to the district communications office and prepare a brief statement consistent with the family message." },
+        { "label": "Card 6 · Fri 8:15 p.m.", "front": "A student messages the counselor: a classmate bragged in a group chat that he \"made the principal say stuff\" with a free app, \"as a joke.\" The student is scared to be named.", "back": "Decisions: protect the reporting student, follow the student code of conduct and district policy on investigations, and involve district leadership. Teams should not publicly name a student. Some districts will involve law enforcement; follow your protocol." },
+        { "label": "Card 7 · Sat 5:30 a.m.", "front": "Buses are loading. Eleven band students haven't arrived, and three of their families live at Riverbend. A parent tells the band director, \"We didn't think we were welcome.\"", "back": "Harm persists after the facts are clear. Look for teams that planned direct, personal outreach to Riverbend families, not just a mass message." },
+        { "label": "Card 8 · Mon 7:30 a.m.", "front": "The rumor is debunked, but the clip is still circulating in some groups, and a few families still believe it. Staff are asking whether this could happen to them. Students are talking about it in every hallway.", "back": "Recovery and prevention. Strong teams plan: a staff briefing, a student lesson on synthetic media, a follow-up with Riverbend families, and a community media literacy step. The incident becomes a teaching moment without spreading the clip again." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Verification and Response Log",
+      "type": "table",
+      "instructions": "Update after every card. Keep verified facts separate from what you suspect.",
+      "columns": ["Game time", "What we know (verified, and how)", "What we don't know yet", "Action + owner", "Message sent (to whom, what channel)"],
+      "rows": [
+        ["Fri 6:40 p.m.", "", "", "", ""],
+        ["Fri 6:52 p.m.", "", "", "", ""],
+        ["Fri 7:05 p.m.", "", "", "", ""],
+        ["Fri 7:30 p.m.", "", "", "", ""],
+        ["Fri 7:50 p.m.", "", "", "", ""],
+        ["Fri 8:15 p.m.", "", "", "", ""],
+        ["Sat 5:30 a.m.", "", "", "", ""],
+        ["Mon 7:30 a.m.", "", "", "", ""]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Synthetic Media Readiness Checklist",
+      "type": "checklist",
+      "instructions": "Rate your own campus honestly. Circle the three items your team will act on first.",
+      "scale": ["Yes", "Partly", "No"],
+      "items": [
+        "Families know our official channels for cancellations and emergencies, and we use them every time.",
+        "Our crisis communication plan names who verifies a rumor and who approves the first message.",
+        "We have a plain-language first-message template that works when we don't have all the facts.",
+        "We can send urgent messages in the languages our families speak, by text as well as email.",
+        "Staff know not to forward suspected fake media, even to report it, beyond the people who need it.",
+        "Our leaders know that AI detection tools are not reliable enough to decide what is real.",
+        "Our student code of conduct addresses creating or sharing synthetic media of students or staff.",
+        "Students learn to verify surprising audio and video by checking the source and context.",
+        "Families have been offered a session or resource on spotting manipulated and synthetic media.",
+        "We have a plan for repairing harm with any group targeted by a rumor, not only for correcting facts.",
+        "We have told our community in advance how we will always confirm real announcements (a pre-bunk)."
+      ]
+    }
+  ]
+}

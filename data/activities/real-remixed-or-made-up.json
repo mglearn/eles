@@ -1,0 +1,140 @@
+{
+  "id": "real-remixed-or-made-up",
+  "title": "Real, Remixed, or Made Up?",
+  "tagline": "A gallery walk through ten mock viral posts (deepfakes, cheapfakes, out-of-context photos, and a few real ones) that teaches teachers to check where media came from instead of squinting for glitches.",
+  "audience": "pl",
+  "roles": ["teachers", "librarians"],
+  "grades": ["3-5", "6-8", "9-12", "Higher Ed"],
+  "strands": ["medialit", "genai"],
+  "mode": "hybrid",
+  "minutes": 50,
+  "groupSize": "Pairs; 6–40 people (double up stations for larger groups)",
+  "eles": ["T2.3", "T2.1", "AI4.2", "S2.2"],
+  "overview": "Synthetic media gets the headlines, but much misleading media is cheaper: a slowed-down clip, a cropped sign, a real photo with a false caption. And as generators improve, hunting for extra fingers and warped text becomes less reliable. In this gallery walk, pairs visit ten stations of mock media, label each one, and discover that the verification moves that work (who posted it, where's the original, what do others say) are the same whether the media was made by AI or by a video editor. Then they plan how to teach those moves, including the honest answer \"can't tell yet.\"",
+  "objectives": [
+    "Participants will distinguish authentic, out-of-context, cheapfake (simply edited), and synthetic (AI-generated) media, and recognize \"can't tell yet\" as a responsible verdict.",
+    "Participants will explain why provenance and lateral reading are more reliable than visual \"tells\" for detecting manipulated or AI-generated media.",
+    "Participants will design a short student activity that has students name a verification move before sharing or reacting to media."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Gallery Station Cards (fronts printed large, one per station, posted around the room; backs printed as a separate facilitator key)",
+      "Handout B: Gallery Walk Field Notes (1 per pair)",
+      "Handout C: Bring It to Students (1 per person)",
+      "Tape; a timer or chime; five colored dot stickers per person"
+    ],
+    "digital": [
+      "Optional: one device per pair for a reverse image search demo on a public-domain image of your choosing",
+      "Optional: an AI image generator your district approves, operated by the facilitator on a projector"
+    ]
+  },
+  "prep": [
+    "Print the fronts of Handout A at large size (one per sheet) and post them as ten stations around the room. Print the backs as a facilitator key for yourself.",
+    "Write the five labels on chart paper where everyone can see them: Authentic · Out of context · Cheapfake · Synthetic · Can't tell yet.",
+    "If you plan the optional live demo, practice generating one realistic image with your district's approved tool beforehand so it takes under a minute in front of the room."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Too strange to be real?",
+      "body": "Read Station 9 aloud (the double rainbow over the stadium) and ask for a fist-to-five: \"Five means definitely fake.\" Most hands go high. Reveal: in this scenario it's authentic, confirmed by several photographers from different angles. Say: \"Our eyes are poor lie detectors, in both directions. Today we practice what works better.\"",
+      "note": "Don't lecture yet. Let the surprise do the work."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "Five labels, three questions",
+      "body": "Introduce the labels on the chart. **Authentic**: real and in its true context. **Out of context**: real media with a false caption, date, or place. **Cheapfake**: edited with ordinary tools (slowed, cropped, spliced, or text altered). **Synthetic**: generated or heavily altered by AI, including cloned voices. **Can't tell yet**: not enough information, so don't share. Then the three questions: \"**Who** posted this, and are they who they claim? **Where** is the original, full, earliest version? **What** do other reliable sources say?\" Add: \"Some cameras and AI tools now attach provenance labels (sometimes called content credentials), but labels can be missing or stripped, so their absence proves nothing.\"",
+      "note": "Name the trap: spotting glitches (odd hands, garbled text) sometimes works today but gets less reliable as tools improve. Teach students questions that will still work next year."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 18,
+      "title": "The gallery walk",
+      "body": "Pairs start at different stations and rotate on the chime every 90 seconds (about 15 minutes for ten stations, plus transition). At each station, they fill a row of Handout B: first impression, the clue that made them pause, the verification move they would make, and a label. Each person also places a colored dot on the one station they would most likely have shared without checking.",
+      "note": "Listen for pairs who label by gut and pairs who label by move. When you hear \"it just looks fake,\" ask: \"What would you check to find out?\""
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 10,
+      "title": "Reveal the keys",
+      "body": "Gather at the stations with the most dots and read their keys first. Then run through the rest quickly. For each, ask: \"Which *move* would have caught this?\" Tally on chart paper how many stations were solved by *Who*, *Where*, and *What others say*, and how many by visual clues alone. Close with the \"liar's dividend\": when fakes are common, people may dismiss **real** evidence as fake. Stations 6 and 9 are real. Verification protects the truth as well as exposing fakes.",
+      "note": "The punchline: the same three questions caught the AI voice clone, the slowed clip, and the false caption. Students don't need a separate skill set for AI."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 10,
+      "title": "Bring it to students",
+      "body": "Each person completes Handout C, planning a 10–15 minute version for their own students: which three stations (adapted to their grade), which label set (younger students can use just *Real*, *Changed*, *Made up*, *Not sure yet*), and what students must write before they're allowed to decide. Partners swap and ask: \"What evidence will show me students used a move, not a guess?\"",
+      "note": "Push teachers toward \"Not sure yet, don't share\" as a celebrated answer. Students rarely hear that uncertainty is the responsible choice."
+    }
+  ],
+  "unplugged": "Everything runs on paper: stations are printed descriptions of the media, and each card's key reports what a lateral search or reverse image search would find. When pairs say what they'd check, hand them that portion of the key, just as a search would. The thinking move, asking *who, where, what others say* before deciding, is fully preserved.",
+  "digital": "In the Model step, demonstrate one reverse image search on a public-domain photo so participants see how quickly an earlier appearance of an image can surface. Optionally, generate a realistic image live with your district's approved AI image tool to show how little effort it takes. In a virtual session, put the stations in a slide deck, send pairs to breakout rooms with Handout B as a shared table, and run the dot vote with annotation stamps. Participants don't need AI accounts.",
+  "whyTech": "The live demos show two things paper can't: how fast a reverse image search can find an earlier appearance of a photo, and how easily a convincing synthetic image is made. Seeing both is what convinces teachers that provenance checks, not visual inspection, are the skill worth class time.",
+  "adaptations": [
+    { "label": "Grades 3–5 teachers", "text": "Use Stations 2, 6, 8, and 10 with four labels: Real, Changed, Made up, Not sure yet. Focus on one question: \"Where did this come from first?\"" },
+    { "label": "Higher Ed faculty", "text": "Add a discussion of the liar's dividend in your discipline (for example, how real evidence can be dismissed as fake in public debate) and have students trace a real viral image from your field back to its earliest publication." },
+    { "label": "Librarians", "text": "Add a mini-lesson on finding the earliest version of an image or video through news archives and databases, then co-teach the student version with a content teacher." }
+  ],
+  "lookFors": [
+    "Handout B verification column names concrete moves (\"find the full town-hall video on the city's site,\" \"check the district's official channels\") rather than \"looks edited.\"",
+    "Participants label at least one station \"Can't tell yet\" and defend it as a responsible choice.",
+    "The debrief tally shows most stations solved by Who / Where / What others say, and participants can explain why that matters as generators improve.",
+    "Each Handout C requires students to write a verification move before they label or share."
+  ],
+  "reflection": [
+    "What strategies will help my students identify and combat misinformation, including synthetic media? (Teacher ELE 2.3)",
+    "Which of these ten would I have shared without checking, and what does that tell me about my own habits?",
+    "How will I teach students to question AI-generated media without making them cynical about all evidence?"
+  ],
+  "transfer": "Within two weeks, run a three-station version with students and collect their field notes. Count how many students wrote a verification move versus a visual guess, and bring that count to your PLC as your baseline.",
+  "connections": [
+    { "title": "News Literacy Project", "url": "https://newslit.org/", "note": "Free lessons and resources on misinformation and manipulated media." },
+    { "title": "Critical Thinking Breakouts: Signal Check, The Viral Claim", "url": "https://mglearn.github.io/activities/ctobs/clear/", "note": "Grades 6–8 digital breakouts on checking viral claims." },
+    { "title": "Digital Inquiry Group: Civic Online Reasoning", "url": "https://cor.inquirygroup.org/", "note": "Research-based lessons on evaluating online images and video." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Gallery Station Cards",
+      "type": "cards",
+      "instructions": "Post one front per station. Backs are the facilitator key: print them on a separate sheet. All people, places, and accounts are fictional.",
+      "cards": [
+        { "label": "Station 1 · Video", "front": "A 25-second clip shared by @FernwoodTruth: Fernwood's mayor speaks at a town hall, words slurred and slow. Caption: \"Is our mayor drunk at a public meeting?!\" 40K views.", "back": "**Cheapfake.** The clip was slowed down, which also lowers the voice. The full-speed original is in the city's archive of recorded meetings. Clue: the audience in the background also moves sluggishly. Move: *Where* is the original?" },
+        { "label": "Station 2 · Photo", "front": "A photo of a long line of people outside a building. Caption: \"Hundreds lined up for the Harlow County food drive yesterday. The need is real.\" Shared by a local community page.", "back": "**Out of context.** A reverse image search finds the same photo in a news story about a concert line in another city, published years earlier. The food drive may be real; this photo isn't from it. Move: *Where* did the image first appear?" },
+        { "label": "Station 3 · Audio", "front": "A voicemail that sounds exactly like Brookside High's principal: \"Due to a gas leak, school is closed tomorrow. Parents, please call 555-0147 to confirm your child's pickup arrangements.\" Forwarded by dozens of families.", "back": "**Synthetic** (AI voice clone). The district's website and official alert system show no closure, and the callback number isn't the school's. Clues: urgency and a request to call an unfamiliar number. Move: *What* do official channels say?" },
+        { "label": "Station 4 · Photo", "front": "A dramatic photo of a hailstone \"the size of a basketball\" in someone's hand, captioned \"Tall Oaks this afternoon!!\" Posted by an account created last week with no other posts.", "back": "**Synthetic** (AI-generated image). No local news, weather reports, or other residents show hail anywhere near that size, and the account has no history. Some textures look too smooth, but the account and missing coverage are the stronger evidence. Moves: *Who* posted it? *What* do others say?" },
+        { "label": "Station 5 · Screenshot", "front": "A screenshot of a news headline: \"Riverbend ISD to Replace Half of Its Teachers With AI Tutors Next Fall.\" The logo belongs to the regional newspaper. Shared as an image, with no link.", "back": "**Cheapfake** (edited text). Searching the newspaper's site finds the real article, headlined \"Riverbend ISD Pilots AI Tutoring Help in Two Middle Schools.\" The headline in the screenshot was altered. Move: *Where* is the original article? Screenshots without links are a warning sign." },
+        { "label": "Station 6 · Photo", "front": "A photo of a student robotics team holding a trophy at a state competition, posted by Cedar Bend High School's official account, with the team named in the caption.", "back": "**Authentic.** The school's account has a long history, the local paper covered the result with a different photo of the same team, and the competition's results page lists them. Verification also confirms what's true." },
+        { "label": "Station 7 · Video ad", "front": "A polished video ad: \"Dr. Lena Park, pediatrician,\" smiles and says, \"As a doctor and a mom, I give my kids FocusBoost gummies every morning for better grades.\" Sponsored post.", "back": "**Synthetic** (AI-generated spokesperson). Searching the name with \"pediatrician\" finds no practice, license, or history outside this ad; the face appears in ads for unrelated products. Move: *Who* is this person? Also note the persuasion technique: borrowed authority." },
+        { "label": "Station 8 · Photo", "front": "A photo of a sign on the Oak Street Public Library door: \"NO STUDENTS ALLOWED.\" Caption: \"Our library just banned kids. Unbelievable.\"", "back": "**Cheapfake** (cropped). The uncropped photo, posted on the library's page, reads \"No students allowed after 8 p.m. without an adult.\" Move: *Where* is the full, original image?" },
+        { "label": "Station 9 · Photo", "front": "A photo of a vivid double rainbow arching perfectly over a high school football stadium during a game. Caption: \"You can't make this up. Go Hawks!\"", "back": "**Authentic.** Several people in the stands posted photos from different angles within minutes, and a local TV station shared viewer photos. Strange-looking is not the same as fake." },
+        { "label": "Station 10 · Video", "front": "A shaky video of water rushing over a road, posted 20 minutes ago: \"Highway 9 underwater RIGHT NOW. Don't drive!\" No other posts or reports yet.", "back": "**Can't tell yet.** It might be real and urgent, or an old video recirculating. Responsible move: don't share it as fact; check official road-condition and emergency channels, and wait for confirmation. \"Not sure yet\" is a verdict, not a failure." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Gallery Walk Field Notes",
+      "type": "table",
+      "instructions": "Labels: Authentic · Out of context · Cheapfake · Synthetic · Can't tell yet. Name a move (Who? Where? What do others say?) before you choose a label.",
+      "columns": ["Station", "First impression", "Clue that made us pause", "Verification move we'd make", "Label"],
+      "rows": [["1", "", "", "", ""], ["2", "", "", "", ""], ["3", "", "", "", ""], ["4", "", "", "", ""], ["5", "", "", "", ""], ["6", "", "", "", ""], ["7", "", "", "", ""], ["8", "", "", "", ""], ["9", "", "", "", ""], ["10", "", "", "", ""]]
+    },
+    {
+      "id": "C",
+      "title": "Bring It to Students",
+      "type": "worksheet",
+      "instructions": "Plan a 10–15 minute version of this gallery walk for your students.",
+      "sections": [
+        { "prompt": "My students and class. Which labels will I use? (Younger students: Real · Changed · Made up · Not sure yet)", "lines": 2 },
+        { "prompt": "The three stations I'll adapt, and how I'll change them to fit my students' lives and grade level:", "lines": 4 },
+        { "prompt": "What students must write before they choose a label (the verification move):", "lines": 2 },
+        { "prompt": "How I'll celebrate \"Not sure yet, don't share\" as a smart answer:", "lines": 2 },
+        { "prompt": "Where does AI come in? How will I explain synthetic media without teaching students to distrust everything?", "lines": 3 },
+        { "prompt": "Partner check: \"The evidence that shows students used a move, not a guess, is…\"", "lines": 2 }
+      ]
+    }
+  ]
+}

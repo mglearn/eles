@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Feed Game | ELE Activity Bank</title>
+<meta name="description" content="Students play a card-based recommendation engine by hand and watch their feed shrink to a few topics, then design ways to take it back.">
+<meta property="og:title" content="The Feed Game | ELE Activity Bank">
+<meta property="og:description" content="Students play a card-based recommendation engine by hand and watch their feed shrink to a few topics, then design ways to take it back.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">ELE</span><span>Activity Bank</span></a>
+  <nav aria-label="Main">
+    <a href="../index.html#catalog">Activities</a>
+    <a href="../framework.html">The ELEs</a>
+    <a href="../guide.html">Facilitator guide</a>
+  </nav>
+</header>
+
+<main id="main" class="act">
+  <div class="act-head">
+    
+    <div class="act-head-text">
+    <p class="crumbs"><a href="../index.html#catalog">All activities</a> <span aria-hidden="true">/</span> Student learning</p>
+    <h1>The Feed Game</h1>
+    <p class="lede">Students play a card-based recommendation engine by hand and watch their feed shrink to a few topics, then design ways to take it back.</p>
+    <div class="act-actions">
+      <a class="btn btn-gold" href="../handouts/the-feed-game.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Print handouts</a>
+      <button class="btn btn-line" type="button" onclick="window.print()">Print this guide</button>
+    </div>
+    </div>
+  </div>
+  <div class="act-grid">
+    <aside class="glance" aria-label="At a glance">
+      <dl>
+        <div><dt>Time</dt><dd><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 minutes</dd></div>
+        <div><dt>Mode</dt><dd class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</dd></div>
+        <div><dt>Grades</dt><dd>Grades 6–8, Grades 9–12</dd></div>
+        
+        <div><dt>Group</dt><dd>Teams of 3 (Viewer, Algorithm, Recorder); any number of teams</dd></div>
+        <div><dt>Strands</dt><dd class="chips"><span class="strand s-medialit">Media literacy</span><span class="strand s-genai">Gen AI</span></dd></div>
+      </dl>
+      <h2 class="glance-h">ELE indicators</h2>
+      <ul class="indicators"><li><a class="ele" href="../framework.html#S2.3">S2.3</a><div><span class="ind-area">Students · Online Safety</span>I am aware of the potential risks of sharing content online.</div></li><li><a class="ele" href="../framework.html#AI1.1">AI1.1</a><div><span class="ind-area">AI in Education · AI Literacy</span>I know how AI systems work and their capabilities in educational contexts.</div></li><li><a class="ele" href="../framework.html#S5.3">S5.3</a><div><span class="ind-area">Students · Creative Problem Solver</span>I am aware of how to apply computational thinking in various subjects.</div></li><li><a class="ele" href="../framework.html#S2.2">S2.2</a><div><span class="ind-area">Students · Online Safety</span>I can identify trustworthy sources of information on the internet.</div></li></ul>
+      <h2 class="glance-h">Handouts</h2>
+      <ul class="handout-list"><li><span class="hl">A</span> Feed Cards <span class="muted">(cut-apart cards)</span></li><li><span class="hl">B</span> Feed Tracker <span class="muted">(organizer)</span></li><li><span class="hl">C</span> Take Back Your Feed <span class="muted">(worksheet)</span></li></ul>
+    </aside>
+    <div class="act-main">
+      <section><h2>Overview</h2><p class="overview">Recommendation systems don't know what is true, kind, or good for you. They predict what will keep you watching, based on patterns in what you did before. In this game, one student plays the Algorithm and follows a printed rule card to choose posts for a Viewer, scoring every reaction. In five rounds, most feeds narrow to one or two topics, and posts designed to spark strong feelings rise to the top. Students then change one rule and discover what they can and can't control.</p>
+        <h3 class="sub">Objectives</h3><ul><li>Students will simulate a recommendation algorithm by following written rules and explain, in their own words, how it predicts what to show next.</li><li>Students will use their round-by-round data to describe how a feed narrows and why strong-feeling posts get boosted.</li><li>Students will propose and test one change (to the rules or to their own behavior) that widens a feed, and explain the trade-off.</li></ul></section>
+      <section class="two">
+        <div><h2>Materials</h2>
+          <h3 class="sub">On paper</h3><ul><li>Handout A: Feed Cards (1 set of 16 per team, cut apart: 14 post cards and 2 rule cards)</li><li>Handout B: Feed Tracker (1 per team)</li><li>Handout C: Take Back Your Feed (1 per student)</li><li>Tokens or paper clips for scoring (about 30 per team), or tally marks</li></ul>
+          <h3 class="sub">On screen</h3><ul><li>Optional: a teacher-projected slide showing the rule card and a timer</li><li>Optional: a shared spreadsheet where Recorders enter topic counts to make a class chart</li></ul></div>
+        <div><h2>Before you start</h2><ol class="prep"><li>Print and cut Handout A. Keep the two rule cards separate so each team's Algorithm gets them first.</li><li>Draw a class tally on the board with columns for the five topics (Gaming, Animals, Sports, Science, Cooking) and rows for Round 1 and Round 5.</li><li>Decide how teams form. Mix students so Viewers aren't all friends who share interests; varied feeds make a better debrief.</li></ol></div>
+      </section>
+      <section><h2>Step by step</h2><ol class="steps"><li class="step">
+      <div class="step-rail"><span class="step-n">1</span><span class="step-time">0–5 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Hook</p>
+        <h3>Why did that show up?</h3>
+        <p>Ask: <strong>&quot;Have you ever watched one video and then your whole feed changed?&quot;</strong> Take quick stories. Then say: &quot;Today one of you gets to <em>be</em> the algorithm. You don't get to use your opinion. You follow the rules, exactly like a computer does.&quot;</p>
+        <p class="step-note"><span>Facilitator note</span>Keep it light. Students don't need to name apps or admit screen time.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">2</span><span class="step-time">5–10 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Model</p>
+        <h3>How to play</h3>
+        <p>Read Rule Card 1 aloud and play one round with a volunteer Viewer in front of the class. The Algorithm deals 4 random post cards. The Viewer reacts honestly to each: <strong>Skip (0), Watch (1), Like (2), or Comment/Share (3)</strong>. Posts marked <strong>Spark</strong> earn +1 because people linger on things that make them feel strongly. The Recorder writes the topics and points on Handout B. Then show Rule Card 2: next round, the Algorithm deals 3 cards from the top-scoring topic and 1 from the second-highest.</p>
+        <p class="step-note"><span>Facilitator note</span>Stress that Viewers should react as themselves. The simulation only works with honest reactions.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">3</span><span class="step-time">10–22 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Practice</p>
+        <h3>Five rounds</h3>
+        <p>Teams play five rounds with roles fixed, so one Viewer builds one feed. After each round the Recorder totals points by topic and writes which topics are still showing up. When a topic runs out, the Algorithm reshuffles its already-seen cards back in (&quot;feeds repeat&quot;). After Round 5, Recorders report on the class tally: <strong>how many topics appeared in Round 1, and how many in Round 5?</strong></p>
+        <p class="step-note"><span>Facilitator note</span>Circulate and ask Algorithms: &quot;Did you check whether that post was true?&quot; The answer is no. The rules never ask.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">4</span><span class="step-time">22–30 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Debrief</p>
+        <h3>What the Algorithm knew</h3>
+        <p>Look at the class tally together. Ask: <strong>&quot;What did the Algorithm know about the Viewer?&quot;</strong> (Only their reactions.) <strong>&quot;What did it not know?&quot;</strong> (Whether a post was true, kind, or good for them; their mood; what they wanted to learn.) <strong>&quot;Why did Spark posts keep winning?&quot;</strong> Connect to AI: &quot;Real recommendation systems are far more complex, but the core idea is the same: they learn patterns from past behavior and predict what will keep you engaged. That's prediction, not understanding.&quot;</p>
+        <p class="step-note"><span>Facilitator note</span>Watch for the misconception that the algorithm is &quot;trying to trick you.&quot; It's optimizing a goal someone chose. The fair question is: whose goal?</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">5</span><span class="step-time">30–40 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Apply</p>
+        <h3>Change one rule</h3>
+        <p>Teams choose one change and play two more rounds with it. <strong>Option A (you change):</strong> the Viewer deliberately watches and likes a topic they'd never pick. <strong>Option B (the designers change):</strong> rewrite Rule Card 2 (for example, &quot;1 card from each topic&quot; or &quot;Spark posts earn no bonus&quot;). Teams record whether the feed widened and one trade-off (&quot;more variety, but more stuff I skipped&quot;).</p>
+        <p class="step-note"><span>Facilitator note</span>Option B is computational thinking in action: students modify an algorithm and test the output. Ask them to predict before they play.</p>
+      </div></li><li class="step">
+      <div class="step-rail"><span class="step-n">6</span><span class="step-time">40–45 min</span></div>
+      <div class="step-body">
+        <p class="step-phase">Reflect</p>
+        <h3>Take back your feed</h3>
+        <p>Students complete Handout C individually. Close by asking two or three students to share the one habit they'll try this week.</p>
+        <p class="step-note"><span>Facilitator note</span>Collect Handout C. Look for answers that link a specific behavior (liking, rewatching, sharing) to what the feed shows next.</p>
+      </div></li></ol></section>
+      <section class="paths">
+        <h2>Paper or screen</h2>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</h3><p>This is designed as an unplugged activity: cards, tokens, and a tally on the board simulate the whole system. The physical rule cards make the algorithm's logic visible in a way an app never does.</p></div>
+        <div class="path"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Digital</h3><p>Recorders enter Round 1 and Round 5 topic counts into a shared spreadsheet so the class sees a live bar chart of narrowing feeds. For a follow-up, students (with family permission, at home) look at why an app says it recommended a post, if it offers that option, and compare the app's explanation to their rule cards. No student accounts are needed in class.</p></div>
+        <p class="why"><strong>Does it need a screen?</strong> The core learning is better unplugged: students can see and hold every rule, which a real app hides. A shared class chart adds a clear picture of the narrowing pattern across many feeds at once.</p>
+      </section>
+      <section class="evidence"><h2>Evidence of learning</h2><p class="muted">What you should be able to see or collect if it worked.</p><ul><li>Handout B shows fewer topics in Round 5 than in Round 1, and students can explain why using the rule card.</li><li>Students distinguish what the algorithm &quot;knows&quot; (reactions) from what it doesn't (truth, kindness, the viewer's goals).</li><li>Teams predict the effect of their rule change before testing it and compare the prediction to their results.</li></ul></section>
+      <section><h2>Adaptations</h2><dl class="adapt"><div><dt>Grades 3–5</dt><dd>Use three topics (Animals, Gaming, Cooking), play three rounds, and skip Spark scoring. Focus on one question: &quot;Why did you keep seeing the same kind of post?&quot;</dd></div><div><dt>Grades 9–12</dt><dd>Add a third rule card that a &quot;company&quot; writes: sponsored posts are inserted every other round. Debate who the algorithm serves: the viewer, the creators, or the advertisers.</dd></div><div><dt>Students with IEPs or 504s</dt><dd>Give the Algorithm role a printed step-by-step checklist version of the rule cards, and let the Viewer point to reaction cards (Skip, Watch, Like, Share) instead of saying them.</dd></div></dl></section>
+      <section class="two">
+        <div><h2>Reflect</h2><ul><li>Do I stay safe and make good choices online? How do my likes and shares shape what I, and other people, see next?</li><li>Why might a feed that shows only one kind of post make it harder to find trustworthy information?</li><li>If I could rewrite one rule for the apps I use, what would it be, and who would object?</li></ul></div>
+        <div><h2>What comes next</h2><p>For homework, students notice one thing their feed (or a family member's, with permission) keeps showing and write one sentence guessing which past action caused it. That observation opens the next lesson on persuasion and sponsored content.</p></div>
+      </section>
+      <section><h2>Pairs well with</h2><ul class="connections"><li><a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts (K–8)</a><span>Follow-up breakouts on how AI systems learn from patterns.</span></li><li><a href="https://mglearn.github.io/activities/ctobs/clear/">Critical Thinking Breakouts: Signal Check, The Viral Claim</a><span>Pairs well: why viral posts spread, and how to check them.</span></li></ul></section>
+      <section class="related noprint"><h2>Related activities</h2><div class="cards"><article class="card" data-id="algorithm-autopsy">
+    
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span><span class="e-digcit"></span></div>
+    <p class="card-kind">Student learning<span>Grades 9–12</span></p>
+    <h3><a href="../activities/algorithm-autopsy.html">Algorithm Autopsy</a></h3>
+    <p class="card-tag">Students dissect the design features of a fictional social app, trace how each one shapes attention and belief, and redesign the feed for people instead of engagement.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>75 min</span>
+      <span class="mode m-unplugged"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15 3v4h4M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Unplugged</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Media literacy</span><span class="strand s-genai">Gen AI</span><span class="strand s-digcit">Digital citizenship</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.1" title="AI in Education 1.1: I know how AI systems work and their capabilities in educational contexts.">AI1.1</a><a class="ele" href="../framework.html#S5.2" title="Students 5.2: I can use creativity and logic to find innovative solutions.">S5.2</a><a class="ele" href="../framework.html#S5.1" title="Students 5.1: I know how to approach complex problems systematically.">S5.1</a></span></div>
+  </article><article class="card" data-id="photo-detective">
+    
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Student learning<span>Grades 3–5</span></p>
+    <h3><a href="../activities/photo-detective.html">Photo Detective</a></h3>
+    <p class="card-tag">Students investigate described photos that were cropped, edited, or made with AI, and learn two fact-checker moves that work better than staring: Stop, and Find better coverage.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Hybrid</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Media literacy</span><span class="strand s-genai">Gen AI</span></span><span class="eles"><a class="ele" href="../framework.html#S2.2" title="Students 2.2: I can identify trustworthy sources of information on the internet.">S2.2</a><a class="ele" href="../framework.html#AI4.1" title="AI in Education 4.1: I know how to promote critical thinking skills in relation to AI-generated information.">AI4.1</a><a class="ele" href="../framework.html#AI1.3" title="AI in Education 1.3: I am aware of the current limitations and potential biases in AI systems.">AI1.3</a></span></div>
+  </article><article class="card" data-id="real-fake-or-generated">
+    
+    <div class="card-edge"><span class="e-medialit"></span><span class="e-genai"></span></div>
+    <p class="card-kind">Student learning<span>Grades 6–8, Grades 9–12</span></p>
+    <h3><a href="../activities/real-fake-or-generated.html">Real, Fake, or Generated?</a></h3>
+    <p class="card-tag">Students hunt for the classic clues of AI-made images and cloned voices, discover how often those clues mislead, and learn to check the source instead.</p>
+    <div class="card-meta">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>45 min</span>
+      <span class="mode m-hybrid"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h8l3 3v11H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><rect x="13" y="3" width="8" height="10" rx="1.2" fill="var(--paper,#fff)" stroke="currentColor" stroke-width="1.7"/></svg>Hybrid</span>
+    </div>
+    <div class="card-foot"><span class="chips"><span class="strand s-medialit">Media literacy</span><span class="strand s-genai">Gen AI</span></span><span class="eles"><a class="ele" href="../framework.html#AI1.3" title="AI in Education 1.3: I am aware of the current limitations and potential biases in AI systems.">AI1.3</a><a class="ele" href="../framework.html#S2.2" title="Students 2.2: I can identify trustworthy sources of information on the internet.">S2.2</a><a class="ele" href="../framework.html#AI4.1" title="AI in Education 4.1: I know how to promote critical thinking skills in relation to AI-generated information.">AI4.1</a></span></div>
+  </article></div></section>
+    </div>
+  </div>
+</main>
+<footer class="site-foot">
+  <div>
+    <p><strong>TCEA Essential Learning Expectations Activity Bank.</strong> Professional learning and K–16 student activities for Gen AI literacy, digital citizenship, and media literacy, on paper or on screen.</p>
+    <p>Activities by Miguel Guhlin (<a href="https://mglearn.github.io/">mglearn</a>), built on the <a href="https://tinyurl.com/tceaeles1">TCEA Essential Learning Expectations</a> (CC BY-SA 2024). Shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: copy, adapt, and reuse with credit. No logins, no tracking.</p>
+    
+  </div>
+  <nav aria-label="Related">
+    <a href="https://mglearn.github.io/tcea/eles/">ELEs Alignment Assistant</a>
+    <a href="https://mglearn.github.io/activities/">Learning Activities Hub</a>
+    <a href="https://mglearn.github.io/activities/digcit/">Digital Citizenship Breakouts</a>
+    <a href="https://mglearn.github.io/activities/genailit/">Gen AI Literacy Breakouts</a>
+  </nav>
+</footer>
+
+</body>
+</html>

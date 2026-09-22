@@ -1,0 +1,325 @@
+{
+  "id": "next-word-by-hand",
+  "title": "Next Word, By Hand",
+  "tagline": "Students build a paper \"word-guessing machine\" from sentence cards, watch it invent a confident false fact about a lake, and find out why a longer prompt helps but never makes a chatbot know things.",
+  "audience": "student",
+  "grades": [
+    "3-5",
+    "6-8"
+  ],
+  "strands": [
+    "genai"
+  ],
+  "mode": "unplugged",
+  "minutes": 45,
+  "groupSize": "Teams of 3–4; any number of teams",
+  "eles": [
+    "AI1.1",
+    "AI1.3",
+    "S5.3",
+    "S1.3",
+    "AI4.1"
+  ],
+  "overview": "A generative AI chatbot writes by guessing what word is likely to come next, based on patterns in the writing it learned from. In this game, teams become that machine. They tally which word follows which in eight short sentence cards, then \"write\" new sentences by drawing slips from cups. The sentences come out grammatical and often silly. Then, in the **lake round**, the machine produces a sentence that sounds like a fact and is false, even though every piece of it came from true cards. Students test whether a longer prompt fixes the problem and leave able to say, in their own words, why a chatbot can sound sure and still be wrong.",
+  "objectives": [
+    "Students will build a next-word model by tallying which word follows which in a set of sentence cards and use it to generate new sentences.",
+    "Students will explain, in their own words, that a chatbot writes by predicting likely next words from patterns, not by looking up facts.",
+    "Students will explain how their model produced a false \"fact\" out of true pieces, and name one way to check a chatbot's answer.",
+    "Students will compare output from a short and a longer prompt and describe what the longer prompt fixed and what it could not fix."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Sentence Cards (1 set per team, cut apart; keep Lake Cards 9–12 in a separate envelope)",
+      "Handout B: Next-Word Tally Sheet (1 per team)",
+      "Handout C: How Did Our Machine Write That? (1 per student)",
+      "About 40 small paper slips per team (quarter sheets or sticky notes), 10 cups or envelopes per team, and 1 coin per team",
+      "Chart paper titled \"Our machine said…\" and markers"
+    ],
+    "digital": [
+      "Optional: a generative AI chatbot your district approves, on the teacher's device only, projected for the class (no student accounts)",
+      "Optional: a document camera to model the first tallies"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A for each team. Put Story Cards 1–8 in one stack and Lake Cards 9–12 in an envelope marked \"Don't open yet.\"",
+    "Build the model yourself once (about 10 minutes) so you can coach. The \"the\" cup is the fullest and most mixed; that is where silly sentences come from. After \"is the,\" the lake cards have \"deepest\" once and \"largest\" once; that is where the false fact comes from.",
+    "Gather slips, cups, and coins. Don't label cups ahead of time: labeling them is part of building the machine.",
+    "If you plan the projected demo, try it first. Ask your approved chatbot, \"How deep is Wrenmere Lake?\" (Wrenmere is made up.) Note whether it invents an answer, says it doesn't know, or searches the web, so you can frame the demo honestly."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "Finish my sentence",
+      "body": "Pause before the last word each time: \"Peanut butter and…\" (the class says *jelly*). \"Once upon a…\" (*time*). \"Twinkle, twinkle, little…\" (*star*). Ask: **\"Did anyone look that up? How did you know?\"** Take answers, then say: \"You predicted. You've heard those words together so many times that your brain guessed what comes next. A generative AI chatbot does something like that, one word after another, with a huge amount of writing. Today your team is going to build a tiny one out of paper.\"",
+      "note": "Some students will shout silly endings (\"peanut butter and pickles!\"). Welcome them: they are proof that more than one next word is possible, which matters when the class starts drawing slips."
+    },
+    {
+      "phase": "Model",
+      "minutes": 5,
+      "title": "Tally one card together",
+      "body": "Show Story Card 1 under the document camera or write it on the board: *the dog ran to the park .* Point to each word and ask, \"What word came right after it?\" Put a tally on Handout B: after **the**, a mark for *dog*; after **dog**, a mark for *ran*; after **ran**, a mark for *to*; after **to**, a mark for *the*; after **the** again, a mark for *park*. Explain the one special rule: **\"When you draw park, bone, door, mat, bus, bench, or apple, the sentence is over. Put a period.\"**",
+      "note": "Students often forget that \"the\" shows up twice in one card, so it gets two tallies. Catch it here, out loud, so every team starts right."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 9,
+      "title": "Train the machine",
+      "body": "Teams split Story Cards 1–8 so each person tallies two cards on the shared Handout B. Then they make **one slip for each tally mark**, write the next word on it, and drop it in a cup labeled with the first word. For example, the **ran** cup gets three slips that all say *to*. Say: \"Your cups ARE your machine. This is what we call training: the machine only knows what was in these cards.\"",
+      "note": "Suggested jobs: Reader (reads each word pair aloud), Tallier, Slip Maker, Cup Keeper. Look-for: the \"the\" cup should have 16 slips with lots of different words. Ask a team, \"Why is this cup so much fuller and messier than the ran cup?\""
+    },
+    {
+      "phase": "Practice",
+      "minutes": 7,
+      "title": "Generate!",
+      "body": "Every sentence starts with **the**. Draw a slip from the **the** cup, write the word down, put the slip back, then draw from that word's cup. Keep going until the sentence ends. Each team writes five sentences and copies their best and silliest onto the \"Our machine said…\" chart. Ask the room three questions: **\"Do these sound like real sentences? Are they true? Did the machine ever see these exact sentences?\"**",
+      "note": "Expect \"the apple ran to the bench.\" Grammar is fine because the word patterns are real; the meaning is off because the machine keeps track of word order, not the real world. Faster option: close your eyes and tap a pencil on the tally marks in that word's row instead of drawing slips."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 8,
+      "title": "The lake round",
+      "body": "Open the envelope. Read Lake Cards 9–12 aloud. They are the only facts the machine has about two made-up lakes. This time the machine looks at the **last two words** to guess the next one. Most two-word pairs have only one possible next word, so teams just follow the card. There are only three kinds of forks: after **Wrenmere is** or **Mossmere is** it could be *in* or *the*; after **is in** it could be *Harlow* or *Pike*; and after **is the** it could be *deepest* or *largest*. At each fork, flip the coin. Each team generates three sentences starting \"Mossmere is\" and three starting \"Wrenmere is.\" Before long a team gets **\"Mossmere is the deepest lake in the state.\"** Stop the class: \"No card says that. Card 11 says *Wrenmere* is the deepest. Where did this come from? Is the machine lying?\"",
+      "note": "This is the big idea. The false sentence is built entirely out of true pieces. The machine isn't lying or broken; it has no list of facts to check against, only patterns of which words go together. Name it: when an AI tool says something false in a confident voice, people call that a **hallucination**."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 5,
+      "title": "Does a longer prompt fix it?",
+      "body": "Now give the machine **three words** to look at. After \"Wrenmere is in,\" the cards only ever have *Harlow*. After \"Mossmere is the,\" they only have *largest*. Teams regenerate and notice the false sentences disappear. Ask: **\"So does a longer, clearer prompt make a chatbot always right?\"** Guide students to two ideas: a clearer prompt usually helps, AND it can't fix what the machine never learned or learned wrong. If Card 11 had a mistake in it, no prompt could make the machine know better.",
+      "note": "Add the safety piece while prompts are on everyone's mind: \"A longer prompt means you're telling the machine more. Names, addresses, and private stuff about you or your friends never go in a prompt.\""
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 7,
+      "title": "Paper vs. real chatbots, honestly",
+      "body": "Be honest about the difference: \"Real chatbots learned from far, far more writing than eight cards. They use pieces of words, not just whole words. They look back at much more than two or three words, and people trained them more so they answer helpfully. But the main move is the one you just did: guess what's likely to come next. That's why a chatbot can be helpful, sound sure, and still be wrong. So what do we do? **We check** with a trusted source: a book, a website a grown-up trusts, an expert.\" Students complete Handout C. Collect it as evidence.",
+      "note": "Listen for students who say the chatbot \"lied\" or \"is dumb.\" Push back gently: \"Did our paper machine lie? What was it actually doing?\" You want explanations built on patterns and guessing."
+    }
+  ],
+  "unplugged": "The whole lesson is built to run with no devices: cards, tally sheets, slips, cups, and a coin are the entire machine. If slips take too long, have teams generate by closing their eyes and tapping a pencil on the tally marks in each word's row. If you're short on time, build one class machine at the front with student helpers and let teams take turns drawing.",
+  "digital": "After the lake round, project a district-approved chatbot from the teacher's device (students never use their own accounts). Ask it, \"How deep is Wrenmere Lake?\" Wrenmere is made up, so any specific answer is invented. If it makes up a depth or a location, connect it straight to the lake round: \"It did what our cups did.\" If it says it can't find that lake, praise that and ask, \"What would we do if it had given us a number?\" Then ask it the same question twice and compare the two answers: different wording each time shows the same draw-a-slip guessing at work. For older students, teams can tally in a shared spreadsheet the teacher projects.",
+  "whyTech": "This one is better unplugged. Drawing slips makes the guessing machine something students can see and touch, which no chatbot screen shows. A short, teacher-driven demo at the end earns its screen time because students recognize the same behavior in a real tool and practice checking it.",
+  "adaptations": [
+    {
+      "label": "Grade 3",
+      "text": "Build one class machine at the front with student helpers, and run the lake round as a whole class with you flipping the coin. Use the sentence frame: \"The machine said that because it saw ___ and ___.\""
+    },
+    {
+      "label": "Grades 6–8",
+      "text": "After the three-word round, ask teams to write two new true lake cards that would make a hallucination more likely, then trade with another team to test them. Discuss why more varied training text makes more varied, and sometimes wrong, output."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Make a second set of Story Cards in a student's home language and compare which words follow which. Word order that differs between languages makes the \"next word\" idea vivid."
+    },
+    {
+      "label": "Students with fine-motor needs",
+      "text": "Skip slips: generate by pointing to tally marks or rolling a die and counting along the row. A partner can write the sentence."
+    }
+  ],
+  "lookFors": [
+    "Handout C explains the false lake sentence as pieces stitched together (\"it saw 'is the deepest' on one card and 'Mossmere is' on another\") rather than as the machine lying or being broken.",
+    "Students correctly predict that the \"the\" cup produces the most mixed-up sentences and say why (it has the most different next words).",
+    "Students can say what the longer prompt fixed and name that it could not fix what the machine never learned.",
+    "Each student names a specific way to check a chatbot's answer (a book, a trusted website, an adult expert)."
+  ],
+  "reflection": [
+    "How did our paper machine decide what word came next? How is a real chatbot like it, and how is it different?",
+    "Why could our machine say something false in a sure-sounding sentence? What should you do when a chatbot sounds sure? (Student ELE 1.3: I am aware of how AI can assist me in my studies.)",
+    "Where else do you see patterns being used to guess what comes next: in math, in music, in reading?"
+  ],
+  "transfer": "At home, students play \"finish my sentence\" with family members and then teach them the lake round in one sentence: \"A chatbot guesses the next word from patterns, so it can sound sure and still be wrong, and that's why we check.\" In the next AI lesson, have students use their Handout C explanation before any teacher-projected chatbot demo.",
+  "connections": [
+    {
+      "title": "Gen AI Literacy Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/genailit/",
+      "note": "Teacher-projected breakouts that extend how AI works and when to double-check it."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Sentence Cards",
+      "type": "cards",
+      "instructions": "Cut apart. Use Story Cards 1–8 first. Keep Lake Cards 9–12 in the envelope until your teacher says to open it. The backs are the teacher's notes.",
+      "cards": [
+        {
+          "label": "Story 1",
+          "front": "the dog ran to the park .",
+          "back": "Adds: the→dog, dog→ran, ran→to, to→the, the→park. Model this one with the whole class."
+        },
+        {
+          "label": "Story 2",
+          "front": "the dog ate the bone .",
+          "back": "Second slip after \"dog\" (ate), and the first \"ate→the.\""
+        },
+        {
+          "label": "Story 3",
+          "front": "the cat ran to the door .",
+          "back": "Second \"ran→to.\" The ran cup will hold only \"to\" slips: a sure-thing guess."
+        },
+        {
+          "label": "Story 4",
+          "front": "the cat sat on the mat .",
+          "back": "Introduces sat→on and on→the."
+        },
+        {
+          "label": "Story 5",
+          "front": "the girl ran to the bus .",
+          "back": "Third \"ran→to.\" The the cup keeps getting more different words."
+        },
+        {
+          "label": "Story 6",
+          "front": "the boy sat on the bench .",
+          "back": "Watch for generated sentences like \"the bench ran to the apple.\" Grammar right, meaning wrong."
+        },
+        {
+          "label": "Story 7",
+          "front": "the girl ate the apple .",
+          "back": "Adds ate→the and the→apple."
+        },
+        {
+          "label": "Story 8",
+          "front": "the boy ate the apple .",
+          "back": "After this card, the the cup has 16 slips with 11 different words. That mix is where the silly sentences come from."
+        },
+        {
+          "label": "Lake 9",
+          "front": "Wrenmere is in Harlow County .",
+          "back": "True in our cards. With three words (\"Wrenmere is in\"), the only next word is Harlow."
+        },
+        {
+          "label": "Lake 10",
+          "front": "Mossmere is in Pike County .",
+          "back": "With only two words (\"is in\"), the machine can't tell which lake it's talking about, so \"Wrenmere is in Pike County\" becomes possible."
+        },
+        {
+          "label": "Lake 11",
+          "front": "Wrenmere is the deepest lake in the state .",
+          "back": "Source of the hallucination: \"is the\" can be followed by \"deepest.\""
+        },
+        {
+          "label": "Lake 12",
+          "front": "Mossmere is the largest lake in the state .",
+          "back": "Mixed with card 11, two-word guessing can produce \"Mossmere is the deepest lake in the state.\" Every piece is true; the sentence is false."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Next-Word Tally Sheet",
+      "type": "table",
+      "instructions": "For each word, make a tally mark next to the word that came right after it. Make one slip for each tally mark and put it in a cup labeled with the first word. When you draw park, bone, door, mat, bus, bench, or apple, the sentence is over.",
+      "columns": [
+        "After this word…",
+        "…came this word (one tally each time)",
+        "Number of slips"
+      ],
+      "rows": [
+        [
+          "the",
+          "",
+          ""
+        ],
+        [
+          "dog",
+          "",
+          ""
+        ],
+        [
+          "cat",
+          "",
+          ""
+        ],
+        [
+          "girl",
+          "",
+          ""
+        ],
+        [
+          "boy",
+          "",
+          ""
+        ],
+        [
+          "ran",
+          "",
+          ""
+        ],
+        [
+          "sat",
+          "",
+          ""
+        ],
+        [
+          "ate",
+          "",
+          ""
+        ],
+        [
+          "to",
+          "",
+          ""
+        ],
+        [
+          "on",
+          "",
+          ""
+        ],
+        [
+          "LAKE ROUND (two words): Wrenmere is",
+          "",
+          ""
+        ],
+        [
+          "LAKE ROUND (two words): Mossmere is",
+          "",
+          ""
+        ],
+        [
+          "LAKE ROUND (two words): is in",
+          "",
+          ""
+        ],
+        [
+          "LAKE ROUND (two words): is the",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "How Did Our Machine Write That?",
+      "type": "worksheet",
+      "instructions": "Answer on your own after the lake round. Use your own words. Then share one answer with a partner.",
+      "sections": [
+        {
+          "prompt": "The silliest sentence our machine wrote was:",
+          "lines": 2
+        },
+        {
+          "prompt": "Our machine wrote something false about a lake. No card said it. Where did it come from?",
+          "lines": 3
+        },
+        {
+          "prompt": "When we gave the machine three words instead of two, what changed? What could a longer prompt NOT fix?",
+          "lines": 3
+        },
+        {
+          "prompt": "Finish the sentence: \"A chatbot can sound sure and still be wrong because…\"",
+          "lines": 3
+        },
+        {
+          "prompt": "When a chatbot tells me a fact, I can check it by…",
+          "lines": 2
+        },
+        {
+          "prompt": "Draw your paper machine at work: the cups, a slip, and a sentence coming out.",
+          "boxes": true
+        }
+      ]
+    }
+  ]
+}

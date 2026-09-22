@@ -1,0 +1,155 @@
+{
+  "id": "who-owns-the-output",
+  "title": "Who Owns the Output?",
+  "tagline": "In a structured academic controversy, students argue both sides of an open question: is it fair for AI tools to learn from artists' work, and who gets credit for what they make?",
+  "audience": "student",
+  "grades": ["9-12", "Higher Ed"],
+  "strands": ["genai", "digcit"],
+  "mode": "unplugged",
+  "minutes": 60,
+  "groupSize": "Groups of 4 (two pairs); any number of groups",
+  "eles": ["AI2.2", "AI2.1", "S3.3", "S3.2"],
+  "overview": "Generative image, music, and writing tools learned their patterns from enormous collections of human-made work, often gathered without asking the creators. Whether that is fair, whether it is legal, and who owns what the tools produce are questions that courts, lawmakers, artists, and companies are still actively disputing, and the answers differ from country to country. Instead of a winner-take-all debate, students use a structured academic controversy: each pair argues one side, then switches and argues the other, then drops the sides and searches for the best shared recommendation. The goal is not a verdict on the law; it is the ability to reason carefully about an unsettled ethical question and act respectfully toward creators in the meantime.",
+  "objectives": [
+    "Students will explain, in plain language, how generative AI tools learn from training data and why that raises questions about consent, credit, and compensation.",
+    "Students will present the strongest version of a position they may disagree with, using evidence from the case and perspective cards.",
+    "Students will co-write a recommendation for how their class should credit and use AI-generated creative work while the legal questions remain unsettled."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The Case of the Cedar Bluff Poster (1 per student)",
+      "Handout B: Perspective Cards (1 set per group, cut apart)",
+      "Handout C: Controversy Organizer (1 per pair)",
+      "Timer; chart paper and markers for group recommendations"
+    ],
+    "digital": [
+      "No devices required",
+      "Optional: a shared document or discussion board for posting group recommendations"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout B so each group has all twelve perspective cards.",
+    "Read Handout A and the card backs. Be ready to say, often: \"This is an open question. People with expertise disagree, and the courts haven't settled it.\"",
+    "Decide in advance which question each group debates. The core question is on Handout A; advanced groups can take the ownership question instead.",
+    "Arrange desks in fours with pairs facing each other."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Line up on it",
+      "body": "Mark one wall **\"Completely fair\"** and the opposite wall **\"Completely unfair.\"** Read: \"An AI image tool learned to draw by studying millions of images online, including yours, without asking you. Now anyone can type your name and get pictures in your style.\" Students stand where they are. Ask two students from different spots to explain their position in one sentence. Say: \"Today you'll argue for a spot you might not be standing in.\"",
+      "note": "Note where students stand. You'll ask them to line up again at the end to see who moved and why."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "How training data works, and what's unsettled",
+      "body": "Explain plainly: generative AI tools learn statistical patterns (what shapes, colors, words, and sounds tend to go together) from very large collections of examples called **training data.** The tool usually doesn't store a copy of each image to paste back, but it can produce work strongly resembling a particular artist's style, and sometimes near-copies. Then name what is **genuinely unsettled**: whether training on copyrighted work without permission is allowed, whether creators should be asked or paid, and who, if anyone, owns AI-generated output. In the U.S., copyright has traditionally required a human author, and how that applies to work made with AI assistance is still being worked out. Other countries are taking different approaches. Read Handout A together.",
+      "note": "Resist stating outcomes. If a student cites a lawsuit or rule they heard about, say: \"Good. Where would we go to check its current status?\" and move on. The activity doesn't depend on any legal result."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Pairs prepare Position A or B",
+      "body": "In each group of four, one pair takes **Position A: \"Training AI on publicly posted art without permission is fair, and Jordan's poster is fine.\"** The other takes **Position B: \"Training without consent is unfair to artists, and Jordan's poster crosses a line.\"** Pairs read all twelve Perspective Cards and choose the four strongest for their side, writing their three best arguments on Handout C.",
+      "note": "Push students to use the cards that are hard for their side, too. The strongest arguments answer the other side's best point."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "Present, restate, switch",
+      "body": "Pair A presents for 3 minutes while Pair B takes notes. Pair B must then **restate Pair A's argument to Pair A's satisfaction** before responding. Swap: Pair B presents, Pair A restates. Then pairs **switch positions** and have 3 minutes to add one new argument for the side they just argued against.",
+      "note": "The restatement is the heart of it. Don't let a pair move on until the other pair says, \"Yes, that's our argument.\""
+    },
+    {
+      "phase": "Apply",
+      "minutes": 13,
+      "title": "Drop the sides: build a recommendation",
+      "body": "Groups of four drop their positions and answer together on chart paper: **\"While the law is unsettled, what should our class do when we use AI tools for creative work?\"** Their recommendation must address consent (whose style or work we invoke), credit (how we label AI involvement), and respect (what we won't do). Groups post charts for a quick gallery walk and put a star on the recommendation from another group they'd adopt.",
+      "note": "Strong recommendations often include: don't prompt with a living artist's name, label AI-assisted work, credit human sources, and prefer tools whose training practices are disclosed. Let students discover these."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 7,
+      "title": "Line up again",
+      "body": "Students return to the fair/unfair line. Ask anyone who moved: \"What argument moved you?\" Ask anyone who didn't: \"What's the strongest argument against your position?\" Each student writes on Handout C's final box one thing they will do differently the next time they use an AI creative tool."
+    }
+  ],
+  "unplugged": "Designed unplugged. The case, the perspective cards, and the structured controversy need only paper, a timer, and chart paper. Discussion is the learning.",
+  "digital": "Run the controversy in a video meeting with breakout rooms for each group of four and pairs in sub-rooms for preparation. Post the Perspective Cards as a slide deck and have groups write their recommendation in a shared document; the class votes by commenting. Students should not use AI image tools for this lesson; the question is about them, and generating images in a named artist's style would undercut the discussion.",
+  "whyTech": "Better unplugged: the evidence of learning is students accurately restating arguments they disagree with and building consensus, which face-to-face talk does best. A shared document helps only when groups need to keep their recommendations for a later class policy.",
+  "adaptations": [
+    { "label": "Higher Ed", "text": "Add the ownership question as a second round (\"Who, if anyone, should own the poster: Jordan, the tool company, or no one?\") and have students compare approaches in two countries using sources they locate through the campus library." },
+    { "label": "Art, music, or creative writing classes", "text": "Invite a local artist or student artist to respond to the group recommendations as the final gallery-walk visitor." },
+    { "label": "Emergent bilinguals", "text": "Provide sentence frames for restating (\"You are saying that ___ because ___.\") and allow preparation in any language." },
+    { "label": "Grade 9", "text": "Use six cards (1, 2, 4, 7, 9, 11) and shorten the presentation rounds to 2 minutes." }
+  ],
+  "lookFors": [
+    "Pairs restate the opposing argument accurately enough that the other pair agrees with the restatement.",
+    "Students describe the legal and ethical questions as open and name who is disputing them, rather than claiming a settled answer.",
+    "Group recommendations address consent, credit, and respect with specific, doable actions.",
+    "Final reflections name a concrete change in how the student will use or label AI creative tools."
+  ],
+  "reflection": [
+    "What ethical issues do I see in how AI tools are built, and what solution would I propose? (AI2.2)",
+    "How did hearing a perspective I disagreed with change my thinking? (S3.3)",
+    "What ethical principle will guide my own creative use of AI while the rules are still being decided? (AI2.1)"
+  ],
+  "transfer": "Use the class's starred recommendation as the credit-and-labeling rule for the next creative project. At home, students can ask a family member who makes things (cooking, crafts, music, writing) how they'd feel if an AI learned from their work, and bring the answer back.",
+  "connections": [
+    { "title": "Digital Citizenship Breakouts", "url": "https://mglearn.github.io/activities/digcit/", "note": "Copyright and credit breakouts for younger students, useful for older students planning a lesson for a younger class." },
+    { "title": "Augmented K–16 AI Learning Framework", "url": "https://mglearn.github.io/tcea/alf/", "note": "A framework for thinking about how much AI involvement fits a creative task." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The Case of the Cedar Bluff Poster",
+      "type": "reading",
+      "instructions": "Everyone and everything in this case is fictional. Read it twice: once for the story, once to underline the facts each side might use.",
+      "paragraphs": [
+        "Mara Kessling is an illustrator in the small town of Cedar Bluff. For fifteen years she has painted bright, patterned birds with thick outlines and gold-leaf backgrounds. She posts her work on her own website and on social media, where it has a loyal following. She sells prints and takes commissions, and that income pays her rent.",
+        "Jordan, a junior at Cedar Bluff High, is designing a poster for the school's Spring Arts Night. Jordan types into an AI image tool: *\"a cardinal on a branch in the style of Mara Kessling, gold background, bold outlines.\"* In seconds, the tool produces an image that Mara's fans would likely mistake for hers. Jordan tweaks the colors, adds the event text, and prints 200 copies.",
+        "A parent recognizes the style and tags Mara in a post. Mara replies: \"I never gave permission for my work to train this tool. I don't know if my paintings were used, but my name clearly works as a prompt. Would the school hire me for this poster next year, or just type my name again?\"",
+        "The company that makes the image tool, PixelHarbor, says its model learned from a very large collection of publicly available images and that it does not store or paste copies of any single artwork. Its terms of service say users may use generated images however they like. PixelHarbor does not say which images were in its training data.",
+        "Jordan is upset: \"I didn't copy anything. I didn't trace it. I typed a sentence. Artists learn by studying other artists' styles, too. Isn't that what the tool did?\"",
+        "The Arts Night committee must decide by Friday whether to keep the poster, and the school's art teacher wants a class rule for future projects.",
+        "**Core question:** Is it fair for AI tools to learn from artists' publicly posted work without permission, and was it fair for Jordan to use the tool this way?",
+        "**Ownership question (advanced):** Who, if anyone, should own the poster image: Jordan, PixelHarbor, Mara, or no one? Note that people with legal expertise disagree about questions like this, laws differ by country, and courts and lawmakers are still working through them."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Perspective Cards",
+      "type": "cards",
+      "instructions": "Each card is a viewpoint someone might reasonably hold. None is \"the answer.\" Pairs choose the four strongest for their side, including at least one that challenges it.",
+      "cards": [
+        { "label": "1 · Learning analogy", "front": "Human artists learn by looking at thousands of other artists' works. No one asks permission to be inspired. An AI learning patterns from images is doing something similar, just faster.", "back": "Usually supports A. Counter: a human learner can't produce hundreds of works in someone's style in a minute, and scale may change the ethics." },
+        { "label": "2 · Consent", "front": "Posting art online so people can enjoy it is not the same as agreeing to let a company use it to build a product. Consent should be asked for, not assumed.", "back": "Usually supports B. Counter: publicly posted work has long been viewed, indexed, and studied without individual permission." },
+        { "label": "3 · Livelihood", "front": "If anyone can generate an image in a working artist's style for free, fewer people may pay that artist. The tool competes with the very people it learned from.", "back": "Supports B. Counter: new tools have disrupted creative jobs before, and some artists use these tools to work faster." },
+        { "label": "4 · Style isn't ownable", "front": "No one owns a style: bold outlines, gold backgrounds, birds. Many artists paint in similar styles. Protecting style could limit everyone's creativity.", "back": "Supports A. Counter: prompting with a living artist's *name* targets one person's identity, not a general style." },
+        { "label": "5 · Transparency", "front": "We can't judge fairness when the company won't say what's in its training data. At a minimum, companies should disclose what they trained on.", "back": "Can support either side; often becomes common ground in the consensus round." },
+        { "label": "6 · Open access", "front": "Tools trained on huge public collections let people who can't afford to hire an artist, like a student club with no budget, make visual work they otherwise couldn't.", "back": "Supports A. Counter: access for some shouldn't depend on unpaid labor from others." },
+        { "label": "7 · Opt-out vs. opt-in", "front": "Some people argue artists should be able to opt out of training. Others argue they should have to opt in, because opt-out puts the burden on the artist to find and block every tool.", "back": "A middle-ground card. Useful in the consensus round." },
+        { "label": "8 · Human author", "front": "Jordan made choices: the subject, the colors, the text, the layout. But the image itself came from the tool. How much human choice does it take for someone to be the author?", "back": "Central to the ownership question. Traditionally, copyright has required a human author; how that applies to AI-assisted work is unsettled." },
+        { "label": "9 · Credit", "front": "Even if it's legal, it's respectful to credit people whose work influenced yours. Jordan could label the poster \"AI-generated image inspired by the style of Mara Kessling.\"", "back": "A consensus card. Counter: credit without permission or payment may feel empty to the artist." },
+        { "label": "10 · School responsibility", "front": "A school shouldn't produce materials that might harm a local artist's income or reputation, even if a student meant no harm. Schools model what's acceptable.", "back": "Supports B. Counter: the school could use this as a teaching moment rather than a punishment." },
+        { "label": "11 · Different laws, different places", "front": "Countries and courts are approaching AI training and ownership in different ways, and the rules are still changing. What's allowed in one place may not be in another.", "back": "Reminds both sides that legal status is unsettled; the ethics question can still be discussed." },
+        { "label": "12 · Compensation", "front": "If companies earn money from tools trained on creators' work, some share should go back to those creators, the way musicians receive royalties when songs are played.", "back": "Often common ground. Counter: tracing which works influenced which outputs is very hard." }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Controversy Organizer",
+      "type": "worksheet",
+      "instructions": "Complete with your partner. The last box is individual.",
+      "sections": [
+        { "prompt": "Our position (A or B) and our three strongest arguments, with card numbers:", "lines": 5 },
+        { "prompt": "The other pair's strongest argument, restated in words they agreed with:", "lines": 3 },
+        { "prompt": "After switching: one new argument for the side we first argued against:", "lines": 3 },
+        { "prompt": "Group recommendation: While the law is unsettled, our class should… (address consent, credit, and respect)", "lines": 5 },
+        { "prompt": "Individual: one thing I'll do differently the next time I use an AI creative tool, and why:", "lines": 3 }
+      ]
+    }
+  ]
+}

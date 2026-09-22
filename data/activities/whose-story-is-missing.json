@@ -1,0 +1,150 @@
+{
+  "id": "whose-story-is-missing",
+  "title": "Whose Story Is Missing?",
+  "tagline": "Teachers audit eight mock AI-generated images and texts for who shows up, who doesn't, and who gets flattened, then fix one with human judgment and Universal Design for Learning (UDL).",
+  "audience": "pl",
+  "roles": ["teachers", "librarians"],
+  "grades": ["K-12"],
+  "strands": ["genai", "medialit", "digcit"],
+  "mode": "hybrid",
+  "minutes": 60,
+  "groupSize": "Teams of 3–4; any number of teams",
+  "eles": ["T3.3", "T3.1", "T3.2", "AI1.3", "AI2.2"],
+  "overview": "Teachers increasingly use AI to generate classroom images, word problems, stories, and translations. Those outputs can quietly repeat whatever was most common in the data a model learned from: one kind of family, one kind of scientist, one version of a town's history. In this session, teams audit eight mock AI outputs for representation, name the likely cause of each pattern, and decide whether a better prompt or a human fix is needed. Then they revise one output so every student could see themselves in it and access it, using UDL and basic accessibility checks.",
+  "objectives": [
+    "Participants will identify who is represented, missing, or stereotyped in AI-generated classroom materials and explain why such patterns can occur.",
+    "Participants will distinguish problems a better prompt can fix from problems that require human knowledge, community voices, or a different approach.",
+    "Participants will revise one AI-generated material using a UDL and accessibility checklist so more students can see themselves in it and use it."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Mock AI Output Cards (1 set per team, cut apart; card backs printed separately as a facilitator key)",
+      "Handout B: Representation Audit (1 per team)",
+      "Handout C: Inclusive and Accessible Materials Check (1 per person)",
+      "Chart paper and markers"
+    ],
+    "digital": [
+      "Optional: a generative AI text or image tool your district approves, projected by the facilitator, to test the same prompts live",
+      "Optional: one device per team to revise their chosen material in a document with alt text and headings"
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A. The outputs are fictional mock-ups written for this activity; real tools vary from day to day and tool to tool, which is itself worth discussing.",
+    "If you'll test live, run two or three of the card prompts in your district's approved tool beforehand and save the results in case the network fails.",
+    "Think of one example from your own teaching where a material didn't reflect your students. Sharing it in the Hook sets a non-judgmental tone."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Picture a scientist",
+      "body": "Ask everyone to close their eyes: \"Picture a scientist at work. Where are they? What are they wearing? What are they doing?\" Eyes open; three people describe their picture. Then say: \"Our minds fill in defaults from everything we've seen. AI tools do something similar with everything they were trained on. The question for teachers is what those defaults teach our students about who belongs.\" Share your own example of a material that missed your students.",
+      "note": "Keep the tone curious, not accusatory. Everyone has defaults; the skill is noticing them."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 15,
+      "title": "Audit the outputs",
+      "body": "Teams take the eight cards and complete Handout B for at least six: who or what shows up, who is missing or stereotyped, why the pattern might exist, and whether the fix is a **better prompt**, a **human fix** (knowledge, community voices, review by someone fluent), or **both**. Each team marks the one card they think would do the most harm in their own classroom if used as-is.",
+      "note": "Card 7 is also a hallucination: the AI invented a founder for a fictional town. Watch for teams that catch representation but miss accuracy, or the reverse. Both matter."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Why it happens, and why \"add diversity\" isn't enough",
+      "body": "Explain in plain terms: \"A model generates what is likely based on patterns in its training data. If some people, places, or family types appear less often in that data, or mostly in stereotyped ways, outputs can reflect that.\" Then model a fix on Card 1 out loud. First try a better prompt (\"scientists of different ages, genders, and backgrounds, working in the field and in labs, including a scientist who uses a wheelchair\"). Then critique your own fix: \"Better, but notice I'm still choosing who counts. Prompting for 'diversity' can produce token or stereotyped images too. The strongest fix may be real photos of real scientists from our community, or letting students draw scientists they know.\"",
+      "note": "Stay general and accurate about causes: training data, defaults, and design choices. Avoid claims about how any specific product was built."
+    },
+    {
+      "phase": "Create",
+      "minutes": 15,
+      "title": "Fix one for real",
+      "body": "Each team picks the card they marked as most harmful and revises the material on chart paper (or in a document) so it could go to their students tomorrow. They must use Handout C: at least one **engagement** choice (relevance, student choice), one **representation** choice (more than one way to take in the content, such as text, image, audio, or objects), one **action and expression** choice (more than one way to show learning), plus the accessibility items (alt text, readable layout, meaning not carried by color alone). Teams note which fixes used AI and which needed a human.",
+      "note": "UDL's three principles (engagement, representation, action and expression) come from CAST. Push teams past \"add pictures\" to real options students can choose."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 9,
+      "title": "Gallery and hard questions",
+      "body": "Teams post their revisions and do a quick 3-minute walk. Then discuss: \"Which fixes could a prompt handle? Which needed a person, such as a family member, a colleague fluent in a language, or students themselves? What would you tell students about AI images and stories so they can notice missing voices on their own?\"",
+      "note": "Listen for teachers moving from \"AI is biased, don't use it\" to \"AI outputs need a human review for representation, just like any textbook.\""
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 8,
+      "title": "A student version",
+      "body": "Each person plans how students will audit an AI output in their class. Suggested frame: students examine one AI-generated image or text and answer \"Who is here? Who is missing? How could we find out what's true?\" Then they add a missing perspective from their own knowledge, family, or community. Partners share plans and complete this sentence for each other: \"The evidence that students noticed missing voices will be…\"",
+      "note": "This builds a welcoming classroom (Teacher ELE 3.1) when students' own experiences become the correction."
+    }
+  ],
+  "unplugged": "Run the full session with the printed cards; each card describes the AI output in text, including images. Revisions happen on chart paper with sketches and written UDL options. The unplugged version is often better for the Create step, because teams focus on the design of the material rather than on formatting.",
+  "digital": "The facilitator runs two or three card prompts live in a district-approved tool and compares the real results with the mock cards: what matches, what differs, and how the output changes when the prompt is rerun. Teams revise their chosen material in a document, adding real alt text, headings, and an audio or bilingual option. In a virtual session, share the cards as slides and use breakout rooms with Handout B as a shared table.",
+  "whyTech": "Seeing a live tool produce its own defaults, and change when re-prompted, lets teachers test the claim rather than take it on faith, and shows that outputs vary from run to run. Revising in a document also lets them practice accessibility features (alt text, headings) that paper can only describe.",
+  "adaptations": [
+    { "label": "K–2 teachers", "text": "Use Cards 2, 5, and 6 and a simple student routine: \"Who is in the picture? Who is not? Draw someone who should be.\" The teacher drives any AI tool on the projector." },
+    { "label": "Secondary teachers", "text": "Have students write a better prompt, rerun it with the teacher, and then argue whether the new output is actually more accurate or just more varied." },
+    { "label": "Librarians", "text": "Pair the audit with a search for real, authored sources (local archives, community interviews, diverse book lists) that fix gaps no prompt can fill, such as Card 7's missing history." },
+    { "label": "Emergent bilinguals", "text": "Use Card 8 with students as experts: they evaluate a machine translation of a class message and teach the class what it got wrong." }
+  ],
+  "lookFors": [
+    "Handout B separates \"better prompt\" fixes from \"human fix\" fixes, with at least one of each.",
+    "Teams identify Card 7's invented founder as an accuracy problem as well as a representation problem.",
+    "Revised materials include real choices for students (not only added images) and meet the accessibility items on Handout C.",
+    "Student-version plans have students name a missing perspective and add one from their own knowledge or community."
+  ],
+  "reflection": [
+    "How do I create a welcoming classroom where every student sees themselves in the materials, including AI-generated ones? (Teacher ELE 3.1)",
+    "How do cultural differences in my classroom change what a \"typical\" example should look like? (Teacher ELE 3.3)",
+    "What review step will I use before AI-generated materials reach my students?"
+  ],
+  "transfer": "Before using any AI-generated image, story, word problem, or translation next week, run it through Handout C. Then teach the student-audit routine once and keep three samples of students' \"Who is missing?\" responses as evidence.",
+  "connections": [
+    { "title": "Digital Accessibility Readiness Assessment", "url": "https://mglearn.github.io/tcea/a11y/", "note": "Go deeper on the accessibility side of the checklist." },
+    { "title": "Gen AI Literacy Breakouts (K–8)", "url": "https://mglearn.github.io/activities/genailit/", "note": "Student activities on AI limits and bias." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Mock AI Output Cards",
+      "type": "cards",
+      "instructions": "Each card shows a prompt a teacher gave an AI tool and a fictional output written for this activity. Backs are facilitator notes: print them separately.",
+      "cards": [
+        { "label": "Card 1 · Image prompt", "front": "Prompt: \"Four images of a scientist at work.\" Output: four images of middle-aged men in white lab coats standing at lab benches with beakers. Three wear glasses. All are indoors.", "back": "Missing: women, young scientists, older scientists, scientists with disabilities, field scientists (geologists, ecologists), computer scientists. Prompt fix helps; real photos of local scientists help more." },
+        { "label": "Card 2 · Story prompt", "front": "Prompt: \"Write a short story for 2nd graders about a family getting ready for a holiday dinner.\" Output: \"Mom and Dad were busy in the kitchen. Emma and her little brother Jack set the table for the big turkey dinner. Grandma arrived with her famous pumpkin pie...\"", "back": "One family structure, one holiday, one menu. Missing: single-parent, grandparent-led, and blended families, and other celebrations and foods. Better fix: ask students what their family's celebrations look like and write from those." },
+        { "label": "Card 3 · Word problem prompt", "front": "Prompt: \"Create a 4th-grade word problem about lunch money.\" Output: \"Tyler brings $5.00 to school every day to buy lunch. Lunch costs $3.25. How much change does Tyler get each week?\"", "back": "Assumes every student pays cash for lunch. Some students receive free meals, bring lunch from home, or use an account. A problem about money can embarrass students. Human fix: choose a context all students can enter, such as a class store or a fundraiser." },
+        { "label": "Card 4 · Text prompt", "front": "Prompt: \"Describe a typical Texas student's weekend.\" Output: \"On Friday night, the whole town goes to the high school football game. Saturday means a barbecue at the ranch, and on Sunday the family goes to church before a big lunch.\"", "back": "Flattens a large, varied state into one rural picture. Missing: city and border communities, students who work weekend jobs or care for siblings, different faiths or none. Human fix: students write their own \"typical weekend\" and compare." },
+        { "label": "Card 5 · Image prompt", "front": "Prompt: \"Students learning together in a classroom.\" Output: an image of about twenty students seated at identical desks, all facing forward, raising hands. No student uses a wheelchair, hearing aid, communication device, or other assistive technology.", "back": "Disability is invisible. Also: one model of learning (rows, hand-raising). Prompt fix can add representation; ask whether students with disabilities in your class would recognize themselves or feel like an add-on." },
+        { "label": "Card 6 · List prompt", "front": "Prompt: \"Give me 12 names for characters in a math worksheet.\" Output: \"Emma, Jack, Olivia, Liam, Sophia, Noah, Ava, Mason, Mia, Ethan, Chloe, Lucas.\"", "back": "Every name comes from a similar naming tradition. Students whose names come from other languages and cultures never appear. Easy fix: ask students to contribute names, or specify a range of languages and cultures." },
+        { "label": "Card 7 · History prompt", "front": "Prompt: \"Write a paragraph on the founding of Cedar Bend for our 4th-grade local history unit.\" Output: \"Cedar Bend was founded in 1852 by Captain Josiah Whitfield, who saw the beauty of the land along the river. Settlers soon built farms, a church, and a school, and the town grew into the thriving community it is today.\"", "back": "Two problems. Accuracy: the AI invented a founder and a date. It has no real information about this town, so it produced a plausible story. Representation: it starts history with settlers and omits the peoples who lived there before, and anyone else not in the default story. Fix: local archives, historical society, tribal nation sources, community interviews. No prompt can fix this." },
+        { "label": "Card 8 · Translation prompt", "front": "Prompt: \"Translate this family newsletter into Spanish.\" Original line: \"Our spring fundraiser was a home run, and we're all fired up for Field Day!\" Output: a word-for-word translation of the idioms \"home run\" and \"fired up.\"", "back": "Idioms translated literally can confuse or read oddly, and tone (formal vs. familiar) may not match how the school usually addresses families. Human fix: plain-language original, then review by a fluent staff member or family volunteer." }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Representation Audit",
+      "type": "table",
+      "instructions": "Complete at least six rows. Fix types: better prompt · human fix · both.",
+      "columns": ["Card", "Who or what shows up", "Who or what is missing, flattened, or stereotyped", "Why might this pattern exist?", "Fix type + the fix"],
+      "rows": [["1", "", "", "", ""], ["2", "", "", "", ""], ["3", "", "", "", ""], ["4", "", "", "", ""], ["5", "", "", "", ""], ["6", "", "", "", ""], ["7", "", "", "", ""], ["8", "", "", "", ""]]
+    },
+    {
+      "id": "C",
+      "title": "Inclusive and Accessible Materials Check",
+      "type": "checklist",
+      "instructions": "Use before any AI-generated (or any other) material reaches students.",
+      "scale": ["Yes", "Partly", "No"],
+      "items": [
+        "Students in my class could see themselves, their families, and their communities in this material.",
+        "No group appears only in stereotyped roles, and no student would be embarrassed by the context (money, family, religion, ability).",
+        "Facts, names, dates, and history have been checked against a reliable source. AI can invent them.",
+        "Engagement: the material connects to students' lives or interests and offers at least one real choice.",
+        "Representation: students can take in the content more than one way (text, image, audio, objects, home language).",
+        "Action and expression: students can show learning more than one way (write, draw, speak, build, record).",
+        "Every image has alt text or a spoken or written description.",
+        "Meaning never depends on color alone, and text is readable (clear font, enough contrast, headings).",
+        "Any translation was reviewed by a fluent person.",
+        "I know which parts came from AI and which from people, and could explain that to students and families."
+      ]
+    }
+  ]
+}

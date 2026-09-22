@@ -1,0 +1,145 @@
+{
+  "id": "primary-source-vs-ai-summary",
+  "title": "Primary Source vs. AI Summary",
+  "tagline": "Students read a clearly fictional 1911 letter, then catch an AI summary that changes dates, invents a quote, turns a rumor into a fact, and erases the neighbors who helped.",
+  "audience": "student",
+  "grades": ["6-8", "9-12"],
+  "strands": ["medialit", "genai"],
+  "mode": "unplugged",
+  "minutes": 45,
+  "groupSize": "Pairs; share out with the whole class",
+  "eles": ["AI4.1", "S2.2", "AI1.3", "S3.2", "T5.1"],
+  "overview": "AI summaries are fast and fluent, which makes them easy to trust. But a summary is only useful if it is faithful to the source. Students read a primary-source-style letter (fictional and written for this lesson) from a 13-year-old describing a flood in her town, then compare it line by line with a mock AI summary. The summary sounds right but contains six distortions: a wrong date, an exaggeration, an invented quote, an uncertain rumor stated as fact, an added detail, and a family whose help disappears. Students learn a habit historians already use: go back to the source.",
+  "objectives": [
+    "Students will compare an AI summary with a primary source and identify at least four distortions, citing the paragraph in the source that shows each.",
+    "Students will classify each distortion (wrong detail, exaggeration, invented, certainty added, left out, added detail) and explain why it matters to someone relying on the summary.",
+    "Students will write a corrected summary and explain when an AI summary is and isn't a trustworthy stand-in for a source."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The Letter (1 per student)",
+      "Handout B: The AI Summary (1 per pair)",
+      "Handout C: Distortion Detector (1 per pair)",
+      "Two colors of highlighters or pencils per pair"
+    ],
+    "digital": [
+      "Optional: a generative AI chatbot your district approves, teacher-driven on the projector, to summarize the letter live",
+      "Optional: a digital annotation tool so pairs can link each summary claim to a paragraph in the letter"
+    ]
+  },
+  "prep": [
+    "Print Handouts A, B, and C. Handout A is labeled fictional; point that out so students don't search for Willow Fork.",
+    "Read the key in this plan's Practice step so you know the six distortions (and the accurate parts).",
+    "Optional: paste the letter's text into your district-approved chatbot, ask for a summary, and save the result. Real outputs vary; compare whatever you get using the same organizer."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "The telephone game, historian edition",
+      "body": "Ask: **\"Have you ever heard a story from a friend who heard it from someone else, and it changed along the way?\"** Take one or two examples. Say: \"Historians have a rule: when you can, go back to the original. Today we'll test whether an AI summary follows that rule.\" Explain primary source (made by someone who was there, at the time) vs. secondary source (made later, about it). Ask: \"Which is an AI summary?\"",
+      "note": "Students often call an AI summary a primary source because it quotes the original. Clarify: it's a secondary source, written later, by something that wasn't there."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 8,
+      "title": "Read the letter first",
+      "body": "Students read Handout A individually, **before** they see the summary. In the margin they note: who wrote it, when, what happened, what Ada was sure of, and what she was unsure of. Pairs quickly compare notes.",
+      "note": "Reading the source first matters. If students read the summary first, its version tends to stick."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 15,
+      "title": "Distortion detectives",
+      "body": "Pairs read Handout B and check each sentence against the letter, using one color for **matches the source** and another for **doesn't match**. They log each mismatch on Handout C with the paragraph number and a distortion type. **Key:** (1) date given as May 1912; the letter is April 1911 (wrong detail). (2) \"the flood destroyed the town of Willow Fork\"; the letter says water reached the mill floor and the lower road, and some cellars flooded (exaggeration). (3) the quote \"We lost everything\" never appears (invented). (4) \"caused by the new dam upstream\"; Ada writes that some people *say* so but Papa says no one knows yet (certainty added). (5) the Castillo family, who sheltered Ada's family and rowed the books to safety, is missing (left out). (6) \"a young farm girl\"; her father runs the mill, and the letter doesn't say they farm (added detail). **Accurate:** school closed for four days; no one was hurt; the Petersons lost two cows; neighbors carried grain to the loft.",
+      "note": "Push pairs to explain *why* each distortion matters. Leaving out the Castillos erases who actually helped; the dam claim turns a rumor into history."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 8,
+      "title": "Why did the summary do that?",
+      "body": "Collect distortions on the board by type. Ask: **\"Which distortion would matter most if you only read the summary for a history project?\"** Then ask: \"Why might an AI tool do this?\" Guide students to the idea that AI tools generate likely-sounding text from patterns. Dramatic words and neat causes are common in writing about floods, so they can slip in even when the source doesn't say them. If you ran the letter through a district-approved chatbot, show that output now and check it the same way.",
+      "note": "Avoid \"AI lies.\" Better: \"AI predicts plausible words. Plausible isn't the same as faithful.\""
+    },
+    {
+      "phase": "Create",
+      "minutes": 7,
+      "title": "Write a faithful summary",
+      "body": "On Handout C, pairs write a three-sentence summary that is **faithful** to the letter: correct date, Ada's uncertainty kept, the Castillos included. Pairs swap with another pair, who check it against the letter and mark one thing to strengthen.",
+      "note": "Look for summaries that preserve hedges (\"some people said\") instead of flattening them."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 3,
+      "title": "My summary rule",
+      "body": "Each student finishes the last prompt on Handout C: **\"I can trust an AI summary when… I need to go back to the source when…\"** Collect Handout C as the exit ticket.",
+      "note": "Strong answers name stakes: \"when I'm going to quote it, cite it, or make a decision based on it.\""
+    }
+  ],
+  "unplugged": "Designed for paper: the letter, the mock AI summary, and the organizer are all printed. Two highlighter colors make matches and mismatches visible at a glance, and the paragraph numbers make citing easy.",
+  "digital": "The teacher pastes the letter into a district-approved chatbot on the projector and asks for a summary; the class checks that live output with the same organizer, since real distortions vary. With a digital annotation tool, pairs link each summary sentence to the matching paragraph in the letter. Students under 13 do not use AI tools directly.",
+  "whyTech": "A live summary of the same letter shows students that distortions aren't planted by the teacher; real tools produce them too, and differently each time. The core comparison is stronger on paper, where students can lay the two texts side by side.",
+  "adaptations": [
+    { "label": "Grades 3–5", "text": "Read the letter aloud and use a four-sentence summary with two distortions (the date and the missing Castillos). Students hunt with \"Does the letter say that? Where?\"" },
+    { "label": "Grades 9–12", "text": "Pair with a real primary source from your social studies curriculum, have students run it through a district-approved tool, and write a short analysis of the distortions they find." },
+    { "label": "Emergent bilinguals", "text": "Pre-teach *flood, cellar, loft, mill, rumor*, and provide a picture glossary. Pairs may discuss in any language and mark the matching sentences with arrows." }
+  ],
+  "lookFors": [
+    "Handout C lists at least four distortions, each with a paragraph number from the letter.",
+    "Students explain why a distortion matters, especially the dam claim (a rumor turned into fact) and the missing Castillo family.",
+    "Rewritten summaries keep Ada's uncertainty and include the people the AI summary left out."
+  ],
+  "reflection": [
+    "Can I identify trustworthy sources? How did going back to the original change what I believed happened?",
+    "Why might an AI summary sound confident even when the source was unsure?",
+    "When is it worth the time to read the original instead of a summary?"
+  ],
+  "transfer": "In the next research task, students must attach one \"source check\" to any AI summary they use: one sentence from the summary and the matching line from the original. At home, students can ask a family member to tell a family story, then compare it with a sibling's or cousin's version.",
+  "connections": [
+    { "title": "Digital Inquiry Group: Civic Online Reasoning", "url": "https://cor.inquirygroup.org/", "note": "Free lessons on sourcing and evaluating evidence." },
+    { "title": "Critical Thinking Breakouts: Signal Check, The Viral Claim", "url": "https://mglearn.github.io/activities/ctobs/clear/", "note": "Grades 6–8 practice tracing claims to their original context." }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The Letter",
+      "type": "reading",
+      "instructions": "This letter is fictional. It was written for this lesson in the style of a real letter from 1911. Willow Fork and everyone in it are made up. Read it before you read any summary.",
+      "paragraphs": [
+        "¶1 · Willow Fork, April 9, 1911. Dear Cousin Lorena, I am writing by lamplight because the creek has gone back down at last and Mama says I may have the whole evening for letters. You asked in your last one whether the rain reached us. It did, and more.",
+        "¶2 · On Tuesday night the rain did not stop, and by morning Willow Fork Creek had come up over the lower road and into the mill yard. Papa and Mr. Peterson and some of the other men carried the sacks of grain up to the loft so they would stay dry. The water came onto the mill floor about as high as my boot tops. Several cellars on Front Street filled with water, ours included, and we lost most of the jars Mama put up last summer.",
+        "¶3 · We could not stay in the house because of the cellar and the smell, so we went up the hill to the Castillo family. Mrs. Castillo gave us her front room for three nights and would not take a penny. Her son Tomás, who is fifteen, took his rowboat down to the schoolhouse with Miss Hale and they brought back every one of the school's books in flour sacks before the water got to the shelves. I think he is the bravest person in Willow Fork, though I would never tell him so.",
+        "¶4 · School was closed for four days. Nobody was hurt, thank the Lord, but the Petersons lost two cows that got caught in the low pasture. Mrs. Peterson cried when she told Mama, and I cried too.",
+        "¶5 · Some people at the store are saying the new dam the company built upstream last fall made the water come up faster. Mr. Olsen is sure of it and says he will write to the newspaper. But Papa says nobody knows yet, and that we had high water in 1899 too, before there was any dam. I do not know who is right.",
+        "¶6 · I was frightened on Tuesday night, I will admit it. But mostly now I am tired of mopping. Please write back soon and tell me whether your Aunt Rose's garden made it through. Your loving cousin, Ada Whitfield (age 13)"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "The AI Summary",
+      "type": "reading",
+      "instructions": "This mock response was written for this lesson to show the kinds of mistakes AI summaries can make. Prompt: \"Summarize this letter in one paragraph for a history project.\"",
+      "paragraphs": [
+        "In this letter, written in May 1912, a young farm girl named Ada Whitfield describes a devastating flood that destroyed the town of Willow Fork. The flood, caused by the new dam built upstream, forced families from their homes as the creek overflowed. Ada's father and other neighbors worked to save grain from the mill by carrying it to the loft.",
+        "The school was closed for four days, and while no one was hurt, the Peterson family lost two cows. Ada writes that the experience was terrifying, saying, \"We lost everything.\" The letter offers a vivid firsthand account of how a small community endured a natural disaster in the early twentieth century."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Distortion Detector",
+      "type": "table",
+      "instructions": "Distortion types: Wrong detail · Exaggeration · Invented · Certainty added · Left out · Added detail. Cite the paragraph (¶) in the letter that proves it. The last rows are for your faithful summary and your summary rule.",
+      "columns": ["What the AI summary says", "What the letter actually says (¶ #)", "Distortion type", "Why it matters"],
+      "rows": [
+        ["", "", "", ""],
+        ["", "", "", ""],
+        ["", "", "", ""],
+        ["", "", "", ""],
+        ["", "", "", ""],
+        ["", "", "", ""],
+        ["Our faithful 3-sentence summary:", "", "", ""],
+        ["I can trust an AI summary when…", "", "I need to go back to the source when…", ""]
+      ]
+    }
+  ]
+}
