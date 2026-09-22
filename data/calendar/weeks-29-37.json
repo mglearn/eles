@@ -1,0 +1,631 @@
+{
+  "weeks": [
+    {
+      "week": 29,
+      "ele": "S1.1",
+      "title": "Right Tool, Right Job",
+      "bigIdea": "Students go beyond using tech to choosing it on purpose, matching each learning job to the tool (screen or not) that actually does it best.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "would-you-rather",
+          "strand": "digcit",
+          "title": "Paper Cards or App?",
+          "k5": "You need to learn five new spelling words. Would you rather practice with paper and a marker, or with a word game on a tablet?",
+          "g612": "You have 30 vocabulary terms to know by Friday. Would you rather make handwritten flashcards or use a flashcard app that quizzes you? Defend your pick by what it does for your memory, not by what feels more fun.",
+          "options": ["Paper", "Screen", "A mix of both"],
+          "answer": "There is no single right answer. Writing by hand can help some people remember, and a quiz app can space out practice for you. The smart move is picking the tool for the job and noticing whether it works for you.",
+          "teacher": "Students point to one side of the room for their choice, then one volunteer per side explains; ask: \"How would you know if your tool is really working?\"",
+          "related": "does-this-need-a-screen",
+          "scene": "Overhead close-up of a wooden school desk split by a sharp beam of late-afternoon window light: on the sunlit side a fanned stack of handwritten index cards with a gold pencil, on the shadowed side a dark tablet with a faint glow. The line of light runs exactly between them like a choice. The index cards show only loose handwriting-like marks, no readable words.",
+          "alt": "A desk split by a beam of sunlight, with handwritten flashcards on one side and a tablet on the other."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "digcit",
+          "title": "Sketch Your Learning Toolbox",
+          "k5": "Draw a toolbox with three things that help you learn. One can be a screen, and one must not be a screen.",
+          "g612": "Sketch your personal learning toolbox and label each tool by the job it does best: remember, focus, create, or connect. Circle the tool you reach for out of habit, even when it isn't the best one for the job.",
+          "teacher": "Students draw for three minutes, then hold up their toolbox to a neighbor; ask: \"Which tool did you circle, and what would you use instead?\"",
+          "scene": "A 10-year-old Latina girl in round glasses leans close over a sheet of paper at a classroom table, drawing a boxy toolbox with small sketches of a book, a tablet, and a paintbrush tumbling out. Warm desk-lamp glow from the left, rain-streaked window softly out of focus behind her, a mustard pencil cup at the edge of frame. Her tongue pokes out slightly in concentration; the drawing has no words.",
+          "alt": "A girl in glasses concentrates as she draws a toolbox full of learning tools."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "genai",
+          "title": "Chatbot or Calculator?",
+          "k5": "Fact or fake: A talking computer helper is just as good at math as a calculator.",
+          "g612": "Fact or fake: Asking an AI chatbot to add up a long column of numbers is just as reliable as using a calculator or a spreadsheet.",
+          "options": ["Fact", "Fake"],
+          "answer": "Fake. A calculator or spreadsheet computes exactly from the numbers you type in. A chatbot predicts likely words, so it can sound sure and still make arithmetic mistakes. For 6–12: some AI tools hand math to a calculator behind the scenes, but you can't always tell, so check important numbers with a tool built for math.",
+          "teacher": "Students vote with thumbs up (fact) or down (fake), then the teacher reveals the answer; ask: \"What job is each tool really built for?\"",
+          "scene": "Low-angle macro shot across a math worksheet covered in faint pencil smudges: a plain, well-worn desk calculator in sharp focus in the foreground, and behind it a phone lying flat whose screen shows only soft blurred chat bubbles. A single desk lamp throws long shadows off the calculator buttons. No readable numbers or words anywhere.",
+          "alt": "A desk calculator sits in sharp focus in front of a phone showing blurred chat bubbles."
+        },
+        {
+          "kind": "team-up",
+          "format": "sort",
+          "strand": "medialit",
+          "title": "Match the Job to the Tool",
+          "k5": "With a partner, sort these jobs into \"a screen helps\" or \"no screen needed\": measuring our table, finding tomorrow's weather, writing a thank-you card to Grandma, seeing what a sea turtle looks like.",
+          "g612": "With a partner, match each job to the best tool: a search engine, an AI chatbot, a spreadsheet, or pencil and paper. Jobs: checking today's bus schedule, brainstorming ten names for a new club, tracking a month of running times, sketching a quick room layout. Which one did you argue about?",
+          "answer": "Reasonable sorts vary. One thing to push on: for up-to-the-minute facts like a bus schedule, go to the official source or a search, not a chatbot, which may not have current information.",
+          "teacher": "Pairs sort aloud or on a whiteboard, then share the one job they disagreed on; ask: \"What made that job tricky to match?\"",
+          "related": "team-tech-choices",
+          "scene": "Two 13-year-olds sit cross-legged on a school library carpet, sorting paper strips into four loose piles between them, with a tape measure, a pencil, and a closed laptop placed as the anchors for each pile. A Black boy with short locs holds one strip mid-air, unsure, while a Vietnamese American girl points firmly at the laptop pile. String lights and shelves glow out of focus behind them; the strips show only scribbled marks.",
+          "alt": "Two middle schoolers sort paper strips into piles beside a tape measure, a pencil, and a laptop."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "I Pick Tools With Purpose",
+          "k5": "Show 1 to 4 fingers: \"I know how to use technology to help me learn.\" Then tell one time a tool helped you learn this week.",
+          "g612": "Rate yourself 1–4: \"I know how to use technology to support my learning, and I choose tools on purpose, not just out of habit.\" Name one tool you'll use differently next week.",
+          "options": ["1", "2", "3", "4"],
+          "teacher": "Students hold up fingers at chest level so it stays private-ish, then turn and share one next step; ask: \"What's one job you'll give a different tool next week?\"",
+          "scene": "Close-up of a battered mustard-yellow pencil cup on a sunny classroom windowsill holding a surprising mix: pencils, a ruler, a paintbrush, a stylus, a glue stick, and a folded pair of earbuds. Golden-hour light pours through from behind, casting long overlapping shadows of every tool across the sill. Shallow depth of field, the playground blurred beyond the glass.",
+          "alt": "A pencil cup holding pencils, a paintbrush, a stylus, and earbuds glows in golden window light."
+        }
+      ]
+    },
+    {
+      "week": 30,
+      "ele": "S3.1",
+      "title": "Teams That Really Work",
+      "bigIdea": "Students revisit teamwork with a sharper lens: fair workloads, clear roles, shared credit, and deciding together when teammates disagree.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "stand-up-sit-down",
+          "strand": "digcit",
+          "title": "Who Did the Work?",
+          "k5": "Stand up if you have built something with a friend. Stay standing if your friend had a different idea than you, and you still finished it together.",
+          "g612": "Stand if you've been on a group project where one person did most of the work. Stay standing if anyone said something about it while the project was still going.",
+          "teacher": "Students stand and sit on each prompt, then look around the room; ask: \"What could a team do in the first five minutes so the work stays fair?\"",
+          "scene": "Mid-motion shot of a seventh-grade classroom as students rise from their chairs: a white girl with forearm crutches pushing up to stand, a Latino boy half-up with a grin, others still seated and thinking. Bright morning light through tall windows, navy chairs, a few backpacks slumped on the floor. The camera sits low near the front row, catching the ripple of standing bodies.",
+          "alt": "Seventh graders, including a girl with forearm crutches, stand up from their chairs to answer a question."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "genai",
+          "title": "The Fifth Chair",
+          "k5": "Pretend a computer helper joins your team to make a poster. Write or draw one job it could help with, and one job only kids should do.",
+          "g612": "Your team can use an AI tool for exactly one job on your next project. Write which job you'd give it, which job must stay human, and why. Then: who on your team checks the AI's work?",
+          "teacher": "Students write for two minutes, then a few share their \"human-only\" job; ask: \"What makes that job belong to people?\"",
+          "related": "human-ai-studio",
+          "scene": "A poster-making table after lunch: a big blank sheet of chart paper, uncapped markers, glue sticks, and scissors, with four chairs pulled in close. On one chair sits a tablet propped upright against the backrest, dark screen softly glowing, as if it were a teammate waiting its turn. Side light from a window, eye-level camera, the other three chairs empty.",
+          "alt": "A tablet sits propped on a chair at a poster-making table as if it were a member of the team."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "digcit",
+          "title": "The Doc Remembers",
+          "k5": "Fact or fake: When a team writes one story together online, the computer can often show who wrote each part.",
+          "g612": "Fact or fake: Many shared online documents keep a history that shows who changed what, and when.",
+          "options": ["Fact", "Fake"],
+          "answer": "Fact. Many shared document tools keep a version history showing each person's edits and the time they made them. Teams can use it to give fair credit, bring back something that got deleted, and see who's contributing. For 6–12: that also means your edits and comments leave a record, so keep them respectful.",
+          "teacher": "Students vote thumbs up or down, then the teacher reveals; ask: \"How could a team use that history in a fair way instead of a gotcha way?\"",
+          "related": "credit-where-its-due",
+          "scene": "Tight angled close-up of a laptop screen in a dim classroom, showing a blurry document layout where paragraphs are softly highlighted in four different colors, like four teammates' fingerprints. Fingertips from two different hands rest on the edges of the keyboard, one with chipped gold nail polish. The screen content is blurred abstract shapes with no readable letters.",
+          "alt": "A laptop shows a blurred shared document highlighted in four colors while two people's hands rest on the keyboard."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "medialit",
+          "title": "Two Sources, One Team",
+          "k5": "Two friends on your team found two different answers about how long a box turtle can live. Talk with your partner: how can your team find out which answer is right, without anyone just yelling \"I'm right\"?",
+          "g612": "Your team found two websites that give different years for when your town's library opened. Talk it through: what steps will your team take to settle it, and how do you disagree without anyone just \"winning\"?",
+          "answer": "Strong answers: check who made each source, look for a third reliable source (like the library itself or a local history group), and let the evidence decide. Disagreeing well is part of teamwork.",
+          "teacher": "Partners talk for two minutes, then share one step; ask: \"Who or what gets the final say when teammates disagree about a fact?\"",
+          "related": "lateral-reading-relay",
+          "scene": "Four high school sophomores lean over pushed-together desks as two of them hold up printed web pages side by side, each tapping a different line with a finger. A Native American boy and a Latina girl hold the pages; a white girl squints skeptically and a Black boy in a navy hoodie raises a hand to slow things down. Late-morning light, shallow focus on the two pages, which show only blurred text blocks.",
+          "alt": "Four high schoolers compare two printed web pages that disagree, with one student raising a hand to pause the debate."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "I Make My Team Stronger",
+          "k5": "Show 1 to 4 fingers: \"I know how to work well in a team.\" Then say one thing you do that helps your team.",
+          "g612": "Rate yourself 1–4: \"I know how to work effectively in a team: I do my share, I listen, and I help us decide.\" Name one team habit you'll practice on your next group task.",
+          "options": ["1", "2", "3", "4"],
+          "teacher": "Students show fingers, then tell a partner their one team habit; ask: \"What would your teammates say you're best at?\"",
+          "scene": "Three 8-year-olds on a sunny classroom floor carefully stack plastic cups into a tall wobbling pyramid, each child's hand steadying a different cup at the same moment. A Middle Eastern boy holds his breath, an East Asian girl bites her lip, and a Black girl with puffs lowers the final cup on top. Low camera angle so the tower rises against a bright window.",
+          "alt": "Three young children steady a tall tower of plastic cups together as one places the last cup on top."
+        }
+      ]
+    },
+    {
+      "week": 31,
+      "ele": "AI5.3",
+      "title": "Sparks, Not Substitutes",
+      "bigIdea": "Students explore how AI can spark and stretch human creativity, and why their own experiences, choices, and honesty about process are what make creative work theirs.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "would-you-rather",
+          "strand": "digcit",
+          "title": "Whose Song Is It?",
+          "k5": "Would you rather have a computer draw a dragon for you, or draw your own dragon and have a computer help you pick the colors?",
+          "g612": "For the talent show, would you rather have AI write a whole song for your act, or write the lyrics yourself and use AI only to suggest rhymes you might not think of? Which one is more yours, and would you tell the audience?",
+          "options": ["AI makes it", "I make it, AI helps"],
+          "teacher": "Students vote with a hand signal, then two volunteers explain; ask: \"At what point does a creation stop being yours?\"",
+          "related": "co-creation-not-substitution",
+          "scene": "A 16-year-old Afro-Latino boy sits on a stool in an empty school music room, guitar across his lap, pencil tucked behind his ear, glancing between a notebook on a music stand and a phone lying face-up on a chair beside him with a soft glow. A single shaft of afternoon light cuts across the dusty room and the guitar strings. The notebook shows only scribbled marks, the phone screen only blur.",
+          "alt": "A teenager with a guitar looks between his notebook and a glowing phone in an empty music room."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "genai",
+          "title": "Only I Would Think of It",
+          "k5": "Draw a silly animal mixed with a kitchen tool, like a spoon-giraffe or a whisk-octopus. Make it so surprising that a computer would never guess it!",
+          "g612": "Sketch an invention that solves a problem only you and your friends have, like the lost-charger problem or the forgotten-gym-clothes problem. Add one note: what did your own life give this idea that an AI trained on everyone else's data might miss?",
+          "teacher": "Students draw for three minutes and trade with a neighbor; ask: \"What part of your drawing came from your own life?\"",
+          "scene": "Close-up of an open sketchbook under a warm desk lamp at night-dark classroom windows: a lively pencil drawing of a giraffe whose neck is a long wooden spoon, with eraser crumbs scattered and a pencil resting mid-stroke. The lamp creates a pool of gold light with deep shadows around it. No words on the page.",
+          "alt": "An open sketchbook shows a pencil drawing of a giraffe with a wooden-spoon neck under a warm lamp."
+        },
+        {
+          "kind": "check-it",
+          "format": "image-talk",
+          "strand": "medialit",
+          "title": "The Rainy Fox Painting",
+          "k5": "Picture a painting at our school art show: a fox with an umbrella in a rainy city, by a fourth grader named Marisol. A kid whispers, \"A computer made that.\" What is a kind, fair way to find out?",
+          "g612": "At the art show, a dreamy painting of a fox in a rainy city is labeled with an eighth grader's name. Someone whispers, \"That's AI.\" What clues might you look for, why can clues mislead, and what's the fair way to find out?",
+          "answer": "Clues in a picture can fool you both ways: skilled human artists can make \"too perfect\" work, and AI images can look hand-made. The fairest check is to ask the artist about their process (sketches, drafts, steps) instead of accusing. Many artists use AI as one step, which is why being open about process matters.",
+          "teacher": "Students turn and share one clue and one fair action; ask: \"How would you want someone to check if they doubted your work?\"",
+          "related": "who-made-this",
+          "scene": "Two 13-year-olds lean in close to a painting hung on a school hallway art-show wall, lit by a single clip-on spotlight: a Black girl with twists squints at the brushstrokes while a white boy with hearing aids tilts his head, whispering. The painting shows a fox with an umbrella on a rain-slick city street in soft blues and gold. Other artwork blurs into the dark hallway; the name card beside it is out of focus.",
+          "alt": "Two middle schoolers study a spotlighted painting of a fox in the rain at a school art show."
+        },
+        {
+          "kind": "team-up",
+          "format": "sort",
+          "strand": "genai",
+          "title": "Who Did the Creative Part?",
+          "k5": "With a partner, sort each one into \"kid's idea,\" \"computer's idea,\" or \"both\": Ana hums a song and the computer writes down the notes; Ben types \"draw a cat\" and prints it; Lina paints a picture of her grandpa's garden.",
+          "g612": "With a partner, sort each into \"mostly human,\" \"mostly AI,\" or \"a real mix\": Rosa hums a melody, AI turns it into sheet music, and she rewrites the bridge; Dev types \"write a poem about rain\" and turns it in; a team brainstorms 20 story endings with AI, picks one, and rewrites it; Kai paints a mural from his grandmother's stories with no AI at all.",
+          "options": ["Mostly human", "Mostly AI", "A real mix"],
+          "answer": "Discuss rather than settle every one. A likely sort: Kai and Lina are human; Dev and Ben are mostly AI; Rosa, Ana, and the story team are a mix where human choices and editing shape the final work.",
+          "teacher": "Pairs sort, then share the one they argued about; ask: \"What did the human have to decide that the AI couldn't?\"",
+          "scene": "Overhead close-up of a cluttered art-room table: a paint palette with thick blobs of gold and navy, a brush still wet, a sheet of music paper with hand-drawn notes, and a tablet whose screen shows soft blurred color swirls. A single paint-smeared hand reaches in from the edge, hovering between the brush and the tablet stylus. Warm window light rakes across the textures.",
+          "alt": "A paint-smeared hand hovers between a paintbrush and a tablet stylus on an art-room table."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "genai",
+          "title": "AI Sparks, I Create",
+          "k5": "Show 1 to 4 fingers: \"I know a computer helper can give me ideas, but my own ideas make my work special.\" Then share one idea that is all yours.",
+          "g612": "Rate yourself 1–4: \"I am aware of how AI can boost human creativity and problem-solving, and I know where my own thinking has to lead.\" Name one project where you'd use AI as a spark, and what you'd never hand over.",
+          "options": ["1", "2", "3", "4"],
+          "teacher": "Students show fingers, then two or three share their \"never hand over\" part; ask: \"How would you tell others how you used AI?\"",
+          "scene": "A 6-year-old Native American girl kneels at a low kindergarten table, proudly holding up a crayon drawing of a rainbow-striped dragon with both hands, while her teacher, a Latino man in his 30s in a navy sweater, crouches beside her, listening intently. Morning light through blinds stripes the table. The drawing has no words, and neither looks at the camera.",
+          "alt": "A kindergartner holds up her crayon dragon drawing as her teacher crouches to listen."
+        }
+      ]
+    },
+    {
+      "week": 32,
+      "ele": "S5.2",
+      "title": "What If We Tried…",
+      "bigIdea": "Students practice pairing wild ideas with a logic check: combining, remixing, and pushing past obvious answers, then testing whether a fresh idea would actually work.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "Invent a Screen Break",
+          "k5": "Vote for the best invention to help a family eat dinner without screens: A) a tiny bed where phones go to sleep, B) a table that glows when every device is put away, or C) dinner-question dice.",
+          "g612": "Your phone gets one new feature to help you take real breaks. Vote: A) it fades to gray after long scrolling, B) friends can send a \"let's go outside\" wave, or C) a weekly highlight reel of what you did offline. Which is most creative, and which would actually work on you?",
+          "options": ["A", "B", "C"],
+          "teacher": "Students vote with fingers, then defend a pick in one sentence; ask: \"Is the most creative idea also the one most likely to work? Why or why not?\"",
+          "related": "screen-time-green-time",
+          "scene": "Close-up on a family dinner table at dusk: a smartphone, screen dark, tucked into a tiny handmade cardboard bed with a scrap of plaid cloth as a blanket. Behind it, out of focus, steaming plates, a water glass, and warm pendant-lamp light. The mood is funny and cozy, shot at table height with shallow depth of field.",
+          "alt": "A phone tucked into a tiny cardboard bed with a cloth blanket sits on a dinner table."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "genai",
+          "title": "Mash-Up Machine",
+          "k5": "Mix two things to invent something new: a backpack plus a flashlight, or a lunchbox plus a drum. Write or say what your mash-up does and who it helps.",
+          "g612": "Pick two things from your day that have nothing in common (the bus ride and podcasts, basketball and fractions). Write a one-sentence invention or project that combines them. Logic check: who would use it, and what could go wrong? Bonus: would an AI suggest your combo?",
+          "teacher": "Students write for two minutes, then read their mash-up aloud to a partner; ask: \"Which part is the creative spark, and which part is the logic check?\"",
+          "scene": "A 9-year-old Black boy with a fresh fade stands in a school library aisle holding a backpack in one hand and a flashlight in the other, the flashlight beam cutting a bright cone through dusty afternoon air. His face shows a dawning grin of an idea. Tall shelves recede out of focus; he looks at the beam, not the camera.",
+          "alt": "A boy holds a backpack and a shining flashlight in a library aisle, grinning at a new idea."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "medialit",
+          "title": "The Burr on the Dog",
+          "k5": "Fact or fake: The scratchy, sticky straps on some shoes were invented after someone noticed prickly seeds stuck to a dog's fur.",
+          "g612": "Fact or fake: Hook-and-loop fasteners, the kind on shoes and jackets, were inspired by burrs (prickly seeds) clinging to a dog's fur. Then: how would you check a famous invention story before putting it in a presentation?",
+          "options": ["Fact", "Fake"],
+          "answer": "Fact. The widely told origin story says an engineer in the 1940s studied burrs stuck to his dog's fur and saw tiny hooks that grabbed loops, which inspired hook-and-loop fasteners. Nature is a great idea source. For 6–12: famous invention stories often get simplified or dramatized over time, so check them with more than one reliable source.",
+          "teacher": "Students vote thumbs up or down, then hear the story; ask: \"What's something in nature that could inspire your next idea?\"",
+          "scene": "Extreme macro photograph of a spiky brown burr seed tangled in golden dog fur, lit by low slanting autumn sunlight so every tiny hook glows at its tip. The fur fills the frame in soft focus except for the razor-sharp burr. Natural, textured, and dramatic, with a warm gold palette.",
+          "alt": "A spiky burr seed clings to golden dog fur, its tiny hooks glowing in low sunlight."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "genai",
+          "title": "Beat the Obvious",
+          "k5": "A computer helper gave three ideas for our class pet's name: Fluffy, Spot, and Buddy. With a partner, invent a name more creative than all three. What makes yours better?",
+          "g612": "A chatbot's fundraiser ideas: bake sale, car wash, raffle. With a partner, push past the obvious and build one idea it would never suggest because it doesn't know your school. Then logic-check it: cost, time, and who has to help.",
+          "teacher": "Partners talk for two minutes and share their best idea; ask: \"What did you know that the AI didn't?\"",
+          "related": "the-prompt-ladder",
+          "scene": "Two 15-year-olds hunch over a big sheet of chart paper at a library table, one sketching a quick diagram with a gold marker while the other counts on her fingers. A Latino boy in a wheelchair at a height-adjusted table holds the marker; a South Asian girl leans in, mid-sentence. A laptop sits pushed aside with its lid half-closed; the chart paper shows arrows and doodles, no words.",
+          "alt": "Two high schoolers, one using a wheelchair, sketch a new idea on chart paper beside a half-closed laptop."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "Creative and Makes Sense",
+          "k5": "Show 1 to 4 fingers: \"I can use big imagination and careful thinking to solve problems in new ways.\" Then share one wild idea you had this week.",
+          "g612": "Rate yourself 1–4: \"I can use creativity and logic to find innovative solutions.\" Which do you lean on more, the creative spark or the logic check? Name one way to strengthen the other.",
+          "options": ["1", "2", "3", "4"],
+          "teacher": "Students show fingers, then tell a partner which side they'll grow; ask: \"What's one problem at school you'd love to solve next?\"",
+          "scene": "Close-up of a classroom recycling bin overflowing with crumpled paper drafts, and perched on top one crisp, carefully folded paper airplane angled as if about to launch. Morning sun from a side window throws a sharp shadow of the plane across the crumpled pile. Shallow depth of field, the classroom softly blurred behind.",
+          "alt": "A crisp paper airplane sits on top of a pile of crumpled paper drafts in morning sunlight."
+        }
+      ]
+    },
+    {
+      "week": 33,
+      "ele": "S1.2",
+      "title": "New Tool, No Fear",
+      "bigIdea": "Students build a personal strategy for learning any new tool: explore safely, get unstuck, choose good help, and double-check directions, including ones from AI.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "stand-up-sit-down",
+          "strand": "digcit",
+          "title": "How I Figure It Out",
+          "k5": "Stand up if you have figured out a new game or toy all by yourself. Sit down if someone had to show you how.",
+          "g612": "Stand if you learned a new app, device, or tool this year. Stay standing if you learned it mostly by exploring on your own; sit if a person or tutorial taught you. Which way sticks better for you?",
+          "teacher": "Students stand and sit, then share one tool they learned; ask: \"What's the first thing you do when a tool is brand new to you?\"",
+          "related": "tool-tryout-lab",
+          "scene": "Close-up of a brand-new plain tablet on a classroom desk with its clear protective film half peeled back and curling up into the light, catching a bright glint from the window. A pair of small hands, fingers ready, rests just at the edge of frame. The screen is dark with no logos, and the background falls into soft bokeh.",
+          "alt": "A new tablet with its protective film half peeled back catches the window light on a desk."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "digcit",
+          "title": "The Stuck Moment",
+          "k5": "Draw two faces: the face you make the first time you try something new, and the face you make after you figure it out.",
+          "g612": "Sketch the learning path for the last new tool you mastered (an app, an instrument, a camera, a game). Mark the moment it got hard with an X, and draw what got you unstuck.",
+          "teacher": "Students draw for three minutes, then share their X moment with a neighbor; ask: \"What got you unstuck, and could it work next time too?\"",
+          "scene": "A 12-year-old Latina girl with two long braids sits on the steps outside a school building at golden hour, turning the dial of a borrowed old film camera with a furrowed brow and her lip caught in her teeth. The camera strap is looped around her wrist; the low sun rims her hair with gold. Warm, shallow focus on her hands and the camera.",
+          "alt": "A girl with braids frowns in concentration as she figures out the dials on an old camera at sunset."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "genai",
+          "title": "The Purple Star Button",
+          "k5": "A computer helper said, \"To undo in the drawing app, tap the purple star.\" But there's no purple star anywhere! Fact or fake: Computer helpers are always right about where the buttons are.",
+          "g612": "Fact or fake: If an AI chatbot gives you step-by-step directions for an app, the buttons and menus it names will be there.",
+          "options": ["Fact", "Fake"],
+          "answer": "Fake. Chatbots can describe an older version of an app, mix up two different apps, or confidently invent a button that doesn't exist. When directions don't match, trust what you see, check the tool's own help menu, or ask someone who uses it.",
+          "teacher": "Students vote, then the teacher reveals; ask: \"When directions don't match what's on your screen, what's your next move?\"",
+          "related": "verify-the-bot-workshop",
+          "scene": "Dramatic close-up of a single fingertip hovering just above a tablet screen showing soft blurred color blocks, searching, lit only by the screen's cool glow and a warm lamp behind. On the desk beside it, a blank sticky note with a hand-drawn arrow doodle pointing nowhere. No readable words, symbols, or interface details.",
+          "alt": "A fingertip hovers over a blurred tablet screen as if searching for a missing button."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "medialit",
+          "title": "Pick the Best Teacher",
+          "k5": "You want to learn a new drawing game. Who is the best helper: a friend who plays it, a video from a grown-up you don't know, or the game's own help button? Talk with a partner about why.",
+          "g612": "You need to learn a video editor for a project and find three tutorials: one from four years ago with a huge number of views, one from last month by a small channel, and one from the tool's makers. With a partner, rank them. What does \"popular\" not tell you?",
+          "answer": "Popular isn't the same as current or correct. Tools change, so check the date and whether the version matches yours. The makers' help pages are often a solid start, and a recent video that shows your version can be the most useful.",
+          "teacher": "Partners rank and explain, then two pairs share; ask: \"What would you check first about any tutorial?\"",
+          "scene": "Two 16-year-olds share one pair of wired earbuds on a bench in a school courtyard, leaning together over a phone whose screen shows only a blurry video frame. A Black girl with long locs pauses the video with her thumb while an East Asian boy raises an eyebrow, skeptical. Dappled late-afternoon light through a tree falls across them.",
+          "alt": "Two teens share earbuds and pause a tutorial video on a phone, one looking skeptical."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "genai",
+          "title": "I Can Learn Any Tool",
+          "k5": "Show 1 to 4 fingers: \"I can learn to use new tools and apps, even when they're tricky at first.\" Then say what you do when you get stuck.",
+          "g612": "Rate yourself 1–4: \"I can adapt to new digital tools and platforms.\" Name one tool you want to learn next, maybe an AI tool your class uses, and your first two steps for learning it.",
+          "options": ["1", "2", "3", "4"],
+          "teacher": "Students show fingers, then share their first two steps with a partner; ask: \"Who could you ask for help, and how will you check the help is good?\"",
+          "scene": "At a public library table, a 7-year-old Filipino American boy wearing noise-reducing headphones around his neck shows his grandmother something on a tablet, pointing with confidence. She is a Latina woman in her 60s with reading glasses pushed up, leaning in and laughing in surprise. Warm lamplight, shelves blurred behind; the screen shows only soft colors.",
+          "alt": "A young boy wearing headphones around his neck teaches his grandmother how to use a tablet at the library."
+        }
+      ]
+    },
+    {
+      "week": 34,
+      "ele": "S4.3",
+      "title": "Calm, Steady, Me",
+      "bigIdea": "During a busy, high-pressure season, students name their real strengths, practice calm moves, and question messages that make them feel less capable, without any test prep.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "would-you-rather",
+          "strand": "digcit",
+          "title": "Quiet Calm or Moving Calm?",
+          "k5": "When you feel wiggly or worried, would you rather take three slow balloon breaths or squeeze your hands tight and let them go? Let's try both!",
+          "g612": "When something big is coming, would you rather get quiet (slow breathing, eyes closed) or get moving (a stretch, shaking out your hands)? Try your pick for 30 seconds and notice how you feel after.",
+          "options": ["Quiet calm", "Moving calm"],
+          "teacher": "Students pick a side with a hand signal, then everyone tries both for 30 seconds; ask: \"When could you use your calm move this week?\"",
+          "scene": "A 10-year-old Vietnamese American girl sits at her classroom desk with eyes gently closed and one hand resting on her belly, mid-breath, a soft beam of morning sun falling across her face and shoulders. Around her, blurred classmates do the same. The mood is peaceful and still, shot at desk level with warm, gentle light.",
+          "alt": "A girl sits with her eyes closed and a hand on her belly, taking a slow breath in a sunbeam."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "genai",
+          "title": "The App Doesn't Know Me",
+          "k5": "A reading app shows a sad face after one hard day. Write or draw: what does the app not know about you? Name one thing you are really good at when you learn.",
+          "g612": "After one rough practice session, a learning app flags you as \"struggling.\" Write: what does that one score miss about you as a learner? Name one real strength and one area you're growing, in your own words.",
+          "teacher": "Students write privately for two minutes, then anyone who wants to shares a strength; ask: \"Who gets to decide what kind of learner you are?\"",
+          "scene": "Close-up of a desk corner in soft morning light: a tablet lying dark and face-down, and beside it a small square of paper with a hand-drawn gold star doodle, a pencil resting across it. Dust motes float in the window light. No words or numbers anywhere, only the doodle.",
+          "alt": "A small paper with a hand-drawn gold star sits beside a face-down tablet in soft morning light."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "medialit",
+          "title": "Never Nervous Again?",
+          "k5": "A video says, \"Do this one trick and you will NEVER feel nervous again!\" Fact or fake?",
+          "g612": "A video promises: \"This one trick guarantees you'll never feel nervous again.\" Fact or fake? What words in that claim should make you pause?",
+          "options": ["Fact", "Fake"],
+          "answer": "Fake. Feeling nervous sometimes is normal, and no trick makes it disappear forever. Words like \"never,\" \"always,\" \"one trick,\" and \"guaranteed\" are red flags. Calm moves like slow breathing, rest, and talking to someone you trust help you manage nerves, which is the real goal.",
+          "teacher": "Students vote with thumbs, then name the red-flag words; ask: \"What's a calm move that actually helps you?\"",
+          "related": "is-this-health-advice-real",
+          "scene": "A phone propped against a water bottle on a cafeteria table plays a blurry video full of bright, flashy colors, while a student's hand reaches in from the side to swipe it away. A half-eaten apple and a folded napkin sit nearby. Warm overhead light, the busy cafeteria melting into soft bokeh behind; the screen shows no readable text.",
+          "alt": "A hand reaches to swipe away a flashy blurred video on a phone propped on a cafeteria table."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "digcit",
+          "title": "Strength Spotting",
+          "k5": "Tell your partner one thing you've seen them do well this year, like helping, drawing, or not giving up. Then switch!",
+          "g612": "An AI could write a generic pep talk, but it can't know what you've seen. Tell your partner one specific strength you've watched them use this year, with the moment you saw it. Then switch.",
+          "teacher": "Partners take one minute each, then a few share what they heard about themselves; ask: \"How did it feel to hear a real, specific strength?\"",
+          "scene": "Two 17-year-olds sit facing each other on classroom desks near a window, one mid-sentence with an open, sincere expression and the other breaking into a surprised, pleased smile. A white teen boy with Down syndrome is speaking; a Latina girl with curly hair listens. Soft side light, warm tones, other students blurred in the background.",
+          "alt": "Two high schoolers sit facing each other as one tells the other a strength he has noticed."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "I Know My Strengths",
+          "k5": "Show 1 to 4 fingers: \"I know what I'm good at and what I'm still learning.\" Then say one calm move you'll use this week.",
+          "g612": "Rate yourself 1–4: \"I am aware of my learning strengths and my areas for improvement.\" Name one strength you'll lean on this week and one calm move for when things get hard.",
+          "options": ["1", "2", "3", "4"],
+          "teacher": "Students show fingers privately at chest level, then share a calm move; ask: \"Which strength will you bring with you today?\"",
+          "scene": "A small cairn of smooth river stones balanced on a classroom windowsill in early morning light, each stone a slightly different shape and color, with a pencil lying at its base. Soft sunrise glow behind, the glass lightly misted. Calm, steady, and quiet, shot close at sill height with a shallow depth of field.",
+          "alt": "A small stack of balanced river stones sits on a windowsill in soft sunrise light."
+        }
+      ]
+    },
+    {
+      "week": 35,
+      "ele": "S5.3",
+      "title": "Code Hiding Everywhere",
+      "bigIdea": "Students find computational thinking (clear steps, patterns, breaking problems down, and debugging) in safety routines, media, math, and fact-checking, not just in coding.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "stand-up-sit-down",
+          "strand": "digcit",
+          "title": "Can You Say the Steps?",
+          "k5": "Stand up if you could say it as clear steps: crossing the street, a fire drill, being happy, making a strong password. Sit if it's hard to make into steps.",
+          "g612": "Stand if it could be written as exact steps anyone could follow: a fire drill, making a strong password, deciding what's fair, locking down your privacy settings, forgiving a friend. Where did the room disagree, and why?",
+          "teacher": "Students stand or sit for each item, then discuss the split; ask: \"What makes something easy or hard to turn into an algorithm?\"",
+          "related": "password-power",
+          "scene": "Overhead shot of a gym floor where painted court lines cross, and in the middle a pair of kid's sneakers with laces caught half-tied in a loop, as if the steps paused mid-algorithm. Hard afternoon light from high windows throws crisp shadows of the laces across the polished wood. Graphic, bold composition, no text.",
+          "alt": "A pair of sneakers with half-tied laces sits where painted lines cross on a gym floor."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "medialit",
+          "title": "The Trailer Algorithm",
+          "k5": "Draw the steps of a toy commercial in three boxes: what do they show first, next, and last? Why do you think they go in that order?",
+          "g612": "Movie trailers and ads follow patterns like a program. Sketch the \"algorithm\" of a typical trailer in four to six boxes: what comes first, where the music builds, what comes last. Why does that pattern work on viewers?",
+          "teacher": "Students sketch for three minutes and compare with a neighbor; ask: \"If you know the pattern, does the ad work on you as well?\"",
+          "scene": "A 16-year-old Sikh boy in a navy turban sits in a darkened media room, sketching a storyboard of boxes with rough arrows and stick figures on paper, lit by the soft flicker of a blurred projector image on the wall behind him. His pencil moves fast; his face is half in shadow, half in cool glow. The storyboard has no words.",
+          "alt": "A teen in a turban sketches a storyboard in a dark media room lit by a flickering projector."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "genai",
+          "title": "Debug the Helper",
+          "k5": "A computer helper says, \"To share 12 cookies fairly among 3 kids, give each kid 5 cookies.\" Fact or fake? Find the bug!",
+          "g612": "An AI homework helper explains: \"To find the average of 4, 6, and 8, add them to get 18, then divide by 2, so the average is 9.\" Fact or fake? Find the exact step with the bug.",
+          "options": ["Fact", "Fake"],
+          "answer": "Fake. K–5: 3 kids times 5 cookies is 15, but there are only 12, so each kid gets 4. 6–12: the sum of 18 is right, but you divide by the number of values, which is 3, so the average is 6. Debugging means finding the one step that broke, not just saying \"wrong.\"",
+          "teacher": "Students vote, then partners point to the broken step; ask: \"How did you find exactly where it went wrong?\"",
+          "related": "hallucination-hunt",
+          "scene": "Close-up of a plate of twelve homemade cookies on a classroom table, arranged into three uneven piles, with one pile clearly bigger than the others. A child's hand hovers above, about to move a cookie to even things out. Warm afternoon window light, crumbs sharp in the foreground, the classroom blurred behind.",
+          "alt": "A child's hand hovers over twelve cookies split into three uneven piles, about to fix the share."
+        },
+        {
+          "kind": "team-up",
+          "format": "sort",
+          "strand": "medialit",
+          "title": "Fact-Check Algorithm",
+          "k5": "With a partner, put these picture-checking steps in order: see if other trusted people say the same thing, stop and look closely, ask a grown-up where it came from.",
+          "g612": "Checking a viral claim is an algorithm too. With a partner, put these steps in order and add a loop for when you get stuck: find better coverage, stop and notice how the post makes you feel, trace the claim to its original source, investigate who posted it.",
+          "answer": "One strong order (the SIFT moves): Stop; Investigate the source; Find better coverage; Trace to the original. For K–5: stop and look, ask a grown-up where it came from, then see if others say the same. The loop: if you can't confirm it, don't share it yet.",
+          "teacher": "Pairs order the steps aloud, then share where they put the loop; ask: \"Which step do people skip most, and what happens when they do?\"",
+          "related": "lateral-reading-relay",
+          "scene": "Overhead shot of two pairs of hands, one small and brown, one with bright painted nails, sliding four paper strips into a vertical line on a table, with hand-drawn marker arrows connecting them and one arrow curving back up into a loop. Warm desk-lamp light, crisp shadows under each strip. The strips carry only scribbles and simple shapes, no readable words.",
+          "alt": "Two pairs of hands arrange paper strips into a sequence connected by hand-drawn arrows and a loop."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "genai",
+          "title": "I Think Like a Coder",
+          "k5": "Show 1 to 4 fingers: \"I can use steps, patterns, and bug-finding in lots of subjects, not just on computers.\" Then name one place you used steps this week.",
+          "g612": "Rate yourself 1–4: \"I am aware of how to apply computational thinking in various subjects.\" Name one class where you'll break a problem into steps or hunt for a pattern next week.",
+          "options": ["1", "2", "3", "4"],
+          "teacher": "Students show fingers, then share one class or subject; ask: \"Where else is an algorithm hiding in your day?\"",
+          "scene": "A 13-year-old Black girl in a gold hijab stands at a classroom whiteboard, marker squeaking as she draws a flowchart of diamonds, boxes, and arrows, one arrow looping back to the start. Her classmates are soft shapes in the foreground, watching. Bright afternoon light; the whiteboard holds only shapes and arrows, no words.",
+          "alt": "A girl in a hijab draws a flowchart of shapes and arrows on a whiteboard as classmates watch."
+        }
+      ]
+    },
+    {
+      "week": 36,
+      "ele": "S3.2",
+      "title": "Share What You Learned",
+      "bigIdea": "As the year winds down, students choose the right format to share their learning, say it clearly, protect privacy when it goes public, and stay the expert on their own work.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "would-you-rather",
+          "strand": "medialit",
+          "title": "Stage, Screen, or Poster?",
+          "k5": "Would you rather show what you learned this year by acting it out, drawing a poster, or making a short class video?",
+          "g612": "For an end-of-year showcase, would you rather present live, make a 60-second video, or build a one-page visual? Pick the format that fits your message best, not just your comfort zone, and say why.",
+          "options": ["Live", "Video", "Visual"],
+          "teacher": "Students move to three corners of the room, then each group names one strength of its format; ask: \"How does the format change what your audience remembers?\"",
+          "related": "presentation-makeover",
+          "scene": "An empty corner of a school library set up as a tiny stage: a single wooden stool in a pool of warm spotlight, a slide clicker resting on the seat, and rows of empty chairs fading into shadow in the foreground. Dust sparkles in the light beam. Quiet, expectant, and cinematic, with no signs or text.",
+          "alt": "A single stool with a slide clicker sits in a spotlight in front of empty chairs."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "digcit",
+          "title": "Before We Post It",
+          "k5": "Our class made a great project. Before a grown-up shares a photo of it online, what should we check first? Write or draw one thing.",
+          "g612": "You want to post your class project online for the showcase. Write your pre-post checklist: faces, names, school details, permission from teammates, and credit for anything you borrowed. Which item would you most likely forget?",
+          "teacher": "Students write for two minutes, then the class builds one shared checklist aloud; ask: \"Whose permission do we need, and why?\"",
+          "related": "private-or-share",
+          "scene": "In a bright classroom, a teacher, a Black man in his 40s in a navy cardigan, holds up a phone to photograph a student trifold science display, while two 9-year-olds, a Latina girl and a white boy, rush in to cover a blank name tag on the display with their hands. The mood is playful and thoughtful. Warm window light; the display shows only colorful shapes and blurred marks.",
+          "alt": "Two children cover a name tag on their project while their teacher prepares to photograph it."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "genai",
+          "title": "The Summary Got It Wrong",
+          "k5": "A computer helper wrote about our bean plant project: \"The plants grew best with orange juice.\" But our notes say water worked best! Fact or fake: A computer summary of your work is always right.",
+          "g612": "Your teammate asks AI to summarize your science project for the showcase. It says your plants grew fastest with orange juice, but your data says water. Fact or fake: An AI summary of your own work will match what you actually found.",
+          "options": ["Fact", "Fake"],
+          "answer": "Fake. An AI summary can mix up details, fill gaps with guesses, or sound sure about things your project never showed. You are the expert on your own work: check every summary against your notes and data before you share it.",
+          "teacher": "Students vote, then name one way to check a summary; ask: \"Why does your own data get the final word?\"",
+          "related": "primary-source-vs-ai-summary",
+          "scene": "Two potted bean plants side by side on a sunny classroom windowsill: one tall and lush, one droopy and yellowing. In front of them stand a small cup of water and a small cup of orange juice, and beside the pots a notebook lies open with blurred handwriting and a hand-drawn bar sketch. Bright backlight makes the leaves glow.",
+          "alt": "A healthy bean plant and a droopy one sit on a windowsill beside cups of water and orange juice."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "medialit",
+          "title": "The 30-Second Teach-Back",
+          "k5": "Teach your partner one thing you learned this year in 30 seconds. Then your partner says it back in one sentence. Did they get it right?",
+          "g612": "In 30 seconds, teach your partner the most useful thing you learned this year. Your partner repeats the main idea back in one sentence. If it didn't land, what would you cut or change?",
+          "teacher": "Partners take turns with a 30-second timer, then share one tweak; ask: \"What made your explanation clear, or what got in the way?\"",
+          "scene": "Two 6-year-olds sit knee to knee on a sunny reading rug: a Korean American girl in glasses throws her arms wide mid-explanation while a Black boy with short twists listens with wide eyes and his hand on his chin. A sand timer sits on the rug between them, glowing in the light. Low camera at kid height, the classroom soft and colorful behind.",
+          "alt": "A young girl explains something with wide arms as her classmate listens closely on a reading rug."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "I Say It So It Lands",
+          "k5": "Show 1 to 4 fingers: \"I can share my ideas so others understand them.\" Then tell one thing you'll share with your family this week.",
+          "g612": "Rate yourself 1–4: \"I can communicate my ideas clearly to others.\" Name one thing that makes your explanations land, and one thing you'll work on in your next presentation.",
+          "options": ["1", "2", "3", "4"],
+          "teacher": "Students show fingers, then share their one next step with a partner; ask: \"Who is your audience, and what do they need from you?\"",
+          "scene": "A 17-year-old Latino senior with a white cane folded in one hand gestures with the other as he presents to a small circle of classmates in a library, mid-sentence and confident. Around him, a Middle Eastern girl nods and a white girl leans forward. Late-afternoon light through tall windows; no slides or signs visible.",
+          "alt": "A high school senior holding a folded white cane presents confidently to a small circle of classmates."
+        }
+      ]
+    },
+    {
+      "week": 37,
+      "ele": "S4.1",
+      "title": "My Year, My Learning",
+      "bigIdea": "In the last week, students look back at how they owned their learning this year, pass on advice, question myths about summer, and plan balanced tech habits so learning keeps going.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "stand-up-sit-down",
+          "strand": "digcit",
+          "title": "Now I Can",
+          "k5": "Stand up if you can do something now that you couldn't do at the start of the year. Stay standing if you practiced it on your own, too!",
+          "g612": "Stand if you can do something now that you couldn't do in August. Stay standing if you pushed yourself to learn it, not just because it was assigned. What was it?",
+          "teacher": "Students stand and sit, then a few share what they can do now; ask: \"What did you do to make that growth happen?\"",
+          "scene": "Close-up on a classroom desk at golden hour: a long, freshly sharpened pencil lies beside a stubby, well-chewed pencil worn down to a few inches, with its eraser almost gone. Long warm shadows stretch across the wood grain. A simple, striking before-and-after of a whole year's work, with no text.",
+          "alt": "A new pencil lies beside a pencil worn down to a stub on a desk in golden light."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "genai",
+          "title": "Advice for Next Year",
+          "k5": "Say or write one tip for a kid coming to our grade next year about learning with computers or computer helpers.",
+          "g612": "Write one tip for next year's students on using tech and AI to learn instead of to skip learning. Make it specific: a moment from your year when you learned the tip the hard way or the smart way.",
+          "teacher": "Students write for two minutes, then a few read their tips aloud; ask: \"Which tip would you most want to hear if you were starting this year again?\"",
+          "related": "ai-study-buddy-contract",
+          "scene": "An emptied classroom cubby in late-day sunlight with a single folded paper note tucked inside, propped against the back wall, a small gold paper star taped to its corner. The rest of the room is blurred, chairs stacked on desks for summer. Quiet and hopeful; the note is folded so no writing shows.",
+          "alt": "A folded note sits alone in an empty classroom cubby as chairs are stacked for summer."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "medialit",
+          "title": "Does Summer Erase It All?",
+          "k5": "Fact or fake: Kids forget everything they learned over the summer.",
+          "g612": "Fact or fake: \"Students forget everything they learned over the summer.\" Look closely at the words. What would you need to know before believing or sharing a claim like that?",
+          "options": ["Fact", "Fake"],
+          "answer": "Fake. \"Everything\" is an exaggeration, a clue to slow down. Some skills can get rusty without practice, but reading for fun, games, projects, and real-world experiences keep learning going. For 6–12: absolute words like \"everything,\" \"always,\" and \"never\" are signals to look for the real evidence.",
+          "teacher": "Students vote, then spot the exaggeration word; ask: \"What's one way you'll keep a skill sharp this summer?\"",
+          "scene": "A tall stack of library books on a sun-warmed porch step at golden hour, with a pair of kid-sized sunglasses and a small plastic sand pail balanced on top. A garden hose and bare feet blur in the background. Summer light, warm and nostalgic; the book spines show only color blocks, no titles.",
+          "alt": "A stack of library books topped with sunglasses and a sand pail sits on a sunny porch step."
+        },
+        {
+          "kind": "team-up",
+          "format": "sort",
+          "strand": "digcit",
+          "title": "Recharge or Drain?",
+          "k5": "With a partner, sort these summer activities into \"screen\" and \"green\": swimming, a video call with a cousin, a game on a tablet, building a fort, a movie night. Then plan a great summer day with some of each.",
+          "g612": "With a partner, sort these into \"recharges me\" or \"drains me\": late-night scrolling, a video call with a cousin, learning a song online and then playing it, a hike without your phone, an all-day gaming marathon, making a stop-motion movie. Then design one balanced summer day.",
+          "options": ["Recharges me", "Drains me", "Depends"],
+          "answer": "Sorts will differ, and that's the point: the same activity can recharge one person and drain another. The big idea is to notice how you feel after, and to build days with a balance of screens, movement, people, and rest.",
+          "teacher": "Pairs sort, then share their balanced day; ask: \"Which one went in 'depends,' and what does it depend on?\"",
+          "related": "screen-time-green-time",
+          "scene": "Two 11-year-olds sit at a picnic table in the schoolyard on a hot, bright afternoon, sorting index cards into two piles: a Native American boy in a baseball cap and a Middle Eastern girl with a ponytail. One holds up a card, laughing at the choice, while a closed tablet and a soccer ball sit at either end of the table. Trees throw dappled shade; the cards show only doodles.",
+          "alt": "Two kids at a picnic table sort index cards between a closed tablet and a soccer ball."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "medialit",
+          "title": "I Own My Learning",
+          "k5": "Show 1 to 4 fingers: \"I can take charge of my own learning.\" Then tell one thing you'll keep learning this summer, and where you'll learn it.",
+          "g612": "Rate yourself 1–4: \"I know how to take responsibility for my own learning.\" Compare it to how you'd have rated yourself in August. Name one thing you'll learn this summer that no one assigned, and one trustworthy place you'll learn it from.",
+          "options": ["1", "2", "3", "4"],
+          "teacher": "Students show fingers, then share their summer learning goal; ask: \"How has the way you own your learning changed since August?\"",
+          "scene": "Shot from inside the school entrance, a 10-year-old Latino boy with a backpack pushes open the double doors and steps out into blinding summer sunlight, one arm raised as he runs. Classmates are silhouettes spilling out behind him, and the dim hallway frames the bright green schoolyard like a picture. Backlit, joyful, and cinematic; he faces away from the camera.",
+          "alt": "A boy with a backpack runs out the school doors into bright summer sunlight on the last day."
+        }
+      ]
+    }
+  ]
+}

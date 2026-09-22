@@ -45,6 +45,17 @@ navigation, and a print layout) and join the home catalog search: they appear in
 results when someone searches or picks the "Daily openers" type. `validate.js` checks
 them; translations use units `openers-<band>`.
 
+## Daily Opener a Day calendar
+
+`data/calendar/weeks-*.json` holds 37 weeks (185 days) of five-minute openers, one
+Student ELE per week, each day with K–5 and 6–12 versions plus a `scene` (photo
+direction for `cal-wNN-dD.jpg`) and `alt`; see `data/CALENDAR.md`. It renders at
+`calendar/index.html`: a tear-off flip page per school day, month view, level toggle,
+projector mode, and settings for the first day of school and district holidays.
+`assets/calendar.js` maps school days to content (the Nth school week gets week N, the
+weekday picks the day) and skips weekends and holidays. `validate.js` checks the weeks;
+translations use units `calendar-<file>`. Scenes are never translated; alt text is.
+
 ## Languages
 
 English is the source, at the site root. Spanish (`/es/`) and Vietnamese (`/vi/`) are

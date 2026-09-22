@@ -107,6 +107,16 @@ for (const o of OPENERS_EN) {
   const txt = allText(o).toLowerCase();
   OP_TOPICS[o.id] = TOPICS.filter(tp => tp.synonyms.some(w => txt.includes(w))).map(tp => tp.id);
 }
+// Daily Opener a Day calendar (data/calendar/*.json, see data/CALENDAR.md)
+const CAL_DIR = path.join(ROOT, 'data/calendar');
+const CAL_FILES = fs.existsSync(CAL_DIR) ? fs.readdirSync(CAL_DIR).filter(f => f.endsWith('.json')).map(f => path.basename(f, '.json')).sort() : [];
+// Typical Texas 2026-27 calendar; teachers can change the first day in the page.
+const CAL_YEAR = {
+  label: '2026–27', start: '2026-08-17', end: '2027-05-28',
+  holidays: ['2026-09-07', '2026-11-23', '2026-11-24', '2026-11-25', '2026-11-26', '2026-11-27',
+    '2026-12-21', '2026-12-22', '2026-12-23', '2026-12-24', '2026-12-25', '2026-12-28', '2026-12-29', '2026-12-30', '2026-12-31', '2027-01-01',
+    '2027-01-18', '2027-02-15', '2027-03-15', '2027-03-16', '2027-03-17', '2027-03-18', '2027-03-19', '2027-03-26'],
+};
 const HERO_TOPICS = ['screentime', 'deepfakes', 'privacy', 'hallucination', 'copyright'];
 // Guide page: activities for the screen-time conversation (missing ids are skipped)
 const SCREEN_ACTS = ['minutes-with-a-purpose', 'screens-at-school-screens-at-home', 'does-this-need-a-screen', 'screen-time-green-time', 'evidence-before-tools', 'five-question-rollout-check', 'the-feed-game', 'algorithm-autopsy'];
@@ -513,6 +523,7 @@ ${scripts.replace(/\{root\}/g, root)}
         <input id="hq" type="search" placeholder="${esc(t('hs.placeholder'))}" autocomplete="off">
         <button type="submit" class="btn btn-gold">${esc(t('hs.button'))}</button>
       </form>
+      ${CAL_FILES.length ? `<p class="hero-cal"><a href="calendar/">${esc(t('cal.homeLink'))}</a></p>` : ''}
       <p class="hero-topics"><span>${esc(t('hs.try'))}</span> ${HERO_TOPICS.map(id => `<a href="?q=${encodeURIComponent(t('topic.' + id))}#catalog" data-q="${esc(t('topic.' + id))}">${esc(t('topic.' + id))}</a>`).join(' ')}</p>
     </div>
   </section>
@@ -669,6 +680,58 @@ ${scripts.replace(/\{root\}/g, root)}
       scripts: `<script>(function(){var q=document.getElementById('tq'),rows=[].slice.call(document.querySelectorAll('.align tbody tr'));function n(s){return s.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase()}function go(){var v=n(q.value.trim());rows.forEach(function(r){r.hidden=v&&!(r.dataset.text.indexOf(v)>=0||r.dataset.codes.split(' ').indexOf(v)>=0)})}q.addEventListener('input',go);document.querySelectorAll('[data-filter]').forEach(function(a){a.addEventListener('click',function(){q.value=a.dataset.filter;go()})});var h=location.hash.match(/^#(teks|elps|udl|sst)-(.+)$/);})();</script>` });
   }
 
+  // ---------- Daily Opener a Day calendar ----------
+  function calendarPage() {
+    if (!CAL_FILES.length) return;
+    const weeks = CAL_FILES.flatMap(f => {
+      const data = readJson(path.join(CAL_DIR, f + '.json'));
+      const ov = lang === 'en' ? null : readJson(path.join(I18N, lang, 'calendar', f + '.json'));
+      return applyOverlay(data, ov).weeks || [];
+    }).sort((a, b) => a.week - b.week);
+    const d = 1, root = rootFrom(d);
+    const openerIds = new Set(OPENERS_EN.map(o => o.id));
+    const payload = weeks.map(w => ({
+      week: w.week, ele: w.ele, eleText: IND[w.ele] ? IND[w.ele].text : '', eleArea: IND[w.ele] ? `${IND[w.ele].role.short} · ${IND[w.ele].area.title}` : '',
+      title: w.title, bigIdea: w.bigIdea,
+      days: w.days.map((x, i) => {
+        const img = `cal-w${String(w.week).padStart(2, '0')}-d${i + 1}`;
+        const rel = x.related ? (openerIds.has(x.related) ? { href: `../openers.html#${x.related}`, title: (openers.find(o => o.id === x.related) || {}).title } : (acts.find(a => a.id === x.related) ? { href: `../activities/${x.related}.html`, title: acts.find(a => a.id === x.related).title } : null)) : null;
+        return { kind: x.kind, format: x.format, strand: x.strand, title: x.title, k5: md(x.k5), g612: md(x.g612), options: (x.options || []).map(md), answer: x.answer ? md(x.answer) : '', teacher: md(x.teacher), related: rel,
+          img: hasImg(img) ? { src: `${root}assets/img/${img}.jpg`, alt: (IMG_MANIFEST[img].alts && IMG_MANIFEST[img].alts[lang]) || x.alt || IMG_MANIFEST[img].alt } : null };
+      }),
+    }));
+    const UI = Object.fromEntries(['cal.today', 'cal.prev', 'cal.next', 'cal.month', 'cal.k5', 'cal.g612', 'cal.project', 'cal.exit', 'cal.answer', 'cal.teacher', 'cal.related', 'cal.week', 'cal.dayNum', 'cal.noSchool', 'cal.before', 'cal.after', 'cal.settings', 'cal.startLabel', 'cal.holidays', 'cal.reset', 'cal.close', 'cal.kind.warm-up', 'cal.kind.think-it', 'cal.kind.check-it', 'cal.kind.team-up', 'cal.kind.i-can', 'cal.iCan', 'cal.jump'].map(k => [k, t(k)]).concat(['quick-write', 'turn-and-talk', 'vote', 'fact-or-fake', 'sort', 'would-you-rather', 'image-talk', 'stand-up-sit-down', 'draw'].map(f => ['fmt.' + f, t('fmt.' + f)])).concat(STRANDS.map(s2 => ['strand.' + s2, t(`strand.${s2}.short`)])));
+    const body = `
+<main id="main" class="calpage">
+  <div class="cal-head">
+    <div><p class="crumbs"><a href="../openers.html">${esc(t('nav.openers'))}</a> <span aria-hidden="true">/</span> ${esc(CAL_YEAR.label)}</p>
+      <h1>${esc(t('cal.title'))}</h1><p class="lede">${esc(t('cal.lede'))}</p></div>
+    <div class="cal-controls noprint" role="toolbar" aria-label="${esc(t('cal.title'))}">
+      <div class="seg" role="group" aria-label="${esc(t('cal.level'))}"><button type="button" data-level="k5" aria-pressed="true">${esc(t('cal.k5'))}</button><button type="button" data-level="g612" aria-pressed="false">${esc(t('cal.g612'))}</button></div>
+      <button type="button" class="btn btn-line" id="calToday">${esc(t('cal.today'))}</button>
+      <button type="button" class="btn btn-line" id="calMonthBtn" aria-expanded="false" aria-controls="calMonth">${esc(t('cal.month'))}</button>
+      <button type="button" class="btn btn-gold" id="calProject">${esc(t('cal.project'))}</button>
+      <button type="button" class="btn btn-line" id="calSettingsBtn" aria-expanded="false" aria-controls="calSettings">${esc(t('cal.settings'))}</button>
+    </div>
+  </div>
+  <div class="cal-settings noprint" id="calSettings" hidden>
+    <label>${esc(t('cal.startLabel'))} <input type="date" id="calStart" value="${CAL_YEAR.start}"></label>
+    <label><input type="checkbox" id="calHol" checked> ${esc(t('cal.holidays'))}</label>
+    <button type="button" class="btn btn-line" id="calReset">${esc(t('cal.reset'))}</button>
+    <p class="muted">${esc(t('cal.settingsNote'))}</p>
+  </div>
+  <div class="cal-month noprint" id="calMonth" hidden></div>
+  <div class="flip-wrap">
+    <button type="button" class="flip-nav prev noprint" id="calPrev" aria-label="${esc(t('cal.prev'))}">‹</button>
+    <div class="flip" id="calFlip" aria-live="polite"></div>
+    <button type="button" class="flip-nav next noprint" id="calNext" aria-label="${esc(t('cal.next'))}">›</button>
+  </div>
+  <p class="cal-help muted noprint">${esc(t('cal.help'))}</p>
+</main>`;
+    page({ pagePath: 'calendar/index.html', title: `${t('cal.title')} ${CAL_YEAR.label} | ${t('site.titleSuffix')}`, desc: t('cal.desc'), body, bodyClass: 'cal-body',
+      scripts: `<script>window.ELE_CAL=${JSON.stringify({ year: CAL_YEAR, weeks: payload, ui: UI, lang }).replace(/</g, '\\u003c')};</script><script src="{root}assets/calendar.js"></script>` });
+  }
+
   // ---------- daily openers ----------
   function openersPage() {
     if (!openers.length) return;
@@ -699,7 +762,7 @@ ${scripts.replace(/\{root\}/g, root)}
     const body = `
 <main id="main" class="oppage">
   <div class="op-hero">
-    <div><h1>${esc(t('op.title'))}</h1><p class="lede">${esc(t('op.lede', { n: openers.length }))}</p><p>${md(t('op.how'))}</p></div>
+    <div><h1>${esc(t('op.title'))}</h1><p class="lede">${esc(t('op.lede', { n: openers.length }))}</p><p>${md(t('op.how'))}</p>${CAL_FILES.length ? `<p><a class="btn btn-gold" href="calendar/">${esc(t('cal.cta'))}</a></p>` : ''}</div>
     ${hasImg('hero-openers') ? `<figure class="op-hero-photo">${pic('hero-openers', root, { lazy: false })}</figure>` : ''}
   </div>
   <form class="op-filters noprint" id="opf" onsubmit="return false" aria-label="${esc(t('f.label'))}">
@@ -790,7 +853,7 @@ ${scripts.replace(/\{root\}/g, root)}
   fs.rmSync(path.join(ROOT, prefix, 'activities'), { recursive: true, force: true });
   fs.rmSync(path.join(ROOT, prefix, 'handouts'), { recursive: true, force: true });
   for (const a of acts) { activityPage(a); handoutPage(a); }
-  indexPage(); frameworkPage(); guidePage(); standardsPage(); packetsPage(); openersPage(); catalogJs();
+  indexPage(); frameworkPage(); guidePage(); standardsPage(); packetsPage(); openersPage(); calendarPage(); catalogJs();
   const done = acts.filter(a => a.translated).length;
   return { acts, cover, IND, done };
 }

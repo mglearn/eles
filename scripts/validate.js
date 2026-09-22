@@ -160,5 +160,41 @@ if (fs.existsSync(OP_DIR) && !process.argv.slice(2).length) {
   if (opBad) bad++;
   console.log(`${opCount - opBad}/${opCount} daily openers valid.`);
 }
+// Daily Opener a Day calendar (data/calendar/*.json, see data/CALENDAR.md)
+const CAL_DIR = path.join(ROOT, 'data/calendar');
+if (fs.existsSync(CAL_DIR) && !process.argv.slice(2).length) {
+  const KINDS = ['warm-up', 'think-it', 'check-it', 'team-up', 'i-can'];
+  const FORMATS = ['quick-write', 'turn-and-talk', 'vote', 'fact-or-fake', 'sort', 'would-you-rather', 'image-talk', 'stand-up-sit-down', 'draw'];
+  const OP_IDS = new Set();
+  if (fs.existsSync(OP_DIR)) for (const f of fs.readdirSync(OP_DIR).filter(f => f.endsWith('.json'))) for (const o of JSON.parse(fs.readFileSync(path.join(OP_DIR, f), 'utf8')).openers || []) OP_IDS.add(o.id);
+  const ACTS = new Set(fs.readdirSync(path.join(ROOT, 'data/activities')).map(f => f.replace(/\.json$/, '')));
+  const weeks = new Map(); let calBad = 0;
+  for (const f of fs.readdirSync(CAL_DIR).filter(f => f.endsWith('.json'))) {
+    let data; try { data = JSON.parse(fs.readFileSync(path.join(CAL_DIR, f), 'utf8')); } catch (e) { console.log(`  ✗ calendar/${f}: invalid JSON ${e.message}`); calBad++; continue; }
+    for (const w of data.weeks || []) {
+      const e = [];
+      if (!Number.isInteger(w.week) || w.week < 1 || w.week > 37) e.push('week must be 1–37');
+      if (weeks.has(w.week)) e.push('duplicate week'); weeks.set(w.week, f);
+      if (!INDICATORS.has(w.ele)) e.push('bad ele');
+      for (const k of ['title', 'bigIdea']) if (typeof w[k] !== 'string' || w[k].length < 4) e.push(`"${k}" missing`);
+      if (!Array.isArray(w.days) || w.days.length !== 5) e.push('needs exactly 5 days');
+      else w.days.forEach((d, i) => {
+        if (d.kind !== KINDS[i]) e.push(`day ${i + 1} kind must be ${KINDS[i]}`);
+        if (!FORMATS.includes(d.format)) e.push(`day ${i + 1} bad format`);
+        if (!ENUM.strands.includes(d.strand)) e.push(`day ${i + 1} bad strand`);
+        for (const k of ['title', 'k5', 'g612', 'teacher', 'alt']) if (typeof d[k] !== 'string' || d[k].length < 6) e.push(`day ${i + 1} "${k}" missing`);
+        if (typeof d.scene !== 'string' || d.scene.length < 80) e.push(`day ${i + 1} "scene" missing or too short`);
+        if (d.format === 'fact-or-fake' && !d.answer) e.push(`day ${i + 1} fact-or-fake needs answer`);
+        if (d.options && (!Array.isArray(d.options) || d.options.length < 2 || d.options.length > 5)) e.push(`day ${i + 1} options 2–5`);
+        if (d.related && !OP_IDS.has(d.related) && !ACTS.has(d.related)) e.push(`day ${i + 1} related "${d.related}" not found`);
+      });
+      const m = JSON.stringify(w).match(PLACEHOLDER); if (m) e.push(`placeholder-looking text: "${m[0]}"`);
+      if (e.length) { calBad++; console.log(`  ✗ calendar/${f} week ${w.week}: ${e.join('; ')}`); }
+    }
+  }
+  const missing = Array.from({ length: 37 }, (_, i) => i + 1).filter(n => !weeks.has(n));
+  if (calBad) bad++;
+  console.log(`calendar: ${weeks.size}/37 weeks${missing.length ? ` (missing ${missing.join(', ')})` : ''}, ${calBad} with problems.`);
+}
 console.log(`\n${files.length - bad}/${files.length} activity files valid.`);
 process.exit(bad ? 1 : 0);

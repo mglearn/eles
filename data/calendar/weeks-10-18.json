@@ -1,0 +1,614 @@
+{
+  "weeks": [
+    {
+      "week": 10,
+      "ele": "S2.2",
+      "title": "Who Can I Trust?",
+      "bigIdea": "During the week many schools celebrate Digital Citizenship Week, students practice asking who made a source and why before they believe it, so trust gets earned by evidence instead of looks.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "vote",
+          "strand": "medialit",
+          "title": "Snake in the Yard",
+          "k5": "This week many schools celebrate Digital Citizenship Week! You see a snake in your yard. Which one would you trust most to tell you if it is safe?",
+          "g612": "This week many schools celebrate Digital Citizenship Week. A fast-spreading rumor says a snake spotted near the Pecan Ridge trail is deadly. Which source would you trust most to find out, and why?",
+          "options": ["A comment under a video", "A post a friend shared", "A park or wildlife expert's website", "A library book about snakes"],
+          "answer": "Experts and library books usually beat comments and shares, because you can see who made them and what they know. A friend's post can be right, but ask where your friend got it.",
+          "teacher": "Students vote with fingers 1–4; ask a few to defend their pick: \"What would make you trust that source even more?\"",
+          "scene": "Low ground-level angle across sun-dappled Texas backyard grass: a small brown snake loosely coiled beside a green garden hose, sharp in the foreground. At the edge of the frame, a child's sneaker has stopped mid-step, softly out of focus, with a fence and late-afternoon golden light behind.",
+          "alt": "A small snake coiled by a garden hose in the grass while a child's sneaker pauses nearby."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "medialit",
+          "title": "My Go-To Source",
+          "k5": "When you want to learn something new, who or what do you ask first? Write or draw it, and tell why you trust it.",
+          "g612": "Name one source you trust about something you care about: sports, games, music, weather, or news. What earned that trust, and what would make you stop trusting it?",
+          "teacher": "Students write for two minutes, then a few share; follow up: \"Did anyone trust a source because of how it looks instead of what it knows?\"",
+          "scene": "A porch step at golden hour: an eight-year-old Latina girl in a yellow T-shirt leans against her grandfather, a white-haired man in a work shirt, as they both bend over a worn paperback field guide, his finger pointing at a blurred page. A hummingbird feeder glows out of focus behind them.",
+          "alt": "A girl and her grandfather study a worn field guide together on a porch step at sunset."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "medialit",
+          "title": "Pretty Means True?",
+          "k5": "A website has bright colors, cute pictures, and a smiling cartoon owl. So it must be telling the truth. Fact or fake?",
+          "g612": "Claim: \"Websites that end in .org have been checked by someone, so you can trust them.\" Fact or fake?",
+          "answer": "Fake, for both. Anyone can make a website look beautiful, and anyone can buy a .org address; nobody checks them first. The better move is to leave the site and see what other trusted sources say about who made it (lateral reading).",
+          "teacher": "Students show thumbs up or down, then explain; ask: \"If looks and endings don't prove anything, what does?\"",
+          "related": "lateral-reading-relay",
+          "scene": "A dark room lit only by a laptop screen showing a glossy, colorful, completely blurred website layout of soft shapes and a fuzzy cartoon-like blob. A small hand hovers over the trackpad, and the screen's glow reflects in a nearby glass of water. Tight crop, shallow depth of field.",
+          "alt": "A small hand hovers over a laptop glowing with a bright, blurry website in a dark room."
+        },
+        {
+          "kind": "team-up",
+          "format": "sort",
+          "strand": "genai",
+          "title": "Rank the Sources",
+          "k5": "With a partner, put these in order from most to least trustworthy for learning about sea turtles: a zoo's website, a cartoon video with no name on it, a library book, a robot helper's answer.",
+          "g612": "Your group is researching whether a new dam on the fictional Rio Pinto will hurt fish. Rank: a state wildlife agency report, a video from the construction company, an environmental group's blog, an AI chatbot's summary. What does each one want you to believe?",
+          "answer": "There's no single right order, but strong rankings explain who made each source and why. The AI answer has no author to check, so it's a starting point to verify, not a source to cite.",
+          "teacher": "Partners agree on an order and share their top and bottom picks; ask: \"Where did the AI's answer land, and why?\"",
+          "related": "who-made-this",
+          "scene": "Overhead view of a school library carpet: a twelve-year-old Black boy in glasses and a thirteen-year-old Native American girl with a long braid kneel on either side of a column of blank paper cards, one sliding a card up the line while the other points in disagreement. Window light rakes across the carpet.",
+          "alt": "Two middle schoolers kneel on a library carpet, arguing over the order of paper cards."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "My Trust Check",
+          "k5": "\"I can tell if a website is one I can trust.\" Show me 1 to 4 fingers. Then say one question you will ask next time you find a new website.",
+          "g612": "\"I can identify trustworthy sources of information online.\" Rate yourself 1–4 fingers, then name one habit you'll use this week, like checking who runs a site before you share it.",
+          "options": ["1: I'm just starting", "2: I can with help", "3: I usually can", "4: I can teach someone"],
+          "teacher": "Students hold up fingers, then turn to a neighbor to name one next step; ask a 3 or 4: \"What's the first thing you check?\"",
+          "scene": "Close-up of a quiet library shelf in a single beam of morning window light: one hardback book has been pulled halfway out from a neat row, its spine blank and worn, dust drifting in the light. The rest of the shelf falls away into soft shadow.",
+          "alt": "A single library book pulled halfway off the shelf, lit by a beam of morning light."
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "ele": "S3.3",
+      "title": "Many Eyes, Better Ideas",
+      "bigIdea": "Students notice that every person, photo, and AI tool sees from somewhere, and that teams catch more and build better when they seek out views unlike their own.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "stand-up-sit-down",
+          "strand": "digcit",
+          "title": "Stand If You Changed",
+          "k5": "Stand up if it's true for you, then sit down. 1) A friend showed me a new way to play a game. 2) Someone taught me a word in another language. 3) I changed my mind after hearing a friend's idea.",
+          "g612": "Stand if it's true, then sit. 1) A teammate's idea was better than mine and I said so. 2) I learned something from someone whose background is different from mine. 3) I've been in a group where one voice took over.",
+          "teacher": "Read each line and pause for students to stand or sit; ask: \"What helped you actually listen to a different idea?\"",
+          "scene": "A sunlit fourth-grade classroom caught mid-activity: some nine- and ten-year-olds are rising from their chairs while others stay seated, among them a girl in a navy hijab laughing as she stands and a boy with hearing aids halfway up. Warm window light, backpacks on chairs, a busy bulletin board blurred behind.",
+          "alt": "Fourth graders, some standing and some sitting, respond to a question in a sunny classroom."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "digcit",
+          "title": "Ant View, Bird View",
+          "k5": "Draw our playground the way a bird sees it from the sky. Then draw it the way an ant sees it from the ground. What does each one notice that the other misses?",
+          "g612": "Sketch the cafeteria at lunch from two viewpoints: someone who has sat at the same table for three years, and someone on their very first day. What does each notice that the other misses?",
+          "teacher": "Students draw for three minutes and share with a neighbor; ask: \"Whose view would help most if we were redesigning this space?\"",
+          "scene": "An ant's-eye view from inside the grass of a school playground: blades of grass tower in sharp focus like a forest, and a bright slide and swing set rise huge and soft in the background against a morning sky. Dew beads catch the low sun.",
+          "alt": "A playground seen from ground level through towering blades of grass."
+        },
+        {
+          "kind": "check-it",
+          "format": "image-talk",
+          "strand": "medialit",
+          "title": "What the Crop Hid",
+          "k5": "Picture a photo of just one girl, frowning with her arms crossed. Now picture the whole photo: she is on a stage, playing the grumpy troll in the school play, and everyone is clapping. How did seeing more change the story?",
+          "g612": "A post shows a photo of a half-empty town meeting with the caption \"Nobody in Cedar Falls cares about the new park.\" A wide photo from a minute later shows a packed room with people still arriving. What did the first photo leave out, and who chose that?",
+          "answer": "A photo shows one view, and whoever crops or captions it picks what you see. Before you believe the story, look for a wider shot or another angle, just like a team does with ideas.",
+          "teacher": "Students turn and describe the two versions; ask: \"What's the 'wide shot' you could look for next time?\"",
+          "related": "photo-detective",
+          "scene": "Close-up on a wooden table under a desk lamp: a pair of scissors mid-cut through a printed color photo of a crowded room, the trimmed strip curling away from the smaller rectangle. The faces in the print are soft and unreadable; the metal blades catch the warm light.",
+          "alt": "Scissors cut a strip off a printed photo on a lamp-lit table."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "genai",
+          "title": "What the AI Missed",
+          "k5": "A robot helper gave our class ideas for a new recess game, but every idea was about soccer. Tell a partner one game from your family, culture, or neighborhood that the robot missed.",
+          "g612": "Your team asked an AI chatbot for ideas to make welcome week better for new students. Every idea assumed students speak English and have a ride home. With a partner, add two ideas from the perspectives the AI left out.",
+          "teacher": "Partners talk for two minutes and share one idea; ask: \"Why might the AI keep suggesting the same kind of idea?\"",
+          "scene": "A high school library table in afternoon light: a sixteen-year-old Latino teen in a wheelchair and a fifteen-year-old South Asian girl lean over one shared laptop with a softly blurred screen, sticky notes scattered around it. She gestures mid-sentence; he's grinning and adding a note.",
+          "alt": "Two teens, one using a wheelchair, lean over a shared laptop and sticky notes in the library."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "Different Helps Us",
+          "k5": "\"I know that different ideas make my team better.\" Show 1 to 4 fingers. Then name one person you could ask for a new idea this week.",
+          "g612": "\"I am aware of the value of diverse perspectives in group work.\" Rate yourself 1–4, then name one move you'll try, like asking the quietest teammate first.",
+          "options": ["1: I'm just starting", "2: Sometimes", "3: Usually", "4: I help my team do it"],
+          "teacher": "Students show fingers and whisper their next step to a partner; ask: \"What makes it hard to invite a different idea?\"",
+          "scene": "Close-up of a table covered in overlapping sticky notes in many colors, each with different, unreadable handwriting shapes. Several hands of different skin tones reach in from the edges at once to add one more note, one wearing a beaded bracelet. Warm overhead light and soft shadows.",
+          "alt": "Many hands of different skin tones add sticky notes to a crowded table."
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "ele": "AI1.3",
+      "title": "AI Has Blind Spots",
+      "bigIdea": "Students learn that AI tools can be out of date, can make things up, and can repeat unfairness from the data they learned from, so a human always checks.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "would-you-rather",
+          "strand": "genai",
+          "title": "Fast or Honest?",
+          "k5": "Would you rather have a robot helper that answers super fast but sometimes makes things up, or one that is slower but says \"I don't know\" when it isn't sure?",
+          "g612": "Would you rather use an AI study tool that answers instantly but sometimes invents facts, or one that's slower and tells you when it isn't confident? Which would you trust the night before a test?",
+          "options": ["Fast but sometimes made up", "Slower but honest about limits"],
+          "teacher": "Students move to one side of the room or vote by hand; ask: \"What would you do to check the fast one's answers?\"",
+          "scene": "A kitchen corner at night: a fourteen-year-old MENA boy sits at a small desk under one warm lamp, chin on his fist, weighing his choice. On one side a laptop throws cool, blurred glow across his face; on the other sits a tall, worn stack of library books.",
+          "alt": "A teen at a lamp-lit desk looks between a glowing laptop and a stack of library books."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "genai",
+          "title": "Breakfast It Never Saw",
+          "k5": "A pretend AI learned what breakfast is from pictures of only cereal. Draw a breakfast from your home that it might not know. What would it guess instead?",
+          "g612": "An AI meal planner learned mostly from one style of cooking. Sketch or describe a meal your family makes that it might not recognize. What might it get wrong, and who would that leave out?",
+          "teacher": "Students draw for three minutes, then share in pairs; ask: \"How could the people who built the AI fix this?\"",
+          "related": "bias-in-the-machine",
+          "scene": "Overhead shot of a kitchen table on a bright oilcloth in morning window light: a steaming plate of chilaquiles with a fried egg, a basket of pan dulce, sliced mango, and a mug of cafe de olla. A child's hand reaches in from the corner for a pastry.",
+          "alt": "An overhead view of a home breakfast of chilaquiles, sweet bread, and mango."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "medialit",
+          "title": "Last Night's Score",
+          "k5": "A robot helper knows everything, even what happened this morning. Fact or fake?",
+          "g612": "Claim: \"An AI chatbot always has up-to-date information, so it's the best way to check last night's game score.\" Fact or fake?",
+          "answer": "Fake. Many AI models learn from information collected up to a certain date, so they may not know recent events at all. Some can search the web, but they can still mix things up. For fresh news, check a live, trusted source.",
+          "teacher": "Thumbs up or down, then explain; ask: \"What's a question you'd never trust an AI to answer without checking?\"",
+          "related": "hallucination-hunt",
+          "scene": "An empty high school football field late at night after the game, stadium lights still blazing and haloed in light mist. Paper cups and a forgotten folded blanket sit on the bottom bleacher in the foreground, with long shadows stretching across the wet turf.",
+          "alt": "An empty football field glowing under stadium lights at night after a game."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "digcit",
+          "title": "The Dark Block",
+          "k5": "A pretend computer picks which streets get new lights first. It only listened to people who asked online, so the streets where people didn't ask stay dark. Is that fair? Tell a partner how to fix it.",
+          "g612": "The fictional city of Brookmere tests an AI that ranks which neighborhoods get new streetlights, using past online repair requests. Neighborhoods with fewer requests get skipped. Talk: where did the bias come from, and what data would you add?",
+          "answer": "The AI isn't mean on purpose; it copied a pattern in its data. Neighborhoods with less internet access or time to file requests got left out. Fixes include adding other data, like walking surveys or phone calls, and having humans review the list.",
+          "teacher": "Partners talk for two minutes; ask: \"Who should check the AI's list before the city acts on it?\"",
+          "scene": "A residential street at dusk seen from the corner: one block glows under bright new streetlights, while the very next block fades into deep blue shadow. A child's bike leans against a chain-link fence right at the line where the light ends.",
+          "alt": "A street at dusk where one block is brightly lit and the next block is dark."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "genai",
+          "title": "Spotting AI Limits",
+          "k5": "\"I know robot helpers can make mistakes and can be unfair.\" Show 1 to 4 fingers. Then say one thing you'd check if a robot helper told you something.",
+          "g612": "\"I am aware of AI's limits and possible biases.\" Rate yourself 1–4, then name one way you'll double-check the next AI answer you see.",
+          "options": ["1: New to me", "2: I'm getting it", "3: I can explain it", "4: I can teach it"],
+          "teacher": "Students show fingers and share a check with a neighbor; ask: \"Which limit surprised you most this week?\"",
+          "scene": "A third-grade classroom in soft afternoon light: a nine-year-old Native American boy holds up three fingers with a thoughtful squint, while beside him a nine-year-old Vietnamese American girl rests her chin on her hand, deciding. The rest of the class blurs behind them.",
+          "alt": "Two third graders think about their self-ratings, one holding up three fingers."
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "ele": "S4.2",
+      "title": "Small Steps, Big Goals",
+      "bigIdea": "Students learn that a good goal is small enough to do and clear enough to check, and that the evidence of progress is what they can do, not what an app counts.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "Which Goal Can You Check?",
+          "k5": "Which screen goal could you really check off by Friday?",
+          "g612": "Four friends set screen-time goals. Which one could you actually check by Friday, and what makes the others hard to measure?",
+          "options": ["Use screens less", "Put my device in another room during homework, four nights this week", "Never use a screen again", "Try to be better"],
+          "answer": "The second one is small, clear, and has a number, so you can tell if you did it. \"Less\" and \"better\" are hard to measure, and \"never\" isn't realistic.",
+          "teacher": "Students vote by fingers; ask: \"How could we rewrite 'use screens less' so it's checkable?\"",
+          "related": "screen-time-green-time",
+          "scene": "A kitchen at dusk: in the foreground a pencil and open homework page, blurred with unreadable writing, sit on the table under a warm pendant light. In soft focus behind, a phone lies face-down in a woven basket on a shelf, its charging cable trailing.",
+          "alt": "Homework on a kitchen table while a phone charges face-down in a basket behind it."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "genai",
+          "title": "My Goal Staircase",
+          "k5": "Draw a staircase to something you want to learn, like riding a bike or reading a chapter book. Draw three steps. Put a star on a step where a helper could help you.",
+          "g612": "Pick a skill you want by winter break. Sketch a progress map: where you are now, two checkpoints, and the finish. Mark one step an AI tool could help with and one step that has to be all you.",
+          "teacher": "Students sketch for three minutes and share one step; ask: \"How will you know you've reached your first checkpoint?\"",
+          "scene": "A neighborhood street at golden hour: a seven-year-old Afro-Latino boy wobbles forward on a small bike, face set in fierce concentration, as his mother's hand lets go of the seat behind him. Low angle, trees and parked cars soft in the background.",
+          "alt": "A mother lets go of her son's bike seat as he rides on his own at sunset."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "medialit",
+          "title": "Stars Mean Learning?",
+          "k5": "A reading app gives you a gold star every time you open it. So more stars means you read more. Fact or fake?",
+          "g612": "Claim: \"A 100-day streak on a language app proves you learned something every one of those days.\" Fact or fake?",
+          "answer": "Fake. Stars and streaks count what the app can measure, like opening it, not what you learned. Real evidence of progress is what you can now do: read a harder book, hold a short conversation, explain it to someone.",
+          "teacher": "Thumbs up or down, then explain; ask: \"What's better evidence of your progress than a number an app shows you?\"",
+          "scene": "Close-up of a tablet lying on a couch cushion, its screen bursting with a blurred shower of gold star shapes on a deep navy background. A child's fingertip touches the glass, and the golden glow spills onto the fabric in a dim living room.",
+          "alt": "A child's fingertip touches a tablet screen bursting with blurry gold stars."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "digcit",
+          "title": "How Will You Know?",
+          "k5": "Tell a partner one goal you have. Your partner asks, \"How will you know you did it?\" Then switch.",
+          "g612": "Trade one goal with a partner. Their job is to ask: How will you measure it? What might get in the way online, like notifications or autoplay? What's your plan for that?",
+          "teacher": "Partners take one minute each; ask a few: \"What question from your partner made your goal better?\"",
+          "scene": "A school hallway bench in morning light: a thirteen-year-old white girl rests her white cane against her knee and counts steps on her fingers, while a thirteen-year-old Filipino American boy turns toward her, listening with raised eyebrows. Lockers blur behind them.",
+          "alt": "Two middle schoolers on a hallway bench talk through a goal, one counting on her fingers."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "genai",
+          "title": "Goal Getter Check",
+          "k5": "\"I can set a goal and check how I'm doing.\" Show 1 to 4 fingers. Then tell a neighbor the day you'll check your goal.",
+          "g612": "\"I can set achievable goals and monitor my progress.\" Rate yourself 1–4, then name the evidence you'll look at on Friday to see if you're on track.",
+          "options": ["1: Not yet", "2: With help", "3: Most of the time", "4: I can coach a friend"],
+          "teacher": "Students show fingers and name a check-in day; ask: \"What will you do if you're behind?\"",
+          "scene": "A glass jar on a classroom windowsill, about half full of colorful marbles, lit from behind by bright morning sun. A single marble is caught mid-drop just above the rim, and the glass throws small rainbow reflections onto the sill.",
+          "alt": "A marble drops into a half-full jar of marbles on a sunny windowsill."
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "ele": "S5.1",
+      "title": "One Step at a Time",
+      "bigIdea": "Students practice slowing down on a big problem: notice what's really happening, break it into steps, and test each step, instead of grabbing the first fix or the first AI answer.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "vote",
+          "strand": "genai",
+          "title": "The Cloudy Tank",
+          "k5": "Our class goldfish tank got cloudy overnight. What should we do first?",
+          "g612": "The library Wi-Fi drops every day at lunch, right when everyone needs it. What's the smartest first move?",
+          "options": ["Try the first fix that pops into my head", "Look closely and figure out what's happening", "Ask an AI and do whatever it says", "Give up and work around it"],
+          "answer": "Looking closely first wins. When you notice what changed and when, you find the real cause. An AI can suggest ideas, but you still have to check them against what you see.",
+          "teacher": "Students vote with fingers; ask: \"What would you look at first, and why?\"",
+          "scene": "Close-up of a cloudy classroom fish tank backlit by a window, the water milky and glowing. One orange goldfish hangs in the haze near the glass, where a child's fingertip rests, with soft reflections of the room on the surface.",
+          "alt": "A child's fingertip touches a cloudy fish tank where one goldfish swims."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "digcit",
+          "title": "Stuck Log-In Steps",
+          "k5": "You can't get into your reading game. Write or draw the steps you would try, in order. Which step is where you ask a grown-up?",
+          "g612": "Think of a tech problem you've solved: a frozen app, a lost file, a game account that got taken over. Write the steps you took. Which step would you do first next time, and which step kept your account safe?",
+          "teacher": "Students write for two minutes, then compare with a neighbor; ask: \"Did anyone skip a step and regret it?\"",
+          "scene": "A school stairwell in afternoon light: a thirteen-year-old Korean American girl sits on a step with headphones around her neck and a pencil in her teeth, tilting a laptop with a softly blurred screen toward the window, brow furrowed in puzzled concentration.",
+          "alt": "A middle schooler on a stairwell step frowns at her laptop, pencil in her teeth."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "genai",
+          "title": "The Skipped Step",
+          "k5": "A robot helper says how to grow a bean: \"1) Put a bean in a cup. 2) Wait for it to grow.\" Fact or fake: these steps will grow a bean plant.",
+          "g612": "An AI chatbot gave these steps to test which paper towel soaks up the most water: \"1) Dip each towel in water for as long as you want. 2) Weigh them. 3) The heaviest one wins.\" Fact or fake: this is a fair test?",
+          "answer": "Fake, for both. The bean needs soil, water, and light, so the robot skipped key steps. The paper towel test isn't fair because the dipping time changes; a good plan keeps everything the same except the towel. AI steps can sound confident and still skip what matters.",
+          "teacher": "Thumbs up or down, then ask: \"What step would you add, and where?\"",
+          "scene": "A clear plastic cup on a sunny classroom windowsill holds a single dry bean at the bottom and nothing else, no soil and no water. Hard morning light throws the cup's shadow across the sill, with a row of soil-filled cups soft in the background.",
+          "alt": "A single dry bean sits alone in an empty plastic cup on a sunny windowsill."
+        },
+        {
+          "kind": "team-up",
+          "format": "sort",
+          "strand": "medialit",
+          "title": "Rumor Ladder",
+          "k5": "A kid says, \"Recess is canceled forever!\" With a partner, put these steps in order: ask the teacher, stop and think about where you heard it, check the school news, tell friends what you found out.",
+          "g612": "A viral post claims the state is canceling summer break. With your group, put these moves in order: trace the claim to where it started, stop and notice how it makes you feel, find what other trusted outlets say, check who posted it.",
+          "answer": "K–5: stop and think, ask the teacher, check the school news, then tell friends. 6–12: this is SIFT: Stop, Investigate the source, Find better coverage, Trace the claim to its original context. A system beats guessing.",
+          "teacher": "Groups agree on an order and share; ask: \"Why does 'stop' come first?\"",
+          "scene": "Overhead view of a classroom carpet: three fifth graders, a Latina girl in glasses, a Black boy with short locs, and a white boy wearing noise-reducing headphones, arrange four blank paper strips into a vertical ladder. One hand is mid-swap between two strips.",
+          "alt": "Three fifth graders arrange paper strips in order on a carpet, seen from above."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "Big Problem, Small Steps",
+          "k5": "\"I can break a big problem into small steps.\" Show 1 to 4 fingers. Then name a big job at home you could break into steps.",
+          "g612": "\"I know how to approach complex problems systematically.\" Rate yourself 1–4, then name one big assignment or project you'll break into steps this week.",
+          "options": ["1: I usually rush", "2: I try sometimes", "3: I often do", "4: It's my habit"],
+          "teacher": "Students show fingers and name their project to a neighbor; ask: \"What's your very first step?\"",
+          "scene": "Close-up of a half-finished jigsaw puzzle on a wooden table in warm lamp light: the border is complete, loose pieces are sorted into small piles by color, and one piece sits just above its gap. The image on the puzzle is an abstract swirl of navy and gold.",
+          "alt": "A half-finished jigsaw puzzle with pieces sorted into small piles by color."
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "ele": "S5.2",
+      "title": "Wild Ideas, Smart Checks",
+      "bigIdea": "Students practice the two halves of invention: dreaming big with creativity, then testing ideas with logic, including ideas that come from an AI tool.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "would-you-rather",
+          "strand": "genai",
+          "title": "100 Ideas or 3?",
+          "k5": "Would you rather have a robot helper give you 100 silly ideas for our class party, or a friend give you 3 really good ones?",
+          "g612": "Would you rather brainstorm with an AI that spits out 100 ideas in ten seconds, or with a friend who gives you three thoughtful ones? Which leads to a better final idea, and why?",
+          "options": ["100 ideas from AI", "3 ideas from a friend"],
+          "teacher": "Students vote by moving to a side of the room; ask: \"How could you use both?\"",
+          "scene": "A classroom floor in afternoon light: a fourteen-year-old Black girl with long braids sits cross-legged in a drift of crumpled paper balls, looking up with interest as her friend, a fourteen-year-old Latina girl, holds up one small hand-drawn sketch. Shallow depth of field, paper balls sharp in the foreground.",
+          "alt": "A teen sits among crumpled paper balls as her friend holds up one sketch."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "digcit",
+          "title": "Invent a Fix",
+          "k5": "Draw an invention that fixes a problem on our playground. Then tell: who might not be able to use it, and how can you change it so everyone can?",
+          "g612": "Sketch an invention that fixes the slow lunch line. Add one logic check: What could go wrong? Who could be left out, like a student using a wheelchair or someone without a phone?",
+          "teacher": "Students draw for three minutes, then pitch to a partner in 20 seconds; ask: \"What did your logic check change?\"",
+          "scene": "A school maker space table under warm light: a ten-year-old South Asian boy holds a cardboard-and-tape prototype up to eye level, one eye squinting, testing a hinged flap. Scissors, a hot-glue gun, and cardboard scraps crowd the foreground in soft focus.",
+          "alt": "A boy squints as he tests a cardboard prototype at a maker space table."
+        },
+        {
+          "kind": "check-it",
+          "format": "vote",
+          "strand": "genai",
+          "title": "The Sunny Flashlight",
+          "k5": "A robot helper invented a new flashlight: it charges in the sun and only works while the sun is shining. Good idea?",
+          "g612": "An AI chatbot pitched a creative fix for cafeteria waste: \"Give every student a bigger tray, so food doesn't spill and get thrown away.\" Does the logic hold up?",
+          "options": ["Works", "Needs a fix", "Doesn't make sense"],
+          "answer": "Both need a fix. A flashlight that only works in sunlight is useless when you need it; it needs a battery that stores energy. Bigger trays might make students take more food, so there could be more waste. AI ideas can sound clever and still fail a logic check.",
+          "teacher": "Students vote, then defend; ask: \"What one change would make the idea work?\"",
+          "related": "ai-critic-tank",
+          "scene": "A flashlight switched on and lying on a sun-bleached porch rail in blazing midday sun, its beam completely invisible in the bright light. Hard shadows, peeling paint, and a blurred yard behind; the irony is the whole picture.",
+          "alt": "A switched-on flashlight lies on a porch rail in bright sunshine, its beam invisible."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "medialit",
+          "title": "Yes, And...",
+          "k5": "Problem: silly rumors keep spreading at lunch. With a partner, take turns: one says an idea, the other says \"Yes, and...\" to make it better. Then pick your best one.",
+          "g612": "Problem: fake stories keep spreading in your grade's group chat. With a partner, take turns saying \"Yes, and...\" for one minute to build an idea. Then pick the one that's both creative and logical, and say why it would work.",
+          "teacher": "Partners build for one minute and share their best idea; ask: \"Where did the idea get better, and where did it get too wild?\"",
+          "scene": "Close-up on a student desk in warm afternoon light: two paper cups joined by a taut string stretch across the frame, one cup held by a small hand at the edge, the other resting near a pencil and scattered sticky notes. Everything beyond the string falls into soft blur.",
+          "alt": "Two paper cups joined by a tight string stretch across a sunlit desk."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "Creative and Logical",
+          "k5": "\"I can use big ideas and careful thinking to solve problems.\" Show 1 to 4 fingers. Then say one problem you want to invent a fix for.",
+          "g612": "\"I can use creativity and logic to find innovative solutions.\" Rate yourself 1–4, then name which half is stronger for you, creativity or logic, and one way to grow the other.",
+          "options": ["1: Just starting", "2: Getting there", "3: Pretty strong", "4: Ready to lead"],
+          "teacher": "Students show fingers and share with a neighbor; ask: \"Who is a good partner for the half you want to grow?\"",
+          "scene": "A kindergarten classroom rug in soft window light: a six-year-old white girl with red curls and a six-year-old Black boy crouch beside a wobbly tower of cardboard boxes and tubes, both reaching to steady it, faces lit with focus. Toy bins blur behind them.",
+          "alt": "Two kindergartners carefully steady a wobbly cardboard tower they built."
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "ele": "S5.3",
+      "title": "Think Like a Coder",
+      "bigIdea": "Around the week many schools celebrate Computer Science Education Week, students discover that algorithms, patterns, and if-then choices already run their mornings, their feeds, and every subject.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "stand-up-sit-down",
+          "strand": "medialit",
+          "title": "Algorithms Everywhere",
+          "k5": "This week many schools celebrate computer science! Stand up if you did this today: 1) brushed your teeth, 2) got dressed, 3) followed a recipe or directions. Surprise: each one is an algorithm, a set of steps in order!",
+          "g612": "Many schools celebrate Computer Science Education Week around now. Stand if an algorithm made a choice for you today: 1) what song played next, 2) which video showed up first, 3) which route your ride took. Sit if you chose it yourself.",
+          "answer": "An algorithm is a set of steps for getting something done. People follow them every day, and apps use them to decide what you see. Knowing that helps you notice when a feed is choosing for you.",
+          "teacher": "Read each line, pause for standing, then reveal; ask: \"Which algorithm today did you choose, and which one chose for you?\"",
+          "related": "the-feed-game",
+          "scene": "Close-up of a kitchen counter in early morning light: sandwich ingredients laid out in a precise row, bread, cheese, tomato slices, lettuce, and a butter knife, as if each is a numbered step. A single slice of bread sits at the start of the line, catching a beam of window light.",
+          "alt": "Sandwich ingredients lined up in a neat row on a sunlit kitchen counter."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "digcit",
+          "title": "If It Rains, Then...",
+          "k5": "Draw your morning in four boxes. Add one \"if\": If it's raining, then I...",
+          "g612": "Draw your after-school routine as a flowchart with at least two if-then decisions. Where does a screen show up, and is that a decision you make or one an app makes for you?",
+          "teacher": "Students draw for three minutes and show a partner; ask: \"What's one 'if' you'd like to add to your day?\"",
+          "scene": "A front doorway on a rainy morning: a six-year-old Latina girl in a bright yellow raincoat and backpack stands at the open screen door, looking out at the rain pouring off the porch roof, one hand reaching for a small umbrella in a bucket. Cool gray light outside, warm light inside.",
+          "alt": "A girl in a yellow raincoat pauses at the front door, looking out at the rain."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "genai",
+          "title": "Find the Bug",
+          "k5": "Robot directions to the water fountain: \"Walk five steps. Turn left. Walk forward forever.\" Fact or fake: the robot will stop at the fountain.",
+          "g612": "An AI wrote steps to sort a row of number cards from smallest to biggest: \"1) Look at the first two cards. 2) If the first is bigger, swap them. 3) Done!\" Fact or fake: this will always sort the whole row?",
+          "answer": "Fake, for both. \"Forever\" never tells the robot to stop, so it walks right past the fountain. The sorting steps only check the first two cards once; a working version repeats the compare-and-swap along the whole row until nothing needs swapping. Finding the bug is what coders do all day.",
+          "teacher": "Thumbs up or down, then ask: \"How would you fix the bug in one step?\"",
+          "scene": "Close-up on a desktop: five plain wooden blocks of different heights stand in a row in warm side light, and a child's two hands are caught mid-swap, lifting a tall block over a short one. The background is a soft blur of a classroom.",
+          "alt": "A child's hands swap two wooden blocks in a row of blocks of different heights."
+        },
+        {
+          "kind": "team-up",
+          "format": "sort",
+          "strand": "medialit",
+          "title": "Coder Moves, Every Class",
+          "k5": "With a partner, sort each one into \"break it into parts,\" \"find the pattern,\" or \"make the steps\": a song's chorus that repeats, cutting a big art project into pieces, directions for feeding the class pet.",
+          "g612": "With your group, match each to a computational thinking move (decomposition, pattern recognition, abstraction, algorithm): 1) splitting a history essay into three causes, 2) noticing every poem in the unit repeats a line, 3) a subway-style map that leaves out streets, 4) writing steps for a science lab.",
+          "answer": "K–5: chorus = pattern, art project = break into parts, pet directions = steps. 6–12: 1) decomposition, 2) pattern recognition, 3) abstraction, 4) algorithm. Abstraction means choosing what to leave out, which is also what every map, headline, and news clip does.",
+          "teacher": "Groups sort and share one match; ask: \"Where did you use one of these moves outside of computers this week?\"",
+          "scene": "A high school science lab bench in cool window light: a sixteen-year-old Black girl with locs and a fifteen-year-old Vietnamese American boy slide blank index cards into three loose piles, she pointing at one card mid-debate, he tapping his chin. Lab sinks and stools blur behind them.",
+          "alt": "Two high schoolers debate how to sort index cards into piles on a lab bench."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "Coder Thinking Check",
+          "k5": "\"I can use coder thinking, like steps and patterns, in other subjects.\" Show 1 to 4 fingers. Then name a subject where you'll spot a pattern this week.",
+          "g612": "\"I am aware of how to apply computational thinking in various subjects.\" Rate yourself 1–4, then name one class where you'll try decomposition or pattern-spotting this week.",
+          "options": ["1: New to me", "2: I see it with help", "3: I spot it often", "4: I use it on purpose"],
+          "teacher": "Students show fingers and name a subject to a neighbor; ask: \"Which move feels most useful to you?\"",
+          "scene": "Close-up of a knitting project in progress resting in a woven basket in warm lamp light: rows of a repeating navy-and-gold pattern, two wooden needles still threaded mid-row, a ball of yarn trailing out of frame. The repetition of the stitches fills the picture.",
+          "alt": "A knitting project with a repeating navy and gold pattern rests in a basket."
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "ele": "S4.3",
+      "title": "Strong and Still Growing",
+      "bigIdea": "Before the winter break, students name real strengths with evidence, see growth as something practice builds, and choose one area to keep working on.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "My Learning Superpower",
+          "k5": "Which learning superpower is most like you?",
+          "g612": "Which learning strength showed up most for you this semester? Pick one you could prove with an example.",
+          "options": ["I keep trying", "I ask great questions", "I help others learn", "I notice details", "I make creative things"],
+          "teacher": "Students vote by fingers; ask two volunteers: \"When did that superpower show up this fall?\"",
+          "scene": "A bright third-grade classroom in winter morning light: an eight-year-old Latina girl with Down syndrome raises her hand high with a proud half-smile, and beside her an eight-year-old MENA boy raises two fingers, eyes on the front of the room. Paper snowflakes blur on the window behind.",
+          "alt": "Two third graders raise their hands to vote in a bright winter classroom."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "genai",
+          "title": "What Helped Me Grow",
+          "k5": "Think of something you got better at this fall. Write or draw what helped you grow: a person, a book, a tool, or practice.",
+          "g612": "Write about one skill that grew this semester and one that still feels hard. If you asked an AI study helper for help with the hard one, what would you tell it about how you learn, and what would you keep private?",
+          "teacher": "Students write for two minutes and share one line; ask: \"Was the thing that helped you most a person or a tool?\"",
+          "scene": "Close-up of a well-worn chapter book lying open on a sunlit classroom rug, its edges bristling with dozens of colorful sticky flags, a bookmark ribbon trailing. The pages are soft and unreadable, and a winter beam of window light falls across the cover.",
+          "alt": "A well-worn book bristling with colorful sticky flags lies on a sunny rug."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "medialit",
+          "title": "Born Good at It?",
+          "k5": "Fact or fake: your brain can get better at hard things when you practice.",
+          "g612": "A viral video says: \"Some people just aren't math people. If it's hard now, it will always be hard, so don't bother practicing.\" Fact or fake?",
+          "answer": "K–5: Fact! Practice and good strategies help your brain get stronger at things, like a muscle. 6–12: Fake. Skills grow with practice, feedback, and better strategies. Be skeptical of posts that sell you a fixed label about yourself.",
+          "teacher": "Thumbs up or down, then explain; ask: \"What's something that was hard for you last year that's easier now?\"",
+          "scene": "A driveway at winter dusk: a scuffed skateboard with a worn-down tail rests on the concrete beside a pair of battered knee pads, a single orange traffic cone just beyond it. Low angle, warm porch light on one side and deep blue sky on the other.",
+          "alt": "A scuffed skateboard and worn knee pads rest on a driveway at dusk."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "digcit",
+          "title": "Proof-It Compliment",
+          "k5": "Tell a partner one strength you saw them show this fall, and when you saw it. Then your partner tells you one.",
+          "g612": "Give a partner a specific compliment with evidence: not \"you're smart,\" but \"you asked the question that got our group unstuck.\" Then they name one area they want to grow. How is this different from a like or a heart online?",
+          "teacher": "Partners take one minute each; ask: \"What made a compliment feel real?\"",
+          "scene": "A library reading bench in soft afternoon light: an eleven-year-old Japanese American girl speaks with her hands open, while her partner, an eleven-year-old multiracial boy with curly hair, looks down with a surprised, pleased half-grin. Bookshelves and string lights blur behind them.",
+          "alt": "An eleven-year-old gives her partner a compliment, and he grins in surprise."
+        },
+        {
+          "kind": "i-can",
+          "format": "quick-write",
+          "strand": "genai",
+          "title": "Strength and Next Step",
+          "k5": "\"I know what I'm good at and what I'm working on.\" Show 1 to 4 fingers. Then write one thing you want to keep practicing after the break.",
+          "g612": "\"I am aware of my learning strengths and areas for improvement.\" Rate yourself 1–4 fingers, then write one strength you'll lean on and one area you'll work on when we come back.",
+          "options": ["1: Not sure yet", "2: I know a little", "3: I know pretty well", "4: I can explain it with examples"],
+          "teacher": "Students show fingers, then jot their next step; ask: \"How will you remember this after the break?\"",
+          "scene": "A classroom window at winter dusk: a sixteen-year-old Latino teen in a gray hoodie pauses with his backpack on one shoulder, looking out at the fading orange sky, holding up two fingers against the glass as he thinks. His reflection is faint in the window.",
+          "alt": "A teen in a hoodie pauses by a classroom window at dusk, thinking."
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "ele": "S4.2",
+      "title": "New Year, New Goals",
+      "bigIdea": "Back from the break, students turn a fresh start into one realistic semester goal, plan for what could block it, and decide how they'll check progress.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "stand-up-sit-down",
+          "strand": "digcit",
+          "title": "Over the Break",
+          "k5": "Welcome back! Stand up if you did this over the break, then sit: 1) learned something new, 2) played outside, 3) watched more videos than usual.",
+          "g612": "Welcome back. Stand if it's true, then sit: 1) I learned a new skill over the break. 2) My sleep schedule is still recovering. 3) My screen time went way up. 4) I already have one goal for this semester.",
+          "teacher": "Read each line and pause; ask: \"Which of these do you want to change, or keep, this semester?\"",
+          "scene": "A middle school classroom on a crisp January morning: twelve- and thirteen-year-olds in coats and hoodies are mid-motion, some standing and some sitting, including a Black girl in a puffy navy jacket rising with a grin and a white boy still seated, thinking. Pale winter sun slants through the blinds.",
+          "alt": "Middle schoolers in winter coats stand and sit in a sunny January classroom."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "genai",
+          "title": "Goal Plus a Check-In",
+          "k5": "Write or draw one thing you want to learn by spring. Who could help you check how you're doing: a teacher, a family member, or a friend?",
+          "g612": "Write one learning goal for this semester. Then write a prompt you could give an AI study helper to quiz you on it each week without doing the work for you.",
+          "teacher": "Students write for two minutes; ask a few 6–12 students to read their prompt: \"How does this prompt keep the thinking yours?\"",
+          "related": "study-coach-with-guardrails",
+          "scene": "Close-up of a brand-new composition notebook lying open and blank on a student desk, a single sharpened gold pencil resting across it. Frost laces the window behind, and cold January morning light washes the clean page.",
+          "alt": "A fresh blank notebook and pencil sit on a desk beside a frosty window."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "medialit",
+          "title": "The Goal App Promise",
+          "k5": "A poster says, \"Write your goal on this magic card and you will always reach it!\" Fact or fake?",
+          "g612": "An ad for the fictional GoalMax app says: \"Our users hit 100% of their goals in 30 days, guaranteed!\" Fact or fake?",
+          "answer": "Fake, for both. Writing a goal down can help you remember it, but no card or app guarantees success; you need a plan and practice. \"100%\" and \"guaranteed\" are red flags in ads: ask who measured it, what counted as a goal, and what the company is selling.",
+          "teacher": "Thumbs up or down, then ask: \"What question would you ask GoalMax before you believed it?\"",
+          "scene": "A phone lying on a kitchen table in morning light, its screen showing a blurred ad of bursting gold confetti shapes and a big glowing checkmark-like swoosh with no readable words. A half-eaten bowl of oatmeal and a spoon sit beside it, slightly out of focus.",
+          "alt": "A phone on a breakfast table shows a flashy, blurry ad full of confetti shapes."
+        },
+        {
+          "kind": "team-up",
+          "format": "sort",
+          "strand": "digcit",
+          "title": "Control It or Not?",
+          "k5": "With a partner, sort these goal-blockers into \"I can control it\" or \"I can't\": a video that plays the next one, a snow day, staying up late, a hard new math unit. Pick one you can control and make a plan.",
+          "g612": "With a partner, sort these goal-blockers into \"I control it\" and \"I don't\": notifications, a surprise family trip, late-night scrolling, a tough new unit, a group chat that won't stop buzzing. Pick one you control and write an if-then plan.",
+          "answer": "You can't control a snow day, a family trip, or a new unit, but you can control how you respond. Autoplay, notifications, late nights, and group chats are mostly settings and choices you can change, like turning autoplay off or muting a chat during homework.",
+          "teacher": "Pairs sort and share one if-then plan; ask: \"Which blocker surprised you by being in your control?\"",
+          "scene": "A high school classroom table in soft overcast light: a sixteen-year-old Sikh teen in a navy turban and a fifteen-year-old white girl with a messy bun slide blank index cards into two piles, he holding one card aloft as if deciding. Coats hang on the chairs behind them.",
+          "alt": "Two high schoolers sort index cards into two piles at a classroom table."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "genai",
+          "title": "Ready for the Semester",
+          "k5": "\"I can set a new goal and check how I'm doing.\" Show 1 to 4 fingers. Then pick the day of the week you'll check your goal.",
+          "g612": "\"I can set achievable goals and monitor my progress.\" Rate how ready your semester goal is, 1–4, then name your check-in day and the evidence you'll look at.",
+          "options": ["1: No goal yet", "2: I have a goal", "3: I have a goal and a plan", "4: I have a goal, a plan, and a check-in day"],
+          "teacher": "Students show fingers and share a check-in day with a neighbor; ask a 4: \"What will you do if you miss a check-in?\"",
+          "scene": "A doorstep on a frosty January morning: a pair of well-used running shoes sits on the welcome mat with laces loosened and ready, a light frost on the grass beyond and the first gold sunlight catching the toes. Low angle, breath-cold blue shadows.",
+          "alt": "A pair of running shoes waits on a frosty doorstep in early morning sun."
+        }
+      ]
+    }
+  ]
+}

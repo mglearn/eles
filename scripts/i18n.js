@@ -28,6 +28,7 @@ const SKIP = [
   /^roles\.\d+\.(code|activityLabel|correlationLabel)$/, /^roles\.\d+\.quote\.author$/,
   /^roles\.\d+\.areas\.\d+\.(id|num)$/, /^roles\.\d+\.areas\.\d+\.indicators\.\d+\.(id|correlation)$/,
   /^source$/,
+  /^weeks\.\d+\.(week|ele)$/, /^weeks\.\d+\.days\.\d+\.(kind|format|strand|related|scene)$/,
   /^openers\.\d+\.(id|grades\.\d+|strands\.\d+|eles\.\d+|format|mode|related)$/,
 ];
 
@@ -45,6 +46,9 @@ function units() {
   const opDir = path.join(ROOT, 'data/openers');
   if (fs.existsSync(opDir)) for (const f of fs.readdirSync(opDir).filter(f => f.endsWith('.json')).sort())
     u['openers-' + path.basename(f, '.json')] = translatable(flatten(JSON.parse(fs.readFileSync(path.join(opDir, f), 'utf8'))));
+  const calDir = path.join(ROOT, 'data/calendar');
+  if (fs.existsSync(calDir)) for (const f of fs.readdirSync(calDir).filter(f => f.endsWith('.json')).sort())
+    u['calendar-' + path.basename(f, '.json')] = translatable(flatten(JSON.parse(fs.readFileSync(path.join(calDir, f), 'utf8'))));
   const std = path.join(ROOT, 'data/standards.json');
   if (fs.existsSync(std)) u.standards = Object.fromEntries(Object.entries(JSON.parse(fs.readFileSync(std, 'utf8'))).filter(([, v]) => v.note).map(([k, v]) => [`${k}.note`, v.note]));
   for (const f of fs.readdirSync(ACT_DIR).filter(f => f.endsWith('.json')).sort())
@@ -53,6 +57,7 @@ function units() {
 }
 const overlayPath = (lang, unit) => unit === 'ui' || unit === 'eles' || unit === 'standards'
   ? path.join(I18N, lang, `${unit}.json`)
+  : unit.startsWith('calendar-') ? path.join(I18N, lang, 'calendar', `${unit.slice(9)}.json`)
   : unit.startsWith('openers-') ? path.join(I18N, lang, 'openers', `${unit.slice(8)}.json`)
   : path.join(I18N, lang, 'activities', `${unit}.json`);
 function readOverlay(lang, unit) {

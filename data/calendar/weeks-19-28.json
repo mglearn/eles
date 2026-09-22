@@ -1,0 +1,701 @@
+{
+  "weeks": [
+    {
+      "week": 19,
+      "ele": "AI2.1",
+      "title": "Fair Play With AI",
+      "bigIdea": "Students move past \"is AI allowed?\" to the ethical questions underneath it (honesty, consent, credit, and fairness), so they can decide for themselves how to use AI in ways they would be proud to explain.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "would-you-rather",
+          "strand": "genai",
+          "title": "The Thank-You Note Test",
+          "k5": "Would you rather get a thank-you card a robot helper wrote for your friend, or a messy card your friend wrote all by themself? Why?",
+          "g612": "Your friend is upset and you owe them an apology. Would you rather send a smooth, perfect apology an AI wrote for you, or a clumsy one you wrote yourself? Would your answer change if they found out?",
+          "options": ["The AI-written one", "The one written by hand or by me"],
+          "answer": "There is no single right answer, but most people feel that some messages matter because a real person wrote them. Using AI for spelling or ideas is different from letting it speak for your feelings.",
+          "teacher": "Students move to one side of the room, and one volunteer from each side explains; then ask, \"What kinds of messages should always come from you?\"",
+          "scene": "Close-up of a half-finished handwritten thank-you card propped on a kitchen table at golden hour, a stubby yellow pencil resting across it and eraser crumbs scattered nearby. The handwriting is soft blurred loops with a small hand-drawn heart, no readable words. Just behind it, out of focus, a tablet lies face-up, glowing a cool blue that contrasts with the warm window light.",
+          "alt": "A half-written handwritten card and pencil in warm window light, with a glowing tablet blurred in the background."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "digcit",
+          "title": "Ask Before You Remix Me",
+          "k5": "Someone wants to use an AI app to turn a photo of your face into a silly cartoon cat. What should they do first? Write or tell one rule.",
+          "g612": "A classmate wants to use AI to copy your voice for a joke video that will go in the group chat. Write the rule you want everyone to follow before they use AI on someone else's face, voice, or words.",
+          "answer": "The big idea is consent: ask first, accept \"no,\" and never post an AI version of a real person that could embarrass them or trick others. Many schools treat fake images or voices of classmates as a serious conduct issue.",
+          "teacher": "Give students one minute to write, then collect three rules aloud and ask, \"Does your rule still work if the video is 'only a joke'?\"",
+          "related": "real-fake-or-generated",
+          "scene": "Two high school friends, about 15, at a sunlit cafeteria table: a Vietnamese American boy holds his phone up as if to film, and a Black girl with box braids raises her palm toward the lens with a half-smile that clearly means \"wait, ask me first.\" Shot from over the boy's shoulder with the phone screen blurred to abstract color, the girl's hand sharp and her face softly in focus.",
+          "alt": "A teen raises her hand with a knowing smile as a friend points a phone at her across a cafeteria table."
+        },
+        {
+          "kind": "check-it",
+          "format": "image-talk",
+          "strand": "medialit",
+          "title": "The Blue-Ribbon Wolf",
+          "k5": "Picture this: a picture of a wolf howling at a pink sunset wins first prize in a photo contest. Later, the winner says an AI app made it. Was something unfair? What should the picture have said?",
+          "g612": "Picture this: a stunning wolf-at-sunset image wins the Pine Ridge County Fair photography prize. The rules said \"photos taken with a camera.\" A week later the winner admits it was AI-generated and never labeled. Who was harmed, and what would have made it fair?",
+          "answer": "AI art is not automatically wrong. The problem is breaking the contest's rules and not labeling it, which was unfair to the photographers who followed them. A clear label, or entering an AI-art category, would have made it honest.",
+          "teacher": "Partners share one \"notice\" and one \"wonder\" about the image, then ask, \"Is the problem the AI, or the missing label?\"",
+          "related": "real-fake-or-generated",
+          "scene": "A dramatic spotlit wall at a small-town fair exhibit hall at dusk: a large framed print of a wolf howling against a blazing pink sky, a satin blue ribbon pinned to its corner. The rest of the hall falls into shadow with folding tables and blurred frames. The image inside the frame looks almost too perfect, with glossy fur and impossible glow, inviting a second look.",
+          "alt": "A framed wolf-at-sunset print with a blue prize ribbon, spotlit on a dim exhibit-hall wall."
+        },
+        {
+          "kind": "team-up",
+          "format": "sort",
+          "strand": "genai",
+          "title": "Fair, Ask First, or Foul",
+          "k5": "With a partner, sort these: 1) the teacher uses AI to find fun story-title ideas with the class, 2) having AI draw your art project and saying you drew it, 3) asking AI (with a grown-up) what a hard word means, 4) putting your friend's story into an AI app without asking.",
+          "g612": "With a partner, sort these: 1) using AI to translate a welcome note for a new student's family, 2) having AI write your personal reflection, 3) pasting a friend's essay into an AI tool to \"improve\" it without asking, 4) asking AI to make practice questions from your own notes, 5) using AI to write fake five-star reviews for your club's bake sale.",
+          "options": ["Fair", "Ask first", "Foul"],
+          "answer": "K–5: 1 and 3 are fair, 2 is foul (it's not honest), and 4 needs asking first. 6–12: 1 is fair (ideally a fluent person checks it), 4 is fair, 3 needs your friend's permission first, and 2 and 5 are foul because they misrepresent who wrote something or trick people.",
+          "teacher": "Pairs hold up one, two, or three fingers for each item, and you pause on the one with the most disagreement: \"What would change your mind?\"",
+          "related": "ai-study-buddy-contract",
+          "scene": "Overhead shot of two fourth graders, about 9, kneeling on a classroom rug: a Latina girl with a long braid and a white boy with a hearing aid slide paper strips into three piles marked only by colored construction-paper squares (green, yellow, red). Their hands are mid-motion, one strip hovering between yellow and red. Late-morning window light falls across the rug in stripes.",
+          "alt": "Two elementary students on a rug sorting paper strips into green, yellow, and red piles."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "genai",
+          "title": "My Fair-Play Rating",
+          "k5": "\"I know how to use AI in fair, honest, and kind ways.\" Show me 1 to 4 fingers. Then tell a partner one AI rule you will follow.",
+          "g612": "\"I know how to apply ethical principles (honesty, consent, credit, fairness) when I use AI.\" Rate yourself 1–4 fingers, then name the principle you'll pay the most attention to next week.",
+          "teacher": "Scan the fingers, then ask two students with different ratings, \"What would move you up one finger?\"",
+          "scene": "Close-up of a middle schooler's hand, about 12, with a woven friendship bracelet, holding up three fingers in a bright beam of morning window light. Behind it, several classmates' raised hands blur into soft warm shapes. The contrast between the sharp hand and the glowing blurred background makes it feel like a quiet decision.",
+          "alt": "A student's hand holding up three fingers in a beam of window light, other raised hands blurred behind."
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "ele": "S3.2",
+      "title": "Clear Words, Kind Words",
+      "bigIdea": "Online, people can't hear your voice or see your face, so this week students practice making their written messages both clear and kind, and notice how tone, missing context, and even AI rewrites change what others understand.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "stand-up-sit-down",
+          "strand": "digcit",
+          "title": "One Message, Whole Day",
+          "k5": "This week many schools remember Dr. Martin Luther King Jr., whose words helped people work for fairness. Stand up if one kind note or message has ever made your whole day better. Stand up if a mean one ever made it worse.",
+          "g612": "This week many schools honor Dr. Martin Luther King Jr. and the power of words to change people. Stand up if a single text or comment has ever changed your whole day. Stay standing if you've ever sent one you wished you could rewrite.",
+          "teacher": "Let students look around at who is standing, then ask, \"If words are that powerful, what's one thing you'll do before you hit send today?\"",
+          "related": "kind-clicks",
+          "scene": "A quiet, cinematic moment on a school bus at golden hour: a girl about 13, Afro-Latina with natural curls and a navy hoodie, looks down at her phone with a slow, surprised smile. The screen is a soft blur of color from below, lighting her face. Sunlight flares through the dusty bus window, with empty green vinyl seats in shallow focus behind her.",
+          "alt": "A teen on a sunlit school bus smiling softly at a message on her phone."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "digcit",
+          "title": "Draw the Tone",
+          "k5": "Your friend texts you just one word: \"OK.\" Draw the face you think they are making. Now draw the face for \"OK!!\" How are they different?",
+          "g612": "You get the same reply, \"k.\", from three people: your coach, your best friend, and your mom. Sketch three quick faces showing how you'd read each one. Then write how the sender could make it clearer.",
+          "answer": "The same words can feel friendly, rushed, or angry depending on who sends them and how. Without a voice or face, readers fill in the tone themselves, so a few extra words (\"OK, sounds good!\") prevent a lot of confusion.",
+          "teacher": "Students hold up their drawings side by side; ask, \"What's one tiny change that would make the message impossible to misread?\"",
+          "scene": "Macro close-up of a sheet of notebook paper on a wooden desk under a warm desk lamp: three small pencil-sketched faces in a row, one neutral, one frowning, one grinning, with a pink eraser and colored pencils fanned beside them. No words, just the faces. The lamp throws a long, dramatic shadow of the pencil across the paper.",
+          "alt": "Three pencil-sketched faces with different expressions on notebook paper under a desk lamp."
+        },
+        {
+          "kind": "check-it",
+          "format": "image-talk",
+          "strand": "medialit",
+          "title": "The Screenshot With No Start",
+          "k5": "Picture a picture of a chat that only shows one message: \"You can't sit with us.\" It looks mean! But what if we could see the messages before it? What might be missing?",
+          "g612": "A cropped screenshot spreads: Jalen writes, \"Honestly you're the worst.\" Everyone's mad at him. The full thread shows his friend had just joked, \"I ate your fries, I'm the worst,\" and he was playing along. What does a crop leave out, and what should people do before reacting or reposting?",
+          "answer": "A screenshot shows only what someone chose to capture. Cropping can remove jokes, earlier messages, or who said what first. Before judging or sharing, ask for the whole conversation or talk to the person directly, and don't repost it.",
+          "teacher": "Ask partners to list two things that could have been cut out of the picture, then ask, \"Whose job is it to find the rest of the story?\"",
+          "related": "after-the-rumor",
+          "scene": "Dramatic close-up of a phone lying on a dark gym bleacher, its screen showing a sharply cropped rectangle of blurred chat bubbles, while the rest of the thread above it is cut off into black. A single stripe of light from a high gym window slices across the phone. The composition feels like a clue with the important part missing.",
+          "alt": "A phone on a dark bleacher showing a cropped, blurred chat, lit by a narrow stripe of window light."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "genai",
+          "title": "The Tone-Fixer Button",
+          "k5": "Mateo is upset that his teammate forgot the poster. An AI helper changed his message to: \"No worries at all! Everything is perfect!\" Is that what Mateo really means? With a partner, say a message that is kind AND true.",
+          "g612": "An app offers an AI \"tone fixer.\" Your group-chat complaint (\"You said you'd do the slides and you didn't\") becomes \"I hope this message finds you well, just circling back.\" Did it make it clearer or just softer? With a partner, write a version that is honest, specific, and kind, in your own voice.",
+          "answer": "AI rewrites can remove rudeness, but they can also remove the actual point or make you sound like someone else. Good online communication is clear about the problem and kind to the person, and you are the one who knows what you mean.",
+          "teacher": "Pairs say their rewrite aloud to another pair, who give a thumbs up for \"clear\" and a thumbs up for \"kind\"; ask, \"Which one was harder to get?\"",
+          "related": "kind-by-design",
+          "scene": "Two middle schoolers, about 12, sit side by side on library beanbags with one shared tablet between them, its screen a soft blur of chat bubbles. A Native American boy with a long braid points at the screen mid-sentence while a South Asian girl in glasses thinks with a pencil tapping her chin. Warm string lights glow out of focus along the shelves behind them.",
+          "alt": "Two students on library beanbags discussing a message on a shared tablet under string lights."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "Clear and Kind Check",
+          "k5": "\"I can share my ideas clearly and kindly so others understand me.\" Show 1 to 4 fingers. Then tell a partner one thing you do to make your words clear.",
+          "g612": "\"I can communicate my ideas clearly to others, in person and online.\" Rate yourself 1–4 fingers for in-person and again for online. Where's the gap, and what's one habit that would close it?",
+          "teacher": "Have students rate twice (in person, then online) and ask a few to share which score was higher and why.",
+          "scene": "A kindergarten teacher in her 50s, a Black woman with silver locs and a gold cardigan, kneels to eye level with a 6-year-old Mexican American boy who is explaining something with both hands spread wide. She listens closely, head tilted. Morning sun pours through a classroom window behind them, making soft silhouettes of alphabet-shaped paper cutouts that show no readable letters.",
+          "alt": "A teacher kneels to listen as a young student explains an idea with his hands."
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "ele": "S2.1",
+      "title": "Privacy Check-Up",
+      "bigIdea": "Midyear is a good time for a privacy tune-up: students look past passwords to app permissions, clues hidden in photos, what AI chatbots keep, and quizzes that quietly collect answers to security questions.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "The Nosy Flashlight",
+          "k5": "A flashlight game wants to use your phone's flashlight. It also asks to see things. Which one makes the LEAST sense for a flashlight game to need?",
+          "g612": "You download a free flashlight app. It asks for permission to use four things. Vote for the one you'd deny first, and be ready to explain what the app could do with it.",
+          "options": ["Camera", "Microphone", "My location", "My contacts"],
+          "answer": "A flashlight only needs the light, which is part of the camera on many phones, so camera access can sometimes make sense. Microphone, location, and contacts don't make sense, and apps that ask for more than they need may be collecting data to sell or share.",
+          "teacher": "Take a quick hand vote, then ask, \"How could you check what an app is allowed to see on a device at home?\"",
+          "related": "what-do-my-apps-know",
+          "scene": "A phone lies on a dark kitchen counter at night, its flashlight beam cutting a bright cone through the air and across a fruit bowl, while its screen glows with a blurred pop-up box and two soft button shapes. The rest of the kitchen is in deep shadow. Moody, cinematic, and a little suspicious.",
+          "alt": "A phone on a dark kitchen counter shining a flashlight beam, with a blurred pop-up on its screen."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "digcit",
+          "title": "Clues Behind Your Selfie",
+          "k5": "You want to share a picture of your new puppy. What things in the background could tell a stranger where you live or go to school? List or draw two.",
+          "g612": "Before you post a photo from your room, porch, or car, what background details could reveal where you live, go to school, or will be later? List three, and one quick fix for each.",
+          "answer": "Common giveaways: a house number or street sign, a school logo on a backpack or shirt, a view out the window, mail or packages with labels, a car's license plate, or a photo posted live while you're still there. Fixes: change the angle, crop, blur, or post later.",
+          "teacher": "Students write for 90 seconds, then share out while you build a class \"clue list\"; ask, \"Which of these did you not notice until someone said it?\"",
+          "scene": "Close-up on a front porch step at golden hour: a fluffy brown puppy sits proudly on the welcome mat while, in the soft-focus background, a brass house number plate, a mailbox, and a package on the step catch the light. The numbers and labels are blurred beyond reading. The image quietly shows how much the background says.",
+          "alt": "A puppy on a porch step with a blurred house number, mailbox, and package in the background."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "genai",
+          "title": "Is the Chatbot a Diary?",
+          "k5": "Fact or fake: \"A talking helper app forgets everything you tell it the moment you stop talking.\"",
+          "g612": "Fact or fake: \"What you type into an AI chatbot is private, like writing in a locked diary.\"",
+          "answer": "Fake at both levels, or at least you can't count on it. Many AI tools save conversations, may use them to improve the tool, and the people who run them may be able to review them. Treat a chatbot like a postcard: never type your full name, address, passwords, or private things about other people.",
+          "teacher": "Students show thumbs up for fact or down for fake, then ask, \"What's one thing you'd never type into any chatbot?\"",
+          "related": "never-paste-this",
+          "scene": "A small leather diary with a brass lock sits closed on a desk beside a laptop whose screen shows soft, blurred chat bubbles. A beam of afternoon light falls across both, the diary in sharp focus and the glowing screen slightly out of focus. The pairing suggests a question: which one actually keeps a secret?",
+          "alt": "A locked diary beside a laptop showing blurred chat bubbles, lit by afternoon light."
+        },
+        {
+          "kind": "team-up",
+          "format": "sort",
+          "strand": "medialit",
+          "title": "Fun Quiz or Data Grab?",
+          "k5": "A fun quiz says \"Find your superhero name!\" Sort what it asks: 1) your favorite color, 2) your street name, 3) your pet's name, 4) your favorite animal, 5) your birthday.",
+          "g612": "A viral quiz says \"Your rock-star name = your first pet + the street you grew up on!\" Sort what quizzes like this ask for: 1) favorite pizza topping, 2) mom's maiden name, 3) first pet's name, 4) dream vacation, 5) the city you were born in, 6) your first car. Why might someone build a quiz like this?",
+          "options": ["Just for fun", "Data grab"],
+          "answer": "K–5: color and favorite animal are fine; street name, pet's name, and birthday are private. 6–12: maiden name, first pet, birth city, and first car are classic account-security questions, so answering them publicly can help someone break into accounts. Pizza and vacation are just for fun.",
+          "teacher": "Groups sort, then compare with another group; ask, \"Who benefits when thousands of people post these answers?\"",
+          "related": "private-or-share",
+          "scene": "Three high schoolers, about 16, lean over a cafeteria table sorting index cards into two piles; a Middle Eastern girl in a mustard hijab slides a card toward the pile on the right while a white boy with a buzz cut and a Filipino American boy with a gold pencil behind his ear react with raised eyebrows. The cards show only blurred marks. Late-afternoon light rakes across the table.",
+          "alt": "Three teens at a cafeteria table sorting index cards into two piles, one looking surprised."
+        },
+        {
+          "kind": "i-can",
+          "format": "quick-write",
+          "strand": "digcit",
+          "title": "My Privacy Tune-Up",
+          "k5": "\"I know how to keep my private information safe online.\" Show 1 to 4 fingers. Then tell or draw one thing you'll keep private.",
+          "g612": "\"I know how to protect my personal information online.\" Rate yourself 1–4 fingers, then write one privacy setting, habit, or permission you'll change this week.",
+          "teacher": "After fingers, have students write one line; ask a few volunteers, \"What made you pick that one?\"",
+          "scene": "Close-up of a padlock-style bike lock looped through the front wheel of a bicycle leaning against a schoolyard fence, dew still on the metal in pale early-morning light. Behind it, a blurred row of other bikes stretches away. A simple, striking image of choosing to lock things up.",
+          "alt": "A bike lock on a dewy bicycle wheel at a schoolyard fence in early-morning light."
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "ele": "S2.2",
+      "title": "News You Can Trust",
+      "bigIdea": "This week many schools celebrate news literacy, so students look at how trustworthy news gets made: reporters who check before they share, corrections as a sign of honesty, and news-looking sites with no people behind them.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "would-you-rather",
+          "strand": "digcit",
+          "title": "First or True?",
+          "k5": "This week lots of schools celebrate learning about news! Would you rather be the FIRST kid to tell the class some big news, or the kid who waits a little and tells it TRUE?",
+          "g612": "This week many schools celebrate news literacy. Something big just happened in your town. Would you rather be the first in your group chat to share it, or wait an hour for a confirmed report and share that? What does being first cost?",
+          "options": ["First", "True"],
+          "answer": "Being first feels great, but early reports are often wrong or incomplete, and a share can't be taken back. Waiting a little for a checked report protects your friends and your own reputation.",
+          "teacher": "Students move to a side of the room, then ask one person from \"First\" to explain; follow up with, \"What would make you feel sure enough to share?\"",
+          "scene": "A high school boy, about 17, Mexican American in a gray hoodie, sits on a porch step at twilight with his thumb hovering above his phone, deciding. The screen glows a soft abstract blur on his face, and a streetlight flickers on behind him. Shallow depth of field keeps the thumb and his thoughtful expression sharp.",
+          "alt": "A teen on a porch at twilight with his thumb hovering over his phone, thinking before sharing."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "medialit",
+          "title": "Before You Print It",
+          "k5": "Pretend you're a reporter for our class news. You heard the playground is getting a new slide! Before you tell everyone, who would you ask to make sure it's true?",
+          "g612": "You're on the school news team and hear a rumor that the late bus is being canceled. Before publishing, write who you'd talk to, what proof you'd want, and what you'd do if two sources disagree.",
+          "answer": "Reporters check with people who actually know (the principal, the transportation office), look for documents, get more than one source, and give the people involved a chance to respond. That checking is what separates news from rumor.",
+          "teacher": "Students write for 90 seconds, then you list the named sources on the board; ask, \"Which one is closest to the real decision?\"",
+          "related": "signal-to-headline-lab",
+          "scene": "A reporter's notebook lies open on a cluttered newsroom-style desk in a school library, a pen resting in its spiral binding and a small handheld audio recorder beside it with its red light glowing. The pages carry quick blurry scribbles and a circled question mark, no readable words. Warm lamp light and a cool window glow meet across the desk.",
+          "alt": "An open reporter's notebook, pen, and glowing audio recorder on a library desk."
+        },
+        {
+          "kind": "check-it",
+          "format": "image-talk",
+          "strand": "genai",
+          "title": "The Newsroom With No People",
+          "k5": "Picture a news website with hundreds of stories but no reporters' names, no pictures of the people who work there, and no way to contact them. Would you trust it? What's missing?",
+          "g612": "Picture \"Lakeview Daily Wire\": it posts 400 stories a day, every article has the same flat style, there are no reporter names or contact page, and its local stories never quote a local person. What clues suggest AI might be writing it with no human checking, and what would you do next?",
+          "answer": "Missing people is the big clue. Real newsrooms show who wrote the story, how to contact them, and quote real sources. A site with huge output, no bylines, and no local voices may be AI-generated content made to earn ad money. Next step: leave the site and search what others say about it.",
+          "teacher": "Partners list clues for 60 seconds, then ask, \"What would you search to find out who runs this site?\"",
+          "related": "lateral-reading-relay",
+          "scene": "A wide, eerie shot of an empty newsroom at night: rows of desks with dark monitors, rolling chairs pushed in, and a single computer screen glowing in the middle with soft, blurred columns of color. No people anywhere. Cool blue light from the screen spills across the empty desks while a hallway light glows faintly behind.",
+          "alt": "An empty newsroom at night with one glowing screen among rows of dark desks."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "medialit",
+          "title": "Oops: Good Sign or Bad?",
+          "k5": "A good reporter said the school fair was on Friday, but it was Saturday. The next day they said, \"We made a mistake. It's Saturday.\" Talk with a partner: do you trust them more or less now?",
+          "g612": "The Maple Hollow Courier prints a correction at the bottom of a story: they got the name of the school board member wrong. Another site never admits mistakes and quietly edits its stories. Which do you trust more, and why? Discuss with a partner.",
+          "answer": "Most people's first instinct is \"less,\" but trustworthy news organizations make mistakes and then fix them openly. A visible correction is a sign of accountability. Sources that never admit errors, or change stories silently, are harder to trust.",
+          "teacher": "After 90 seconds, poll \"more\" or \"less\" trust, then ask, \"What do you do when you make a mistake in front of people?\"",
+          "scene": "Two sixth graders, about 11, sit knee to knee on classroom chairs in animated discussion; a Somali American girl in a navy headscarf holds up a folded newspaper page with a blurred column of print while a Guatemalan American boy with a fade counts reasons on his fingers. Bright, even morning light and a soft blurred bulletin board behind them.",
+          "alt": "Two students discussing a folded newspaper, one counting reasons on his fingers."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "medialit",
+          "title": "Trustworthy News Rating",
+          "k5": "\"I can tell when news or information online is from someone I can trust.\" Show 1 to 4 fingers. Name one clue you look for.",
+          "g612": "\"I can identify trustworthy sources of information on the internet.\" Rate yourself 1–4 fingers for news specifically. What's one habit (checking bylines, finding other coverage, looking for corrections) you'll try this week?",
+          "teacher": "After the finger rating, have students name one clue aloud in a quick whip-around.",
+          "scene": "Close-up of a stack of folded local newspapers tied with twine on a front step at sunrise, dew on the paper and the print blurred beyond reading. Long golden shadows stretch across the concrete, and a blurred bicycle wheel rolls away at the edge of the frame. A quiet image of news arriving from real people.",
+          "alt": "A twine-tied stack of newspapers on a front step at sunrise."
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "ele": "AI4.1",
+      "title": "Question the Answer",
+      "bigIdea": "AI answers sound confident whether they're right or not, so students build the habit of questioning AI: asking how it knows, checking the math, and going to the original source when two answers disagree.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "vote",
+          "strand": "genai",
+          "title": "Your First Move",
+          "k5": "A robot helper tells you, \"A spider has 6 legs!\" It sounds very sure. What is your FIRST move?",
+          "g612": "An AI tool tells you, for your history essay, that the Fernwood Dam was finished in 1938. It sounds certain and gives no source. What's your first move?",
+          "options": ["Believe it; it sounds sure", "Ask it again", "Check a book, expert, or source", "Look at a real example"],
+          "answer": "Asking the same AI again isn't real checking, because it can repeat its mistake. The strongest moves are checking a trusted source or looking at the real thing. (Spiders have 8 legs.)",
+          "teacher": "Students vote with fingers 1–4, then ask, \"Why isn't asking the AI again the same as checking?\"",
+          "scene": "Macro shot of a garden spider on a dewy web stretched across a fence post at sunrise, all eight legs crisply lit and backlit by golden light. The background dissolves into soft green bokeh. Striking detail invites viewers to count.",
+          "alt": "A close-up of a garden spider on a dewy web, backlit by sunrise."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "digcit",
+          "title": "Whose Mistake Is It?",
+          "k5": "A robot helper told you something wrong, and you put it on your poster. Now it's on the class wall. Who should fix it? Tell or write what you would do.",
+          "g612": "You used AI for a lab report, and it invented a measurement you never took. Your teacher finds it. Is it the AI's mistake or yours? Write two sentences about who is responsible and what you'd do differently.",
+          "answer": "The tool made the error, but the person who turns in the work is responsible for it. That's why checking AI output is part of the job, just like proofreading your own writing.",
+          "teacher": "Collect a few answers aloud and ask, \"If AI can be wrong, what should you check every time?\"",
+          "scene": "A seventh grader, about 12, Korean American with round glasses and a mustard sweater, stands at a hallway bulletin board carefully peeling up a paper strip on her poster to fix it, a marker cap in her teeth. Soft hallway light and a long, shallow-focus corridor of blurred posters stretch behind her; all poster writing is abstract color blocks.",
+          "alt": "A student fixing a strip on her poster at a hallway bulletin board."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "genai",
+          "title": "The Cookie Math",
+          "k5": "Fact or fake: An AI helper says, \"Our recipe uses 2 cups of flour. To make DOUBLE the cookies, use 3 cups of flour.\"",
+          "g612": "Fact or fake: A recipe for 24 cookies uses 2 cups flour, 1 egg, and 1 teaspoon baking soda. An AI scales it to 36 cookies: \"3 cups flour, 1½ eggs, 2 teaspoons baking soda.\" Is the whole answer right?",
+          "answer": "K–5: Fake. Double 2 cups is 4 cups. 6–12: Fake. 36 is 1.5 times 24, so flour (3 cups) and egg (1½) are right, but baking soda should be 1½ teaspoons, not 2. AI answers can be mostly right with one wrong detail hidden inside.",
+          "teacher": "Give 60 seconds of silent math before thumbs up or down, then ask, \"How did you catch it: by feel, or by checking each line?\"",
+          "related": "hallucination-hunt",
+          "scene": "Overhead close-up of a kitchen counter mid-baking: a mixing bowl dusted with flour, measuring cups stacked unevenly, one cracked egg, and a small spoon heaped a little too high with white powder. A tablet leans against the backsplash with a blurred, glowing screen. Warm pendant light and a sprinkle of flour in the air.",
+          "alt": "A floury kitchen counter with measuring cups, an egg, and an overfilled spoon beside a glowing tablet."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "medialit",
+          "title": "When Two Bots Disagree",
+          "k5": "Two helper apps disagree. One says our town library opened a long time ago; the other says it's new. With a partner, decide who you could ask or where you could look to find out for real.",
+          "g612": "You ask two AI tools when the Fernwood Public Library opened. One says 1952, the other says 1962. With a partner, plan how to break the tie without asking a third AI.",
+          "answer": "Neither AI is the original source. Go to the source: the library's own history page, the city's records, an old newspaper archive, or ask a librarian. Tracing a claim to where it started beats counting votes between tools.",
+          "teacher": "Pairs share their best tie-breaker, then ask, \"Why wouldn't a third AI settle it?\"",
+          "related": "primary-source-vs-ai-summary",
+          "scene": "A white librarian in her 60s with a cane hooked on the desk and a Black high school girl, about 16, with twists lean together over an open archive box of yellowed newspaper clippings, the girl pointing to a spot on a page. Clippings show only blurred columns. Dust motes float in a slanting sunbeam from a tall library window.",
+          "alt": "A librarian and a teen looking through old newspaper clippings in a sunbeam."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "genai",
+          "title": "My Questioning Rating",
+          "k5": "\"I can ask good questions about what an AI tells me and check if it's true.\" Show 1 to 4 fingers. Share one checking question.",
+          "g612": "\"I can think critically about AI-generated information: question it, check it, and trace it.\" Rate yourself 1–4 fingers. Which do you skip most often, and what would remind you?",
+          "teacher": "After ratings, ask volunteers to share their go-to checking question and write the best three on the board for the week.",
+          "scene": "A 10-year-old boy, Mexican American with a buzz cut and a navy T-shirt, holds a large magnifying glass up to one eye at a classroom window, his eye enormous and comic through the lens as he grins at a classmate off-frame. Bright late-morning light and a blurred classroom behind him.",
+          "alt": "A grinning boy looking through a large magnifying glass by a classroom window."
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "ele": "S3.3",
+      "title": "More Views, Better Work",
+      "bigIdea": "Students dig deeper into why different perspectives make group work stronger: noticing whose view is missing, seeing how camera framing can hide part of a story, and testing what AI can and can't add when a group needs another viewpoint.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "stand-up-sit-down",
+          "strand": "digcit",
+          "title": "Changed My Mind",
+          "k5": "This week many schools remember past presidents, who needed helpers with different ideas. Stand up if a friend ever showed you a better way to do something. Stand up if you ever changed your mind because of what someone said.",
+          "g612": "This week many schools remember past presidents, who relied on advisers who didn't always agree. Stand up if you've changed your mind because of a teammate's idea. Stay standing if you were glad later that you did.",
+          "teacher": "Invite one standing student to share the story in one sentence, then ask, \"What made it easier to listen to a different idea?\"",
+          "scene": "A soccer team huddle seen from ground level on a practice field at golden hour: a circle of about eight middle schoolers, ages 12–13, Latino, Black, white, Native American, and South Asian kids, including one girl in a sports hijab and one boy on forearm crutches, heads bent together as one points at a scuffed ball in the middle. Low sun flares between their shoulders.",
+          "alt": "A diverse group of middle schoolers in a sunlit soccer huddle looking at a ball."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "digcit",
+          "title": "Walk the School in My Shoes",
+          "k5": "Draw the path from the bus to our classroom the way a new kindergartner sees it, or a kid who uses a wheelchair. What would be tricky or scary?",
+          "g612": "Sketch a quick map of your route from the front door to lunch as seen by a student who uses a wheelchair, or a new student who speaks only Spanish. Mark two spots they'd notice that you never do.",
+          "answer": "People notice different things depending on their experience: stairs, heavy doors, signs in one language, crowded hallways. A team that includes those views designs better solutions.",
+          "teacher": "Students share their two marked spots with a partner, then ask, \"What would we miss if only people like us planned the school?\"",
+          "related": "whose-story-is-missing",
+          "scene": "Low-angle view down a school hallway from the height of a wheelchair seat: the armrest and wheel rim sharp in the foreground, a heavy door and a short step up at the far end catching afternoon light. Lockers and posters blur into soft color blocks. The unfamiliar angle makes an ordinary hallway feel new.",
+          "alt": "A school hallway seen from wheelchair height, with a step and heavy door at the end."
+        },
+        {
+          "kind": "check-it",
+          "format": "image-talk",
+          "strand": "medialit",
+          "title": "The Crowded Crop",
+          "k5": "Picture two photos of the same school concert. One shows only the front row, full of cheering families. The other shows the whole gym, and it's half empty. Which photo tells the true story?",
+          "g612": "The Riverbend Robotics Club posts a tight photo of a packed front row: \"HUGE turnout tonight!\" A parent's wide shot of the same moment shows most seats empty. Is the club's photo fake? What does camera framing do to a story?",
+          "answer": "Neither photo is fake, but each shows one view. Tight crops can make a crowd look huge, and wide shots can make it look tiny. That's why careful viewers ask what's outside the frame and look for more than one angle.",
+          "teacher": "Partners argue for one photo in 30 seconds each, then ask, \"How can two true photos tell different stories?\"",
+          "related": "photo-detective",
+          "scene": "A school gym during an evening event, shot wide from the top of the bleachers: a small, bright cluster of cheering families fills the front two rows under the stage lights, while the rest of the gym's folding chairs sit empty in dim light. A phone held up in the foreground frames only the crowded front, its screen blurred.",
+          "alt": "A mostly empty gym with families clustered in the front rows, and a phone framing only that crowd."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "genai",
+          "title": "Can AI Be the Other Side?",
+          "k5": "Our class all wants the zoo for our field trip. Our teacher asks an AI helper, \"Why might someone NOT want the zoo?\" Is that a good idea? With a partner, name who in our school you could ask instead or too.",
+          "g612": "Your group agrees on everything for a project on a new skate park, which worries your teacher. Someone asks AI, \"What would people who disagree say?\" With a partner, discuss: what might AI add, and what can it get wrong about real neighbors' views?",
+          "answer": "AI can suggest viewpoints you hadn't thought of, which can break groupthink. But it guesses from patterns, can stereotype groups, and can't replace talking to real people affected, like neighbors, older residents, or kids who don't skate.",
+          "teacher": "Pairs name one thing AI could add and one real person to ask; ask, \"Whose voice would AI most likely get wrong?\"",
+          "scene": "Four ninth graders, about 14–15, around a library table covered in sticky notes and a single laptop with a blurred screen: a Vietnamese American girl leans back with arms crossed, skeptical, while a white boy with red hair and a Puerto Rican girl in a wheelchair lean in, and a Black boy with a hearing aid points to a sticky note. Cool window light and warm table lamp.",
+          "alt": "Four teens around a table of sticky notes and a laptop, one looking skeptical."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "Many Voices Rating",
+          "k5": "\"I know that different ideas make our group work better.\" Show 1 to 4 fingers. Tell a partner one way you'll invite a new idea.",
+          "g612": "\"I am aware of the value of diverse perspectives in group work.\" Rate yourself 1–4 fingers. Then name one move you'll make in your next group, like asking the quietest person first.",
+          "teacher": "After rating, gather a quick list of \"invite moves\" on the board.",
+          "scene": "Extreme close-up of a pile of mismatched colored pencils and crayons of every shade spilling across a sketchbook page, where many colors overlap into a single rich, blended drawing of a tree. Warm window light from the side. No text, just color meeting color.",
+          "alt": "Many colored pencils spilling across a sketchbook with a tree drawn in overlapping colors."
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "ele": "S1.3",
+      "title": "Study Partner, Not Shortcut",
+      "bigIdea": "Learning takes effort the way muscles do, so this week students figure out how AI can make that effort smarter (quizzing, explaining, checking) without doing the work for them, and set their own rule for AI study help.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "vote",
+          "strand": "genai",
+          "title": "The Robot Rides Your Bike",
+          "k5": "If a robot rode your bike for you every day, would YOU learn to ride a bike?",
+          "g612": "If a robot lifted the weights for you at the gym every day, would you get stronger? Now apply it: which parts of homework are the \"weights\" that you need to lift yourself?",
+          "options": ["Yes", "No", "A little"],
+          "answer": "No. The learning happens in the effort: wobbling, practicing, getting stuck and unstuck. AI helps most when it spots you, like a coach, not when it lifts for you.",
+          "teacher": "Take a hand vote, then ask, \"Which part of this week's work is your 'bike riding'?\"",
+          "scene": "A small bicycle with training wheels leans alone against a chain-link fence at golden hour, a helmet dangling from the handlebar and long shadows across an empty sidewalk. Behind it, soft bokeh of a neighborhood street. The empty seat quietly asks who will ride it.",
+          "alt": "A child's bike with training wheels and a helmet leaning on a fence at golden hour."
+        },
+        {
+          "kind": "think-it",
+          "format": "quick-write",
+          "strand": "digcit",
+          "title": "My AI Study Rule",
+          "k5": "Our teacher sometimes uses an AI helper with us. Finish this rule: \"An AI helper can help me learn by ___, but I will always ___ myself.\"",
+          "g612": "Write your personal AI study rule in one sentence: when you'll use AI to study, what it's allowed to do, and one thing you'll always do yourself. Make it a rule you'd actually follow.",
+          "teacher": "Students write for 90 seconds, then share with a partner; ask, \"Would your rule still hold up the night before a big test?\"",
+          "related": "ai-study-buddy-contract",
+          "scene": "Close-up of a sticky note pressed onto the edge of a laptop screen at a kitchen table at night, the note covered in handwritten scribbles that are not readable, with the laptop screen behind it a soft glow of blurred color. A mug and a closed textbook sit in the warm pool of a hanging lamp.",
+          "alt": "A handwritten sticky note on the edge of a glowing laptop at a kitchen table at night."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "medialit",
+          "title": "The Flashcard Flub",
+          "k5": "An AI helper made flashcards for our science test. Fact or fake: One card says, \"A whale is a fish.\"",
+          "g612": "An AI tool made a practice quiz from your biology notes. Fact or fake: The answer key says, \"During photosynthesis, plants take in oxygen and release carbon dioxide.\"",
+          "answer": "K–5: Fake. Whales live in water, but they are mammals: they breathe air and feed their babies milk. 6–12: Fake. It's backwards: photosynthesis takes in carbon dioxide and releases oxygen. AI study tools can flip or blur facts, so check cards against your notes or textbook before you memorize them.",
+          "teacher": "Students vote fact or fake, then ask, \"What could happen if you studied that card 20 times?\"",
+          "scene": "A spread of handmade and printed flashcards fanned across a desk, with one card lifted between a teen's fingertips toward a window, backlit so its blurred marks glow. A leafy potted plant and a small toy whale sit sharply focused in the window light behind. The composition makes one card feel suspicious.",
+          "alt": "A hand lifting one flashcard toward window light, with a potted plant behind."
+        },
+        {
+          "kind": "team-up",
+          "format": "turn-and-talk",
+          "strand": "genai",
+          "title": "Why, Why, Why?",
+          "k5": "Partner A: say one thing you learned this week. Partner B: pretend to be a curious helper robot and ask \"Why?\" three times. Then switch!",
+          "g612": "Partner A explains something from this week's class in 30 seconds. Partner B plays an AI tutor that is only allowed to ask questions (\"Why?\" \"What's an example?\" \"What if…?\") and never gives answers. Switch. Which was harder: explaining or asking?",
+          "answer": "Explaining an idea and answering \"why\" is one of the strongest ways to learn. AI can play the question-asker well, which is a study-partner use, not a shortcut.",
+          "teacher": "Time 30 seconds per round and ask, \"Where did you get stuck, and what does that tell you to review?\"",
+          "scene": "Two fifth graders, about 10, sit cross-legged facing each other on a classroom floor: an Indigenous Mexican girl with a long ponytail explains with her hands while a Pakistani American boy in noise-reducing headphones around his neck leans forward, pretending to be a very serious interviewer with a pencil as a microphone. Afternoon sun stripes the floor.",
+          "alt": "Two students face each other, one explaining and one holding a pencil like a microphone."
+        },
+        {
+          "kind": "i-can",
+          "format": "quick-write",
+          "strand": "genai",
+          "title": "Partner or Shortcut Rating",
+          "k5": "\"I know how an AI helper can help me learn without doing my work for me.\" Show 1 to 4 fingers. Tell one good way to use it.",
+          "g612": "\"I am aware of how AI can assist me in my studies.\" Rate yourself 1–4 fingers. Then write one study task where you'll try AI as a partner next week, and how you'll know it helped you learn.",
+          "teacher": "After ratings, ask two students how they'll know AI helped them learn rather than just finish.",
+          "scene": "A high school girl, about 17, Afro-Caribbean with locs pulled back and a navy cardigan, sits at a library carrel with a textbook open and a closed laptop pushed aside, eyes shut as she mouths an answer to herself, one finger holding her place. Dramatic side light from a tall window, dust in the air.",
+          "alt": "A teen at a library carrel quizzing herself with eyes closed, laptop closed beside her."
+        }
+      ]
+    },
+    {
+      "week": 26,
+      "ele": "S5.1",
+      "title": "Break It Down",
+      "bigIdea": "Going deeper into systematic problem solving, students practice defining the real problem, changing one thing at a time, catching missing steps in an AI's plan, and ordering the steps to solve an information mystery.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "vote",
+          "strand": "digcit",
+          "title": "The Silent Tablet",
+          "k5": "You press play on a class tablet and there's no sound. What do you try FIRST?",
+          "g612": "Five minutes before a deadline, your laptop won't connect to the school Wi-Fi. What's your first move?",
+          "options": ["Restart everything", "Check the simple stuff first", "Ask someone for help", "Give up and try tomorrow"],
+          "answer": "Start with the simple stuff: volume and mute, a headphone plugged in, airplane mode, the right network. Then change one thing at a time so you know what fixed it. Ask for help after you've tried and can say what you tried.",
+          "teacher": "Take a finger vote, then ask, \"Why does changing one thing at a time help?\"",
+          "scene": "Close-up of a small hand, about 7, pressing a volume button on the side of a tablet at a classroom table, with a tangled pair of headphones plugged in and the headphone cord looping off the edge. The screen glows with an abstract blurred color video. Bright window light and a soft background of crayon bins.",
+          "alt": "A child's hand pressing a tablet's volume button, with tangled headphones plugged in."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "digcit",
+          "title": "The Dead-Battery Cart",
+          "k5": "Our class tablets keep going back into the cart with no battery. Draw what goes wrong, step by step, like a comic. Then draw one fix.",
+          "g612": "The shared laptop cart keeps getting returned with dead, unplugged laptops. Sketch the problem as a chain: where exactly does it break? Then add one fix that targets that exact link.",
+          "answer": "Good problem solvers pin down where the process breaks (no time at the end of class? cords too short? no one assigned?) before picking a fix. A fix aimed at the real cause works better than a new rule for everything.",
+          "teacher": "Students share sketches with a partner, then ask, \"Did your fix match the step where it broke?\"",
+          "scene": "A laptop charging cart with its door open in a quiet classroom after school: a row of laptops with blank, dark screens, cords dangling loose and unplugged, one amber charging light glowing among many dark ones. Late-afternoon light slants across the floor. The image feels like the scene of a small mystery.",
+          "alt": "An open charging cart full of dark laptops with loose, unplugged cords."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "genai",
+          "title": "The Plan That Skipped a Step",
+          "k5": "An AI helper gave steps for growing a bean: \"1. Put a bean in a cup. 2. Water it every day. 3. Wait for beans!\" Fact or fake: this plan has every step you need.",
+          "g612": "An AI tool gives your club a plan for a Saturday car wash fundraiser: \"1. Pick a date. 2. Post flyers. 3. Wash cars. 4. Count the money.\" Fact or fake: this plan is complete.",
+          "answer": "K–5: Fake. It's missing soil and sunlight. 6–12: Fake. It skips permission from the school and the lot owner, supplies and water access, a budget, volunteer sign-ups, and a backup date for rain. AI plans often sound complete while skipping steps that depend on your real situation.",
+          "teacher": "Students vote, then list missing steps in 60 seconds; ask, \"Which missing step would cause the biggest problem?\"",
+          "scene": "A clear plastic cup holding nothing but a lone dry bean sits on a sunny windowsill, next to a flourishing cup of dark soil with a green bean sprout uncurling toward the light. Water droplets glisten on the sprout. Crisp, shallow-focus close-up with a blurred schoolyard beyond the glass.",
+          "alt": "A cup with a dry bean beside a cup of soil with a sprouting bean on a sunny windowsill."
+        },
+        {
+          "kind": "team-up",
+          "format": "sort",
+          "strand": "medialit",
+          "title": "Solve the Rumor in Order",
+          "k5": "A rumor says the school pool is closing! With a partner, put these steps in order: A) ask a grown-up who works there, B) think: who told me?, C) tell friends what you found, D) wait before telling anyone.",
+          "g612": "A post claims the Cedar Bend rec center pool is closing for good. With a partner, put these steps in order: A) find where the claim first appeared, B) pause before sharing, C) check the city or rec center's official channels, D) look for local news coverage, E) share what you confirmed, with the source.",
+          "answer": "K–5: D, B, A, C. 6–12: B, A, C, D, E (C and D can swap). A steady order turns a confusing rumor into a problem you can solve: pause, trace, check official and independent sources, then share carefully.",
+          "teacher": "Pairs line up their steps, then compare with another pair; ask, \"What happens if you skip the first step?\"",
+          "scene": "Three seventh graders, about 12–13, stand at a whiteboard in an empty classroom, rearranging colored index cards held up with magnets into a vertical line: a Salvadoran American boy moves one card up with a decisive hand while a Chinese American girl and a white girl with a cochlear implant point and debate. The cards show only blurred marks, and golden afternoon light floods in.",
+          "alt": "Three students rearranging colored index cards into a line on a whiteboard."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "genai",
+          "title": "Step-by-Step Rating",
+          "k5": "\"I know how to solve a big problem one step at a time.\" Show 1 to 4 fingers. Tell a partner the first step you usually take.",
+          "g612": "\"I know how to approach complex problems systematically.\" Rate yourself 1–4 fingers. Which step do you rush most (defining, planning, testing, or checking), and how could a partner, or an AI helper, keep you honest about it?",
+          "teacher": "After rating, ask students to point to a spot on the wall labeled with each step and see where most people rush.",
+          "scene": "A stone staircase path climbing a hillside trail at sunrise, each step sharply lit on its edge with mist below and the top disappearing into golden haze. Low camera angle from the bottom step. A simple, striking image of one step at a time.",
+          "alt": "Stone steps climbing a misty hillside trail toward a golden sunrise."
+        }
+      ]
+    },
+    {
+      "week": 27,
+      "ele": "AI5.1",
+      "title": "Me Plus AI",
+      "bigIdea": "Students explore how people and AI can team up well: humans stay in charge of choices and checking, AI takes some jobs, and the team works best when everyone knows who does what.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "would-you-rather",
+          "strand": "genai",
+          "title": "Who Gets the Final Say?",
+          "k5": "Would you rather have a robot helper pick our class game for recess, or have it give us three ideas and WE pick?",
+          "g612": "Would you rather have an AI automatically build your next year's class schedule, or have it show you three options with pros and cons and you choose? What would you want it to know about you first?",
+          "options": ["AI decides", "AI suggests, we decide"],
+          "answer": "Most good human-AI teamwork keeps people in charge of choices that affect them. AI can save time by sorting options, but it doesn't know your goals and feelings unless you bring them.",
+          "teacher": "Students pick a side of the room, then ask, \"Is there any choice you'd happily let AI make completely?\"",
+          "scene": "A 1st-grade class, ages 6–7, sits in a circle on a playground at recess, with a Latino boy with a gap-toothed grin, a Black girl with puffs, an Asian American boy, and a white girl with glasses raising hands to vote; a teacher in her 30s, Mexican American with a gold lanyard, holds up three fingers. Crisp winter sunlight and long shadows.",
+          "alt": "Young students in a playground circle raising hands to vote while a teacher holds up three fingers."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "digcit",
+          "title": "Draw the Relay",
+          "k5": "Draw a relay race for making a class book: you and an AI helper pass the baton. Which parts do YOU run? Which part could the helper run? Put a star where you say thank you or give credit.",
+          "g612": "Sketch the relay for making a five-minute podcast episode with AI on your team. Label each leg (research, script, voice, music, fact-check, editing) human or AI, and mark where you'd disclose AI's part to listeners.",
+          "answer": "Strong teams give AI the legs it's good at (brainstorming, drafting options, transcripts) and keep the legs that need judgment, a real voice, or accountability, like fact-checking and final decisions. Being open about AI's part is part of fair teamwork.",
+          "teacher": "Partners compare relays, then ask, \"Which leg did you both refuse to hand off, and why?\"",
+          "related": "human-ai-studio",
+          "scene": "Extreme close-up of a relay baton mid-handoff on a sunlit school track: one hand in a navy sleeve reaches back, another pushes the baton forward, both sharply frozen, with blurred lane lines and a golden haze of dust behind. Dramatic low angle, fast-shutter feel.",
+          "alt": "Two hands passing a relay baton on a sunlit track."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "genai",
+          "title": "The Flyer That Needed a Human",
+          "k5": "An AI helper changed our class letter from English into Spanish. Fact or fake: We can send it home right away without anyone who speaks Spanish checking it.",
+          "g612": "Fact or fake: \"Once an AI tool translates the school's Family Night flyer into Spanish, Vietnamese, and Arabic, it's ready to send home. The AI handled it.\"",
+          "answer": "Fake at both levels. AI translation is a great first draft, but it can miss names, local words, tone, and cultural meaning. The best team is AI plus a fluent human reviewer who checks it before families see it.",
+          "teacher": "Thumbs up or down, then ask, \"Who in our school community could be that human checker?\"",
+          "related": "co-creation-not-substitution",
+          "scene": "A school office worker in her 40s, Vietnamese American in a gold blouse, reads a freshly printed flyer with a red pen poised, while a Colombian American dad in his 30s leans over the counter, pointing to a line and smiling. The flyer shows only blurred columns and a clip-art-like shape. Warm office light and a blurred copy machine behind.",
+          "alt": "A school office worker and a parent reviewing a printed flyer together with a red pen."
+        },
+        {
+          "kind": "team-up",
+          "format": "sort",
+          "strand": "medialit",
+          "title": "Newscast Crew Jobs",
+          "k5": "Our class is making a video news show! With a partner, sort each job: 1) think of interview questions, 2) talk to the lunch staff, 3) add captions, 4) decide what's true, 5) pick music.",
+          "g612": "Your class is producing a weekly video newscast. With a partner, sort each job: 1) suggest interview questions, 2) conduct the interview, 3) generate captions, 4) check names and facts in the captions, 5) choose which stories matter, 6) create a background graphic, 7) decide whether a clip is fair to the person in it.",
+          "options": ["Human job", "AI can help", "Team job"],
+          "answer": "Humans should conduct interviews, decide what's true, pick which stories matter, and judge fairness. AI can help suggest questions, draft captions, and make graphics, but a human checks its work. Many jobs end up as team jobs: AI drafts, people decide.",
+          "teacher": "Pairs sort, then you pick the job with the most debate; ask, \"What goes wrong if AI does this one alone?\"",
+          "scene": "Two high schoolers, about 16, film an interview in a school cafeteria kitchen: a Black girl with a short natural afro holds a small microphone toward a smiling Latina cafeteria worker in her 50s with a hairnet, while a white boy in a wheelchair steadies a camera on a small tripod. Steam from trays catches the warm light.",
+          "alt": "Student reporters filming an interview with a smiling cafeteria worker in a school kitchen."
+        },
+        {
+          "kind": "i-can",
+          "format": "vote",
+          "strand": "genai",
+          "title": "Human-and-AI Team Rating",
+          "k5": "\"I know how people and AI helpers can work together, with people in charge.\" Show 1 to 4 fingers. Name one job you'd always keep for yourself.",
+          "g612": "\"I know how to foster good collaboration between humans and AI.\" Rate yourself 1–4 fingers. What's one rule your team would need before adding AI to your next project?",
+          "teacher": "After rating, collect three \"team rules\" and ask the class to vote on the most important one.",
+          "scene": "Close-up of a pair of weathered adult hands and a child's hands, about 8, together steadying a wobbly block tower on a kitchen table, the child placing the top block while the adult's fingers hover ready to help. A tablet lies dark and face-down nearby. Warm afternoon window light and soft shadows.",
+          "alt": "An adult's and a child's hands working together to place the top block on a tower."
+        }
+      ]
+    },
+    {
+      "week": 28,
+      "ele": "S2.3",
+      "title": "Footprints That Last",
+      "bigIdea": "Going deeper on digital footprints, students weigh consent before posting others, plan a footprint they'd be proud of, learn that public photos can be remixed by AI, and sort how far different posts can travel.",
+      "days": [
+        {
+          "kind": "warm-up",
+          "format": "stand-up-sit-down",
+          "strand": "digcit",
+          "title": "Ask Before You Tag",
+          "k5": "Stand up if you'd want a friend to ask you before sharing a picture of you. Stand up if you've ever asked someone before sharing their picture.",
+          "g612": "Stand up if you'd want to be asked before a friend posts a photo of you. Stay standing if you always ask before posting or tagging someone else. Notice the gap between the two.",
+          "teacher": "Point out how many people sat down between the two questions and ask, \"What makes it awkward to ask, and how could we make it normal?\"",
+          "scene": "A 14-year-old Filipino American girl with a messy bun holds her phone out to a Native American friend, about 14, so she can see a photo before it's posted, both looking at the blurred screen with thoughtful half-smiles on a school stairwell. Soft backlight from a tall stairwell window haloes their shoulders.",
+          "alt": "Two teen friends on a stairwell looking at a photo on a phone together before posting it."
+        },
+        {
+          "kind": "think-it",
+          "format": "draw",
+          "strand": "digcit",
+          "title": "A Footprint I'm Proud Of",
+          "k5": "Draw a big footprint. Inside it, draw one thing you'd be proud for someone to find about you online when you're grown up, like art, a kind note, or a science project.",
+          "g612": "Imagine a college, coach, or future boss searches your name in five years. Sketch a footprint and fill it with three things you'd want them to find, then circle one you could start building this month.",
+          "answer": "A digital footprint isn't only about avoiding mistakes. Sharing good work, helpful comments, and projects on purpose builds a footprint that shows who you are.",
+          "teacher": "Students hold up drawings for a quick gallery; ask, \"What's one thing on your footprint you could share, with permission, this month?\"",
+          "related": "digital-footprint-trail",
+          "scene": "A single child's muddy sneaker print pressed into wet sand at the edge of a creek at golden hour, sharply detailed, with a line of smaller and larger footprints trailing away into soft focus. Warm light glints off the water. Poetic and simple.",
+          "alt": "A child's sneaker print in wet creek sand at golden hour with more footprints trailing away."
+        },
+        {
+          "kind": "check-it",
+          "format": "fact-or-fake",
+          "strand": "genai",
+          "title": "Once It's Public, It's Remixable",
+          "k5": "Fact or fake: \"If a picture of your face is shared online for everyone to see, someone could use an app to change it into something you never did.\"",
+          "g612": "Fact or fake: \"A photo you post publicly can be copied and changed by AI into a fake image or video of you, even if you delete the original later.\"",
+          "answer": "Fact at both levels. Public photos can be saved, and AI tools make it easy to edit or generate fake versions. You can't control everything, but you can lower the risk: keep accounts private, think before posting clear face photos publicly, and tell a trusted adult or report it if a fake of you appears.",
+          "teacher": "Thumbs up or down, then ask, \"What's one choice that makes your photos harder to misuse?\"",
+          "related": "real-remixed-or-made-up",
+          "scene": "Close-up of a printed photo of a smiling teen, face softly blurred and unrecognizable, pinned to a corkboard, with a pair of scissors and a second copy of the same print beside it that has been cut apart and rearranged into a collage. Moody desk-lamp light and deep shadows, like evidence on a detective's desk.",
+          "alt": "A pinned photo of a teen beside a cut-apart copy rearranged into a collage, under a desk lamp."
+        },
+        {
+          "kind": "team-up",
+          "format": "sort",
+          "strand": "medialit",
+          "title": "How Far Can It Travel?",
+          "k5": "With a partner, sort: 1) a drawing you keep in your desk, 2) a picture you send to Grandma, 3) a video posted where anyone can watch, 4) a message in a group chat with the whole class.",
+          "g612": "With a partner, sort: 1) a note saved only on your device, 2) a message in a 25-person group chat, 3) a \"close friends\" story, 4) a comment on a public video, 5) a review of a local taco truck, 6) a DM to one friend. Then name which one people most often misjudge.",
+          "options": ["Just me", "People I chose", "Anyone, maybe forever"],
+          "answer": "Only things you never send stay \"just me.\" Private messages and close-friends stories reach people you chose, but anyone in them can screenshot and forward, so they can move to \"anyone.\" Public comments and reviews are visible to anyone and can stay searchable for years.",
+          "teacher": "Groups sort, then you ask, \"Which item moved when you remembered screenshots?\"",
+          "scene": "Overhead shot of a single drop falling into a still pond at dawn, ripples spreading in perfect widening rings across the water toward the reeds at the edges of the frame. Soft pink and gold sky reflected on the surface. A striking image of how far one small thing can reach.",
+          "alt": "A drop of water sending wide ripples across a still pond at dawn."
+        },
+        {
+          "kind": "i-can",
+          "format": "quick-write",
+          "strand": "digcit",
+          "title": "My Footprint Rating",
+          "k5": "\"I know that what I share online can stay around and travel far.\" Show 1 to 4 fingers. Tell or write one thing you'll think about before you share.",
+          "g612": "\"I am aware of the potential risks of sharing content online.\" Rate yourself 1–4 fingers. Write one question you'll ask yourself before you post, share, or tag someone this week.",
+          "teacher": "After ratings and a one-line write, ask volunteers to share their \"before I post\" question.",
+          "scene": "A high school boy, about 16, Egyptian American with curly dark hair and a gold-mustard jacket, sits on a front-yard curb at dusk looking out at the street, his phone resting face-down on his knee, thoughtful rather than worried. Streetlights blink on in soft bokeh behind him, and warm window light glows from the house across the street.",
+          "alt": "A teen sitting on a curb at dusk with his phone face-down on his knee, thinking."
+        }
+      ]
+    }
+  ]
+}
