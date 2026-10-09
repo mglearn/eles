@@ -221,7 +221,8 @@ ${FONTS}
       <a href="${base}guide.html">${esc(t('nav.menuGuide'))}</a><span class="navmenu-sep" aria-hidden="true">|</span>
       <a href="${base}standards.html">${esc(t('nav.standards'))}</a><span class="navmenu-sep" aria-hidden="true">|</span>
       <a href="${base}packets.html">${esc(t('nav.packets'))}</a><span class="navmenu-sep" aria-hidden="true">|</span>
-      <a href="${base}decks/facilitator.html">${esc(t('nav.menuDeck'))}</a>
+      <a href="${base}decks/facilitator.html">${esc(t('nav.menuDeck'))}</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="https://blog.tcea.org/five-ways-the-updated-tcea-essential-learning-expectations-put-learning-first/" target="_blank" rel="noopener">${esc(t('nav.menuBlog'))}</a>
     </div></details>
     ${picker}
   </nav>
