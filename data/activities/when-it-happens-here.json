@@ -1,0 +1,213 @@
+{
+  "id": "when-it-happens-here",
+  "title": "When It Happens Here",
+  "tagline": "A leadership team rehearses, calmly and before a crisis, how to respond when a student is targeted by a non-consensual AI deepfake image, putting the student's safety first and knowing the law, the reports, and the takedown steps cold.",
+  "audience": "pl",
+  "roles": [
+    "leaders",
+    "staff"
+  ],
+  "grades": [
+    "6-8",
+    "9-12"
+  ],
+  "strands": [
+    "digcit"
+  ],
+  "mode": "unplugged",
+  "minutes": 75,
+  "groupSize": "A response team of 4–10 (admin, counselor, school police liaison, communications, IT)",
+  "eles": [
+    "L4.1",
+    "L5.2",
+    "L4.2",
+    "AI2.1"
+  ],
+  "overview": "AI tools that fabricate realistic nude images of real people have reached schools, and students, mostly girls, are being targeted by classmates. When it happens, the first hour matters, and a team that improvises causes more harm. This tabletop lets a leadership team rehearse the response before a real incident, so the moves are practiced, not panicked. Teams work a fictional, non-graphic scenario and decide, in order: how to support and protect the targeted student first, how to preserve evidence without re-sharing it, who must be reported to (law enforcement, child-protection authorities, and the federal reporting line for exploitation of minors), how the 2025 federal Take It Down Act supports rapid removal, what the discipline and due-process path is, and how to communicate with families and the community without naming victims or amplifying the material. The tone throughout is trauma-informed and non-sensational: this is image-based sexual abuse, not a prank, and the team's job is to treat it that way while protecting every student's dignity.",
+  "objectives": [
+    "Leaders will sequence an incident response that puts the targeted student's safety and dignity first.",
+    "Leaders will identify mandatory reports and preservation steps without re-sharing harmful material.",
+    "Leaders will explain how the Take It Down Act and platform processes support rapid removal.",
+    "Leaders will draft family and community communication that neither names victims nor amplifies the abuse."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The Scenario + Response Sequence, tabletop (1 per team)",
+      "Handout B: Reports, Preservation, and the Law, reference (1 per participant)",
+      "Handout C: Communication Without Harm, drafting sheet (1 per team)"
+    ],
+    "digital": [
+      "Optional: your district's existing crisis-response and Title IX / child-safety protocols on screen for cross-reference",
+      "Optional: a shared document to record decisions and gaps for follow-up"
+    ]
+  },
+  "prep": [
+    "Invite the real response roles: an administrator, a counselor, your school police or law-enforcement liaison, communications, and IT.",
+    "Print Handout A and C per team and B per participant.",
+    "Have your district's actual child-safety, Title IX, and crisis protocols on hand to compare against the rehearsal.",
+    "Open by naming that the content is handled abstractly and non-graphically, and that support resources are available to any participant affected by the topic."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 7,
+      "title": "The Friday the call comes",
+      "body": "Read the opening of Handout A aloud: a parent calls to say a fabricated nude image of their eighth-grader, made with an app and spread in a group chat, is circulating. Ask the team: **\"What is the very first thing we do?\"** Collect instinct answers, then note how many jump to the perpetrator or to discipline. Reframe: the first move is always the targeted student's safety and dignity. Today we rehearse the full sequence so no one has to invent it in the moment.",
+      "note": "Expect a rush to punishment or to PR control. Gently redirect to the victim. Set a trauma-informed, non-sensational tone and hold it."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Know the law and the reports",
+      "body": "Teams read Handout B: non-consensual intimate images, including AI-generated deepfakes of minors, are illegal; creating or sharing them is image-based sexual abuse and can be a crime. The 2025 federal Take It Down Act makes non-consensual intimate image sharing a crime and requires covered platforms to remove reported material, including deepfakes, quickly. Schools typically have mandatory-reporting duties to law enforcement and child-protective authorities, and should report child sexual abuse material to the national reporting line rather than handling it internally. Teams list which reports are non-negotiable in their state and district.",
+      "note": "Be clear this is not legal advice; direct teams to verify with district counsel and local law enforcement. The point is to know that reporting is mandatory, not discretionary."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 25,
+      "title": "Work the response sequence",
+      "body": "Teams work the sequence on Handout A in order: (1) **Support the targeted student**, safety plan, counselor, trusted adult, reassurance it is not their fault, protection from retaliation. (2) **Preserve, don't spread**, document what and where without downloading, forwarding, or viewing beyond what's necessary; never store the image on school devices. (3) **Report**, law enforcement, child-protective services, and the national exploitation reporting line, per mandatory-reporting duties. (4) **Removal**, platform takedown requests supported by the Take It Down Act. (5) **Discipline and due process** for those responsible, following policy and Title IX. (6) **Care for the wider community**. Teams note decisions and gaps at each step.",
+      "note": "Watch for two failure modes: re-sharing the image \"to investigate\" (never) and leading with discipline before the victim is safe. Both cause real harm."
+    },
+    {
+      "phase": "Create",
+      "minutes": 18,
+      "title": "Communication without harm",
+      "body": "On Handout C, teams draft three short communications: a message to the targeted student's family, a note to the broader school community, and internal staff guidance. The rules: never name or identify the victim, never describe or link the material, don't sensationalize, state clearly that this is abuse and is being taken seriously, and tell families what to do if their child sees or has the image (don't share, report, tell an adult). Teams swap drafts and check for any wording that could re-expose or blame the victim.",
+      "note": "Communications are where good intentions backfire. A detail meant to inform (grade, team, class) can identify a victim. Coach ruthless de-identification."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 13,
+      "title": "Gaps to close before it's real",
+      "body": "Each team names the two biggest gaps the rehearsal exposed, a missing protocol, an unclear reporting path, no plan for removing identifiable student photos from public sites, staff who wouldn't know the first step. Prioritize them. Close on the standard: the measure of a response is whether the targeted student was protected and treated with dignity, the law was followed, and the community was informed without being harmed.",
+      "note": "End on action, not reassurance. The rehearsal's value is the list of gaps the team commits to closing this month, before an incident forces the issue."
+    }
+  ],
+  "unplugged": "The tabletop runs entirely on paper and in discussion: the scenario, the legal reference, the response sequence, and the communication drafts need no devices, and deliberately no image is ever shown or created. This is the safest and intended way to run it.",
+  "digital": "Teams may pull up their district's actual crisis, Title IX, and child-safety protocols on screen to cross-reference against the rehearsed sequence, and record decisions and gaps in a shared document for follow-up. No one should ever display, store, or search for the kind of material the scenario describes.",
+  "whyTech": "This is intentionally unplugged. The work is human protocol, judgment, and care, and keeping it device-free avoids any risk of handling harmful material; screens are used only, afterward, to align the rehearsal with real district policy.",
+  "adaptations": [
+    {
+      "label": "Elementary leadership",
+      "text": "Adapt the scenario to younger-student contexts (a fabricated image shared among families) and emphasize child-protective reporting and family support over student discipline."
+    },
+    {
+      "label": "Small district",
+      "text": "One combined team works all six steps; pre-identify the single person responsible for each report when roles are shared."
+    },
+    {
+      "label": "With law-enforcement liaison",
+      "text": "Have the liaison lead the reporting and preservation steps so the team hears the real local process, chain of custody, and what not to touch."
+    },
+    {
+      "label": "Prevention follow-up",
+      "text": "Pair with a staff-and-student education plan (see the companion activities) so response and prevention are built together, not in isolation."
+    }
+  ],
+  "lookFors": [
+    "Teams sequence the response with the targeted student's safety and dignity first, before discipline or PR.",
+    "Teams identify mandatory reports and preserve evidence without re-sharing or storing the material.",
+    "Teams correctly describe how the Take It Down Act and platform processes support rapid removal.",
+    "Draft communications neither identify the victim nor describe or amplify the abuse."
+  ],
+  "reflection": [
+    "Does our response protect the targeted student first, and is that sequence written down anywhere? (Leader ELE 4.1: a positive, safe digital climate.)",
+    "Which reports are mandatory here, and does every response-team member know them? (AI ELE 2.1: accountability and ethics in AI-related harm.)",
+    "Could any family or community message we send accidentally identify or blame a victim? (Leader ELE 5.2: communicating with stakeholders.)"
+  ],
+  "transfer": "Within the month, close the top gaps the rehearsal exposed: write or update the response protocol, confirm reporting paths with counsel and law enforcement, remove identifiable student images from public-facing sites where appropriate, and brief all staff on the first three steps. Then run the companion prevention lessons with students and families.",
+  "connections": [
+    {
+      "title": "When Disaster Strikes: Cyber Incident Response Game",
+      "url": "https://mglearn.github.io/tcea/wds/",
+      "note": "A companion tabletop structure for rehearsing incident response."
+    },
+    {
+      "title": "CYBERSMART Ready: Educator Cybersecurity Tabletop",
+      "url": "https://mglearn.github.io/tcea/cybersmart/",
+      "note": "More practice building calm, rehearsed team responses to digital incidents."
+    },
+    {
+      "title": "AAP policy statement: Digital Ecosystems, Children, and Adolescents (Pediatrics, 2026)",
+      "url": "https://publications.aap.org/pediatrics/article/157/2/e2025075320/206129/Digital-Ecosystems-Children-and-Adolescents-Policy",
+      "note": "Guidance on supporting young people's wellbeing and safety in digital spaces."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The Scenario + Response Sequence",
+      "type": "worksheet",
+      "instructions": "Work the steps IN ORDER. The content is handled abstractly, no image is ever shown, created, or described in detail. Record your decision and any gap at each step.",
+      "sections": [
+        {
+          "prompt": "SCENARIO: On a Friday evening, a parent calls: a fabricated nude image of their 8th-grader, made with an app and spread in a group chat, is circulating among students. STEP 1 — SUPPORT THE STUDENT FIRST: What do we do in the first hour to keep this student safe, supported, and free from retaliation, and to make clear it is not their fault?",
+          "lines": 3
+        },
+        {
+          "prompt": "STEP 2 — PRESERVE, DON'T SPREAD: How do we document what and where (dates, platforms, who reported) WITHOUT downloading, forwarding, viewing beyond necessity, or storing the image on school devices?",
+          "lines": 2
+        },
+        {
+          "prompt": "STEP 3 — REPORT: Who must we notify (law enforcement, child-protective services, the national reporting line for exploitation of minors)? Who makes each call?",
+          "lines": 2
+        },
+        {
+          "prompt": "STEP 4 — REMOVAL: What takedown requests do we initiate, and how does the Take It Down Act support rapid platform removal?",
+          "lines": 2
+        },
+        {
+          "prompt": "STEP 5 — DISCIPLINE & DUE PROCESS: Following policy and Title IX, how do we address those responsible fairly, after the victim is safe?",
+          "lines": 2
+        },
+        {
+          "prompt": "STEP 6 — WIDER COMMUNITY: What support and guidance do other affected students and staff need?",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Reports, Preservation, and the Law",
+      "type": "reading",
+      "instructions": "Read before working the sequence. This is background, not legal advice, verify specifics with district counsel and local law enforcement.",
+      "paragraphs": [
+        "What it is: Creating or sharing a sexual image of a real person without consent is image-based sexual abuse. When the image is an AI-generated fake (a deepfake) of a minor, it is still unlawful, and it is not a prank. Treating it as abuse, not teasing, shapes every step that follows.",
+        "The Take It Down Act (federal, 2025): This law makes it a crime to knowingly share non-consensual intimate images, including AI-generated deepfakes, and requires covered online platforms to remove such images, and copies, after a valid report, within a short, legally set window. It gives victims and schools a concrete lever to get material taken down quickly.",
+        "Reporting is mandatory, not optional: School employees are typically mandatory reporters. Suspected sexual abuse or exploitation of a child generally must be reported to law enforcement and to child-protective authorities. Material that depicts a minor should be reported to the national exploitation reporting line and handled by law enforcement, not investigated or stored by school staff.",
+        "Preserve without spreading: Record the facts, what was reported, when, on which platforms, and by whom, but do not download, forward, print, or circulate the image, even to investigate. Never save it on school devices or accounts. Let law enforcement handle the material itself.",
+        "Victim first: The student targeted is a victim of abuse. Protect them from retaliation and exposure, connect them to counseling, and make clear, repeatedly, that this is not their fault. Avoid any action (interviews, assemblies, messages) that re-exposes or identifies them.",
+        "Takedown help for families: Free services exist to help remove intimate images of minors from participating platforms. Point families to report to the platform and to the national reporting line, and offer to help them navigate the process."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Communication Without Harm",
+      "type": "worksheet",
+      "instructions": "Draft each message. Rules: never name or identify the victim, never describe or link the material, don't sensationalize, say plainly that this is abuse and is being handled, and tell people what to do.",
+      "sections": [
+        {
+          "prompt": "TO THE TARGETED STUDENT'S FAMILY: support offered, steps underway, and who their single point of contact is:",
+          "lines": 3
+        },
+        {
+          "prompt": "TO THE SCHOOL COMMUNITY: de-identified, non-sensational, states it's being taken seriously and names the behavior as abuse:",
+          "lines": 3
+        },
+        {
+          "prompt": "TO STAFF: what to do if a student reports or shows them such an image (don't view/forward/store; report to [role]; support the student):",
+          "lines": 3
+        },
+        {
+          "prompt": "WHAT FAMILIES SHOULD DO if their child has seen or received the image (don't share, report it, tell a trusted adult, delete after reporting as directed):",
+          "lines": 2
+        },
+        {
+          "prompt": "De-identification check: does any message include a detail (grade, team, class, timing) that could identify the victim? Fix it here:",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

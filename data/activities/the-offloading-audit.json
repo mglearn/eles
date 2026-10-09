@@ -1,0 +1,235 @@
+{
+  "id": "the-offloading-audit",
+  "title": "The Offloading Audit",
+  "tagline": "Students audit a week of their own AI use, sort each instance into thinking worth keeping and busywork worth delegating, and confront overreliance, writing personal rules for when to struggle and when to let the machine carry it.",
+  "audience": "student",
+  "grades": [
+    "9-12"
+  ],
+  "strands": [
+    "genai"
+  ],
+  "mode": "hybrid",
+  "minutes": 50,
+  "groupSize": "Individual audit, small-group analysis, whole-class synthesis",
+  "eles": [
+    "AI4.1",
+    "S4.1",
+    "S4.3",
+    "AI4.3"
+  ],
+  "overview": "The debate in the news swings between \"AI will hollow out a generation's thinking\" and \"it's just the next calculator.\" This activity puts the question where students can actually answer it: in their own week. Students log every place they used (or wanted to use) AI for schoolwork, then audit each one, was the AI carrying thinking that was the whole point of the task, or handling genuine busywork around the real learning? They meet cognitive offloading as a concept with a real research tension (some studies tie heavy reliance to weaker recall and effort, while careful use as a tutor or checker can support learning) and sort their own log against it. The goal is not guilt or a ban; it is judgment. Students name where overreliance is quietly costing them the skills they came to build, and where delegation is smart, then write rules they can keep and test. It is the ELE question aimed at themselves: what evidence shows the tool improved my learning, not just my output?",
+  "objectives": [
+    "Students will audit a week of their own AI use and classify each instance as offloaded thinking or delegated busywork.",
+    "Students will explain cognitive offloading and the mixed evidence on when AI reliance helps or harms learning.",
+    "Students will identify where their own overreliance risks the skills a course is meant to build.",
+    "Students will write and justify personal rules for when to struggle and when to delegate to AI."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: My AI Week, audit log (1 per student, started a few days ahead)",
+      "Handout B: The Offload Line, analysis + rules (1 per student)",
+      "Handout C: What the Evidence Says, a short reading (1 per student)"
+    ],
+    "digital": [
+      "Optional: students' own device screen or chat history, used privately to reconstruct their week accurately",
+      "Optional: a shared anonymous class tally of offload types (no names, no content)"
+    ]
+  },
+  "prep": [
+    "A few days before, give out Handout A so students log their real AI use across a normal week.",
+    "Print Handouts B and C for the in-class session.",
+    "Read Handout C so you can keep the discussion honest about what the research does and does not show.",
+    "Set the norm: the audit is private self-study; students share only what they choose."
+  ],
+  "steps": [
+    {
+      "phase": "Explore",
+      "minutes": 6,
+      "title": "Two headlines, one question",
+      "body": "Post two paraphrased headlines: one warning that AI is destroying students' ability to think, one shrugging that it is just a modern calculator. Ask: **\"Which is true for you?\"** Point out that neither headline knows how any individual actually uses AI. Today students get the only data that can answer it, a week of their own use, and audit it.",
+      "note": "Set the balanced frame immediately. The answer is not a slogan; it depends on what each student offloads. Their own log is the evidence."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 9,
+      "title": "What the evidence says",
+      "body": "Students read Handout C, a short, fair summary: some studies link heavy reliance on AI (and search, and GPS before it) to weaker memory and less mental effort, an effect researchers call cognitive offloading; other work shows AI used as a tutor, a prompter of questions, or a checker after you think can support learning. The honest conclusion: it depends on whether the tool carries the thinking that is the point. Students underline the one finding that most matches their own experience.",
+      "note": "Keep correlation honest: offloading studies show associations, not that AI dooms thinking. The usable truth is the distinction between carrying the thinking and carrying the busywork."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 14,
+      "title": "Audit the week",
+      "body": "Using their completed Handout A log, students move to Handout B and audit each entry on **the offload line**: on one side, the AI carried thinking that was the actual learning goal (it chose the argument, solved the problem you're learning to solve, wrote the analysis); on the other, it handled real busywork around the learning (formatting a works-cited list, fixing spelling, reformatting notes you already made). For each, they mark a verdict and a one-line reason. They total how much of their week fell on each side.",
+      "note": "The hard calls are the middle ones (\"AI explained a concept I was stuck on\"). Coach students to ask: did I understand it afterward, or just move on? That test sorts most gray cases."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 9,
+      "title": "Where is it costing me?",
+      "body": "In small groups, students share (only what they're comfortable with) one place their audit revealed overreliance, AI carrying thinking in a class whose whole point is to build that thinking (writing, problem-solving, language). Groups discuss: what skill is quietly not developing, and how would you know? Then each student names their single highest-risk habit.",
+      "note": "Make it about the skill at stake, not shame. A student who offloads all their writing isn't lazy; they're trading away the exact capacity the course exists to build. Name the trade, not the person."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 12,
+      "title": "Rules I can keep and test",
+      "body": "On Handout B, students write two or three personal rules tied to real situations, for example: \"In English, I draft before I touch AI, then use it only to question my argument,\" or \"I let AI format citations but never pick my sources.\" Each rule names a way to check it worked (I can explain my draft without notes; my test grade and my homework match). Close on the ELE question turned inward: **\"What evidence shows the tool improved my learning, not just my output?\"**",
+      "note": "Rules without a check don't stick. Insist each rule names observable evidence the student can look for next week, so this becomes a habit they monitor, not a one-day worksheet."
+    }
+  ],
+  "unplugged": "Fully workable on paper: the week's log can be reconstructed from memory, the reading is printed, and the audit, analysis, and rules are all pen-and-paper. No device is required at any point; the thinking is about the student's choices, not the tool.",
+  "digital": "Students may privately consult their own chat history or device to reconstruct their week accurately, which makes the audit sharper. A class can build an anonymous tally of common offload types (no names, no content) to see patterns, which often reveals that everyone offloads the same few tasks.",
+  "whyTech": "This activity is better the more honest the data, and a student's real history makes the audit concrete; but the learning is self-knowledge and judgment, so it runs just as well from memory on paper. No AI is used during the lesson, by design.",
+  "adaptations": [
+    {
+      "label": "Grade 9",
+      "text": "Narrow the audit to two classes and provide a starter list of common AI uses to classify, then write one rule per class."
+    },
+    {
+      "label": "Higher Ed",
+      "text": "Add an academic-integrity layer: students map their rules against the course's AI policy and draft an honest AI-use statement they could attach to an assignment."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Allow the log and rules in the home language and gloss cognitive offloading; using AI to translate is itself a good case to audit on the offload line."
+    },
+    {
+      "label": "Low AI access",
+      "text": "Students audit offloading to any tool or person (a sibling, a solutions manual, search), since the skill, judging what to hand off, transfers directly to AI."
+    }
+  ],
+  "lookFors": [
+    "Audit logs classify each AI use as carrying thinking versus carrying busywork, with reasons, not just labels.",
+    "Students explain cognitive offloading and represent the evidence as mixed rather than one-sided.",
+    "Students name a specific overreliance habit and the exact skill it puts at risk.",
+    "Personal rules are situation-specific and name observable evidence the student will check."
+  ],
+  "reflection": [
+    "Where on the offload line does most of your AI use fall, and what does that cost or save you? (Student ELE 4.3: awareness of strengths and areas to improve.)",
+    "What does the research let you claim, and what does it not, about AI and thinking? (AI ELE 4.1: critical thinking about AI information.)",
+    "Which rule will be hardest to keep, and how will you know if it's working? (Student ELE 4.1: responsibility for my own learning.)"
+  ],
+  "transfer": "Students run their rules for two weeks and bring back evidence (a test grade next to a homework grade, an essay they can defend without notes) showing whether their AI use helped learning or just output. The class refines the rules based on what the evidence showed.",
+  "connections": [
+    {
+      "title": "Augmented K–16 AI Learning Framework",
+      "url": "https://mglearn.github.io/tcea/alf/",
+      "note": "A model for using AI to augment, not replace, the learner's thinking."
+    },
+    {
+      "title": "AI Custom Instructions Library",
+      "url": "https://mglearn.github.io/tcea/custom-instructions-library/",
+      "note": "Instructions that make AI act as a tutor or questioner rather than an answer machine."
+    },
+    {
+      "title": "TCEA ELEs Alignment Assistant",
+      "url": "https://mglearn.github.io/tcea/eles/",
+      "note": "Connect the self-audit to the Student ELEs on owning your learning."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "My AI Week",
+      "type": "table",
+      "instructions": "For one normal week, log every time you used AI (or wanted to) for schoolwork. Be honest, this is private and not graded. Fill the last two columns later, in class.",
+      "columns": [
+        "Class / task",
+        "What I asked AI to do",
+        "Did I understand it after?",
+        "Offload line verdict (fill in class)"
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "B",
+      "title": "The Offload Line",
+      "type": "worksheet",
+      "instructions": "Use your week's log to analyze your AI use, then write rules you can actually keep and check.",
+      "sections": [
+        {
+          "prompt": "Roughly how much of your week's AI use CARRIED THE THINKING that was the point of the task, versus handled BUSYWORK around the learning? (You can draw two bars.)",
+          "boxes": true
+        },
+        {
+          "prompt": "Your clearest SMART delegation (AI handled busywork, your learning was fine):",
+          "lines": 2
+        },
+        {
+          "prompt": "Your riskiest OVERRELIANCE (AI carried thinking in a class built to grow that thinking). What skill is it costing you?",
+          "lines": 2
+        },
+        {
+          "prompt": "RULE 1 (name the class/situation, what you'll do, and how you'll check it worked):",
+          "lines": 2
+        },
+        {
+          "prompt": "RULE 2 (same: situation, action, evidence you'll look for):",
+          "lines": 2
+        },
+        {
+          "prompt": "RULE 3, optional:",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "What the Evidence Says",
+      "type": "reading",
+      "instructions": "Read it. Underline the one finding that most matches your own experience. Mark anything stated as a LINK (correlation) versus a proven CAUSE.",
+      "paragraphs": [
+        "Researchers use the term cognitive offloading for handing a mental task to an external tool, a calculator, a map app, a search engine, and now AI. Offloading is ancient and often smart: nobody memorizes every phone number anymore. The question is always what you are offloading and whether you needed to learn it.",
+        "Some concerning findings: studies have linked heavy reliance on search and GPS to weaker memory for the information itself and poorer independent navigation. Early research on AI assistants points the same way, when people let AI generate answers for tasks they were meant to learn, they often recall less and report putting in less mental effort. These are associations, and most are short-term; they do not prove AI permanently damages thinking.",
+        "Some reassuring findings: AI used well can support learning. As a tutor that asks you questions, a checker that reviews reasoning you did yourself, or a tool that handles busywork so you can focus on the hard part, it can deepen rather than replace thinking. The benefit shows up when the human keeps doing the thinking that is the actual goal.",
+        "The pattern across both: the tool is not the whole story, the task is. Offloading arithmetic you already understand frees you to think about the problem. Offloading the reasoning you came to class to learn trades away the skill itself. The same app can do either, depending on how you use it.",
+        "A fair bottom line: AI is neither a brain-rotting machine nor a harmless calculator. It is a powerful offloading tool, and whether it helps or costs you depends on a judgment you have to make, task by task. That judgment is what this audit is building."
+      ]
+    }
+  ]
+}

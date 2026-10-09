@@ -1,0 +1,207 @@
+{
+  "id": "ban-allow-or-teach",
+  "title": "Ban, Allow, or Teach?",
+  "tagline": "A leadership team works the ELE five-question check to craft a defensible stance on generative AI, moving past the headline fight over school AI moratoriums to decide what their own evidence, equity, and families actually require.",
+  "audience": "pl",
+  "roles": [
+    "leaders",
+    "coaches"
+  ],
+  "grades": [
+    "K-12"
+  ],
+  "strands": [
+    "genai"
+  ],
+  "mode": "unplugged",
+  "minutes": 75,
+  "groupSize": "A leadership team of 4–8; scalable to several campus teams working in parallel",
+  "eles": [
+    "L1.1",
+    "L4.2",
+    "L2.3",
+    "AI2.1"
+  ],
+  "overview": "Districts are being pushed to pick a side: some have declared broad AI moratoriums, others are racing to put AI in every classroom. Headlines reward the extremes, but a leader's job is a defensible stance, not a slogan. This session walks a leadership team through the ELE five-question check, vision, evidence, instruction, who's left out, and families, to reason toward a position on generative AI that fits their own context. Teams weigh the real tension in the news (concerns about cognitive offloading and weaker critical thinking against the risk of banning a tool students will use anyway and widening gaps for students without support at home). The outcome is not a predetermined \"teach it\" answer; a time-boxed, grade-banded moratorium can be the right call for a community, as can structured adoption. What the ELEs require is that the choice be driven by evidence of learning and equity, communicated to families, and revisited, not chosen by whoever is loudest.",
+  "objectives": [
+    "Leaders will apply the five-question check to a generative AI stance decision.",
+    "Leaders will weigh evidence on both sides of the ban-versus-teach debate without caricaturing either.",
+    "Leaders will draft a defensible, grade-banded AI stance tied to evidence of learning and equity.",
+    "Leaders will plan how to communicate the stance to families and when to revisit it."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The Five-Question Check, worksheet (1 per team)",
+      "Handout B: Four Real Stances, a reading of fictional districts' choices (1 per participant)",
+      "Handout C: Our Draft Stance + Family Message (1 per team)"
+    ],
+    "digital": [
+      "Optional: a shared document or slide to capture the draft stance for the full leadership team",
+      "Optional: existing student-work samples or survey data from your own schools as evidence"
+    ]
+  },
+  "prep": [
+    "Print Handout A and C per team and Handout B per participant.",
+    "Gather any local evidence you have (student surveys, work samples, teacher concerns) to ground the discussion in your context.",
+    "Seat mixed teams so a single strong opinion doesn't drive the table.",
+    "Frame the session honestly: there is no pre-approved answer; a thoughtful moratorium and a thoughtful rollout are both on the table."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 8,
+      "title": "The headline trap",
+      "body": "Open with two real-sounding headlines: a district announcing a sweeping AI moratorium, and another mandating AI in every lesson. Ask tables: **\"Whose community does each serve, and whose does it fail?\"** Draw out that both extremes can be defensible or reckless depending on context, and that a leader's accountability is to reasoning and evidence, not to the louder headline.",
+      "note": "Expect strong opinions in the room. Validate them, then redirect: the task isn't to win the debate, it's to build a stance you could defend to a skeptical board and a worried parent alike."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "Four real stances",
+      "body": "Teams read Handout B: four fictional districts that chose differently, a K–8 time-boxed moratorium, a high-school \"teach it with disclosure\" policy, an \"allow for busywork, not for graded thinking\" rule, and a chaotic no-policy district. For each, teams note what evidence drove it, who it helped, and who it left out. Debrief: none is perfect; each reflects a context and a set of trade-offs.",
+      "note": "The no-policy district matters most: doing nothing is itself a choice, usually the least equitable one, because it leaves teachers and families to improvise alone."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 30,
+      "title": "Work the five-question check",
+      "body": "Teams work Handout A on their own context. **Vision:** what is the learning we want, and where could AI help or harm it? **Evidence:** what will we watch to know, student work, offloading patterns, growth, not tool-usage counts? **Instruction:** what changes for teachers, and what support do they get? **Who's left out:** which students gain or lose under each option (no home access, emergent bilinguals, students with disabilities)? **Families:** how will we explain this so a worried parent understands? Teams must consider at least a moratorium option and a structured-use option before deciding.",
+      "note": "Push teams off tool-usage metrics. \"80% of teachers used the AI tool\" is not evidence of learning. Keep asking: what would show student thinking improved, or didn't?"
+    },
+    {
+      "phase": "Create",
+      "minutes": 15,
+      "title": "Draft the stance and the family message",
+      "body": "On Handout C, each team writes a one-paragraph stance (what is allowed, for whom, by grade band, and why), the top two pieces of evidence they'll monitor, and a plain-language message to families, three sentences a parent would actually understand. They set a revisit date. Teams swap drafts and stress-test: could you defend this to the board? To a parent who fears AI is doing their child's thinking? To a teacher who loves it?",
+      "note": "The family message is the integrity check. If a stance can't be explained to families in plain language, it usually isn't clear enough internally either."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 10,
+      "title": "Defensible, not loud",
+      "body": "Each team shares its stance in one minute and names the hardest trade-off they accepted. Close on the ELE commitment: a leader's AI stance is judged not by how bold it sounds but by whether it is driven by evidence of learning, protects the students most likely to be left out, is understood by families, and can be revisited as the evidence changes.",
+      "note": "Name that revisiting is strength, not weakness. A stance locked forever will be wrong within a year; one with a built-in review date stays honest."
+    }
+  ],
+  "unplugged": "The whole session runs on paper: the five-question worksheet, the printed stance scenarios, and the handwritten draft stance and family message. Leadership reasoning and discussion need no devices.",
+  "digital": "Capture the draft stance in a shared document so the full leadership team and board can see and refine it, and attach any local evidence (survey results, work samples). If several campuses meet remotely, each team can work a shared slide and compare stances live.",
+  "whyTech": "This is deliberately unplugged: the work is human judgment and consensus, and paper keeps the five questions, not a tool, at the center. Devices only help afterward, to share and refine the decision.",
+  "adaptations": [
+    {
+      "label": "Single campus",
+      "text": "One team works all five questions for the whole campus; add department heads so the stance reflects different subjects' needs."
+    },
+    {
+      "label": "Higher Ed",
+      "text": "Frame the stance around academic-integrity policy and syllabus-level AI statements, and weigh program accreditation expectations."
+    },
+    {
+      "label": "Small district",
+      "text": "Combine roles so one team covers vision through families; lean on the four-stance reading to borrow options you don't have staff to invent."
+    },
+    {
+      "label": "Coaches facilitating",
+      "text": "Coaches run the five-question check as neutral facilitators, capturing the team's evidence choices to translate into teacher support later."
+    }
+  ],
+  "lookFors": [
+    "Teams answer all five questions for their own context, considering at least a moratorium and a structured-use option.",
+    "Evidence named is about student learning (work, growth, offloading), not tool-usage counts.",
+    "The draft stance is grade-banded, names who could be left out and how it protects them, and sets a revisit date.",
+    "The family message is three plain sentences a worried parent would understand."
+  ],
+  "reflection": [
+    "What learning do we want, and where does AI help or harm it? (Leader ELE 1.1: create and communicate a vision for technology.)",
+    "Under our stance, which students gain and which could be left out? (Leader ELE 4.2: policies for equitable access.)",
+    "What evidence, not tool usage, will tell us whether this is working, and when will we revisit it? (AI ELE 2.1: ethical, accountable AI use.)"
+  ],
+  "transfer": "Within two weeks, bring the draft stance to the full leadership team and one family representative for feedback, then publish the plain-language version to families in the languages they use. Calendar the revisit date now, and decide the two pieces of evidence you'll collect before then.",
+  "connections": [
+    {
+      "title": "Generative AI Adoption Checklist",
+      "url": "https://mglearn.github.io/tcea/ai-adoption-checklist/",
+      "note": "A step-by-step checklist to turn the draft stance into an implementation plan."
+    },
+    {
+      "title": "Augmented K–16 AI Learning Framework",
+      "url": "https://mglearn.github.io/tcea/alf/",
+      "note": "Grounds a teach-it stance in augmenting rather than replacing student thinking."
+    },
+    {
+      "title": "PROTECT Rubric v2.0",
+      "url": "https://mglearn.github.io/tcea/protect_rubric_v2/",
+      "note": "Criteria for evaluating whether an AI use protects students and learning."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The Five-Question Check",
+      "type": "worksheet",
+      "instructions": "Work these five questions for YOUR context. You must consider at least a time-boxed moratorium option and a structured-use option before you decide.",
+      "sections": [
+        {
+          "prompt": "VISION: What learning do we want for our students, and where could generative AI genuinely help it, or quietly harm it (e.g., cognitive offloading of the thinking we're trying to build)?",
+          "lines": 3
+        },
+        {
+          "prompt": "EVIDENCE: What will we watch to know if it's working? (Student work, reasoning, growth, offloading patterns, NOT tool-usage counts.)",
+          "lines": 3
+        },
+        {
+          "prompt": "INSTRUCTION: What changes for teachers under each option, and what training and support will they get?",
+          "lines": 3
+        },
+        {
+          "prompt": "WHO'S LEFT OUT: Under a moratorium and under structured use, which students gain and which lose (no home access, emergent bilinguals, students with disabilities)?",
+          "lines": 3
+        },
+        {
+          "prompt": "FAMILIES: How will we explain our choice so a worried parent understands and trusts it?",
+          "lines": 3
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Four Real Stances",
+      "type": "reading",
+      "instructions": "Four fictional districts chose differently. For each, note what evidence drove it, who it helped, and who it left out. None is perfect.",
+      "paragraphs": [
+        "MAPLE HOLLOW ISD (time-boxed K–8 moratorium): Worried about young students offloading early reading and math thinking, Maple Hollow paused student-facing AI for grades K–8 for one school year, while training teachers and piloting uses to revisit in spring. Strength: protects foundational skills and buys time to plan. Risk: students still meet AI at home with no guidance, and the pause can harden into a permanent ban nobody revisits.",
+        "RIO VERDE HIGH (teach it, with disclosure): Rio Verde allows AI in most courses but requires students to disclose how they used it and to defend their thinking in person. Strength: builds judgment and keeps the human in the loop. Risk: uneven teacher readiness means some classes do this well and others rubber-stamp it; students without home access start behind.",
+        "CEDAR FALLS ISD (allow for busywork, not graded thinking): Cedar Falls permits AI for formatting, brainstorming, and study support, but bars it from the graded thinking a course is meant to assess. Strength: a clear, teachable line between smart delegation and offloading the learning. Risk: the line is hard to police and depends on teachers redesigning assessments to make thinking visible.",
+        "NO-POLICY DISTRICT (did nothing): This district never issued guidance. Teachers improvise wildly different rules, students are confused and sometimes punished inconsistently, and families have no idea what's allowed. Strength: none, really. Risk: doing nothing is itself a choice, usually the least fair one, because it leaves the most vulnerable students and least-supported teachers to fend for themselves.",
+        "Discussion: Which of these is closest to where your district actually is today? Which trade-offs could your community accept, and which could it not? What would you borrow from more than one of them?"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Our Draft Stance + Family Message",
+      "type": "worksheet",
+      "instructions": "Draft a stance you could defend to the board, a worried parent, AND an enthusiastic teacher. Then write the family message in plain language.",
+      "sections": [
+        {
+          "prompt": "OUR STANCE (one paragraph): what's allowed, for whom, by grade band, and why:",
+          "lines": 4
+        },
+        {
+          "prompt": "The TWO pieces of evidence (about learning, not usage) we will monitor:",
+          "lines": 2
+        },
+        {
+          "prompt": "The hardest trade-off we accepted, and who it affects:",
+          "lines": 2
+        },
+        {
+          "prompt": "MESSAGE TO FAMILIES (exactly 3 plain sentences a worried parent would understand):",
+          "lines": 3
+        },
+        {
+          "prompt": "Date we will revisit this stance:",
+          "lines": 1
+        }
+      ]
+    }
+  ]
+}

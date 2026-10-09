@@ -360,6 +360,8 @@
  "topic.families": "families and community",
  "topic.futures": "futures thinking",
  "topic.ads": "ads and persuasion",
+ "topic.cognitive-offloading": "AI and thinking",
+ "topic.image-abuse": "AI image abuse",
  "hs.label": "Search activities",
  "hs.placeholder": "Search a topic: screen time, deepfakes, privacy…",
  "hs.button": "Search",

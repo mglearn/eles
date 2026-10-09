@@ -1,0 +1,218 @@
+{
+  "id": "thinking-ai-cant-fake",
+  "title": "Thinking AI Can't Fake",
+  "tagline": "Teachers and coaches take an assignment a chatbot can finish in ten seconds and redesign it so the thinking stays with the student, trading plagiarism panic for tasks that make reasoning visible and resist cognitive offloading.",
+  "audience": "pl",
+  "roles": [
+    "teachers",
+    "coaches"
+  ],
+  "grades": [
+    "K-12",
+    "Higher Ed"
+  ],
+  "strands": [
+    "genai"
+  ],
+  "mode": "unplugged",
+  "minutes": 60,
+  "groupSize": "Pairs or grade/department teams of 2–4",
+  "eles": [
+    "T5.1",
+    "T2.1",
+    "C2.1",
+    "AI4.1"
+  ],
+  "overview": "Most AI-in-school anxiety is really about assignments that AI can now complete invisibly, which turns teachers into detectives and students into suspects. This session offers a better move: stop policing the tool and redesign the task so the thinking is the point and the evidence. Participants take a real assignment they already use, test how easily a chatbot could do it, and then rebuild it using moves that resist cognitive offloading, requiring in-process reasoning, personal or local specifics, defense of choices, revision based on feedback, and comparison or critique of an AI answer rather than acceptance of it. Coaches practice the cycle (listen, co-plan, model, measure, adjust) around a teacher's redesign and name the evidence to watch. The stance is balanced: AI is not forbidden in the redesigned task, often it is deliberately part of it, but the student's thinking is what gets made visible and assessed. The guiding question stays the ELE one: what evidence shows the learning, with or without the tool?",
+  "objectives": [
+    "Teachers will test an existing assignment for how easily AI could complete it unseen.",
+    "Teachers will redesign the task using at least two moves that make student thinking visible and resist offloading.",
+    "Teachers will name the evidence of learning the redesigned task produces.",
+    "Coaches will frame a coaching cycle around the redesign, focused on changes in student evidence."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The AI Stress Test, worksheet (1 per participant)",
+      "Handout B: Seven Redesign Moves, a reference + planner (1 per participant)",
+      "Handout C: Coaching the Redesign, cycle planner (1 per coach or pair)"
+    ],
+    "digital": [
+      "Optional: a district-approved chatbot to actually run participants' current assignments through and see the output",
+      "Optional: a shared drive of redesigned tasks for the department to reuse"
+    ]
+  },
+  "prep": [
+    "Ask participants to bring one real assignment they currently assign (paper copy or printed).",
+    "Print Handouts A and B per participant and C per coach.",
+    "If using the optional chatbot, confirm the approved tool and that no student data is entered.",
+    "Set the tone: this is not about catching cheaters; it's about designing tasks worth doing."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 7,
+      "title": "Ten seconds to done",
+      "body": "Ask participants to hold up the assignment they brought and silently rate, one to five, how completely a chatbot could do it right now. Most will admit three or higher. Say: **\"If AI can finish it in ten seconds and we'd never know, the problem isn't the students, it's the task.\"** Reframe the goal: not detection, but redesign, so the thinking is the thing that shows.",
+      "note": "Relieve the guilt and the panic. Teachers feel blamed from both sides; position redesign as professional craft, not as surrender to or war against AI."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "The AI stress test",
+      "body": "Participants run their assignment through Handout A: What exactly does it ask for, a product or the thinking behind it? Could AI produce it with no trace? What thinking was the assignment supposed to grow, and does the current version actually require it? If an approved chatbot is available, they literally paste the prompt and read the result, noting how good, and how hollow, it is. The gap between a slick AI output and real understanding is the opening for redesign.",
+      "note": "The live chatbot run is sobering and motivating. If unplugged, participants predict the output; most predict accurately, which makes the same point."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Seven moves that resist offloading",
+      "body": "Walk Handout B's seven redesign moves with a quick example of each: require **in-process evidence** (drafts, reasoning, not just the final product); anchor in **personal or local specifics** AI can't know; require students to **defend choices** orally or in writing; build in **revision after feedback**; make the task **compare or critique an AI answer** instead of producing one; shift to **in-class reasoning** or performance; and assess **the process, not just the product**. Note that several moves use AI on purpose, with the student's judgment as the graded part.",
+      "note": "Stress that no single move is a silver bullet; combining two or three is what makes thinking visible. Avoid moves that just add surveillance; aim for tasks that are better, not just harder to cheat."
+    },
+    {
+      "phase": "Create",
+      "minutes": 18,
+      "title": "Redesign your task",
+      "body": "In pairs or teams, each teacher redesigns their assignment using at least two moves from Handout B, writing the new version on the planner. They must answer: what thinking does this now require that AI can't fake, and what evidence of learning will I see? Partners test each other's redesign with the skeptic's question: **\"Could a student still get a top mark by letting AI do the thinking? If yes, which move closes that gap?\"**",
+      "note": "Circulate for the common trap: adding hoops (handwritten, timed) without deepening thinking. Redirect toward moves that make reasoning visible, which improve the task even in a world with no AI."
+    },
+    {
+      "phase": "Transfer",
+      "minutes": 12,
+      "title": "Coach the redesign",
+      "body": "Coaches (or pairs role-playing coach and teacher) use Handout C to frame a cycle around the redesign: **listen** (what does the teacher want students to be able to do?), **co-plan** (which moves and what evidence?), **model/measure** (how will we look at the resulting student work together?), **adjust** (what will we change next time?). The coaching question stays: **\"What changed in student evidence?\"** not \"Did they use AI?\"",
+      "note": "Keep coaches off compliance (\"did you redesign it?\") and on evidence (\"show me two pieces of student work, what thinking do you see?\"). That's the ELE coaching move."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 5,
+      "title": "The real test",
+      "body": "Each pair names one move they'll use this week and the evidence they'll collect. Close on the ELE question: a task is AI-ready not when it blocks the tool, but when the student's thinking is what shows, so that **what evidence shows the learning** can be answered honestly, whether or not AI was in the room.",
+      "note": "End forward-looking: the redesigned task should be one the teacher is genuinely prouder of, not just harder to game."
+    }
+  ],
+  "unplugged": "The session runs fully on paper: participants bring printed assignments, predict AI output rather than generate it, and redesign on the planners. The seven moves, the redesign, and the coaching cycle need no devices.",
+  "digital": "An approved chatbot makes the stress test visceral, participants see their own assignment completed in seconds, which fuels the redesign. A shared drive lets a department bank and reuse redesigned tasks, multiplying the session's payoff.",
+  "whyTech": "Running a real assignment through AI is the one place a device genuinely adds evidence: it converts \"students might cheat\" into \"here is exactly what the tool produces and what it misses.\" Everything else is better unplugged, keeping the focus on task design and student thinking.",
+  "adaptations": [
+    {
+      "label": "K–2 teachers",
+      "text": "Focus on oral defense and in-the-moment reasoning (show-and-tell your thinking); AI completion is less the issue than designing for visible thinking early."
+    },
+    {
+      "label": "Higher Ed faculty",
+      "text": "Apply the moves to essays and problem sets at scale, and pair with a syllabus AI-use statement students sign and follow."
+    },
+    {
+      "label": "Coaches new to the cycle",
+      "text": "Use Handout C as a script for a first cycle, keeping every conversation anchored to two pieces of student work."
+    },
+    {
+      "label": "Single-subject teams",
+      "text": "Teams redesign one shared common assessment together so the whole grade level benefits from one strong redesign."
+    }
+  ],
+  "lookFors": [
+    "Teachers accurately rate how completely AI could do their current assignment and name the thinking it was meant to grow.",
+    "Redesigned tasks use at least two offloading-resistant moves and specify the evidence of learning they produce.",
+    "A partner cannot easily get a top mark on the redesign by offloading the thinking to AI.",
+    "Coaching plans target changes in student evidence, not tool detection or compliance."
+  ],
+  "reflection": [
+    "What thinking was your assignment meant to grow, and did the old version actually require it? (Teacher ELE 5.1: design lessons that promote higher-order thinking.)",
+    "Which redesign move most changes what students have to do, and why? (Teacher ELE 2.1: teach students to critically evaluate information.)",
+    "As a coach, what student evidence would tell you the redesign worked? (Coach ELE 2.1: guide meaningful technology integration.)"
+  ],
+  "transfer": "Teachers deploy the redesigned task this cycle and bring two pieces of resulting student work to the next team meeting or coaching session to examine the thinking it surfaced. Successful redesigns go into a shared department bank, and the team tackles the next AI-vulnerable common assessment.",
+  "connections": [
+    {
+      "title": "Augmented K–16 AI Learning Framework",
+      "url": "https://mglearn.github.io/tcea/alf/",
+      "note": "Design principles for tasks where AI augments rather than replaces student thinking."
+    },
+    {
+      "title": "High-Effect Strategy Coach",
+      "url": "https://mglearn.github.io/tcea/coach-tool/",
+      "note": "Supports the coaching cycle around the redesign."
+    },
+    {
+      "title": "TCEA Blog: Coaching That Clicks With Micro-Teaching (Miguel Guhlin, 2026)",
+      "url": "https://blog.tcea.org/coaching-that-clicks-with-micro-teaching/",
+      "note": "A coaching approach that pairs well with iterating on redesigned tasks."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The AI Stress Test",
+      "type": "worksheet",
+      "instructions": "Run the assignment you brought through this test. Be honest about how exposed it is, that's the opening for a better task.",
+      "sections": [
+        {
+          "prompt": "What does the assignment ask students to turn in, and does it reward the PRODUCT or the THINKING behind it?",
+          "lines": 2
+        },
+        {
+          "prompt": "On a scale of 1–5, how completely could a chatbot do this with no trace? What exactly could it produce?",
+          "lines": 2
+        },
+        {
+          "prompt": "What thinking was this assignment SUPPOSED to grow? Does the current version actually require it?",
+          "lines": 2
+        },
+        {
+          "prompt": "The gap: where does a slick AI answer fall short of real understanding on this task?",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Seven Redesign Moves",
+      "type": "worksheet",
+      "instructions": "Pick at least TWO moves and rebuild your task below. The goal is a better task, not just a harder-to-cheat one. Several moves use AI on purpose, with the student's judgment as the graded part.",
+      "sections": [
+        {
+          "prompt": "THE MOVES (reference): 1) Require in-process evidence (drafts, reasoning logs). 2) Anchor in personal or local specifics AI can't know. 3) Require students to defend their choices, out loud or in writing. 4) Build in revision after feedback. 5) Have students compare or critique an AI answer rather than produce one. 6) Shift key reasoning to in-class performance. 7) Assess the process, not just the product. Which two (or more) will you use?",
+          "lines": 2
+        },
+        {
+          "prompt": "MY REDESIGNED TASK (write the new version students would receive):",
+          "lines": 4
+        },
+        {
+          "prompt": "What thinking does this now require that AI can't fake?",
+          "lines": 2
+        },
+        {
+          "prompt": "What evidence of learning will I actually see from this task?",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Coaching the Redesign",
+      "type": "worksheet",
+      "instructions": "Frame a coaching cycle around a teacher's redesign. Keep every step anchored to student evidence, not tool detection.",
+      "sections": [
+        {
+          "prompt": "LISTEN: What does the teacher want students to be able to do? What's the worry behind the assignment?",
+          "lines": 2
+        },
+        {
+          "prompt": "CO-PLAN: Which redesign moves, and what evidence of learning will we look for together?",
+          "lines": 2
+        },
+        {
+          "prompt": "MODEL / MEASURE: How and when will we examine the resulting student work side by side?",
+          "lines": 2
+        },
+        {
+          "prompt": "ADJUST: Our coaching question is \"What changed in student evidence?\" What will we change next cycle?",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

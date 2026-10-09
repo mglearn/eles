@@ -1,0 +1,206 @@
+{
+  "id": "before-it-happens-family-talk",
+  "title": "Before It Happens: The Family Talk",
+  "tagline": "A campus team builds, and sends home, a calm, trauma-informed guide that helps families talk with their teen about AI deepfake images and sextortion before a crisis, leading with \"come to me, you won't be in trouble\" instead of fear.",
+  "audience": "pl",
+  "roles": [
+    "teachers",
+    "leaders",
+    "staff"
+  ],
+  "grades": [
+    "6-8",
+    "9-12"
+  ],
+  "strands": [
+    "digcit"
+  ],
+  "mode": "hybrid",
+  "minutes": 60,
+  "groupSize": "A campus team of 4–8 preparing a family-facing resource and conversation",
+  "eles": [
+    "L5.1",
+    "L5.2",
+    "T4.3",
+    "AI2.1"
+  ],
+  "overview": "Families often hear about AI deepfake image abuse and sextortion only after it hits their child or makes the news, and by then fear drives the conversation. This session helps a campus team get ahead of it by building a short, calm, trauma-informed family guide and a plan to get it into homes in the languages families use. Teams learn the essentials, what these images are, that sextortion schemes target teens, that it is never the young person's fault, and what the law and takedown options now provide, and then translate that into warm, plain language a parent can actually use at the kitchen table. The anchor message is relationship, not fear: the single most protective thing a family can do is make sure a teen believes \"if this ever happens, come to me and you will not be in trouble.\" Teams draft conversation starters, a what-to-do-tonight box, and a resource list, and avoid the common traps of scaring teens, blaming victims, or burying the one message that matters.",
+  "objectives": [
+    "Teams will identify the essentials families need to know about deepfake image abuse and sextortion.",
+    "Teams will draft a calm, trauma-informed family guide in plain, warm language.",
+    "Teams will craft the core \"come to me, you won't be in trouble\" message and conversation starters.",
+    "Teams will plan how to deliver the guide to all families, in the languages they use."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: What Families Need to Know, essentials brief (1 per participant)",
+      "Handout B: Build the Family Guide, drafting template (1 per team)",
+      "Handout C: Get It Home, delivery + conversation-starter planner (1 per team)"
+    ],
+    "digital": [
+      "Optional: your district's reporting contacts, counseling resources, and a reputable takedown-help service to include in the guide",
+      "Optional: translation support or tools to produce the guide in families' languages"
+    ]
+  },
+  "prep": [
+    "Gather real local resources: reporting contacts, counseling, and a reputable takedown-help service for minors.",
+    "Print Handout A per participant and B and C per team.",
+    "Decide the delivery channels you actually have (newsletter, event, LMS, text) so Handout C is realistic.",
+    "Coordinate with counselors and align with the staff and student companion activities."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 7,
+      "title": "Fear is not a plan",
+      "body": "Ask the team: **\"How do most families first learn about deepfake image abuse or sextortion?\"** Usually a scary news story or their own child's crisis. Ask what that timing does to the conversation (panic, lectures, blame). Set the goal: get a calm, useful guide into homes first, so families lead with relationship instead of fear, and so a targeted teen tells a parent instead of hiding it.",
+      "note": "Name the stakes plainly: in sextortion especially, shame and fear of punishment keep teens silent, and silence is what predators and abusers count on. The family message is a safety intervention."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 12,
+      "title": "What families need to know",
+      "body": "Teams read Handout A: what deepfake images are; that sextortion (threatening to share real or fake intimate images unless the victim pays or complies) increasingly targets teens, including boys; that it is never the young person's fault; that the 2025 Take It Down Act requires fast platform removal; and the simple steps a family takes (don't pay, don't comply, save proof, tell, report, request takedown). Teams highlight the three or four points that matter most for their families.",
+      "note": "Boys are heavily targeted in financial sextortion; say so, since many families assume only girls are at risk. Keep every fact accurate and non-graphic."
+    },
+    {
+      "phase": "Create",
+      "minutes": 22,
+      "title": "Build the family guide",
+      "body": "On Handout B, teams draft a one-page family guide with four parts: (1) a short, non-scary explanation of what this is; (2) the anchor message, warm wording of **\"if anyone ever does this to you, come to me, you will not be in trouble, I will help you\"**; (3) a **what to do tonight** box (the family's steps if it happens); and (4) a resource list with real local contacts. The rules: plain language, no graphic detail, no victim-blaming, and the come-to-me message must be impossible to miss.",
+      "note": "Teams tend to over-explain the threat and under-emphasize the relationship message. Keep pushing the ratio toward \"come to me\" and concrete steps."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 12,
+      "title": "Get it home, to everyone",
+      "body": "On Handout C, teams plan delivery: which channels reach all families (not just the engaged ones), how to produce the guide in the languages families speak, and whether to pair it with a brief family event or a counselor Q and A. They also draft two or three conversation starters parents can use (\"Have you heard of people faking photos with AI? What would you do if it happened to someone you know?\") so the guide sparks a talk, not just a flyer in a backpack.",
+      "note": "Equity check: a guide only in English, sent only by email, reaches the already-reached. Push for the languages and channels that actually cover the community."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 7,
+      "title": "The one message test",
+      "body": "Each team reads its guide aloud and the others apply the one-message test: **\"If a tired parent remembers only one thing from this, is it 'come to me, you won't be in trouble'?\"** If not, revise. Close on the standard: the guide succeeds not when it scares families into vigilance, but when it makes a targeted teen more likely to reach a caring adult, fast.",
+      "note": "End on that single measure. A beautiful, thorough guide that buries the come-to-me message has failed the kids it's for."
+    }
+  ],
+  "unplugged": "The drafting runs fully on paper: the essentials brief, the guide template, and the delivery planner need no devices, and the resulting guide can be printed and sent home in backpacks for families without reliable internet.",
+  "digital": "Use devices to pull in accurate local resource links, produce the guide in multiple languages, and deliver it through the channels families actually use (LMS, text, newsletter). A short virtual counselor Q and A can widen reach for families who can't attend in person.",
+  "whyTech": "The drafting and judgment are best unplugged, but delivery is where technology earns its place: reaching every family, in their language, through the channels they use, is exactly what makes the guide protective rather than performative.",
+  "adaptations": [
+    {
+      "label": "Elementary campus",
+      "text": "Shift the guide toward age-appropriate framing for younger students and emphasize parental supervision, open conversation, and reporting over teen autonomy."
+    },
+    {
+      "label": "Large district",
+      "text": "Build one strong template centrally, then let each campus localize contacts and languages so every family gets a guide that fits their school."
+    },
+    {
+      "label": "Multilingual community",
+      "text": "Co-create the guide with bilingual families or liaisons so wording is culturally resonant, not just translated, and the come-to-me message lands."
+    },
+    {
+      "label": "Pair with an event",
+      "text": "Attach the guide to a family night (see the Family AI Night activity) with counselors present, so families can ask questions in a supportive setting."
+    }
+  ],
+  "lookFors": [
+    "The guide explains the threat accurately, non-graphically, and without blaming victims.",
+    "The come-to-me, you-won't-be-in-trouble message is prominent and warmly worded.",
+    "A what-to-do-tonight box gives families concrete steps, and the resource list has real local contacts.",
+    "The delivery plan reaches all families in the languages they use, not only the already-engaged."
+  ],
+  "reflection": [
+    "Does our guide lead with relationship and safety rather than fear? (Teacher/Leader ELE 4.3 and 5.1: emotional support and family partnership.)",
+    "Will this actually reach every family, in their language, through a channel they use? (Leader ELE 5.2: communicating with all stakeholders.)",
+    "If a parent remembers one thing, is it 'come to me, you won't be in trouble'? (AI ELE 2.1: using knowledge of AI harms responsibly and ethically.)"
+  ],
+  "transfer": "Finalize and send the guide home within two weeks, in the languages families use, through channels that reach everyone, and offer a brief counselor Q and A. Align it with the student lessons and staff training so families, students, and adults share one calm, consistent message before any incident occurs.",
+  "connections": [
+    {
+      "title": "Digital Citizenship Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/digcit/",
+      "note": "Student-facing digital-citizenship lessons to pair with the family guide and a supportive family event."
+    },
+    {
+      "title": "AAP Family Media Plan (HealthyChildren.org)",
+      "url": "https://www.healthychildren.org/English/fmp/Pages/MediaPlan.aspx",
+      "note": "A trusted family resource to include alongside the guide."
+    },
+    {
+      "title": "AAP policy statement: Digital Ecosystems, Children, and Adolescents (Pediatrics, 2026)",
+      "url": "https://publications.aap.org/pediatrics/article/157/2/e2025075320/206129/Digital-Ecosystems-Children-and-Adolescents-Policy",
+      "note": "Pediatric guidance supporting the wellbeing-first, relationship-first approach."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "What Families Need to Know",
+      "type": "reading",
+      "instructions": "Read with your team. Highlight the 3–4 points that matter most for YOUR families. This is background, not legal advice; verify local specifics.",
+      "paragraphs": [
+        "What it is: Apps can fabricate realistic nude or sexual images of a real person who never posed. When done to a teen, it is image-based sexual abuse, not a prank, and it can be a crime even when a minor made it.",
+        "Sextortion is rising and targets teens: In sextortion, someone threatens to share real or fake intimate images unless the victim sends money or more images. It targets girls and, very often, boys, frequently through financial schemes. The pressure is designed to make the teen panic and stay silent.",
+        "It is never the young person's fault: Whether an image is real or an AI fake, the blame lies with the person who made or shared or threatened, never the target. This is the belief that lets a teen come forward.",
+        "There is a real path: The 2025 federal Take It Down Act makes non-consensual sharing of intimate images, including deepfakes, a crime and requires platforms to remove reported material quickly. Free services help remove images of minors from participating platforms.",
+        "The steps if it happens: Don't pay and don't comply with threats; save proof of where it is without forwarding it; tell a trusted adult; report to the platform and, with an adult, to law enforcement or the national reporting line; and request takedown. Get emotional support, not just logistics.",
+        "The most protective thing a family can do: Make sure, before anything happens, that the teen knows, \"If anyone ever does this to you or threatens you, come to me. You will not be in trouble. I will help you.\" Shame and fear of punishment are exactly what keep teens silent and in danger."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Build the Family Guide",
+      "type": "worksheet",
+      "instructions": "Draft a one-page guide for families. Rules: plain, warm language; no graphic detail; no victim-blaming; and make the come-to-me message impossible to miss.",
+      "sections": [
+        {
+          "prompt": "PART 1, What this is (2–3 non-scary sentences a parent can understand):",
+          "lines": 3
+        },
+        {
+          "prompt": "PART 2, THE ANCHOR MESSAGE (warm wording of \"come to me, you won't be in trouble, I'll help you\"):",
+          "lines": 2
+        },
+        {
+          "prompt": "PART 3, WHAT TO DO TONIGHT box (the family's steps if it happens: don't pay/comply, save proof, tell, report, request takedown):",
+          "lines": 3
+        },
+        {
+          "prompt": "PART 4, Resources (real local contacts: reporting, counseling, takedown help):",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Get It Home",
+      "type": "worksheet",
+      "instructions": "Plan delivery so EVERY family gets this, in their language, and draft conversation starters so it sparks a talk, not just a flyer.",
+      "sections": [
+        {
+          "prompt": "Channels that actually reach ALL our families (not just the engaged ones):",
+          "lines": 2
+        },
+        {
+          "prompt": "Languages we must produce this in, and who will help make it resonant, not just translated:",
+          "lines": 2
+        },
+        {
+          "prompt": "Whether we'll pair it with a family event or counselor Q and A, and when:",
+          "lines": 1
+        },
+        {
+          "prompt": "2–3 conversation starters parents can use at home (e.g., \"What would you do if a friend got a fake photo made of them?\"):",
+          "lines": 3
+        },
+        {
+          "prompt": "The one-message test: if a parent remembers ONE thing, is it \"come to me, you won't be in trouble\"? If not, fix it here:",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

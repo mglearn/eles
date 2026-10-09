@@ -2036,5 +2036,198 @@
    "ss-sources"
   ],
   "note": "Students name engagement and persuasion techniques in notifications and feeds, audit their own device with family, and reset defaults, media-literacy analysis of designed environments."
+ },
+ "did-the-ai-do-the-thinking": {
+  "teks": [
+   "ta-ct",
+   "elar-comp"
+  ],
+  "elps": [
+   "c1",
+   "c3"
+  ],
+  "udl": [
+   "3.2",
+   "6.4",
+   "9.3",
+   "7.4"
+  ],
+  "sst": [
+   "rla-reading"
+  ],
+  "note": "Students compare a task done by hand with one done by AI, then test what they retained, surfacing cognitive offloading and when a tool helps or replaces their thinking."
+ },
+ "the-offloading-audit": {
+  "teks": [
+   "ta-ct",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c1",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "6.4",
+   "9.3",
+   "3.4",
+   "7.1"
+  ],
+  "sst": [
+   "rla-writing"
+  ],
+  "note": "Students audit a week of their own AI use, weigh mixed evidence on cognitive offloading, and set personal rules for when to struggle versus delegate, owning their learning."
+ },
+ "ban-allow-or-teach": {
+  "teks": [
+   "ta-dc-9",
+   "ta-ptc"
+  ],
+  "elps": [
+   "c1",
+   "c3"
+  ],
+  "udl": [
+   "8.1",
+   "9.3",
+   "6.2",
+   "8.3"
+  ],
+  "sst": [],
+  "note": "Leaders apply the five-question check to craft a defensible, equity-minded generative-AI stance grounded in evidence of learning rather than headlines about AI moratoriums."
+ },
+ "thinking-ai-cant-fake": {
+  "teks": [
+   "ta-ci",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c1",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "5.2",
+   "8.5",
+   "6.4"
+  ],
+  "sst": [
+   "rla-writing"
+  ],
+  "note": "Teachers redesign assignments so student thinking is visible and resistant to cognitive offloading, and coaches frame a cycle focused on changes in student evidence."
+ },
+ "the-struggle-is-the-point": {
+  "teks": [
+   "ta-ct",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "8.2",
+   "9.1",
+   "6.2",
+   "7.3"
+  ],
+  "sst": [],
+  "note": "Children learn a help ladder for productive struggle and make a family homework-help agreement about when to try first and when asking AI or a grown-up skips the learning."
+ },
+ "when-it-happens-here": {
+  "teks": [
+   "ta-dc-10",
+   "ta-dc-8"
+  ],
+  "elps": [
+   "c1",
+   "c3"
+  ],
+  "udl": [
+   "7.4",
+   "9.4",
+   "6.2",
+   "8.4"
+  ],
+  "sst": [],
+  "note": "A leadership team rehearses a trauma-informed response to non-consensual AI deepfake image abuse: support the targeted student first, preserve and report, pursue takedown, and communicate without harm."
+ },
+ "know-the-law-know-the-line": {
+  "teks": [
+   "ta-dc-10",
+   "ta-dc-8"
+  ],
+  "elps": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "7.4",
+   "9.4",
+   "8.4",
+   "6.2"
+  ],
+  "sst": [],
+  "note": "Staff learn what AI deepfake image abuse is, their mandatory-reporting duty and the line not to cross, and rehearse a calm, trauma-informed response to a student disclosure."
+ },
+ "not-a-prank-its-abuse": {
+  "teks": [
+   "ta-dc-10",
+   "ta-dc-9"
+  ],
+  "elps": [
+   "c1",
+   "c3",
+   "c4"
+  ],
+  "udl": [
+   "9.4",
+   "7.4",
+   "3.3",
+   "8.4"
+  ],
+  "sst": [],
+  "note": "Students learn that making or sharing an AI nude of a real person is image-based sexual abuse and illegal, what to do if targeted, and bystander actions that stop rather than spread the harm."
+ },
+ "your-face-your-say": {
+  "teks": [
+   "ta-dc-10",
+   "ta-dc-8"
+  ],
+  "elps": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "9.4",
+   "7.4",
+   "3.3",
+   "8.4"
+  ],
+  "sst": [],
+  "note": "Middle schoolers learn that their likeness is theirs and consent matters, that fake hurtful images of real people are wrong and can be illegal, and how to be an upstander who tells a trusted adult."
+ },
+ "before-it-happens-family-talk": {
+  "teks": [
+   "ta-dc-10",
+   "ta-dc-8"
+  ],
+  "elps": [
+   "c1",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "7.4",
+   "9.4",
+   "8.4",
+   "6.2"
+  ],
+  "sst": [],
+  "note": "A campus team builds and delivers a calm, trauma-informed family guide to deepfake image abuse and sextortion, leading with a come-to-me, you-wont-be-in-trouble message in families’ languages."
  }
 }

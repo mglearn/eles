@@ -1,0 +1,253 @@
+{
+  "id": "your-face-your-say",
+  "title": "Your Face, Your Say",
+  "tagline": "Middle schoolers learn that your face and body are yours, that using AI to make a fake, hurtful image of a real person is never a joke and can be against the law, and exactly what to do if they see one, tell a trusted adult and don't pass it on.",
+  "audience": "student",
+  "grades": [
+    "6-8"
+  ],
+  "strands": [
+    "digcit"
+  ],
+  "mode": "unplugged",
+  "minutes": 40,
+  "groupSize": "Whole class with small groups; supportive-topic norms set first",
+  "eles": [
+    "S2.3",
+    "S2.1",
+    "AI2.1",
+    "S3.3"
+  ],
+  "overview": "Middle schoolers are meeting apps that can paste anyone's face into fake images or change a real photo into something embarrassing or cruel. This lesson gives them a clear, age-appropriate foundation before they face it: your likeness, your face and body, belongs to you, and no one has the right to make or share a fake, hurtful image of you or anyone else. Without any explicit content, students learn that using AI to make a non-consensual, fake sexualized or humiliating image of a real person (a non-consensual image made without their permission) is not a prank, hurts a real person, and can be against the law, even for kids. The heart of the lesson is what to do: if you're targeted, it's not your fault and you tell a trusted adult; if you see one of someone else, you don't laugh, don't share it, tell an adult, and check on the person. Students practice being the upstander who refuses to pass it on. The tone is calm, respectful, and empowering, not scary, centered on consent, dignity, and looking out for each other.",
+  "objectives": [
+    "Students will explain that their likeness is theirs and that consent matters for images of people.",
+    "Students will explain that making or sharing a fake, hurtful image of a real person is wrong and can be illegal.",
+    "Students will state what to do if they are targeted and that it is not their fault.",
+    "Students will practice upstander moves: don't share, tell a trusted adult, and support the person."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Whose Image Is It? consent sort (1 per group, cut apart)",
+      "Handout B: What Would You Do? scenario cards (1 set per group)",
+      "Handout C: My Upstander Plan (1 per student)"
+    ],
+    "digital": [
+      "Optional: your campus's trusted-adult contacts shown on screen",
+      "Optional: a counselor available given the topic"
+    ]
+  },
+  "prep": [
+    "Set supportive norms and arrange counselor availability; keep everything non-graphic.",
+    "Print and cut Handout A and B per group; print Handout C per student.",
+    "Confirm the trusted-adult/reporting contacts students should know, for Handout C.",
+    "Open by saying the lesson is about respect and safety, uses no real or explicit images, and that anyone can talk to a counselor."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Your face is yours",
+      "body": "Ask: **\"If someone took a photo of you and changed it to make you look bad, then sent it around, how would that feel? Did they have the right to do that?\"** Draw out the core idea: your face and body are yours, your likeness, and people need your okay to use your image, especially to change it. Say today is about that right, and about looking out for each other when someone breaks it.",
+      "note": "Anchor on consent and dignity in words students own. Keep it about respect and fairness; the legal and safety points land better on that foundation."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 9,
+      "title": "Whose image is it?",
+      "body": "Groups sort Handout A cards into **Okay** and **Not okay** based on consent and respect, for example: \"Drawing a funny cartoon of yourself\" (okay), \"Using an app to put a classmate's face on a fake, embarrassing body and sending it\" (not okay), \"Posting a group photo after everyone said yes\" (okay). Debrief the line: it's about consent and whether it hurts a real person. Name clearly that making a fake sexual or humiliating image of a real person crosses from unkind into abuse, and can be illegal.",
+      "note": "Keep examples non-graphic. The sort builds the consent concept; you provide the one clear, serious sentence that fake sexualized images are abuse and illegal."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "If someone does it to you",
+      "body": "Explain calmly: if a fake, hurtful image of you ever shows up, **it is not your fault**, the person who made it did something wrong. The move is simple and strong: **tell a trusted adult right away**, don't try to handle it alone or fight back online, and let the adult help stop it and get it taken down. Reassure them adults and even the law can help, and that telling is brave, not babyish or snitching.",
+      "note": "Two reassurances matter most at this age: it's not your fault, and telling an adult is strength. Many middle schoolers fear they'll be blamed or punished."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "What would you do?",
+      "body": "Groups work Handout B scenario cards where they're the bystander: a fake image of a classmate shows up in a chat; a friend laughs and forwards it; someone dares you to share. For each, groups choose upstander moves, **don't share, don't laugh, tell a trusted adult, check on the person**, and reject the spread-it moves. They practice one real thing to say or do, like leaving the chat, saying \"that's not okay,\" or privately messaging the target, \"I saw it, I didn't share it, you okay?\"",
+      "note": "Give concrete, doable moves. \"Be an upstander\" is abstract; \"don't forward it and tell Ms. Lee\" is something a 12-year-old can actually do."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 7,
+      "title": "My upstander plan",
+      "body": "On Handout C, each student writes their plan: a trusted adult they'd tell, one upstander move they'll always make, and one thing they learned about respecting people's images. A few share. Close together on the message: **\"Your face is yours. Everyone's is. If someone breaks that, we don't laugh and we don't share, we tell an adult and we help.\"**",
+      "note": "End empowered and kind. The takeaway is agency and mutual care, not fear. Make sure every student leaves knowing at least one trusted adult's name."
+    }
+  ],
+  "unplugged": "Fully unplugged and non-graphic: a consent sort, scenario cards, and a written plan. No real or fake images are shown, searched, or made, students learn the ideas and the actions entirely through discussion and role-play.",
+  "digital": "Optionally show the names of trusted adults and how to reach a counselor on screen so students copy real contacts onto their plan. No image is ever displayed or created.",
+  "whyTech": "Intentionally unplugged; the learning is about consent, dignity, and what to do, which is taught through discussion and role-play. A device would add nothing and could risk exposure to harmful content.",
+  "adaptations": [
+    {
+      "label": "Grade 6",
+      "text": "Keep the focus on consent and the upstander moves; state the \"it can be illegal and is abuse\" point simply and once, without detail."
+    },
+    {
+      "label": "Grade 8",
+      "text": "Add that forwarding, not just creating, spreads the harm and can be against the law, and connect to the 9–12 lesson's deeper legal reality."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Use icons on the sort, allow discussion in the home language, and provide the upstander plan bilingually."
+    },
+    {
+      "label": "Students with lived experience",
+      "text": "Offer a private option instead of group work, ensure counselor access, and never require sharing; the upstander plan and trusted-adult name are the essentials."
+    }
+  ],
+  "lookFors": [
+    "Students explain that their likeness is theirs and that consent matters for using someone's image.",
+    "Students state that making or sharing a fake, hurtful image of a real person is wrong and can be illegal.",
+    "Students say what a target should do and that it is not the target's fault.",
+    "Students choose upstander moves over spread-it moves and can name a real action they'd take."
+  ],
+  "reflection": [
+    "Why does consent matter when it comes to someone's picture? (Student ELE 2.3: awareness of the risks of sharing content online.)",
+    "If you saw a fake, hurtful image of a classmate, what would you do? (Student ELE 3.3: valuing and protecting others.)",
+    "Who is a trusted adult you would tell, and why them? (Student ELE 2.1: knowing how to protect yourself and others online.)"
+  ],
+  "transfer": "Students keep their upstander plan and know the trusted adult they'd go to. The class connects to the broader school effort (staff and family companion activities) so the whole community shares the same expectations, and older students build on this in the 9–12 lesson.",
+  "connections": [
+    {
+      "title": "Digital Citizenship Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/digcit/",
+      "note": "More 6–8 practice on consent, kindness, and being an upstander online."
+    },
+    {
+      "title": "Family App Privacy Audit",
+      "url": "https://mglearn.github.io/tcea/privacy-audit/",
+      "note": "Helps families limit the photos and personal data shared publicly."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Whose Image Is It?",
+      "type": "sort",
+      "instructions": "Sort each card into OKAY or NOT OKAY, based on consent (did the person say yes?) and whether it hurts a real person. No real images here, just ideas.",
+      "categories": [
+        "Okay",
+        "Not okay"
+      ],
+      "items": [
+        {
+          "text": "Drawing a silly cartoon of yourself and posting it",
+          "answer": "Okay",
+          "why": "It's you, and you chose to share it."
+        },
+        {
+          "text": "Using an app to put a classmate's face on a fake, embarrassing body and sending it around",
+          "answer": "Not okay",
+          "why": "No consent, and it hurts a real person. This can be abuse and illegal."
+        },
+        {
+          "text": "Posting a group photo after everyone in it said yes",
+          "answer": "Okay",
+          "why": "Everyone consented to the picture being shared."
+        },
+        {
+          "text": "Editing a friend's selfie to make them look ridiculous and posting it without asking",
+          "answer": "Not okay",
+          "why": "It's their image and they didn't agree; it's meant to humiliate."
+        },
+        {
+          "text": "Making a fake sexual image of a real person with an app",
+          "answer": "Not okay",
+          "why": "This is image-based sexual abuse. It's never a joke and can be a crime, even for minors."
+        },
+        {
+          "text": "Making a meme using a cartoon character (not a real person)",
+          "answer": "Okay",
+          "why": "No real person's likeness is being misused."
+        },
+        {
+          "text": "Forwarding a fake, cruel image of a classmate because it's 'funny'",
+          "answer": "Not okay",
+          "why": "Forwarding spreads the harm; you become part of it."
+        },
+        {
+          "text": "Asking a friend 'can I post this picture of you?' and only posting if they say yes",
+          "answer": "Okay",
+          "why": "That's consent, and respect for their image."
+        },
+        {
+          "text": "Using someone's photo to make them look like they did something they didn't",
+          "answer": "Not okay",
+          "why": "It's a lie that uses their likeness and can seriously hurt them."
+        },
+        {
+          "text": "Telling a trusted adult when you see a fake, hurtful image of someone",
+          "answer": "Okay",
+          "why": "That's the upstander move, it helps stop the harm."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "What Would You Do?",
+      "type": "cards",
+      "instructions": "You're the bystander. For each card, pick the UPSTANDER moves (don't share, don't laugh, tell a trusted adult, check on the person) and reject the spread-it moves. Practice one real thing to say or do.",
+      "cards": [
+        {
+          "label": "the chat",
+          "front": "A fake, embarrassing image of a classmate pops up in a group chat and people start laughing.",
+          "back": "Upstander: don't react or forward, leave or say \"not okay,\" screenshot only if an adult asks, and tell a trusted adult. Check on the classmate privately."
+        },
+        {
+          "label": "the friend",
+          "front": "Your friend forwards you a fake image of someone and says 'send it to everyone.'",
+          "back": "Upstander: \"No, that's messed up and it can get us both in real trouble, I'm not sharing it.\" Tell an adult."
+        },
+        {
+          "label": "the dare",
+          "front": "Someone dares you to make a fake image of a classmate with an app 'as a joke.'",
+          "back": "Upstander: say no, it's not a joke, it's abuse and illegal. Don't do it, and tell an adult if it's really happening."
+        },
+        {
+          "label": "the target",
+          "front": "A classmate tells you a fake image of them is going around and they're scared.",
+          "back": "Upstander: \"It's not your fault. Let's tell [trusted adult] right now, they can help get it taken down.\" Stay with them."
+        },
+        {
+          "label": "the bystander guilt",
+          "front": "You already laughed or shared before you realized how bad it was. What now?",
+          "back": "It's not too late: stop sharing, tell an adult what happened, and help make it right. Owning it is the strong move."
+        },
+        {
+          "label": "practice",
+          "front": "Say out loud one line you could actually use to refuse to pass something on in a group chat.",
+          "back": "Examples: \"Not sharing that.\" \"That's not funny, it's someone's life.\" \"I'm out.\" Short and clear works."
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Upstander Plan",
+      "type": "worksheet",
+      "instructions": "Fill this in for yourself. Keep it where you'll remember it.",
+      "sections": [
+        {
+          "prompt": "A trusted adult I would tell (name), and why I'd pick them:",
+          "lines": 2
+        },
+        {
+          "prompt": "One upstander move I will ALWAYS make if I see a fake, hurtful image of someone:",
+          "lines": 2
+        },
+        {
+          "prompt": "A real line I could say to refuse to share or to support the person:",
+          "lines": 1
+        },
+        {
+          "prompt": "One thing I learned today about respecting people's images:",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

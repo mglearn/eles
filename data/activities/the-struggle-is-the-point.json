@@ -1,0 +1,222 @@
+{
+  "id": "the-struggle-is-the-point",
+  "title": "The Struggle Is the Point",
+  "tagline": "Children learn a \"help ladder\" for when a problem feels hard, then make a homework-help agreement with their family about when to ask AI or a grown-up for the answer and when the struggle itself is the learning.",
+  "audience": "student",
+  "grades": [
+    "3-5"
+  ],
+  "strands": [
+    "genai"
+  ],
+  "mode": "unplugged",
+  "minutes": 35,
+  "groupSize": "Whole class, then pairs; finished at home with a family member",
+  "eles": [
+    "S4.1",
+    "AI4.1",
+    "S4.3"
+  ],
+  "overview": "When homework feels hard, it is tempting to ask a grown-up, or now an AI, for the answer right away. But for a child, the hard part is often where the learning actually happens. This lesson gives kids and families a calm, shared way to handle that moment instead of a fight. Children learn that a stuck feeling is not a stop sign; it is their brain growing, what grown-ups call productive struggle. They practice a \"help ladder\": try it, use a strategy, ask for a hint, and only then ask for the answer, so that help supports thinking instead of replacing it. They see that AI and grown-ups can both do their thinking for them if they skip the ladder, which feels good but teaches nothing. Then they take home a homework-help agreement to make with their family: when it is fine to get the answer (you are truly stuck after trying) and when the struggle is the point. The message is balanced and kind: help is good, and learning to try first is a superpower.",
+  "objectives": [
+    "Students will explain that a stuck feeling can mean their brain is learning, not that they should quit.",
+    "Students will use a help ladder to move from trying to asking, so help supports their thinking.",
+    "Students will explain how asking AI or a grown-up for the answer too soon can skip the learning.",
+    "Students will make a homework-help agreement with their family about when to try and when to ask."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The Help Ladder (1 per student, or 1 enlarged for the class)",
+      "Handout B: Try-First Challenge cards (1 set per pair, cut apart)",
+      "Handout C: Our Homework-Help Agreement (1 per student, sent home)",
+      "Pencils; crayons"
+    ],
+    "digital": [
+      "Optional: a document camera to show the help ladder",
+      "Optional: a family may keep a photo of the agreement on a parent's phone"
+    ]
+  },
+  "prep": [
+    "Print Handout A and C per student; cut one set of Handout B cards per pair.",
+    "Enlarge the help ladder or draw it on the board.",
+    "Read the family note on Handout C and add your name so families know the purpose.",
+    "Have a quick personal story ready about a time struggling helped you learn."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "The stuck feeling",
+      "body": "Ask: **\"What does your body do when a problem feels too hard?\"** Collect answers (sigh, want to quit, ask for help fast). Tell them a secret: that stuck feeling is often the exact moment your brain is building something new. Share a quick story of a time struggling taught you something. Say: \"Today we learn what to do with the stuck feeling instead of running from it.\"",
+      "note": "Normalize the stuck feeling as growth, not failure. Many kids read struggle as \"I'm bad at this\"; rename it as the brain working."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "The help ladder",
+      "body": "Show Handout A, the help ladder: **1) Try it yourself. 2) Try a strategy (draw it, reread, break it into steps). 3) Ask for a hint, not the answer. 4) Only then, ask for help with the answer, and make sure you understand it.** Model climbing it with a tricky problem, thinking aloud at each rung. Point out: if you jump straight to the top, asking AI or a grown-up for the answer, you skip the rungs where learning happens.",
+      "note": "Emphasize the hint rung. \"Ask for a hint\" is the move most kids skip, and it's the one that keeps the thinking with them."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 10,
+      "title": "Try-first challenge",
+      "body": "In pairs, children draw a Handout B card with a small challenge (a riddle, a pattern, a word puzzle). They must climb the ladder: try, strategy, then a hint from their partner, before anyone says the answer. Afterward ask: **\"How did it feel to get a hint instead of the answer? Could you explain how you solved it?\"** Compare with a card where the partner just blurts the answer, did that teach anything?",
+      "note": "The contrast card is key: when the answer is handed over, the solver usually can't re-explain it. Let kids feel that difference."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 7,
+      "title": "When is it okay to ask?",
+      "body": "Discuss the balanced truth: help is good, and sometimes you SHOULD get the answer, when you've truly tried the ladder and you're still stuck, or when you just need a fact to keep going (how to spell a word, what a word means). The trick is not never asking; it's trying first so the help lands on thinking you already started. Ask: **\"When is asking AI or a grown-up smart? When does it skip your learning?\"**",
+      "note": "Keep it from becoming \"asking is bad.\" The goal is try-first, not struggle-forever. A child who never asks for help is also stuck."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 7,
+      "title": "Start our agreement",
+      "body": "Children begin Handout C, the homework-help agreement, to finish at home: draw or write when they'll try first, what their family's \"hint, not answer\" signal will be, and when it's fine to get help with the answer. Circulate and ask, **\"What will you try before you ask? What's a good hint your grown-up could give?\"** Explain they'll decide the rest with their family. Close: **\"Help is good. Trying first is a superpower.\"**",
+      "note": "Frame the family agreement as teamwork, the grown-up promises hints before answers, the child promises to try first. Both make a promise."
+    }
+  ],
+  "unplugged": "The whole lesson is unplugged: a printed ladder, challenge cards, role-play, and a drawn agreement. No devices are needed, which keeps the focus on the feeling of trying, getting a hint, and understanding, rather than on any tool.",
+  "digital": "If a family uses AI for homework help, the agreement can include a rule for it: ask AI for a hint or to check your work after you try, not for the finished answer. A family may keep a photo of the agreement on a phone as a reminder.",
+  "whyTech": "This is best unplugged. The learning is about what a child does in the stuck moment, and a help ladder practiced with a partner teaches it directly; the lesson then names how the same rule applies when the helper is AI.",
+  "adaptations": [
+    {
+      "label": "Grade 3",
+      "text": "Use a three-rung ladder (try, strategy, ask) and picture-only challenge cards; children draw rather than write the agreement."
+    },
+    {
+      "label": "Grade 5",
+      "text": "Add a reflection line: children write about one subject where they ask for the answer too fast and what they'll try first instead."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Teach the ladder with icons and allow hints and the agreement in the home language; partner talk can be bilingual."
+    },
+    {
+      "label": "Families with homework helpers of all kinds",
+      "text": "Let the \"grown-up\" be any homework helper (older sibling, after-school tutor, caregiver); the hint-before-answer promise is the same for everyone."
+    }
+  ],
+  "lookFors": [
+    "Children describe the stuck feeling as a sign of learning rather than a reason to quit.",
+    "Children climb the help ladder in the challenge, asking for a hint before the answer.",
+    "Children explain how getting the answer too soon, from AI or a grown-up, can skip their learning.",
+    "The homework-help agreement names what to try first and a family hint-before-answer signal."
+  ],
+  "reflection": [
+    "What can you try before you ask for help? (Student ELE 4.1: I take responsibility for my own learning.)",
+    "How is getting a hint different from getting the answer? (AI ELE 4.1: thinking critically about help from AI.)",
+    "When is asking smart, and when does it skip your learning? (Student ELE 4.3: awareness of how I learn best.)"
+  ],
+  "transfer": "Children finish the homework-help agreement with their family and try the help ladder on real homework for a week, then share in a class circle one time the struggle paid off. Families are encouraged to keep the hint-before-answer habit for AI and grown-ups alike.",
+  "connections": [
+    {
+      "title": "Gen AI Literacy Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/genailit/",
+      "note": "More K–8 practice on using AI as a helper without letting it do the thinking."
+    },
+    {
+      "title": "AAP Family Media Plan (HealthyChildren.org)",
+      "url": "https://www.healthychildren.org/English/fmp/Pages/MediaPlan.aspx",
+      "note": "Families can fold a homework-help rule into a broader plan for devices at home."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The Help Ladder",
+      "type": "checklist",
+      "instructions": "When something feels too hard, climb the ladder from the bottom. Don't jump to the top! The middle rungs are where your brain grows.",
+      "items": [
+        "RUNG 1 — Try it yourself. Give it a real go before anything else.",
+        "RUNG 2 — Try a strategy: draw it, reread it, or break it into smaller steps.",
+        "RUNG 3 — Ask for a HINT, not the answer. (A grown-up or AI can give a nudge.)",
+        "RUNG 4 — Still stuck? Now ask for help with the answer, and make sure you understand WHY.",
+        "ALWAYS — If you got the answer, cover it and try to explain it yourself. If you can't, you skipped a rung!"
+      ],
+      "scale": [
+        "I did this",
+        "I jumped past it"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Try-First Challenge",
+      "type": "cards",
+      "instructions": "Draw a card. The solver climbs the ladder: try, then a strategy, then ask your partner for a HINT, before anyone says the answer.",
+      "cards": [
+        {
+          "label": "riddle",
+          "front": "I have hands but cannot clap. What am I?",
+          "back": "A clock. Hint to give: \"Think of something on the wall that moves but isn't alive.\""
+        },
+        {
+          "label": "pattern",
+          "front": "What comes next? 2, 4, 6, 8, ___",
+          "back": "10. Hint to give: \"How much do you add each time?\""
+        },
+        {
+          "label": "word",
+          "front": "Unscramble: L E A R N",
+          "back": "LEARN (or RENAL). Hint to give: \"It's what we do every day at school.\""
+        },
+        {
+          "label": "math",
+          "front": "A bag has 12 apples. You share them equally with 3 friends (4 people total). How many each?",
+          "back": "3 each. Hint to give: \"Try drawing 4 baskets and sharing the apples one at a time.\""
+        },
+        {
+          "label": "riddle",
+          "front": "The more you take, the more you leave behind. What are they?",
+          "back": "Footsteps. Hint to give: \"Think about walking on a sandy beach.\""
+        },
+        {
+          "label": "pattern",
+          "front": "What comes next? Circle, Square, Circle, Square, ___",
+          "back": "Circle. Hint to give: \"What's the shape that keeps repeating?\""
+        },
+        {
+          "label": "the blurt card",
+          "front": "COMPARE: Have your partner just SAY the answer to any puzzle right away, no ladder. Then try to explain how to solve it.",
+          "back": "Could the solver explain it? Usually not! That's why we climb the ladder instead of jumping to the answer."
+        },
+        {
+          "label": "math",
+          "front": "You read 5 pages Monday and 5 pages Tuesday. How many pages in all? How many in a whole week like that?",
+          "back": "10 in two days; 35 in seven days. Hint to give: \"Add the two days first, then think about counting by 5s.\""
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Our Homework-Help Agreement",
+      "type": "worksheet",
+      "instructions": "Start at school. Finish at home with your family. Family note: the hard part of homework is often where learning happens. Please promise hints before answers, and help your child learn to try first. This is not about refusing help, it's about help that supports thinking. For AI too: a hint or a check after trying, not the finished answer.",
+      "sections": [
+        {
+          "prompt": "Draw or write TWO things I will try before I ask for help (from the help ladder).",
+          "lines": 2
+        },
+        {
+          "prompt": "Our family HINT signal (what a grown-up says to give a hint instead of the answer):",
+          "lines": 1
+        },
+        {
+          "prompt": "When it's okay to get help with the answer (for example: I tried the ladder and I'm still stuck):",
+          "lines": 2
+        },
+        {
+          "prompt": "Our rule for asking AI for homework help (hint or check AFTER I try, not the finished answer):",
+          "lines": 1
+        },
+        {
+          "prompt": "Child's promise: I will try first. Grown-up's promise: I will give hints before answers. Signed:",
+          "lines": 1
+        }
+      ]
+    }
+  ]
+}

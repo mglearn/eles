@@ -20,6 +20,8 @@
   { "id": "data", "label": "data and dashboards", "synonyms": ["dashboard", "data team", "chart", "student data", "data snapshot"] },
   { "id": "families", "label": "families and community", "synonyms": ["family night", "families", "parent", "community", "take-home"] },
   { "id": "futures", "label": "futures thinking", "synonyms": ["futures wheel", "future headline", "pre-mortem", "backcast", "signal"] },
-  { "id": "ads", "label": "ads and persuasion", "synonyms": ["advertis", "sponsored", "clickbait", "persuasion", "vendor claim", "marketing"] }
+  { "id": "ads", "label": "ads and persuasion", "synonyms": ["advertis", "sponsored", "clickbait", "persuasion", "vendor claim", "marketing"] },
+  { "id": "cognitive-offloading", "label": "AI and thinking", "synonyms": ["cognitive offloading", "cognitive offload", "offload the thinking", "offload their thinking", "offload my thinking", "offloading the thinking", "overreliance", "over-reliance", "outsource the thinking", "outsource thinking", "productive struggle", "ai moratorium", "doing the thinking for"] },
+  { "id": "image-abuse", "label": "AI image abuse", "synonyms": ["non-consensual", "nonconsensual", "deepfake nude", "nude deepfake", "fake nude", "intimate image", "sextortion", "take it down act", "image-based abuse", "image based abuse", "explicit deepfake", "nudify"] }
  ]
 }

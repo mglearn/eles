@@ -1,0 +1,245 @@
+{
+  "id": "not-a-prank-its-abuse",
+  "title": "Not a Prank, It's Abuse",
+  "tagline": "Students face the hard truth that making or sharing an AI nude of a real classmate is image-based sexual abuse and a crime, learn what to do if they or a friend are targeted, and rehearse being the person who refuses to pass it on.",
+  "audience": "student",
+  "grades": [
+    "9-12"
+  ],
+  "strands": [
+    "digcit"
+  ],
+  "mode": "unplugged",
+  "minutes": 45,
+  "groupSize": "Whole class with table groups; sensitive-topic norms set first",
+  "eles": [
+    "S2.3",
+    "S2.1",
+    "AI2.1",
+    "T2.2"
+  ],
+  "overview": "Apps that fabricate realistic nude images of real people have turned up in high schools, and the harm often hides behind words like prank or joke. This lesson strips that cover away. Without ever showing or describing explicit material, students learn that creating or sharing a non-consensual sexual image of a real person, including an AI deepfake, is image-based sexual abuse and is illegal, with the 2025 federal Take It Down Act now requiring platforms to remove it fast. They work through what to do if they are targeted (it is not your fault, save proof without sharing, tell a trusted adult, report, request takedown) and, just as important, how to act when they are a bystander, the person in the group chat who can refuse to forward it, report it, and support the target instead of laughing along. The tone is serious, trauma-informed, and non-shaming; the goal is a school where students understand the real stakes and know that the strong move is to stop the harm, not spread it.",
+  "objectives": [
+    "Students will explain that making or sharing an AI nude of a real person is image-based sexual abuse and illegal.",
+    "Students will list the steps to take if they or a friend are targeted.",
+    "Students will identify bystander actions that stop the harm rather than spread it.",
+    "Students will describe how the law and takedown options give targets a real path to remove the material."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Name It Honestly, myth-vs-truth sort (1 per table, cut apart)",
+      "Handout B: If It Happens, to you or a friend, action guide (1 per student)",
+      "Handout C: The Bystander's Choice, scenarios + my commitment (1 per student)"
+    ],
+    "digital": [
+      "Optional: your district's reporting contacts and a reputable takedown-help resource shown on screen",
+      "Optional: a counselor present or on call given the sensitive topic"
+    ]
+  },
+  "prep": [
+    "Set sensitive-topic norms and arrange for counselor support; some students may have lived experience.",
+    "Print Handout A per table (cut apart) and B and C per student.",
+    "Confirm your campus reporting contacts so Handout B can carry real names and numbers.",
+    "Open by stating the topic is handled without any explicit content, and that any student can step out or talk to a counselor."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 6,
+      "title": "The word that hides the harm",
+      "body": "Write the word **\"prank\"** on the board. Say: \"When someone makes a fake nude of a classmate with an app, it often gets called a prank or a joke. Those words hide what it really is.\" Ask students what gets lost when abuse is called a prank. Name the lesson's purpose plainly and calmly: to understand what this actually is, what the law says, and what to do, as a target or a bystander.",
+      "note": "Keep it calm and non-graphic. Watch the room; you may have survivors present. The counselor and the step-out option should be stated before you begin."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Name it honestly",
+      "body": "Tables sort Handout A cards into **Myth** and **Truth**, for example: \"It's not real so no one's hurt\" (myth), \"Making or sharing it is a crime, even as a minor\" (truth), \"If you didn't make it but forwarded it, you did nothing\" (myth). After sorting, debrief the core truths: this is image-based sexual abuse; it harms real people; creating, sharing, or even forwarding it can be illegal; and the 2025 Take It Down Act forces platforms to remove it quickly.",
+      "note": "The forwarding myth is the one to nail: many students think only the creator is responsible. Legally and morally, passing it on spreads the abuse."
+    },
+    {
+      "phase": "Model",
+      "minutes": 9,
+      "title": "If it happens to you or a friend",
+      "body": "Walk through Handout B calmly: **It is not your fault.** Don't blame yourself or delete everything in panic, instead **save proof** of where it is (without forwarding it), **tell a trusted adult** immediately, **report** it to the platform and, with an adult, to law enforcement or the national reporting line, and **request takedown** using the platform's process, which the Take It Down Act backs. Emphasize that targets have rights and a real path, and that reaching out is strength, not shame.",
+      "note": "Counter the two panic reactions: self-blame and deleting all evidence. Reassure that help exists and the law is on the target's side."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 12,
+      "title": "The bystander's choice",
+      "body": "Most students won't be the creator or the target, they'll be in the group chat. On Handout C, tables work scenarios where a fake image lands in a chat and decide the moves that **stop** the harm: don't open-share or forward, don't react or laugh, report it, tell an adult, and check on the target privately. Contrast with the moves that **spread** it. Students rehearse one line they could actually send in a group chat to break the pile-on, like \"This is messed up, I'm not sharing that,\" or privately reaching the target: \"I saw it, I'm sorry, I didn't share it, are you okay?\"",
+      "note": "This is the highest-leverage part: most harm scales through bystanders forwarding. Give them concrete, sayable lines, not just \"be an upstander.\""
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 8,
+      "title": "My commitment",
+      "body": "On Handout C, each student writes one private commitment: what they'll do if they see this happen, and one thing they now understand that they didn't before. A few volunteers share. Close on the standard: **\"Calling it a prank protects the person doing harm. Calling it what it is, abuse, protects the person being harmed. The strong move is to stop it, not spread it.\"**",
+      "note": "Let sharing be voluntary. The private commitment matters more than public declarations; you're shaping what they'll actually do in a chat at 11 p.m."
+    }
+  ],
+  "unplugged": "The lesson is fully unplugged and uses no explicit content at any point: a myth-vs-truth sort, a printed action guide, and chat-scenario role-play on paper. This keeps students safe from the material while teaching exactly what to do about it.",
+  "digital": "Optionally display your campus's real reporting contacts and a reputable takedown-help resource so students know where to go. No image is ever shown, searched for, or created; the digital element is only accurate contact information.",
+  "whyTech": "Deliberately unplugged: the content is sensitive and the learning is about judgment, law, and action, not about any tool. Showing real reporting and takedown resources on screen is the only place a device helps, and even that can be printed.",
+  "adaptations": [
+    {
+      "label": "Grade 9",
+      "text": "Spend more time on the bystander lines and the \"it's not your fault\" message; keep the legal detail to the single clear fact that it's illegal, including for minors."
+    },
+    {
+      "label": "Higher Ed",
+      "text": "Add the campus Title IX process, adult legal exposure, and how to support a peer navigating reporting and takedown."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Provide the action guide and reporting steps in the home language, and allow the commitment to be written in any language."
+    },
+    {
+      "label": "Students with lived experience",
+      "text": "Offer a private alternative to group work, ensure counselor access, and never require anyone to share; the action guide is the key takeaway for them."
+    }
+  ],
+  "lookFors": [
+    "Students classify myths and truths correctly, including that forwarding spreads the abuse and can be illegal.",
+    "Students can list the steps a target should take and state clearly that it is not the target's fault.",
+    "Students name specific bystander actions that stop the harm and can produce a real line to break a pile-on.",
+    "Students describe the takedown path and that the law gives targets a real remedy."
+  ],
+  "reflection": [
+    "Why does calling this a prank protect the wrong person? (Student ELE 2.3: awareness of the risks of sharing content online.)",
+    "If a fake image landed in your group chat tonight, what exactly would you do? (Student ELE 2.1: protecting people's information and dignity online.)",
+    "What makes stopping the harm the strong move rather than the risky one? (AI ELE 2.1: ethical use and accountability.)"
+  ],
+  "transfer": "Students keep the action guide with real reporting contacts and carry the bystander lines into their actual group chats. The class connects this to the school's expectations and to the companion staff and family efforts, so students, adults, and families share the same understanding and response.",
+  "connections": [
+    {
+      "title": "Digital Citizenship Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/digcit/",
+      "note": "Foundational lessons on consent, privacy, and respectful online behavior."
+    },
+    {
+      "title": "Family App Privacy Audit",
+      "url": "https://mglearn.github.io/tcea/privacy-audit/",
+      "note": "Helps students and families limit the personal images and data exposed online."
+    },
+    {
+      "title": "AAP policy statement: Digital Ecosystems, Children, and Adolescents (Pediatrics, 2026)",
+      "url": "https://publications.aap.org/pediatrics/article/157/2/e2025075320/206129/Digital-Ecosystems-Children-and-Adolescents-Policy",
+      "note": "Guidance on youth wellbeing and safety in digital spaces."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Name It Honestly",
+      "type": "sort",
+      "instructions": "Sort each statement into MYTH or TRUTH. Then discuss the truths as a table. No explicit content, this is about what's true, not about any image.",
+      "categories": [
+        "Myth",
+        "Truth"
+      ],
+      "items": [
+        {
+          "text": "\"It's AI, it's not a real photo, so nobody actually gets hurt.\"",
+          "answer": "Myth",
+          "why": "The person is real and the harm, humiliation, fear, reputational damage, is real."
+        },
+        {
+          "text": "Making or sharing a fake sexual image of a real person is image-based sexual abuse.",
+          "answer": "Truth",
+          "why": "Naming it accurately is the first step to taking it seriously."
+        },
+        {
+          "text": "\"If I didn't make it, just forwarded it, I didn't do anything wrong.\"",
+          "answer": "Myth",
+          "why": "Forwarding spreads the abuse and can itself be illegal."
+        },
+        {
+          "text": "This can be a crime even when both people involved are minors.",
+          "answer": "Truth",
+          "why": "Being a teen does not make it legal or harmless."
+        },
+        {
+          "text": "\"Once it's online there's nothing anyone can do.\"",
+          "answer": "Myth",
+          "why": "The 2025 Take It Down Act requires platforms to remove reported material quickly."
+        },
+        {
+          "text": "The person targeted is a victim and it is not their fault.",
+          "answer": "Truth",
+          "why": "Blame belongs to whoever created or spread it, never the target."
+        },
+        {
+          "text": "\"It's just a joke between friends.\"",
+          "answer": "Myth",
+          "why": "Calling abuse a joke hides the harm and protects the person causing it."
+        },
+        {
+          "text": "Telling a trusted adult and reporting it is the strong move, not snitching.",
+          "answer": "Truth",
+          "why": "Stopping harm protects a real person; staying silent lets it spread."
+        },
+        {
+          "text": "\"Deleting it from my phone means I should stay quiet about it.\"",
+          "answer": "Myth",
+          "why": "Report first (saving proof of where it is), then follow adult/platform guidance on deleting."
+        },
+        {
+          "text": "Platforms now have to remove non-consensual intimate images, including deepfakes, when reported.",
+          "answer": "Truth",
+          "why": "That's what the Take It Down Act requires, giving targets a real path."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "If It Happens, To You or a Friend",
+      "type": "checklist",
+      "instructions": "Keep this. If you or someone you know is targeted, these are the steps. You have rights and a real path. Reaching out is strength.",
+      "items": [
+        "IT IS NOT YOUR FAULT. The person who made or shared it did something wrong, not you.",
+        "Don't panic-delete everything. Save proof of WHERE it is (links, usernames, dates) without forwarding the image to anyone.",
+        "Tell a trusted adult right away, a parent, counselor, teacher, or coach.",
+        "Report it to the platform using its reporting tool for non-consensual intimate images.",
+        "With an adult, report to law enforcement or the national reporting line for exploitation of minors.",
+        "Request takedown, the Take It Down Act requires platforms to remove reported non-consensual images, including deepfakes, quickly.",
+        "Ask about free takedown-help services that remove intimate images of minors from participating platforms.",
+        "Get support, a counselor or trusted adult can help with the feelings, not just the logistics.",
+        "My campus reporting contact (write the real name/number here): __________"
+      ],
+      "scale": [
+        "I know this step",
+        "I need to ask about it"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "The Bystander's Choice",
+      "type": "worksheet",
+      "instructions": "Most people won't be the creator or the target, they'll be in the chat. Decide the moves that STOP the harm, and write lines you could actually send.",
+      "sections": [
+        {
+          "prompt": "SCENARIO: A fake sexual image of someone in your grade gets dropped into a group chat and people start reacting. List the moves that STOP the harm (vs. the ones that spread it).",
+          "lines": 3
+        },
+        {
+          "prompt": "A real line I could send IN the chat to break the pile-on (e.g., \"Not cool, I'm not sharing that\"):",
+          "lines": 1
+        },
+        {
+          "prompt": "A real line I could send PRIVATELY to support the person targeted:",
+          "lines": 1
+        },
+        {
+          "prompt": "MY COMMITMENT: what I will do if I see this happen:",
+          "lines": 2
+        },
+        {
+          "prompt": "One thing I understand now that I didn't before today:",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": "did-the-ai-do-the-thinking",
+  "title": "Did the AI Do the Thinking?",
+  "tagline": "Students do one thinking task by hand and a matching one with AI, then take a no-notes challenge that reveals what they actually learned, surfacing cognitive offloading, when a tool helps you think and when it thinks instead of you.",
+  "audience": "student",
+  "grades": [
+    "6-8"
+  ],
+  "strands": [
+    "genai"
+  ],
+  "mode": "hybrid",
+  "minutes": 45,
+  "groupSize": "Pairs, then whole-class debrief; any class size",
+  "eles": [
+    "AI4.1",
+    "S4.1",
+    "S4.3",
+    "T5.1"
+  ],
+  "overview": "AI can hand you an answer in seconds, which feels like progress but can quietly do the thinking you were supposed to do yourself. This lesson makes that trade visible. Pairs complete two short, similar thinking tasks: one by hand and one where an approved AI does most of the work. Right after, each student faces a short no-notes, no-AI challenge on both topics, and they discover they can usually explain and extend the one they struggled through, but go blank on the one the AI handled. The class names this pattern as cognitive offloading and sorts when offloading is smart (a calculator for arithmetic you already understand) from when it robs you of learning (letting AI reason through something you were trying to learn). The stance is balanced: AI is not banned and not magic. The question students leave with is the one the ELEs ask, what evidence shows the tool improved my learning, not just my output?",
+  "objectives": [
+    "Students will compare a task done by hand with one done mainly by AI and describe the difference in what they can do afterward.",
+    "Students will define cognitive offloading and give an example of helpful and harmful offloading.",
+    "Students will judge, for a given task, whether using AI would build or bypass the thinking they need.",
+    "Students will set one personal rule for when they will do the thinking themselves."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Two Tasks (1 per pair; Task 1 done by hand, Task 2 with AI)",
+      "Handout B: The No-Notes Challenge + My Thinking Rule (1 per student, given out only after both tasks)",
+      "Handout C: Smart or Sorry Offload? sort (1 per pair, cut apart)"
+    ],
+    "digital": [
+      "A district-approved generative AI chatbot for Task 2 only (teacher-driven on a projector for students under 13, or one shared device per pair where permitted)",
+      "Optional: a document camera to compare pairs' work"
+    ]
+  },
+  "prep": [
+    "Print Handouts A and C per pair/student; keep Handout B hidden until after both tasks are done.",
+    "Decide how AI appears for Task 2: teacher-driven on a projector, or one approved shared device per pair. No student accounts.",
+    "Do both tasks yourself first so you can predict where the AI will produce a slick but shallow answer.",
+    "Set the norm: Task 2 is about letting the AI do the work on purpose, so we can study what that costs."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "The two-second answer",
+      "body": "Ask: **\"If a tool gives you the right answer in two seconds, did you learn anything?\"** Take a few votes and reasons. Tell students today they will run an experiment on their own brains: do one task the hard way and one the easy way, then see which one actually stuck. Promise no grade on the tasks themselves, only on what they notice.",
+      "note": "Students expect to be told AI is bad. Subvert that: frame it as an honest experiment where they are the researchers studying their own learning."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "Task 1, by hand",
+      "body": "Pairs complete Task 1 on Handout A using only their heads, notes, and each other, for example reasoning through why a short argument is flawed, or working out a multi-step word problem and explaining each step. Circulate and listen for the struggle, the false starts, the \"wait, no\" moments. Tell them that struggle is the brain doing the work.",
+      "note": "Choose a Task 1 that requires reasoning students can do but not instantly. The productive struggle is the point; rescue only if a pair is truly stuck."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 8,
+      "title": "Task 2, let the AI do it",
+      "body": "Now pairs do Task 2, a similar-level task, but this time they ask the approved AI to solve and explain it, and simply copy the result onto Handout A. Tell them explicitly: do not fight the AI or improve it, just let it do the thinking. They will finish fast and feel efficient. Note that feeling out loud: **\"That was quick. Hold on to how little effort that took.\"**",
+      "note": "Resist the urge to let them critique the AI here; that would re-engage their thinking. The contrast depends on them genuinely offloading this one."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 8,
+      "title": "The no-notes challenge",
+      "body": "Collect Handout A. Hand out Handout B: a short individual challenge, no notes, no AI, that asks each student to explain the reasoning behind both tasks and solve one small new variation of each. Watch what happens: most can reconstruct Task 1 (the hand one) and stall on Task 2 (the AI one). Let the silence land before the debrief.",
+      "note": "This is the evidence moment. Keep it low-stakes and private; the goal is self-insight, not embarrassment. Some students will surprise themselves."
+    },
+    {
+      "phase": "Debrief",
+      "minutes": 9,
+      "title": "Name it: cognitive offloading",
+      "body": "Debrief: **\"Which task could you explain and extend? Which went blank? Why?\"** Introduce the term **cognitive offloading**, handing a mental task to a tool. Then pairs run Handout C, sorting examples into **smart offload** (a map app once you can already read a map, a calculator for arithmetic you understand) and **sorry offload** (letting AI reason through a problem you were trying to learn to solve). The rule they build: offload what you have already mastered or never needed to learn; keep the thinking that is the actual point of the lesson.",
+      "note": "Hold the nuance. Offloading is not evil, overreliance on it for the exact skill you are trying to build is the trap. Let students articulate that line themselves."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 6,
+      "title": "My thinking rule",
+      "body": "On the lower section of Handout B, each student writes one personal rule for AI, for example: \"When I'm learning something new, I try it myself first and use AI to check, not to start,\" or \"I never let AI explain something I'll be tested on until I've explained it myself.\" A few share. Close on the ELE question: **\"The real test isn't whether the answer is right, it's whether I can now do the thinking myself.\"**",
+      "note": "Push rules toward when and how, not whether. A rule like \"never use AI\" is unrealistic; \"do the thinking first, then use AI to check\" is a habit they can keep."
+    }
+  ],
+  "unplugged": "Run it fully unplugged by replacing the AI in Task 2 with a prepared answer key: pairs copy a complete, correct worked solution from a card instead of generating one. The effect is the same, they offload the thinking to a ready-made answer, then discover on the no-notes challenge that copying did not teach them. The sort and the thinking rule need no devices.",
+  "digital": "With devices, the approved AI makes Task 2 feel authentic and fast, which strengthens the contrast with the no-notes challenge. For students under 13, run the AI on a projector; for older students where allowed, one approved shared device per pair, no personal accounts. The point is to let the AI genuinely do the work, then study the cost.",
+  "whyTech": "The digital path earns its place by producing the real, seductive experience of a fast AI answer, so the no-notes challenge can expose what it cost. But because the learning is the contrast, the prepared-answer-key version teaches the same lesson, which is why an unplugged path works just as well.",
+  "adaptations": [
+    {
+      "label": "Grade 6",
+      "text": "Use two short, concrete tasks (a logic puzzle and a similar one) and shorten the no-notes challenge to one explain-it question per task."
+    },
+    {
+      "label": "9–12",
+      "text": "Use discipline-specific tasks (analyzing a primary source, deriving a formula) and add a column on Handout D for which classes this rule matters most in."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Allow the explanation in the home language and provide the term cognitive offloading with a short gloss and an icon; pair talk can be bilingual."
+    },
+    {
+      "label": "Students who finish early",
+      "text": "Challenge them to redo the AI task the hard way and compare how much they understand afterward, testing their own hypothesis about offloading."
+    }
+  ],
+  "lookFors": [
+    "On the no-notes challenge, students can explain and extend the hand task better than the AI task, and they notice it.",
+    "Students correctly define cognitive offloading and place examples into smart versus sorry offload with reasons.",
+    "Students identify the line: offload mastered or irrelevant steps, keep the thinking a lesson is trying to build.",
+    "Personal rules specify when and how to use AI, not a blanket yes or no."
+  ],
+  "reflection": [
+    "Which task can you still do on your own, and why do you think that is? (Student ELE 4.3: I am aware of my strengths and areas to improve.)",
+    "When does a tool help you think, and when does it think instead of you? (AI ELE 4.1: critical thinking about AI-generated information.)",
+    "What is one kind of thinking you never want to offload, and why? (Student ELE 4.1: I take responsibility for my own learning.)"
+  ],
+  "transfer": "Students post their thinking rule in their notebook and apply it on the next assignment that tempts them to let AI start the work. In a follow-up, the class revisits the rules: which held, which were too strict or too loose, and what evidence showed the AI helped learning rather than replacing it.",
+  "connections": [
+    {
+      "title": "Augmented K–16 AI Learning Framework",
+      "url": "https://mglearn.github.io/tcea/alf/",
+      "note": "A framework for designing AI use that augments rather than replaces student thinking."
+    },
+    {
+      "title": "Gen AI Literacy Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/genailit/",
+      "note": "More student practice on how generative AI works and where human judgment belongs."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Two Tasks",
+      "type": "worksheet",
+      "instructions": "Do Task 1 with only your brains, notes, and partner. Do Task 2 by letting the approved AI solve and explain it, then copy its answer. Do not improve the AI's work, just let it do the thinking this time.",
+      "sections": [
+        {
+          "prompt": "TASK 1 (by hand): A classmate argues, \"Our team lost after we changed our warm-up, so the new warm-up made us lose.\" Explain, step by step, why this reasoning might be wrong and what else could explain the loss.",
+          "lines": 5
+        },
+        {
+          "prompt": "TASK 2 (with AI): Ask the AI to explain why this reasoning may be flawed: \"Sales went up the month after the new sign went up, so the sign caused the sales.\" Copy the AI's explanation here.",
+          "lines": 5
+        },
+        {
+          "prompt": "Quick gut check: which task felt like more effort? Which felt faster?",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "The No-Notes Challenge",
+      "type": "worksheet",
+      "instructions": "No notes. No AI. No partner. Just you. This is not graded, it is an experiment on what stuck.",
+      "sections": [
+        {
+          "prompt": "In your own words, explain the thinking error in BOTH arguments from Task 1 and Task 2. Which one is easier to explain now?",
+          "lines": 4
+        },
+        {
+          "prompt": "NEW ONE: \"It rained the day after I washed my car, so washing my car caused the rain.\" Explain why this reasoning is wrong.",
+          "lines": 3
+        },
+        {
+          "prompt": "Be honest: which task do you understand better right now, the one you did by hand or the one the AI did? Why?",
+          "lines": 3
+        },
+        {
+          "prompt": "MY THINKING RULE, part 1: one thing today's experiment showed me about my own learning:",
+          "lines": 2
+        },
+        {
+          "prompt": "MY THINKING RULE, part 2: my rule for using AI when I'm trying to LEARN something new:",
+          "lines": 2
+        },
+        {
+          "prompt": "MY THINKING RULE, part 3: one kind of thinking I never want to offload, and why:",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Smart or Sorry Offload?",
+      "type": "sort",
+      "instructions": "Cognitive offloading means handing a mental task to a tool. Sort each one: is it a SMART offload (fine to hand off) or a SORRY offload (you lose learning you needed)? Tell why.",
+      "categories": [
+        "Smart offload",
+        "Sorry offload"
+      ],
+      "items": [
+        {
+          "text": "Using a calculator for long division you already know how to do",
+          "answer": "Smart offload",
+          "why": "You mastered the skill; the tool just saves time."
+        },
+        {
+          "text": "Letting AI write your essay about a book you were supposed to read",
+          "answer": "Sorry offload",
+          "why": "You skip the reading and thinking the assignment was built to grow."
+        },
+        {
+          "text": "Using a map app to navigate a city once you can already read a map",
+          "answer": "Smart offload",
+          "why": "The underlying skill is there; the tool is convenience."
+        },
+        {
+          "text": "Having AI solve the exact kind of math problem you have a test on tomorrow",
+          "answer": "Sorry offload",
+          "why": "You bypass the practice that builds the skill you'll be tested on."
+        },
+        {
+          "text": "Asking AI to check your finished reasoning for holes",
+          "answer": "Smart offload",
+          "why": "You did the thinking first; AI is a second set of eyes."
+        },
+        {
+          "text": "Letting AI pick your argument and evidence so you don't have to decide",
+          "answer": "Sorry offload",
+          "why": "Deciding and defending a claim is the thinking you're learning to do."
+        },
+        {
+          "text": "Using spell-check on a lab report",
+          "answer": "Smart offload",
+          "why": "Spelling isn't the skill the report is assessing."
+        },
+        {
+          "text": "Having AI summarize a chapter so you can skip reading it for discussion",
+          "answer": "Sorry offload",
+          "why": "You lose the close reading and can't really join the discussion."
+        },
+        {
+          "text": "Asking AI to translate a word you don't know in a language you're fluent in",
+          "answer": "Smart offload",
+          "why": "A quick lookup of one word, not the core task."
+        },
+        {
+          "text": "Letting AI do your coding assignment meant to teach you to code",
+          "answer": "Sorry offload",
+          "why": "The struggle of writing and debugging is how you learn to code."
+        }
+      ]
+    }
+  ]
+}

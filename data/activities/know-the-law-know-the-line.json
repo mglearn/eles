@@ -1,0 +1,214 @@
+{
+  "id": "know-the-law-know-the-line",
+  "title": "Know the Law, Know the Line",
+  "tagline": "Teachers and staff learn, in plain language, what AI deepfake image abuse actually is, what the law now requires, and how to respond if a student discloses, so the adult a student turns to first knows exactly what to do.",
+  "audience": "pl",
+  "roles": [
+    "teachers",
+    "librarians",
+    "staff"
+  ],
+  "grades": [
+    "6-8",
+    "9-12"
+  ],
+  "strands": [
+    "digcit"
+  ],
+  "mode": "unplugged",
+  "minutes": 50,
+  "groupSize": "Whole staff in table groups of 3–5",
+  "eles": [
+    "T2.2",
+    "T4.3",
+    "AI2.1",
+    "T3.1"
+  ],
+  "overview": "When a student is targeted by a fabricated nude image, they often tell a teacher, coach, or librarian first, not an administrator. That adult's response in the next five minutes shapes everything. This session prepares every staff member, not just the crisis team, to meet that moment well. Participants learn in plain language what non-consensual AI deepfake images are (image-based sexual abuse, not a prank), what the 2025 federal Take It Down Act and mandatory-reporting duties require of them, and the line they must not cross: never view, forward, or store the material, and never try to handle it quietly themselves. Most of the time goes to practicing a calm, trauma-informed, non-judgmental response to a disclosure, believe the student, make clear it is not their fault, protect them from exposure, and move it immediately to the right people. The stance is supportive and clear-eyed: this is abuse, the adult's job is to support and report, and knowing the line protects both the student and the staff member.",
+  "objectives": [
+    "Teachers will describe AI deepfake image abuse accurately and name it as image-based sexual abuse, not teasing.",
+    "Teachers will state their mandatory-reporting duty and the line they must not cross with the material.",
+    "Teachers will practice a calm, trauma-informed response to a student disclosure.",
+    "Teachers will connect prevention to the classroom culture that makes students willing to tell an adult."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Plain-Language Facts + The Line, reference (1 per participant)",
+      "Handout B: First Five Minutes, response role-play cards (1 set per table)",
+      "Handout C: My Report Path + Classroom Culture, worksheet (1 per participant)"
+    ],
+    "digital": [
+      "Optional: your district's mandatory-reporting and child-safety policy on screen for the exact local steps",
+      "Optional: a slide with your campus's named reporting contacts and numbers"
+    ]
+  },
+  "prep": [
+    "Confirm your district's actual reporting contacts and steps so Handout C can be completed with real names and numbers.",
+    "Print Handout A and C per participant and one set of Handout B cards per table.",
+    "Open with a brief, caring note that the topic is heavy, handled abstractly, and that support is available to any staff member affected.",
+    "Coordinate with your counselor or crisis team so this session aligns with the leadership tabletop (companion activity)."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 6,
+      "title": "They told you first",
+      "body": "Pose the situation: a student lingers after class and says, quietly, that a fake, sexual image of them, made with an app, is being passed around. Ask: **\"What do you say in the next thirty seconds?\"** Let a few answer. Note the range, from perfect to accidentally harmful, and explain that today everyone gets a reliable first response, because students usually disclose to the adult they trust, not to the office.",
+      "note": "This lands hard; keep it caring and matter-of-fact. The reassurance is that they won't have to improvise, there's a clear, humane script and a clear line."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 11,
+      "title": "Plain-language facts and the line",
+      "body": "Table groups read Handout A: what these images are (AI-fabricated sexual images of a real person, created without consent, which is image-based sexual abuse and can be a crime, including when the target is a minor); what the 2025 Take It Down Act requires of platforms; and staff duties, you are almost certainly a mandatory reporter. Then **the line**: never view more than you stumble into, never forward or download it, never store it, never investigate it yourself or promise to keep it secret. Groups restate the line in their own words.",
+      "note": "The two hardest instincts to override: viewing/forwarding \"to see how bad it is,\" and promising secrecy. Name both explicitly; both harm the student and the staff member."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 18,
+      "title": "The first five minutes",
+      "body": "Using Handout B cards, pairs role-play a disclosure: one is the student, one the staff member. The staff member practices the four beats, **believe** (\"I'm really glad you told me\"), **not your fault** (\"This was done to you; you did nothing wrong\"), **protect** (\"We'll keep you safe and I won't share this\"), and **hand off** (\"I have to tell the people who can help stop it, here's who and what happens next\"). Swap roles and try harder variations (the student begs them to keep it secret; the student blames themselves). Debrief what helped and what accidentally stung.",
+      "note": "The secrecy-plea card is the crucial rep. Staff must learn to be warm AND honest: \"I care about you too much to keep this secret, and here's exactly what I'll do.\""
+    },
+    {
+      "phase": "Apply",
+      "minutes": 9,
+      "title": "My report path",
+      "body": "On Handout C, each participant writes their actual, specific report path, the named person to tell, where they are, the backup if that person is unavailable, and the exact words they'll use to hand off. They note what they will and won't put in writing, and confirm they will not store any image. This turns a policy into a card they could follow under stress.",
+      "note": "Insist on real names and numbers, not \"tell an administrator.\" Under stress people follow concrete steps; vague ones evaporate."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 6,
+      "title": "The culture that makes them tell",
+      "body": "Close on prevention through relationship: on Handout C, each participant names one thing about their classroom that makes a student willing to come to them, and one thing they'll strengthen. Land the point: the best protection is a student who knows a trusted adult will respond with care, not blame, and an adult who knows the line and the path by heart.",
+      "note": "Connect to the ELEs: safe, inclusive climate and strong relationships aren't soft extras, they're what makes disclosure, and therefore protection, possible."
+    }
+  ],
+  "unplugged": "The session is fully unplugged and deliberately handles no images: plain-language facts, spoken role-play, and a written report path. This keeps the focus on human response and keeps everyone away from harmful material.",
+  "digital": "Display your district's actual mandatory-reporting and child-safety policy and your campus's named contacts so participants copy real, current information onto their report path. No image or search is ever involved.",
+  "whyTech": "Intentionally unplugged, the learning is a human first response and a memorized report path; a device would add nothing and could invite contact with material no one should view or store. Screens appear only to surface accurate local policy.",
+  "adaptations": [
+    {
+      "label": "Elementary staff",
+      "text": "Frame disclosures in age-appropriate terms and lean harder on child-protective reporting and family support; the four-beat response is the same."
+    },
+    {
+      "label": "Bus drivers, cafeteria, and support staff",
+      "text": "Simplify to recognize, don't engage with the material, and immediately tell a named person, with the exact contact on a pocket card."
+    },
+    {
+      "label": "Counselors",
+      "text": "Add the follow-through: ongoing support planning, connecting families to takedown and legal resources, and monitoring for retaliation."
+    },
+    {
+      "label": "New staff",
+      "text": "Pair with a veteran to complete the report path together and walk the physical route to the reporting contact's office."
+    }
+  ],
+  "lookFors": [
+    "Staff describe the material as image-based sexual abuse and can restate the line (no view, forward, store, investigate, or secrecy) in their own words.",
+    "Staff state their mandatory-reporting duty and a specific, named report path.",
+    "In role-play, staff hit the four beats, believe, not your fault, protect, hand off, including when asked to keep it secret.",
+    "Staff name a concrete classroom-culture practice that makes students willing to disclose."
+  ],
+  "reflection": [
+    "If a student disclosed to you today, do you know the first thing you'd say and the first person you'd tell? (Teacher ELE 2.2: guide safe and responsible technology use.)",
+    "Where exactly is the line you must not cross with the material, and why does it protect the student and you? (AI ELE 2.1: ethics and accountability.)",
+    "What about your classroom makes a student trust you enough to tell you? (Teacher ELE 4.3 and 3.1: emotional support and a welcoming environment.)"
+  ],
+  "transfer": "Each staff member keeps their completed report path somewhere findable and, within a week, does one thing to strengthen the classroom trust that makes disclosure possible. The campus confirms the leadership tabletop (companion activity) is scheduled so staff response and leadership response connect.",
+  "connections": [
+    {
+      "title": "CYBERSMART Ready: Educator Cybersecurity Tabletop",
+      "url": "https://mglearn.github.io/tcea/cybersmart/",
+      "note": "Builds staff readiness for digital-safety incidents more broadly."
+    },
+    {
+      "title": "Digital Citizenship Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/digcit/",
+      "note": "Student-facing lessons on consent, privacy, and respectful online behavior to pair with staff training."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Plain-Language Facts + The Line",
+      "type": "reading",
+      "instructions": "Read with your table. This is background, not legal advice; confirm specifics with district counsel. Restate THE LINE in your own words before moving on.",
+      "paragraphs": [
+        "What it is: Someone uses an app to fabricate a realistic nude or sexual image of a real person who never posed for it. Doing this to a classmate is non-consensual, it is image-based sexual abuse, and when the target is a minor it is unlawful. It is not a prank, a joke, or \"just fake,\" and naming it accurately matters for how we respond.",
+        "The law (Take It Down Act, federal, 2025): It is a crime to knowingly share non-consensual intimate images, including AI deepfakes, and online platforms must remove reported material quickly. This gives students and families a real path to get images taken down.",
+        "Your duty: School staff are almost always mandatory reporters. If a student discloses this, you are required to report it through the proper channels, promptly. Reporting is not optional and not something to weigh privately.",
+        "THE LINE, do not cross it: Do not seek out, view beyond what you accidentally see, forward, screenshot, download, print, or store the image, ever, including on personal devices. Do not investigate it yourself. Do not promise a student you'll keep it secret. Each of these can harm the student further or put you at legal risk. Your job is to support and report, then let the trained people and law enforcement handle the material.",
+        "Why the line protects everyone: Passing the image along, even to show a colleague or \"prove\" it, spreads abuse and may itself be unlawful. Keeping a student's secret leaves them unprotected. Handing it off quickly to the right people is both the kindest and the safest action for the student and for you."
+      ]
+    },
+    {
+      "id": "B",
+      "title": "First Five Minutes",
+      "type": "cards",
+      "instructions": "Role-play a disclosure. The staff member practices four beats: BELIEVE, NOT YOUR FAULT, PROTECT, HAND OFF. Swap roles. Try the harder cards.",
+      "cards": [
+        {
+          "label": "the four beats",
+          "front": "Staff member, practice saying all four: \"I'm really glad you told me.\" / \"This was done to you, it is not your fault.\" / \"We'll keep you safe and I won't share it.\" / \"I have to tell the people who can help stop it, here's who.\"",
+          "back": "Warm, calm, honest. No questions about what the image shows. No promises of secrecy. Move it to the report path."
+        },
+        {
+          "label": "student role",
+          "front": "You're a student: \"Please don't tell anyone. I'll get in trouble and everyone will know.\" (Staff: stay warm AND honest.)",
+          "back": "Good staff response: \"I care about you too much to keep this secret. You're not in trouble, you were hurt. Here's exactly what I'll do and what happens next.\""
+        },
+        {
+          "label": "student role",
+          "front": "You're a student: \"It's my fault, I posted a normal picture and someone used it.\" (Staff: remove the blame.)",
+          "back": "Good staff response: \"Posting a normal photo is not wrong. The person who faked and shared it did something wrong, not you.\""
+        },
+        {
+          "label": "student role",
+          "front": "You're a student who shows the staff member the image on a phone. (Staff: practice the line.)",
+          "back": "Good staff response: gently \"I don't need to see it, and I shouldn't. Please don't send it to anyone. Let's go to [named person] right now.\" Do not take the phone or the image."
+        },
+        {
+          "label": "bystander",
+          "front": "A student says: \"Everyone in the group chat got sent a fake nude of a girl in my grade. What do I do?\" (Staff: guide the bystander.)",
+          "back": "Good staff response: \"Don't share or save it, delete it after we report, and thank you for telling me. Let's report it together so it gets taken down.\""
+        },
+        {
+          "label": "debrief",
+          "front": "After each round: What did the staff member say that helped? Did anything accidentally sting or blame? What would you keep?",
+          "back": "Aim for every staff member to have one reliable opening line and the handoff sentence ready."
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Report Path + Classroom Culture",
+      "type": "worksheet",
+      "instructions": "Fill this with REAL names and numbers so you could follow it under stress. Then name the culture that makes students willing to tell you.",
+      "sections": [
+        {
+          "prompt": "The named person I report to (and where they are):",
+          "lines": 1
+        },
+        {
+          "prompt": "My backup if that person is unavailable:",
+          "lines": 1
+        },
+        {
+          "prompt": "The exact words I'll use to hand off, and what I will / won't put in writing (and: I will NOT store any image):",
+          "lines": 2
+        },
+        {
+          "prompt": "One thing about my classroom that makes a student trust me enough to come to me:",
+          "lines": 2
+        },
+        {
+          "prompt": "One thing I'll strengthen this week to build that trust:",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}
