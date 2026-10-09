@@ -220,7 +220,8 @@ ${FONTS}
     <details class="navmenu"><summary>${esc(t('nav.facilitator'))}</summary><div class="navmenu-panel">
       <a href="${base}guide.html">${esc(t('nav.menuGuide'))}</a><span class="navmenu-sep" aria-hidden="true">|</span>
       <a href="${base}standards.html">${esc(t('nav.standards'))}</a><span class="navmenu-sep" aria-hidden="true">|</span>
-      <a href="${base}packets.html">${esc(t('nav.packets'))}</a>
+      <a href="${base}packets.html">${esc(t('nav.packets'))}</a><span class="navmenu-sep" aria-hidden="true">|</span>
+      <a href="${base}decks/facilitator.html">${esc(t('nav.menuDeck'))}</a>
     </div></details>
     ${picker}
   </nav>

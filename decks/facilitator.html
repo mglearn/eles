@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Essential Learning Expectations · Facilitator Deck | TCEA</title>
+<meta name="description" content="A facilitator's slide deck for the TCEA Essential Learning Expectations: roles, indicators, guiding questions, sample activities, and scenarios, with speaker notes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/deck-framework.css">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<style>
+  /* ---- ELEs brand skin (navy + gold, DM fonts) over the shared framework ---- */
+  :root{
+    --navy:#0A3476; --navy-dk:#071f4a; --navy-md:#12428f; --steel:#12428f;
+    --gold:#FCB040; --gold-lt:#fdd17a; --gold-dk:#b9791f;
+    --white:#ffffff; --lgray:#f7f8fc; --mgray:#e2e7f5; --hair:#e2e7f5;
+    --slate:#5a6680; --text:#1a1a2e;
+    --green:#12428f; --green-bg:#e4ecf9; --green-bd:#b9c6e8;
+    --red:#0A3476;  --red-bg:#FEF0D0;  --red-bd:#f3d79a;
+    --metal:linear-gradient(180deg,#fdd17a 0%,#FCB040 55%,#e09a2e 100%);
+    --paper:linear-gradient(174deg,#ffffff 0%,#f3f6fc 100%);
+    --font-display:"DM Serif Display", Georgia, "Times New Roman", serif;
+    --font-body:"DM Sans", system-ui, -apple-system, sans-serif;
+    --font-mono:ui-monospace, Menlo, Consolas, monospace;
+  }
+  /* DM Serif Display ships one weight; keep headings at 400 so there is no faux-bold */
+  .slide h1,.slide h2,.slide h3,.slide h4,.slide-title,.cover h1,.divider h1,
+  .card h3,.step h4,.compare-col h3,.callout p,.stat .num,#help h3{font-weight:400;}
+  .bullets li strong,.card p strong,.bio-p strong{font-weight:600;}
+  /* let content titles use the slide width instead of wrapping early (framework caps at 24ch) */
+  .slide-title{max-width:none;}
+
+  /* cover / divider photos reuse framework class names (already neutralized in reflow) */
+  .cover-visual{position:absolute;right:0;top:0;height:100%;width:54%;object-fit:cover;z-index:0;
+    -webkit-mask-image:linear-gradient(to right, transparent 0, #000 20%);
+            mask-image:linear-gradient(to right, transparent 0, #000 20%);}
+  .cover .slide-body{max-width:760px;}
+  .divider .slide-body{max-width:600px;}
+  .divider-photo{position:absolute;top:50%;right:56px;transform:translateY(-50%);width:520px;height:360px;
+    object-fit:cover;border-radius:16px;box-shadow:0 18px 46px rgba(0,0,0,.42);z-index:1;}
+  .divider .areas{list-style:none;margin-top:22px;display:flex;flex-wrap:wrap;gap:8px;position:relative;z-index:1;}
+  .divider .areas li{font-family:var(--font-body);font-size:16px;font-weight:500;color:#F4F8FE;
+    background:rgba(255,255,255,.08);border:1px solid rgba(253,209,122,.5);border-radius:999px;padding:6px 14px;}
+
+  /* infographic figure (normal flow, reflows cleanly) */
+  .fig{margin:12px auto 0;text-align:center;display:flex;flex-direction:column;align-items:center;}
+  .fig img{max-width:100%;max-height:452px;border-radius:14px;background:#fff;
+    box-shadow:0 14px 40px rgba(10,29,51,.20);border:1px solid var(--hair);}
+  .fig figcaption{font-family:var(--font-body);font-size:18px;font-weight:300;color:var(--slate);margin-top:12px;max-width:80ch;}
+
+  /* role focus: indicator + scenario laid out as two columns */
+  .practice{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:18px;}
+  .ind-badge{font-family:var(--font-body);font-size:12px;font-weight:700;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--gold-dk);margin-bottom:8px;}
+
+  /* guiding-questions panel: each question on its own line, anchored toward the bottom */
+  .gq{margin-top:auto;background:var(--navy);border-radius:8px;padding:24px 30px;position:relative;overflow:hidden;}
+  .gq::before{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--metal);}
+  .gq .gq-label{font-family:var(--font-body);font-size:12px;font-weight:700;letter-spacing:.2em;
+    text-transform:uppercase;color:var(--gold-lt);margin-bottom:16px;display:flex;align-items:center;gap:9px;}
+  .gq ul{list-style:none;display:flex;flex-direction:column;gap:14px;}
+  .gq li{font-family:var(--font-display);font-style:italic;font-size:23px;line-height:1.4;color:#F4F8FE;
+    padding-left:28px;position:relative;}
+  .gq li::before{content:'';position:absolute;left:0;top:13px;width:11px;height:11px;background:var(--gold);transform:rotate(45deg);}
+  .deck.reflow .gq{margin-top:18px;}
+  .deck.reflow .gq li{font-size:1.05rem;}
+
+  /* jump-to-a-role menu (slide 4): buttons call window.__deck.show(idx) */
+  .rolejump{display:flex;flex-direction:column;gap:12px;margin-top:24px;max-width:780px;}
+  .rj{display:flex;align-items:center;gap:16px;width:100%;text-align:left;cursor:pointer;
+    font-family:var(--font-display);font-size:21px;font-weight:400;color:var(--navy);
+    background:var(--white);border:1px solid var(--hair);border-left:5px solid var(--gold);
+    border-radius:8px;padding:13px 22px;box-shadow:var(--sh-card);transition:transform .15s,box-shadow .15s,border-color .15s,color .15s;}
+  .rj:hover{border-left-color:var(--navy);transform:translateX(5px);box-shadow:var(--sh-lift);color:var(--navy-dk);}
+  .rj:focus-visible{outline:3px solid var(--navy);outline-offset:2px;}
+  .rj .rj-n{flex:none;width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;
+    font-family:var(--font-display);font-size:15px;display:flex;align-items:center;justify-content:center;}
+  .rj .rj-go{margin-left:auto;color:var(--gold-dk);font-size:18px;}
+
+  /* "when the ELEs are missing" scenario slides: narrative card + engaging photo */
+  .scn-grid{display:grid;grid-template-columns:1fr 440px;gap:34px;align-items:center;margin-top:20px;}
+  .scn-photo{width:440px;height:366px;object-fit:cover;border-radius:16px;box-shadow:var(--sh-lift);border:1px solid var(--hair);}
+  .scn-card{background:var(--navy);border-radius:10px;padding:24px 30px;position:relative;overflow:hidden;}
+  .scn-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--metal);}
+  .scn-tag{font-family:var(--font-body);font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-lt);margin-bottom:12px;}
+  .scn-card p{font-family:var(--font-display);font-size:22px;line-height:1.46;color:#F4F8FE;}
+
+  /* reflow: collapse the deck-local two-column grids on phones / high zoom (v5 §7) */
+  .deck.reflow .practice{display:block!important;grid-template-columns:1fr!important;}
+  .deck.reflow .practice > *{margin-bottom:12px;}
+  .deck.reflow .fig img{max-height:none;}
+  .deck.reflow .scn-grid{display:block!important;grid-template-columns:1fr!important;}
+  .deck.reflow .scn-photo{width:100%;height:auto;margin-top:14px;}
+</style>
+</head>
+<body>
+<!-- Scenario photos: Unsplash (free to use under the Unsplash License, no attribution required).
+     teachers=photo-1698047681465-a75bcf38379e · students=photo-1550614806-51d8db524675
+     leaders=photo-1719159381981-1327b22aff9b · coaches=photo-1540575467063-178a50c2df87
+     ai=photo-1677442135703-1787eea5ce01 — optimized to WebP in assets/img/eles/scenarios/ -->
+<div class="deck">
+
+  <!-- 1 · COVER -->
+  <section class="slide cover current">
+    <img class="cover-visual" src="../assets/img/hero-framework.jpg" alt="">
+    <div class="slide-body">
+      <div class="cover-eyebrow">TCEA · Facilitator Deck</div>
+      <h1>The Essential Learning Expectations</h1>
+      <div class="subtitle">A shared language for better learning, for every role in the school.</div>
+      <div class="meta"><strong>Creator:</strong> Miguel Guhlin (mguhlin@tcea.org | tcea.org | Social: mguhlin.org)<br>mglearn.github.io/eles</div>
+    </div>
+    <div class="slide-footer">
+      <span class="brand"><span class="star">✦</span> TCEA ELEs</span>
+      <span class="fac">Creator: Miguel Guhlin</span>
+      <span class="url">mglearn.github.io/eles</span>
+    </div>
+    <div class="notes"><p>Welcome, and thank you for being here. This session walks through the TCEA Essential Learning Expectations, the ELEs, a shared framework that gives teachers, students, coaches, school leaders, and anyone working with AI the same language for better learning. Over the next half hour we will look at how the framework is built, then move role by role through the indicators, the guiding questions, and a sample activity you can use tomorrow. Everything you see is on the public site at this address, so you do not need to copy anything down. Let us start with the big picture.</p></div>
+  </section>
+
+  <!-- 2 · WHAT ARE THE ELEs -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Orientation</div>
+      <h2 class="slide-title">What the ELEs are</h2>
+      <p class="lead">Five roles. Five key areas each. Three indicators per area, written in plain first-person voice.</p>
+      <ul class="bullets">
+        <li><strong>Five roles</strong> share one destination: teachers, students, school leaders, coaches, and AI in education.</li>
+        <li>Each role has <strong>five key areas</strong>, and each area holds <strong>three indicators</strong>, seventy-five in all.</li>
+        <li>Indicators read as <strong>"I know," "I can," and "I am aware"</strong>, so growth is self-assessable.</li>
+        <li>Every indicator carries an <strong>example</strong> and a <strong>standards correlation</strong> to TEKS or TEA Principal Standards.</li>
+      </ul>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>Here is the shape of the whole framework. There are five roles, and the ELEs treat them as partners rather than silos. Within each role there are five key areas, and each area has three indicators, which gives us seventy-five in total. The wording matters. Every indicator begins with "I know," "I can," or "I am aware," so a person can honestly place themselves on a continuum from awareness to capability. Each indicator also comes with a concrete classroom example and a correlation to the TEKS or the TEA Principal Standards, which is what makes it usable in planning and in observation. Keep that I-know, I-can, I-am-aware pattern in mind as we go.</p></div>
+  </section>
+
+  <!-- 3 · INFOGRAPHIC: role lanes -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">See it at a glance</div>
+      <h2 class="slide-title">Five roles, one destination</h2>
+      <figure class="fig">
+        <img src="../assets/img/eles/role-lanes.jpg" alt="Five role lanes converging on one destination: teachers design, students lead, coaches coach, leaders lead, and AI stays ready, all toward effective, inclusive, future-ready learning.">
+        <figcaption>Each role runs in its own lane, yet all of them aim at the same outcome: effective, inclusive, future-ready learning.</figcaption>
+      </figure>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>This is the picture I want to anchor the session on. Think of five lanes on the same road. Teachers design learning, students take the lead in it, coaches build teacher capacity, leaders set the conditions, and AI stays ready as a tool in service of all of them. The lanes are distinct because the work is different from each seat, but the destination is identical: learning that is effective, inclusive, and future-ready. As we move through each role, notice how often the same idea, say inclusive access or evidence of learning, shows up from a different angle. That overlap is the point.</p></div>
+  </section>
+
+  <!-- 4 · HOW TO USE THIS DECK -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Explore</div>
+      <h2 class="slide-title">Start anywhere you like</h2>
+      <p class="lead">Move through the deck in order, or jump straight to the role you came for.</p>
+      <div class="rolejump">
+        <button class="rj" type="button" onclick="window.__deck.show(4)"><span class="rj-n">1</span>Teachers and Teacher Librarians<span class="rj-go">→</span></button>
+        <button class="rj" type="button" onclick="window.__deck.show(8)"><span class="rj-n">2</span>Students<span class="rj-go">→</span></button>
+        <button class="rj" type="button" onclick="window.__deck.show(12)"><span class="rj-n">3</span>School Leaders and Administrators<span class="rj-go">→</span></button>
+        <button class="rj" type="button" onclick="window.__deck.show(17)"><span class="rj-n">4</span>Instructional Coaches<span class="rj-go">→</span></button>
+        <button class="rj" type="button" onclick="window.__deck.show(22)"><span class="rj-n">5</span>AI in Education<span class="rj-go">→</span></button>
+      </div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>Use this slide to let the group choose where to begin. You can move straight through in order, or jump to the role your people sit in. A few facilitation moves make the difference. Anchor on one indicator and one activity at a time, because depth beats coverage, so resist trying to cover all seventy-five. Open each role with a guiding question as a quick write before you show any answers. Run one sample activity and debrief it against a guiding question, since the activity is where the indicator becomes real. Have people self-assess using the know, can, aware language. Two cautions. Do not talk about a role while that role is missing from the room, and do not present AI as a tool to adopt; present it as habits every role builds.</p></div>
+  </section>
+
+  <!-- 5 · TEACHERS divider -->
+  <section class="slide divider">
+    <div class="slide-body">
+      <div class="seg-num">1</div>
+      <div class="divider-eyebrow">Role One</div>
+      <h1>Teachers and Teacher Librarians</h1>
+      <div class="subtitle">Design engaging, effective, and inclusive learning.</div>
+      <ul class="areas">
+        <li>Technology Integration</li><li>Digital Literacy</li><li>Inclusive Teaching</li><li>Relationship Building</li><li>Critical Thinking</li>
+      </ul>
+    </div>
+    <img class="divider-photo" src="../assets/img/role-teachers.jpg" alt="A teacher kneels to listen as a student explains his thinking.">
+    <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>We begin with teachers and teacher librarians, because this is where most of the day-to-day work lives. The five key areas here are technology integration, digital literacy, inclusive teaching, relationship building, and critical thinking. Notice that technology sits beside relationships and inclusion, not above them. The framework is grounded in John Hattie's visible learning work, which is why feedback and clarity run through it. As I show the indicators, think about which of these five areas is your current strength and which one you would most like to grow this year.</p></div>
+  </section>
+
+  <!-- 5b · TEACHERS scenario: when the ELEs are missing -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Teachers · When the ELEs are missing</div>
+      <h2 class="slide-title">A tool with no plan</h2>
+      <div class="scn-grid">
+        <div class="scn-text"><div class="scn-card"><div class="scn-tag">The breakdown</div><p>A teacher rolls out a buzzy AI writing tool overnight. Engagement jumps, but a third of the class has no device at home, quiet students use it to avoid thinking, and when grades return no one can tell whether real learning happened. Was it the tool, the task, or the teaching?</p></div></div>
+        <img class="scn-photo" src="../assets/img/eles/scenarios/scn-teachers.webp" alt="A person sits at a laptop with their head in their hands, overwhelmed.">
+      </div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>This is the problem the teacher ELEs are built to prevent. Technology Integration asks you to choose a tool for a learning purpose, not for novelty. Digital Literacy and Critical Thinking push you to design the task so the tool supports thinking instead of replacing it. Inclusive Teaching surfaces the device-access gap before you launch, not after. And the framework's habit of pairing every move with evidence means you plan how you will know it worked. The problem stays messy, but you walk into it with purpose, equity, and evidence instead of hope.</p></div>
+  </section>
+
+  <!-- 6 · TEACHERS indicators + guiding questions -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Teachers · Indicators and guiding questions</div>
+      <h2 class="slide-title">Where teachers grow</h2>
+      <ul class="bullets">
+        <li><strong>Technology Integration.</strong> Fold tools, including AI, into instruction with intent.</li>
+        <li><strong>Digital Literacy.</strong> Teach students to evaluate, verify, and use information well.</li>
+        <li><strong>Inclusive Teaching and Relationships.</strong> Build a classroom where every learner belongs.</li>
+        <li><strong>Critical Thinking.</strong> Design lessons that push past recall into reasoning.</li>
+      </ul>
+      <div class="gq"><div class="gq-label">💬 Guiding questions</div><ul><li>How effectively am I integrating technology into my teaching?</li><li>How am I creating an inclusive environment that respects diversity?</li></ul></div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>Across the five areas, the teacher indicators ask for intentional technology use, strong digital literacy instruction, inclusive and relationship-centered practice, and lessons that reach for higher-order thinking. I have pulled two guiding questions onto the slide. Try them as a quick write. The first asks how effectively you integrate technology, and the honest answer is usually "it depends on the lesson," which is a great place to start. The second asks about inclusion, which often surfaces the quietest, most important gaps. Give people a minute of silence to write before anyone shares. Then we will look at one indicator in practice.</p></div>
+  </section>
+
+  <!-- 7 · TEACHERS in practice -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Teachers · In practice</div>
+      <h2 class="slide-title">One indicator, one activity</h2>
+      <div class="practice">
+        <div>
+          <div class="callout"><span class="label">Indicator 1.2</span><p>I can use AI tools to enhance student learning experiences.</p></div>
+          <div class="scenario"><div class="scenario-label">Scenario from the ELEs</div><p>Students use an AI-powered language app to practice Spanish conversation, getting real-time feedback on pronunciation and grammar.</p></div>
+        </div>
+        <div>
+          <span class="pill tag">Technology Integration</span>
+          <p class="lead" style="font-size:18px;margin-top:14px;">The sample activity models how to scaffold AI prompting so students drive the tool, not the other way around.</p>
+          <div class="next-step no-advance">
+            <span class="ns-label">Try this activity</span>
+            <a href="../activities/the-prompt-ladder.html" target="_blank" rel="noopener">The Prompt Ladder <span class="arrow">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>Let us make one indicator concrete. Indicator 1.2 says, "I can use AI tools to enhance student learning experiences." The scenario on the left is the example the ELEs pair with it: students practicing Spanish with an AI app that gives real-time feedback. On the right is a sample activity from the bank, The Prompt Ladder, which teaches students to build prompts in steps so they stay in control of the tool. If you have a device handy, open it now and skim the first move. The debrief question I would ask a teacher group is simple: where in your next unit could a scaffold like this replace a worksheet.</p></div>
+  </section>
+
+  <!-- 8 · STUDENTS divider -->
+  <section class="slide divider">
+    <div class="slide-body">
+      <div class="seg-num">2</div>
+      <div class="divider-eyebrow">Role Two</div>
+      <h1>Students</h1>
+      <div class="subtitle">Learn, create, and stay safe in a connected world.</div>
+      <ul class="areas">
+        <li>Tech Savvy</li><li>Online Safety</li><li>Collaborative Learner</li><li>Self-Directed Learner</li><li>Creative Problem Solver</li>
+      </ul>
+    </div>
+    <img class="divider-photo" src="../assets/img/role-students.jpg" alt="Three middle school students read and annotate an article together.">
+    <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>Next, the students. Their five areas are tech savvy, online safety, collaborative learner, self-directed learner, and creative problem solver. The student indicators are written in young, plain language on purpose, so learners can read and own them. This is the role where the guiding questions sound almost childlike, things like "Do I stay safe and make good choices online," and that simplicity is a strength. As we look at these, think about how you would put the indicators in front of students themselves, not just talk about students in their absence.</p></div>
+  </section>
+
+  <!-- 8b · STUDENTS scenario: when the ELEs are missing -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Students · When the ELEs are missing</div>
+      <h2 class="slide-title">Alone with the screen</h2>
+      <div class="scn-grid">
+        <div class="scn-text"><div class="scn-card"><div class="scn-tag">The breakdown</div><p>At midnight a student finds a shocking claim online, reposts it to friends, and shares a little too much about where she lives. By morning the claim has spread and her location is public. No one ever taught her to check a source or guard her privacy. What does she do now?</p></div></div>
+        <img class="scn-photo" src="../assets/img/eles/scenarios/scn-students.webp" alt="A young person sits alone in a dark room, face lit by a smartphone screen.">
+      </div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>The student ELEs are written for exactly this midnight moment, and in the student's own voice. Online Safety builds the habit of protecting personal information before anything is shared. The tech-savvy and critical-thinking strands teach her to pause and check a claim across more than one source. The collaborative and self-directed expectations give her the confidence to ask an adult for help instead of hiding the mistake. Because the indicators read as I know, I can, and I am aware, she owns these skills rather than waiting for a rule to catch up. The night is still hard, but she is equipped to handle it.</p></div>
+  </section>
+
+  <!-- 9 · STUDENTS indicators + guiding questions -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Students · Indicators and guiding questions</div>
+      <h2 class="slide-title">Where students grow</h2>
+      <ul class="bullets">
+        <li><strong>Tech Savvy.</strong> Use and adapt to digital tools, and see where AI can help.</li>
+        <li><strong>Online Safety.</strong> Protect personal information and judge sources.</li>
+        <li><strong>Collaborative Learner.</strong> Work in teams and value diverse perspectives.</li>
+        <li><strong>Self-Directed and Creative.</strong> Own your learning and solve real problems.</li>
+      </ul>
+      <div class="gq"><div class="gq-label">💬 Guiding questions</div><ul><li>Do I use what I learn to fix problems in real life?</li><li>Do I stay safe and make good choices when I use the internet?</li></ul></div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>The student indicators run from tech fluency and online safety to collaboration, self-direction, and creative problem solving. The two guiding questions on the slide are written for students, and I would hand them to students verbatim. The first, about using learning to fix real problems, is a great exit-ticket prompt. The second, about safety and good choices, opens honest conversation without lecturing. If you work with younger learners, read these aloud and ask for a thumbs-up, sideways, or down self-rating. The point of this role is agency, so let students do the self-assessing rather than doing it for them.</p></div>
+  </section>
+
+  <!-- 10 · STUDENTS in practice -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Students · In practice</div>
+      <h2 class="slide-title">One indicator, one activity</h2>
+      <div class="practice">
+        <div>
+          <div class="callout"><span class="label">Indicator 2.1</span><p>I know how to protect my personal information online.</p></div>
+          <div class="scenario"><div class="scenario-label">Scenario from the ELEs</div><p>Students build a digital safety plan that spells out how they protect personal information on social media and other platforms.</p></div>
+        </div>
+        <div>
+          <span class="pill tag">Online Safety</span>
+          <p class="lead" style="font-size:18px;margin-top:14px;">The activity turns an abstract warning into a plan students write, own, and can actually follow.</p>
+          <div class="next-step no-advance">
+            <span class="ns-label">Try this activity</span>
+            <a href="../activities/my-digital-safety-plan.html" target="_blank" rel="noopener">My Digital Safety Plan <span class="arrow">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>Here is a student indicator in practice. Indicator 2.1 reads, "I know how to protect my personal information online." The ELE scenario has students drafting a digital safety plan rather than just hearing a list of do-nots. The sample activity, My Digital Safety Plan, is exactly that: students write a plan they own and can follow. Safety sticks when it is a plan in the student's own words, not a poster on the wall. In a debrief I would ask what one habit each student will change this week, and have them write it on the plan before they leave.</p></div>
+  </section>
+
+  <!-- 11 · SCHOOL LEADERS divider -->
+  <section class="slide divider">
+    <div class="slide-body">
+      <div class="seg-num">3</div>
+      <div class="divider-eyebrow">Role Three</div>
+      <h1>School Leaders and Administrators</h1>
+      <div class="subtitle">Set the vision, the conditions, and the culture.</div>
+      <ul class="areas">
+        <li>Visionary Technology Leadership</li><li>Instructional Leadership</li><li>Data-Informed Decisions</li><li>Digital Learning Culture</li><li>Community Engagement</li>
+      </ul>
+    </div>
+    <img class="divider-photo" src="../assets/img/role-leaders.jpg" alt="A principal leads a hallway conversation with a group of teachers.">
+    <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>Now the leaders and administrators. Their areas are visionary technology leadership, technology-enhanced instructional leadership, data-informed decision making, fostering a digital learning culture, and technology-enabled community engagement. This is the role where the correlations shift from TEKS to the TEA Principal Standards, because the work is about systems and conditions rather than a single classroom. As we look at the leader indicators, notice that none of them are about buying tools. They are about vision, evidence, culture, and community. Keep that framing in front of any leadership team you run this with.</p></div>
+  </section>
+
+  <!-- 11b · SCHOOL LEADERS scenario: when the ELEs are missing -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">School Leaders · When the ELEs are missing</div>
+      <h2 class="slide-title">The rollout that stalled</h2>
+      <div class="scn-grid">
+        <div class="scn-text"><div class="scn-card"><div class="scn-tag">The breakdown</div><p>A district signs a six-figure platform deal over the summer and pushes it to every campus in August, with no shared vision and no plan for families without home internet. By winter logins have cratered, teachers have reverted to what worked, and the devices sit unused. Where did it go wrong?</p></div></div>
+        <img class="scn-photo" src="../assets/img/eles/scenarios/scn-leaders.webp" alt="Rows of computers sit empty in a quiet, unused lab.">
+      </div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>The leader ELEs would have slowed this decision down in the right places. Visionary Technology Leadership asks you to name and communicate the why before the what. Data-Informed Decision Making expects evidence that the tool improves learning, not just a vendor's promise. Fostering a Digital Learning Culture and Community Engagement put teachers and families in the room before the purchase, so access gaps surface early and adoption is shared rather than mandated. Running the Five-Question Rollout Check would have caught most of this in planning. The work is still complex, but it is governed by vision, evidence, access, and community.</p></div>
+  </section>
+
+  <!-- 12 · SCHOOL LEADERS indicators + guiding questions -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">School Leaders · Indicators and guiding questions</div>
+      <h2 class="slide-title">Where leaders grow</h2>
+      <ul class="bullets">
+        <li><strong>Vision.</strong> Articulate and communicate a clear technology vision.</li>
+        <li><strong>Instructional Leadership.</strong> Support and evaluate effective, tech-enhanced teaching.</li>
+        <li><strong>Data-Informed Decisions.</strong> Use dashboards and evidence to drive improvement.</li>
+        <li><strong>Culture and Community.</strong> Build equitable access and real family partnerships.</li>
+      </ul>
+      <div class="gq"><div class="gq-label">💬 Guiding questions</div><ul><li>How clearly have I communicated our vision for technology?</li><li>How am I using data and digital tools to drive school improvement?</li></ul></div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>The leader indicators move from vision to instructional leadership, to data-informed decisions, and out to culture and community. The two guiding questions ask about clarity of vision and use of evidence. In my experience these are the two places leadership most often slips: a vision that lives in a binder rather than in people's language, and data that gets admired on a dashboard but never changes a decision. If you are facilitating a leadership team, I would spend real time on the first question, because a vision nobody can restate is not yet a vision. Then we will look at a concrete leadership move.</p></div>
+  </section>
+
+  <!-- 13 · INFOGRAPHIC: five questions -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">School Leaders · A decision tool</div>
+      <h2 class="slide-title">Five questions before a digital initiative</h2>
+      <figure class="fig">
+        <img src="../assets/img/eles/five-questions.jpg" alt="Five questions to ask before launching a digital initiative: vision, evidence, instruction, access, and community.">
+        <figcaption>Before you launch anything new, ask about vision, evidence, instruction, access, and community.</figcaption>
+      </figure>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>This is a tool I hand to every leadership team. Before you roll out a new app, platform, or AI tool, run it through five questions: Does it serve our vision. What evidence says it will help. How does it change instruction. Who might it leave out. And how will we bring the community along. Most failed rollouts skip question four, access, and question five, community, and then wonder why adoption stalls. Put this image on the wall of the next planning meeting and do not let a purchase order move until all five have an answer. The next slide turns this into an activity.</p></div>
+  </section>
+
+  <!-- 14 · SCHOOL LEADERS in practice -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">School Leaders · In practice</div>
+      <h2 class="slide-title">One indicator, one activity</h2>
+      <div class="practice">
+        <div>
+          <div class="callout"><span class="label">Indicator 1.1</span><p>I know how to create and communicate a compelling vision for technology integration.</p></div>
+          <div class="scenario"><div class="scenario-label">Scenario from the ELEs</div><p>An administrator presents a technology integration plan to the board, showing how it aligns with district goals and future-ready learning.</p></div>
+        </div>
+        <div>
+          <span class="pill tag">Visionary Leadership</span>
+          <p class="lead" style="font-size:18px;margin-top:14px;">The activity pressure-tests a rollout against vision, evidence, instruction, access, and community.</p>
+          <div class="next-step no-advance">
+            <span class="ns-label">Try this activity</span>
+            <a href="../activities/five-question-rollout-check.html" target="_blank" rel="noopener">The Five-Question Rollout Check <span class="arrow">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>Here is the leadership indicator in practice. Indicator 1.1 is about creating and communicating a compelling vision. The ELE scenario has an administrator presenting an integration plan to the board, tied to district goals. The sample activity, The Five-Question Rollout Check, is the hands-on version of the infographic we just saw: a team takes a real initiative and runs it through all five questions before committing. If you are with leaders, pick an actual pending decision and run it live. The honest discomfort when a group cannot answer the access question is where the real learning happens.</p></div>
+  </section>
+
+  <!-- 15 · COACHES divider -->
+  <section class="slide divider">
+    <div class="slide-body">
+      <div class="seg-num">4</div>
+      <div class="divider-eyebrow">Role Four</div>
+      <h1>Instructional Coaches</h1>
+      <div class="subtitle">Grow teacher practice, by design.</div>
+      <ul class="areas">
+        <li>Teacher Support</li><li>Technology Integration</li><li>Data-Driven Coaching</li><li>Professional Development</li><li>Collaborative Leadership</li>
+      </ul>
+    </div>
+    <img class="divider-photo" src="../assets/img/role-coaches.jpg" alt="An instructional coach and a teacher sort student work after school.">
+    <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>Fourth, the instructional coaches. Their areas are teacher support, technology integration, data-driven coaching, professional development, and collaborative leadership. Coaches sit in a unique spot, close to the classroom but working through adults, so their indicators lean on adult learning theory and on the research that coaching changes teacher practice more than one-off workshops do. The coach's quote in the framework is Hattie's line that every student deserves a great teacher, not by chance but by design. That phrase, by design, is the whole job. Let us look at the coach indicators and a cycle you can use Monday.</p></div>
+  </section>
+
+  <!-- 15b · COACHES scenario: when the ELEs are missing -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Coaches · When the ELEs are missing</div>
+      <h2 class="slide-title">The workshop that changed nothing</h2>
+      <div class="scn-grid">
+        <div class="scn-text"><div class="scn-card"><div class="scn-tag">The breakdown</div><p>A coach delivers a slick ninety-minute session on a new tool to the whole staff. Everyone nods, a few try it that week, and a month later nothing in classrooms has changed. There was no follow-up and no data on student learning. Was the PD wrong, or the way it was delivered?</p></div></div>
+        <img class="scn-photo" src="../assets/img/eles/scenarios/scn-coaches.webp" alt="An audience sits in a darkened auditorium facing a lit stage.">
+      </div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>The coach ELEs replace the one-and-done workshop with a cycle. Teacher Support and Data-Driven Coaching mean you start from a real goal and watch for evidence that practice, and then student work, actually changed. Professional Development grounded in adult learning theory favors small, repeatable moves over a single big event. Collaborative Leadership builds a culture where teachers keep refining together instead of waiting for the next session. Picture the loop: listen, co-plan, model, measure, adjust. Changing adult practice is genuinely hard, but a coaching cycle gives it the traction a workshop never had.</p></div>
+  </section>
+
+  <!-- 16 · COACHES indicators + guiding questions -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Coaches · Indicators and guiding questions</div>
+      <h2 class="slide-title">Where coaches grow</h2>
+      <ul class="bullets">
+        <li><strong>Teacher Support.</strong> Mentor and give constructive, specific feedback.</li>
+        <li><strong>Technology Integration.</strong> Guide and evaluate meaningful tech use.</li>
+        <li><strong>Data-Driven Coaching.</strong> Help teachers read and act on evidence.</li>
+        <li><strong>PD and Collaborative Leadership.</strong> Design adult learning and build trust.</li>
+      </ul>
+      <div class="gq"><div class="gq-label">💬 Guiding questions</div><ul><li>How am I using data to guide my coaching?</li><li>To what extent am I fostering a collaborative culture among the educators I work with?</li></ul></div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>The coach indicators span teacher support, technology integration, data-driven coaching, professional development, and collaborative leadership. The guiding questions ask about using data to steer coaching and about building a collaborative culture. Both push against the lone-expert model of coaching. A good coach is not the smartest person in the room; they are the one who helps the room get smarter together. If you facilitate with coaches, ask them to name one teacher relationship that is working and one that is stuck, and look for what the data and the collaboration questions reveal about the stuck one. Next, a short cycle you can picture.</p></div>
+  </section>
+
+  <!-- 17 · INFOGRAPHIC: coaching loop -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Coaches · The cycle</div>
+      <h2 class="slide-title">A practical coaching loop</h2>
+      <figure class="fig">
+        <img src="../assets/img/eles/coaching-loop.jpg" alt="A coaching loop with five moves: listen, co-plan, model, measure, and adjust, so teacher practice changes student evidence.">
+        <figcaption>Listen, co-plan, model, measure, adjust, so a change in teacher practice shows up in student evidence.</figcaption>
+      </figure>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>This loop keeps coaching honest. It runs listen, co-plan, model, measure, adjust. The reason it is a loop and not a line is the last two steps. If you cannot measure whether teacher practice changed, and whether that change showed up in student evidence, you were not coaching, you were just visiting. Notice that it starts with listen, not tell. Most coaching that stalls skips straight to modeling before the teacher has named their own goal. When you run this with a group, ask which step they personally shortchange. For many of us it is measure, because it is the slowest. The next slide gives you a twenty-minute way in.</p></div>
+  </section>
+
+  <!-- 18 · COACHES in practice -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Coaches · In practice</div>
+      <h2 class="slide-title">One indicator, one activity</h2>
+      <div class="practice">
+        <div>
+          <div class="callout"><span class="label">Indicator 1.1</span><p>I know how to mentor teachers in effective instructional practices.</p></div>
+          <div class="scenario"><div class="scenario-label">Scenario from the ELEs</div><p>A coach runs a full pre-observation, observation, and post-observation cycle with a new teacher, focused on differentiated instruction.</p></div>
+        </div>
+        <div>
+          <span class="pill tag">Teacher Support</span>
+          <p class="lead" style="font-size:18px;margin-top:14px;">The activity compresses that cycle into a tight, repeatable co-planning session.</p>
+          <div class="next-step no-advance">
+            <span class="ns-label">Try this activity</span>
+            <a href="../activities/co-plan-in-20.html" target="_blank" rel="noopener">Co-Plan in 20 <span class="arrow">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>The coach indicator in practice is 1.1, mentoring teachers in effective instructional practices. The ELE scenario describes a full observation cycle with a new teacher around differentiated instruction. The sample activity, Co-Plan in 20, shrinks that into a tight twenty-minute co-planning routine a coach can repeat weekly, which is what makes it stick. Coaching fails on calendar math more than on skill, so a reliable twenty-minute move beats an ideal ninety-minute one that never happens. If you have coaches in the room, have two of them run it on a real upcoming lesson while the rest observe the moves.</p></div>
+  </section>
+
+  <!-- 19 · AI divider -->
+  <section class="slide divider">
+    <div class="slide-body">
+      <div class="seg-num">5</div>
+      <div class="divider-eyebrow">Role Five</div>
+      <h1>AI in Education</h1>
+      <div class="subtitle">Use AI ethically and effectively, across every role.</div>
+      <ul class="areas">
+        <li>AI Literacy</li><li>Ethical AI Use</li><li>AI-Enhanced Learning</li><li>AI and Critical Thinking</li><li>AI Collaboration and Innovation</li>
+      </ul>
+    </div>
+    <img class="divider-photo" src="../assets/img/role-ai.jpg" alt="Adult learners compare a laptop screen against a printed textbook with their instructor.">
+    <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>Finally, AI in education. Its areas are AI literacy, ethical AI use, AI-enhanced learning, AI and critical thinking, and AI collaboration and innovation. This role is different from the other four. It is not a separate group of people; it is a strand that cuts across teachers, students, coaches, and leaders alike. The framework pairs it with Kurzweil's line about machines that create, but the indicators stay grounded and cautious, built around literacy, ethics, and critical thinking. As we close the role tour, think about AI less as a tool to adopt and more as a set of habits every role needs.</p></div>
+  </section>
+
+  <!-- 19b · AI scenario: when the ELEs are missing -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">AI in Education · When the ELEs are missing</div>
+      <h2 class="slide-title">Confident, and wrong</h2>
+      <div class="scn-grid">
+        <div class="scn-text"><div class="scn-card"><div class="scn-tag">The breakdown</div><p>With no shared norms, half the staff quietly ban AI and half lean on it. A teacher pastes student names into a free chatbot for feedback, a leader drops its confident summary into a decision, and a biased, wrong answer slips by unquestioned. What is fair, private, or verified here?</p></div></div>
+        <img class="scn-photo" src="../assets/img/eles/scenarios/scn-ai.webp" alt="An abstract brain made of glowing circuit-board traces.">
+      </div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>The AI ELEs are built for this gap, and they deliberately cut across every role. AI Literacy means knowing these systems can be confidently wrong and biased, so outputs get checked rather than trusted. Ethical AI Use sets shared expectations for privacy, fairness, and transparency, so student names never go into an ungoverned tool. AI and Critical Thinking trains everyone to question an answer before acting on it. Because AI runs as a strand through teaching, learning, coaching, and leadership rather than a walled-off committee, the norms are shared. The dilemmas stay real, but the school meets them with literacy, ethics, and healthy skepticism.</p></div>
+  </section>
+
+  <!-- 20 · AI indicators + guiding questions -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">AI in Education · Indicators and guiding questions</div>
+      <h2 class="slide-title">Where AI practice grows</h2>
+      <ul class="bullets">
+        <li><strong>AI Literacy.</strong> Understand how AI works, and where it is limited or biased.</li>
+        <li><strong>Ethical AI Use.</strong> Apply clear principles for privacy, fairness, and transparency.</li>
+        <li><strong>AI-Enhanced Learning.</strong> Personalize learning and evaluate whether it helped.</li>
+        <li><strong>Critical Thinking and Collaboration.</strong> Question outputs and create with AI, not just from it.</li>
+      </ul>
+      <div class="gq"><div class="gq-label">💬 Guiding questions</div><ul><li>How am I addressing ethical considerations when using AI?</li><li>What strategies promote critical thinking with AI-generated information?</li></ul></div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>The AI indicators begin with literacy, understanding how these systems work and where they fall down, then ethics, then AI-enhanced learning, and finally critical thinking and collaboration. The two guiding questions ask about ethics and about promoting critical thinking with AI output. I would linger on the critical-thinking question, because the biggest classroom risk with AI is not cheating, it is quiet over-trust. A student who never questions a confident wrong answer has learned the wrong lesson. The sample activity on the next slide tackles exactly that, by turning verification into a game. Let us look.</p></div>
+  </section>
+
+  <!-- 21 · INFOGRAPHIC: AI every role -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">AI in Education · The through-line</div>
+      <h2 class="slide-title">AI cuts across every role</h2>
+      <figure class="fig">
+        <img src="../assets/img/eles/ai-every-role.jpg" alt="AI expectations cut across every role: AI literacy, ethical AI use, AI-enhanced learning, AI and critical thinking, and AI collaboration and innovation.">
+        <figcaption>The five AI areas are not a separate job; they show up in the teacher, student, coach, and leader roles too.</figcaption>
+      </figure>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>This image makes the cross-cutting point visible. The five AI areas, literacy, ethics, enhanced learning, critical thinking, and collaboration, are not the property of a single department. A teacher needs AI literacy to choose a tool. A student needs it to question an answer. A coach needs it to evaluate a platform. A leader needs it to write policy. So when you plan AI learning, do not stand up a separate AI committee walled off from everyone else. Weave these habits into the role work people already do. That is the whole design intent behind making AI a role in its own right.</p></div>
+  </section>
+
+  <!-- 22 · AI in practice -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">AI in Education · In practice</div>
+      <h2 class="slide-title">One indicator, one activity</h2>
+      <div class="practice">
+        <div>
+          <div class="callout"><span class="label">Indicator 1.3</span><p>I am aware of the current limitations and potential biases in AI systems.</p></div>
+          <div class="scenario"><div class="scenario-label">Scenario from the ELEs</div><p>Students compare AI language translation across several languages and discuss the biases and limits they find.</p></div>
+        </div>
+        <div>
+          <span class="pill tag">AI Literacy</span>
+          <p class="lead" style="font-size:18px;margin-top:14px;">The activity trains students to catch confident, wrong answers instead of trusting them.</p>
+          <div class="next-step no-advance">
+            <span class="ns-label">Try this activity</span>
+            <a href="../activities/hallucination-hunt.html" target="_blank" rel="noopener">Hallucination Hunt <span class="arrow">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>The AI indicator in practice is 1.3, awareness of limitations and bias. The ELE scenario has students compare machine translation across languages and name the biases they find. The sample activity, Hallucination Hunt, puts students on the lookout for confident but wrong AI output, which builds exactly the skepticism the guiding question asked for. Run it and you will see students shift from "the computer said so" to "let me check that." In the debrief, ask what signals tipped them off, and capture those signals as a class checklist they can reuse. That checklist is the real artifact.</p></div>
+  </section>
+
+  <!-- 23 · INFOGRAPHIC: same focus -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Bringing it together</div>
+      <h2 class="slide-title">Same focus, different seat</h2>
+      <figure class="fig">
+        <img src="../assets/img/eles/same-focus.jpg" alt="A chart showing what teachers, students, coaches, and leaders each do for digital literacy, AI readiness, inclusive access, and evidence use.">
+        <figcaption>Digital literacy, AI readiness, inclusive access, and evidence look different from each seat, but they are the same goals.</figcaption>
+      </figure>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>Before we close, one picture to tie the roles together. Read across any row and you see the same goal handled from four seats. Take inclusive access: a teacher differentiates a lesson, a student values diverse perspectives, a coach spreads what works, and a leader funds the devices and the bandwidth. Same goal, four different moves. This is why the ELEs put every role in one framework instead of five separate documents. When a team can see their counterparts' column, hand-offs stop falling through the cracks. If you facilitate a mixed-role group, have each seat read their own column aloud, then name one hand-off they rely on from the seat next door.</p></div>
+  </section>
+
+  <!-- 24 · CLOSE / RESOURCES -->
+  <section class="slide">
+    <div class="slide-body">
+      <div class="slide-kicker">Take it with you</div>
+      <h2 class="slide-title">Where to go next</h2>
+      <p class="lead">Everything in this deck lives on the public site, free to use and share.</p>
+      <div class="grid cols-3">
+        <div class="card gold"><h3><span class="ico">📚</span>The framework</h3><p>All five roles and seventy-five indicators, with activities under each.</p></div>
+        <div class="card gold"><h3><span class="ico">📄</span>Complete ELEs</h3><p>The full document in one page, source and rendered side by side.</p></div>
+        <div class="card gold"><h3><span class="ico">🧭</span>Activity bank</h3><p>Ready-to-run activities and daily openers aligned to the ELEs.</p></div>
+      </div>
+      <div class="next-step no-advance">
+        <span class="ns-label">Start here</span>
+        <a href="../framework.html" target="_blank" rel="noopener">Open the ELE framework <span class="arrow">↗</span></a>
+      </div>
+      <div class="reflect"><span>💬</span><p><strong>One commitment.</strong> Name the single indicator you will act on first, and the activity you will try.</p></div>
+    </div>
+      <div class="slide-footer"><span class="brand"><span class="star">✦</span> TCEA ELEs</span><span class="fac">Creator: Miguel Guhlin</span><span class="url">mglearn.github.io/eles</span></div>
+    <div class="notes"><p>To close, here is where to go next, and all of it is free on the public site. The framework page holds every role and all seventy-five indicators, with aligned activities under each one. The complete ELEs page gives you the whole thing in a single document, with the markdown source and a rendered view side by side, easy to copy into your own planning. And the activity bank has ready-to-run activities and daily openers. Before you leave, make one commitment out loud: name the single indicator you will act on first, and the one activity you will try. Thank you for the work you do, and enjoy putting the ELEs to use.</p></div>
+  </section>
+
+</div>
+<script src="../assets/deck-framework.js"></script>
+</body>
+</html>
