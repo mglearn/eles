@@ -1,0 +1,237 @@
+{
+  "id": "our-home-screen-map",
+  "title": "Our Home Screen Map",
+  "tagline": "A student and a family member map where and when screens actually live in their home, then negotiate a few device zones together, trading blanket rules for choices the whole family helped make.",
+  "audience": "student",
+  "grades": [
+    "6-8"
+  ],
+  "strands": [
+    "digcit"
+  ],
+  "mode": "unplugged",
+  "minutes": 40,
+  "groupSize": "Modeled in class, then completed at home with one or more family members",
+  "eles": [
+    "S4.1",
+    "S3.1",
+    "S3.2",
+    "S2.3"
+  ],
+  "overview": "Most screen-time fights at home are really about places and moments: the phone at dinner, the tablet in the bedroom at midnight, the TV that is always on. This activity turns a vague argument into a map. In class, students practice on a sample floor plan, marking where devices live, where they charge, and when screens feel helpful versus when they get in the way. Then they take the map home and build the real one with a family member, naming a few \"device zones\": places or times the family agrees are screen-friendly, screen-light, or screen-free, and why. The approach is deliberately balanced: the goal is not to banish devices or to pretend heavy use is harmless, but to make screen use visible and decided together. Research on screen time is genuinely mixed, and families differ, so students practice negotiating agreements that fit their own home instead of applying one rule to everyone.",
+  "objectives": [
+    "Students will map where and when screens are used in a home and identify moments screens help and moments they get in the way.",
+    "Students will propose device zones (screen-friendly, screen-light, screen-free) with a reason for each.",
+    "Students will negotiate at least two agreements with a family member, giving and taking to reach something both can keep.",
+    "Students will explain why an agreement made together is easier to follow than a rule handed down."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Sample Home, practice map (1 per student)",
+      "Handout B: Our Real Home Screen Map (1 per student, taken home)",
+      "Handout C: Three Zones Agreement (1 per student, taken home)",
+      "Colored pencils or highlighters (three colors)"
+    ],
+    "digital": [
+      "Optional: a projector to display the sample map while modeling",
+      "Optional: a family may photograph the finished agreement to keep on a shared device"
+    ]
+  },
+  "prep": [
+    "Print Handout A for the in-class practice and Handouts B and C for every student to take home.",
+    "Choose three colors (for example green, yellow, red) and post what each zone means: screen-friendly, screen-light, screen-free.",
+    "Read the family note on Handout C and add your name and the return date.",
+    "Prepare a short, honest framing: the research on screen time is mixed, so families decide what fits them; this is about agreeing, not banning."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Where does the argument happen?",
+      "body": "Ask students to picture the last time screens caused a disagreement at home. Take a few examples without names: \"Phone at dinner.\" \"Tablet in bed.\" \"TV during homework.\" Point out that almost every one is tied to a *place* or a *time*, not screens in general. Say: **\"Today we stop arguing about screens in the abstract and start mapping where and when they actually matter.\"**",
+      "note": "Keep it blame-free. Students will volunteer family conflict; accept it neutrally and move quickly to the map so no one feels put on the spot."
+    },
+    {
+      "phase": "Model",
+      "minutes": 8,
+      "title": "Mapping the sample home",
+      "body": "Project Handout A, a simple floor plan of a made-up home. Together, mark each device where it lives, draw a lightning bolt where things charge overnight, and use three colors to shade rooms or times as screen-friendly, screen-light, or screen-free. Think aloud about trade-offs: \"The kitchen table at dinner, screen-free, so we talk. The living room on Friday night, screen-friendly, movie night. Bedrooms overnight, screen-light, chargers move to the hall.\" Stress there is no single right map.",
+      "note": "Model disagreeing with yourself: name a zone you are unsure about and a reason on each side, so students see that negotiating means weighing real trade-offs."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 7,
+      "title": "Reasons, not just rules",
+      "body": "In pairs, students pick two zones from the sample map and write the *reason* behind each in plain words a family member would accept, for example: \"Chargers in the hall overnight so screens do not pull at us when we are trying to sleep,\" or \"Living room screen-friendly on weekends because that is when we relax together.\" Pairs swap and push back: \"Would everyone in the house agree? What would a little sibling or a busy parent say?\"",
+      "note": "A reason that only serves one person rarely survives a family conversation. Coach students to write reasons that a parent and a sibling could both accept."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 12,
+      "title": "Build the real map at home",
+      "body": "This step happens at home. Students use Handout B to map their own home with a family member: where devices live and charge, where and when screens help (homework help, a recipe, a call with relatives) and where they get in the way (meals, sleep, time together). Then they shade the real zones in three colors. The family talks through each zone out loud; the student records the reasons the family gives.",
+      "note": "Some students share bedrooms, have one shared device, or have a parent who works nights. Tell students to map the home they actually have; a one-device or shared-room map is completely valid."
+    },
+    {
+      "phase": "Create",
+      "minutes": 5,
+      "title": "Three Zones Agreement",
+      "body": "Still at home, the family turns the map into Handout C: write at least one screen-friendly, one screen-light, and one screen-free zone or time, each with a reason and a \"what we'll do instead\" note for the screen-free one. Everyone who agrees signs. The agreement includes a review date, because a good agreement can be revised when it is not working.",
+      "note": "Build in the review date on purpose. Families keep agreements they can renegotiate; rigid ones get abandoned the first hard week."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 3,
+      "title": "Back in class",
+      "body": "Students return and discuss in small groups: **\"What was easier to agree on than you expected? What took real negotiating? How is a zone you helped decide different from a rule you were just given?\"** Capture a few insights on the board about why shared agreements tend to stick.",
+      "note": "Listen for students noticing that giving a reason, and giving a little, changed how the conversation went. That is the digital-citizenship skill, not the specific zones."
+    }
+  ],
+  "unplugged": "Everything runs on paper: a practice floor plan, a hand-drawn home map, three colored pencils, and a signed agreement. No devices are needed, which also keeps each family's home layout private to that home.",
+  "digital": "A family that prefers a digital copy can photograph the finished agreement and keep it in a shared notes or calendar app, and set the review date as a reminder. If a class wants a shared view, students can contribute anonymous zone ideas (\"dinner = screen-free\") to a class board without sharing any home details.",
+  "whyTech": "This is better unplugged. The map is about a specific family's rooms and routines, which is private, and the real learning is the face-to-face negotiation; paper keeps the focus on the conversation rather than a device.",
+  "adaptations": [
+    {
+      "label": "Grade 6",
+      "text": "Provide the three zone labels pre-printed and ask students to place just two zones at home, with one reason each, before adding more."
+    },
+    {
+      "label": "9–12",
+      "text": "Add a \"my own devices\" layer: students map their personal phone habits (notifications, overnight charging, where they scroll) and negotiate one change with themselves, not only with family."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Offer the family note and zone labels in the family's language and let the at-home conversation and reasons be recorded in any language."
+    },
+    {
+      "label": "Shared or limited devices",
+      "text": "For homes with one shared device or shared rooms, map times instead of rooms (after dinner, before school) so the zones still fit."
+    }
+  ],
+  "lookFors": [
+    "Maps show devices, charging spots, and at least one screen-helps and one screen-gets-in-the-way moment.",
+    "Each zone carries a reason a family member would accept, not just a preference.",
+    "The signed agreement includes at least one screen-friendly, one screen-light, and one screen-free zone plus a review date.",
+    "In the debrief, students can explain why an agreement they helped make is easier to keep than a rule imposed on them."
+  ],
+  "reflection": [
+    "Which screen moments in your home truly help, and which get in the way? How did your family decide? (Student ELE 3.1: I work effectively in a team.)",
+    "What did you give up, and what did you gain, to reach an agreement everyone could keep? (Student ELE 3.2: I communicate my ideas clearly to others.)",
+    "What would make you want to revise your agreement later, and why is it good that you can?"
+  ],
+  "transfer": "Families keep the Three Zones Agreement posted and revisit it on the review date to adjust what is not working. Back in class, students connect the negotiation skill to the next unit on online agreements and terms of service: the same habit of reading the reason and deciding together.",
+  "connections": [
+    {
+      "title": "AAP Family Media Plan (HealthyChildren.org)",
+      "url": "https://www.healthychildren.org/English/fmp/Pages/MediaPlan.aspx",
+      "note": "Families who want a more detailed, pediatrician-backed version can extend the agreement here."
+    },
+    {
+      "title": "Texas HB 1481 (2025), enrolled bill text: personal communication devices",
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01481F.htm",
+      "note": "For a classroom tie-in: how a school handles device zones compared with how a family does."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Sample Home (Practice Map)",
+      "type": "table",
+      "instructions": "Practice before you go home. For this made-up home, fill in where each device lives and when it is used, then decide a zone color and a reason. There is no single right answer.",
+      "columns": [
+        "Room or time",
+        "Which screens are here",
+        "Zone (friendly / light / free)",
+        "Reason"
+      ],
+      "rows": [
+        [
+          "Kitchen table at dinner",
+          "Phones, sometimes a tablet",
+          "",
+          ""
+        ],
+        [
+          "Living room, weekend evening",
+          "TV, game console",
+          "",
+          ""
+        ],
+        [
+          "Bedrooms overnight",
+          "Phones charging, tablet",
+          "",
+          ""
+        ],
+        [
+          "Desk during homework",
+          "Laptop, phone nearby",
+          "",
+          ""
+        ],
+        [
+          "Car on a long drive",
+          "Phones, tablet",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Our Real Home Screen Map",
+      "type": "worksheet",
+      "instructions": "Do this at home with a family member. Draw your home (or list the times of your day) and talk it through together. Map the home you actually have, a one-device or shared-room home works fine.",
+      "sections": [
+        {
+          "prompt": "Draw a simple map of your home (or a timeline of your day). Mark where each screen lives and where screens charge overnight.",
+          "boxes": true
+        },
+        {
+          "prompt": "When do screens really HELP in your home? (homework help, a recipe, a call with relatives, relaxing together)",
+          "lines": 3
+        },
+        {
+          "prompt": "When do screens get IN THE WAY? (meals, sleep, time together, focus)",
+          "lines": 3
+        },
+        {
+          "prompt": "Color your map: green = screen-friendly, yellow = screen-light, red = screen-free. Write any spot you and your family disagreed about and why.",
+          "lines": 3
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Three Zones Agreement",
+      "type": "worksheet",
+      "instructions": "Turn your map into an agreement everyone helps write. Family note: research on screen time is genuinely mixed, so families get to decide what fits them. This is about agreeing together, not handing down bans. Please build and sign this with your child, and set a date to revisit it.",
+      "sections": [
+        {
+          "prompt": "SCREEN-FRIENDLY zone or time (where screens are welcome) and why:",
+          "lines": 2
+        },
+        {
+          "prompt": "SCREEN-LIGHT zone or time (screens okay but limited) and why:",
+          "lines": 2
+        },
+        {
+          "prompt": "SCREEN-FREE zone or time and what we'll do instead:",
+          "lines": 2
+        },
+        {
+          "prompt": "One thing each person gave up or agreed to, to make this work:",
+          "lines": 2
+        },
+        {
+          "prompt": "We will revisit this agreement on (date):",
+          "lines": 1
+        },
+        {
+          "prompt": "Signed by everyone who agrees:",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

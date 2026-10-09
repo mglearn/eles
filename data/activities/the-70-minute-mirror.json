@@ -1,0 +1,236 @@
+{
+  "id": "the-70-minute-mirror",
+  "title": "The 70-Minute Mirror",
+  "tagline": "A teen and a parent each track their own real device use for one day, then sit down to compare mirrors, read what the research actually says, and co-write a short family stance on screen time and phones at school.",
+  "audience": "student",
+  "grades": [
+    "9-12"
+  ],
+  "strands": [
+    "digcit",
+    "medialit"
+  ],
+  "mode": "hybrid",
+  "minutes": 50,
+  "groupSize": "Individual tracking at home with one parent or guardian; debriefed in class in small groups",
+  "eles": [
+    "S4.3",
+    "S2.2",
+    "S4.1",
+    "AI4.1"
+  ],
+  "overview": "Screen-time conversations between teens and parents often stall because each side pictures the other as the problem. This activity puts a mirror in front of both. For one ordinary day, the teen and a parent each track their own device use, honestly, in the same simple log. Then they trade logs and talk. Before they judge, they read a short, fair summary of what large 2026 studies actually found: some links between heavy use and lower school achievement and more anxiety, a long study that found heavier screen users showed better cognitive processing as teens, and a twin study suggesting the mental-health link may be weaker than headlines claim once family background is accounted for. Students practice telling a real finding from a scary headline, notice that correlation is not causation, and separate the rare adult who studies this from an app trying to keep them scrolling. They finish by co-writing a one-page family stance, including where they land on phones during the school day under laws like Texas HB 1481.",
+  "objectives": [
+    "Students will track their own device use honestly and compare it with a parent's, naming patterns in both.",
+    "Students will summarize what mixed 2026 screen-time research does and does not support, distinguishing correlation from causation.",
+    "Students will tell the difference between a research finding and an alarming headline built on it.",
+    "Students will co-write a one-page family stance on screen use and school-day phone policy, with reasons."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: One-Day Mirror Log (2 per student, one for the teen and one for the parent)",
+      "Handout B: What the Research Actually Says (1 per student, a reading)",
+      "Handout C: Our Family Stance (1 per student)",
+      "Pens"
+    ],
+    "digital": [
+      "Optional: each person's built-in screen-time or digital-wellbeing dashboard, used only as a private memory aid for their own log",
+      "Optional: a shared document for families who prefer to type their stance"
+    ]
+  },
+  "prep": [
+    "Print two copies of Handout A per student (teen and parent) and one each of B and C.",
+    "Read Handout B yourself so you can field questions; it is written to be balanced, not alarmist.",
+    "Set the tracking day in advance (a normal weekday works best) and the class debrief for the day after.",
+    "Prepare a brief, honest framing: the point is not to prove screens are bad or fine, but to look clearly and decide together."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 6,
+      "title": "Guess before you look",
+      "body": "Ask each student to privately write two numbers: how many minutes they think *they* spend on their phone on a school day, and how many they think a *parent* spends on their own phone. Then share the real research anchor: a 2026 study in a medical journal found U.S. teens average about 70 minutes of phone use during the school day alone. Ask: **\"Were your guesses high or low? Would a parent's guess about themselves be any better?\"** Set up the day's task: stop guessing, start mirroring.",
+      "note": "Keep the 70-minute figure as a conversation starter, not a verdict. The point is that everyone, teen and adult, misjudges their own use."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "The one-day mirror (at home)",
+      "body": "Explain the home task. For one normal day, the teen and a parent each keep Handout A: rough blocks of device use, what it was for (connect, create, learn, work, unwind, autopilot), and how they felt right after. A phone's own screen-time dashboard can jog memory, but the log is the record. The rule for both people is the same: honest, no cleanup, no judging yet. The next day they trade logs and read each other's before saying a word.",
+      "note": "Equal footing is the whole design. If only the teen is tracked, it becomes surveillance; when the parent tracks too, it becomes a shared look."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "What the research actually says",
+      "body": "In class (or at home before the talk), students read Handout B, a fair, plain-language summary of several 2026 findings that point in different directions. They mark each finding as \"suggests screens may hurt,\" \"suggests screens may help or be neutral,\" or \"it's complicated,\" and underline every place the text says *linked to* rather than *caused*. Debrief: **\"If studies this big disagree, what does that tell us about any single scary headline?\"**",
+      "note": "Hold the line on correlation versus causation. Students should leave able to say, \"Heavier use was linked to lower grades, but the study can't prove the screens caused it.\""
+    },
+    {
+      "phase": "Apply",
+      "minutes": 8,
+      "title": "Headline vs. finding",
+      "body": "Give pairs three mock headlines drawn from the same research (on Handout B's second page) and have them rewrite each as an accurate, non-scary sentence a careful reporter would write. For example, a headline screaming that phones \"destroy\" teen focus becomes \"Study links heavier phone use to slightly lower test scores, but can't show phones are the cause.\" Discuss who benefits from the scary version and who benefits from the accurate one.",
+      "note": "This is the media-literacy core: the same finding can be reported honestly or weaponized. Name that an engagement-driven feed rewards the scary version."
+    },
+    {
+      "phase": "Create",
+      "minutes": 10,
+      "title": "Our family stance (at home)",
+      "body": "Teen and parent use Handout C to co-write a one-page family stance. It names one pattern each of them saw in their own mirror, one thing each will try, and where the family lands on phones during the school day given laws like Texas HB 1481, with a reason. Both sign. The stance is explicitly a draft they can revise; it is a shared position, not a punishment.",
+      "note": "Push for symmetry: the parent commits to a change too. A stance where only the teen changes rarely survives, and it misses the point that adults mirror the behavior kids copy."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 6,
+      "title": "Class debrief",
+      "body": "In small groups, students share (only what they are comfortable sharing): **\"What surprised you in your own mirror? In your parent's? Did the research change where you landed? What did it feel like to decide this together instead of being told?\"** Capture themes about honest self-tracking and reading research carefully.",
+      "note": "Protect privacy: no one has to reveal numbers. The transferable skills are self-awareness, reading evidence, and negotiating from shared data."
+    }
+  ],
+  "unplugged": "The entire activity works on paper: both people can estimate their device use in blocks from memory without ever opening a dashboard, read the printed research summary, rewrite the headlines, and handwrite the family stance. The honesty of the log matters more than the precision of the minutes.",
+  "digital": "Each person may use their phone's built-in screen-time dashboard privately to make their own log more accurate, treating it as a personal memory aid, not something they hand over. Families who prefer can type the stance in a shared document and set the review date as a calendar reminder.",
+  "whyTech": "The digital path adds one honest thing paper cannot: a dashboard can show you how far your guess was from your actual use, which is exactly the self-awareness the activity is after. It stays optional and private, because the learning lives in the comparison and conversation, not in the tool.",
+  "adaptations": [
+    {
+      "label": "Grade 9",
+      "text": "Shorten the research reading to two findings (one concerning, one reassuring) and focus the stance on a single shared change."
+    },
+    {
+      "label": "Higher Ed",
+      "text": "Add a source check: students look up one claim from Handout B, note the study's size and limits, and discuss what a responsible citation would say."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Provide Handout B with key research terms (linked, correlation, cause) glossed, and let the family stance be written in the home language."
+    },
+    {
+      "label": "No participating adult available",
+      "text": "Let the student pair with an older sibling, mentor, or coach, or mirror against their own two different days (a school day and a weekend) and still co-write a personal stance."
+    }
+  ],
+  "lookFors": [
+    "Both logs are filled honestly, and the student can name a real pattern in their own use and in the parent's.",
+    "Students label findings accurately and consistently use \"linked to\" rather than \"caused by\" when the study only shows correlation.",
+    "Rewritten headlines are accurate and noticeably less alarming than the originals, with the student able to say who benefits from each version.",
+    "The family stance commits both the teen and the parent to a change and states a reasoned position on school-day phones."
+  ],
+  "reflection": [
+    "What did your own mirror show that your guess missed? (Student ELE 4.3: I am aware of my learning strengths and areas for improvement.)",
+    "When studies this large disagree, how should that change how you read a single screen-time headline? (AI/media ELE 4.1: critical thinking about information.)",
+    "What made deciding a stance together feel different from being handed a rule? (Student ELE 4.1: I take responsibility for my own learning.)"
+  ],
+  "transfer": "Families revisit the stance on its review date and adjust what did not hold. In the next class, students carry the correlation-versus-causation skill into a media-literacy unit, evaluating how a current news story reports a study, and connect their school-day phone position to the campus policy under HB 1481.",
+  "connections": [
+    {
+      "title": "The Common Sense Census: Media Use by Tweens and Teens, 2021 (report PDF)",
+      "url": "https://www.commonsensemedia.org/sites/default/files/research/report/8-18-census-integrated-report-final-web_0.pdf",
+      "note": "Background data on how teens actually spend media time, useful context for the mirror logs."
+    },
+    {
+      "title": "Texas HB 1481 (2025), enrolled bill text: personal communication devices",
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01481F.htm",
+      "note": "The actual Texas law on student devices, for the school-day portion of the family stance."
+    },
+    {
+      "title": "News Literacy Project",
+      "url": "https://newslit.org/",
+      "note": "More practice telling a research finding from a sensational headline."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "One-Day Mirror Log",
+      "type": "table",
+      "instructions": "One log for you, one for your parent or guardian. For one normal day, jot rough blocks of device use. Be honest, no cleanup. You will trade and read each other's before you talk.",
+      "columns": [
+        "Time block",
+        "Device + what it was for",
+        "Rough minutes",
+        "How I felt right after"
+      ],
+      "rows": [
+        [
+          "Morning (wake to leaving)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "School / work hours",
+          "",
+          "",
+          ""
+        ],
+        [
+          "After school / after work",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Evening",
+          "",
+          "",
+          ""
+        ],
+        [
+          "The last hour before sleep",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "B",
+      "title": "What the Research Actually Says",
+      "type": "reading",
+      "instructions": "Read each finding. In the margin, mark it \"may hurt,\" \"may help / neutral,\" or \"it's complicated,\" and underline every place it says LINKED TO rather than CAUSED. Then use the mock headlines at the end for the rewrite task.",
+      "paragraphs": [
+        "Screen-time research in the 2020s does not tell one clean story. Large, careful studies published around 2026 point in different directions, and honest readers hold that tension instead of picking the finding they already agree with.",
+        "Finding 1 (may concern): A review pooling data on roughly 2.8 million children and teens across dozens of countries found that heavier screen use was linked to somewhat lower school achievement and weaker language skills, and to more emotional and behavioral difficulties. Important limit: these are associations. The review did not show that screens caused the lower scores; children who struggle may also use screens more, and other factors differ between families.",
+        "Finding 2 (may reassure): A long study that followed children for about eight years reported that those who used screens more actually showed better performance on some tests of cognitive processing as teenagers, the opposite of what many assume. One study does not settle the question, but it shows the simple story (more screens, worse brains) is too simple.",
+        "Finding 3 (it's complicated): A study of more than 21,000 twins found that some types of screen use in adolescence were linked to depression and anxiety, but that the links got much weaker when researchers compared twins raised in the same family. That suggests shared family background and genetics explain a lot of the apparent connection, and that screens alone may matter less than the headlines claim. The researchers were clear the results do not prove screens cause harm.",
+        "Finding 4 (type matters): Across many studies, what people do on a screen seems to matter more than the raw number of minutes. Creating, learning, and connecting with real people tend to look different from passive, endless scrolling, even when the minutes are equal. This is why a family can reasonably focus on purpose and balance rather than a single time limit.",
+        "A fair summary: heavy, aimless screen use is worth watching, especially around sleep; but screens are not proven to doom young people, the strongest claims usually outrun the evidence, and families differ enough that one rule for everyone rarely fits. Decide from your own mirror and from careful reading, not from the scariest headline.",
+        "MOCK HEADLINE 1 to rewrite: \"PHONES ARE DESTROYING OUR KIDS' BRAINS, SCIENTISTS CONFIRM.\"",
+        "MOCK HEADLINE 2 to rewrite: \"Study of millions proves screen time causes depression in teens.\"",
+        "MOCK HEADLINE 3 to rewrite: \"Relax, parents, new research says screen time is totally fine.\""
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Our Family Stance",
+      "type": "worksheet",
+      "instructions": "Write this together after you trade logs and read the research. Family note: this is a shared position you can revise, not a punishment. Aim for changes on BOTH sides. Both of you sign.",
+      "sections": [
+        {
+          "prompt": "One honest pattern the TEEN noticed in their own mirror:",
+          "lines": 2
+        },
+        {
+          "prompt": "One honest pattern the PARENT noticed in their own mirror:",
+          "lines": 2
+        },
+        {
+          "prompt": "One thing the research changed or confirmed for us (use \"linked to,\" not \"caused,\" where that is all the study showed):",
+          "lines": 2
+        },
+        {
+          "prompt": "One change the TEEN will try, and one change the PARENT will try:",
+          "lines": 2
+        },
+        {
+          "prompt": "Where we land on phones during the school day (given laws like Texas HB 1481) and our reason:",
+          "lines": 2
+        },
+        {
+          "prompt": "Date we will revisit this, and signatures of everyone who agrees:",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

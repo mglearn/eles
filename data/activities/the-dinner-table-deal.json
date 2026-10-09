@@ -1,0 +1,218 @@
+{
+  "id": "the-dinner-table-deal",
+  "title": "The Dinner Table Deal",
+  "tagline": "Young children notice how it feels when a screen interrupts time together, act it out, and make a simple \"table deal\" with their family about one screen-free time, so everyone, grown-ups too, gets a turn to be listened to.",
+  "audience": "student",
+  "grades": [
+    "K-2"
+  ],
+  "strands": [
+    "digcit"
+  ],
+  "mode": "unplugged",
+  "minutes": 25,
+  "groupSize": "Whole class, then taken home to make with the family",
+  "eles": [
+    "S3.2",
+    "S3.1",
+    "S4.1",
+    "S3.3"
+  ],
+  "overview": "Little kids feel it when a grown-up's eyes slide to a phone in the middle of their story, and grown-ups feel it when a child won't look up from a tablet at dinner. This lesson gives young children gentle words for that feeling and a tiny, fair plan to fix it. Children act out two short scenes, one where a screen interrupts time together and one where it doesn't, and notice the difference in their bodies and feelings. They learn that this is not about screens being bad; screens help us a lot, and there is a right time for them. Then they take home a \"table deal\": one screen-free time the whole family picks together, where everyone, kids and grown-ups, puts devices away so they can really listen to each other. The deal is on purpose a two-way promise, because children learn balance best when the adults they love practice it too.",
+  "objectives": [
+    "Students will name how it feels to be interrupted by a screen and how it feels to be listened to.",
+    "Students will act out and tell the difference between screen-free together time and interrupted time.",
+    "Students will help their family choose one screen-free time and a kind way to ask for it.",
+    "Students will explain that the deal is for everyone in the family, grown-ups too."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Two Scenes, picture cards to act out (1 teacher set, enlarged)",
+      "Handout B: How Did It Feel? (1 per student, or 1 enlarged for the class)",
+      "Handout C: Our Family Table Deal (1 per student, sent home)",
+      "Crayons; a pretend phone (a block or a card) for role-play"
+    ],
+    "digital": [
+      "Optional: a document camera to show the scene cards",
+      "Optional: a family may snap a photo of the finished deal to keep, no child's face needed"
+    ]
+  },
+  "prep": [
+    "Print and enlarge Handout A's two scene cards and Handout B for modeling.",
+    "Print Handout C for every child to take home.",
+    "Have a pretend phone ready (a wooden block, a folded card) so no real device is needed.",
+    "Read the family note on Handout C and add your name so families know who to contact."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 3,
+      "title": "The slide-away eyes",
+      "body": "Start telling the class an exciting little story, then stop halfway and pretend to stare at a block in your hand like a phone. Wait a few seconds. Ask: **\"How did that feel when my eyes went away?\"** Let children say it: \"sad,\" \"you weren't listening,\" \"I wanted you to look.\" Say warmly: \"That is a real feeling. Today we're going to find a kind way to help everybody get listened to, kids and grown-ups.\"",
+      "note": "Children will instantly recognize this. Keep it playful, not shaming. The feeling of being half-listened-to is the whole hook."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 7,
+      "title": "Two scenes",
+      "body": "Using Handout A, act out two short scenes with volunteers. **Scene 1:** a family at dinner where one person keeps looking at a pretend phone; the others try to share news. **Scene 2:** the same dinner, but the phone is in a basket and everyone listens. After each, ask the actors and the watchers: **\"How did your body feel? How did your feelings feel?\"** Fill in Handout B together with faces or words for each scene.",
+      "note": "Both kids and grown-ups can be the one on the phone in Scene 1, switch it, so children see it is a family habit, not just a kid problem."
+    },
+    {
+      "phase": "Model",
+      "minutes": 5,
+      "title": "A kind way to ask",
+      "body": "Teach a gentle sentence anyone in the family can use: **\"I want to hear you, so I'm putting my phone away.\"** And a way to ask for it: **\"Can we have phones away so I can tell you something?\"** Practice in pairs: one child asks kindly, the partner answers, \"Yes, I'm listening,\" and puts the pretend phone in a basket. Remind them grown-ups can say it too, and it feels good to be the one who gets listened to.",
+      "note": "Give the exact words. Young children follow a script; \"be kind about phones\" is too abstract, but \"I want to hear you\" they can actually say at home."
+    },
+    {
+      "phase": "Create",
+      "minutes": 7,
+      "title": "Start our table deal",
+      "body": "Children begin Handout C: draw the one time their family could make screen-free (dinner, bath time, the drive to school, bedtime stories). Draw where the phones will wait (a basket, a shelf). Draw everyone's faces listening. Circulate and ask, **\"When is your family's listening time? Who puts their phone away, just you or grown-ups too?\"** Help them see the answer is everyone.",
+      "note": "Keep choices flexible. Some families don't eat dinner together; \"the car,\" \"bedtime,\" or \"breakfast\" are all fine screen-free times."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 3,
+      "title": "Listening feels like…",
+      "body": "In a circle, each child says one word for how it feels to be really listened to (\"happy,\" \"important,\" \"warm\"). Close together: **\"Screens are good. People need listening too. Our deal is for everybody.\"** Tell children to finish the deal at home and bring back how it went.",
+      "note": "End on the balanced note: screens aren't the villain. The deal protects a little listening time; it does not ban devices."
+    }
+  ],
+  "unplugged": "The whole lesson is unplugged: role-play with a pretend phone, a feelings chart, and a drawn family deal. A block or folded card stands in for a device, which keeps the focus on the feeling of being listened to, with no real screen in the room.",
+  "digital": "If a family wants, they can take a photo of their finished table deal to keep on the fridge or a parent's phone as a reminder, with no child's face needed. A class could also make a shared drawing of \"listening time\" ideas to project, built only from children's pictures.",
+  "whyTech": "This is best unplugged. The learning is about noticing feelings and practicing kind words face to face, and a real device would pull attention toward the screen, which is exactly what the lesson asks everyone to set aside for a moment.",
+  "adaptations": [
+    {
+      "label": "Kindergarten",
+      "text": "Do only Scene 1 and Scene 2 and the feelings chart with faces; children draw just the screen-free time, no words needed."
+    },
+    {
+      "label": "Grade 2",
+      "text": "Add a sentence on the deal: children write the kind words their family will use and one thing they'll do instead during listening time."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Teach the kind sentence in the child's home language too, and let children answer the feelings chart with faces or colors."
+    },
+    {
+      "label": "Children in different family settings",
+      "text": "Use \"the people I live with\" instead of assuming a dinner table, and let any shared moment (a bus ride, a bedtime) be the screen-free time."
+    }
+  ],
+  "lookFors": [
+    "Children name a feeling for being interrupted by a screen and a feeling for being listened to.",
+    "Children act out or describe the difference between the interrupted scene and the listening scene.",
+    "The table deal names one screen-free time, where phones wait, and that grown-ups join too.",
+    "Children use or recall a kind sentence for asking to be listened to."
+  ],
+  "reflection": [
+    "How does it feel when someone really listens to you? (Student ELE 3.2: I communicate my ideas clearly to others.)",
+    "Why is it fair for grown-ups to put their phones away too? (Student ELE 3.3: I value diverse perspectives in group work.)",
+    "What will your family do together during your screen-free time?"
+  ],
+  "transfer": "Children finish the table deal at home with their family and try it for a few days, then share in a class circle one thing that felt good and one thing that was hard. Families are encouraged to keep the deal and change the time if a different one fits better.",
+  "connections": [
+    {
+      "title": "AAP Family Media Plan (HealthyChildren.org)",
+      "url": "https://www.healthychildren.org/English/fmp/Pages/MediaPlan.aspx",
+      "note": "Families can add a screen-free time like this one to a fuller media plan."
+    },
+    {
+      "title": "Digital Citizenship Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/digcit/",
+      "note": "More early digital-citizenship practice about balance and kindness."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Two Scenes",
+      "type": "cards",
+      "instructions": "Act these out with a pretend phone (a block or card). After each scene, talk about how it felt.",
+      "cards": [
+        {
+          "label": "scene 1",
+          "front": "Dinner time. One person keeps looking at a phone. The others try to tell about their day, but the phone keeps pulling the eyes away.",
+          "back": "Ask: How did it feel for the people trying to share? For the person on the phone? (Let a grown-up be the one on the phone sometimes.)"
+        },
+        {
+          "label": "scene 2",
+          "front": "Same dinner. The phone is resting in a basket. Everyone looks at each other and listens. One person shares good news and everyone hears it.",
+          "back": "Ask: How did this feel different? What did your body do? What did your feelings do?"
+        },
+        {
+          "label": "try it",
+          "front": "A child wants to show a grown-up a picture they drew, but the grown-up is scrolling. Act out a kind way to ask for listening.",
+          "back": "Practice: \"Can we have phones away so I can show you something?\" The grown-up says, \"Yes, I'm listening,\" and puts the phone down."
+        },
+        {
+          "label": "try it",
+          "front": "A grown-up wants to hear about a child's day, but the child is deep in a tablet game. Act out a kind way to ask for listening.",
+          "back": "Practice: \"I want to hear about your day. Let's put screens away for a little.\" Everyone gets a turn to ask and to listen."
+        },
+        {
+          "label": "both ways",
+          "front": "Show a moment where a screen HELPED the family (a video call with a far-away grandparent, a recipe, a song to dance to).",
+          "back": "Remember: screens are good and help us a lot. The deal is only about one listening time, not about screens being bad."
+        },
+        {
+          "label": "both ways",
+          "front": "Show the family choosing their listening time together and everyone putting phones in the basket, grown-ups too.",
+          "back": "The deal is for EVERYBODY. That is what makes it fair and easy to keep."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "How Did It Feel?",
+      "type": "table",
+      "instructions": "After each scene, draw a face or write a word. There are no wrong answers. Just notice how it felt.",
+      "columns": [
+        "Scene",
+        "My body felt",
+        "My feelings felt",
+        "Was I listened to?"
+      ],
+      "rows": [
+        [
+          "Scene 1: the phone kept interrupting",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Scene 2: phones away, everyone listening",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Our Family Table Deal",
+      "type": "worksheet",
+      "instructions": "Start at school. Finish at home with your family. Family note: this is not about screens being bad, they help us a lot. It is a two-way promise to protect one listening time where EVERYONE, grown-ups too, puts devices away. Please make this deal together with your child.",
+      "sections": [
+        {
+          "prompt": "Draw the one time our family will make screen-free so we can listen to each other (dinner, bedtime, the car, breakfast).",
+          "boxes": true
+        },
+        {
+          "prompt": "Draw where the phones will wait during our listening time (a basket, a shelf, another room).",
+          "boxes": true
+        },
+        {
+          "prompt": "The kind words we will use: \"I want to hear you, so I'm putting my phone away.\"",
+          "lines": 1
+        },
+        {
+          "prompt": "Everyone who promises to join the deal (kids AND grown-ups):",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

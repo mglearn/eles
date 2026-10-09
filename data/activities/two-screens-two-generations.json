@@ -1,0 +1,219 @@
+{
+  "id": "two-screens-two-generations",
+  "title": "Two Screens, Two Generations",
+  "tagline": "A student interviews a parent or grandparent about the screens of their childhood and today, then builds a side-by-side timeline, discovering that every generation worried about a new screen, and finding balance the family can agree on now.",
+  "audience": "student",
+  "grades": [
+    "3-5"
+  ],
+  "strands": [
+    "digcit",
+    "medialit"
+  ],
+  "mode": "unplugged",
+  "minutes": 30,
+  "groupSize": "Prepared in class; the interview done at home with an older family member; shared in class",
+  "eles": [
+    "S3.3",
+    "S3.2",
+    "S2.2",
+    "S4.1"
+  ],
+  "overview": "Today's worry is phones and tablets, but it is not the first screen a generation fretted over. Grandparents were once warned that television would ruin their eyes and their grades; their parents worried about radio and comic books. This activity turns a screen-time argument into a family history project. A student interviews a parent or grandparent about the screens of their own childhood: what they had, how much time they got, what the grown-ups worried about, and what turned out fine. Together they build a two-generation timeline and compare it with the student's own screen life. The point is balance and perspective, not dismissal: some worries from the past were overblown, some led to healthy habits like \"go play outside,\" and some of today's concerns, especially around sleep and endless feeds, are genuinely new. Students come away able to listen across generations, weigh a worry fairly, and talk with family about what balance makes sense now.",
+  "objectives": [
+    "Students will interview an older family member about screens in their childhood and record what they learn.",
+    "Students will build a two-generation timeline comparing past and present screens and worries.",
+    "Students will judge which past worries were overblown and which of today's concerns may be genuinely new.",
+    "Students will discuss with family one balanced habit worth keeping from the past or starting now."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Interview an Elder, question card (1 per student, taken home)",
+      "Handout B: Two-Generation Timeline (1 per student)",
+      "Handout C: Worth Keeping, family talk (1 per student)",
+      "Pencils; optional colored pencils for the timeline"
+    ],
+    "digital": [
+      "Optional: a student may record the interview as audio with the family member's permission, to help remember",
+      "Optional: old family photos on a device to spark the elder's memories"
+    ]
+  },
+  "prep": [
+    "Print Handout A, B, and C for every student.",
+    "Model one interview answer with a story of your own first screen so students hear the warm, curious tone to use.",
+    "Set the interview window (a few days) and the class share day.",
+    "Add your name to the family note on Handout A so families know the purpose."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "What did grown-ups worry about?",
+      "body": "Ask: **\"What do grown-ups worry about with your screens today?\"** Collect a few (\"too much time,\" \"eyes,\" \"bad stuff online\"). Then surprise them: \"Did you know when your grandparents were kids, grown-ups worried that *television* would rot their brains and ruin their eyes? And before that, radio and comic books?\" Set the quest: **\"Let's find out what screens your family grew up with, and what the grown-ups worried about then.\"**",
+      "note": "This reframes screen worry as a pattern across time, which builds perspective without dismissing real concerns. Keep genuine curiosity, not mockery of past worries."
+    },
+    {
+      "phase": "Model",
+      "minutes": 6,
+      "title": "How to interview kindly",
+      "body": "Walk through Handout A's questions and model asking one with a volunteer playing a grandparent. Teach three interview habits: ask the question, then *wait* and really listen; ask \"what else?\" to get a story; and thank them. Practice the listening-across-generations move: you are not there to argue that old worries were silly, you are there to learn what it was like and what turned out okay.",
+      "note": "Model wait time and follow-up questions. Third graders tend to rapid-fire; the gold is in the stories that come after a pause."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 10,
+      "title": "The interview (at home)",
+      "body": "At home, the student interviews a parent, grandparent, or older relative using Handout A: What screens did you have as a kid? How much time did you get, and who decided? What did the grown-ups worry about? What turned out fine, and what do you wish you'd done differently? Students record answers in words, drawings, or (with permission) a short audio note. If no older relative is reachable, an older neighbor, mentor, or school staff member works.",
+      "note": "Give an alternative interviewee up front so students without an available elder are never stuck. The skill is cross-generation listening, not a specific relative."
+    },
+    {
+      "phase": "Create",
+      "minutes": 6,
+      "title": "Build the timeline",
+      "body": "Back in class, students turn their interview into Handout B: a two-row timeline. The top row is the elder's childhood screens and worries; the bottom row is the student's own screens and today's worries. They draw arrows between worries that rematch across time (\"too much TV\" to \"too much phone\") and star any worry on either row that seems genuinely new (like feeds designed to never end, or screens stealing sleep).",
+      "note": "The stars matter: perspective is not \"all worries are silly.\" Help students see that some of today's concerns, especially sleep and endless scrolling, really are different."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 4,
+      "title": "Worth keeping",
+      "body": "In pairs, students share one thing from their elder's answers worth keeping today, maybe \"go play outside until the streetlights come on,\" or \"we only watched on weekends.\" They note it on Handout C and add one question to take back to their family: a balanced habit from the past, or a new one for today's screens. Close: **\"Every generation gets a new screen and a new worry. The family's job is to find balance that fits now.\"**",
+      "note": "Steer away from \"the past was better.\" The elder's world also had real limits; the goal is to borrow wisely, not romanticize."
+    }
+  ],
+  "unplugged": "The whole project is unplugged: a printed question card, a hand-drawn timeline, and a family conversation. Students can record the interview in writing or drawings, so no device is needed at any step.",
+  "digital": "With permission, a student may record a short audio clip of the interview to remember a favorite story, or look at old family photos on a device to spark the elder's memories. A class could build a shared, anonymous \"worries across time\" wall from the timelines, with no family details attached.",
+  "whyTech": "This is best unplugged. The heart of it is listening to a real person tell their story and comparing it to your own life, which happens best face to face; an optional recording only helps the student remember, it does not change the learning.",
+  "adaptations": [
+    {
+      "label": "Grade 3",
+      "text": "Use three interview questions and let the timeline be two simple drawings (then and now) with one worry each."
+    },
+    {
+      "label": "Grade 5",
+      "text": "Students add a short written reflection on which worry from the past turned out overblown and which of today's worries they think is most real, with a reason."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Encourage the interview in the family's home language and let students present their timeline bilingually; stories from another country's screens are a bonus."
+    },
+    {
+      "label": "No older relative available",
+      "text": "Students interview an older neighbor, mentor, coach, or school staff member, or compare two time periods they research about with the teacher's help."
+    }
+  ],
+  "lookFors": [
+    "Students record real interview answers, including at least one story beyond a one-word reply.",
+    "Timelines show both generations' screens and worries with arrows between worries that rematch over time.",
+    "Students star at least one worry and can explain why it seems genuinely new rather than a repeat.",
+    "Students name one balanced habit, from the past or for today, worth bringing to their family."
+  ],
+  "reflection": [
+    "What worry about screens repeats across generations, and what does that tell you? (Student ELE 3.3: I value diverse perspectives.)",
+    "Which of today's screen worries do you think is genuinely new, and why? (Student ELE 2.2: I identify trustworthy information and weigh it.)",
+    "What did you learn by really listening to an older person's story? (Student ELE 3.2: I communicate my ideas clearly.)"
+  ],
+  "transfer": "Students bring the \"worth keeping\" habit home to discuss with their family and try one balanced idea, old or new. In class, the collected timelines feed a discussion of how societies always adapt to new media, setting up a later media-literacy lesson.",
+  "connections": [
+    {
+      "title": "The Common Sense Census: Media Use by Tweens and Teens, 2021 (report PDF)",
+      "url": "https://www.commonsensemedia.org/sites/default/files/research/report/8-18-census-integrated-report-final-web_0.pdf",
+      "note": "For older students, data on how today's media use compares to earlier years."
+    },
+    {
+      "title": "Digital Citizenship Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/digcit/",
+      "note": "More K–8 practice connecting family values to healthy tech habits."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Interview an Elder",
+      "type": "cards",
+      "instructions": "Take this home. Interview a parent, grandparent, or older relative (or an older neighbor or mentor). Ask a question, then WAIT and listen. Ask \"what else?\" to get a story. Say thank you!",
+      "cards": [
+        {
+          "label": "warm-up",
+          "front": "When you were my age, what screens did you have at home? (TV, radio, a game console, a computer, a phone?)",
+          "back": "Listen for how FEW or how many screens there were, and whether they were shared by the whole family."
+        },
+        {
+          "label": "time",
+          "front": "How much screen time did you get? Who decided, and were there rules?",
+          "back": "Listen for rules like \"only on weekends\" or \"after chores,\" and how they felt about them."
+        },
+        {
+          "label": "worry",
+          "front": "What did the grown-ups worry about with your screens? Did anyone say it was bad for you?",
+          "back": "Many will remember being told TV would ruin their eyes or their grades. Notice how similar it sounds to today."
+        },
+        {
+          "label": "turned out",
+          "front": "Looking back, what turned out just fine? What do you wish you had done more or less of?",
+          "back": "Listen for the balanced answer: some worries were overblown, and some habits (like playing outside) were worth keeping."
+        },
+        {
+          "label": "today",
+          "front": "What do you think is really different about screens kids have today compared to yours?",
+          "back": "Listen for genuinely new things: screens that fit in a pocket, feeds that never end, screens at bedtime."
+        },
+        {
+          "label": "advice",
+          "front": "What is one piece of advice about balance you would give me for the screens I have now?",
+          "back": "Write it down exactly. You will bring it to your family on the \"Worth Keeping\" page."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Two-Generation Timeline",
+      "type": "table",
+      "instructions": "Fill the top row with your elder's childhood and the bottom row with yours. Draw arrows between worries that repeat across time. Star any worry that seems genuinely NEW.",
+      "columns": [
+        "Whose childhood",
+        "Screens they/I had",
+        "How much time + who decided",
+        "What grown-ups worried about"
+      ],
+      "rows": [
+        [
+          "My elder (name + about what year)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Me (today)",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Worth Keeping",
+      "type": "worksheet",
+      "instructions": "Finish this after your interview and timeline, then bring the last question to your family.",
+      "sections": [
+        {
+          "prompt": "One worry from the past that turned out overblown:",
+          "lines": 2
+        },
+        {
+          "prompt": "One worry about today's screens that I think is genuinely new, and why:",
+          "lines": 2
+        },
+        {
+          "prompt": "One balanced habit worth keeping (from my elder) or starting (for today's screens):",
+          "lines": 2
+        },
+        {
+          "prompt": "A question to ask my family: could we try this habit? What would it look like in our home?",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "scary-headline-second-look",
+  "title": "Scary Headline, Second Look",
+  "tagline": "A student and a family member investigate an alarming screen-time headline together using lateral reading, learning to tell a real finding from a scare, and that \"linked to\" almost never means \"caused by.\"",
+  "audience": "student",
+  "grades": [
+    "6-8"
+  ],
+  "strands": [
+    "medialit",
+    "genai"
+  ],
+  "mode": "hybrid",
+  "minutes": 45,
+  "groupSize": "Practiced in class in pairs; repeated at home with a family member",
+  "eles": [
+    "S2.2",
+    "AI4.1",
+    "AI4.2",
+    "S3.2"
+  ],
+  "overview": "Parents and kids both see frightening screen-time headlines, and both tend to react before checking. This activity hands families a calmer tool: a second look. Students learn a quick version of lateral reading, stop, find the real source, and check what it actually says, and apply it to screen-time news specifically, because that is a topic where headlines routinely outrun the evidence. They practice spotting the gap between \"a study linked heavy screen use to lower grades\" and \"screens wreck your brain,\" and they learn why a feed, or a chatbot summarizing the news, can make the scary version travel faster than the careful one. Then the student teaches the move to a family member at home by investigating a real screen-time headline together. The stance is balanced throughout: the goal is not to decide screens are harmless or harmful, but to read claims about them honestly, notice correlation versus causation, and talk about what the evidence can and cannot support.",
+  "objectives": [
+    "Students will use lateral reading to trace a screen-time headline back to what the research actually found.",
+    "Students will distinguish a correlation (\"linked to\") from a causal claim (\"caused\") in a news story.",
+    "Students will explain why alarming versions of a finding spread faster in feeds and AI summaries.",
+    "Students will teach the second-look routine to a family member and apply it to a real headline together."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: The Second-Look Routine (1 per student, a reference card)",
+      "Handout B: Three Screen-Time Stories, mock headlines and source notes (1 per pair)",
+      "Handout C: Family Second Look (1 per student, taken home)",
+      "Highlighters"
+    ],
+    "digital": [
+      "Devices with a browser (1 per pair) for the in-class lateral-reading practice, if available",
+      "Optional: a district-approved AI chatbot, used only to see how it summarizes a headline, then checked"
+    ]
+  },
+  "prep": [
+    "Print Handout A for each student, Handout B for each pair, and Handout C to take home.",
+    "If devices are available, confirm students can open a search engine; if not, Handout B includes everything needed to run unplugged.",
+    "Read the mock stories on Handout B so you can guide the trace-back.",
+    "Add your name and the return date to the family note on Handout C."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "React, then wait",
+      "body": "Show one alarming mock headline on the board: **\"SCREENS ARE REWIRING CHILDREN'S BRAINS, EXPERTS WARN.\"** Ask for gut reactions by a show of hands: believe it, doubt it, not sure. Then ask: \"What would make you more sure, in either direction?\" Collect ideas (who said it, what study, how many kids, did they prove it). Name the skill: **the second look**, what careful readers, and careful families, do before sharing a scary claim.",
+      "note": "Validate the fear; these headlines are designed to alarm. The point is not that the worry is silly, but that reacting without checking is how misinformation spreads."
+    },
+    {
+      "phase": "Model",
+      "minutes": 7,
+      "title": "The second-look routine",
+      "body": "Walk through Handout A with one headline. **Stop** (notice your reaction). **Source**: who is really making the claim, a researcher, a reporter, an ad, a random post? **Trace**: find the actual study and read what it measured. **Linked or caused?**: did they find a connection, or prove one thing made another happen? **Then decide** what the evidence can support. Model the key move: a study can find heavier screen use *linked to* lower grades without proving screens *caused* it, because kids who already struggle may also use screens more.",
+      "note": "Make \"linked vs. caused\" the heart of the lesson. Most screen-time scares collapse the moment students ask whether the study proved cause."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 13,
+      "title": "Three stories, one trace-back",
+      "body": "Pairs work through Handout B's three mock screen-time stories. Each has a scary headline plus a short, honest source note about the real (fictional) study behind it. For each, pairs highlight the causal words in the headline, then write what the study *actually* found and whether it showed a link or a cause. If devices are available, pairs also try one real lateral-reading search on an actual screen-time headline the teacher pre-selects. Debrief which headlines overstated the finding and how.",
+      "note": "At least one story should be a reassuring-but-overstated headline (\"screens are totally fine\"), so students learn the second look catches hype in both directions, not just fear."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 7,
+      "title": "Why the scary one travels faster",
+      "body": "Discuss, and optionally demonstrate with an approved chatbot on the projector: feeds and AI summaries reward what grabs attention. Ask the chatbot to \"summarize this screen-time study in one exciting sentence,\" then in \"one careful, accurate sentence,\" and compare. Surface the lesson: the version that spreads is often the one engineered to be shared, not the one that is most true, and an AI summary can smooth over a study's limits unless you check.",
+      "note": "If no device is available, show two pre-written summaries of the same finding, one hype, one careful, and discuss which one a feed would push and why."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 10,
+      "title": "Teach it at home",
+      "body": "Explain the home task on Handout C: the student finds a real screen-time headline (from a news site, a feed, or one a parent mentions) and walks a family member through the second-look routine together. They record the headline, who really made the claim, what the study actually found, whether it was a link or a cause, and what they jointly decided to believe. Both talk about whether they would have shared the headline before doing the second look.",
+      "note": "The student is the teacher here. That role reversal is the point: a 12-year-old coaching a parent through checking a claim is exactly the transfer we want."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 3,
+      "title": "One claim I'll check",
+      "body": "Back in class, students finish the sentence: **\"The next time I see a scary headline about screens (or anything), the first thing I'll do is ___.\"** Share a few. Close on the balanced takeaway: checking a claim is not the same as deciding screens are fine or doomed; it is refusing to be told either one without evidence.",
+      "note": "Reinforce that lateral reading is a general civic skill. Screen time is just today's practice case because it is personal and the headlines are everywhere."
+    }
+  ],
+  "unplugged": "The lesson runs fully on paper: Handout B contains the headlines and the honest source notes, so students can practice the trace-back and the link-vs-cause judgment without any device. For the \"why it spreads\" step, use the two pre-written summaries instead of a live chatbot. At home, families can do the second look on a headline from a printed newspaper or one a parent recalls.",
+  "digital": "With devices, pairs do one real lateral-reading search, opening a new tab to find the original study rather than trusting the headline, and optionally compare a chatbot's hype summary with its careful summary of the same finding. These show, in real time, how easy it is to find the source and how an AI summary can flatten a study's limits.",
+  "whyTech": "The digital path adds something paper cannot: students see for themselves how fast a source can be found with a second search, and how an AI summary changes a finding's tone, which is the exact media-literacy evidence we want. It stays optional so the lesson still runs in any classroom.",
+  "adaptations": [
+    {
+      "label": "Grade 6",
+      "text": "Use two stories instead of three and provide a word bank of causal words (causes, destroys, proves) to highlight."
+    },
+    {
+      "label": "9–12",
+      "text": "Require students to find and cite the real study behind a current screen-time headline, noting its sample size and one stated limitation."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Pair the routine's five steps with icons, and let the at-home second look and family discussion happen in the home language."
+    },
+    {
+      "label": "No home internet",
+      "text": "Students bring a headline clipped or copied at school and do the family second look using the printed source note, or discuss a headline a parent remembers hearing."
+    }
+  ],
+  "lookFors": [
+    "Students highlight causal words in a headline and state whether the underlying study showed a link or a cause.",
+    "Students can rewrite an overstated headline (fearful or reassuring) into an accurate sentence.",
+    "Students explain why an alarming or exciting version spreads faster in feeds and AI summaries.",
+    "The Family Second Look shows a real headline traced to its source with a joint decision about what to believe."
+  ],
+  "reflection": [
+    "How can you tell a real research finding from a scare, even when both sound confident? (Media/AI ELE 4.1: critical thinking about information.)",
+    "Why is \"linked to\" so different from \"caused by,\" and why do headlines blur them? (ELE S2.2: identify trustworthy sources.)",
+    "What was it like to teach the second look to a family member? (Student ELE 3.2: I communicate my ideas clearly.)"
+  ],
+  "transfer": "Families keep the second-look card on the fridge and use it the next time any alarming claim shows up, about screens or anything else. In class, students apply the same routine to the next unit's topic and practice citing the original source when they repeat a claim.",
+  "connections": [
+    {
+      "title": "Digital Inquiry Group: Civic Online Reasoning (lateral reading lessons)",
+      "url": "https://cor.inquirygroup.org/",
+      "note": "Research-based lateral-reading lessons to extend the second-look routine."
+    },
+    {
+      "title": "News Literacy Project",
+      "url": "https://newslit.org/",
+      "note": "More on telling evidence-based reporting from sensational claims."
+    },
+    {
+      "title": "Critical Thinking Breakouts: Signal Check, The Viral Claim (6–8 media literacy)",
+      "url": "https://mglearn.github.io/activities/ctobs/clear/",
+      "note": "A 6–8 breakout that reinforces checking a viral claim."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "The Second-Look Routine",
+      "type": "checklist",
+      "instructions": "Keep this card handy. Run these steps before you believe or share any scary headline, about screens or anything else.",
+      "items": [
+        "STOP: Notice my reaction. Scary or exciting headlines are built to make me share fast.",
+        "SOURCE: Who is really making this claim, a researcher, a reporter, an ad, a stranger's post?",
+        "TRACE: Find the actual study or report. What did it really measure, and in how many people?",
+        "LINKED OR CAUSED?: Did they find a connection, or prove one thing made the other happen?",
+        "CHECK THE EXTREME WORDS: destroys, proves, totally fine, rewires. Does the study support them?",
+        "WHO BENEFITS?: Who gains if I share the scary (or the reassuring) version without checking?",
+        "DECIDE: What can the evidence actually support? Say that, not more."
+      ],
+      "scale": [
+        "Did it",
+        "Skipped it"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Three Screen-Time Stories",
+      "type": "reading",
+      "instructions": "For each story, highlight the causal words in the headline. Then, using the source note, write what the study ACTUALLY found and whether it showed a LINK or a CAUSE.",
+      "paragraphs": [
+        "STORY 1 — Headline: \"SCREENS ARE REWIRING CHILDREN'S BRAINS, EXPERTS WARN.\" Source note: The claim traces to a fictional review by the Maple Hollow Child Health Collaborative that pooled surveys of about two million children. It found that children who used screens more tended to score a little lower on school tests. The researchers wrote plainly that this was an association and that they could not tell whether screens caused the lower scores, since struggling students may also use screens more.",
+        "STORY 2 — Headline: \"Study PROVES phones cause teen depression.\" Source note: The claim comes from a fictional twin study by BrightPath University of 20,000 twins. It found some screen uses were connected to anxiety and depression, but when researchers compared twins raised in the same family, the connection mostly disappeared. Their conclusion: shared family background explains much of the link, and the study does not prove phones cause depression.",
+        "STORY 3 — Headline: \"RELAX: New research says screen time is totally fine for kids.\" Source note: The claim comes from a fictional eight-year study by the Rio Verde Institute that followed 1,500 children. Some heavier screen users did better on certain thinking-speed tests as teens. The authors cautioned that one study cannot clear screens of all concerns, especially around sleep, and that what kids do on screens matters more than the raw minutes.",
+        "WRITE YOUR ANSWERS: For each story, finish these two sentences. \"The study actually found that ____.\" \"This was a (link / cause) because ____.\" Then rewrite each headline as one accurate, non-exaggerated sentence.",
+        "DISCUSS: Which headline overstated the finding the most? Did any headline overstate in the reassuring direction? How could the same study be reported honestly?"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Family Second Look",
+      "type": "worksheet",
+      "instructions": "Do this at home. YOU are the teacher: walk a family member through the second-look routine on a real screen-time headline. Family note: your child is practicing how to check a claim before believing or sharing it. Please do this one together.",
+      "sections": [
+        {
+          "prompt": "The real headline we investigated (and where we saw it):",
+          "lines": 2
+        },
+        {
+          "prompt": "SOURCE: Who is really making the claim?",
+          "lines": 1
+        },
+        {
+          "prompt": "TRACE: What did the actual study or report measure, and in how many people?",
+          "lines": 2
+        },
+        {
+          "prompt": "LINKED OR CAUSED? Which is it, and how can you tell?",
+          "lines": 2
+        },
+        {
+          "prompt": "Would we have shared this headline BEFORE the second look? What do we believe about it now?",
+          "lines": 2
+        },
+        {
+          "prompt": "One thing the family member learned from you about checking a claim:",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

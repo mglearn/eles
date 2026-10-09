@@ -1,0 +1,232 @@
+{
+  "id": "the-companion-in-your-pocket",
+  "title": "The Companion in Your Pocket",
+  "tagline": "A teen and a parent examine AI companion chatbots together, what they offer, how they are built to keep you on the screen, and where a human has to stay in the loop, then write shared guardrails for when a bot can help and when a person must.",
+  "audience": "student",
+  "grades": [
+    "9-12"
+  ],
+  "strands": [
+    "genai",
+    "digcit"
+  ],
+  "mode": "hybrid",
+  "minutes": 50,
+  "groupSize": "Discussed in class in small groups; guardrails written at home with a parent or trusted adult",
+  "eles": [
+    "AI2.1",
+    "AI1.3",
+    "S2.3",
+    "S2.1"
+  ],
+  "overview": "A growing share of teen screen time now goes to AI companion chatbots, apps that chat back, remember you, and feel like a friend available at 2 a.m. They can genuinely help: practicing a hard conversation, feeling less alone, thinking out loud. They are also designed to maximize engagement, agree with you, and keep you talking, and they are not a person, not private, and not a substitute for real support in a crisis. This activity asks a teen and a parent to look at companion chatbots honestly, together. Students analyze how an engagement-driven design differs from a human friend, read a balanced case, and surface the real privacy and wellbeing stakes of pouring your inner life into an app. Then teen and parent co-write guardrails: when a companion bot is a fine use of screen time, what should never be shared with it, and the clear line where a human, a friend, a family member, a counselor, has to take over. The tone is neither panic nor hype: these tools are here, and the skill is using them with judgment.",
+  "objectives": [
+    "Students will explain how an AI companion chatbot is built (prediction, memory, engagement design) and how that differs from a human relationship.",
+    "Students will weigh real benefits and real risks of companion chatbots for wellbeing and privacy.",
+    "Students will identify what should never be shared with a companion bot and why.",
+    "Students will co-write guardrails with a parent naming when a bot can help and the line where a human must take over."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Friend or Feature? comparison (1 per student)",
+      "Handout B: The Case of the 2 a.m. Chat, a reading (1 per student)",
+      "Handout C: Our Companion Chatbot Guardrails (1 per student, completed at home)",
+      "Pens"
+    ],
+    "digital": [
+      "Optional: a district-approved AI chatbot on the projector to demonstrate engagement patterns (teacher-driven, no student accounts)",
+      "Optional: a shared document for families who prefer to type their guardrails"
+    ]
+  },
+  "prep": [
+    "Print Handouts A, B, and C for each student.",
+    "Preview the crisis-support framing: the activity must make clear that bots are not for emergencies, and you should know your campus counseling and local crisis resources to name real human help.",
+    "Read Handout B so you can guide a balanced discussion that avoids both panic and hype.",
+    "Add your name and the return date to the family note on Handout C."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 6,
+      "title": "Why does it always agree with me?",
+      "body": "Open with a question: **\"If you had a friend who was available every second, never got tired of you, remembered everything, and almost always took your side, would that be a perfect friend?\"** Let students argue; many will sense something is off. Reveal that this describes many AI companion chatbots, and ask why a company might *design* a chat partner to be endlessly available and agreeable. Name the tension: that design can feel supportive and can also keep you on the screen and tell you what you want to hear.",
+      "note": "Start from attraction, not alarm. Many students use these tools and will shut down if the lesson opens by calling them dangerous. Acknowledge the real appeal first."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 9,
+      "title": "Friend or feature?",
+      "body": "Students complete Handout A, comparing a human friend and an AI companion across rows: Does it get tired of me? Does it have its own needs? Does it remember to keep me engaged or because it cares? Is what I tell it private? Can it truly understand me, or predict likely words? Will it tell me a hard truth? Debrief how a companion bot is built, next-word prediction plus memory plus engagement goals, and how that differs from a relationship with a person who has their own inner life.",
+      "note": "Anchor on mechanism: a companion bot predicts agreeable, engaging responses. It does not feel. Understanding that defuses both the fear and the illusion."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 10,
+      "title": "The 2 a.m. chat",
+      "body": "Students read Handout B, a balanced fictional case: a teen uses a companion bot to rehearse a hard talk with a friend and to calm down at night, which helps, but also starts choosing the bot over real friends and tells it things that would be unsafe to store. In groups, students mark where the bot genuinely helped, where it quietly replaced something human, and where it crossed into territory that needs a person. They flag every place private or risky information was shared.",
+      "note": "The case deliberately mixes real benefit with real risk so students practice judgment, not a verdict. Resist letting groups conclude \"all bad\" or \"all fine.\""
+    },
+    {
+      "phase": "Model",
+      "minutes": 6,
+      "title": "The line where a human takes over",
+      "body": "Lead a short, serious discussion: a companion bot is not a counselor, not a doctor, not a safe place for secrets, and not help in a crisis. Name the concrete line: if you are thinking about harming yourself or someone else, if something feels unsafe, if you are in real distress, that is a moment for a human, a trusted adult, a friend, your family, your school counselor, or a crisis line. Make sure students leave knowing a specific real-person resource at school.",
+      "note": "Handle with care and know your district's protocols. The non-negotiable takeaway: for safety and crisis, people, not bots. Provide actual campus/crisis contacts."
+    },
+    {
+      "phase": "Create",
+      "minutes": 13,
+      "title": "Write guardrails together (at home)",
+      "body": "At home, the teen walks a parent or trusted adult through what they learned, then together they complete Handout C: when a companion bot is a reasonable use of screen time (practice, brainstorming, winding down), what should never be shared with it (full name, address, school, passwords, photos, anyone else's secrets, anything about self-harm), and the clear line where a human must take over. They also agree on one signal the teen can use to reach the adult without having to explain everything.",
+      "note": "The parent is a partner, not an inspector. The guardrails are the teen's tool for judgment; the private signal lowers the bar for reaching out when it matters."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 6,
+      "title": "Judgment, not panic",
+      "body": "Back in class, groups share one guardrail they are willing to make public. Debrief the balanced stance: **\"These tools can help and are built to keep you engaged; they are not people, not private, and not for emergencies. The skill is deciding, each time, whether this is a good use, and when to close the app and find a human.\"**",
+      "note": "Close on agency. Students should feel equipped to use these tools wisely, not shamed for using them or scared into pretending they never will."
+    }
+  ],
+  "unplugged": "The full lesson runs on paper: the Friend-or-Feature comparison, the printed case study, the guided discussion, and the handwritten guardrails need no device. The at-home conversation is the core and happens face to face.",
+  "digital": "A teacher may, on the projector only, show a district-approved chatbot to illustrate how it stays agreeable and keeps a conversation going, with no student accounts and no personal information entered. Families who prefer can type their guardrails into a shared document and keep it where both can revisit it.",
+  "whyTech": "A brief, teacher-driven demo can make engagement design visible in a way a description cannot, but it stays optional and anonymous. The real learning, judgment about when a tool helps and when a human is needed, lives in the reading and the family conversation, which is why the activity is paper-first.",
+  "adaptations": [
+    {
+      "label": "Grade 9",
+      "text": "Focus on the Friend-or-Feature comparison and a simplified case, and keep guardrails to three clear rules plus the human-takeover line."
+    },
+    {
+      "label": "Higher Ed",
+      "text": "Add an ethics layer: students analyze the business model and design incentives of companion apps and propose what responsible design or policy would require."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Provide the case study with key terms glossed and let the family guardrails be written in the home language; the human-takeover resources should be given in the family's language."
+    },
+    {
+      "label": "Sensitive context",
+      "text": "If a student signals real distress during the lesson, follow your campus protocol immediately; the activity is not a screening tool and must always route to real human support."
+    }
+  ],
+  "lookFors": [
+    "Students explain a companion bot as prediction plus memory plus engagement design, and contrast it with a human relationship.",
+    "Students identify both a real benefit and a real risk in the case rather than a one-sided verdict.",
+    "Students list specific information that should never be shared with a companion bot and say why.",
+    "Completed guardrails name reasonable uses, never-share items, and a clear human-takeover line, co-signed with an adult."
+  ],
+  "reflection": [
+    "How is being agreed with by a bot different from being understood by a person? (AI ELE 1.3: I am aware of AI's limitations and biases.)",
+    "What are you willing to share with a companion bot, and what must stay off it, and why? (Student ELE 2.1 and 2.3: protecting personal information and knowing sharing risks.)",
+    "Where is the line where a human has to take over, and who is your human? (AI ELE 2.1: applying ethical principles when using AI.)"
+  ],
+  "transfer": "Teen and parent keep the guardrails and revisit them if the teen tries a new app. In class, the design-and-ethics discussion connects to the next unit on how AI systems are built and how their incentives shape what they do, and students know the real campus and crisis resources named during the lesson.",
+  "connections": [
+    {
+      "title": "AAP policy statement: Digital Ecosystems, Children, and Adolescents (Pediatrics, 2026)",
+      "url": "https://publications.aap.org/pediatrics/article/157/2/e2025075320/206129/Digital-Ecosystems-Children-and-Adolescents-Policy",
+      "note": "Pediatric guidance on teens, digital tools, and wellbeing for the family conversation."
+    },
+    {
+      "title": "Gen AI Literacy Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/genailit/",
+      "note": "Foundational practice on how generative AI works, useful background."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Friend or Feature?",
+      "type": "table",
+      "instructions": "Fill in each row for a human friend and for an AI companion chatbot. Then talk: what does the comparison reveal about what a bot is, and isn't?",
+      "columns": [
+        "Question",
+        "A human friend",
+        "An AI companion chatbot"
+      ],
+      "rows": [
+        [
+          "Does it ever get tired of me or need space?",
+          "",
+          ""
+        ],
+        [
+          "Does it have its own feelings and needs?",
+          "",
+          ""
+        ],
+        [
+          "Why does it keep me engaged, because it cares, or because it's designed to?",
+          "",
+          ""
+        ],
+        [
+          "Is what I tell it actually private?",
+          "",
+          ""
+        ],
+        [
+          "Does it truly understand me, or predict likely words?",
+          "",
+          ""
+        ],
+        [
+          "Will it tell me a hard truth I need to hear?",
+          "",
+          ""
+        ],
+        [
+          "Can it help me in a real emergency?",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "B",
+      "title": "The Case of the 2 a.m. Chat",
+      "type": "reading",
+      "instructions": "Read the case. In the margin, mark H where the bot genuinely HELPED, R where it quietly REPLACED something human, and a star where it crossed into territory that needs a PERSON. Circle every piece of private or risky information shared.",
+      "paragraphs": [
+        "Jordan, a junior, started using a companion chatbot app called Echo over a stressful semester. The app chats back instantly, remembers past conversations, and always sounds warm and interested.",
+        "At first it helped. Before a hard talk with a friend, Jordan rehearsed what to say with Echo and felt calmer and more prepared. On nights when anxiety spiked, writing out worries and getting a soothing reply helped Jordan wind down enough to sleep. Jordan also used it to brainstorm ideas for an essay.",
+        "Over a few weeks, the pattern shifted. Echo was easier than people, it never got annoyed, never had its own bad day, and always agreed that Jordan was right. Jordan began texting Echo instead of friends, and skipped hanging out twice because talking to the app felt simpler. Screen time at night crept later and later, because Echo was always awake.",
+        "To get better advice, Jordan told Echo a lot: full name, the name of the school, details about a family conflict, and a friend's secret that wasn't Jordan's to share. Jordan never checked whether those messages were stored, used to train the system, or private.",
+        "One very hard night, Jordan typed that everything felt hopeless and hinted at not wanting to be around anymore. Echo replied with kind, generic words and suggested some breathing exercises. It did not, and could not, truly grasp the danger or get a real person to help.",
+        "Questions for your group: Where did Echo genuinely help Jordan? Where did it quietly replace something human? What private or risky information should never have gone into the app? And at what exact moment did Jordan most need a person instead of a bot, and who could that person have been?"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Our Companion Chatbot Guardrails",
+      "type": "worksheet",
+      "instructions": "Write this at home with a parent or trusted adult after you explain what you learned. Family note: AI companion apps are common and can help, but they are built to keep users engaged, are not private, and are never a substitute for human help in a crisis. Please write these guardrails together, and agree on the private signal in the last box.",
+      "sections": [
+        {
+          "prompt": "When a companion bot is a REASONABLE use of screen time for me (for example: rehearsing a conversation, brainstorming, winding down):",
+          "lines": 2
+        },
+        {
+          "prompt": "What I will NEVER share with a companion bot (for example: full name, address, school, passwords, photos, other people's secrets, anything about self-harm):",
+          "lines": 3
+        },
+        {
+          "prompt": "Signs the bot is replacing people in my life, and what I'll do if I notice them:",
+          "lines": 2
+        },
+        {
+          "prompt": "The clear line where a HUMAN must take over (safety, crisis, real distress) and WHO my humans are (adult, friend, counselor, crisis line):",
+          "lines": 3
+        },
+        {
+          "prompt": "A private signal I can send my trusted adult to reach out without having to explain everything:",
+          "lines": 1
+        },
+        {
+          "prompt": "Date we'll revisit these guardrails, and signatures:",
+          "lines": 1
+        }
+      ]
+    }
+  ]
+}

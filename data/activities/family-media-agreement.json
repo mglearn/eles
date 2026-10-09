@@ -1,0 +1,208 @@
+{
+  "id": "family-media-agreement",
+  "title": "The Family Media Agreement",
+  "tagline": "A student leads their whole household in building a family media plan the way doctors recommend, covering sleep, meals, content, and screen-free time, so the rules are made with everyone instead of handed to the kids.",
+  "audience": "student",
+  "grades": [
+    "6-8"
+  ],
+  "strands": [
+    "digcit"
+  ],
+  "mode": "hybrid",
+  "minutes": 45,
+  "groupSize": "Prepared in class; built at home with the whole family; reviewed in class",
+  "eles": [
+    "S4.1",
+    "S3.1",
+    "S3.2",
+    "S2.1"
+  ],
+  "overview": "Most household screen rules are handed down and resented. Pediatric guidance suggests the opposite works better: a family media plan the whole household builds together, one that covers more than minutes, when devices sleep, whether screens come to meals, what content fits which ages, and protected screen-free time, and that holds adults to the same standards as kids. In this activity the student becomes the facilitator. They learn what a good media plan actually covers, practice running a fair family meeting in class, and then lead that meeting at home: gathering everyone's needs, proposing agreements, handling pushback, and writing a plan each person signs. The stance is balanced and realistic: the plan is not a ban list and not a promise that screens are harmless; it is a living agreement a family revisits, built on the idea that people follow rules they helped write. Students practice leadership, negotiation, and the self-advocacy of asking adults to model what they ask of kids.",
+  "objectives": [
+    "Students will identify the parts of a strong family media plan beyond time limits (sleep, meals, content, screen-free time, modeling).",
+    "Students will facilitate a fair family meeting where every member's needs are heard.",
+    "Students will negotiate and record agreements the whole household will sign, including ones that apply to adults.",
+    "Students will build in a review date and explain why a living agreement beats a fixed rule."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: What a Good Plan Covers, a reference (1 per student)",
+      "Handout B: Run the Family Meeting, facilitator script and needs-gathering sheet (1 per student, taken home)",
+      "Handout C: Our Family Media Agreement (1 per student, completed and signed at home)",
+      "Pens"
+    ],
+    "digital": [
+      "Optional: the AAP online Family Media Plan tool, used by a family that prefers a digital version",
+      "Optional: a shared calendar to set the review-date reminder"
+    ]
+  },
+  "prep": [
+    "Print Handouts A, B, and C for every student.",
+    "Model the facilitator stance briefly: a good facilitator asks, listens, and summarizes rather than dictates.",
+    "Set the window for the home meeting and the class review day.",
+    "Add your name and the return date to the family note on Handout C."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 5,
+      "title": "Rules you didn't help write",
+      "body": "Ask: **\"Think of a screen rule you've been given that you ignore the second no one's watching. Why?\"** Collect honest answers (didn't make sense, applied only to me, no one explained it). Then flip it: \"What if you ran the meeting that made the rules? Today you learn to lead your family in building a media plan together, one that even applies to the grown-ups.\"",
+      "note": "Students light up at the idea of leading. Channel it toward fair facilitation, not toward writing rules that only benefit themselves."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 8,
+      "title": "What a good plan covers",
+      "body": "Students read Handout A, which lays out what pediatric guidance says a family media plan should cover: device bedtimes (screens out of bedrooms overnight so sleep is protected), mealtimes, content and age-fit, protected screen-free activities, how everyone treats each other online, and, crucially, that adults follow the plan too. In pairs, students rank which parts their own family most needs. Debrief that a plan is much more than a number of minutes.",
+      "note": "The sleep piece is where evidence is strongest, so highlight device bedtimes. But keep the plan broad: minutes alone is the weakest, most-fought-over lever."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 10,
+      "title": "Run a practice meeting",
+      "body": "In groups of four, students role-play a family meeting using Handout B's script. One facilitates; others play a tired parent, a younger sibling, and a teen. The facilitator practices the moves: open with purpose, gather each person's needs before proposing anything, propose an agreement, invite pushback, and find a version everyone can accept. Groups swap the facilitator role once so everyone practices leading and being heard.",
+      "note": "Coach the hardest move: gathering needs before proposing solutions. Students, like adults, want to jump to rules; the fair meeting starts with listening."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 15,
+      "title": "Lead the real meeting at home",
+      "body": "At home, the student facilitates the actual family meeting with Handout B, then records agreements on Handout C across the plan's areas: device bedtimes and where phones charge, mealtime and screen-free times, content and age-fit for different family members, online kindness, and at least one agreement that applies to the adults. Everyone who agrees signs, and the family sets a review date. The student notes one place they had to compromise.",
+      "note": "Prepare students for real pushback and for households that differ (shift work, shared devices, multigenerational homes). A plan that fits the real family beats a textbook-perfect one."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 7,
+      "title": "What held, what you'd change",
+      "body": "Back in class, students debrief in small groups: **\"What was the hardest need to balance? What agreement surprised you? How did leading the meeting change how your family reacted compared with rules being imposed?\"** Capture why shared, revisable agreements tend to stick. Close on the balanced idea: a media plan is a living agreement, not a verdict on whether screens are good or bad.",
+      "note": "Listen for students realizing that holding adults to the plan was both the hardest and the most powerful part. That mutual accountability is the heart of it."
+    }
+  ],
+  "unplugged": "The whole activity runs on paper: the reference sheet, the role-play script, the needs sheet, and the signed agreement. The family meeting is a face-to-face conversation; no device is required to build or keep the plan.",
+  "digital": "A family that prefers it can build the same plan with the AAP online Family Media Plan tool and keep a digital copy, and set the review date as a shared calendar reminder. The in-class role-play and reflection stay unplugged.",
+  "whyTech": "This is paper-first because the learning is facilitation and negotiation among real people. The optional digital tool only stores the plan a family already built together; it adds convenience, not learning.",
+  "adaptations": [
+    {
+      "label": "Grade 6",
+      "text": "Provide a shorter plan with three areas (device bedtimes, mealtimes, screen-free time) and a simplified meeting script."
+    },
+    {
+      "label": "9–12",
+      "text": "Students facilitate a plan that includes their own greater autonomy and responsibilities, and negotiate a transition toward self-managed limits rather than parent-set ones."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Offer the family note, script, and agreement in the home language and let the meeting happen in whatever language the family uses."
+    },
+    {
+      "label": "Nontraditional households",
+      "text": "Adapt roles for the real household (one parent, grandparents, siblings, shared custody); the plan can even span two homes with slightly different agreements."
+    }
+  ],
+  "lookFors": [
+    "Students name plan areas beyond minutes, especially device bedtimes for sleep, and can say why each matters.",
+    "In the role-play, the facilitator gathers everyone's needs before proposing agreements.",
+    "The signed agreement covers multiple areas and includes at least one agreement that applies to the adults.",
+    "The plan has a review date, and the student can explain why a revisable agreement outlasts an imposed rule."
+  ],
+  "reflection": [
+    "Why do people follow rules they helped write more than rules handed to them? (Student ELE 4.1: I take responsibility for my own learning.)",
+    "What was it like to lead your family and still make sure everyone was heard? (Student ELE 3.1 and 3.2: teamwork and clear communication.)",
+    "Why does holding adults to the same plan matter, and how did your family respond to it?"
+  ],
+  "transfer": "Families keep the media agreement visible and revisit it on the review date. In class, the facilitation skills carry into student-led conferences or group work, where the same meeting structure, gather needs, propose, invite pushback, agree, helps teams make decisions together.",
+  "connections": [
+    {
+      "title": "AAP Family Media Plan (HealthyChildren.org)",
+      "url": "https://www.healthychildren.org/English/fmp/Pages/MediaPlan.aspx",
+      "note": "The pediatrician-backed tool families can use to build or store their plan."
+    },
+    {
+      "title": "AAP policy statement: Digital Ecosystems, Children, and Adolescents (Pediatrics, 2026)",
+      "url": "https://publications.aap.org/pediatrics/article/157/2/e2025075320/206129/Digital-Ecosystems-Children-and-Adolescents-Policy",
+      "note": "The guidance behind what a strong media plan covers."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "What a Good Plan Covers",
+      "type": "checklist",
+      "instructions": "A strong family media plan covers much more than minutes. With a partner, rank which of these your own family most needs to talk about.",
+      "items": [
+        "Device bedtimes: screens out of bedrooms overnight so everyone's sleep is protected.",
+        "Charging spot: where all devices (including adults') rest and charge at night.",
+        "Mealtimes: whether and when meals are screen-free.",
+        "Screen-free activities: protected time for sleep, exercise, homework, and being together.",
+        "Content and age-fit: what shows, games, and apps fit which family members.",
+        "Online kindness and privacy: how we treat others online and what we keep private.",
+        "Adults too: which agreements apply to the grown-ups, not just the kids.",
+        "Flexibility: how the plan bends for trips, sick days, projects, and special events.",
+        "Review date: when we will revisit and adjust the plan together."
+      ],
+      "scale": [
+        "We need this most",
+        "Doing okay",
+        "Not sure"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Run the Family Meeting",
+      "type": "worksheet",
+      "instructions": "You are the facilitator. Use this script and gather everyone's needs BEFORE you propose any agreement. Family note: your student is practicing leading a fair meeting; please take part honestly and let them run it.",
+      "sections": [
+        {
+          "prompt": "OPEN: Say why we're meeting. (\"We're building a family media plan together so the rules make sense and apply to everyone.\") Write your opening line:",
+          "lines": 2
+        },
+        {
+          "prompt": "GATHER NEEDS: Go around. What does each person need or worry about with screens? (Write everyone's name and need, including the adults'.)",
+          "lines": 4
+        },
+        {
+          "prompt": "PROPOSE: Suggest agreements that try to meet those needs. Jot your first proposals:",
+          "lines": 3
+        },
+        {
+          "prompt": "INVITE PUSHBACK: Ask \"What doesn't work about this?\" and adjust. Note what you changed:",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Our Family Media Agreement",
+      "type": "worksheet",
+      "instructions": "Record what your family agreed to, then everyone signs. Remember: at least one agreement must apply to the adults, and set a date to revisit it.",
+      "sections": [
+        {
+          "prompt": "Device bedtimes and charging spot (where phones sleep at night):",
+          "lines": 2
+        },
+        {
+          "prompt": "Mealtime and screen-free times we agreed on:",
+          "lines": 2
+        },
+        {
+          "prompt": "Content and age-fit agreements (what fits which family member):",
+          "lines": 2
+        },
+        {
+          "prompt": "An agreement that applies to the ADULTS too:",
+          "lines": 2
+        },
+        {
+          "prompt": "One thing I (the facilitator) had to compromise on:",
+          "lines": 1
+        },
+        {
+          "prompt": "Review date and signatures of everyone who agrees:",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

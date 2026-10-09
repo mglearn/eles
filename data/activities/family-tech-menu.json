@@ -1,0 +1,270 @@
+{
+  "id": "family-tech-menu",
+  "title": "The Family Tech Menu",
+  "tagline": "A child and their family sort a week of real screen moments by what the screen was for, then build a balanced \"tech menu\" together, learning that purpose and mix matter more than minutes.",
+  "audience": "student",
+  "grades": [
+    "3-5"
+  ],
+  "strands": [
+    "digcit"
+  ],
+  "mode": "unplugged",
+  "minutes": 35,
+  "groupSize": "Starts in class (pairs or small groups); finished one-on-one at home with a family member",
+  "eles": [
+    "S4.1",
+    "S1.1",
+    "S4.2",
+    "S3.2"
+  ],
+  "overview": "A lot of screen time happens on autopilot: the show that was already on, the game you open without thinking. This lesson gives families a calmer way to talk about screen use than counting minutes. Children sort everyday screen moments into four purposes, Create, Connect, Learn, and Unwind, and notice that a screen can earn its place or just fill time. They discover that a device used to make a video for Grandma is not the same as one used because there was nothing else to do, even if both take the same number of minutes. Then, at home, the child leads the family in building a \"tech menu\": a short, balanced plan of screen and no-screen choices for the week. The message is honest and nuanced: screens are not the enemy, and more is not automatically bad; what the screen is for, and what else the week holds, is what counts.",
+  "objectives": [
+    "Students will sort screen moments by purpose (create, connect, learn, unwind) and explain one sorting choice.",
+    "Students will explain the difference between screen use that earns its place and screen use that is just autopilot.",
+    "Students will lead a family in building a balanced weekly tech menu with at least one choice in each purpose plus no-screen time.",
+    "Students will set one personal screen-use goal they can check at the end of the week."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: What Was the Screen For? sort (1 per pair or group, cut apart)",
+      "Handout B: Our Family Tech Menu (1 per student, taken home)",
+      "Handout C: My Week Check (1 per student, taken home)",
+      "Crayons or markers"
+    ],
+    "digital": [
+      "Optional: a document camera or projector to model the sort with the class",
+      "Optional: a family might keep the finished menu as a photo on a parent's phone instead of on the fridge"
+    ]
+  },
+  "prep": [
+    "Print and cut one set of Handout A per pair or group.",
+    "Print Handout B and Handout C for every student to take home.",
+    "Read the family note at the top of Handout B and add your name so families know who to ask with questions.",
+    "Decide how children will share results next week (a quick circle, a wall of menus, or a one-line note)."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "Two kinds of twenty minutes",
+      "body": "Tell two quick stories. \"Yesterday, Sam spent twenty minutes making a stop-motion video with cereal boxes and sent it to his cousin.\" \"Today, Sam spent twenty minutes watching clips he barely remembers, because the tablet was just there.\" Ask: **\"Same twenty minutes. Were they the same?\"** Let children argue. Land the idea: it is not only *how long* we use a screen, it is *what the screen was for*.",
+      "note": "Children have heard \"too much screen time\" a lot. Signal early that this lesson is not about guilt or a magic number; it is about noticing the purpose."
+    },
+    {
+      "phase": "Explore",
+      "minutes": 9,
+      "title": "What was the screen for?",
+      "body": "In pairs or groups, children read the Handout A cards and sort each screen moment into one of four purposes: **Create** (make something), **Connect** (be with people), **Learn** (find out or practice), or **Unwind** (rest and relax). Then flip each card: on the back a small note tells whether this one usually *earns its place* or is often *autopilot*. Groups talk about any they disagree on. Debrief: **\"Which purpose had the most cards in your pile? Which is easiest to do on autopilot?\"**",
+      "note": "Unwind is a real, healthy purpose, not a bad one. Resist letting children rank Create as \"good\" and Unwind as \"bad.\" The point is balance across all four, plus noticing autopilot."
+    },
+    {
+      "phase": "Model",
+      "minutes": 5,
+      "title": "Building one menu together",
+      "body": "Show Handout B on a document camera or draw it on the board. Think aloud as you fill one row for a pretend family: \"For **Create**, maybe one afternoon we make a photo slideshow of our trip. For **Connect**, a video call with Tía on Sunday. For **Learn**, a cooking video we actually cook from. For **Unwind**, one show we pick on purpose, not just what autoplays. And here, our **no-screen** choices: bike, library, board game.\" Point out the menu is balanced and chosen on purpose, not a list of bans.",
+      "note": "Model naming a specific stop plan for Unwind (\"one show, then we're done\") so children see that choosing on purpose includes choosing when to stop."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 10,
+      "title": "Start my family's menu",
+      "body": "Children begin their own Handout B, writing or drawing one real idea in each purpose and two no-screen choices their family could actually do this week. Circulate and ask two or three children, **\"Why did your family pick that one? Does it earn its place?\"** Write their words on the page as evidence. Remind them the menu is not finished yet: the last step is to bring it home and decide it *with* their family, who may add, change, or trade ideas.",
+      "note": "Keep choices open and low-cost (a walk, a borrowed library book, helping cook) so children with little device access or little free time at home can still make a real plan."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 4,
+      "title": "One goal, one check",
+      "body": "Each child writes one screen-use goal on Handout C, for example: \"Pick my show on purpose instead of autoplay,\" or \"Make one thing instead of only watching.\" Explain that next week they will check how it went, not to get a grade, but to notice. Close: **\"A screen earns its place when it helps us make, connect, learn, or truly rest, and when we choose it instead of it choosing us.\"**",
+      "note": "Goals should be about how screens are used, not just cutting time, so a child who already has little access is not set up to \"win\" by doing nothing."
+    }
+  ],
+  "unplugged": "The whole lesson runs with no devices: paper sort cards, a printed menu, and a goal card. The sorting, the family menu, and the week check all happen on paper and in conversation. This is the intended way to run it.",
+  "digital": "A family that prefers it can keep the finished menu as a photo on a parent's phone, or type it into a shared notes app so everyone sees it. A class could also build a shared anonymous tally of which purpose had the most \"autopilot\" cards, to compare patterns, with no personal screen data collected.",
+  "whyTech": "This one is better unplugged. The learning is a family conversation about purpose and balance, and paper keeps it device-free, private to the home, and easy for every family to join regardless of what devices they own.",
+  "adaptations": [
+    {
+      "label": "Grade 3",
+      "text": "Use two purposes first (Create and Unwind), sort eight cards, then add Connect and Learn. Children draw menu ideas instead of writing them."
+    },
+    {
+      "label": "Grade 5",
+      "text": "Add a \"minutes guess\" column: children estimate how long each menu choice takes and whether their week feels balanced, then revisit the guess after the week."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Let children sort by talking in their home language and accept menu entries in any language. Pair the four purpose words with simple icons on the sort mat."
+    },
+    {
+      "label": "Families with limited device access",
+      "text": "Treat shared or library devices as fair game, and let a mostly no-screen week be a strong, valid menu. The goal is balance and purpose, not a set amount of screen use."
+    }
+  ],
+  "lookFors": [
+    "Children place cards by purpose and can name at least one that is usually \"autopilot\" versus one that \"earns its place.\"",
+    "Children explain that two equal amounts of screen time can differ because of what the screen was for.",
+    "Menus include at least one choice in each purpose and two no-screen choices the family could realistically do.",
+    "Goals focus on how screens are used (choosing, creating, stopping), not only on using screens less."
+  ],
+  "reflection": [
+    "What is a screen moment in your week that truly earns its place? How do you know? (Student ELE 4.1: I take responsibility for my own learning.)",
+    "When are you most likely to use a screen on autopilot? What could you choose instead?",
+    "How was deciding the menu with your family different from deciding it alone? (Student ELE 3.2: I can communicate my ideas clearly to others.)"
+  ],
+  "transfer": "Children finish the tech menu at home with their family, then bring back the Week Check to a class circle the following week to share one thing that worked and one thing they changed. Families are invited to keep using the menu and update it for the next week.",
+  "connections": [
+    {
+      "title": "AAP Family Media Plan (HealthyChildren.org)",
+      "url": "https://www.healthychildren.org/English/fmp/Pages/MediaPlan.aspx",
+      "note": "Families who want a fuller, doctor-backed plan can build one here after the tech menu."
+    },
+    {
+      "title": "Digital Citizenship Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/digcit/",
+      "note": "More 3–5 practice on balance and purposeful use."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "What Was the Screen For?",
+      "type": "sort",
+      "instructions": "Sort each screen moment by its purpose. Then flip the card: does this one usually earn its place, or is it often autopilot? Some could fit in more than one pile, tell why you chose.",
+      "categories": [
+        "Create",
+        "Connect",
+        "Learn",
+        "Unwind"
+      ],
+      "items": [
+        {
+          "text": "Making a stop-motion video with your toys",
+          "answer": "Create",
+          "why": "Earns its place: you are making something that did not exist before."
+        },
+        {
+          "text": "Video-calling a cousin who lives far away",
+          "answer": "Connect",
+          "why": "Earns its place: a screen helps you be with people you love."
+        },
+        {
+          "text": "Watching whatever plays next because autoplay kept going",
+          "answer": "Unwind",
+          "why": "Autopilot: the screen chose, not you."
+        },
+        {
+          "text": "Following a drawing tutorial, then drawing it yourself",
+          "answer": "Learn",
+          "why": "Earns its place: the screen taught you, then you practiced."
+        },
+        {
+          "text": "Picking one show on purpose to relax after a hard day",
+          "answer": "Unwind",
+          "why": "Earns its place: resting is a real purpose when you choose it."
+        },
+        {
+          "text": "Opening a game out of habit while waiting in line",
+          "answer": "Unwind",
+          "why": "Autopilot: a reflex more than a choice."
+        },
+        {
+          "text": "Looking up how tall a blue whale is for a report",
+          "answer": "Learn",
+          "why": "Earns its place: a screen helps you find out something real."
+        },
+        {
+          "text": "Recording a birthday message for a grandparent",
+          "answer": "Connect",
+          "why": "Earns its place: using a screen to share love across distance."
+        },
+        {
+          "text": "Making a playlist for a family road trip",
+          "answer": "Create",
+          "why": "Earns its place: you are putting something together for others."
+        },
+        {
+          "text": "Scrolling short clips you forget two minutes later",
+          "answer": "Unwind",
+          "why": "Autopilot: easy to start, hard to remember, hard to stop."
+        },
+        {
+          "text": "Texting a friend to plan who brings what to the park",
+          "answer": "Connect",
+          "why": "Earns its place: a screen helps set up real time together."
+        },
+        {
+          "text": "Practicing math facts on a learning app the teacher assigned",
+          "answer": "Learn",
+          "why": "Earns its place: a screen helps you practice and get feedback."
+        },
+        {
+          "text": "Turning on a show for background noise while doing nothing else",
+          "answer": "Unwind",
+          "why": "Autopilot: the screen is on but not really chosen."
+        },
+        {
+          "text": "Taking photos on a nature walk to make a family album",
+          "answer": "Create",
+          "why": "Earns its place: the screen helps you make and keep a memory."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Our Family Tech Menu",
+      "type": "worksheet",
+      "instructions": "Start this at school with one idea in each purpose. Finish it at home: decide the menu together with your family, who can add, change, or trade ideas. Family note: this is not a list of bans. We are practicing choosing screen use on purpose and balancing it with no-screen time. Please build this with your child.",
+      "sections": [
+        {
+          "prompt": "CREATE: one thing we could make with a screen this week (a video, a slideshow, a playlist, a drawing).",
+          "lines": 2
+        },
+        {
+          "prompt": "CONNECT: one way we could use a screen to be with people we love this week.",
+          "lines": 2
+        },
+        {
+          "prompt": "LEARN: one thing we could find out or practice with a screen this week.",
+          "lines": 2
+        },
+        {
+          "prompt": "UNWIND: one show, game, or video we will pick on purpose, and when we will stop.",
+          "lines": 2
+        },
+        {
+          "prompt": "NO-SCREEN: two things our family will do this week with no screens at all.",
+          "lines": 2
+        },
+        {
+          "prompt": "One screen-free time or place we choose together (like dinner or the hour before bed):",
+          "lines": 1
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Week Check",
+      "type": "worksheet",
+      "instructions": "Write your goal now. At the end of the week, come back and notice how it went. This is not for a grade, it is just for noticing.",
+      "sections": [
+        {
+          "prompt": "My screen-use goal for this week (about HOW I use screens, not just using them less):",
+          "lines": 2
+        },
+        {
+          "prompt": "At the end of the week: one time a screen really earned its place.",
+          "lines": 2
+        },
+        {
+          "prompt": "At the end of the week: one time I caught myself on autopilot and what I did.",
+          "lines": 2
+        },
+        {
+          "prompt": "One thing we want to change on next week's menu:",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

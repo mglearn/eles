@@ -1,0 +1,280 @@
+{
+  "id": "create-or-just-scroll",
+  "title": "Create or Just Scroll?",
+  "tagline": "A student and a family member log one real day of screen use and tag each piece as making something or just taking it in, discovering that what you do on a screen often matters more than how many minutes it takes.",
+  "audience": "student",
+  "grades": [
+    "3-5"
+  ],
+  "strands": [
+    "digcit"
+  ],
+  "mode": "hybrid",
+  "minutes": 35,
+  "groupSize": "Modeled in class; a real day tracked at home with a family member; shared back in small groups",
+  "eles": [
+    "S4.2",
+    "S4.1",
+    "S1.1",
+    "S4.3"
+  ],
+  "overview": "When families talk about screen use, they usually count minutes. This activity adds a better question: what were you doing? Students learn to tag screen moments as creating (making a video, a drawing, a story, a message to someone) or consuming (watching, scrolling, listening, playing someone else's game). Both are okay, and consuming is not evil, but researchers increasingly find that the kind of screen use often matters more than the raw amount. Students practice tagging in class, then log a real day at home with a family member, who tracks their own day too. Together they look at the balance of create versus consume, notice when consuming turned into autopilot scrolling, and pick one small way to shift the mix, not to use screens less, but to use more of their screen time making things. The stance stays balanced: this is about noticing and choosing, not guilt about screen time.",
+  "objectives": [
+    "Students will tag screen moments as creating or consuming and explain why.",
+    "Students will track a real day of their own screen use and compare it with a family member's.",
+    "Students will describe their create-to-consume balance and name when consuming became autopilot.",
+    "Students will set one goal to shift their mix toward making, and plan how to check it."
+  ],
+  "materials": {
+    "print": [
+      "Handout A: Create or Consume? sort (1 per pair, cut apart)",
+      "Handout B: Our One-Day Screen Log (2 per student, one for the student and one for a family member)",
+      "Handout C: My Mix and My Move (1 per student)",
+      "Two colors of marker (one for create, one for consume)"
+    ],
+    "digital": [
+      "Optional: a phone or tablet's built-in screen-time list, used privately to jog memory for the log",
+      "Optional: a device for a student who wants to try creating something small (a photo story, a short recording) as their \"move\""
+    ]
+  },
+  "prep": [
+    "Print and cut Handout A for each pair; print two Handout B logs per student and one Handout C each.",
+    "Choose two colors to mean create and consume and post the key.",
+    "Decide the tracking day (a normal day) and when students will share back.",
+    "Read the family note on Handout B and add your name and the return date."
+  ],
+  "steps": [
+    {
+      "phase": "Hook",
+      "minutes": 4,
+      "title": "Same minutes, different day",
+      "body": "Hold up two cards: \"30 minutes making a comic on a tablet\" and \"30 minutes scrolling videos.\" Ask: **\"Same minutes. Are they the same kind of screen time?\"** Let children explain the difference. Introduce the two words for today: **creating** (you made something that wasn't there before) and **consuming** (you took in what someone else made). Both can be fine, today we're going to notice our mix.",
+      "note": "Head off guilt immediately: consuming is not bad. Watching a great show or learning from a video is good screen use. The lesson is about balance, not shame."
+    },
+    {
+      "phase": "Practice",
+      "minutes": 8,
+      "title": "Sort it: create or consume?",
+      "body": "In pairs, children sort Handout A cards into **Create** and **Consume**, coloring each with the two-color key. Some cards are tricky (watching a how-to video, then making the craft is both). For the tricky ones, children decide and tell why. Debrief: **\"Which pile was bigger in the examples? Which kind of screen time do you do more of in real life?\"**",
+      "note": "The tricky \"both\" cards are the richest. A how-to video that leads to making something is consuming in service of creating, let children articulate that."
+    },
+    {
+      "phase": "Model",
+      "minutes": 4,
+      "title": "How to log a day",
+      "body": "Show Handout B and model logging a pretend day: each screen moment gets a quick note, a C for create or a T (take-in) for consume, and a rough number of minutes. Think aloud: \"After school I watched videos for a while, that's take-in. Then I made a card for my friend, that's create.\" Explain that at home, the student logs their day and a family member logs theirs, honestly, no cleanup.",
+      "note": "Model an honest, messy day, not a perfect one. Children copy the example; if yours is all \"create,\" theirs will be fake."
+    },
+    {
+      "phase": "Apply",
+      "minutes": 10,
+      "title": "Track a real day at home",
+      "body": "This happens at home. The student keeps Handout B for one normal day, tagging each screen moment create or consume with rough minutes, and a family member fills in their own log the same way. At the end of the day they sit together, color each entry, and add up roughly how much was create and how much was consume. They circle any stretch where consuming slid into autopilot scrolling (you kept going without really choosing).",
+      "note": "The family member tracking too keeps it fair and turns it into a shared look instead of the child being monitored. Tell families a mostly-consume day is normal and fine to see honestly."
+    },
+    {
+      "phase": "Reflect",
+      "minutes": 6,
+      "title": "My mix, my move",
+      "body": "Students finish Handout C using their real log: they describe their create-to-consume mix, name one autopilot moment, and pick one small \"move\" to shift the mix toward making, for example, \"Make a photo story once this week\" or \"After one show, draw instead of starting another.\" Share a few in small groups. Close: **\"It's not about fewer minutes. It's about making sure some of our screen time is us making things.\"**",
+      "note": "Keep moves tiny and create-focused so children with limited screen access can still succeed; even one small made thing counts."
+    }
+  ],
+  "unplugged": "The lesson runs on paper: the sort cards, two markers, and the one-day logs can all be done from memory at the end of the day, no device required. Creating as the \"move\" can be fully offline too, a hand-drawn comic, a written story, a paper card.",
+  "digital": "A student or family member may glance at a device's built-in screen-time list to make the log more accurate, as a private memory aid. A student who wants a digital \"move\" can make something small, a photo story, a short recording, a simple slideshow, so their screen time produces something they can show.",
+  "whyTech": "The digital option earns its place only in the \"move\": making something digital is itself the create practice the activity values. The tracking and reflecting are better on paper, where the focus stays on the mix rather than on a dashboard.",
+  "adaptations": [
+    {
+      "label": "Grade 3",
+      "text": "Skip exact minutes; children just tally create tokens and consume tokens for the day and compare the two piles."
+    },
+    {
+      "label": "Grade 5",
+      "text": "Add a ratio: children estimate roughly what fraction of their screen time was creating and set a specific create goal for the week."
+    },
+    {
+      "label": "Emergent bilinguals",
+      "text": "Use the two-color key and icons for create and consume, and let children narrate their log in their home language."
+    },
+    {
+      "label": "Limited device access",
+      "text": "Count any making as create, even offline, and let the \"move\" be a non-screen creation. The goal is a making habit, not more device time."
+    }
+  ],
+  "lookFors": [
+    "Children tag screen moments create or consume and can justify the tricky \"both\" ones.",
+    "Logs reflect a real, honest day with rough minutes and a create/consume color for each entry.",
+    "Children describe their own mix and point to at least one autopilot-scrolling stretch.",
+    "The chosen \"move\" would genuinely shift the mix toward making, and the child can say how they'll check it."
+  ],
+  "reflection": [
+    "What is your create-to-consume mix on a normal day? Did it surprise you? (Student ELE 4.3: I am aware of my strengths and areas to improve.)",
+    "When did consuming turn into autopilot, and what could you choose instead? (Student ELE 4.1: I take responsibility for my own learning.)",
+    "What is one thing you'd like to make with some of your screen time this week? (Student ELE 4.2: I set achievable goals and monitor progress.)"
+  ],
+  "transfer": "Students try their \"move\" during the week and bring the finished (or started) creation and their log back to share. The class connects the create/consume idea to the next project, where students make media rather than only consume it.",
+  "connections": [
+    {
+      "title": "Gen AI Literacy Breakouts (K–8)",
+      "url": "https://mglearn.github.io/activities/genailit/",
+      "note": "For students who want to create with approved tools, a teacher-led extension."
+    },
+    {
+      "title": "AAP Family Media Plan (HealthyChildren.org)",
+      "url": "https://www.healthychildren.org/English/fmp/Pages/MediaPlan.aspx",
+      "note": "Families can add a create-time goal to a fuller media plan."
+    }
+  ],
+  "handouts": [
+    {
+      "id": "A",
+      "title": "Create or Consume?",
+      "type": "sort",
+      "instructions": "Sort each card. CREATE means you made something new. CONSUME means you took in what someone else made. Color create one color and consume another. Some are tricky, decide and tell why.",
+      "categories": [
+        "Create",
+        "Consume"
+      ],
+      "items": [
+        {
+          "text": "Making a comic strip on a drawing app",
+          "answer": "Create",
+          "why": "You made something that did not exist before."
+        },
+        {
+          "text": "Scrolling short videos one after another",
+          "answer": "Consume",
+          "why": "Taking in what others made, easy to do on autopilot."
+        },
+        {
+          "text": "Recording a song you wrote",
+          "answer": "Create",
+          "why": "You made the song and the recording."
+        },
+        {
+          "text": "Watching a cartoon",
+          "answer": "Consume",
+          "why": "Taking in a story someone else made. That can be a fine choice."
+        },
+        {
+          "text": "Writing a story in a document",
+          "answer": "Create",
+          "why": "Your words, your story, made by you."
+        },
+        {
+          "text": "Playing a video game someone else designed",
+          "answer": "Consume",
+          "why": "You are inside someone else's creation (unless you are building levels)."
+        },
+        {
+          "text": "Taking photos to make a family album",
+          "answer": "Create",
+          "why": "You are making something to keep and share."
+        },
+        {
+          "text": "Listening to a playlist",
+          "answer": "Consume",
+          "why": "Taking in music others made. Making the playlist, though, is creating!"
+        },
+        {
+          "text": "Making a slideshow about your pet",
+          "answer": "Create",
+          "why": "You put it together, so it is yours."
+        },
+        {
+          "text": "Watching a how-to video, then building the craft yourself",
+          "answer": "Create",
+          "why": "Tricky: you consumed the video to help you create. The making is the point."
+        },
+        {
+          "text": "Reading comments on a video",
+          "answer": "Consume",
+          "why": "Taking in what others wrote."
+        },
+        {
+          "text": "Sending a voice message to tell a cousin a joke",
+          "answer": "Create",
+          "why": "You made the message to connect with someone."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Our One-Day Screen Log",
+      "type": "table",
+      "instructions": "One log for you, one for a family member. For one normal day, write each screen moment. Mark C for Create or T for Take-in (consume), and rough minutes. Be honest, no cleanup! At the end of the day, color each row and add up your mix.",
+      "columns": [
+        "What I did on a screen",
+        "C (create) or T (take-in)",
+        "Rough minutes",
+        "Was it autopilot?"
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "My Mix and My Move",
+      "type": "worksheet",
+      "instructions": "Use your real log to fill this in. Remember: this is not about fewer minutes. It is about noticing your mix and making more of your screen time about making things.",
+      "sections": [
+        {
+          "prompt": "My mix today: roughly how much was CREATE and how much was CONSUME? (You can draw two bars.)",
+          "boxes": true
+        },
+        {
+          "prompt": "One time my consuming turned into autopilot scrolling:",
+          "lines": 2
+        },
+        {
+          "prompt": "How did my family member's mix compare to mine? What did we notice together?",
+          "lines": 2
+        },
+        {
+          "prompt": "My MOVE this week: one thing I'll make with some of my screen time:",
+          "lines": 2
+        },
+        {
+          "prompt": "How I'll know I did it (what I'll have made):",
+          "lines": 1
+        }
+      ]
+    }
+  ]
+}

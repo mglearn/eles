@@ -1829,5 +1829,212 @@
   ],
   "sst": [],
   "note": "Teachers audit AI-generated materials for who is missing or stereotyped, preparing students to question an output's frame of reference and add missing perspectives."
+ },
+ "family-tech-menu": {
+  "teks": [
+   "ta-dc-10",
+   "ta-dc-8"
+  ],
+  "elps": [
+   "c1",
+   "c3"
+  ],
+  "udl": [
+   "7.1",
+   "6.1",
+   "9.2",
+   "9.3"
+  ],
+  "sst": [],
+  "note": "Students classify everyday screen use by purpose and set a balance goal with family, the balance-and-wellbeing substrand of digital citizenship, deciding when a screen earns its place."
+ },
+ "our-home-screen-map": {
+  "teks": [
+   "ta-dc-8",
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c1",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "7.1",
+   "8.3",
+   "9.2",
+   "6.2"
+  ],
+  "sst": [],
+  "note": "Students map home device use and negotiate shared device zones with family, practicing respectful communication and balance rather than imposed rules."
+ },
+ "the-70-minute-mirror": {
+  "teks": [
+   "ss-skills",
+   "ta-dc-10",
+   "elar-inquiry"
+  ],
+  "elps": [
+   "c1",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "3.2",
+   "6.4",
+   "9.3",
+   "7.2"
+  ],
+  "sst": [
+   "ss-sources",
+   "rla-reading"
+  ],
+  "note": "Students track their own device use, read mixed screen-time research, and distinguish correlation from causation before co-writing a family stance, weighing sources and evidence."
+ },
+ "scary-headline-second-look": {
+  "teks": [
+   "ss-skills",
+   "elar-comp",
+   "elar-inquiry"
+  ],
+  "elps": [
+   "c2",
+   "c3",
+   "c4"
+  ],
+  "udl": [
+   "3.2",
+   "3.4",
+   "8.3",
+   "9.3"
+  ],
+  "sst": [
+   "ss-sources",
+   "rla-reading"
+  ],
+  "note": "Students use lateral reading to trace an alarming screen-time headline to its source and judge link versus cause, core media-literacy and source-evaluation work."
+ },
+ "the-dinner-table-deal": {
+  "teks": [
+   "ta-dc-8",
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "7.3",
+   "9.2",
+   "9.4",
+   "8.4"
+  ],
+  "sst": [],
+  "note": "Young children name feelings about screen interruptions and co-make a two-way family listening-time agreement, early respectful-communication and balance work."
+ },
+ "create-or-just-scroll": {
+  "teks": [
+   "ta-dc-10",
+   "ta-ci"
+  ],
+  "elps": [
+   "c1",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "6.1",
+   "6.4",
+   "7.1",
+   "9.3"
+  ],
+  "sst": [
+   "math-reasoning"
+  ],
+  "note": "Students log and tag their screen use as creating versus consuming and set a goal to shift the mix, monitoring their own habits and reasoning from a simple data tally."
+ },
+ "two-screens-two-generations": {
+  "teks": [
+   "ta-dc-8",
+   "ss-skills",
+   "elar-inquiry"
+  ],
+  "elps": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "udl": [
+   "1.3",
+   "3.1",
+   "9.2",
+   "8.4"
+  ],
+  "sst": [
+   "ss-sources",
+   "rla-reading"
+  ],
+  "note": "Students interview an elder about screens past and present and build a comparison timeline, valuing diverse perspectives and weighing which worries hold up."
+ },
+ "the-companion-in-your-pocket": {
+  "teks": [
+   "ta-dc-10",
+   "ta-dc-9",
+   "ss-skills"
+  ],
+  "elps": [
+   "c1",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "9.1",
+   "9.4",
+   "7.4",
+   "6.2"
+  ],
+  "sst": [],
+  "note": "Students analyze how AI companion chatbots are built and set privacy and wellbeing guardrails with family, applying ethical principles and protecting personal information."
+ },
+ "family-media-agreement": {
+  "teks": [
+   "ta-dc-8",
+   "ta-dc-10"
+  ],
+  "elps": [
+   "c1",
+   "c3",
+   "c5"
+  ],
+  "udl": [
+   "7.1",
+   "8.1",
+   "8.3",
+   "6.1"
+  ],
+  "sst": [],
+  "note": "Students facilitate a family meeting to build a whole-household media plan that applies to adults too, practicing leadership, negotiation, and shared goal-setting."
+ },
+ "notifications-on-trial": {
+  "teks": [
+   "ss-skills",
+   "ta-dc-10",
+   "elar-purpose"
+  ],
+  "elps": [
+   "c1",
+   "c4",
+   "c5"
+  ],
+  "udl": [
+   "7.4",
+   "4.1",
+   "6.4",
+   "9.3"
+  ],
+  "sst": [
+   "ss-sources"
+  ],
+  "note": "Students name engagement and persuasion techniques in notifications and feeds, audit their own device with family, and reset defaults, media-literacy analysis of designed environments."
  }
 }
