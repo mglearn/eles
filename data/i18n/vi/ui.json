@@ -165,6 +165,7 @@
  "fw.desc": "Xem toàn bộ 75 chỉ báo Kỳ vọng Học tập Thiết yếu của TCEA và các hoạt động phát triển từng chỉ báo.",
  "fw.h1": "Kỳ vọng Học tập Thiết yếu",
  "fw.lede": "ELE của TCEA mang đến cho giáo viên, học sinh, chuyên viên hỗ trợ giảng dạy, lãnh đạo nhà trường và bất kỳ ai làm việc với AI một ngôn ngữ chung vì việc học tốt hơn. Mỗi vai trò có năm lĩnh vực chính, mỗi lĩnh vực có ba chỉ báo, được viết dưới dạng “Tôi biết”, “Tôi có thể” và “Tôi nhận thức được”. Bên dưới mỗi chỉ báo là các hoạt động trong ngân hàng này giúp phát triển chỉ báo đó.",
+ "fw.complete": "Đọc toàn bộ ELE trong một tài liệu.",
  "fw.roles": "Vai trò",
  "fw.guiding": "Câu hỏi định hướng",
  "fw.example": "Ví dụ từ ELE",

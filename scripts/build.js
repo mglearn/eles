@@ -560,7 +560,7 @@ ${scripts.replace(/\{root\}/g, root)}
 <main id="main" class="fw">
   <div class="fw-head">
     <h1>${esc(t('fw.h1'))}</h1>
-    <p class="lede">${esc(t('fw.lede'))}</p>
+    <p class="lede">${esc(t('fw.lede'))} <a class="fw-complete-link" href="${root}complete.html">${esc(t('fw.complete'))}</a></p>
     ${hasImg('hero-framework') ? `<figure class="guide-photo">${pic('hero-framework', root, { lazy: false })}</figure>` : ''}
     ${INFOGRAPHICS.length ? `<section class="infographics" aria-labelledby="ig-h"><h2 id="ig-h">${esc(t('fw.visual'))}</h2><p class="muted">${esc(t('fw.visualSub'))}</p><div class="ig-strip">${INFOGRAPHICS.map(g => `<a href="${root}assets/img/eles/${g.file}.jpg" lang="en"><img src="${root}assets/img/eles/${g.file}-thumb.jpg" width="640" height="${Math.round(640 * g.h / g.w)}" alt="${esc(g.alt)}" loading="lazy" decoding="async"></a>`).join('')}</div></section>` : ''}
     <nav class="fw-tabs" aria-label="${esc(t('fw.roles'))}">${ELES.roles.map(r => `<a href="#${r.code}">${esc(r.short)}</a>`).join('')}</nav>
